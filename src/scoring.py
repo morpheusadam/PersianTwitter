@@ -37,6 +37,7 @@ import statistics
 from collections import defaultdict
 from datetime import datetime, timezone
 
+from . import cluster
 from .models import Item
 
 log = logging.getLogger(__name__)
@@ -54,6 +55,26 @@ MIN_SNAPSHOT_GAP_HOURS = 0.25
 # اگر آخرین پست از همین منبع بود، امتیازش را ضربدر این کن. کانالی که پنج پست
 # پشت هم از یک منبع می‌گذارد یکنواخت به نظر می‌رسد.
 REPEAT_PENALTY = 0.55
+
+# «چند رسانه‌ی مستقل نوشته‌اند» در برابر «چقدر تعامل گرفته».
+#
+# اولین نسخه log2 بود و خیلی کند رشد می‌کرد: یک منبع ۰.۸ می‌گرفت و سه منبع
+# ۱.۶، یعنی فقط دو برابر، در حالی که یک بحث داغ HN به‌تنهایی heat=3.1 می‌گرفت.
+# نتیجه این بود که خوشه‌های چندمنبعی هیچ‌وقت برنده نمی‌شدند و کل خوشه‌بندی
+# بی‌اثر می‌ماند. نمای ۰.۸ زیرخطی است، پس هنوز بازده نزولی دارد، ولی فاصله‌ی
+# یک‌منبعی تا شش‌منبعی را واقعی می‌کند:
+#
+#   ۱ منبع  → 1.2      ۳ منبع → 2.9      ۶ منبع → 5.0
+# پاداش به ازای هر رسانه‌ی *اضافه*، نه به ازای تعداد کل.
+#
+# نسخه‌های قبلی روی خود `sources` کار می‌کردند و مشکلشان این بود که پایه را هم
+# بالا می‌بردند: وقتی یک‌منبعی ۱.۷۶ می‌گیرد، سه‌منبعی باید خیلی بالاتر برود تا
+# اختلاف سن را جبران کند. اینجا پایه ثابت است و فقط منبع دوم به بعد پاداش
+# می‌گیرند، پس اختلاف واقعی می‌شود:
+#
+#   ۱ منبع → 0.80      ۳ منبع → 3.05      ۶ منبع → 5.90   (با authority=0.8)
+CORROBORATION_BONUS = 1.5
+CORROBORATION_EXPONENT = 0.9
 
 # وزن‌های تعامل. بازنشر و نقل‌قول یعنی کسی محتوا را به مخاطب خودش رسانده،
 # که سیگنال ویروسی‌شدن است؛ لایک فقط مصرف منفعل است.
@@ -73,26 +94,80 @@ def weigh(**signals: int) -> int:
 
 
 def rank(items: list[Item], state=None, now: datetime | None = None) -> list[Item]:
-    """به هر آیتم امتیاز می‌دهد و از پرامتیاز به کم‌امتیاز مرتب برمی‌گرداند."""
+    """هر ماجرا را امتیاز می‌دهد و نماینده‌هایش را مرتب برمی‌گرداند.
+
+    ورودی، خبرهای خام است. خروجی، یک آیتم به ازای هر ماجرا — چون وقتی هفت سایت
+    یک خبر را نوشته‌اند، آن هفت‌تا یک چیزند و باید یک بار پست شوند، نه هفت بار.
+    """
     now = now or datetime.now(timezone.utc)
 
     speeds = {item.uid: _velocity(item, state, now) for item in items if item.ranked}
     baselines = _baselines(items, speeds)
     recent = list(getattr(state, "recent_labels", []) or [])
 
-    for item in items:
-        if item.ranked:
-            _score_viral(item, speeds[item.uid], baselines.get(item.label, 0.0), now)
-        else:
-            _score_editorial(item, now)
-        _apply_diversity(item, recent)
+    leads: list[Item] = []
+    for story in cluster.build(items):
+        lead = story.lead()
+        _score(lead, story, speeds.get(lead.uid), baselines.get(lead.label, 0.0), now)
+        _apply_diversity(lead, recent)
+        leads.append(lead)
 
     if state is not None:
         for item in items:
             if item.ranked:
                 state.record(item.uid, item.engagement, now)
 
-    return sorted(items, key=lambda i: i.score, reverse=True)
+    return sorted(leads, key=lambda i: i.score, reverse=True)
+
+
+def _score(lead: Item, story, velocity, baseline: float, now: datetime) -> None:
+    """امتیاز یک ماجرا از سه سیگنال مستقل ساخته می‌شود.
+
+    corroboration — چند رسانه‌ی مستقل نوشته‌اند، وزن‌دار با اعتبارشان. این همان
+                    چیزی است که «مهم» را از «فقط منتشر شده» جدا می‌کند.
+    heat          — تعامل واقعی، آنجا که عددی در کار است (HN، Lobsters، Bluesky).
+    pickup        — سرعت پخش: چند رسانه در چند ساعت. این «جنجالی» را می‌سنجد،
+                    چون خبری که در دو ساعت به پنج سایت رسیده با خبری که در دو
+                    روز به پنج سایت رسیده یکی نیست.
+
+    و در آخر همان زوال زمانی Hacker News، تا هیچ ماجرایی برای همیشه بالا نماند.
+    """
+    # دو زمان متفاوت، و همین تفاوت کل مسئله را حل می‌کند.
+    #
+    # پوشش چندرسانه‌ای ذاتاً چند ساعت طول می‌کشد. اگر زوال را از لحظه‌ی شکستن
+    # ماجرا حساب کنیم، تا وقتی سومین رسانه بنویسد (age+2)^1.8 امتیاز را صدها
+    # برابر کوچک کرده و خوشه‌ی چندمنبعی هیچ‌وقت برنده نمی‌شود — دقیقاً همان
+    # چیزی که در تست دیده شد: corrob بالا ولی رتبه‌ی ۲۰۰.
+    #
+    # پس زوال از آخرین پوشش حساب می‌شود: ماجرایی که رسانه‌ها هنوز دارند رویش
+    # می‌نویسند زنده است. و span، یعنی فاصله‌ی اولین تا آخرین پوشش، سرعت پخش
+    # را می‌دهد؛ پنج رسانه در دو ساعت جنجالی است، پنج رسانه در دو روز نه.
+    age = max((now - story.latest()).total_seconds() / 3600, 0.05)
+    span = max((story.latest() - story.broke()).total_seconds() / 3600, 0.0)
+    sources = story.sources
+
+    extra = max(sources - 1, 0) ** CORROBORATION_EXPONENT
+    corroboration = story.authority * (1 + CORROBORATION_BONUS * extra)
+
+    heat = 0.0
+    if lead.ranked or story.engagement:
+        speed = velocity if velocity is not None else 0.0
+        ratio = speed / baseline if baseline > 0 else 0.0
+        heat = math.log10(1 + story.engagement) * (1 + math.log10(1 + ratio))
+
+    pickup = sources / (span + 1)
+
+    lead.score = (corroboration + heat) * (1 + math.log10(1 + pickup)) / (age + 2) ** GRAVITY
+    lead.breakdown.update(
+        {
+            "sources": sources,
+            "age_h": round(age, 1),
+            "span_h": round(span, 1),
+            "corrob": round(corroboration, 2),
+            "heat": round(heat, 2),
+            "pickup": round(pickup, 2),
+        }
+    )
 
 
 def _baselines(items: list[Item], speeds: dict[str, float]) -> dict[str, float]:
@@ -126,39 +201,6 @@ def _velocity(item: Item, state, now: datetime) -> float:
             return max(growth, 0) / gap
 
     return item.engagement / (item.age_hours(now) + VELOCITY_OFFSET_HOURS)
-
-
-def _score_viral(item: Item, velocity: float, baseline: float, now: datetime) -> None:
-    age = item.age_hours(now)
-    quality = math.log10(1 + item.engagement)
-
-    # baseline صفر یعنی کل منبع در این اجرا ساکت بوده؛ آن‌وقت نسبت بی‌معناست
-    # و فقط روی کیفیت خام تکیه می‌کنیم.
-    ratio = velocity / baseline if baseline > 0 else 0.0
-    boost = 1 + math.log10(1 + ratio)
-
-    item.score = quality * boost / (age + 2) ** GRAVITY
-    item.breakdown.update(
-        {
-            "engagement": item.engagement,
-            "age_h": round(age, 1),
-            "velocity": round(velocity, 1),
-            "baseline": round(baseline, 1),
-            "boost": round(boost, 2),
-        }
-    )
-
-
-def _score_editorial(item: Item, now: datetime) -> None:
-    """فیدهای خبری عدد تعاملی ندارند، پس فقط تازگی و اعتبار منبع می‌ماند.
-
-    عمداً روی همان مقیاس viral نرمال نمی‌شود — این دو در استخرهای جدا رقابت
-    می‌کنند. ساختن یک عدد engagement قلابی برای این‌ها رتبه‌بندی را دروغین
-    می‌کرد.
-    """
-    age = item.age_hours(now)
-    item.score = item.authority / (age + 2) ** GRAVITY
-    item.breakdown.update({"authority": item.authority, "age_h": round(age, 1)})
 
 
 def _apply_diversity(item: Item, recent: list[str]) -> None:

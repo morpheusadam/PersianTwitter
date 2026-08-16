@@ -253,6 +253,41 @@ sources:
     authority: 0.8
     max_age_hours: 120
 
+  # ─────────────────────────────────────────────────────── رسانه‌های روسی
+  #
+  # خبر روسی و انگلیسیِ یک ماجرا در یک خوشه می‌افتند، چون امضای خوشه از
+  # توکن‌های لاتین ساخته می‌شود و اسم شرکت و محصول در روسی هم لاتین می‌ماند.
+
+  - type: rss
+    url: https://habr.com/ru/rss/articles/?fl=ru
+    label: Habr
+    authority: 0.8
+
+  - type: rss
+    url: https://3dnews.ru/news/rss/
+    label: 3DNews
+    authority: 0.7
+
+  - type: rss
+    url: https://www.ixbt.com/export/news.rss
+    label: iXBT
+    authority: 0.7
+
+  - type: rss
+    url: https://hi-tech.mail.ru/rss/all/
+    label: Hi-Tech Mail
+    authority: 0.6
+
+  - type: rss
+    url: https://vc.ru/rss
+    label: vc.ru
+    authority: 0.65
+
+  - type: rss
+    url: https://www.cnews.ru/inc/rss/news.xml
+    label: CNews
+    authority: 0.65
+
   # ───────────────────────────────────────────────────── تکنولوژی عمومی
 
   - type: rss
@@ -264,6 +299,94 @@ sources:
     url: https://www.technologyreview.com/feed/
     label: MIT Tech Review
     authority: 0.8
+
+  - type: rss
+    url: https://www.theverge.com/rss/index.xml
+    label: The Verge
+    authority: 0.85
+
+  - type: rss
+    url: https://www.wired.com/feed/rss
+    label: Wired
+    authority: 0.85
+
+  - type: rss
+    url: https://www.engadget.com/rss.xml
+    label: Engadget
+    authority: 0.7
+
+  - type: rss
+    url: https://www.theregister.com/headlines.atom
+    label: The Register
+    authority: 0.8
+
+  - type: rss
+    url: https://www.zdnet.com/news/rss.xml
+    label: ZDNet
+    authority: 0.7
+
+  - type: rss
+    url: https://www.techradar.com/rss
+    label: TechRadar
+    authority: 0.6
+
+  - type: rss
+    url: https://www.tomshardware.com/feeds/all
+    label: Tom's Hardware
+    authority: 0.75
+
+  - type: rss
+    url: https://www.phoronix.com/rss.php
+    label: Phoronix
+    authority: 0.75
+
+  - type: rss
+    url: https://rss.slashdot.org/Slashdot/slashdotMain
+    label: Slashdot
+    authority: 0.7
+
+  - type: rss
+    url: https://www.techspot.com/backend.xml
+    label: TechSpot
+    authority: 0.65
+
+  - type: rss
+    url: https://www.neowin.net/news/rss/
+    label: Neowin
+    authority: 0.6
+
+  - type: rss
+    url: https://9to5mac.com/feed/
+    label: 9to5Mac
+    authority: 0.65
+
+  - type: rss
+    url: https://www.androidpolice.com/feed/
+    label: Android Police
+    authority: 0.6
+
+  - type: rss
+    url: https://www.securityweek.com/feed/
+    label: SecurityWeek
+    authority: 0.8
+    max_age_hours: 96
+
+  - type: rss
+    url: https://feed.infoq.com/
+    label: InfoQ
+    authority: 0.75
+    max_age_hours: 96
+
+  - type: rss
+    url: https://thenextweb.com/feed
+    label: The Next Web
+    authority: 0.6
+
+  - type: rss
+    url: https://restofworld.org/feed/latest/
+    label: Rest of World
+    authority: 0.8
+    max_age_hours: 168
 
   # نمونه‌ی توییتر از طریق xcancel. instance ها هر چند ماه می‌میرند؛ اگر از کار
   # افتاد فقط همین خط را عوض کنید — بقیه‌ی اجرا متوقف نمی‌شود.

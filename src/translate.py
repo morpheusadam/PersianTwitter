@@ -16,7 +16,8 @@ ATTEMPTS = 3
 ENDPOINT = "https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent"
 
 PROMPT = """\
-متن زیر یک خبر یا مقاله‌ی تکنولوژی به زبان انگلیسی است.
+متن زیر یک خبر یا مقاله‌ی تکنولوژی است. زبانش هرچه باشد — انگلیسی، روسی یا
+هر زبان دیگر — خروجی تو فارسی است.
 
 خروجی دقیقاً این ساختار را دارد:
 
