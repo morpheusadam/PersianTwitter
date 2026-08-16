@@ -84,18 +84,19 @@
   "https://www.bleepingcomputer.com/news/security/hackers-exploit-macos-screen-sharing-flaw-to-deploy-monero-miner/",
   "hn:49319727",
   "hn:49319814",
-  "https://www.darkreading.com/cybersecurity-operations/mission-driven-security-inside-global-bank-defense"
+  "https://www.darkreading.com/cybersecurity-operations/mission-driven-security-inside-global-bank-defense",
+  "hn:49322695"
  ],
  "posted": {
-  "viral": 6,
+  "viral": 7,
   "editorial": 7
  },
  "recent_labels": [
-  "The Record",
   "404 Media",
   "BleepingComputer",
   "Hacker News",
-  "Dark Reading"
+  "Dark Reading",
+  "Hacker News"
  ],
  "last_digest": "",
  "history": [
@@ -140,6 +141,13 @@
    "source": "Dark Reading",
    "score": 0.00065,
    "at": "2026-08-16T19:48:25.756681+00:00"
+  },
+  {
+   "title": "تغییر استراتژی مدل‌های هوش مصنوعی از ذخیره‌ی دانش به تقویت استدلال",
+   "url": "https://w4g1.dev/blog/models-are-getting-dumber-on-purpose",
+   "source": "w4g1.dev",
+   "score": 0.33292,
+   "at": "2026-08-16T20:46:27.634775+00:00"
   }
  ],
  "snapshots": {
@@ -160,12 +168,12 @@
    "2026-08-16T19:34:50.162220+00:00"
   ],
   "hn:49319349": [
-   77,
-   "2026-08-16T19:48:14.122916+00:00"
+   86,
+   "2026-08-16T20:46:20.457588+00:00"
   ],
   "hn:49318906": [
-   294,
-   "2026-08-16T19:48:14.122916+00:00"
+   297,
+   "2026-08-16T20:46:20.457588+00:00"
   ],
   "hn:49317760": [
    628,
@@ -176,8 +184,8 @@
    "2026-08-16T18:50:34.583307+00:00"
   ],
   "lobsters:hnx6id": [
-   33,
-   "2026-08-16T19:48:14.122916+00:00"
+   35,
+   "2026-08-16T20:46:20.457588+00:00"
   ],
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mt7ocruk772i": [
    216,
@@ -189,19 +197,35 @@
   ],
   "at://did:plc:ipt7y6qaf6fn7oeeduboqe44/app.bsky.feed.post/3mt6sss6n322t": [
    48,
-   "2026-08-16T19:34:50.162220+00:00"
+   "2026-08-16T20:46:20.457588+00:00"
   ],
   "at://did:plc:x2nsupeeo52oznrmplwapppl/app.bsky.feed.post/3mt7c4it7tv2v": [
-   35,
-   "2026-08-16T19:34:50.162220+00:00"
+   42,
+   "2026-08-16T20:46:20.457588+00:00"
   ],
   "hn:49322107": [
-   98,
-   "2026-08-16T19:48:14.122916+00:00"
+   185,
+   "2026-08-16T20:46:20.457588+00:00"
   ],
   "hn:49320673": [
-   141,
-   "2026-08-16T19:48:14.122916+00:00"
+   162,
+   "2026-08-16T20:46:20.457588+00:00"
+  ],
+  "hn:49322695": [
+   264,
+   "2026-08-16T20:46:20.457588+00:00"
+  ],
+  "lobsters:zeqgd4": [
+   26,
+   "2026-08-16T20:46:20.457588+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mt7yggrrll25": [
+   210,
+   "2026-08-16T20:46:20.457588+00:00"
+  ],
+  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mt7xxpajaf2l": [
+   98,
+   "2026-08-16T20:46:20.457588+00:00"
   ]
  }
 }
