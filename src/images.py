@@ -14,9 +14,11 @@ sendPhoto رد کند و پست بدون عکس برود.
 import html as html_lib
 import logging
 import re
+from io import BytesIO
 from urllib.parse import urljoin, urlparse
 
 import httpx
+from PIL import Image
 
 from .models import Item
 
@@ -36,6 +38,13 @@ BROWSER = {
 # سقف sendPhoto وقتی فایل را خودمان می‌فرستیم ۱۰ مگابایت است؛ با حاشیه.
 MAX_BYTES = 5_000_000
 HTML_LIMIT = 400_000
+
+# کوچک‌تر از این در تلگرام یک مربع ریز می‌شود. آیکون ۵۶ پیکسلی سایت‌ها دقیقاً
+# همین‌جا رد می‌شود و پست به عکس پیش‌فرض می‌افتد، که تمیزتر از لوگوی کش‌آمده است.
+MIN_SIDE = 400
+
+# وقتی چیزی در این حد پیدا شد دیگر دنبال بهتر نگرد؛ بقیه فقط درخواست اضافه‌اند.
+GOOD_ENOUGH = 900
 
 _META = re.compile(
     r"<meta[^>]+(?:property|name)=[\"'](og:image(?::url)?|twitter:image(?::src)?)[\"'][^>]*>",
@@ -58,7 +67,7 @@ _BAD_EXT = (".svg", ".gif", ".ico", ".webp?")
 
 def resolve(item: Item, client: httpx.Client, enabled: bool = True) -> None:
     """image_url آیتم را روی یک تصویر معتبر تنظیم می‌کند، یا None می‌گذارد."""
-    if item.image_url and _usable(item.image_url, client):
+    if item.image_url and _measure(item.image_url, client):
         return
     item.image_url = None
 
@@ -67,10 +76,10 @@ def resolve(item: Item, client: httpx.Client, enabled: bool = True) -> None:
 
     html = _fetch(item.url, client)
     if html:
-        for candidate in _candidates(html, item.url):
-            if _usable(candidate, client):
-                item.image_url = candidate
-                return
+        best = _pick(_candidates(html, item.url), client)
+        if best:
+            item.image_url = best
+            return
 
     # مقاله هیچ عکسی نداشت: تصویر شاخص خودِ وب‌سایت را بردار.
     site = _site_image(item.url, client)
@@ -95,12 +104,8 @@ def _site_image(url: str, client: httpx.Client) -> str | None:
 
     html = _fetch(root, client)
     if html:
-        for candidate in _candidates(html, root, icons_ok=True):
-            if _usable(candidate, client):
-                return candidate
-
-    fallback = f"https://www.google.com/s2/favicons?domain={parts.netloc}&sz=256"
-    return fallback if _usable(fallback, client) else None
+        return _pick(_candidates(html, root, icons_ok=True), client)
+    return None
 
 
 def _fetch(url: str, client: httpx.Client) -> str | None:
@@ -138,8 +143,9 @@ def _candidates(html: str, base: str, icons_ok: bool = False) -> list[str]:
         src = _SRC.search(tag.group(0))
         if not src:
             continue
-        # srcset چند اندازه با ویرگول می‌دهد؛ اولی کافی است.
-        found.append(src.group(1).split(",")[0].strip().split(" ")[0])
+        # srcset چند اندازه با ویرگول می‌دهد و از کوچک به بزرگ مرتب است؛
+        # آخری بزرگ‌ترین است. قبلاً اولی برداشته می‌شد یعنی همیشه کوچک‌ترین.
+        found.append(src.group(1).split(",")[-1].strip().split(" ")[0])
 
     seen: set[str] = set()
     out: list[str] = []
@@ -161,21 +167,42 @@ def _candidates(html: str, base: str, icons_ok: bool = False) -> list[str]:
     return out[:8]
 
 
-def _usable(url: str, client: httpx.Client) -> bool:
-    """تصویر واقعاً وجود دارد، تصویر است، و برای تلگرام زیادی بزرگ نیست."""
+def _pick(candidates: list[str], client: httpx.Client) -> str | None:
+    """بزرگ‌ترین تصویر قابل قبول. اولین گزینه لزوماً بهترین نیست."""
+    best, best_area = None, 0
+    for url in candidates:
+        size = _measure(url, client)
+        if size is None:
+            continue
+        width, height = size
+        if min(width, height) < MIN_SIDE:
+            continue
+        area = width * height
+        if area > best_area:
+            best, best_area = url, area
+        if min(width, height) >= GOOD_ENOUGH:
+            break
+    return best
+
+
+def _measure(url: str, client: httpx.Client) -> tuple[int, int] | None:
+    """ابعاد واقعی تصویر، یا None اگر قابل استفاده نبود.
+
+    content-type به‌تنهایی کافی نیست: خیلی از سایت‌ها یک آیکون ۵۶ پیکسلی را هم
+    image/png اعلام می‌کنند و آن در کانال افتضاح دیده می‌شود.
+    """
     try:
-        resp = client.head(url, headers=BROWSER, timeout=12, follow_redirects=True)
+        resp = client.get(url, headers=BROWSER, timeout=15, follow_redirects=True)
         if resp.status_code >= 400:
-            # خیلی از CDN ها HEAD را رد می‌کنند ولی GET را می‌دهند.
-            resp = client.get(url, headers=BROWSER, timeout=12, follow_redirects=True)
-        if resp.status_code >= 400:
-            return False
+            return None
 
         kind = resp.headers.get("content-type", "")
         if not kind.startswith("image/") or kind.startswith("image/svg"):
-            return False
+            return None
+        if len(resp.content) > MAX_BYTES:
+            return None
 
-        length = resp.headers.get("content-length")
-        return not (length and int(length) > MAX_BYTES)
+        with Image.open(BytesIO(resp.content)) as image:
+            return image.size
     except Exception:
-        return False
+        return None

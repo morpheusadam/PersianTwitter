@@ -160,7 +160,7 @@ def _upload(
             "parse_mode": "HTML",
             "reply_markup": json.dumps(keyboard),
         },
-        files={"photo": (name, blob, "image/jpeg")},
+        files={"photo": (name, blob, None)},
         timeout=90,
     )
     if resp.status_code != 200:

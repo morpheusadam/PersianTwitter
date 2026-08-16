@@ -16,7 +16,7 @@ from .models import Item
 from .state import State
 
 ROOT = Path(__file__).resolve().parent.parent
-FALLBACK_IMAGE = ROOT / "assets" / "fallback.jpg"
+FALLBACK_IMAGE = ROOT / "assets" / "fallback.png"
 
 log = logging.getLogger("bot")
 
@@ -250,7 +250,7 @@ def publish(
 
         if args.dry_run:
             print("\n" + "─" * 60)
-            print(f"[عکس] {item.image_url or 'assets/fallback.jpg (پیش‌فرض)'}")
+            print(f"[عکس] {item.image_url or 'assets/fallback.png (پیش‌فرض)'}")
             print(telegram.build_message(item.label, persian, telegram.MAX_CAPTION))
             buttons = telegram.build_keyboard(item, "comment-thread")["inline_keyboard"]
             print("[دکمه‌ها] " + " | ".join(b["text"] for row in buttons for b in row))
