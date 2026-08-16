@@ -211,6 +211,48 @@ sources:
     label: Hugging Face
     authority: 0.7
 
+  # ──────────────────────────────────────── اینترنت، فیلترینگ و حقوق دیجیتال
+  #
+  # این‌ها هر چند روز یک بار منتشر می‌کنند، پس max_age_hours اختصاصی دارند.
+  # با پنجره‌ی ۷۲ ساعته‌ی عمومی تقریباً هیچ‌وقت نوبت نمی‌گرفتند، در حالی که
+  # گزارش قطعی اینترنت یا تغییر سیاست فیلترینگ یک هفته بعد هم تازه است.
+
+  - type: rss
+    url: https://www.accessnow.org/feed/
+    label: Access Now
+    authority: 0.9
+    max_age_hours: 168
+
+  - type: rss
+    url: https://www.eff.org/rss/updates.xml
+    label: EFF
+    authority: 0.85
+    max_age_hours: 120
+
+  - type: rss
+    url: https://www.article19.org/feed/
+    label: Article 19
+    authority: 0.8
+    max_age_hours: 168
+
+  - type: rss
+    url: https://ooni.org/blog/index.xml
+    label: OONI
+    authority: 0.85
+    max_age_hours: 336
+
+  - type: rss
+    url: https://globalvoices.org/-/world/middle-east-north-africa/iran/feed/
+    label: Global Voices Iran
+    authority: 0.75
+    max_age_hours: 336
+
+  - type: rss
+    url: https://blog.cloudflare.com/rss/
+    label: Cloudflare
+    authority: 0.8
+    max_age_hours: 120
+
   # ───────────────────────────────────────────────────── تکنولوژی عمومی
 
   - type: rss

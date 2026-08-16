@@ -29,6 +29,10 @@ class Item:
     # اعتبار منبع، فقط برای استخر editorial. از config می‌آید.
     authority: float = 0.5
 
+    # پنجره‌ی سنی اختصاصی. منابع حقوق دیجیتال هر چند روز یک بار می‌نویسند و با
+    # سقف عمومی هیچ‌وقت نوبت نمی‌گیرند، ولی خبرشان هفته‌ی بعد هم تازه است.
+    max_age_hours: float | None = None
+
     image_url: str | None = None
     # صفحه‌ی بحث، جدا از خود مقاله. HN و Lobsters هر دو را دارند.
     discussion_url: str | None = None

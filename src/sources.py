@@ -234,6 +234,7 @@ def _fetch_rss(source: dict, client: httpx.Client) -> list[Item]:
     url = source["url"]
     label = source.get("label", url)
     authority = source.get("authority", 0.5)
+    max_age = source.get("max_age_hours")
 
     resp = client.get(url, headers=UA)
     resp.raise_for_status()
@@ -272,6 +273,7 @@ def _fetch_rss(source: dict, client: httpx.Client) -> list[Item]:
                 url=link,
                 published=published,
                 authority=authority,
+                max_age_hours=max_age,
                 image_url=_rss_image(entry),
             )
         )

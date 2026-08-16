@@ -136,11 +136,16 @@ def select(items: list[Item], state: State, settings: dict, explain: bool = Fals
     min_text = settings.get("min_text_length", 80)
     min_ranked_text = settings.get("min_ranked_text_length", 30)
 
+    def within_window(item: Item) -> bool:
+        if item.max_age_hours:
+            return item.published >= now - timedelta(hours=item.max_age_hours)
+        return item.published >= (viral_cutoff if item.ranked else editorial_cutoff)
+
     fresh = [
         item
         for item in items
         if not state.has(item.uid)
-        and item.published >= (viral_cutoff if item.ranked else editorial_cutoff)
+        and within_window(item)
         and len(item.text) >= (min_ranked_text if item.ranked else min_text)
     ]
 

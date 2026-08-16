@@ -30,6 +30,7 @@ AI · SECURITY · PROGRAMMING · NETWORK · TECH
 LINUX WINDOWS ANDROID APPLE GOOGLE MICROSOFT OPENSOURCE PYTHON JAVASCRIPT
 RUST MALWARE RANSOMWARE BREACH VULNERABILITY PHISHING CRYPTO CLOUD DATABASE
 MOBILE HARDWARE CHIP STARTUP PRIVACY LLM CHATBOT BROWSER GAMEDEV DEVOPS
+CENSORSHIP SHUTDOWN IRAN VPN SURVEILLANCE
 
 نمونه‌ی خط اول:  SECURITY RANSOMWARE WINDOWS
 
@@ -49,8 +50,13 @@ MOBILE HARDWARE CHIP STARTUP PRIVACY LLM CHATBOT BROWSER GAMEDEV DEVOPS
 - فقط از چیزی که در متن هست بنویس. هیچ عدد، نام یا ادعایی از خودت اضافه نکن.
 - اگر متن آن‌قدر محتوا نداشت، کوتاه‌تر بنویس. کش دادن ممنوع.
 
-این کانال فقط پنج موضوع دارد:
+این کانال این موضوعات را دارد:
 تکنولوژی · برنامه‌نویسی · هوش مصنوعی · هک و امنیت سایبری · شبکه و اینترنت
+سانسور و فیلترینگ اینترنت · قطعی اینترنت · حقوق دیجیتال و حریم خصوصی
+
+سیاستِ اینترنت جزو موضوعات ماست، نه سیاست عمومی. خبر فیلترینگ، قطعی اینترنت،
+مسدودسازی سرویس، قانون‌گذاری روی داده و حریم خصوصی، و گزارش سازمان‌های حقوق
+دیجیتال را نگه دار — مخصوصاً وقتی به ایران مربوط است.
 
 اگر موضوع *اصلی* متن یکی از این پنج نیست، فقط بنویس SKIP و هیچ چیز دیگر.
 «موضوع اصلی» یعنی خبر درباره‌ی خودِ آن است، نه اینکه گذری به یک دستگاه یا
@@ -59,7 +65,7 @@ MOBILE HARDWARE CHIP STARTUP PRIVACY LLM CHATBOT BROWSER GAMEDEV DEVOPS
 اینها SKIP می‌شوند حتی اگر جالب باشند:
 - حادثه‌ی صنعتی، نیروگاه، انرژی، خودرو، هوافضا، بدون جنبه‌ی نرم‌افزاری یا امنیتی
 - پزشکی، زیست‌شناسی، اقلیم، فضا، فیزیک، ریاضیات محض
-- سیاست، اقتصاد کلان، جنگ، جرم و جنایت عادی
+- سیاست عمومی، اقتصاد کلان، جنگ، جرم و جنایت عادی (ولی سیاستِ اینترنت نه)
 - سرگرمی، فیلم، موسیقی، ورزش، بازی بدون بحث فنی
 - تاریخ، فلسفه، هنر، یادداشت شخصی
 - تبلیغ، کد تخفیف، معرفی محصول برای فروش، درخواست دنبال‌کردن
@@ -179,6 +185,11 @@ EXTRA = {
     "BROWSER": "#مرورگر",
     "GAMEDEV": "#بازی_سازی",
     "DEVOPS": "#DevOps",
+    "CENSORSHIP": "#فیلترینگ",
+    "SHUTDOWN": "#قطعی_اینترنت",
+    "IRAN": "#اینترنت_ایران",
+    "VPN": "#VPN",
+    "SURVEILLANCE": "#نظارت",
 }
 
 # بیشتر از این، پست اسپم به نظر می‌رسد و forward نمی‌شود.
