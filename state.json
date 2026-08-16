@@ -80,16 +80,18 @@
   "https://therecord.media/investigation-into-banking-hack-leads-to-arrests-germany-brazil",
   "hn:49321353",
   "hn:49321717",
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mt7ocruk772i"
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mt7ocruk772i",
+  "https://www.bleepingcomputer.com/news/security/hackers-exploit-macos-screen-sharing-flaw-to-deploy-monero-miner/"
  ],
  "posted": {
   "viral": 5,
-  "editorial": 5
+  "editorial": 6
  },
  "recent_labels": [
   "404 Media",
   "The Record",
-  "404 Media"
+  "404 Media",
+  "BleepingComputer"
  ],
  "last_digest": "",
  "history": [
@@ -113,6 +115,13 @@
    "source": "404media.co",
    "score": 0.1235,
    "at": "2026-08-16T19:21:47.151595+00:00"
+  },
+  {
+   "title": "سوءاستفاده از آسیب‌پذیری Screen Sharing در سیستم‌عامل macOS",
+   "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-macos-screen-sharing-flaw-to-deploy-monero-miner/",
+   "source": "BleepingComputer",
+   "score": 0.00068,
+   "at": "2026-08-16T19:25:35.337819+00:00"
   }
  ],
  "snapshots": {
@@ -125,24 +134,24 @@
    "2026-08-16T19:21:09.721835+00:00"
   ],
   "hn:49319814": [
-   129,
-   "2026-08-16T19:21:09.721835+00:00"
+   133,
+   "2026-08-16T19:25:14.918901+00:00"
   ],
   "hn:49319727": [
-   223,
-   "2026-08-16T19:21:09.721835+00:00"
+   227,
+   "2026-08-16T19:25:14.918901+00:00"
   ],
   "hn:49319349": [
-   73,
-   "2026-08-16T19:21:09.721835+00:00"
+   75,
+   "2026-08-16T19:25:14.918901+00:00"
   ],
   "hn:49318906": [
-   290,
-   "2026-08-16T19:21:09.721835+00:00"
+   294,
+   "2026-08-16T19:25:14.918901+00:00"
   ],
   "hn:49317760": [
    624,
-   "2026-08-16T19:21:09.721835+00:00"
+   "2026-08-16T19:25:14.918901+00:00"
   ],
   "hn:49317546": [
    193,
@@ -150,7 +159,7 @@
   ],
   "lobsters:hnx6id": [
    29,
-   "2026-08-16T19:21:09.721835+00:00"
+   "2026-08-16T19:25:14.918901+00:00"
   ],
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mt7ocruk772i": [
    216,
@@ -162,11 +171,15 @@
   ],
   "at://did:plc:ipt7y6qaf6fn7oeeduboqe44/app.bsky.feed.post/3mt6sss6n322t": [
    48,
-   "2026-08-16T19:04:31.264535+00:00"
+   "2026-08-16T19:25:14.918901+00:00"
   ],
   "at://did:plc:x2nsupeeo52oznrmplwapppl/app.bsky.feed.post/3mt7c4it7tv2v": [
    35,
-   "2026-08-16T19:21:09.721835+00:00"
+   "2026-08-16T19:25:14.918901+00:00"
+  ],
+  "hn:49322107": [
+   61,
+   "2026-08-16T19:25:14.918901+00:00"
   ]
  }
 }
