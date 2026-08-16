@@ -2,12 +2,16 @@
 
 import html
 import logging
+from urllib.parse import quote
 
 import httpx
+
+from .models import Item
 
 log = logging.getLogger(__name__)
 
 API = "https://api.telegram.org/bot{token}/{method}"
+SHARE = "https://t.me/share/url?url={url}&text={text}"
 
 # سقف تلگرام برای پیام متنی ۴۰۹۶ است و برای caption عکس فقط ۱۰۲۴.
 MAX_TEXT = 3500
@@ -18,22 +22,29 @@ class TelegramError(RuntimeError):
     pass
 
 
-def build_message(label: str, body: str, url: str, limit: int) -> str:
+def build_message(label: str, body: str, limit: int) -> str:
     if len(body) > limit:
         body = body[:limit].rsplit(" ", 1)[0] + "…"
+    return f"<b>{html.escape(label)}</b>\n\n{html.escape(body)}"
 
-    return (
-        f"<b>{html.escape(label)}</b>\n\n"
-        f"{html.escape(body)}\n\n"
-        f'<a href="{html.escape(url, quote=True)}">🔗 منبع</a>'
-    )
+
+def build_keyboard(item: Item) -> dict:
+    """دکمه‌های زیر پست.
+
+    همه از نوع url هستند، نه callback. یعنی هیچ backend زنده‌ای نمی‌خواهند و
+    روی همین معماری‌ی cron کار می‌کنند. دکمه‌ی callback به handler نیاز داشت.
+    """
+    row = [{"text": "📄 منبع", "url": item.url}]
+    if item.discussion_url and item.discussion_url != item.url:
+        row.append({"text": "💬 بحث", "url": item.discussion_url})
+
+    share = SHARE.format(url=quote(item.url, safe=""), text=quote(item.label, safe=""))
+    return {"inline_keyboard": [row, [{"text": "↗️ اشتراک‌گذاری", "url": share}]]}
 
 
 def publish(
-    label: str,
+    item: Item,
     body: str,
-    url: str,
-    image_url: str | None,
     token: str,
     channel: str,
     client: httpx.Client,
@@ -41,19 +52,21 @@ def publish(
     """اگر عکس باشد با عکس می‌فرستد، وگرنه متنی.
 
     تلگرام خودش عکس را از URL برمی‌دارد، پس فایلی دانلود نمی‌کنیم. ولی گاهی به
-    عکس نمی‌رسد یا فرمتش را نمی‌پذیرد — در آن حالت به پیام متنی برمی‌گردیم تا
-    خبر به‌خاطر یک عکس از دست نرود.
+    عکس نمی‌رسد یا فرمتش را نمی‌پذیرد؛ در آن حالت به پیام متنی برمی‌گردیم تا خبر
+    به‌خاطر یک عکس از دست نرود.
     """
-    if image_url:
-        caption = build_message(label, body, url, MAX_CAPTION)
+    keyboard = build_keyboard(item)
+
+    if item.image_url:
         try:
             _call(
                 "sendPhoto",
                 {
                     "chat_id": channel,
-                    "photo": image_url,
-                    "caption": caption,
+                    "photo": item.image_url,
+                    "caption": build_message(item.label, body, MAX_CAPTION),
                     "parse_mode": "HTML",
+                    "reply_markup": keyboard,
                 },
                 token,
                 client,
@@ -66,9 +79,10 @@ def publish(
         "sendMessage",
         {
             "chat_id": channel,
-            "text": build_message(label, body, url, MAX_TEXT),
+            "text": build_message(item.label, body, MAX_TEXT),
             "parse_mode": "HTML",
             "link_preview_options": {"is_disabled": True},
+            "reply_markup": keyboard,
         },
         token,
         client,

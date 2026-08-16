@@ -21,6 +21,8 @@ class Item:
     authority: float = 0.5
 
     image_url: str | None = None
+    # صفحه‌ی بحث، جدا از خود مقاله. HN و Lobsters هر دو را دارند.
+    discussion_url: str | None = None
     score: float = 0.0
     breakdown: dict = field(default_factory=dict)
 

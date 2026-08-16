@@ -20,7 +20,7 @@ Persian Tech Tube Bot aggregates technology and cybersecurity news from Hacker N
 
 ## What it does
 
-Every thirty minutes the bot reads its sources, scores everything it found, summarizes the top few into Persian, and posts them with images. Total cost is zero. Bluesky's API is open, Gemini has a free tier, and GitHub Actions gives public repositories unlimited minutes.
+Every ten minutes the bot reads its sources, scores everything it found, and posts the single best item as a Persian summary with an image and link buttons. One post per run is deliberate: batching three posts meant they arrived twelve seconds apart and then the channel went quiet for half an hour. Total cost is zero. Bluesky's API is open, Gemini has a free tier, and GitHub Actions gives public repositories unlimited minutes.
 
 ```mermaid
 flowchart LR
@@ -91,7 +91,13 @@ Only some sources publish engagement numbers. RSS feeds publish none at all. Rat
 | Viral | Hacker News, Lobsters, Bluesky | The full score above | `viral_share`, default 0.6 |
 | Editorial | RSS news feeds | Source authority ÷ time decay | The remainder |
 
-Unused quota flows to the other pool, so a quiet weekend on Hacker News means more room for news feeds instead of a half-empty run.
+Because a run posts only one item, the split cannot happen inside a run: `ceil(1 × 0.6)` is 1, and the editorial pool would never get a turn. The ratio is kept over time instead. Each run takes from whichever pool is behind its share according to running totals in `state.json`, which produces an interleaved sequence rather than clumps:
+
+```
+V V E V E V V E V E   →   6 viral, 4 editorial
+```
+
+If the pool that is due happens to be empty, the other one takes the slot, so a quiet weekend on Hacker News means more room for news feeds instead of a half-empty run.
 
 ## News sources
 
@@ -136,6 +142,8 @@ Twitter and X accounts work through [xcancel.com](https://xcancel.com) RSS bridg
 
 Images come from Bluesky embeds, RSS media tags, or the article's `og:image`, and go out through `sendPhoto`. If Telegram rejects an image the post falls back to text instead of being dropped.
 
+Each post carries inline buttons: the source article, the Hacker News or Lobsters discussion when there is one, and a share link. They are all `url` buttons rather than `callback_data`, which matters because a `url` button needs no running backend. A callback button would require something alive to answer it, and this bot only exists for the sixty seconds a cron job takes.
+
 Gemini doubles as an editorial filter. The prompt tells it to answer `SKIP` for anything that is not about technology, is promotional, or is otherwise not worth a post, which is how entertainment stories and discount codes get caught before they reach the channel.
 
 Every source is fetched inside its own try block. A dead feed logs a warning and the run continues.
@@ -169,7 +177,7 @@ Push to a public repository, then add three secrets under Settings, Secrets and 
 | `TELEGRAM_CHANNEL` | Channel username, for example `@persiantechtwiter` |
 | `GEMINI_API_KEY` | Key from Google AI Studio |
 
-Run the `publish` workflow once by hand to check it, and it takes over on the half-hour after that. The workflow commits `state.json` back to the repository, which is why it needs `contents: write`.
+Run the `publish` workflow once by hand to check it, and the ten minute cron takes over after that. GitHub does not fire scheduled workflows punctually, and delays of five to twenty minutes are normal on busy public runners. That shifts when a post arrives but not which post wins, because scoring uses each item's real age rather than the time the job happened to start. The workflow commits `state.json` back to the repository, which is why it needs `contents: write`.
 
 ## Configuration
 
@@ -177,8 +185,8 @@ Everything except the three secrets lives in [`config.yaml`](config.yaml).
 
 | Setting | Default | What it controls |
 |---|---:|---|
-| `max_posts_per_run` | 3 | Posts per run. See the note on Gemini quota below. |
-| `viral_share` | 0.6 | Fraction of each run reserved for engagement-ranked sources |
+| `max_posts_per_run` | 1 | Posts per run. Keeping it at 1 is what makes the pacing even. |
+| `viral_share` | 0.6 | Long-run fraction of posts taken from engagement-ranked sources |
 | `max_age_hours` | 12 | Age cutoff for the viral pool |
 | `editorial_max_age_hours` | 48 | Age cutoff for news feeds, which go quiet on weekends |
 | `seconds_between_posts` | 4 | Spacing to stay under Telegram rate limits |
@@ -189,7 +197,7 @@ Everything except the three secrets lives in [`config.yaml`](config.yaml).
 
 Per source you can set `label`, plus `authority` for RSS feeds, `min_engagement` for the viral pool, and `min_points` for Hacker News.
 
-`max_posts_per_run` defaults to 3 because of the Gemini free tier, not taste. Each item costs one request, `gemini-2.5-flash` allows roughly 250 requests a day, and a thirty minute cron is 48 runs. Three per run is 144 a day with room to spare. If you raise it, either slow the cron down or switch to `gemini-2.5-flash-lite`, which allows about 1000 requests a day but writes weaker Persian.
+The Gemini free tier sets the ceiling on all of this. Each item costs one request, including ones the model answers `SKIP` to, and `gemini-2.5-flash` allows roughly 250 requests a day. A ten minute cron is 144 runs, so one post per run lands at 144 a day with room to spare. Keep `runs_per_day × max_posts_per_run` under 250, or switch to `gemini-2.5-flash-lite`, which allows about 1000 requests a day but writes weaker Persian.
 
 ## Why some obvious sources are missing
 

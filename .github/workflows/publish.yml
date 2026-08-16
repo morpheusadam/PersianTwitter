@@ -2,7 +2,9 @@ name: publish
 
 on:
   schedule:
-    - cron: "*/30 * * * *"
+    # هر ۱۰ دقیقه، یک پست در هر اجرا. فاصله‌ها یکنواخت می‌شود و بودجه‌ی Gemini
+    # هم همان ~۱۴۴ درخواست در روز می‌ماند.
+    - cron: "*/10 * * * *"
   workflow_dispatch:
 
 # برای commit کردن state.json لازم است.

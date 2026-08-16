@@ -2,7 +2,6 @@
 
 import argparse
 import logging
-import math
 import os
 import sys
 import time
@@ -144,15 +143,8 @@ def select(items: list[Item], state: State, settings: dict, explain: bool = Fals
     viral = [i for i in ranked if i.ranked]
     editorial = [i for i in ranked if not i.ranked]
 
-    total = settings.get("max_posts_per_run", 8)
-    viral_quota = math.ceil(total * settings.get("viral_share", 0.6))
-
-    chosen = viral[:viral_quota]
-    chosen += editorial[: total - len(chosen)]
-    # اگر خبرها کم بودند، جای خالی را از استخر ویروسی پر کن.
-    if len(chosen) < total:
-        already = {i.uid for i in chosen}
-        chosen += [i for i in viral if i.uid not in already][: total - len(chosen)]
+    total = settings.get("max_posts_per_run", 1)
+    chosen = _fill(viral, editorial, total, settings.get("viral_share", 0.6), state)
 
     log.info(
         "%d تازه (%d ویروسی، %d خبری) → %d انتخاب",
@@ -166,6 +158,40 @@ def select(items: list[Item], state: State, settings: dict, explain: bool = Fals
 
     # انتخاب بر اساس امتیاز، ولی ارسال به ترتیب زمانی.
     chosen.sort(key=lambda i: i.published)
+    return chosen
+
+
+def _fill(
+    viral: list[Item],
+    editorial: list[Item],
+    total: int,
+    viral_share: float,
+    state: State,
+) -> list[Item]:
+    """جای خالی‌ها را طوری پر می‌کند که نسبت ۶۰/۴۰ در طول زمان حفظ شود.
+
+    وقتی هر اجرا فقط یک پست می‌فرستد، تقسیم سهمیه داخل خودِ اجرا معنا ندارد؛
+    ceil(1 × 0.6) = 1 یعنی استخر خبری هرگز نوبت نمی‌گیرد. پس در هر نوبت از
+    استخری برمی‌داریم که نسبت به سهمش عقب‌تر است، بر اساس شمارش تجمعی state.
+    اگر آن استخر خالی بود، آن یکی جایش را می‌گیرد.
+    """
+    counts = dict(state.posted)
+    chosen: list[Item] = []
+    pools = {"viral": list(viral), "editorial": list(editorial)}
+
+    for _ in range(total):
+        so_far = counts.get("viral", 0) + counts.get("editorial", 0)
+        wants_viral = counts.get("viral", 0) < viral_share * (so_far + 1)
+        order = ["viral", "editorial"] if wants_viral else ["editorial", "viral"]
+
+        for pool in order:
+            if pools[pool]:
+                chosen.append(pools[pool].pop(0))
+                counts[pool] = counts.get(pool, 0) + 1
+                break
+        else:
+            break  # هر دو استخر خالی
+
     return chosen
 
 
@@ -230,20 +256,22 @@ def publish(
             print("\n" + "─" * 60)
             if item.image_url:
                 print(f"[عکس] {item.image_url}")
-            print(telegram.build_message(item.label, persian, item.url, limit))
+            print(telegram.build_message(item.label, persian, limit))
+            buttons = telegram.build_keyboard(item)["inline_keyboard"]
+            print("[دکمه‌ها] " + " | ".join(b["text"] for row in buttons for b in row))
             state.mark(item.uid)
+            state.count_post("viral" if item.ranked else "editorial")
             continue
 
         try:
-            telegram.publish(
-                item.label, persian, item.url, item.image_url, token, channel, client
-            )
+            telegram.publish(item, persian, token, channel, client)
         except telegram.TelegramError as exc:
             log.error("ارسال نشد: %s", exc)
             continue
 
         log.info("ارسال شد: %-18s %s", item.label, "🖼" if item.image_url else "")
         state.mark(item.uid)
+        state.count_post("viral" if item.ranked else "editorial")
 
         if index < len(items) - 1:
             time.sleep(delay)
