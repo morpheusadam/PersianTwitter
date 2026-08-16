@@ -1,0 +1,43 @@
+# منابع کانال. هر منبع یکی از دو نوع bluesky یا rss است.
+#
+#   bluesky : handle اکانت در Bluesky (بدون @). بدون کلید و بدون محدودیت کار می‌کند.
+#   rss     : هر فید RSS. برای توییتر از xcancel.com/<user>/rss استفاده کنید.
+#
+# label چیزی است که به‌عنوان نام منبع بالای پست در کانال می‌آید.
+
+settings:
+  # حداکثر پستی که در هر اجرا فرستاده می‌شود. جلوی سیل پست در اولین اجرا را می‌گیرد.
+  max_posts_per_run: 6
+
+  # آیتم‌های قدیمی‌تر از این را نادیده بگیر.
+  max_age_hours: 24
+
+  # فاصله بین ارسال دو پست، برای نخوردن به rate limit تلگرام.
+  seconds_between_posts: 4
+
+  # متن کوتاه‌تر از این احتمالاً یک ریپلای یا تکه‌کلام است، نه خبر.
+  min_text_length: 80
+
+  # مدل Gemini. free tier.
+  gemini_model: gemini-2.5-flash
+
+sources:
+  - type: bluesky
+    handle: simonwillison.net
+    label: Simon Willison
+
+  - type: rss
+    url: https://techcrunch.com/category/artificial-intelligence/feed/
+    label: TechCrunch AI
+
+  - type: rss
+    url: https://feeds.arstechnica.com/arstechnica/technology-lab
+    label: Ars Technica
+
+  # Hacker News عمداً اینجا نیست: فید hnrss فقط عنوان و لینک می‌دهد و متنی ندارد
+  # که خلاصه شود، پس تقریباً همه‌ی آیتم‌هایش به min_text_length می‌خورند.
+
+  # نمونه‌ی توییتر از طریق xcancel. اگر instance مرد، فقط این خط را عوض کنید.
+  # - type: rss
+  #   url: https://xcancel.com/OpenAI/rss
+  #   label: OpenAI

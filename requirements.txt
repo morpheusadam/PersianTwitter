@@ -1,0 +1,3 @@
+httpx==0.28.1
+feedparser==6.0.11
+PyYAML==6.0.2
