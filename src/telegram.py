@@ -28,26 +28,18 @@ def build_message(label: str, body: str, limit: int) -> str:
     return f"<b>{html.escape(label)}</b>\n\n{html.escape(body)}"
 
 
-def build_keyboard(item: Item, comment_url: str | None = None) -> dict:
-    """دکمه‌های زیر پست.
+def build_keyboard(item: Item) -> dict:
+    """دکمه‌ی زیر پست.
 
-    هر دو از نوع url هستند، نه callback. یعنی هیچ backend زنده‌ای نمی‌خواهند و
-    روی همین معماری‌ی cron کار می‌کنند. دکمه‌ی callback به handler نیاز داشت.
+    یک دکمه‌ی url، نه callback، پس هیچ backend زنده‌ای نمی‌خواهد و روی همین
+    معماری‌ی cron کار می‌کند.
+
+    دکمه‌ی کامنت اینجا نیست: کانال گروه بحث لینک‌شده دارد و خود تلگرام ردیف
+    کامنت را زیر هر پست می‌گذارد. ساختن نسخه‌ی خودمان هم شدنی نبود، چون آدرس
+    ترد کامنت به شناسه‌ی پیام در گروه نیاز دارد و Bot API موقع ارسال به کانال
+    آن را برنمی‌گرداند.
     """
-    row = [{"text": "منبع", "url": item.url}]
-    if comment_url:
-        row.append({"text": "comment", "url": comment_url})
-    return {"inline_keyboard": [row]}
-
-
-def comment_link(channel: str, message_id: int) -> str:
-    """لینک بخش کامنت همان پست.
-
-    کانال یک گروه بحث لینک‌شده دارد، پس هر پست یک ترد کامنت دارد و این آدرس
-    مستقیم بازش می‌کند. message_id فقط بعد از ارسال معلوم می‌شود، برای همین
-    دکمه در مرحله‌ی دوم با editMessageReplyMarkup اضافه می‌شود.
-    """
-    return f"https://t.me/{channel.lstrip('@')}/{message_id}?comment=1"
+    return {"inline_keyboard": [[{"text": "source", "url": item.url}]]}
 
 
 def publish(
@@ -63,9 +55,6 @@ def publish(
     اگر تصویری پیدا شده باشد تلگرام خودش از URL برمی‌داردش، وگرنه فایل پیش‌فرض
     آپلود می‌شود. فقط وقتی به پیام متنی برمی‌گردیم که هر دو شکست بخورند، چون
     خبر بدون عکس بهتر از هیچ خبر است.
-
-    دکمه‌ی comment بعد از ارسال اضافه می‌شود، چون آدرس ترد کامنت به message_id
-    نیاز دارد و آن فقط در پاسخ همان ارسال برمی‌گردد.
     """
     keyboard = build_keyboard(item)
     caption = build_message(item.label, body, MAX_CAPTION)
@@ -109,29 +98,6 @@ def publish(
             token,
             client,
         )
-
-    _attach_comment(item, result, channel, token, client)
-
-
-def _attach_comment(item, result, channel, token, client) -> None:
-    """دکمه‌ی comment را روی پستِ تازه‌ارسال‌شده می‌نشاند."""
-    message_id = (result or {}).get("message_id")
-    if not message_id:
-        return
-    try:
-        _call(
-            "editMessageReplyMarkup",
-            {
-                "chat_id": channel,
-                "message_id": message_id,
-                "reply_markup": build_keyboard(item, comment_link(channel, message_id)),
-            },
-            token,
-            client,
-        )
-    except TelegramError as exc:
-        # پست رفته و سالم است؛ فقط یک دکمه کم دارد.
-        log.warning("دکمه‌ی comment اضافه نشد: %s", exc)
 
 
 def _call(method: str, payload: dict, token: str, client: httpx.Client) -> dict:
