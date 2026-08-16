@@ -68,10 +68,11 @@
   "https://www.bleepingcomputer.com/news/security/new-evooo1bot-linux-botnet-turns-routers-into-traffic-relay-nodes/",
   "hn:49319566",
   "hn:49319633",
-  "https://www.bleepingcomputer.com/news/security/new-amnesiastealer-macos-malware-hijacks-browser-sessions-via-remote-control/"
+  "https://www.bleepingcomputer.com/news/security/new-amnesiastealer-macos-malware-hijacks-browser-sessions-via-remote-control/",
+  "lobsters:wpyhdh"
  ],
  "posted": {
-  "viral": 1,
+  "viral": 2,
   "editorial": 1
  }
 }
