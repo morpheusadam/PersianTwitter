@@ -251,7 +251,7 @@ def publish(
         if args.dry_run:
             print("\n" + "─" * 60)
             print(f"[عکس] {item.image_url or 'assets/fallback.png (پیش‌فرض)'}")
-            print(telegram.build_message(item.label, persian, telegram.MAX_CAPTION))
+            print(telegram.build_message(item, persian, telegram.MAX_CAPTION))
             buttons = telegram.build_keyboard(item)["inline_keyboard"]
             print("[دکمه‌ها] " + " | ".join(b["text"] for row in buttons for b in row))
             state.mark(item.uid)

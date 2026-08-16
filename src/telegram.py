@@ -22,10 +22,16 @@ class TelegramError(RuntimeError):
     pass
 
 
-def build_message(label: str, body: str, limit: int) -> str:
+def build_message(item: Item, body: str, limit: int) -> str:
     if len(body) > limit:
         body = body[:limit].rsplit(" ", 1)[0] + "…"
-    return f"<b>{html.escape(label)}</b>\n\n{html.escape(body)}"
+
+    # وقتی ناشر با منبع فرق دارد هر دو می‌آیند. Hacker News فقط لینک جمع می‌کند
+    # و نوشتن «Hacker News» بالای خبری که مال wptv.com است گمراه‌کننده بود.
+    head = html.escape(item.publisher or item.label)
+    if item.publisher:
+        head += f"  ·  via {html.escape(item.label)}"
+    return f"<b>{head}</b>\n\n{html.escape(body)}"
 
 
 def build_keyboard(item: Item) -> dict:
@@ -57,7 +63,7 @@ def publish(
     خبر بدون عکس بهتر از هیچ خبر است.
     """
     keyboard = build_keyboard(item)
-    caption = build_message(item.label, body, MAX_CAPTION)
+    caption = build_message(item, body, MAX_CAPTION)
     result = None
 
     if item.image_url:
@@ -90,7 +96,7 @@ def publish(
             "sendMessage",
             {
                 "chat_id": channel,
-                "text": build_message(item.label, body, MAX_TEXT),
+                "text": build_message(item, body, MAX_TEXT),
                 "parse_mode": "HTML",
                 "link_preview_options": {"is_disabled": True},
                 "reply_markup": keyboard,

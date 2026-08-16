@@ -73,10 +73,71 @@ sources:
     # ۳ امتیازی از یک بحث ۲۰۰ امتیازی HN جلو می‌زند.
     min_engagement: 25
 
+  # اکانت‌های Bluesky — این‌ها جای توییت را می‌گیرند.
+  #
+  # چرا توییتر واقعی نیست: X برای خواندن پول می‌گیرد، xcancel مرده، و
+  # nitter.net چهل تا هفتاد ساعت عقب است که برای امتیاز ویروسی بی‌فایده است.
+  # Bluesky بلادرنگ است و عدد like/repost/reply هم می‌دهد.
+  #
+  # اکانت‌های خودِ رسانه‌ها (Wired، The Verge، Ars، TechCrunch) عمداً نیستند:
+  # فقط تیتر خودشان را بازنشر می‌کنند و با فیدهای RSS پایین تکراری می‌شوند.
+  # min_engagement حدود نصف میانه‌ی لایک همان اکانت است.
+
+  - type: bluesky
+    handle: 404media.co
+    label: 404 Media
+    min_engagement: 60
+
   - type: bluesky
     handle: simonwillison.net
     label: Simon Willison
+    min_engagement: 30
+
+  - type: bluesky
+    handle: emilymbender.bsky.social
+    label: Emily M. Bender
+    min_engagement: 50
+
+  - type: bluesky
+    handle: malwaretech.com
+    label: MalwareTech
+    min_engagement: 30
+
+  - type: bluesky
+    handle: filippo.abyssdomain.expert
+    label: Filippo Valsorda
+    min_engagement: 30
+
+  - type: bluesky
+    handle: antirez.bsky.social
+    label: antirez
+    min_engagement: 15
+
+  - type: bluesky
+    handle: rasbt.bsky.social
+    label: Sebastian Raschka
     min_engagement: 20
+
+  - type: bluesky
+    handle: karpathy.bsky.social
+    label: Andrej Karpathy
+    min_engagement: 20
+
+  - type: bluesky
+    handle: xeiaso.net
+    label: Xe Iaso
+    min_engagement: 5
+
+  # این دو کم‌کار شده‌اند ولی وقتی می‌نویسند ارزشش را دارد.
+  - type: bluesky
+    handle: danluu.com
+    label: Dan Luu
+    min_engagement: 5
+
+  - type: bluesky
+    handle: briankrebs.bsky.social
+    label: Brian Krebs
+    min_engagement: 5
 
   # ─────────────────────────────────────────────────────────── امنیت و هک
 

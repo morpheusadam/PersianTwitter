@@ -7,6 +7,7 @@ from datetime import datetime, timezone
 
 import feedparser
 import httpx
+from urllib.parse import urlparse
 
 from .models import Item
 from .scoring import weigh
@@ -163,6 +164,7 @@ def _fetch_hackernews(source: dict, client: httpx.Client) -> list[Item]:
                 ),
                 ranked=True,
                 discussion_url=discussion,
+                publisher=_publisher(hit.get("url")),
             )
         )
     return items
@@ -198,6 +200,7 @@ def _fetch_lobsters(source: dict, client: httpx.Client) -> list[Item]:
                 ),
                 ranked=True,
                 discussion_url=story.get("comments_url"),
+                publisher=_publisher(story.get("url")),
             )
         )
     return items
@@ -283,6 +286,14 @@ def _clean(raw: str) -> str:
     text = re.sub(r"[ \t]{2,}", " ", text)
     text = _BOILERPLATE.sub("", text)
     return re.sub(r"\n{2,}", "\n", text).strip()
+
+
+def _publisher(url: str | None) -> str | None:
+    """دامنه‌ی ناشر واقعی، بدون www. برای پست‌های خودِ سایت (Ask HN) None."""
+    if not url:
+        return None
+    host = urlparse(url).netloc.lower().removeprefix("www.")
+    return host or None
 
 
 def _entry_time(entry) -> datetime | None:
