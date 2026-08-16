@@ -11,7 +11,7 @@ from pathlib import Path
 import httpx
 import yaml
 
-from . import cover, images, scoring, sources, telegram, translate
+from . import images, scoring, sources, telegram, translate
 from .models import Item
 from .state import State
 
@@ -252,20 +252,14 @@ def publish(
             print("\n" + "─" * 60)
             print(f"[عکس] {item.image_url or 'assets/fallback.jpg (پیش‌فرض)'}")
             print(telegram.build_message(item.label, persian, telegram.MAX_CAPTION))
-            buttons = telegram.build_keyboard(item)["inline_keyboard"]
+            buttons = telegram.build_keyboard(item, "comment-thread")["inline_keyboard"]
             print("[دکمه‌ها] " + " | ".join(b["text"] for row in buttons for b in row))
             state.mark(item.uid)
             state.count_post("viral" if item.ranked else "editorial")
             continue
 
-        glass = None
-        if settings.get("glass_cover", True):
-            glass = cover.build(item, persian, client, FALLBACK_IMAGE)
-
         try:
-            telegram.publish(
-                item, persian, token, channel, client, FALLBACK_IMAGE, glass
-            )
+            telegram.publish(item, persian, token, channel, client, FALLBACK_IMAGE)
         except telegram.TelegramError as exc:
             log.error("ارسال نشد: %s", exc)
             continue

@@ -43,6 +43,8 @@ _META = re.compile(
 )
 _CONTENT = re.compile(r"content=[\"']([^\"']+)[\"']", re.IGNORECASE)
 _IMG = re.compile(r"<img\b[^>]*>", re.IGNORECASE)
+_LINK_ICON = re.compile(r"<link\b[^>]*rel=[\"'][^\"']*icon[^\"']*[\"'][^>]*>", re.IGNORECASE)
+_HREF = re.compile(r"href=[\"']([^\"']+)[\"']", re.IGNORECASE)
 _SRC = re.compile(r"\b(?:data-src|data-original|srcset|src)=[\"']([^\"']+)[\"']", re.IGNORECASE)
 
 # آیکون، لوگو، آواتار، اسپریت و پیکسل ردیابی. اینها عکس خبر نیستند.
@@ -64,15 +66,41 @@ def resolve(item: Item, client: httpx.Client, enabled: bool = True) -> None:
         return
 
     html = _fetch(item.url, client)
-    if not html:
+    if html:
+        for candidate in _candidates(html, item.url):
+            if _usable(candidate, client):
+                item.image_url = candidate
+                return
+
+    # مقاله هیچ عکسی نداشت: تصویر شاخص خودِ وب‌سایت را بردار.
+    site = _site_image(item.url, client)
+    if site:
+        item.image_url = site
         return
 
-    for candidate in _candidates(html, item.url):
-        if _usable(candidate, client):
-            item.image_url = candidate
-            return
-
     log.info("تصویری پیدا نشد، عکس پیش‌فرض می‌رود: %s", item.url[:70])
+
+
+def _site_image(url: str, client: httpx.Client) -> str | None:
+    """تصویر شاخص خودِ سایت، نه صفحه‌ی مقاله.
+
+    اول ریشه‌ی سایت را می‌خوانیم چون og:image صفحه‌ی اصلی معمولاً کاور برند
+    است. اگر نبود سراغ آیکون‌ها می‌رویم، و آخرش سرویس favicon گوگل که تقریباً
+    برای هر دامنه‌ای چیزی برمی‌گرداند.
+    """
+    parts = urlparse(url)
+    if not parts.netloc:
+        return None
+    root = f"{parts.scheme}://{parts.netloc}/"
+
+    html = _fetch(root, client)
+    if html:
+        for candidate in _candidates(html, root, icons_ok=True):
+            if _usable(candidate, client):
+                return candidate
+
+    fallback = f"https://www.google.com/s2/favicons?domain={parts.netloc}&sz=256"
+    return fallback if _usable(fallback, client) else None
 
 
 def _fetch(url: str, client: httpx.Client) -> str | None:
@@ -87,14 +115,24 @@ def _fetch(url: str, client: httpx.Client) -> str | None:
         return None
 
 
-def _candidates(html: str, base: str) -> list[str]:
-    """اول متا تگ‌ها، بعد تصاویر داخل متن. ترتیب همان ترتیب امتحان‌کردن است."""
+def _candidates(html: str, base: str, icons_ok: bool = False) -> list[str]:
+    """اول متا تگ‌ها، بعد تصاویر داخل متن. ترتیب همان ترتیب امتحان‌کردن است.
+
+    icons_ok برای صفحه‌ی اصلی سایت است: آنجا apple-touch-icon دقیقاً همان
+    چیزی است که می‌خواهیم، در حالی که در صفحه‌ی مقاله فقط نویز است.
+    """
     found: list[str] = []
 
     for tag in _META.finditer(html):
         content = _CONTENT.search(tag.group(0))
         if content:
             found.append(content.group(1))
+
+    if icons_ok:
+        for tag in _LINK_ICON.finditer(html):
+            href = _HREF.search(tag.group(0))
+            if href:
+                found.append(href.group(1))
 
     for tag in _IMG.finditer(html):
         src = _SRC.search(tag.group(0))
@@ -113,7 +151,11 @@ def _candidates(html: str, base: str) -> list[str]:
             continue
         seen.add(url)
         path = urlparse(url).path.lower()
-        if _JUNK.search(url) or path.endswith(_BAD_EXT):
+        # روی صفحه‌ی اصلی سایت دنبال همین آیکون‌ها هستیم، پس فیلتر «آشغال» را
+        # آنجا اعمال نمی‌کنیم. ico همیشه رد می‌شود چون تلگرام قبولش نمی‌کند.
+        if path.endswith(_BAD_EXT):
+            continue
+        if not icons_ok and _JUNK.search(url):
             continue
         out.append(url)
     return out[:8]
