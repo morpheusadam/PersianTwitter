@@ -83,18 +83,19 @@
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mt7ocruk772i",
   "https://www.bleepingcomputer.com/news/security/hackers-exploit-macos-screen-sharing-flaw-to-deploy-monero-miner/",
   "hn:49319727",
-  "hn:49319814"
+  "hn:49319814",
+  "https://www.darkreading.com/cybersecurity-operations/mission-driven-security-inside-global-bank-defense"
  ],
  "posted": {
   "viral": 6,
-  "editorial": 6
+  "editorial": 7
  },
  "recent_labels": [
-  "404 Media",
   "The Record",
   "404 Media",
   "BleepingComputer",
-  "Hacker News"
+  "Hacker News",
+  "Dark Reading"
  ],
  "last_digest": "",
  "history": [
@@ -132,6 +133,13 @@
    "source": "wildstatic.com",
    "score": 0.0582,
    "at": "2026-08-16T19:35:21.918975+00:00"
+  },
+  {
+   "title": "تغییر نقش مدیران امنیت در بانکداری جهانی",
+   "url": "https://www.darkreading.com/cybersecurity-operations/mission-driven-security-inside-global-bank-defense",
+   "source": "Dark Reading",
+   "score": 0.00065,
+   "at": "2026-08-16T19:48:25.756681+00:00"
   }
  ],
  "snapshots": {
@@ -152,12 +160,12 @@
    "2026-08-16T19:34:50.162220+00:00"
   ],
   "hn:49319349": [
-   76,
-   "2026-08-16T19:34:50.162220+00:00"
+   77,
+   "2026-08-16T19:48:14.122916+00:00"
   ],
   "hn:49318906": [
    294,
-   "2026-08-16T19:34:50.162220+00:00"
+   "2026-08-16T19:48:14.122916+00:00"
   ],
   "hn:49317760": [
    628,
@@ -168,8 +176,8 @@
    "2026-08-16T18:50:34.583307+00:00"
   ],
   "lobsters:hnx6id": [
-   30,
-   "2026-08-16T19:34:50.162220+00:00"
+   33,
+   "2026-08-16T19:48:14.122916+00:00"
   ],
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mt7ocruk772i": [
    216,
@@ -188,8 +196,12 @@
    "2026-08-16T19:34:50.162220+00:00"
   ],
   "hn:49322107": [
-   70,
-   "2026-08-16T19:34:50.162220+00:00"
+   98,
+   "2026-08-16T19:48:14.122916+00:00"
+  ],
+  "hn:49320673": [
+   141,
+   "2026-08-16T19:48:14.122916+00:00"
   ]
  }
 }
