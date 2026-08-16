@@ -28,7 +28,7 @@ def build_message(label: str, body: str, limit: int) -> str:
     return f"<b>{html.escape(label)}</b>\n\n{html.escape(body)}"
 
 
-def build_keyboard(item: Item) -> dict:
+def build_keyboard(item: Item, body: str = "") -> dict:
     """دکمه‌های زیر پست.
 
     همه از نوع url هستند، نه callback. یعنی هیچ backend زنده‌ای نمی‌خواهند و
@@ -38,7 +38,10 @@ def build_keyboard(item: Item) -> dict:
     if item.discussion_url and item.discussion_url != item.url:
         row.append({"text": "💬 بحث", "url": item.discussion_url})
 
-    share = SHARE.format(url=quote(item.url, safe=""), text=quote(item.label, safe=""))
+    # متن پیش‌فرضِ اشتراک‌گذاری خودِ خلاصه‌ی فارسی است. نام منبع به‌تنهایی به
+    # کسی که لینک را می‌گیرد هیچ نمی‌گوید.
+    caption = (body or item.label)[:180]
+    share = SHARE.format(url=quote(item.url, safe=""), text=quote(caption, safe=""))
     return {"inline_keyboard": [row, [{"text": "↗️ اشتراک‌گذاری", "url": share}]]}
 
 
@@ -55,7 +58,7 @@ def publish(
     عکس نمی‌رسد یا فرمتش را نمی‌پذیرد؛ در آن حالت به پیام متنی برمی‌گردیم تا خبر
     به‌خاطر یک عکس از دست نرود.
     """
-    keyboard = build_keyboard(item)
+    keyboard = build_keyboard(item, body)
 
     if item.image_url:
         try:

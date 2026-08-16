@@ -257,7 +257,7 @@ def publish(
             if item.image_url:
                 print(f"[عکس] {item.image_url}")
             print(telegram.build_message(item.label, persian, limit))
-            buttons = telegram.build_keyboard(item)["inline_keyboard"]
+            buttons = telegram.build_keyboard(item, persian)["inline_keyboard"]
             print("[دکمه‌ها] " + " | ".join(b["text"] for row in buttons for b in row))
             state.mark(item.uid)
             state.count_post("viral" if item.ranked else "editorial")
