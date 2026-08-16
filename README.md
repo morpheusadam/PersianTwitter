@@ -1,8 +1,6 @@
 <div align="center">
 
-# Persian Tech Tube Bot
-
-**A Telegram news bot that ranks tech, cybersecurity, and AI stories by virality and posts Persian summaries. Runs free on GitHub Actions.**
+<img src="assets/banner.svg" alt="PersianTwitter" width="100%">
 
 [![Python 3.12](https://img.shields.io/badge/python-3.12-3776AB?logo=python&logoColor=white)](https://www.python.org/)
 [![License: MIT](https://img.shields.io/badge/license-MIT-green)](LICENSE)
@@ -22,17 +20,7 @@ Persian Tech Tube Bot aggregates technology and cybersecurity news from Hacker N
 
 Seventeen times a day the bot reads its sources, scores everything it found, and posts the single best item as a Persian summary with an image and link buttons. One post per run is deliberate: batching three posts meant they arrived twelve seconds apart and then the channel went quiet for half an hour. The schedule runs 05:30 to 21:30 UTC, which is 09:00 to 01:00 in Tehran, so nothing is published while the audience is asleep. That caps the channel at 17 posts a day, split evenly between social posts and news articles. Total cost is zero. Bluesky's API is open, Gemini has a free tier, and GitHub Actions gives public repositories unlimited minutes.
 
-```mermaid
-flowchart LR
-    A[config.yaml] --> B[sources.py]
-    B --> C{filter<br/>unseen · fresh · long enough}
-    C --> D[scoring.py<br/>virality rank]
-    D --> E{two pools<br/>viral 60% · editorial 40%}
-    E --> F[translate.py<br/>Gemini summarize + SKIP]
-    F --> G[telegram.py<br/>sendPhoto / sendMessage]
-    G --> H[(state.json)]
-    H -.committed back.-> A
-```
+<img src="assets/pipeline.svg" alt="Pipeline: sources are clustered into stories, scored, then summarized and posted" width="100%">
 
 ## How the ranking algorithm works
 
@@ -157,8 +145,8 @@ Failed translations do not mark an item as seen, so the next run retries it. Gem
 ## Quickstart
 
 ```bash
-git clone https://github.com/morpheusadam/persian-tech-tube-bot.git
-cd persian-tech-tube-bot
+git clone https://github.com/morpheusadam/PersianTwitter.git
+cd PersianTwitter
 
 python -m venv .venv
 .venv/bin/pip install -r requirements.txt     # Windows: .venv\Scripts\pip.exe

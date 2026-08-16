@@ -1,0 +1,110 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 470" width="1200" height="470" role="img" aria-label="Pipeline: sources are clustered into stories, scored, summarized and posted">
+  <defs>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="100%" stop-color="#a78bfa"/>
+    </linearGradient>
+    <marker id="tip" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M0 0 L10 5 L0 10 z" fill="#7c8db5"/>
+    </marker>
+    <style>
+      .box  { fill:#111a2e; stroke:#334155; stroke-width:1.4; }
+      .hot  { fill:#151f3a; stroke:#6366f1; stroke-width:1.8; }
+      .t    { font-family:'Segoe UI',Helvetica,Arial,sans-serif; fill:#e2e8f0; font-size:17px; font-weight:600; }
+      .s    { font-family:'Segoe UI',Helvetica,Arial,sans-serif; fill:#94a3b8; font-size:13.5px; }
+      .m    { font-family:'JetBrains Mono',Consolas,monospace; fill:#7dd3fc; font-size:13px; }
+      .lbl  { font-family:'Segoe UI',Helvetica,Arial,sans-serif; fill:#64748b; font-size:12px; }
+    </style>
+  </defs>
+
+  <rect width="1200" height="470" rx="16" fill="#0b1220"/>
+
+  <!-- row 1: ingest -->
+  <g>
+    <rect class="box" x="40" y="44" width="200" height="150" rx="12"/>
+    <text class="t" x="60" y="74">Sources</text>
+    <text class="s" x="60" y="100">Hacker News · Lobsters</text>
+    <text class="s" x="60" y="122">Bluesky · 40 RSS feeds</text>
+    <text class="s" x="60" y="144">EN · RU · security · AI</text>
+    <text class="m" x="60" y="172">54 configured</text>
+  </g>
+
+  <path d="M248 119 H 318" stroke="#7c8db5" stroke-width="1.6" marker-end="url(#tip)"/>
+  <text class="lbl" x="252" y="108">fetch</text>
+
+  <g>
+    <rect class="box" x="326" y="44" width="200" height="150" rx="12"/>
+    <text class="t" x="346" y="74">Filter</text>
+    <text class="s" x="346" y="100">unseen</text>
+    <text class="s" x="346" y="122">inside age window</text>
+    <text class="s" x="346" y="144">long enough to matter</text>
+    <text class="m" x="346" y="172">12h viral · 72h news</text>
+  </g>
+
+  <path d="M534 119 H 604" stroke="#7c8db5" stroke-width="1.6" marker-end="url(#tip)"/>
+  <text class="lbl" x="540" y="108">group</text>
+
+  <g>
+    <rect class="hot" x="612" y="44" width="216" height="150" rx="12"/>
+    <text class="t" x="632" y="74">Cluster</text>
+    <text class="s" x="632" y="100">one story, every outlet</text>
+    <text class="s" x="632" y="122">that covered it</text>
+    <text class="s" x="632" y="144">latin tokens cross RU/EN</text>
+    <text class="m" x="632" y="172">473 items → 448 stories</text>
+  </g>
+
+  <path d="M836 119 H 906" stroke="#7c8db5" stroke-width="1.6" marker-end="url(#tip)"/>
+  <text class="lbl" x="912" y="108">score</text>
+
+  <g>
+    <rect class="hot" x="914" y="44" width="246" height="150" rx="12"/>
+    <text class="t" x="934" y="74">Rank</text>
+    <text class="s" x="934" y="100">corroboration · heat</text>
+    <text class="s" x="934" y="122">pickup speed · decay</text>
+    <text class="m" x="934" y="150">(corrob + heat)</text>
+    <text class="m" x="934" y="172">÷ (age + 2)^1.8</text>
+  </g>
+
+  <!-- connector down -->
+  <path d="M1037 202 V 246 H 163 V 276" stroke="#7c8db5" stroke-width="1.6" fill="none" marker-end="url(#tip)"/>
+  <text class="lbl" x="560" y="240">best story of the run</text>
+
+  <!-- row 2: publish -->
+  <g>
+    <rect class="box" x="40" y="284" width="212" height="142" rx="12"/>
+    <text class="t" x="60" y="314">Read article</text>
+    <text class="s" x="60" y="340">trafilatura pulls the</text>
+    <text class="s" x="60" y="362">full text, not the blurb</text>
+    <text class="m" x="60" y="392">2k–8k chars</text>
+  </g>
+
+  <path d="M260 355 H 330" stroke="#7c8db5" stroke-width="1.6" marker-end="url(#tip)"/>
+
+  <g>
+    <rect class="box" x="338" y="284" width="212" height="142" rx="12"/>
+    <text class="t" x="358" y="314">Summarize</text>
+    <text class="s" x="358" y="340">Gemini: title, one</text>
+    <text class="s" x="358" y="362">paragraph, hashtags</text>
+    <text class="m" x="358" y="392">4 models rotated</text>
+  </g>
+
+  <path d="M558 355 H 628" stroke="#7c8db5" stroke-width="1.6" marker-end="url(#tip)"/>
+
+  <g>
+    <rect class="box" x="636" y="284" width="212" height="142" rx="12"/>
+    <text class="t" x="656" y="314">Find image</text>
+    <text class="s" x="656" y="340">feed → og:image →</text>
+    <text class="s" x="656" y="362">in-body → site → default</text>
+    <text class="m" x="656" y="392">min 400px</text>
+  </g>
+
+  <path d="M856 355 H 926" stroke="#7c8db5" stroke-width="1.6" marker-end="url(#tip)"/>
+
+  <g>
+    <rect class="hot" x="934" y="284" width="226" height="142" rx="12"/>
+    <text class="t" x="954" y="314">Post</text>
+    <text class="s" x="954" y="340">large preview + text</text>
+    <text class="s" x="954" y="362">state.json committed back</text>
+    <text class="m" x="954" y="392">17× a day, Tehran hours</text>
+  </g>
+</svg>

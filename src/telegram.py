@@ -25,7 +25,7 @@ MAX_TEXT = 3500
 # عکس پیش‌فرض از خودِ repo عمومی سرو می‌شود تا مثل بقیه یک URL داشته باشد و در
 # همان link preview بنشیند.
 FALLBACK_URL = (
-    "https://raw.githubusercontent.com/morpheusadam/persian-tech-tube-bot"
+    "https://raw.githubusercontent.com/morpheusadam/PersianTwitter"
     "/main/assets/fallback.png"
 )
 

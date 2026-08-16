@@ -19,7 +19,7 @@ HN_SEARCH = "https://hn.algolia.com/api/v1/search_by_date"
 HN_ITEM = "https://news.ycombinator.com/item?id={id}"
 LOBSTERS_FEED = "https://lobste.rs/hottest.json"
 
-UA = {"User-Agent": "Mozilla/5.0 (compatible; persian-tech-tube-bot)"}
+UA = {"User-Agent": "Mozilla/5.0 (compatible; PersianTwitter)"}
 
 _TAG = re.compile(r"<[^>]+>")
 _WS = re.compile(r"[ \t]*\n[ \t]*")
