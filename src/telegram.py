@@ -29,6 +29,10 @@ FALLBACK_URL = (
     "/main/assets/fallback.png"
 )
 
+# خلاصه هرچقدر هم کامل باشد جای مقاله را نمی‌گیرد؛ این خط خواننده را به دکمه‌ی
+# زیر پست وصل می‌کند.
+READ_MORE = "برای ادامه‌ی خواندن روی <b>source</b> بزنید"
+
 
 def build_message(
     item: Item,
@@ -52,7 +56,7 @@ def build_message(
     if title:
         parts.append(f"<b>{html.escape(title)}</b>")
     parts.append(html.escape(body))
-    parts.append(f"<i>{source}</i>")
+    parts.append(f"<i>{source}</i>\n{READ_MORE}")
     if footer:
         parts.append(html.escape(footer))
     return "\n\n".join(parts)

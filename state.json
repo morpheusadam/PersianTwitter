@@ -77,15 +77,19 @@
   "lobsters:ii5tun",
   "hn:49319389",
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mt7hgtkozp2o",
-  "https://therecord.media/investigation-into-banking-hack-leads-to-arrests-germany-brazil"
+  "https://therecord.media/investigation-into-banking-hack-leads-to-arrests-germany-brazil",
+  "hn:49321353",
+  "hn:49321717",
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mt7ocruk772i"
  ],
  "posted": {
-  "viral": 4,
+  "viral": 5,
   "editorial": 5
  },
  "recent_labels": [
   "404 Media",
-  "The Record"
+  "The Record",
+  "404 Media"
  ],
  "last_digest": "",
  "history": [
@@ -102,36 +106,43 @@
    "source": "The Record",
    "score": 0.00074,
    "at": "2026-08-16T19:04:35.382017+00:00"
+  },
+  {
+   "title": "کلاهبرداری سایت Research Gold با جعل هویت متخصصان و استفاده از هوش مصنوعی",
+   "url": "https://www.404media.co/company-offering-100-human-written-never-ai-peer-review-is-entirely-ai/",
+   "source": "404media.co",
+   "score": 0.1235,
+   "at": "2026-08-16T19:21:47.151595+00:00"
   }
  ],
  "snapshots": {
   "hn:49321717": [
-   172,
-   "2026-08-16T19:04:31.264535+00:00"
+   221,
+   "2026-08-16T19:21:09.721835+00:00"
   ],
   "hn:49321353": [
-   109,
-   "2026-08-16T19:04:31.264535+00:00"
+   120,
+   "2026-08-16T19:21:09.721835+00:00"
   ],
   "hn:49319814": [
-   128,
-   "2026-08-16T19:04:31.264535+00:00"
+   129,
+   "2026-08-16T19:21:09.721835+00:00"
   ],
   "hn:49319727": [
    223,
-   "2026-08-16T19:04:31.264535+00:00"
+   "2026-08-16T19:21:09.721835+00:00"
   ],
   "hn:49319349": [
-   71,
-   "2026-08-16T19:04:31.264535+00:00"
+   73,
+   "2026-08-16T19:21:09.721835+00:00"
   ],
   "hn:49318906": [
-   288,
-   "2026-08-16T19:04:31.264535+00:00"
+   290,
+   "2026-08-16T19:21:09.721835+00:00"
   ],
   "hn:49317760": [
-   620,
-   "2026-08-16T19:04:31.264535+00:00"
+   624,
+   "2026-08-16T19:21:09.721835+00:00"
   ],
   "hn:49317546": [
    193,
@@ -139,11 +150,11 @@
   ],
   "lobsters:hnx6id": [
    29,
-   "2026-08-16T19:04:31.264535+00:00"
+   "2026-08-16T19:21:09.721835+00:00"
   ],
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mt7ocruk772i": [
-   212,
-   "2026-08-16T19:04:31.264535+00:00"
+   216,
+   "2026-08-16T19:21:09.721835+00:00"
   ],
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mt7hgtkozp2o": [
    885,
@@ -155,7 +166,7 @@
   ],
   "at://did:plc:x2nsupeeo52oznrmplwapppl/app.bsky.feed.post/3mt7c4it7tv2v": [
    35,
-   "2026-08-16T19:04:31.264535+00:00"
+   "2026-08-16T19:21:09.721835+00:00"
   ]
  }
 }
