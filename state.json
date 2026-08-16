@@ -76,14 +76,16 @@
   "https://www.bleepingcomputer.com/news/security/hackers-arrested-over-30m-bank-fraud-exploiting-service-provider-flaw/",
   "lobsters:ii5tun",
   "hn:49319389",
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mt7hgtkozp2o"
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mt7hgtkozp2o",
+  "https://therecord.media/investigation-into-banking-hack-leads-to-arrests-germany-brazil"
  ],
  "posted": {
   "viral": 4,
-  "editorial": 4
+  "editorial": 5
  },
  "recent_labels": [
-  "404 Media"
+  "404 Media",
+  "The Record"
  ],
  "last_digest": "",
  "history": [
@@ -93,48 +95,55 @@
    "source": "404 Media",
    "score": 0.17218,
    "at": "2026-08-16T18:50:59.059484+00:00"
+  },
+  {
+   "title": "بازداشت عاملان سرقت ۳۰ میلیون یورویی از حساب‌های بانکی آلمان",
+   "url": "https://therecord.media/investigation-into-banking-hack-leads-to-arrests-germany-brazil",
+   "source": "The Record",
+   "score": 0.00074,
+   "at": "2026-08-16T19:04:35.382017+00:00"
   }
  ],
  "snapshots": {
   "hn:49321717": [
-   125,
-   "2026-08-16T18:50:34.583307+00:00"
+   172,
+   "2026-08-16T19:04:31.264535+00:00"
   ],
   "hn:49321353": [
-   98,
-   "2026-08-16T18:50:34.583307+00:00"
+   109,
+   "2026-08-16T19:04:31.264535+00:00"
   ],
   "hn:49319814": [
-   120,
-   "2026-08-16T18:50:34.583307+00:00"
+   128,
+   "2026-08-16T19:04:31.264535+00:00"
   ],
   "hn:49319727": [
-   222,
-   "2026-08-16T18:50:34.583307+00:00"
+   223,
+   "2026-08-16T19:04:31.264535+00:00"
   ],
   "hn:49319349": [
    71,
-   "2026-08-16T18:50:34.583307+00:00"
+   "2026-08-16T19:04:31.264535+00:00"
   ],
   "hn:49318906": [
-   284,
-   "2026-08-16T18:50:34.583307+00:00"
+   288,
+   "2026-08-16T19:04:31.264535+00:00"
   ],
   "hn:49317760": [
-   617,
-   "2026-08-16T18:50:34.583307+00:00"
+   620,
+   "2026-08-16T19:04:31.264535+00:00"
   ],
   "hn:49317546": [
    193,
    "2026-08-16T18:50:34.583307+00:00"
   ],
   "lobsters:hnx6id": [
-   27,
-   "2026-08-16T18:50:34.583307+00:00"
+   29,
+   "2026-08-16T19:04:31.264535+00:00"
   ],
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mt7ocruk772i": [
-   200,
-   "2026-08-16T18:50:34.583307+00:00"
+   212,
+   "2026-08-16T19:04:31.264535+00:00"
   ],
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mt7hgtkozp2o": [
    885,
@@ -142,7 +151,11 @@
   ],
   "at://did:plc:ipt7y6qaf6fn7oeeduboqe44/app.bsky.feed.post/3mt6sss6n322t": [
    48,
-   "2026-08-16T18:50:34.583307+00:00"
+   "2026-08-16T19:04:31.264535+00:00"
+  ],
+  "at://did:plc:x2nsupeeo52oznrmplwapppl/app.bsky.feed.post/3mt7c4it7tv2v": [
+   35,
+   "2026-08-16T19:04:31.264535+00:00"
   ]
  }
 }

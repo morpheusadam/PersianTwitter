@@ -86,12 +86,26 @@ def _fetch_bluesky(source: dict, client: httpx.Client) -> list[Item]:
             continue
 
         rkey = uri.rsplit("/", 1)[-1]
+        post_url = f"https://bsky.app/profile/{handle}/post/{rkey}"
+
+        # پست‌های لینک‌دار: خبر مال جای دیگری است و خودِ پست فقط اشاره به آن.
+        # بدون این، دکمه‌ی منبع به bsky.app می‌رفت و عکس هم از همان‌جا برداشته
+        # می‌شد به‌جای کاور مقاله.
+        external = (embed_of(post) or {}).get("external") or {}
+        link = external.get("uri")
+        if link:
+            for extra in (external.get("title"), external.get("description")):
+                if extra and extra.strip() not in text:
+                    text = f"{text}\n\n{extra.strip()}"
+
         items.append(
             Item(
                 uid=uri,
                 label=label,
                 text=text,
-                url=f"https://bsky.app/profile/{handle}/post/{rkey}",
+                url=link or post_url,
+                discussion_url=post_url if link else None,
+                publisher=_publisher(link),
                 published=published,
                 engagement=weigh(
                     like=post.get("likeCount"),
@@ -106,15 +120,22 @@ def _fetch_bluesky(source: dict, client: httpx.Client) -> list[Item]:
     return items
 
 
-def _bluesky_image(post: dict) -> str | None:
+def embed_of(post: dict) -> dict:
+    """embed پست، چه مستقیم باشد چه داخل یک نقل‌قول."""
     embed = post.get("embed") or {}
-    # پست معمولی با عکس، یا نقل‌قولی که عکس را در media گذاشته.
-    images = embed.get("images") or (embed.get("media") or {}).get("images") or []
-    for image in images:
+    return embed.get("media") or embed
+
+
+def _bluesky_image(post: dict) -> str | None:
+    embed = embed_of(post)
+    # پست معمولی با عکس.
+    for image in embed.get("images") or []:
         url = image.get("fullsize") or image.get("thumb")
         if url:
             return url
-    return None
+    # پست لینک‌دار: thumb همان کاور مقاله است که Bluesky کش کرده. کوچک است، پس
+    # فقط وقتی می‌ماند که رفتن سراغ خود مقاله چیزی بهتر ندهد.
+    return ((embed.get("external") or {}).get("thumb")) or None
 
 
 def _fetch_hackernews(source: dict, client: httpx.Client) -> list[Item]:

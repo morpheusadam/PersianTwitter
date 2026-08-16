@@ -2,3 +2,4 @@ httpx==0.28.1
 feedparser==6.0.11
 PyYAML==6.0.2
 Pillow==12.3.0
+trafilatura==2.2.0

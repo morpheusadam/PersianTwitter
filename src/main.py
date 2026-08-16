@@ -14,7 +14,7 @@ from urllib.parse import urlsplit
 import httpx
 import yaml
 
-from . import images, scoring, sources, telegram, translate
+from . import article, images, scoring, sources, telegram, translate
 from .models import Item
 from .state import State
 
@@ -326,6 +326,7 @@ def publish(
     models = settings.get("gemini_models") or ["gemini-2.5-flash"]
     delay = settings.get("seconds_between_posts", 4)
     target = settings.get("max_posts_per_run", 1)
+    scrape_text = settings.get("scrape_article_text", True)
     sent = 0
 
     # در dry-run بدون کلید هم باید بشود شکل خروجی را دید.
@@ -338,10 +339,15 @@ def publish(
             break
 
         if not translating:
-            persian, tag = item.text, ""
+            title, persian, tag = "", item.text, ""
         else:
             try:
-                persian, tag = translate.summarize(item.text, gemini_key, models, client) or (None, "")
+                # متن کامل مقاله را می‌گیریم؛ تیتر تنها برای خلاصه‌ی ۲۵۰
+                # کلمه‌ای کافی نیست و مدل مجبور می‌شد تیتر را بازنویسی کند.
+                full = article.fetch(item.url, client) if scrape_text else None
+                source_text = "\n\n".join(part for part in (item.text, full) if part)
+                result = translate.summarize(source_text, gemini_key, models, client)
+                title, persian, tag = result if result else ("", None, "")
             except translate.TranslationError as exc:
                 # نه mark می‌کنیم نه می‌فرستیم — اجرای بعدی دوباره تلاش می‌کند.
                 log.warning("ترجمه شکست خورد (%s): %s", item.label, exc)
@@ -359,7 +365,7 @@ def publish(
         if args.dry_run:
             print("\n" + "─" * 60)
             print(f"[عکس] {item.image_url or 'assets/fallback.png (پیش‌فرض)'}")
-            print(telegram.build_message(item, persian, telegram.MAX_CAPTION, tag, channel))
+            print(telegram.build_message(item, title, persian, tag, channel))
             buttons = telegram.build_keyboard(item)["inline_keyboard"]
             print("[دکمه‌ها] " + " | ".join(b["text"] for row in buttons for b in row))
             state.mark(item.uid)
@@ -368,7 +374,7 @@ def publish(
             continue
 
         try:
-            telegram.publish(item, persian, token, channel, client, FALLBACK_IMAGE, tag)
+            telegram.publish(item, title, persian, token, channel, client, tag)
         except telegram.TelegramError as exc:
             log.error("ارسال نشد: %s", exc)
             continue
@@ -376,7 +382,7 @@ def publish(
         log.info("ارسال شد: %-18s %s", item.label, "🖼" if item.image_url else "")
         state.mark(item.uid)
         state.count_post("viral" if item.ranked else "editorial", item.label)
-        state.remember(item, persian, datetime.now(timezone.utc))
+        state.remember(item, title or persian, datetime.now(timezone.utc))
         sent += 1
 
         if sent < target:

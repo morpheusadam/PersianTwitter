@@ -1,9 +1,7 @@
 """ارسال پست به کانال از طریق Bot API."""
 
 import html
-import json
 import logging
-from pathlib import Path
 
 import httpx
 
@@ -13,34 +11,51 @@ log = logging.getLogger(__name__)
 
 API = "https://api.telegram.org/bot{token}/{method}"
 
-# سقف تلگرام برای پیام متنی ۴۰۹۶ است و برای caption عکس فقط ۱۰۲۴.
-MAX_TEXT = 3500
-MAX_CAPTION = 900
-
 
 class TelegramError(RuntimeError):
     pass
 
 
-def build_message(item: Item, body: str, limit: int, tag: str = "", channel: str = "") -> str:
-    """سرتیتر، خلاصه، هشتگ موضوعی، و امضای کانال.
+# سقف پیام متنی ۴۰۹۶ است. خلاصه‌ی ۲۵۰ کلمه‌ای فارسی حدود ۱۵۰۰ کاراکتر می‌شود،
+# پس جا هست. caption عکس فقط ۱۰۲۴ می‌گیرد و همین باعث شد از sendPhoto به
+# sendMessage با link preview بزرگ برویم: هم عکس بالای متن می‌آید هم متن کامل جا
+# می‌شود.
+MAX_TEXT = 3500
 
-    هشتگ برای پیدا شدن در جستجوی داخل تلگرام است، و امضا برای وقتی کسی متن را
-    کپی می‌کند به‌جای forward؛ آن‌وقت هیچ ردی از کانال نمی‌ماند.
-    """
+# عکس پیش‌فرض از خودِ repo عمومی سرو می‌شود تا مثل بقیه یک URL داشته باشد و در
+# همان link preview بنشیند.
+FALLBACK_URL = (
+    "https://raw.githubusercontent.com/morpheusadam/persian-tech-tube-bot"
+    "/main/assets/fallback.png"
+)
+
+
+def build_message(
+    item: Item,
+    title: str,
+    body: str,
+    tag: str = "",
+    channel: str = "",
+) -> str:
+    """تیتر، متن، خط منبع، و ردیف هشتگ و امضا."""
+    source = html.escape(item.publisher or item.label)
+    if item.publisher and item.publisher != item.label:
+        source += f"  ·  via {html.escape(item.label)}"
+
     footer = "  ".join(part for part in (tag, _handle(channel)) if part)
-    room = limit - len(footer) - 4
-    if len(body) > room:
-        body = body[:room].rsplit(" ", 1)[0] + "…"
+    fixed = len(source) + len(footer) + len(title) + 12
+    body = body.strip()
+    if len(body) > MAX_TEXT - fixed:
+        body = body[: MAX_TEXT - fixed].rsplit(" ", 1)[0] + "…"
 
-    # وقتی ناشر با منبع فرق دارد هر دو می‌آیند. Hacker News فقط لینک جمع می‌کند
-    # و نوشتن «Hacker News» بالای خبری که مال wptv.com است گمراه‌کننده بود.
-    head = html.escape(item.publisher or item.label)
-    if item.publisher:
-        head += f"  ·  via {html.escape(item.label)}"
-
-    out = f"<b>{head}</b>\n\n{html.escape(body)}"
-    return f"{out}\n\n{html.escape(footer)}" if footer else out
+    parts = []
+    if title:
+        parts.append(f"<b>{html.escape(title)}</b>")
+    parts.append(html.escape(body))
+    parts.append(f"<i>{source}</i>")
+    if footer:
+        parts.append(html.escape(footer))
+    return "\n\n".join(parts)
 
 
 def _handle(channel: str) -> str:
@@ -55,70 +70,62 @@ def build_keyboard(item: Item) -> dict:
     معماری‌ی cron کار می‌کند.
 
     دکمه‌ی کامنت اینجا نیست: کانال گروه بحث لینک‌شده دارد و خود تلگرام ردیف
-    کامنت را زیر هر پست می‌گذارد. ساختن نسخه‌ی خودمان هم شدنی نبود، چون آدرس
-    ترد کامنت به شناسه‌ی پیام در گروه نیاز دارد و Bot API موقع ارسال به کانال
-    آن را برنمی‌گرداند.
+    کامنت را زیر هر پست می‌گذارد.
     """
     return {"inline_keyboard": [[{"text": "source", "url": item.url}]]}
 
 
 def publish(
     item: Item,
+    title: str,
     body: str,
     token: str,
     channel: str,
     client: httpx.Client,
-    fallback: Path | None = None,
     tag: str = "",
 ) -> None:
-    """هر پست با عکس می‌رود.
+    """پست را با عکس بزرگ بالای متن می‌فرستد.
 
-    اگر تصویری پیدا شده باشد تلگرام خودش از URL برمی‌داردش، وگرنه فایل پیش‌فرض
-    آپلود می‌شود. فقط وقتی به پیام متنی برمی‌گردیم که هر دو شکست بخورند، چون
-    خبر بدون عکس بهتر از هیچ خبر است.
+    از sendPhoto استفاده نمی‌کنیم چون caption اش به ۱۰۲۴ کاراکتر محدود است و
+    خلاصه‌های ما بلندترند. link preview همان عکس را بزرگ نشان می‌دهد بدون آن
+    محدودیت.
     """
-    keyboard = build_keyboard(item)
-    caption = build_message(item, body, MAX_CAPTION, tag, channel)
-    result = None
+    text = build_message(item, title, body, tag, channel)
+    preview = {
+        "url": item.image_url or FALLBACK_URL,
+        "prefer_large_media": True,
+        "show_above_text": True,
+    }
 
-    if item.image_url:
-        try:
-            result = _call(
-                "sendPhoto",
-                {
-                    "chat_id": channel,
-                    "photo": item.image_url,
-                    "caption": caption,
-                    "parse_mode": "HTML",
-                    "reply_markup": keyboard,
-                },
-                token,
-                client,
-            )
-        except TelegramError as exc:
-            log.warning("عکس از URL نرفت: %s", exc)
-
-    if result is None and fallback and fallback.exists():
-        try:
-            result = _upload(
-                (fallback.name, fallback.read_bytes()), channel, caption, keyboard, token, client
-            )
-        except TelegramError as exc:
-            log.warning("عکس پیش‌فرض هم نرفت: %s", exc)
-
-    if result is None:
-        result = _call(
+    try:
+        _call(
             "sendMessage",
             {
                 "chat_id": channel,
-                "text": build_message(item, body, MAX_TEXT, tag, channel),
+                "text": text,
                 "parse_mode": "HTML",
-                "link_preview_options": {"is_disabled": True},
-                "reply_markup": keyboard,
+                "link_preview_options": preview,
+                "reply_markup": build_keyboard(item),
             },
             token,
             client,
         )
+        return
+    except TelegramError as exc:
+        log.warning("ارسال با عکس نشد، بدون عکس تلاش می‌کنم: %s", exc)
+
+    _call(
+        "sendMessage",
+        {
+            "chat_id": channel,
+            "text": text,
+            "parse_mode": "HTML",
+            "link_preview_options": {"is_disabled": True},
+            "reply_markup": build_keyboard(item),
+        },
+        token,
+        client,
+    )
 
 
 def _call(method: str, payload: dict, token: str, client: httpx.Client) -> dict:
@@ -127,32 +134,6 @@ def _call(method: str, payload: dict, token: str, client: httpx.Client) -> dict:
         raise TelegramError(f"{method} {resp.status_code}: {resp.text[:300]}")
     result = resp.json().get("result")
     return result if isinstance(result, dict) else {}
-
-
-def _upload(
-    photo: tuple[str, bytes],
-    channel: str,
-    caption: str,
-    keyboard: dict,
-    token: str,
-    client: httpx.Client,
-) -> dict:
-    """عکس را multipart آپلود می‌کند. در multipart همه‌ی فیلدها رشته‌اند."""
-    name, blob = photo
-    resp = client.post(
-        API.format(token=token, method="sendPhoto"),
-        data={
-            "chat_id": channel,
-            "caption": caption,
-            "parse_mode": "HTML",
-            "reply_markup": json.dumps(keyboard),
-        },
-        files={"photo": (name, blob, None)},
-        timeout=90,
-    )
-    if resp.status_code != 200:
-        raise TelegramError(f"sendPhoto(upload) {resp.status_code}: {resp.text[:300]}")
-    return resp.json().get("result") or {}
 
 
 def send_digest(text: str, token: str, channel: str, client: httpx.Client) -> None:
