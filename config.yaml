@@ -1,43 +1,137 @@
-# منابع کانال. هر منبع یکی از دو نوع bluesky یا rss است.
+# منابع و تنظیمات کانال.
 #
-#   bluesky : handle اکانت در Bluesky (بدون @). بدون کلید و بدون محدودیت کار می‌کند.
-#   rss     : هر فید RSS. برای توییتر از xcancel.com/<user>/rss استفاده کنید.
+# چهار نوع منبع:
+#   bluesky    — اکانت در Bluesky. عدد like/repost/reply می‌دهد، پس امتیاز ویروسی می‌گیرد.
+#   hackernews — داستان‌های تازه‌ی HN بالای min_points. عدد points/comments دارد.
+#   lobsters   — صفحه‌ی hottest لابسترز. سیگنالش برای امنیت و سیستم تمیز است.
+#   rss        — هر فید RSS. عدد تعاملی ندارد، پس با authority و تازگی رتبه می‌گیرد.
 #
-# label چیزی است که به‌عنوان نام منبع بالای پست در کانال می‌آید.
+# authority بین ۰ و ۱ — فقط برای منابع rss. یعنی «وقتی هیچ سیگنال تعاملی نداریم،
+# چقدر به این منبع اعتماد کنیم». عدد بالاتر یعنی شانس بیشتر برای انتخاب شدن.
 
 settings:
-  # حداکثر پستی که در هر اجرا فرستاده می‌شود. جلوی سیل پست در اولین اجرا را می‌گیرد.
-  max_posts_per_run: 6
+  # حداکثر پستی که در هر اجرا فرستاده می‌شود.
+  #
+  # این عدد را سقف روزانه‌ی Gemini تعیین می‌کند، نه سلیقه. free tier مدل
+  # gemini-2.5-flash حدود ۲۵۰ درخواست در روز می‌دهد و هر آیتم یک درخواست است.
+  # با cron نیم‌ساعته یعنی ۴۸ اجرا در روز:  3 × 48 = 144 — با حاشیه‌ی امن.
+  # اگر بالا بردید، یا cron را کندتر کنید یا به gemini-2.5-flash-lite بروید که
+  # سقفش ۱۰۰۰ است ولی فارسی‌اش ضعیف‌تر.
+  max_posts_per_run: 3
 
-  # آیتم‌های قدیمی‌تر از این را نادیده بگیر.
-  max_age_hours: 24
+  # چه سهمی از پست‌ها از منابع دارای عدد تعامل بیاید. بقیه از فیدهای خبری.
+  viral_share: 0.6
+
+  # سقف سن برای منابع دارای عدد تعامل. اینجا تازگی حیاتی است چون کل ایده‌ی
+  # امتیاز ویروسی سرعت رشد در ساعات اول است.
+  max_age_hours: 12
+
+  # سقف سن برای فیدهای خبری. بازه‌ی بازتری لازم دارند: سایت‌های خبری آخر هفته
+  # تقریباً چیزی منتشر نمی‌کنند و با ۱۲ ساعت، شنبه و یکشنبه کانال خالی می‌ماند.
+  # تابع زوال زمانی خودش قدیمی‌ترها را ته صف می‌گذارد.
+  editorial_max_age_hours: 48
 
   # فاصله بین ارسال دو پست، برای نخوردن به rate limit تلگرام.
   seconds_between_posts: 4
 
-  # متن کوتاه‌تر از این احتمالاً یک ریپلای یا تکه‌کلام است، نه خبر.
+  # متن کوتاه‌تر از این در فیدهای خبری احتمالاً ریپلای یا تیتر خالی است.
   min_text_length: 80
+  # منابع دارای عدد تعامل عنوان کوتاه دارند ولی خودِ عدد کیفیت را ثابت می‌کند.
+  min_ranked_text_length: 30
+
+  # اگر آیتم عکس نداشت، og:image صفحه‌ی مقاله را بردار.
+  fetch_og_image: true
 
   # مدل Gemini. free tier.
   gemini_model: gemini-2.5-flash
 
 sources:
+  # ─────────────────────────────────────────────── سیگنال ویروسی (عدد تعامل دارند)
+
+  - type: hackernews
+    label: Hacker News
+    min_points: 50
+
+  - type: lobsters
+    label: Lobsters
+    # لابسترز جامعه‌ی کوچکی است و امتیازهایش یک رقمی؛ بدون این کف، یک پست
+    # ۳ امتیازی از یک بحث ۲۰۰ امتیازی HN جلو می‌زند.
+    min_engagement: 25
+
   - type: bluesky
     handle: simonwillison.net
     label: Simon Willison
+    min_engagement: 20
+
+  # ─────────────────────────────────────────────────────────── امنیت و هک
+
+  - type: rss
+    url: https://feeds.feedburner.com/TheHackersNews
+    label: The Hacker News
+    authority: 0.9
+
+  - type: rss
+    url: https://www.bleepingcomputer.com/feed/
+    label: BleepingComputer
+    authority: 0.9
+
+  - type: rss
+    url: https://krebsonsecurity.com/feed/
+    label: Krebs on Security
+    authority: 0.95
+
+  - type: rss
+    url: https://therecord.media/feed
+    label: The Record
+    authority: 0.8
+
+  - type: rss
+    url: https://www.darkreading.com/rss.xml
+    label: Dark Reading
+    authority: 0.75
+
+  # ────────────────────────────────────────────────────────── هوش مصنوعی
 
   - type: rss
     url: https://techcrunch.com/category/artificial-intelligence/feed/
     label: TechCrunch AI
+    authority: 0.8
+
+  - type: rss
+    url: https://venturebeat.com/category/ai/feed/
+    label: VentureBeat AI
+    authority: 0.7
+
+  - type: rss
+    url: https://openai.com/news/rss.xml
+    label: OpenAI
+    authority: 0.9
+
+  - type: rss
+    url: https://blog.google/technology/ai/rss/
+    label: Google AI
+    authority: 0.85
+
+  - type: rss
+    url: https://huggingface.co/blog/feed.xml
+    label: Hugging Face
+    authority: 0.7
+
+  # ───────────────────────────────────────────────────── تکنولوژی عمومی
 
   - type: rss
     url: https://feeds.arstechnica.com/arstechnica/technology-lab
     label: Ars Technica
+    authority: 0.85
 
-  # Hacker News عمداً اینجا نیست: فید hnrss فقط عنوان و لینک می‌دهد و متنی ندارد
-  # که خلاصه شود، پس تقریباً همه‌ی آیتم‌هایش به min_text_length می‌خورند.
+  - type: rss
+    url: https://www.technologyreview.com/feed/
+    label: MIT Tech Review
+    authority: 0.8
 
-  # نمونه‌ی توییتر از طریق xcancel. اگر instance مرد، فقط این خط را عوض کنید.
+  # نمونه‌ی توییتر از طریق xcancel. instance ها هر چند ماه می‌میرند؛ اگر از کار
+  # افتاد فقط همین خط را عوض کنید — بقیه‌ی اجرا متوقف نمی‌شود.
   # - type: rss
   #   url: https://xcancel.com/OpenAI/rss
-  #   label: OpenAI
+  #   label: OpenAI on X
+  #   authority: 0.6

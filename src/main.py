@@ -1,7 +1,8 @@
-"""جمع‌آوری پست‌های تکنولوژی، خلاصه به فارسی، ارسال به کانال تلگرام."""
+"""جمع‌آوری اخبار تکنولوژی و امنیت، رتبه‌بندی، خلاصه به فارسی، ارسال به تلگرام."""
 
 import argparse
 import logging
+import math
 import os
 import sys
 import time
@@ -11,7 +12,7 @@ from pathlib import Path
 import httpx
 import yaml
 
-from . import sources, telegram, translate
+from . import scoring, sources, telegram, translate
 from .models import Item
 from .state import State
 
@@ -26,6 +27,11 @@ def main() -> int:
         "--dry-run",
         action="store_true",
         help="چیزی نفرست و state را ذخیره نکن؛ فقط نشان بده چه پستی می‌رفت.",
+    )
+    parser.add_argument(
+        "--explain",
+        action="store_true",
+        help="جدول امتیازها را چاپ کن تا ببینی الگوریتم چه چیزی را چرا انتخاب کرد.",
     )
     parser.add_argument("--config", default=ROOT / "config.yaml", type=Path)
     parser.add_argument("--state", default=ROOT / "state.json", type=Path)
@@ -61,16 +67,17 @@ def main() -> int:
 
     state = State(args.state)
     if state.is_first_run:
-        log.info("اولین اجرا — فقط جدیدترین پست‌ها می‌روند، بقیه seen علامت می‌خورند.")
+        log.info("اولین اجرا — فقط بهترین‌ها می‌روند، بقیه seen علامت می‌خورند.")
 
     with httpx.Client(timeout=30, follow_redirects=True) as client:
         items = collect(config.get("sources", []), client)
-        fresh = select(items, state, settings)
+        chosen = select(items, state, settings, explain=args.explain)
 
-        if not fresh:
+        if not chosen:
             log.info("چیز جدیدی نبود.")
         else:
-            publish(fresh, state, settings, client, args, token, channel, gemini_key)
+            enrich_images(chosen, settings, client)
+            publish(chosen, state, settings, client, args, token, channel, gemini_key)
 
     # در اولین اجرا هرچه پست نشد را seen می‌کنیم تا اجرای بعد سیل راه نیفتد.
     if state.is_first_run:
@@ -101,35 +108,87 @@ def collect(source_configs: list[dict], client: httpx.Client) -> list[Item]:
     """همه‌ی منابع را می‌خواند. مرگ یک منبع نباید کل اجرا را زمین بزند."""
     items: list[Item] = []
     for source in source_configs:
-        label = source.get("label", source.get("handle") or source.get("url"))
+        label = source.get("label") or source.get("handle") or source.get("url")
         try:
             got = sources.fetch(source, client)
         except Exception as exc:
             log.warning("منبع %s خوانده نشد: %s", label, exc)
             continue
-        log.info("%-18s %d آیتم", label, len(got))
+        log.info("%-20s %d آیتم", label, len(got))
         items.extend(got)
     return items
 
 
-def select(items: list[Item], state: State, settings: dict) -> list[Item]:
-    """آیتم‌های تازه و به‌دردبخور، مرتب‌شده از قدیم به جدید."""
-    cutoff = datetime.now(timezone.utc) - timedelta(hours=settings.get("max_age_hours", 24))
-    min_length = settings.get("min_text_length", 80)
+def select(items: list[Item], state: State, settings: dict, explain: bool = False) -> list[Item]:
+    """بهترین آیتم‌ها را با الگوریتم رتبه‌بندی انتخاب می‌کند.
 
-    candidates = [
+    دو استخر جدا: منابعی که عدد تعامل دارند با امتیاز ویروسی، و فیدهای خبری با
+    اعتبار و تازگی. سهم هرکدام با viral_share تعیین می‌شود. اگر یک استخر به
+    سهمش نرسد، سهم استفاده‌نشده به آن یکی می‌رسد.
+    """
+    now = datetime.now(timezone.utc)
+    viral_cutoff = now - timedelta(hours=settings.get("max_age_hours", 12))
+    editorial_cutoff = now - timedelta(hours=settings.get("editorial_max_age_hours", 48))
+    min_text = settings.get("min_text_length", 80)
+    min_ranked_text = settings.get("min_ranked_text_length", 30)
+
+    fresh = [
         item
         for item in items
-        if not state.has(item.uid) and item.published >= cutoff and len(item.text) >= min_length
+        if not state.has(item.uid)
+        and item.published >= (viral_cutoff if item.ranked else editorial_cutoff)
+        and len(item.text) >= (min_ranked_text if item.ranked else min_text)
     ]
 
-    # جدیدترین‌ها را انتخاب کن، ولی به ترتیب زمانی پست کن.
-    candidates.sort(key=lambda i: i.published, reverse=True)
-    chosen = candidates[: settings.get("max_posts_per_run", 6)]
-    chosen.reverse()
+    ranked = scoring.rank(fresh)
+    viral = [i for i in ranked if i.ranked]
+    editorial = [i for i in ranked if not i.ranked]
 
-    log.info("%d آیتم تازه، %d تا برای این اجرا", len(candidates), len(chosen))
+    total = settings.get("max_posts_per_run", 8)
+    viral_quota = math.ceil(total * settings.get("viral_share", 0.6))
+
+    chosen = viral[:viral_quota]
+    chosen += editorial[: total - len(chosen)]
+    # اگر خبرها کم بودند، جای خالی را از استخر ویروسی پر کن.
+    if len(chosen) < total:
+        already = {i.uid for i in chosen}
+        chosen += [i for i in viral if i.uid not in already][: total - len(chosen)]
+
+    log.info(
+        "%d تازه (%d ویروسی، %d خبری) → %d انتخاب",
+        len(fresh),
+        len(viral),
+        len(editorial),
+        len(chosen),
+    )
+    if explain:
+        _explain(chosen)
+
+    # انتخاب بر اساس امتیاز، ولی ارسال به ترتیب زمانی.
+    chosen.sort(key=lambda i: i.published)
     return chosen
+
+
+def _explain(chosen: list[Item]) -> None:
+    print("\n" + "─" * 78)
+    print(f"{'score':>8}  {'source':<18}  detail")
+    print("─" * 78)
+    for item in chosen:
+        detail = "  ".join(f"{k}={v}" for k, v in item.breakdown.items())
+        print(f"{item.score:8.4f}  {item.label:<18}  {detail}")
+        print(f"{'':8}  {'':<18}  {item.text[:70]}")
+    print("─" * 78 + "\n")
+
+
+def enrich_images(items: list[Item], settings: dict, client: httpx.Client) -> None:
+    """برای آیتم‌هایی که عکس ندارند og:image صفحه را می‌گیرد."""
+    if not settings.get("fetch_og_image", True):
+        return
+
+    for item in items:
+        if item.image_url or not item.url.startswith("http"):
+            continue
+        item.image_url = sources.fetch_og_image(item.url, client)
 
 
 def publish(
@@ -166,21 +225,24 @@ def publish(
             state.mark(item.uid)
             continue
 
-        message = telegram.build_message(item.label, persian, item.url)
-
         if args.dry_run:
+            limit = telegram.MAX_CAPTION if item.image_url else telegram.MAX_TEXT
             print("\n" + "─" * 60)
-            print(message)
+            if item.image_url:
+                print(f"[عکس] {item.image_url}")
+            print(telegram.build_message(item.label, persian, item.url, limit))
             state.mark(item.uid)
             continue
 
         try:
-            telegram.send(message, token, channel, client)
+            telegram.publish(
+                item.label, persian, item.url, item.image_url, token, channel, client
+            )
         except telegram.TelegramError as exc:
             log.error("ارسال نشد: %s", exc)
             continue
 
-        log.info("ارسال شد: %s", item.label)
+        log.info("ارسال شد: %-18s %s", item.label, "🖼" if item.image_url else "")
         state.mark(item.uid)
 
         if index < len(items) - 1:
