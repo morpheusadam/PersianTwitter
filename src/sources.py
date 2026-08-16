@@ -23,12 +23,6 @@ UA = {"User-Agent": "Mozilla/5.0 (compatible; persian-tech-tube-bot)"}
 _TAG = re.compile(r"<[^>]+>")
 _WS = re.compile(r"[ \t]*\n[ \t]*")
 _IMG_SRC = re.compile(r'<img[^>]+src=["\']([^"\']+)["\']', re.IGNORECASE)
-_OG_IMAGE = re.compile(
-    r'<meta[^>]+(?:property|name)=["\']og:image["\'][^>]+content=["\']([^"\']+)["\']'
-    r'|<meta[^>]+content=["\']([^"\']+)["\'][^>]+(?:property|name)=["\']og:image["\']',
-    re.IGNORECASE,
-)
-
 # hnrss و فیدهای مشابه هر آیتم را با این سطرها پر می‌کنند؛ برای مدل فقط نویز است.
 _BOILERPLATE = re.compile(
     r"^[ \t]*(Article URL|Comments URL|Points|# Comments)\s*:.*$",
@@ -277,27 +271,6 @@ def _rss_image(entry) -> str | None:
     # بعضی فیدها عکس را فقط داخل HTML خلاصه می‌گذارند.
     match = _IMG_SRC.search(entry.get("summary", ""))
     return match.group(1) if match else None
-
-
-def fetch_og_image(url: str, client: httpx.Client) -> str | None:
-    """og:image صفحه‌ی مقاله — برای فیدهایی که خودشان عکس نمی‌دهند.
-
-    فقط برای آیتم‌هایی صدا زده می‌شود که واقعاً قرار است پست شوند، وگرنه هر اجرا
-    ده‌ها درخواست اضافه می‌شد.
-    """
-    try:
-        resp = client.get(url, headers=UA, timeout=15)
-        resp.raise_for_status()
-        # صفحه‌های خبری سنگین‌اند و og:image همیشه در head است.
-        match = _OG_IMAGE.search(resp.text[:200_000])
-    except Exception as exc:
-        log.debug("og:image خوانده نشد (%s): %s", url, exc)
-        return None
-
-    if not match:
-        return None
-    found = match.group(1) or match.group(2)
-    return found if found and found.startswith("http") else None
 
 
 # ────────────────────────────────────────────────────────────────────── کمکی‌ها

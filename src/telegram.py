@@ -1,7 +1,9 @@
 """ارسال پست به کانال از طریق Bot API."""
 
 import html
+import json
 import logging
+from pathlib import Path
 
 import httpx
 
@@ -44,14 +46,16 @@ def publish(
     token: str,
     channel: str,
     client: httpx.Client,
+    fallback: Path | None = None,
 ) -> None:
-    """اگر عکس باشد با عکس می‌فرستد، وگرنه متنی.
+    """هر پست با عکس می‌رود.
 
-    تلگرام خودش عکس را از URL برمی‌دارد، پس فایلی دانلود نمی‌کنیم. ولی گاهی به
-    عکس نمی‌رسد یا فرمتش را نمی‌پذیرد؛ در آن حالت به پیام متنی برمی‌گردیم تا خبر
-    به‌خاطر یک عکس از دست نرود.
+    اگر تصویری پیدا شده باشد تلگرام خودش از URL برمی‌داردش. اگر نه، فایل
+    پیش‌فرض را آپلود می‌کنیم. فقط وقتی به پیام متنی برمی‌گردیم که هر دو شکست
+    بخورند، چون خبر بدون عکس بهتر از هیچ خبر است.
     """
     keyboard = build_keyboard(item)
+    caption = build_message(item.label, body, MAX_CAPTION)
 
     if item.image_url:
         try:
@@ -60,7 +64,7 @@ def publish(
                 {
                     "chat_id": channel,
                     "photo": item.image_url,
-                    "caption": build_message(item.label, body, MAX_CAPTION),
+                    "caption": caption,
                     "parse_mode": "HTML",
                     "reply_markup": keyboard,
                 },
@@ -69,7 +73,14 @@ def publish(
             )
             return
         except TelegramError as exc:
-            log.warning("عکس فرستاده نشد، متنی می‌فرستم: %s", exc)
+            log.warning("عکس از URL نرفت: %s", exc)
+
+    if fallback and fallback.exists():
+        try:
+            _upload(fallback, channel, caption, keyboard, token, client)
+            return
+        except TelegramError as exc:
+            log.warning("عکس پیش‌فرض هم نرفت: %s", exc)
 
     _call(
         "sendMessage",
@@ -89,3 +100,28 @@ def _call(method: str, payload: dict, token: str, client: httpx.Client) -> None:
     resp = client.post(API.format(token=token, method=method), json=payload, timeout=60)
     if resp.status_code != 200:
         raise TelegramError(f"{method} {resp.status_code}: {resp.text[:300]}")
+
+
+def _upload(
+    path: Path,
+    channel: str,
+    caption: str,
+    keyboard: dict,
+    token: str,
+    client: httpx.Client,
+) -> None:
+    """فایل محلی را multipart آپلود می‌کند. در multipart همه‌چیز رشته است."""
+    with path.open("rb") as handle:
+        resp = client.post(
+            API.format(token=token, method="sendPhoto"),
+            data={
+                "chat_id": channel,
+                "caption": caption,
+                "parse_mode": "HTML",
+                "reply_markup": json.dumps(keyboard),
+            },
+            files={"photo": (path.name, handle, "image/jpeg")},
+            timeout=90,
+        )
+    if resp.status_code != 200:
+        raise TelegramError(f"sendPhoto(upload) {resp.status_code}: {resp.text[:300]}")

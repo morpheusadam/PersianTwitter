@@ -11,11 +11,12 @@ from pathlib import Path
 import httpx
 import yaml
 
-from . import scoring, sources, telegram, translate
+from . import images, scoring, sources, telegram, translate
 from .models import Item
 from .state import State
 
 ROOT = Path(__file__).resolve().parent.parent
+FALLBACK_IMAGE = ROOT / "assets" / "fallback.jpg"
 
 log = logging.getLogger("bot")
 
@@ -207,14 +208,10 @@ def _explain(chosen: list[Item]) -> None:
 
 
 def enrich_images(items: list[Item], settings: dict, client: httpx.Client) -> None:
-    """برای آیتم‌هایی که عکس ندارند og:image صفحه را می‌گیرد."""
-    if not settings.get("fetch_og_image", True):
-        return
-
+    """هر آیتم را به یک تصویر معتبر می‌رساند، وگرنه به عکس پیش‌فرض می‌افتد."""
+    scrape = settings.get("scrape_images", True)
     for item in items:
-        if item.image_url or not item.url.startswith("http"):
-            continue
-        item.image_url = sources.fetch_og_image(item.url, client)
+        images.resolve(item, client, enabled=scrape)
 
 
 def publish(
@@ -252,11 +249,9 @@ def publish(
             continue
 
         if args.dry_run:
-            limit = telegram.MAX_CAPTION if item.image_url else telegram.MAX_TEXT
             print("\n" + "─" * 60)
-            if item.image_url:
-                print(f"[عکس] {item.image_url}")
-            print(telegram.build_message(item.label, persian, limit))
+            print(f"[عکس] {item.image_url or 'assets/fallback.jpg (پیش‌فرض)'}")
+            print(telegram.build_message(item.label, persian, telegram.MAX_CAPTION))
             buttons = telegram.build_keyboard(item)["inline_keyboard"]
             print("[دکمه‌ها] " + " | ".join(b["text"] for row in buttons for b in row))
             state.mark(item.uid)
@@ -264,7 +259,7 @@ def publish(
             continue
 
         try:
-            telegram.publish(item, persian, token, channel, client)
+            telegram.publish(item, persian, token, channel, client, FALLBACK_IMAGE)
         except telegram.TelegramError as exc:
             log.error("ارسال نشد: %s", exc)
             continue

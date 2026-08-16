@@ -140,7 +140,11 @@ Twitter and X accounts work through [xcancel.com](https://xcancel.com) RSS bridg
 
 ## Other things it does
 
-Images come from Bluesky embeds, RSS media tags, or the article's `og:image`, and go out through `sendPhoto`. If Telegram rejects an image the post falls back to text instead of being dropped.
+Every post carries an image. The bot tries four things in order: whatever the feed or Bluesky embed gave it, then `og:image` or `twitter:image` on the article page, then the images inside the article body, and finally `assets/fallback.jpg`, which it uploads directly. Candidates are validated before use, since a broken URL makes `sendPhoto` fail and would otherwise cost the post its picture.
+
+The article page is fetched with a browser user agent. With a bot-looking one, many publishers answer 403 and no image is ever found. Sites behind a JavaScript challenge still cannot be read, and those fall through to the default image.
+
+Icons, logos, avatars, sprites, and tracking pixels are filtered out by name, and SVG is skipped because Telegram will not accept it.
 
 Each post carries inline buttons: the source article, and the Hacker News or Lobsters discussion when there is one. Both are `url` buttons rather than `callback_data`, which matters because a `url` button needs no running backend. A callback button would require something alive to answer it, and this bot only exists for the sixty seconds a cron job takes.
 
