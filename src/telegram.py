@@ -2,7 +2,6 @@
 
 import html
 import logging
-from urllib.parse import quote
 
 import httpx
 
@@ -11,7 +10,6 @@ from .models import Item
 log = logging.getLogger(__name__)
 
 API = "https://api.telegram.org/bot{token}/{method}"
-SHARE = "https://t.me/share/url?url={url}&text={text}"
 
 # سقف تلگرام برای پیام متنی ۴۰۹۶ است و برای caption عکس فقط ۱۰۲۴.
 MAX_TEXT = 3500
@@ -28,21 +26,16 @@ def build_message(label: str, body: str, limit: int) -> str:
     return f"<b>{html.escape(label)}</b>\n\n{html.escape(body)}"
 
 
-def build_keyboard(item: Item, body: str = "") -> dict:
+def build_keyboard(item: Item) -> dict:
     """دکمه‌های زیر پست.
 
-    همه از نوع url هستند، نه callback. یعنی هیچ backend زنده‌ای نمی‌خواهند و
+    هر دو از نوع url هستند، نه callback. یعنی هیچ backend زنده‌ای نمی‌خواهند و
     روی همین معماری‌ی cron کار می‌کنند. دکمه‌ی callback به handler نیاز داشت.
     """
     row = [{"text": "📄 منبع", "url": item.url}]
     if item.discussion_url and item.discussion_url != item.url:
         row.append({"text": "💬 بحث", "url": item.discussion_url})
-
-    # متن پیش‌فرضِ اشتراک‌گذاری خودِ خلاصه‌ی فارسی است. نام منبع به‌تنهایی به
-    # کسی که لینک را می‌گیرد هیچ نمی‌گوید.
-    caption = (body or item.label)[:180]
-    share = SHARE.format(url=quote(item.url, safe=""), text=quote(caption, safe=""))
-    return {"inline_keyboard": [row, [{"text": "↗️ اشتراک‌گذاری", "url": share}]]}
+    return {"inline_keyboard": [row]}
 
 
 def publish(
@@ -58,7 +51,7 @@ def publish(
     عکس نمی‌رسد یا فرمتش را نمی‌پذیرد؛ در آن حالت به پیام متنی برمی‌گردیم تا خبر
     به‌خاطر یک عکس از دست نرود.
     """
-    keyboard = build_keyboard(item, body)
+    keyboard = build_keyboard(item)
 
     if item.image_url:
         try:
