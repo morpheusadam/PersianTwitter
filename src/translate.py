@@ -20,8 +20,18 @@ PROMPT = """\
 
 خروجی دقیقاً این ساختار را دارد:
 
-خط اول: فقط یکی از این پنج کلمه، بدون هیچ چیز اضافه.
+خط اول: یکی از این پنج دسته، و بعد از آن صفر تا دو برچسب از فهرست دوم،
+همه با فاصله. فقط همین کلمات، دقیقاً با همین املا. چیزی از خودت نساز.
+
+دسته (حتماً یکی):
 AI · SECURITY · PROGRAMMING · NETWORK · TECH
+
+برچسب (اختیاری، حداکثر دو تا، فقط اگر واقعاً موضوع متن است):
+LINUX WINDOWS ANDROID APPLE GOOGLE MICROSOFT OPENSOURCE PYTHON JAVASCRIPT
+RUST MALWARE RANSOMWARE BREACH VULNERABILITY PHISHING CRYPTO CLOUD DATABASE
+MOBILE HARDWARE CHIP STARTUP PRIVACY LLM CHATBOT BROWSER GAMEDEV DEVOPS
+
+نمونه‌ی خط اول:  SECURITY RANSOMWARE WINDOWS
 
 خط دوم: یک تیتر فارسی کوتاه، حداکثر دوازده کلمه، بدون نقطه‌ی پایانی.
 
@@ -138,6 +148,42 @@ TAGS = {
     "TECH": "#تکنولوژی",
 }
 
+# برچسب‌های مشخص. کسی «#تکنولوژی» را جستجو نمی‌کند ولی «#باج_افزار» را می‌کند.
+# واژگان بسته است تا املا هر بار یکی باشد؛ هشتگی که کمی فرق کند حجم جمع نمی‌کند.
+EXTRA = {
+    "LINUX": "#لینوکس",
+    "WINDOWS": "#ویندوز",
+    "ANDROID": "#اندروید",
+    "APPLE": "#اپل",
+    "GOOGLE": "#گوگل",
+    "MICROSOFT": "#مایکروسافت",
+    "OPENSOURCE": "#متن_باز",
+    "PYTHON": "#پایتون",
+    "JAVASCRIPT": "#جاوااسکریپت",
+    "RUST": "#Rust",
+    "MALWARE": "#بدافزار",
+    "RANSOMWARE": "#باج_افزار",
+    "BREACH": "#نشت_اطلاعات",
+    "VULNERABILITY": "#آسیب_پذیری",
+    "PHISHING": "#فیشینگ",
+    "CRYPTO": "#رمزارز",
+    "CLOUD": "#کلاد",
+    "DATABASE": "#دیتابیس",
+    "MOBILE": "#موبایل",
+    "HARDWARE": "#سخت_افزار",
+    "CHIP": "#تراشه",
+    "STARTUP": "#استارتاپ",
+    "PRIVACY": "#حریم_خصوصی",
+    "LLM": "#مدل_زبانی",
+    "CHATBOT": "#چت_بات",
+    "BROWSER": "#مرورگر",
+    "GAMEDEV": "#بازی_سازی",
+    "DEVOPS": "#DevOps",
+}
+
+# بیشتر از این، پست اسپم به نظر می‌رسد و forward نمی‌شود.
+MAX_TAGS = 3
+
 
 def _split(out: str) -> tuple[str, str, str]:
     """خروجی مدل را به تیتر، متن و هشتگ می‌شکند.
@@ -148,9 +194,14 @@ def _split(out: str) -> tuple[str, str, str]:
     lines = [line.strip() for line in out.splitlines()]
     tag = TAGS["TECH"]
 
-    key = lines[0].strip("#*· ").upper() if lines else ""
-    if key in TAGS:
-        tag = TAGS[key]
+    words = lines[0].replace("·", " ").replace(",", " ").split() if lines else []
+    keys = [w.strip("#*").upper() for w in words]
+    if keys and keys[0] in TAGS:
+        picked = [TAGS[keys[0]]]
+        for key in keys[1:]:
+            if key in EXTRA and EXTRA[key] not in picked:
+                picked.append(EXTRA[key])
+        tag = "  ".join(picked[:MAX_TAGS])
         lines = lines[1:]
 
     while lines and not lines[0]:

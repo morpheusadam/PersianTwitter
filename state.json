@@ -81,17 +81,20 @@
   "hn:49321353",
   "hn:49321717",
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mt7ocruk772i",
-  "https://www.bleepingcomputer.com/news/security/hackers-exploit-macos-screen-sharing-flaw-to-deploy-monero-miner/"
+  "https://www.bleepingcomputer.com/news/security/hackers-exploit-macos-screen-sharing-flaw-to-deploy-monero-miner/",
+  "hn:49319727",
+  "hn:49319814"
  ],
  "posted": {
-  "viral": 5,
+  "viral": 6,
   "editorial": 6
  },
  "recent_labels": [
   "404 Media",
   "The Record",
   "404 Media",
-  "BleepingComputer"
+  "BleepingComputer",
+  "Hacker News"
  ],
  "last_digest": "",
  "history": [
@@ -122,6 +125,13 @@
    "source": "BleepingComputer",
    "score": 0.00068,
    "at": "2026-08-16T19:25:35.337819+00:00"
+  },
+  {
+   "title": "یک هوش مصنوعی عمومی با حافظه اشتراکی برای همه کاربران",
+   "url": "https://wildstatic.com/",
+   "source": "wildstatic.com",
+   "score": 0.0582,
+   "at": "2026-08-16T19:35:21.918975+00:00"
   }
  ],
  "snapshots": {
@@ -134,32 +144,32 @@
    "2026-08-16T19:21:09.721835+00:00"
   ],
   "hn:49319814": [
-   133,
-   "2026-08-16T19:25:14.918901+00:00"
+   134,
+   "2026-08-16T19:34:50.162220+00:00"
   ],
   "hn:49319727": [
-   227,
-   "2026-08-16T19:25:14.918901+00:00"
+   228,
+   "2026-08-16T19:34:50.162220+00:00"
   ],
   "hn:49319349": [
-   75,
-   "2026-08-16T19:25:14.918901+00:00"
+   76,
+   "2026-08-16T19:34:50.162220+00:00"
   ],
   "hn:49318906": [
    294,
-   "2026-08-16T19:25:14.918901+00:00"
+   "2026-08-16T19:34:50.162220+00:00"
   ],
   "hn:49317760": [
-   624,
-   "2026-08-16T19:25:14.918901+00:00"
+   628,
+   "2026-08-16T19:34:50.162220+00:00"
   ],
   "hn:49317546": [
    193,
    "2026-08-16T18:50:34.583307+00:00"
   ],
   "lobsters:hnx6id": [
-   29,
-   "2026-08-16T19:25:14.918901+00:00"
+   30,
+   "2026-08-16T19:34:50.162220+00:00"
   ],
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mt7ocruk772i": [
    216,
@@ -171,15 +181,15 @@
   ],
   "at://did:plc:ipt7y6qaf6fn7oeeduboqe44/app.bsky.feed.post/3mt6sss6n322t": [
    48,
-   "2026-08-16T19:25:14.918901+00:00"
+   "2026-08-16T19:34:50.162220+00:00"
   ],
   "at://did:plc:x2nsupeeo52oznrmplwapppl/app.bsky.feed.post/3mt7c4it7tv2v": [
    35,
-   "2026-08-16T19:25:14.918901+00:00"
+   "2026-08-16T19:34:50.162220+00:00"
   ],
   "hn:49322107": [
-   61,
-   "2026-08-16T19:25:14.918901+00:00"
+   70,
+   "2026-08-16T19:34:50.162220+00:00"
   ]
  }
 }
