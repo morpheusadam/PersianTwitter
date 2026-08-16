@@ -224,7 +224,7 @@ def publish(
     channel: str,
     gemini_key: str,
 ) -> None:
-    model = settings.get("gemini_model", "gemini-2.5-flash")
+    models = settings.get("gemini_models") or [settings.get("gemini_model", "gemini-2.5-flash")]
     delay = settings.get("seconds_between_posts", 4)
 
     # در dry-run بدون کلید هم باید بشود شکل خروجی را دید.
@@ -237,7 +237,7 @@ def publish(
             persian = item.text
         else:
             try:
-                persian = translate.summarize(item.text, gemini_key, model, client)
+                persian = translate.summarize(item.text, gemini_key, models, client)
             except translate.TranslationError as exc:
                 # نه mark می‌کنیم نه می‌فرستیم — اجرای بعدی دوباره تلاش می‌کند.
                 log.warning("ترجمه شکست خورد (%s): %s", item.label, exc)

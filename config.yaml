@@ -51,8 +51,19 @@ settings:
   # ماست، پس ظاهر شیشه‌ای همان‌جا ساخته می‌شود.
   glass_cover: true
 
-  # مدل Gemini. free tier.
-  gemini_model: gemini-2.5-flash
+  # مدل‌های Gemini، به ترتیب اولویت.
+  #
+  # سهمیه‌ی free tier «به ازای هر مدل در روز» است و برای هر کدام فقط ۲۰ درخواست.
+  # quotaId اش این را صریح می‌گوید: GenerateRequestsPerDayPerProjectPerModel.
+  # پس با یک مدل روزی ۲۰ پست سقف ماست. با چرخیدن بین چند مدل، بودجه چند برابر
+  # می‌شود بدون یک ریال هزینه. وقتی یکی 429 داد، بعدی امتحان می‌شود.
+  #
+  # gemma جواب می‌دهد ولی دستور را نادیده می‌گیرد و متن meta می‌نویسد، پس نیست.
+  gemini_models:
+    - gemini-3.1-flash-lite
+    - gemini-3.5-flash-lite
+    - gemini-3-flash-preview
+    - gemini-2.5-flash
 
 sources:
   # ─────────────────────────────────────────────── سیگنال ویروسی (عدد تعامل دارند)

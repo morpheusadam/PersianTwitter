@@ -67,10 +67,11 @@
   "https://arstechnica.com/security/2026/07/windows-0-day-drops-the-same-day-microsoft-releases-record-number-of-patches/",
   "https://www.bleepingcomputer.com/news/security/new-evooo1bot-linux-botnet-turns-routers-into-traffic-relay-nodes/",
   "hn:49319566",
-  "hn:49319633"
+  "hn:49319633",
+  "https://www.bleepingcomputer.com/news/security/new-amnesiastealer-macos-malware-hijacks-browser-sessions-via-remote-control/"
  ],
  "posted": {
   "viral": 1,
-  "editorial": 0
+  "editorial": 1
  }
 }

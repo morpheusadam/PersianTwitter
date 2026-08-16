@@ -197,11 +197,21 @@ Everything except the three secrets lives in [`config.yaml`](config.yaml).
 | `min_text_length` | 80 | Below this, an RSS item is usually an empty headline |
 | `min_ranked_text_length` | 30 | Lower, because engagement already proves the item |
 | `fetch_og_image` | true | Scrape `og:image` when a feed gives no picture |
-| `gemini_model` | `gemini-2.5-flash` | Any Gemini model id |
+| `gemini_models` | four flash models | Tried in order; a 429 moves to the next |
 
 Per source you can set `label`, plus `authority` for RSS feeds, `min_engagement` for the viral pool, and `min_points` for Hacker News.
 
-The Gemini free tier sets the ceiling on all of this. Each item costs one request, including ones the model answers `SKIP` to, and `gemini-2.5-flash` allows roughly 250 requests a day. A thirty minute cron is 48 runs, so one post per run costs at most 48 requests a day. Keep `runs_per_day × max_posts_per_run` under 250, or switch to `gemini-2.5-flash-lite`, which allows about 1000 requests a day but writes weaker Persian.
+The Gemini free tier sets the ceiling on all of this, and it is tighter than the docs suggest. Each item costs one request, including ones the model answers `SKIP` to, and the limit is **20 requests per day**. The quota id says exactly what it counts:
+
+```
+quotaId:    GenerateRequestsPerDayPerProjectPerModel-FreeTier
+quotaValue: 20
+model:      gemini-2.5-flash
+```
+
+The useful part is `PerModel`. The 20 is charged per model, not per account, so `gemini_models` lists several and the bot moves to the next one when it gets a 429. Four models is 80 requests a day at no cost, which covers a 48 run schedule with room left over. A 503 means the model is busy rather than spent, so that one gets retried with backoff before the bot gives up on it.
+
+Gemma models answer but ignore the prompt and write commentary about the task instead of the summary, so they are not in the list.
 
 ## Why some obvious sources are missing
 
@@ -236,7 +246,7 @@ Dependencies are `httpx`, `feedparser`, and `PyYAML`. Nothing else.
 | Bluesky API | Free, open, no auth |
 | Hacker News Algolia API | Free |
 | Lobsters JSON | Free |
-| Google Gemini | Free tier, about 250 requests a day |
+| Google Gemini | Free tier, 20 requests a day per model |
 | GitHub Actions | Free, unlimited minutes on public repos |
 | Telegram Bot API | Free |
 

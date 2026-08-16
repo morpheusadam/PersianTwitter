@@ -7,9 +7,11 @@ import httpx
 
 log = logging.getLogger(__name__)
 
-# free tier مرتب 429 و 503 می‌دهد و هر دو گذرا هستند.
-RETRY_ON = {429, 500, 503}
-ATTEMPTS = 4
+# 503 یعنی مدل شلوغ است و چند ثانیه بعد جواب می‌دهد. 429 فرق دارد: سهمیه‌ی
+# روزانه‌ی آن مدل تمام شده و صبرکردن فایده ندارد.
+BUSY = {500, 503}
+EXHAUSTED = 429
+ATTEMPTS = 3
 
 ENDPOINT = "https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent"
 
@@ -40,14 +42,38 @@ class TranslationError(RuntimeError):
     pass
 
 
-def summarize(text: str, api_key: str, model: str, client: httpx.Client) -> str | None:
-    """خلاصه‌ی فارسی برمی‌گرداند، یا None اگر مدل تشخیص داد ارزش پست‌کردن ندارد."""
+def summarize(text: str, api_key: str, models: list[str], client: httpx.Client) -> str | None:
+    """خلاصه‌ی فارسی برمی‌گرداند، یا None اگر مدل تشخیص داد ارزش پست‌کردن ندارد.
 
+    سهمیه‌ی رایگان Gemini «به ازای هر مدل در روز» است، نه کل حساب. پس وقتی یک
+    مدل سهمیه‌اش تمام می‌شود سراغ مدل بعدی می‌رویم و بودجه‌ی روزانه چند برابر
+    می‌شود بدون اینکه هزینه‌ای اضافه شود.
+    """
     payload = {
         "contents": [{"parts": [{"text": PROMPT.format(text=text[:4000])}]}],
         "generationConfig": {"temperature": 0.3, "maxOutputTokens": 8192},
     }
 
+    errors = []
+    for model in models:
+        resp = _ask(model, payload, api_key, client)
+        if resp is None:
+            errors.append(f"{model}: شلوغ")
+            continue
+        if resp.status_code == EXHAUSTED:
+            log.info("سهمیه‌ی %s تمام شد، مدل بعدی", model)
+            errors.append(f"{model}: سهمیه تمام")
+            continue
+        if resp.status_code != 200:
+            errors.append(f"{model}: {resp.status_code} {resp.text[:120]}")
+            continue
+        return _extract(resp, model)
+
+    raise TranslationError(" | ".join(errors) or "هیچ مدلی امتحان نشد")
+
+
+def _ask(model, payload, api_key, client) -> httpx.Response | None:
+    """None یعنی مدل بعد از چند تلاش هنوز شلوغ بود."""
     for attempt in range(1, ATTEMPTS + 1):
         resp = client.post(
             ENDPOINT.format(model=model),
@@ -55,15 +81,16 @@ def summarize(text: str, api_key: str, model: str, client: httpx.Client) -> str 
             json=payload,
             timeout=90,
         )
-        if resp.status_code == 200:
-            break
-        if resp.status_code not in RETRY_ON or attempt == ATTEMPTS:
-            raise TranslationError(f"Gemini {resp.status_code}: {resp.text[:300]}")
+        if resp.status_code not in BUSY:
+            return resp
+        if attempt < ATTEMPTS:
+            backoff = 2**attempt
+            log.info("%s شلوغ است — %d ثانیه صبر", model, backoff)
+            time.sleep(backoff)
+    return None
 
-        backoff = 2**attempt
-        log.info("Gemini %d — %d ثانیه صبر و تلاش دوباره", resp.status_code, backoff)
-        time.sleep(backoff)
 
+def _extract(resp: httpx.Response, model: str) -> str | None:
     candidates = resp.json().get("candidates") or []
     if not candidates:
         raise TranslationError(f"پاسخ Gemini خالی بود: {resp.text[:300]}")
@@ -73,4 +100,5 @@ def summarize(text: str, api_key: str, model: str, client: httpx.Client) -> str 
 
     if not out or out.upper().startswith("SKIP"):
         return None
+    log.info("خلاصه با %s", model)
     return out

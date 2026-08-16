@@ -36,7 +36,9 @@ def build_keyboard(item: Item) -> dict:
     """
     row = [{"text": "📄 منبع", "url": item.url}]
     if item.discussion_url and item.discussion_url != item.url:
-        row.append({"text": "💬 بحث", "url": item.discussion_url})
+        # «بحث در HN» نه «بحث»: کانال گروه لینک‌شده دارد و تلگرام خودش دکمه‌ی
+        # کامنت می‌گذارد. دو تا «بحث» کنار هم گیج‌کننده بود.
+        row.append({"text": "💬 بحث در HN", "url": item.discussion_url})
     return {"inline_keyboard": [row]}
 
 
