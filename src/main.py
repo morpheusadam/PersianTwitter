@@ -3,10 +3,12 @@
 import argparse
 import logging
 import os
+import re
 import sys
 import time
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
+from urllib.parse import urlsplit
 
 import httpx
 import yaml
@@ -139,7 +141,7 @@ def select(items: list[Item], state: State, settings: dict, explain: bool = Fals
         and len(item.text) >= (min_ranked_text if item.ranked else min_text)
     ]
 
-    ranked = scoring.rank(fresh)
+    ranked = _dedupe(scoring.rank(fresh, state))
     viral = [i for i in ranked if i.ranked]
     editorial = [i for i in ranked if not i.ranked]
 
@@ -151,7 +153,7 @@ def select(items: list[Item], state: State, settings: dict, explain: bool = Fals
 
     log.info(
         "%d تازه (%d ویروسی، %d خبری) → %d انتخاب",
-        len(fresh),
+        len(ranked),
         len(viral),
         len(editorial),
         len(chosen),
@@ -162,6 +164,52 @@ def select(items: list[Item], state: State, settings: dict, explain: bool = Fals
     # انتخاب بر اساس امتیاز، ولی ارسال به ترتیب زمانی.
     chosen.sort(key=lambda i: i.published)
     return chosen
+
+
+def _dedupe(items: list[Item]) -> list[Item]:
+    """یک خبر واحد نباید دو بار پست شود.
+
+    یک مقاله معمولاً هم از فید ناشر می‌آید و هم از HN که به همان لینک اشاره
+    می‌کند. چون items از پرامتیاز به کم‌امتیاز مرتب است، اولین نسخه‌ای که
+    می‌بینیم بهترین است و بقیه حذف می‌شوند.
+
+    دو کلید بررسی می‌شود: خودِ آدرس مقاله بعد از نرمال‌سازی، و امضای عنوان،
+    چون گاهی همان خبر با آدرس‌های کمی متفاوت می‌آید (utm، amp، دنباله‌ی /).
+    """
+    kept: list[Item] = []
+    urls: set[str] = set()
+    titles: set[str] = set()
+
+    for item in items:
+        url_key = _url_key(item.url)
+        title_key = _title_key(item.text)
+        if url_key in urls or (title_key and title_key in titles):
+            log.info("تکراری حذف شد: %s — %s", item.label, item.text[:55])
+            continue
+        urls.add(url_key)
+        if title_key:
+            titles.add(title_key)
+        kept.append(item)
+
+    return kept
+
+
+def _url_key(url: str) -> str:
+    parts = urlsplit(url)
+    host = parts.netloc.lower().removeprefix("www.")
+    path = parts.path.rstrip("/").removesuffix("/amp").lower()
+    return f"{host}{path}"
+
+
+def _title_key(text: str) -> str:
+    """امضای عنوان: شش کلمه‌ی معنادار اول، مرتب‌شده.
+
+    ترتیب را می‌ریزیم چون دو ناشر یک خبر را با چینش متفاوت تیتر می‌زنند.
+    """
+    first_line = text.splitlines()[0] if text else ""
+    words = re.findall(r"[a-z0-9]+", first_line.lower())
+    meaningful = [w for w in words if len(w) > 3][:6]
+    return " ".join(sorted(meaningful)) if len(meaningful) >= 4 else ""
 
 
 def _fill(
@@ -259,7 +307,7 @@ def publish(
             buttons = telegram.build_keyboard(item)["inline_keyboard"]
             print("[دکمه‌ها] " + " | ".join(b["text"] for row in buttons for b in row))
             state.mark(item.uid)
-            state.count_post("viral" if item.ranked else "editorial")
+            state.count_post("viral" if item.ranked else "editorial", item.label)
             sent += 1
             continue
 
@@ -271,7 +319,7 @@ def publish(
 
         log.info("ارسال شد: %-18s %s", item.label, "🖼" if item.image_url else "")
         state.mark(item.uid)
-        state.count_post("viral" if item.ranked else "editorial")
+        state.count_post("viral" if item.ranked else "editorial", item.label)
         sent += 1
 
         if sent < target:
