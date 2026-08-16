@@ -11,7 +11,7 @@ from pathlib import Path
 import httpx
 import yaml
 
-from . import images, scoring, sources, telegram, translate
+from . import cover, images, scoring, sources, telegram, translate
 from .models import Item
 from .state import State
 
@@ -258,8 +258,14 @@ def publish(
             state.count_post("viral" if item.ranked else "editorial")
             continue
 
+        glass = None
+        if settings.get("glass_cover", True):
+            glass = cover.build(item, persian, client, FALLBACK_IMAGE)
+
         try:
-            telegram.publish(item, persian, token, channel, client, FALLBACK_IMAGE)
+            telegram.publish(
+                item, persian, token, channel, client, FALLBACK_IMAGE, glass
+            )
         except telegram.TelegramError as exc:
             log.error("ارسال نشد: %s", exc)
             continue

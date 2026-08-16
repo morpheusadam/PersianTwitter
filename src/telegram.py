@@ -47,6 +47,7 @@ def publish(
     channel: str,
     client: httpx.Client,
     fallback: Path | None = None,
+    cover_jpeg: bytes | None = None,
 ) -> None:
     """هر پست با عکس می‌رود.
 
@@ -56,6 +57,14 @@ def publish(
     """
     keyboard = build_keyboard(item)
     caption = build_message(item.label, body, MAX_CAPTION)
+
+    # کاور شیشه‌ای از قبل ساخته شده و بایت است، پس مستقیم آپلود می‌شود.
+    if cover_jpeg:
+        try:
+            _upload(("cover.jpg", cover_jpeg), channel, caption, keyboard, token, client)
+            return
+        except TelegramError as exc:
+            log.warning("کاور نرفت: %s", exc)
 
     if item.image_url:
         try:
@@ -77,7 +86,7 @@ def publish(
 
     if fallback and fallback.exists():
         try:
-            _upload(fallback, channel, caption, keyboard, token, client)
+            _upload((fallback.name, fallback.read_bytes()), channel, caption, keyboard, token, client)
             return
         except TelegramError as exc:
             log.warning("عکس پیش‌فرض هم نرفت: %s", exc)
@@ -103,25 +112,25 @@ def _call(method: str, payload: dict, token: str, client: httpx.Client) -> None:
 
 
 def _upload(
-    path: Path,
+    photo: tuple[str, bytes],
     channel: str,
     caption: str,
     keyboard: dict,
     token: str,
     client: httpx.Client,
 ) -> None:
-    """فایل محلی را multipart آپلود می‌کند. در multipart همه‌چیز رشته است."""
-    with path.open("rb") as handle:
-        resp = client.post(
-            API.format(token=token, method="sendPhoto"),
-            data={
-                "chat_id": channel,
-                "caption": caption,
-                "parse_mode": "HTML",
-                "reply_markup": json.dumps(keyboard),
-            },
-            files={"photo": (path.name, handle, "image/jpeg")},
-            timeout=90,
-        )
+    """عکس را multipart آپلود می‌کند. در multipart همه‌ی فیلدها رشته‌اند."""
+    name, blob = photo
+    resp = client.post(
+        API.format(token=token, method="sendPhoto"),
+        data={
+            "chat_id": channel,
+            "caption": caption,
+            "parse_mode": "HTML",
+            "reply_markup": json.dumps(keyboard),
+        },
+        files={"photo": (name, blob, "image/jpeg")},
+        timeout=90,
+    )
     if resp.status_code != 200:
         raise TelegramError(f"sendPhoto(upload) {resp.status_code}: {resp.text[:300]}")
