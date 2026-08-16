@@ -76,7 +76,6 @@ def main() -> int:
         if not chosen:
             log.info("چیز جدیدی نبود.")
         else:
-            enrich_images(chosen, settings, client)
             publish(chosen, state, settings, client, args, token, channel, gemini_key)
 
     # در اولین اجرا هرچه پست نشد را seen می‌کنیم تا اجرای بعد سیل راه نیفتد.
@@ -144,8 +143,11 @@ def select(items: list[Item], state: State, settings: dict, explain: bool = Fals
     viral = [i for i in ranked if i.ranked]
     editorial = [i for i in ranked if not i.ranked]
 
+    # چند گزینه‌ی یدکی هم برمی‌داریم: اگر ترجمه‌ی اولی شکست بخورد اجرا بی‌نتیجه
+    # نماند. publish به‌محض رسیدن به سهمیه می‌ایستد.
     total = settings.get("max_posts_per_run", 1)
-    chosen = _fill(viral, editorial, total, settings.get("viral_share", 0.6), state)
+    wanted = total + settings.get("spare_candidates", 3)
+    chosen = _fill(viral, editorial, wanted, settings.get("viral_share", 0.5), state)
 
     log.info(
         "%d تازه (%d ویروسی، %d خبری) → %d انتخاب",
@@ -207,13 +209,6 @@ def _explain(chosen: list[Item]) -> None:
     print("─" * 78 + "\n")
 
 
-def enrich_images(items: list[Item], settings: dict, client: httpx.Client) -> None:
-    """هر آیتم را به یک تصویر معتبر می‌رساند، وگرنه به عکس پیش‌فرض می‌افتد."""
-    scrape = settings.get("scrape_images", True)
-    for item in items:
-        images.resolve(item, client, enabled=scrape)
-
-
 def publish(
     items: list[Item],
     state: State,
@@ -224,15 +219,20 @@ def publish(
     channel: str,
     gemini_key: str,
 ) -> None:
-    models = settings.get("gemini_models") or [settings.get("gemini_model", "gemini-2.5-flash")]
+    models = settings.get("gemini_models") or ["gemini-2.5-flash"]
     delay = settings.get("seconds_between_posts", 4)
+    target = settings.get("max_posts_per_run", 1)
+    sent = 0
 
     # در dry-run بدون کلید هم باید بشود شکل خروجی را دید.
     translating = bool(gemini_key)
     if not translating:
         log.warning("GEMINI_API_KEY نیست — متن اصلی انگلیسی نشان داده می‌شود.")
 
-    for index, item in enumerate(items):
+    for item in items:
+        if sent >= target:
+            break
+
         if not translating:
             persian = item.text
         else:
@@ -248,6 +248,10 @@ def publish(
             state.mark(item.uid)
             continue
 
+        # عکس را همین‌جا حل می‌کنیم نه زودتر: گزینه‌های یدکی معمولاً استفاده
+        # نمی‌شوند و گرفتن عکسشان فقط درخواست هدررفته بود.
+        images.resolve(item, client, enabled=settings.get("scrape_images", True))
+
         if args.dry_run:
             print("\n" + "─" * 60)
             print(f"[عکس] {item.image_url or 'assets/fallback.png (پیش‌فرض)'}")
@@ -256,6 +260,7 @@ def publish(
             print("[دکمه‌ها] " + " | ".join(b["text"] for row in buttons for b in row))
             state.mark(item.uid)
             state.count_post("viral" if item.ranked else "editorial")
+            sent += 1
             continue
 
         try:
@@ -267,8 +272,9 @@ def publish(
         log.info("ارسال شد: %-18s %s", item.label, "🖼" if item.image_url else "")
         state.mark(item.uid)
         state.count_post("viral" if item.ranked else "editorial")
+        sent += 1
 
-        if index < len(items) - 1:
+        if sent < target:
             time.sleep(delay)
 
 
