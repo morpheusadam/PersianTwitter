@@ -20,7 +20,7 @@ Persian Tech Tube Bot aggregates technology and cybersecurity news from Hacker N
 
 ## What it does
 
-Every thirty minutes the bot reads its sources, scores everything it found, and posts the single best item as a Persian summary with an image and link buttons. One post per run is deliberate: batching three posts meant they arrived twelve seconds apart and then the channel went quiet for half an hour. At this cadence the channel gets up to 48 posts a day and in practice around 40, split evenly between social posts and news articles. Total cost is zero. Bluesky's API is open, Gemini has a free tier, and GitHub Actions gives public repositories unlimited minutes.
+Seventeen times a day the bot reads its sources, scores everything it found, and posts the single best item as a Persian summary with an image and link buttons. One post per run is deliberate: batching three posts meant they arrived twelve seconds apart and then the channel went quiet for half an hour. The schedule runs 05:30 to 21:30 UTC, which is 09:00 to 01:00 in Tehran, so nothing is published while the audience is asleep. That caps the channel at 17 posts a day, split evenly between social posts and news articles. Total cost is zero. Bluesky's API is open, Gemini has a free tier, and GitHub Actions gives public repositories unlimited minutes.
 
 ```mermaid
 flowchart LR
@@ -181,7 +181,7 @@ Push to a public repository, then add three secrets under Settings, Secrets and 
 | `TELEGRAM_CHANNEL` | Channel username, for example `@persiantechtwiter` |
 | `GEMINI_API_KEY` | Key from Google AI Studio |
 
-Run the `publish` workflow once by hand to check it, and the thirty minute cron takes over after that. GitHub does not fire scheduled workflows punctually, and delays of five to twenty minutes are normal on busy public runners. That shifts when a post arrives but not which post wins, because scoring uses each item's real age rather than the time the job happened to start. The workflow commits `state.json` back to the repository, which is why it needs `contents: write`.
+Run the `publish` workflow once by hand to check it, and the cron takes over after that. GitHub does not fire scheduled workflows punctually, and delays of five to twenty minutes are normal on busy public runners. That shifts when a post arrives but not which post wins, because scoring uses each item's real age rather than the time the job happened to start. The workflow commits `state.json` back to the repository, which is why it needs `contents: write`.
 
 ## Configuration
 
@@ -190,6 +190,8 @@ Everything except the three secrets lives in [`config.yaml`](config.yaml).
 | Setting | Default | What it controls |
 |---|---:|---|
 | `max_posts_per_run` | 1 | Posts per run. Keeping it at 1 is what makes the pacing even. |
+| `spare_candidates` | 3 | Backups tried when the best item fails to translate |
+| `weekly_digest` | true | Friday post listing the week's highest scoring items |
 | `viral_share` | 0.5 | Long-run fraction of posts taken from engagement-ranked sources |
 | `max_age_hours` | 12 | Age cutoff for the viral pool |
 | `editorial_max_age_hours` | 48 | Age cutoff for news feeds, which go quiet on weekends |

@@ -1,7 +1,7 @@
 """حافظه‌ی بین اجراها: چه چیزی پست شده، سهم هر استخر، و رشد تعامل آیتم‌ها."""
 
 import json
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
 # فقط این تعداد uid آخر را نگه می‌داریم تا فایل بی‌نهایت رشد نکند.
@@ -28,6 +28,10 @@ class State:
         self.snapshots: dict[str, list] = {}
         # برچسب منابع آخرین پست‌ها، از قدیم به جدید.
         self.recent_labels: list[str] = []
+        # پست‌های هفته، برای ساختن خلاصه‌ی هفتگی.
+        self.history: list[dict] = []
+        # تاریخ آخرین خلاصه‌ی هفتگی، تا دو بار در یک روز نرود.
+        self.last_digest: str = ""
 
         if not self.is_first_run:
             data = json.loads(path.read_text(encoding="utf-8"))
@@ -36,6 +40,8 @@ class State:
             self.posted.update(data.get("posted", {}))
             self.snapshots = data.get("snapshots", {})
             self.recent_labels = data.get("recent_labels", [])
+            self.history = data.get("history", [])
+            self.last_digest = data.get("last_digest", "")
 
     def has(self, uid: str) -> bool:
         return uid in self._seen_set
@@ -50,6 +56,28 @@ class State:
         self.posted[pool] = self.posted.get(pool, 0) + 1
         self.recent_labels.append(label)
         self.recent_labels = self.recent_labels[-RECENT_LABELS:]
+
+    def remember(self, item, persian: str, now: datetime) -> None:
+        """پست را برای خلاصه‌ی هفتگی نگه می‌دارد."""
+        self.history.append(
+            {
+                "title": persian.split(". ")[0].strip().rstrip("."),
+                "url": item.url,
+                "source": item.publisher or item.label,
+                "score": round(item.score, 5),
+                "at": now.isoformat(),
+            }
+        )
+
+    def week(self, now: datetime, days: int = 7) -> list[dict]:
+        """پست‌های این هفته، و هرچه قدیمی‌تر بود را دور می‌ریزد."""
+        cutoff = now - timedelta(days=days)
+        self.history = [
+            row
+            for row in self.history
+            if _parse(row.get("at")) and _parse(row["at"]) >= cutoff
+        ]
+        return self.history
 
     def previous(self, uid: str) -> tuple[int, datetime] | None:
         """تعامل و زمانِ آخرین باری که این آیتم را دیدیم."""
@@ -80,6 +108,8 @@ class State:
                     "seen": self.seen,
                     "posted": self.posted,
                     "recent_labels": self.recent_labels,
+                    "last_digest": self.last_digest,
+                    "history": self.history,
                     "snapshots": self.snapshots,
                 },
                 ensure_ascii=False,
@@ -87,6 +117,13 @@ class State:
             ),
             encoding="utf-8",
         )
+
+
+def _parse(value) -> datetime | None:
+    try:
+        return datetime.fromisoformat(value)
+    except (TypeError, ValueError):
+        return None
 
 
 def now_utc() -> datetime:

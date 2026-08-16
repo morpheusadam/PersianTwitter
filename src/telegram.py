@@ -22,16 +22,30 @@ class TelegramError(RuntimeError):
     pass
 
 
-def build_message(item: Item, body: str, limit: int) -> str:
-    if len(body) > limit:
-        body = body[:limit].rsplit(" ", 1)[0] + "…"
+def build_message(item: Item, body: str, limit: int, tag: str = "", channel: str = "") -> str:
+    """سرتیتر، خلاصه، هشتگ موضوعی، و امضای کانال.
+
+    هشتگ برای پیدا شدن در جستجوی داخل تلگرام است، و امضا برای وقتی کسی متن را
+    کپی می‌کند به‌جای forward؛ آن‌وقت هیچ ردی از کانال نمی‌ماند.
+    """
+    footer = "  ".join(part for part in (tag, _handle(channel)) if part)
+    room = limit - len(footer) - 4
+    if len(body) > room:
+        body = body[:room].rsplit(" ", 1)[0] + "…"
 
     # وقتی ناشر با منبع فرق دارد هر دو می‌آیند. Hacker News فقط لینک جمع می‌کند
     # و نوشتن «Hacker News» بالای خبری که مال wptv.com است گمراه‌کننده بود.
     head = html.escape(item.publisher or item.label)
     if item.publisher:
         head += f"  ·  via {html.escape(item.label)}"
-    return f"<b>{head}</b>\n\n{html.escape(body)}"
+
+    out = f"<b>{head}</b>\n\n{html.escape(body)}"
+    return f"{out}\n\n{html.escape(footer)}" if footer else out
+
+
+def _handle(channel: str) -> str:
+    channel = (channel or "").strip()
+    return channel if channel.startswith("@") else ""
 
 
 def build_keyboard(item: Item) -> dict:
@@ -55,6 +69,7 @@ def publish(
     channel: str,
     client: httpx.Client,
     fallback: Path | None = None,
+    tag: str = "",
 ) -> None:
     """هر پست با عکس می‌رود.
 
@@ -63,7 +78,7 @@ def publish(
     خبر بدون عکس بهتر از هیچ خبر است.
     """
     keyboard = build_keyboard(item)
-    caption = build_message(item, body, MAX_CAPTION)
+    caption = build_message(item, body, MAX_CAPTION, tag, channel)
     result = None
 
     if item.image_url:
@@ -96,7 +111,7 @@ def publish(
             "sendMessage",
             {
                 "chat_id": channel,
-                "text": build_message(item, body, MAX_TEXT),
+                "text": build_message(item, body, MAX_TEXT, tag, channel),
                 "parse_mode": "HTML",
                 "link_preview_options": {"is_disabled": True},
                 "reply_markup": keyboard,
@@ -138,3 +153,18 @@ def _upload(
     if resp.status_code != 200:
         raise TelegramError(f"sendPhoto(upload) {resp.status_code}: {resp.text[:300]}")
     return resp.json().get("result") or {}
+
+
+def send_digest(text: str, token: str, channel: str, client: httpx.Client) -> None:
+    """پست خلاصه‌ی هفتگی. متنی است چون چند لینک دارد، نه یک خبر واحد."""
+    _call(
+        "sendMessage",
+        {
+            "chat_id": channel,
+            "text": text,
+            "parse_mode": "HTML",
+            "link_preview_options": {"is_disabled": True},
+        },
+        token,
+        client,
+    )

@@ -20,6 +20,11 @@ PROMPT = """\
 
 آن را به یک خلاصه‌ی فارسی روان و طبیعی تبدیل کن، بین یک تا سه جمله.
 
+خروجی دقیقاً دو خط است:
+خط اول فقط یکی از این پنج کلمه، بدون هیچ چیز اضافه:
+AI · SECURITY · PROGRAMMING · NETWORK · TECH
+خط دوم خودِ خلاصه.
+
 قواعد:
 - فارسی محاوره‌ای ننویس، ولی خشک و ماشینی هم نباشد.
 - اصطلاحات فنی و نام محصولات و شرکت‌ها را به لاتین نگه دار.
@@ -110,5 +115,26 @@ def _extract(resp: httpx.Response, model: str) -> str | None:
 
     if not out or out.upper().startswith("SKIP"):
         return None
+
     log.info("خلاصه با %s", model)
-    return out
+    return _split(out)
+
+
+# دسته‌ها ثابت‌اند تا هشتگ‌ها یکدست بمانند. جستجوی داخل تلگرام روی رشته‌ی دقیق
+# کار می‌کند، پس هشتگی که هر بار کمی فرق کند بی‌فایده است.
+TAGS = {
+    "AI": "#هوش_مصنوعی",
+    "SECURITY": "#امنیت",
+    "PROGRAMMING": "#برنامه_نویسی",
+    "NETWORK": "#شبکه",
+    "TECH": "#تکنولوژی",
+}
+
+
+def _split(out: str) -> tuple[str, str]:
+    """خط اول دسته است و بقیه خلاصه. اگر مدل قالب را رعایت نکرد، همه‌اش خلاصه."""
+    head, _, rest = out.partition("\n")
+    key = head.strip().strip("#*").upper()
+    if key in TAGS and rest.strip():
+        return rest.strip(), TAGS[key]
+    return out.strip(), TAGS["TECH"]

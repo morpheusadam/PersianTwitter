@@ -75,10 +75,74 @@
   "https://techcrunch.com/?p=3153318",
   "https://www.bleepingcomputer.com/news/security/hackers-arrested-over-30m-bank-fraud-exploiting-service-provider-flaw/",
   "lobsters:ii5tun",
-  "hn:49319389"
+  "hn:49319389",
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mt7hgtkozp2o"
  ],
  "posted": {
-  "viral": 3,
+  "viral": 4,
   "editorial": 4
+ },
+ "recent_labels": [
+  "404 Media"
+ ],
+ "last_digest": "",
+ "history": [
+  {
+   "title": "بسیاری از شهرها در حال جایگزینی سیستم‌های نظارتی Flock با شرکت Axon هستند تا از فشارهای عمومی و انتقادات پیرامون حریم خصوصی فاصله بگیرند",
+   "url": "https://bsky.app/profile/404media.co/post/3mt7hgtkozp2o",
+   "source": "404 Media",
+   "score": 0.17218,
+   "at": "2026-08-16T18:50:59.059484+00:00"
+  }
+ ],
+ "snapshots": {
+  "hn:49321717": [
+   125,
+   "2026-08-16T18:50:34.583307+00:00"
+  ],
+  "hn:49321353": [
+   98,
+   "2026-08-16T18:50:34.583307+00:00"
+  ],
+  "hn:49319814": [
+   120,
+   "2026-08-16T18:50:34.583307+00:00"
+  ],
+  "hn:49319727": [
+   222,
+   "2026-08-16T18:50:34.583307+00:00"
+  ],
+  "hn:49319349": [
+   71,
+   "2026-08-16T18:50:34.583307+00:00"
+  ],
+  "hn:49318906": [
+   284,
+   "2026-08-16T18:50:34.583307+00:00"
+  ],
+  "hn:49317760": [
+   617,
+   "2026-08-16T18:50:34.583307+00:00"
+  ],
+  "hn:49317546": [
+   193,
+   "2026-08-16T18:50:34.583307+00:00"
+  ],
+  "lobsters:hnx6id": [
+   27,
+   "2026-08-16T18:50:34.583307+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mt7ocruk772i": [
+   200,
+   "2026-08-16T18:50:34.583307+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mt7hgtkozp2o": [
+   885,
+   "2026-08-16T18:50:34.583307+00:00"
+  ],
+  "at://did:plc:ipt7y6qaf6fn7oeeduboqe44/app.bsky.feed.post/3mt6sss6n322t": [
+   48,
+   "2026-08-16T18:50:34.583307+00:00"
+  ]
  }
 }

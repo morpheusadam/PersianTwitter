@@ -52,6 +52,14 @@ settings:
   # وب‌سایت برو؛ و اگر آن هم نبود assets/fallback.jpg آپلود می‌شود.
   scrape_images: true
 
+  # خلاصه‌ی هفتگی: جمعه‌ها داغ‌ترین‌های هفته در یک پست. بیشترین forward را
+  # می‌گیرد و forward تنها رشد ارگانیک واقعی تلگرام است.
+  # weekday به سبک پایتون: دوشنبه ۰ … جمعه ۴.
+  weekly_digest: true
+  digest_weekday: 4
+  digest_hour_utc: 14
+  digest_size: 5
+
   # مدل‌های Gemini، به ترتیب اولویت.
   #
   # سهمیه‌ی free tier «به ازای هر مدل در روز» است و برای هر کدام فقط ۲۰ درخواست.

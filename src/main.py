@@ -1,6 +1,7 @@
 """جمع‌آوری اخبار تکنولوژی و امنیت، رتبه‌بندی، خلاصه به فارسی، ارسال به تلگرام."""
 
 import argparse
+import html
 import logging
 import os
 import re
@@ -79,6 +80,8 @@ def main() -> int:
             log.info("چیز جدیدی نبود.")
         else:
             publish(chosen, state, settings, client, args, token, channel, gemini_key)
+
+        maybe_digest(state, settings, client, args, token, channel)
 
     # در اولین اجرا هرچه پست نشد را seen می‌کنیم تا اجرای بعد سیل راه نیفتد.
     if state.is_first_run:
@@ -257,6 +260,59 @@ def _explain(chosen: list[Item]) -> None:
     print("─" * 78 + "\n")
 
 
+def maybe_digest(state, settings, client, args, token, channel) -> None:
+    """جمعه‌ها داغ‌ترین‌های هفته را در یک پست می‌گذارد.
+
+    این نوع پست بیشترین forward را می‌گیرد، و forward تنها رشد ارگانیک واقعی
+    تلگرام است. امتیازها را همان الگوریتم رتبه‌بندی داده، پس چیز تازه‌ای حساب
+    نمی‌شود؛ فقط بهترین‌های ثبت‌شده دوباره مرتب می‌شوند.
+    """
+    if not settings.get("weekly_digest", True):
+        return
+
+    now = datetime.now(timezone.utc)
+    today = now.date().isoformat()
+    if state.last_digest == today:
+        return
+    if now.weekday() != settings.get("digest_weekday", 4):
+        return
+    if now.hour < settings.get("digest_hour_utc", 14):
+        return
+
+    rows = sorted(state.week(now), key=lambda r: r.get("score", 0), reverse=True)
+    top = rows[: settings.get("digest_size", 5)]
+    if len(top) < 3:
+        log.info("خلاصه‌ی هفتگی نرفت: فقط %d پست در هفته", len(top))
+        return
+
+    lines = ["<b>🔥 داغ‌ترین‌های هفته</b>", ""]
+    for index, row in enumerate(top, 1):
+        title = html.escape(row.get("title", "")[:150])
+        source = html.escape(row.get("source", ""))
+        url = html.escape(row.get("url", ""), quote=True)
+        lines.append(f'{index}. <a href="{url}">{title}</a>')
+        lines.append(f"    <i>{source}</i>")
+        lines.append("")
+    handle = channel if channel.startswith("@") else ""
+    if handle:
+        lines.append(html.escape(handle))
+    text = "\n".join(lines)
+
+    if args.dry_run:
+        print("\n" + "=" * 60)
+        print(text)
+        return
+
+    try:
+        telegram.send_digest(text, token, channel, client)
+    except telegram.TelegramError as exc:
+        log.error("خلاصه‌ی هفتگی نرفت: %s", exc)
+        return
+
+    state.last_digest = today
+    log.info("خلاصه‌ی هفتگی ارسال شد (%d خبر)", len(top))
+
+
 def publish(
     items: list[Item],
     state: State,
@@ -282,10 +338,10 @@ def publish(
             break
 
         if not translating:
-            persian = item.text
+            persian, tag = item.text, ""
         else:
             try:
-                persian = translate.summarize(item.text, gemini_key, models, client)
+                persian, tag = translate.summarize(item.text, gemini_key, models, client) or (None, "")
             except translate.TranslationError as exc:
                 # نه mark می‌کنیم نه می‌فرستیم — اجرای بعدی دوباره تلاش می‌کند.
                 log.warning("ترجمه شکست خورد (%s): %s", item.label, exc)
@@ -303,7 +359,7 @@ def publish(
         if args.dry_run:
             print("\n" + "─" * 60)
             print(f"[عکس] {item.image_url or 'assets/fallback.png (پیش‌فرض)'}")
-            print(telegram.build_message(item, persian, telegram.MAX_CAPTION))
+            print(telegram.build_message(item, persian, telegram.MAX_CAPTION, tag, channel))
             buttons = telegram.build_keyboard(item)["inline_keyboard"]
             print("[دکمه‌ها] " + " | ".join(b["text"] for row in buttons for b in row))
             state.mark(item.uid)
@@ -312,7 +368,7 @@ def publish(
             continue
 
         try:
-            telegram.publish(item, persian, token, channel, client, FALLBACK_IMAGE)
+            telegram.publish(item, persian, token, channel, client, FALLBACK_IMAGE, tag)
         except telegram.TelegramError as exc:
             log.error("ارسال نشد: %s", exc)
             continue
@@ -320,6 +376,7 @@ def publish(
         log.info("ارسال شد: %-18s %s", item.label, "🖼" if item.image_url else "")
         state.mark(item.uid)
         state.count_post("viral" if item.ranked else "editorial", item.label)
+        state.remember(item, persian, datetime.now(timezone.utc))
         sent += 1
 
         if sent < target:
