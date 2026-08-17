@@ -85,18 +85,31 @@
   "hn:49319727",
   "hn:49319814",
   "https://www.darkreading.com/cybersecurity-operations/mission-driven-security-inside-global-bank-defense",
-  "hn:49322695"
+  "hn:49322695",
+  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mt7xxpajaf2l",
+  "https://www.engadget.com/2236219/how-samsung-galaxy-watch-series8-measures-antioxidant-levels/",
+  "at://did:plc:kft6lu4trxowqmter2b6vg6z/app.bsky.feed.post/3mta6urbgf22b",
+  "6a75b69f0d880c43a7feaa2b",
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mtack46hru2i",
+  "hn:49324985",
+  "https://therecord.media/french-tax-authority-dgfip-confirms-data-breach",
+  "https://www.theregister.com/a/5288156",
+  "hn:49329347",
+  "hn:49329660",
+  "https://www.theregister.com/a/5287885",
+  "https://thehackernews.com/2026/08/apple-macos-screen-sharing-flaw.html",
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mtbsegvcjc2b"
  ],
  "posted": {
-  "viral": 7,
-  "editorial": 7
+  "viral": 13,
+  "editorial": 12
  },
  "recent_labels": [
-  "404 Media",
-  "BleepingComputer",
+  "The Register",
   "Hacker News",
-  "Dark Reading",
-  "Hacker News"
+  "The Register",
+  "The Hacker News",
+  "404 Media"
  ],
  "last_digest": "",
  "history": [
@@ -148,6 +161,83 @@
    "source": "w4g1.dev",
    "score": 0.33292,
    "at": "2026-08-16T20:46:27.634775+00:00"
+  },
+  {
+   "title": "نقد کاربرد نادرست واژه‌ی هوش مصنوعی برای مدل‌های زبانی",
+   "url": "https://bsky.app/profile/emilymbender.bsky.social/post/3mt7xxpajaf2l",
+   "source": "Emily M. Bender",
+   "score": 0.39493,
+   "at": "2026-08-16T21:44:26.360342+00:00"
+  },
+  {
+   "title": "قابلیت جدید سنجش سطح آنتی‌اکسیدان در ساعت‌های هوشمند سامسونگ",
+   "url": "https://www.engadget.com/2236219/how-samsung-galaxy-watch-series8-measures-antioxidant-levels/",
+   "source": "Engadget",
+   "score": 0.45796,
+   "at": "2026-08-17T05:59:47.373138+00:00"
+  },
+  {
+   "title": "بررسی مدل زبانی جدید Qwen 3.8 27B و قابلیت‌های استدلال آن",
+   "url": "https://simonwillison.net/2026/Aug/16/qwen-38-27b/",
+   "source": "simonwillison.net",
+   "score": 0.10069,
+   "at": "2026-08-17T07:31:49.148406+00:00"
+  },
+  {
+   "title": "استفاده از عینک‌های هوشمند Meta برای آزار و اذیت زنان در فضای عمومی",
+   "url": "https://www.404media.co/meta-ray-ban-smart-glasses-pov-instagram-pickup-artists/",
+   "source": "404media.co",
+   "score": 0.06325,
+   "at": "2026-08-17T09:08:13.788455+00:00"
+  },
+  {
+   "title": "بررسی عملکرد مدل زبانی Qwen 3.8 27B و چالش‌های تنظیمات پیش‌فرض آن",
+   "url": "https://simonwillison.net/2026/Aug/16/qwen-38-27b/",
+   "source": "simonwillison.net",
+   "score": 0.0465,
+   "at": "2026-08-17T10:04:35.967798+00:00"
+  },
+  {
+   "title": "نشت گسترده اطلاعات مالیاتی شهروندان در پی حمله سایبری به دولت فرانسه",
+   "url": "https://therecord.media/french-tax-authority-dgfip-confirms-data-breach",
+   "source": "The Record",
+   "score": 0.51198,
+   "at": "2026-08-17T10:56:35.693807+00:00"
+  },
+  {
+   "title": "مقابله با حملات فیشینگ در پوشش پشتیبانی Signal و مسدودسازی سایت‌های تبلیغاتی",
+   "url": "https://www.theregister.com/ai-and-ml/2026/08/15/anthropic-says-text-watermarking-scheme-relies-on-inconsequential-words/5288156",
+   "source": "The Register",
+   "score": 0.58807,
+   "at": "2026-08-17T11:50:00.676557+00:00"
+  },
+  {
+   "title": "افشای نظارت غیرمجاز دوربین‌های امنیتی در مجتمع‌های مسکونی",
+   "url": "https://twitter.com/lydiakauppi/status/2089196932413452386",
+   "source": "twitter.com",
+   "score": 0.388,
+   "at": "2026-08-17T13:16:05.733704+00:00"
+  },
+  {
+   "title": "نشت اطلاعات مالی دو میلیون شهروند فرانسوی از سازمان امور مالیاتی",
+   "url": "https://www.theregister.com/security/2026/08/14/french-tax-authority-admits-data-heist-after-crook-touts-2m-records/5287885",
+   "source": "The Register",
+   "score": 0.45313,
+   "at": "2026-08-17T14:01:18.594287+00:00"
+  },
+  {
+   "title": "سوءاستفاده از آسیب‌پذیری بحرانی در قابلیت Screen Sharing سیستم‌عامل macOS",
+   "url": "https://thehackernews.com/2026/08/apple-macos-screen-sharing-flaw.html",
+   "source": "The Hacker News",
+   "score": 0.68913,
+   "at": "2026-08-17T14:52:56.190423+00:00"
+  },
+  {
+   "title": "آمازون کتاب‌های چاپی را برای آموزش مدل‌های هوش مصنوعی اسکن و نابود می‌کند",
+   "url": "https://www.404media.co/we-tracked-a-shipment-of-rare-books-it-ended-at-an-amazon-ai-training-facility/",
+   "source": "404media.co",
+   "score": 1.90649,
+   "at": "2026-08-17T15:49:21.039607+00:00"
   }
  ],
  "snapshots": {
@@ -168,12 +258,12 @@
    "2026-08-16T19:34:50.162220+00:00"
   ],
   "hn:49319349": [
-   86,
-   "2026-08-16T20:46:20.457588+00:00"
+   92,
+   "2026-08-16T21:43:34.960974+00:00"
   ],
   "hn:49318906": [
-   297,
-   "2026-08-16T20:46:20.457588+00:00"
+   302,
+   "2026-08-16T21:43:34.960974+00:00"
   ],
   "hn:49317760": [
    628,
@@ -184,8 +274,8 @@
    "2026-08-16T18:50:34.583307+00:00"
   ],
   "lobsters:hnx6id": [
-   35,
-   "2026-08-16T20:46:20.457588+00:00"
+   37,
+   "2026-08-16T21:43:34.960974+00:00"
   ],
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mt7ocruk772i": [
    216,
@@ -200,32 +290,232 @@
    "2026-08-16T20:46:20.457588+00:00"
   ],
   "at://did:plc:x2nsupeeo52oznrmplwapppl/app.bsky.feed.post/3mt7c4it7tv2v": [
-   42,
-   "2026-08-16T20:46:20.457588+00:00"
+   44,
+   "2026-08-16T21:43:34.960974+00:00"
   ],
   "hn:49322107": [
-   185,
-   "2026-08-16T20:46:20.457588+00:00"
+   274,
+   "2026-08-16T21:43:34.960974+00:00"
   ],
   "hn:49320673": [
-   162,
-   "2026-08-16T20:46:20.457588+00:00"
+   167,
+   "2026-08-16T21:43:34.960974+00:00"
   ],
   "hn:49322695": [
    264,
    "2026-08-16T20:46:20.457588+00:00"
   ],
   "lobsters:zeqgd4": [
-   26,
-   "2026-08-16T20:46:20.457588+00:00"
+   34,
+   "2026-08-16T21:43:34.960974+00:00"
   ],
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mt7yggrrll25": [
-   210,
-   "2026-08-16T20:46:20.457588+00:00"
+   537,
+   "2026-08-17T07:31:46.576677+00:00"
   ],
   "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mt7xxpajaf2l": [
-   98,
-   "2026-08-16T20:46:20.457588+00:00"
+   134,
+   "2026-08-16T21:43:34.960974+00:00"
+  ],
+  "hn:49323157": [
+   229,
+   "2026-08-17T07:31:46.576677+00:00"
+  ],
+  "hn:49322573": [
+   315,
+   "2026-08-17T05:59:45.239319+00:00"
+  ],
+  "hn:49325714": [
+   134,
+   "2026-08-17T13:16:01.846737+00:00"
+  ],
+  "hn:49325185": [
+   379,
+   "2026-08-17T11:49:58.163630+00:00"
+  ],
+  "hn:49325159": [
+   480,
+   "2026-08-17T11:49:58.163630+00:00"
+  ],
+  "hn:49325061": [
+   232,
+   "2026-08-17T11:49:58.163630+00:00"
+  ],
+  "hn:49324985": [
+   923,
+   "2026-08-17T10:04:33.689653+00:00"
+  ],
+  "hn:49324087": [
+   688,
+   "2026-08-17T09:08:11.314105+00:00"
+  ],
+  "hn:49323932": [
+   346,
+   "2026-08-17T09:08:11.314105+00:00"
+  ],
+  "hn:49323874": [
+   235,
+   "2026-08-17T09:08:11.314105+00:00"
+  ],
+  "hn:49323686": [
+   375,
+   "2026-08-17T07:31:46.576677+00:00"
+  ],
+  "hn:49323459": [
+   289,
+   "2026-08-17T07:31:46.576677+00:00"
+  ],
+  "hn:49323381": [
+   712,
+   "2026-08-17T07:31:46.576677+00:00"
+  ],
+  "hn:49322330": [
+   133,
+   "2026-08-17T05:59:45.239319+00:00"
+  ],
+  "lobsters:ln3dao": [
+   39,
+   "2026-08-17T07:31:46.576677+00:00"
+  ],
+  "lobsters:8izobt": [
+   25,
+   "2026-08-17T05:59:45.239319+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mtack46hru2i": [
+   776,
+   "2026-08-17T09:08:11.314105+00:00"
+  ],
+  "at://did:plc:kft6lu4trxowqmter2b6vg6z/app.bsky.feed.post/3mta6urbgf22b": [
+   273,
+   "2026-08-17T07:31:46.576677+00:00"
+  ],
+  "at://did:plc:ipt7y6qaf6fn7oeeduboqe44/app.bsky.feed.post/3mtaank7m6s2t": [
+   115,
+   "2026-08-17T10:04:33.689653+00:00"
+  ],
+  "hn:49325789": [
+   653,
+   "2026-08-17T13:16:01.846737+00:00"
+  ],
+  "hn:49327490": [
+   171,
+   "2026-08-17T15:49:18.986306+00:00"
+  ],
+  "hn:49325304": [
+   85,
+   "2026-08-17T11:49:58.163630+00:00"
+  ],
+  "hn:49329660": [
+   164,
+   "2026-08-17T13:16:01.846737+00:00"
+  ],
+  "hn:49329347": [
+   201,
+   "2026-08-17T13:16:01.846737+00:00"
+  ],
+  "hn:49328911": [
+   391,
+   "2026-08-17T15:49:18.986306+00:00"
+  ],
+  "hn:49327643": [
+   157,
+   "2026-08-17T15:49:18.986306+00:00"
+  ],
+  "hn:49326825": [
+   124,
+   "2026-08-17T15:49:18.986306+00:00"
+  ],
+  "lobsters:5p0kgt": [
+   42,
+   "2026-08-17T15:49:18.986306+00:00"
+  ],
+  "hn:49329575": [
+   327,
+   "2026-08-17T15:49:18.986306+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mtbspkey2p2i": [
+   1269,
+   "2026-08-17T15:49:18.986306+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mtbsegvcjc2b": [
+   11076,
+   "2026-08-17T15:49:18.986306+00:00"
+  ],
+  "hn:49331033": [
+   345,
+   "2026-08-17T15:49:18.986306+00:00"
+  ],
+  "hn:49330632": [
+   378,
+   "2026-08-17T15:49:18.986306+00:00"
+  ],
+  "hn:49330597": [
+   154,
+   "2026-08-17T15:49:18.986306+00:00"
+  ],
+  "hn:49330139": [
+   179,
+   "2026-08-17T15:49:18.986306+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mtbw34qray2j": [
+   84,
+   "2026-08-17T15:49:18.986306+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mtbvrtdimk25": [
+   1969,
+   "2026-08-17T15:49:18.986306+00:00"
+  ],
+  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mtbv4cggac25": [
+   27,
+   "2026-08-17T15:49:18.986306+00:00"
+  ],
+  "hn:49332495": [
+   111,
+   "2026-08-17T15:49:18.986306+00:00"
+  ],
+  "hn:49331423": [
+   122,
+   "2026-08-17T15:49:18.986306+00:00"
+  ],
+  "hn:49331222": [
+   224,
+   "2026-08-17T15:49:18.986306+00:00"
+  ],
+  "hn:49330742": [
+   244,
+   "2026-08-17T15:49:18.986306+00:00"
+  ],
+  "hn:49330456": [
+   117,
+   "2026-08-17T15:49:18.986306+00:00"
+  ],
+  "hn:49329583": [
+   89,
+   "2026-08-17T15:49:18.986306+00:00"
+  ],
+  "lobsters:0zdh32": [
+   48,
+   "2026-08-17T15:49:18.986306+00:00"
+  ],
+  "lobsters:nrnwc6": [
+   28,
+   "2026-08-17T15:49:18.986306+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mtbylrf6jp2j": [
+   277,
+   "2026-08-17T15:49:18.986306+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mtby422qds25": [
+   637,
+   "2026-08-17T15:49:18.986306+00:00"
+  ],
+  "at://did:plc:kft6lu4trxowqmter2b6vg6z/app.bsky.feed.post/3mtbxjub6ms26": [
+   63,
+   "2026-08-17T15:49:18.986306+00:00"
+  ],
+  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mtbzuv234c2p": [
+   15,
+   "2026-08-17T15:49:18.986306+00:00"
   ]
  }
 }
