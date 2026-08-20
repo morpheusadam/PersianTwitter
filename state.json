@@ -168,18 +168,19 @@
   "6a832d3e329d846975aa6084",
   "https://www.engadget.com/2240088/amazon-is-bringing-drone-deliveries-to-the-chicago-and-atlanta-metro-areas/",
   "19601155da58fd75e191a82685ea50e6",
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mtje4jnm5i2j"
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mtje4jnm5i2j",
+  "https://www.theregister.com/a/5290344"
  ],
  "posted": {
   "viral": 39,
-  "editorial": 35
+  "editorial": 36
  },
  "recent_labels": [
   "Hacker News",
-  "Hacker News",
   "Lobsters",
   "Wired",
-  "404 Media"
+  "404 Media",
+  "The Register"
  ],
  "last_digest": "",
  "history": [
@@ -651,6 +652,13 @@
    "source": "404media.co",
    "score": 0.78093,
    "at": "2026-08-20T15:04:52.535015+00:00"
+  },
+  {
+   "title": "حملات فیشینگ با جعل هویت پشتیبانی Signal و مسدودسازی سایت‌های تبلیغاتی ایران",
+   "url": "https://www.theregister.com/cyber-crime/2026/08/20/ransomware-crook-poses-as-recovery-firm-to-steal-payments-from-fellow-extortionists/5290344",
+   "source": "The Register",
+   "score": 0.59878,
+   "at": "2026-08-20T15:59:27.329326+00:00"
   }
  ],
  "snapshots": {
@@ -1603,36 +1611,56 @@
    "2026-08-20T11:52:29.691077+00:00"
   ],
   "hn:49373456": [
-   288,
-   "2026-08-20T15:04:27.901116+00:00"
+   385,
+   "2026-08-20T15:59:24.496476+00:00"
   ],
   "lobsters:oaybfe": [
    41,
    "2026-08-20T13:27:15.455561+00:00"
   ],
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mtjf4fy7bu2v": [
-   220,
-   "2026-08-20T15:04:27.901116+00:00"
+   247,
+   "2026-08-20T15:59:24.496476+00:00"
   ],
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mtje4jnm5i2j": [
    115,
    "2026-08-20T15:04:27.901116+00:00"
   ],
   "hn:49374269": [
-   351,
-   "2026-08-20T15:04:27.901116+00:00"
+   524,
+   "2026-08-20T15:59:24.496476+00:00"
   ],
   "hn:49373269": [
-   214,
-   "2026-08-20T15:04:27.901116+00:00"
+   266,
+   "2026-08-20T15:59:24.496476+00:00"
   ],
   "lobsters:dns8du": [
-   27,
-   "2026-08-20T15:04:27.901116+00:00"
+   42,
+   "2026-08-20T15:59:24.496476+00:00"
   ],
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mtjhmjn6os2s": [
-   310,
-   "2026-08-20T15:04:27.901116+00:00"
+   508,
+   "2026-08-20T15:59:24.496476+00:00"
+  ],
+  "hn:49374920": [
+   222,
+   "2026-08-20T15:59:24.496476+00:00"
+  ],
+  "hn:49374437": [
+   219,
+   "2026-08-20T15:59:24.496476+00:00"
+  ],
+  "hn:49374287": [
+   82,
+   "2026-08-20T15:59:24.496476+00:00"
+  ],
+  "hn:49374031": [
+   70,
+   "2026-08-20T15:59:24.496476+00:00"
+  ],
+  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mtjc3gawcc2a": [
+   51,
+   "2026-08-20T15:59:24.496476+00:00"
   ]
  }
 }
