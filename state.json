@@ -164,18 +164,19 @@
   "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mthuboscnk2o",
   "hn:49371006",
   "hn:49372583",
-  "lobsters:oaybfe"
+  "lobsters:oaybfe",
+  "6a832d3e329d846975aa6084"
  ],
  "posted": {
   "viral": 38,
-  "editorial": 34
+  "editorial": 35
  },
  "recent_labels": [
-  "Hacker News",
   "The Hacker News",
   "Hacker News",
   "Hacker News",
-  "Lobsters"
+  "Lobsters",
+  "Wired"
  ],
  "last_digest": "",
  "history": [
@@ -633,6 +634,13 @@
    "source": "besok.github.io",
    "score": 0.08897,
    "at": "2026-08-20T13:27:21.423467+00:00"
+  },
+  {
+   "title": "بررسی قابلیت‌های جدید و هوش مصنوعی در Google Pixel Watch 5",
+   "url": "https://www.wired.com/review/google-pixel-watch-5/",
+   "source": "Wired",
+   "score": 0.96296,
+   "at": "2026-08-20T14:08:48.526408+00:00"
   }
  ],
  "snapshots": {
@@ -1565,8 +1573,8 @@
    "2026-08-20T10:57:02.359360+00:00"
   ],
   "hn:49370083": [
-   109,
-   "2026-08-20T13:27:15.455561+00:00"
+   111,
+   "2026-08-20T14:08:46.407878+00:00"
   ],
   "hn:49366264": [
    302,
@@ -1585,12 +1593,20 @@
    "2026-08-20T11:52:29.691077+00:00"
   ],
   "hn:49373456": [
-   102,
-   "2026-08-20T13:27:15.455561+00:00"
+   180,
+   "2026-08-20T14:08:46.407878+00:00"
   ],
   "lobsters:oaybfe": [
    41,
    "2026-08-20T13:27:15.455561+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mtjf4fy7bu2v": [
+   155,
+   "2026-08-20T14:08:46.407878+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mtje4jnm5i2j": [
+   73,
+   "2026-08-20T14:08:46.407878+00:00"
   ]
  }
 }
