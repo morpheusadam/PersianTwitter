@@ -165,18 +165,21 @@
   "hn:49371006",
   "hn:49372583",
   "lobsters:oaybfe",
-  "6a832d3e329d846975aa6084"
+  "6a832d3e329d846975aa6084",
+  "https://www.engadget.com/2240088/amazon-is-bringing-drone-deliveries-to-the-chicago-and-atlanta-metro-areas/",
+  "19601155da58fd75e191a82685ea50e6",
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mtje4jnm5i2j"
  ],
  "posted": {
-  "viral": 38,
+  "viral": 39,
   "editorial": 35
  },
  "recent_labels": [
-  "The Hacker News",
   "Hacker News",
   "Hacker News",
   "Lobsters",
-  "Wired"
+  "Wired",
+  "404 Media"
  ],
  "last_digest": "",
  "history": [
@@ -641,6 +644,13 @@
    "source": "Wired",
    "score": 0.96296,
    "at": "2026-08-20T14:08:48.526408+00:00"
+  },
+  {
+   "title": "مخالفت با ساخت دیتاسنتر تحقیقات هسته‌ای در میشیگان",
+   "url": "https://www.404media.co/township-fights-nuclear-weapons-data-center-by-passing-a-moratorium-on-electrical-infrastructure/",
+   "source": "404media.co",
+   "score": 0.78093,
+   "at": "2026-08-20T15:04:52.535015+00:00"
   }
  ],
  "snapshots": {
@@ -1573,8 +1583,8 @@
    "2026-08-20T10:57:02.359360+00:00"
   ],
   "hn:49370083": [
-   111,
-   "2026-08-20T14:08:46.407878+00:00"
+   114,
+   "2026-08-20T15:04:27.901116+00:00"
   ],
   "hn:49366264": [
    302,
@@ -1593,20 +1603,36 @@
    "2026-08-20T11:52:29.691077+00:00"
   ],
   "hn:49373456": [
-   180,
-   "2026-08-20T14:08:46.407878+00:00"
+   288,
+   "2026-08-20T15:04:27.901116+00:00"
   ],
   "lobsters:oaybfe": [
    41,
    "2026-08-20T13:27:15.455561+00:00"
   ],
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mtjf4fy7bu2v": [
-   155,
-   "2026-08-20T14:08:46.407878+00:00"
+   220,
+   "2026-08-20T15:04:27.901116+00:00"
   ],
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mtje4jnm5i2j": [
-   73,
-   "2026-08-20T14:08:46.407878+00:00"
+   115,
+   "2026-08-20T15:04:27.901116+00:00"
+  ],
+  "hn:49374269": [
+   351,
+   "2026-08-20T15:04:27.901116+00:00"
+  ],
+  "hn:49373269": [
+   214,
+   "2026-08-20T15:04:27.901116+00:00"
+  ],
+  "lobsters:dns8du": [
+   27,
+   "2026-08-20T15:04:27.901116+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mtjhmjn6os2s": [
+   310,
+   "2026-08-20T15:04:27.901116+00:00"
   ]
  }
 }
