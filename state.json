@@ -158,18 +158,19 @@
   "hn:49367350",
   "hn:49368625",
   "hn:49369408",
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mthkbk7boq25"
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mthkbk7boq25",
+  "hn:49370440"
  ],
  "posted": {
-  "viral": 34,
+  "viral": 35,
   "editorial": 33
  },
  "recent_labels": [
-  "3DNews",
   "The Record",
   "Hacker News",
   "Hacker News",
-  "404 Media"
+  "404 Media",
+  "Hacker News"
  ],
  "last_digest": "",
  "history": [
@@ -592,6 +593,13 @@
    "source": "404media.co",
    "score": 0.04698,
    "at": "2026-08-20T08:05:32.576966+00:00"
+  },
+  {
+   "title": "داستان برچسب قرمز روی بسته‌بندی اولین Microsoft Entertainment Pack",
+   "url": "https://devblogs.microsoft.com/oldnewthing/20260818-00/?p=112621",
+   "source": "devblogs.microsoft.com",
+   "score": 0.04572,
+   "at": "2026-08-20T09:05:39.108654+00:00"
   }
  ],
  "snapshots": {
@@ -1484,8 +1492,8 @@
    "2026-08-20T05:55:50.983470+00:00"
   ],
   "hn:49367256": [
-   160,
-   "2026-08-20T08:05:30.554268+00:00"
+   167,
+   "2026-08-20T09:05:32.956754+00:00"
   ],
   "hn:49367040": [
    73,
@@ -1513,23 +1521,31 @@
   ],
   "at://did:plc:x2nsupeeo52oznrmplwapppl/app.bsky.feed.post/3mtho7sa54c2y": [
    69,
-   "2026-08-20T08:05:30.554268+00:00"
+   "2026-08-20T09:05:32.956754+00:00"
   ],
   "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mthuboscnk2o": [
    14,
-   "2026-08-20T08:05:30.554268+00:00"
+   "2026-08-20T09:05:32.956754+00:00"
   ],
   "hn:49371006": [
-   129,
-   "2026-08-20T08:05:30.554268+00:00"
+   255,
+   "2026-08-20T09:05:32.956754+00:00"
   ],
   "hn:49370083": [
-   74,
-   "2026-08-20T08:05:30.554268+00:00"
+   84,
+   "2026-08-20T09:05:32.956754+00:00"
   ],
   "hn:49366264": [
    302,
    "2026-08-20T07:22:57.968233+00:00"
+  ],
+  "hn:49370440": [
+   104,
+   "2026-08-20T09:05:32.956754+00:00"
+  ],
+  "lobsters:7v1wvd": [
+   25,
+   "2026-08-20T09:05:32.956754+00:00"
   ]
  }
 }
