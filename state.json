@@ -159,18 +159,19 @@
   "hn:49368625",
   "hn:49369408",
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mthkbk7boq25",
-  "hn:49370440"
+  "hn:49370440",
+  "https://thehackernews.com/2026/08/cisa-flags-actively-exploited-ray-flaw.html"
  ],
  "posted": {
   "viral": 35,
-  "editorial": 33
+  "editorial": 34
  },
  "recent_labels": [
-  "The Record",
   "Hacker News",
   "Hacker News",
   "404 Media",
-  "Hacker News"
+  "Hacker News",
+  "The Hacker News"
  ],
  "last_digest": "",
  "history": [
@@ -600,6 +601,13 @@
    "source": "devblogs.microsoft.com",
    "score": 0.04572,
    "at": "2026-08-20T09:05:39.108654+00:00"
+  },
+  {
+   "title": "هشدار CISA درباره بهره‌برداری فعال از آسیب‌پذیری بحرانی در فریم‌ورک Ray",
+   "url": "https://thehackernews.com/2026/08/cisa-flags-actively-exploited-ray-flaw.html",
+   "source": "The Hacker News",
+   "score": 0.54137,
+   "at": "2026-08-20T10:00:35.096259+00:00"
   }
  ],
  "snapshots": {
@@ -1525,15 +1533,15 @@
   ],
   "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mthuboscnk2o": [
    14,
-   "2026-08-20T09:05:32.956754+00:00"
+   "2026-08-20T10:00:29.406053+00:00"
   ],
   "hn:49371006": [
-   255,
-   "2026-08-20T09:05:32.956754+00:00"
+   304,
+   "2026-08-20T10:00:29.406053+00:00"
   ],
   "hn:49370083": [
-   84,
-   "2026-08-20T09:05:32.956754+00:00"
+   93,
+   "2026-08-20T10:00:29.406053+00:00"
   ],
   "hn:49366264": [
    302,
@@ -1544,8 +1552,8 @@
    "2026-08-20T09:05:32.956754+00:00"
   ],
   "lobsters:7v1wvd": [
-   25,
-   "2026-08-20T09:05:32.956754+00:00"
+   28,
+   "2026-08-20T10:00:29.406053+00:00"
   ]
  }
 }
