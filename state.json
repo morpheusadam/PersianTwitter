@@ -163,18 +163,19 @@
   "https://thehackernews.com/2026/08/cisa-flags-actively-exploited-ray-flaw.html",
   "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mthuboscnk2o",
   "hn:49371006",
-  "hn:49372583"
+  "hn:49372583",
+  "lobsters:oaybfe"
  ],
  "posted": {
-  "viral": 37,
+  "viral": 38,
   "editorial": 34
  },
  "recent_labels": [
-  "404 Media",
   "Hacker News",
   "The Hacker News",
   "Hacker News",
-  "Hacker News"
+  "Hacker News",
+  "Lobsters"
  ],
  "last_digest": "",
  "history": [
@@ -625,6 +626,13 @@
    "source": "blog.laserphile.com",
    "score": 0.07707,
    "at": "2026-08-20T11:52:34.534899+00:00"
+  },
+  {
+   "title": "تجربه‌ی مهاجرت از Rust به زبان برنامه‌نویسی Zig",
+   "url": "https://besok.github.io/posts/what-zig-felt-like-coming-from-rust/",
+   "source": "besok.github.io",
+   "score": 0.08897,
+   "at": "2026-08-20T13:27:21.423467+00:00"
   }
  ],
  "snapshots": {
@@ -1557,8 +1565,8 @@
    "2026-08-20T10:57:02.359360+00:00"
   ],
   "hn:49370083": [
-   100,
-   "2026-08-20T11:52:29.691077+00:00"
+   109,
+   "2026-08-20T13:27:15.455561+00:00"
   ],
   "hn:49366264": [
    302,
@@ -1575,6 +1583,14 @@
   "hn:49372583": [
    178,
    "2026-08-20T11:52:29.691077+00:00"
+  ],
+  "hn:49373456": [
+   102,
+   "2026-08-20T13:27:15.455561+00:00"
+  ],
+  "lobsters:oaybfe": [
+   41,
+   "2026-08-20T13:27:15.455561+00:00"
   ]
  }
 }
