@@ -162,17 +162,18 @@
   "hn:49370440",
   "https://thehackernews.com/2026/08/cisa-flags-actively-exploited-ray-flaw.html",
   "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mthuboscnk2o",
-  "hn:49371006"
+  "hn:49371006",
+  "hn:49372583"
  ],
  "posted": {
-  "viral": 36,
+  "viral": 37,
   "editorial": 34
  },
  "recent_labels": [
-  "Hacker News",
   "404 Media",
   "Hacker News",
   "The Hacker News",
+  "Hacker News",
   "Hacker News"
  ],
  "last_digest": "",
@@ -617,6 +618,13 @@
    "source": "devblogs.microsoft.com",
    "score": 0.03004,
    "at": "2026-08-20T10:57:05.634832+00:00"
+  },
+  {
+   "title": "ردگیری کاربران در AliExpress با استفاده از اثرانگشت صوتی مرورگر",
+   "url": "https://blog.laserphile.com/2026/08/aliexpress-webpage-keeping-multipoint.html",
+   "source": "blog.laserphile.com",
+   "score": 0.07707,
+   "at": "2026-08-20T11:52:34.534899+00:00"
   }
  ],
  "snapshots": {
@@ -1549,8 +1557,8 @@
    "2026-08-20T10:57:02.359360+00:00"
   ],
   "hn:49370083": [
-   97,
-   "2026-08-20T10:57:02.359360+00:00"
+   100,
+   "2026-08-20T11:52:29.691077+00:00"
   ],
   "hn:49366264": [
    302,
@@ -1563,6 +1571,10 @@
   "lobsters:7v1wvd": [
    28,
    "2026-08-20T10:00:29.406053+00:00"
+  ],
+  "hn:49372583": [
+   178,
+   "2026-08-20T11:52:29.691077+00:00"
   ]
  }
 }
