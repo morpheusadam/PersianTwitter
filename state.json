@@ -154,18 +154,20 @@
   "https://science.slashdot.org/story/26/08/19/1725205/moderna-merck-say-mrna-vaccine-prevents-melanoma-from-returning?utm_source=rss1.0mainlinkanon&utm_medium=feed",
   "TheNextWeb=0e71fdf4c7d2bca8415a0527e6c88d18",
   "https://3dnews.ru/1147097/#6a859907742eec8a988b456d",
-  "https://therecord.media/electronic-health-record-company-carecloud-data-breach"
+  "https://therecord.media/electronic-health-record-company-carecloud-data-breach",
+  "hn:49367350",
+  "hn:49368625"
  ],
  "posted": {
-  "viral": 31,
+  "viral": 32,
   "editorial": 33
  },
  "recent_labels": [
-  "Engadget",
   "404 Media",
   "The Next Web",
   "3DNews",
-  "The Record"
+  "The Record",
+  "Hacker News"
  ],
  "last_digest": "",
  "history": [
@@ -567,6 +569,13 @@
    "source": "The Record",
    "score": 0.32108,
    "at": "2026-08-19T21:50:55.716117+00:00"
+  },
+  {
+   "title": "توقف استفاده از دوربین‌های پلاک‌خوان Flock در شهر گاردنر",
+   "url": "https://www.kmbc.com/article/gardner-kansas-flock-cameras-license-plate-readers-privacy/73468724",
+   "source": "kmbc.com",
+   "score": 0.11472,
+   "at": "2026-08-20T05:56:10.850937+00:00"
   }
  ],
  "snapshots": {
@@ -1391,16 +1400,16 @@
    "2026-08-19T20:53:28.607706+00:00"
   ],
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mthdkyhmgx2o": [
-   118,
-   "2026-08-19T21:50:53.022282+00:00"
+   133,
+   "2026-08-20T05:55:50.983470+00:00"
   ],
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mthct7dqjs2j": [
-   806,
-   "2026-08-19T21:50:53.022282+00:00"
+   1168,
+   "2026-08-20T05:55:50.983470+00:00"
   ],
   "hn:49365733": [
-   266,
-   "2026-08-19T21:50:53.022282+00:00"
+   305,
+   "2026-08-20T05:55:50.983470+00:00"
   ],
   "hn:49363668": [
    157,
@@ -1411,8 +1420,8 @@
    "2026-08-19T21:50:53.022282+00:00"
   ],
   "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mthfu2i5522n": [
-   9,
-   "2026-08-19T21:50:53.022282+00:00"
+   10,
+   "2026-08-20T05:55:50.983470+00:00"
   ],
   "hn:49364745": [
    207,
@@ -1427,16 +1436,16 @@
    "2026-08-19T21:50:53.022282+00:00"
   ],
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mthkbk7boq25": [
-   323,
-   "2026-08-19T21:50:53.022282+00:00"
+   561,
+   "2026-08-20T05:55:50.983470+00:00"
   ],
   "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mthklult3g2p": [
-   10,
-   "2026-08-19T21:50:53.022282+00:00"
+   14,
+   "2026-08-20T05:55:50.983470+00:00"
   ],
   "hn:49365841": [
-   107,
-   "2026-08-19T21:50:53.022282+00:00"
+   263,
+   "2026-08-20T05:55:50.983470+00:00"
   ],
   "hn:49364789": [
    132,
@@ -1445,6 +1454,54 @@
   "lobsters:smrw3n": [
    33,
    "2026-08-19T21:50:53.022282+00:00"
+  ],
+  "hn:49369408": [
+   201,
+   "2026-08-20T05:55:50.983470+00:00"
+  ],
+  "hn:49368625": [
+   234,
+   "2026-08-20T05:55:50.983470+00:00"
+  ],
+  "hn:49367350": [
+   400,
+   "2026-08-20T05:55:50.983470+00:00"
+  ],
+  "hn:49367256": [
+   143,
+   "2026-08-20T05:55:50.983470+00:00"
+  ],
+  "hn:49367040": [
+   73,
+   "2026-08-20T05:55:50.983470+00:00"
+  ],
+  "hn:49366792": [
+   104,
+   "2026-08-20T05:55:50.983470+00:00"
+  ],
+  "hn:49366743": [
+   282,
+   "2026-08-20T05:55:50.983470+00:00"
+  ],
+  "hn:49365419": [
+   199,
+   "2026-08-20T05:55:50.983470+00:00"
+  ],
+  "lobsters:vpmzvx": [
+   35,
+   "2026-08-20T05:55:50.983470+00:00"
+  ],
+  "lobsters:wvwqro": [
+   31,
+   "2026-08-20T05:55:50.983470+00:00"
+  ],
+  "at://did:plc:x2nsupeeo52oznrmplwapppl/app.bsky.feed.post/3mtho7sa54c2y": [
+   49,
+   "2026-08-20T05:55:50.983470+00:00"
+  ],
+  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mthuboscnk2o": [
+   14,
+   "2026-08-20T05:55:50.983470+00:00"
   ]
  }
 }
