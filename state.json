@@ -160,18 +160,20 @@
   "hn:49369408",
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mthkbk7boq25",
   "hn:49370440",
-  "https://thehackernews.com/2026/08/cisa-flags-actively-exploited-ray-flaw.html"
+  "https://thehackernews.com/2026/08/cisa-flags-actively-exploited-ray-flaw.html",
+  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mthuboscnk2o",
+  "hn:49371006"
  ],
  "posted": {
-  "viral": 35,
+  "viral": 36,
   "editorial": 34
  },
  "recent_labels": [
   "Hacker News",
-  "Hacker News",
   "404 Media",
   "Hacker News",
-  "The Hacker News"
+  "The Hacker News",
+  "Hacker News"
  ],
  "last_digest": "",
  "history": [
@@ -608,6 +610,13 @@
    "source": "The Hacker News",
    "score": 0.54137,
    "at": "2026-08-20T10:00:35.096259+00:00"
+  },
+  {
+   "title": "حواشی و جنجال‌های طراحی‌های بصری در نسخه‌های قدیمی ویندوز",
+   "url": "https://devblogs.microsoft.com/oldnewthing/20030825-00/?p=42803",
+   "source": "devblogs.microsoft.com",
+   "score": 0.03004,
+   "at": "2026-08-20T10:57:05.634832+00:00"
   }
  ],
  "snapshots": {
@@ -1533,15 +1542,15 @@
   ],
   "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mthuboscnk2o": [
    14,
-   "2026-08-20T10:00:29.406053+00:00"
+   "2026-08-20T10:57:02.359360+00:00"
   ],
   "hn:49371006": [
-   304,
-   "2026-08-20T10:00:29.406053+00:00"
+   360,
+   "2026-08-20T10:57:02.359360+00:00"
   ],
   "hn:49370083": [
-   93,
-   "2026-08-20T10:00:29.406053+00:00"
+   97,
+   "2026-08-20T10:57:02.359360+00:00"
   ],
   "hn:49366264": [
    302,
