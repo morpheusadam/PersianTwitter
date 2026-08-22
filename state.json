@@ -212,18 +212,19 @@
   "hn:49397074",
   "https://habr.com/ru/articles/1073250/",
   "6a873e2f6e93e6c337fd96d5",
-  "https://3dnews.ru/1147287/#6a896a71742eec47068b4569"
+  "https://3dnews.ru/1147287/#6a896a71742eec47068b4569",
+  "lobsters:lzgbrv"
  ],
  "posted": {
-  "viral": 51,
+  "viral": 52,
   "editorial": 54
  },
  "recent_labels": [
   "Hacker News",
-  "Hacker News",
   "Habr",
   "Wired",
-  "3DNews"
+  "3DNews",
+  "Lobsters"
  ],
  "last_digest": "2026-08-21",
  "history": [
@@ -912,6 +913,13 @@
    "source": "3DNews",
    "score": 0.27012,
    "at": "2026-08-22T11:44:48.150783+00:00"
+  },
+  {
+   "title": "بررسی ویژگی‌های کلیدی و سادگی زبان برنامه‌نویسی Gleam",
+   "url": "https://a.baez.link/3mtdbbp2dmc27",
+   "source": "a.baez.link",
+   "score": 0.06597,
+   "at": "2026-08-22T13:09:03.929639+00:00"
   }
  ],
  "snapshots": {
@@ -2300,8 +2308,20 @@
    "2026-08-22T09:50:46.703052+00:00"
   ],
   "hn:49398304": [
-   346,
-   "2026-08-22T11:44:43.911204+00:00"
+   960,
+   "2026-08-22T13:09:01.336323+00:00"
+  ],
+  "hn:49398152": [
+   111,
+   "2026-08-22T13:09:01.336323+00:00"
+  ],
+  "lobsters:lzgbrv": [
+   39,
+   "2026-08-22T13:09:01.336323+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mtoatyikji2v": [
+   97,
+   "2026-08-22T13:09:01.336323+00:00"
   ]
  }
 }
