@@ -220,18 +220,19 @@
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mtoatyikji2v",
   "hn:49399524",
   "https://thehackernews.com/2026/08/tiktok-agrees-to-400-million-settlement.html",
-  "hn:49398904"
+  "hn:49398904",
+  "lobsters:zibquu"
  ],
  "posted": {
-  "viral": 54,
+  "viral": 55,
   "editorial": 56
  },
  "recent_labels": [
-  "Lobsters",
   "TechSpot",
   "Hacker News",
   "The Hacker News",
-  "Hacker News"
+  "Hacker News",
+  "Lobsters"
  ],
  "last_digest": "2026-08-21",
  "history": [
@@ -955,6 +956,13 @@
    "source": "theguardian.com",
    "score": 0.09783,
    "at": "2026-08-22T16:49:33.631135+00:00"
+  },
+  {
+   "title": "چرا هوش مصنوعی لزوماً به بهبود عملکرد نرم‌افزارها منجر نمی‌شود",
+   "url": "https://typesanitizer.com/blog/performance-issues.html",
+   "source": "typesanitizer.com",
+   "score": 0.08439,
+   "at": "2026-08-22T17:45:40.396162+00:00"
   }
  ],
  "snapshots": {
@@ -2363,28 +2371,40 @@
    "2026-08-22T16:49:31.149891+00:00"
   ],
   "lobsters:ubeyqf": [
-   44,
-   "2026-08-22T16:49:31.149891+00:00"
+   51,
+   "2026-08-22T17:45:38.244188+00:00"
   ],
   "hn:49399524": [
    172,
    "2026-08-22T15:45:15.281759+00:00"
   ],
   "hn:49398158": [
-   153,
-   "2026-08-22T16:49:31.149891+00:00"
+   162,
+   "2026-08-22T17:45:38.244188+00:00"
   ],
   "lobsters:mbmn1f": [
-   60,
-   "2026-08-22T16:49:31.149891+00:00"
+   68,
+   "2026-08-22T17:45:38.244188+00:00"
   ],
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mtolqshucj22": [
-   249,
-   "2026-08-22T16:49:31.149891+00:00"
+   298,
+   "2026-08-22T17:45:38.244188+00:00"
   ],
   "hn:49400408": [
-   114,
-   "2026-08-22T16:49:31.149891+00:00"
+   175,
+   "2026-08-22T17:45:38.244188+00:00"
+  ],
+  "hn:49399898": [
+   78,
+   "2026-08-22T17:45:38.244188+00:00"
+  ],
+  "lobsters:zibquu": [
+   25,
+   "2026-08-22T17:45:38.244188+00:00"
+  ],
+  "lobsters:ku4v3b": [
+   25,
+   "2026-08-22T17:45:38.244188+00:00"
   ]
  }
 }
