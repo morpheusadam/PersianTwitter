@@ -208,18 +208,20 @@
   "hn:49395040",
   "hn:49395628",
   "hn:49394373",
-  "hn:49396590"
+  "hn:49396590",
+  "hn:49397074",
+  "https://habr.com/ru/articles/1073250/"
  ],
  "posted": {
   "viral": 51,
-  "editorial": 51
+  "editorial": 52
  },
  "recent_labels": [
-  "The Hacker News",
   "3DNews",
   "Hacker News",
   "Hacker News",
-  "Hacker News"
+  "Hacker News",
+  "Habr"
  ],
  "last_digest": "2026-08-21",
  "history": [
@@ -887,6 +889,13 @@
    "source": "developers.openai.com",
    "score": 0.04754,
    "at": "2026-08-22T08:56:38.470490+00:00"
+  },
+  {
+   "title": "اتصال سرویس Yandex Wordstat به Claude برای خودکارسازی تحلیل کلمات کلیدی",
+   "url": "https://habr.com/ru/articles/1073250/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1073250",
+   "source": "Habr",
+   "score": 0.23689,
+   "at": "2026-08-22T09:50:54.354074+00:00"
   }
  ],
  "snapshots": {
@@ -2271,8 +2280,8 @@
    "2026-08-22T08:56:35.583478+00:00"
   ],
   "hn:49397074": [
-   137,
-   "2026-08-22T08:56:35.583478+00:00"
+   194,
+   "2026-08-22T09:50:46.703052+00:00"
   ]
  }
 }
