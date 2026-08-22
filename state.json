@@ -211,18 +211,19 @@
   "hn:49396590",
   "hn:49397074",
   "https://habr.com/ru/articles/1073250/",
-  "6a873e2f6e93e6c337fd96d5"
+  "6a873e2f6e93e6c337fd96d5",
+  "https://3dnews.ru/1147287/#6a896a71742eec47068b4569"
  ],
  "posted": {
   "viral": 51,
-  "editorial": 53
+  "editorial": 54
  },
  "recent_labels": [
   "Hacker News",
   "Hacker News",
-  "Hacker News",
   "Habr",
-  "Wired"
+  "Wired",
+  "3DNews"
  ],
  "last_digest": "2026-08-21",
  "history": [
@@ -904,6 +905,13 @@
    "source": "Wired",
    "score": 0.29414,
    "at": "2026-08-22T10:48:39.511394+00:00"
+  },
+  {
+   "title": "نتایج تست مقاومت بدنه گوشی Google Pixel 11 Pro Fold",
+   "url": "https://3dnews.ru/1147287",
+   "source": "3DNews",
+   "score": 0.27012,
+   "at": "2026-08-22T11:44:48.150783+00:00"
   }
  ],
  "snapshots": {
@@ -2290,6 +2298,10 @@
   "hn:49397074": [
    194,
    "2026-08-22T09:50:46.703052+00:00"
+  ],
+  "hn:49398304": [
+   346,
+   "2026-08-22T11:44:43.911204+00:00"
   ]
  }
 }
