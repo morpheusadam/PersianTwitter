@@ -222,18 +222,19 @@
   "https://thehackernews.com/2026/08/tiktok-agrees-to-400-million-settlement.html",
   "hn:49398904",
   "lobsters:zibquu",
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mtolqshucj22"
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mtolqshucj22",
+  "hn:49401549"
  ],
  "posted": {
-  "viral": 56,
+  "viral": 57,
   "editorial": 56
  },
  "recent_labels": [
-  "Hacker News",
   "The Hacker News",
   "Hacker News",
   "Lobsters",
-  "404 Media"
+  "404 Media",
+  "Hacker News"
  ],
  "last_digest": "2026-08-21",
  "history": [
@@ -971,6 +972,13 @@
    "source": "404media.co",
    "score": 0.19027,
    "at": "2026-08-22T18:57:16.831852+00:00"
+  },
+  {
+   "title": "تغییر در سطح تلاش مدل Claude Code توسط Anthropic",
+   "url": "https://twitter.com/argofowl/status/2091150597374537729",
+   "source": "twitter.com",
+   "score": 0.09294,
+   "at": "2026-08-22T19:45:51.104708+00:00"
   }
  ],
  "snapshots": {
@@ -2387,24 +2395,24 @@
    "2026-08-22T15:45:15.281759+00:00"
   ],
   "hn:49398158": [
-   184,
-   "2026-08-22T18:57:15.052306+00:00"
+   192,
+   "2026-08-22T19:45:47.597422+00:00"
   ],
   "lobsters:mbmn1f": [
-   85,
-   "2026-08-22T18:57:15.052306+00:00"
+   95,
+   "2026-08-22T19:45:47.597422+00:00"
   ],
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mtolqshucj22": [
    311,
    "2026-08-22T18:57:15.052306+00:00"
   ],
   "hn:49400408": [
-   286,
-   "2026-08-22T18:57:15.052306+00:00"
+   339,
+   "2026-08-22T19:45:47.597422+00:00"
   ],
   "hn:49399898": [
-   134,
-   "2026-08-22T18:57:15.052306+00:00"
+   155,
+   "2026-08-22T19:45:47.597422+00:00"
   ],
   "lobsters:zibquu": [
    25,
@@ -2415,16 +2423,16 @@
    "2026-08-22T17:45:38.244188+00:00"
   ],
   "hn:49401621": [
-   109,
-   "2026-08-22T18:57:15.052306+00:00"
+   148,
+   "2026-08-22T19:45:47.597422+00:00"
   ],
   "hn:49401549": [
-   172,
-   "2026-08-22T18:57:15.052306+00:00"
+   242,
+   "2026-08-22T19:45:47.597422+00:00"
   ],
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mtots4qsmt2q": [
-   323,
-   "2026-08-22T18:57:15.052306+00:00"
+   400,
+   "2026-08-22T19:45:47.597422+00:00"
   ]
  }
 }
