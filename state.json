@@ -215,18 +215,19 @@
   "https://3dnews.ru/1147287/#6a896a71742eec47068b4569",
   "lobsters:lzgbrv",
   "hn:49398304",
-  "https://www.techspot.com/news/113578-walmart-finally-support-apple-pay-google-pay-after.html"
+  "https://www.techspot.com/news/113578-walmart-finally-support-apple-pay-google-pay-after.html",
+  "hn:49398152"
  ],
  "posted": {
-  "viral": 52,
+  "viral": 53,
   "editorial": 55
  },
  "recent_labels": [
-  "Habr",
   "Wired",
   "3DNews",
   "Lobsters",
-  "TechSpot"
+  "TechSpot",
+  "Hacker News"
  ],
  "last_digest": "2026-08-21",
  "history": [
@@ -929,6 +930,13 @@
    "source": "TechSpot",
    "score": 0.31218,
    "at": "2026-08-22T13:51:28.332354+00:00"
+  },
+  {
+   "title": "ابزار Munder Difflin برای اجرای ایجنت‌های هوش مصنوعی شخصی‌سازی‌شده روی سیستم محلی",
+   "url": "https://munderdiffl.in/",
+   "source": "munderdiffl.in",
+   "score": 0.14506,
+   "at": "2026-08-22T14:46:51.442903+00:00"
   }
  ],
  "snapshots": {
@@ -2321,24 +2329,32 @@
    "2026-08-22T13:51:23.666506+00:00"
   ],
   "hn:49398152": [
-   159,
-   "2026-08-22T13:51:23.666506+00:00"
+   225,
+   "2026-08-22T14:46:49.355074+00:00"
   ],
   "lobsters:lzgbrv": [
    39,
    "2026-08-22T13:09:01.336323+00:00"
   ],
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mtoatyikji2v": [
-   121,
-   "2026-08-22T13:51:23.666506+00:00"
+   131,
+   "2026-08-22T14:46:49.355074+00:00"
   ],
   "hn:49398904": [
-   74,
-   "2026-08-22T13:51:23.666506+00:00"
+   168,
+   "2026-08-22T14:46:49.355074+00:00"
   ],
   "lobsters:ubeyqf": [
-   28,
-   "2026-08-22T13:51:23.666506+00:00"
+   33,
+   "2026-08-22T14:46:49.355074+00:00"
+  ],
+  "hn:49399524": [
+   88,
+   "2026-08-22T14:46:49.355074+00:00"
+  ],
+  "hn:49398158": [
+   122,
+   "2026-08-22T14:46:49.355074+00:00"
   ]
  }
 }
