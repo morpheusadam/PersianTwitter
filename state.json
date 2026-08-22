@@ -219,18 +219,19 @@
   "hn:49398152",
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mtoatyikji2v",
   "hn:49399524",
-  "https://thehackernews.com/2026/08/tiktok-agrees-to-400-million-settlement.html"
+  "https://thehackernews.com/2026/08/tiktok-agrees-to-400-million-settlement.html",
+  "hn:49398904"
  ],
  "posted": {
-  "viral": 53,
+  "viral": 54,
   "editorial": 56
  },
  "recent_labels": [
-  "3DNews",
   "Lobsters",
   "TechSpot",
   "Hacker News",
-  "The Hacker News"
+  "The Hacker News",
+  "Hacker News"
  ],
  "last_digest": "2026-08-21",
  "history": [
@@ -947,6 +948,13 @@
    "source": "The Hacker News",
    "score": 0.40536,
    "at": "2026-08-22T15:45:24.436461+00:00"
+  },
+  {
+   "title": "دادگاه بزرگ علیه Meta به اتهام طراحی محصولات اعتیادآور برای کودکان",
+   "url": "https://www.theguardian.com/technology/2026/aug/22/meta-trial-children-privacy",
+   "source": "theguardian.com",
+   "score": 0.09783,
+   "at": "2026-08-22T16:49:33.631135+00:00"
   }
  ],
  "snapshots": {
@@ -2351,28 +2359,32 @@
    "2026-08-22T15:45:15.281759+00:00"
   ],
   "hn:49398904": [
-   258,
-   "2026-08-22T15:45:15.281759+00:00"
+   351,
+   "2026-08-22T16:49:31.149891+00:00"
   ],
   "lobsters:ubeyqf": [
-   37,
-   "2026-08-22T15:45:15.281759+00:00"
+   44,
+   "2026-08-22T16:49:31.149891+00:00"
   ],
   "hn:49399524": [
    172,
    "2026-08-22T15:45:15.281759+00:00"
   ],
   "hn:49398158": [
-   134,
-   "2026-08-22T15:45:15.281759+00:00"
+   153,
+   "2026-08-22T16:49:31.149891+00:00"
   ],
   "lobsters:mbmn1f": [
-   37,
-   "2026-08-22T15:45:15.281759+00:00"
+   60,
+   "2026-08-22T16:49:31.149891+00:00"
   ],
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mtolqshucj22": [
-   112,
-   "2026-08-22T15:45:15.281759+00:00"
+   249,
+   "2026-08-22T16:49:31.149891+00:00"
+  ],
+  "hn:49400408": [
+   114,
+   "2026-08-22T16:49:31.149891+00:00"
   ]
  }
 }
