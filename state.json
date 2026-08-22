@@ -198,18 +198,22 @@
   "K4nCRKP6hSTvvrC6mvh8A",
   "https://www.engadget.com/2241608/walmart-will-finally-accept-tap-to-pay-in-stores-by-end-of-2026/",
   "https://news.slashdot.org/story/26/08/21/1525227/walmart-to-finally-start-accepting-apple-pay-and-google-pay?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-  "https://thehackernews.com/2026/08/zombie-card-attack-can-revive-expired.html"
+  "https://thehackernews.com/2026/08/zombie-card-attack-can-revive-expired.html",
+  "at://did:plc:2mrgzk6xlemfv6yugn644xxy/app.bsky.feed.post/3mtmmmzbedc2t",
+  "hn:49395605",
+  "hn:49395700",
+  "https://3dnews.ru/1147272/#6a891866742eece4908b4569"
  ],
  "posted": {
   "viral": 48,
-  "editorial": 50
+  "editorial": 51
  },
  "recent_labels": [
-  "Lobsters",
   "Tom's Hardware",
   "Engadget",
   "Slashdot",
-  "The Hacker News"
+  "The Hacker News",
+  "3DNews"
  ],
  "last_digest": "2026-08-21",
  "history": [
@@ -849,6 +853,13 @@
    "source": "The Hacker News",
    "score": 0.52299,
    "at": "2026-08-21T21:48:05.741191+00:00"
+  },
+  {
+   "title": "تعدیل گسترده نیروها در تیم‌های Vision Pro و Siri اپل",
+   "url": "https://3dnews.ru/1147272",
+   "source": "3DNews",
+   "score": 1.16152,
+   "at": "2026-08-22T05:52:19.589160+00:00"
   }
  ],
  "snapshots": {
@@ -2153,8 +2164,8 @@
    "2026-08-21T21:48:03.501967+00:00"
   ],
   "hn:49392200": [
-   146,
-   "2026-08-21T21:48:03.501967+00:00"
+   284,
+   "2026-08-22T05:52:14.031499+00:00"
   ],
   "hn:49390308": [
    107,
@@ -2177,20 +2188,56 @@
    "2026-08-21T21:48:03.501967+00:00"
   ],
   "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mtmkjvykr22k": [
-   18,
-   "2026-08-21T21:48:03.501967+00:00"
+   26,
+   "2026-08-22T05:52:14.031499+00:00"
   ],
   "hn:49393051": [
-   172,
-   "2026-08-21T21:48:03.501967+00:00"
+   268,
+   "2026-08-22T05:52:14.031499+00:00"
   ],
   "hn:49390463": [
    143,
    "2026-08-21T21:48:03.501967+00:00"
   ],
   "at://did:plc:2mrgzk6xlemfv6yugn644xxy/app.bsky.feed.post/3mtmmmzbedc2t": [
-   29,
-   "2026-08-21T21:48:03.501967+00:00"
+   88,
+   "2026-08-22T05:52:14.031499+00:00"
+  ],
+  "hn:49395700": [
+   127,
+   "2026-08-22T05:52:14.031499+00:00"
+  ],
+  "hn:49395628": [
+   617,
+   "2026-08-22T05:52:14.031499+00:00"
+  ],
+  "hn:49395605": [
+   118,
+   "2026-08-22T05:52:14.031499+00:00"
+  ],
+  "hn:49395040": [
+   79,
+   "2026-08-22T05:52:14.031499+00:00"
+  ],
+  "hn:49394827": [
+   111,
+   "2026-08-22T05:52:14.031499+00:00"
+  ],
+  "hn:49394496": [
+   161,
+   "2026-08-22T05:52:14.031499+00:00"
+  ],
+  "hn:49394373": [
+   165,
+   "2026-08-22T05:52:14.031499+00:00"
+  ],
+  "hn:49393052": [
+   158,
+   "2026-08-22T05:52:14.031499+00:00"
+  ],
+  "hn:49392465": [
+   89,
+   "2026-08-22T05:52:14.031499+00:00"
   ]
  }
 }
