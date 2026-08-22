@@ -224,17 +224,19 @@
   "lobsters:zibquu",
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mtolqshucj22",
   "hn:49401549",
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mtots4qsmt2q"
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mtots4qsmt2q",
+  "6a8871d34cde17b7139992c0",
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mtp5s6pdjh2z"
  ],
  "posted": {
-  "viral": 58,
+  "viral": 59,
   "editorial": 56
  },
  "recent_labels": [
-  "Hacker News",
   "Lobsters",
   "404 Media",
   "Hacker News",
+  "404 Media",
   "404 Media"
  ],
  "last_digest": "2026-08-21",
@@ -987,6 +989,13 @@
    "source": "404media.co",
    "score": 0.16028,
    "at": "2026-08-22T20:48:34.930659+00:00"
+  },
+  {
+   "title": "روش جدید Anthropic برای واترمارک‌گذاری متون تولید شده توسط هوش مصنوعی",
+   "url": "https://www.404media.co/anthropics-text-watermarking-proves-ai-companies-do-not-care-at-all-about-writing/",
+   "source": "404media.co",
+   "score": 0.20595,
+   "at": "2026-08-22T21:45:51.987186+00:00"
   }
  ],
  "snapshots": {
@@ -2403,24 +2412,24 @@
    "2026-08-22T15:45:15.281759+00:00"
   ],
   "hn:49398158": [
-   200,
-   "2026-08-22T20:48:32.620524+00:00"
+   207,
+   "2026-08-22T21:45:49.117056+00:00"
   ],
   "lobsters:mbmn1f": [
-   110,
-   "2026-08-22T20:48:32.620524+00:00"
+   115,
+   "2026-08-22T21:45:49.117056+00:00"
   ],
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mtolqshucj22": [
    311,
    "2026-08-22T18:57:15.052306+00:00"
   ],
   "hn:49400408": [
-   401,
-   "2026-08-22T20:48:32.620524+00:00"
+   437,
+   "2026-08-22T21:45:49.117056+00:00"
   ],
   "hn:49399898": [
-   204,
-   "2026-08-22T20:48:32.620524+00:00"
+   266,
+   "2026-08-22T21:45:49.117056+00:00"
   ],
   "lobsters:zibquu": [
    25,
@@ -2431,8 +2440,8 @@
    "2026-08-22T17:45:38.244188+00:00"
   ],
   "hn:49401621": [
-   175,
-   "2026-08-22T20:48:32.620524+00:00"
+   212,
+   "2026-08-22T21:45:49.117056+00:00"
   ],
   "hn:49401549": [
    242,
@@ -2443,8 +2452,20 @@
    "2026-08-22T20:48:32.620524+00:00"
   ],
   "hn:49402741": [
-   123,
-   "2026-08-22T20:48:32.620524+00:00"
+   178,
+   "2026-08-22T21:45:49.117056+00:00"
+  ],
+  "hn:49402232": [
+   92,
+   "2026-08-22T21:45:49.117056+00:00"
+  ],
+  "hn:49399642": [
+   188,
+   "2026-08-22T21:45:49.117056+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mtp5s6pdjh2z": [
+   206,
+   "2026-08-22T21:45:49.117056+00:00"
   ]
  }
 }
