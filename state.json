@@ -216,18 +216,21 @@
   "lobsters:lzgbrv",
   "hn:49398304",
   "https://www.techspot.com/news/113578-walmart-finally-support-apple-pay-google-pay-after.html",
-  "hn:49398152"
+  "hn:49398152",
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mtoatyikji2v",
+  "hn:49399524",
+  "https://thehackernews.com/2026/08/tiktok-agrees-to-400-million-settlement.html"
  ],
  "posted": {
   "viral": 53,
-  "editorial": 55
+  "editorial": 56
  },
  "recent_labels": [
-  "Wired",
   "3DNews",
   "Lobsters",
   "TechSpot",
-  "Hacker News"
+  "Hacker News",
+  "The Hacker News"
  ],
  "last_digest": "2026-08-21",
  "history": [
@@ -937,6 +940,13 @@
    "source": "munderdiffl.in",
    "score": 0.14506,
    "at": "2026-08-22T14:46:51.442903+00:00"
+  },
+  {
+   "title": "جریمه ۴۰۰ میلیون دلاری TikTok به دلیل نقض حریم خصوصی کودکان",
+   "url": "https://thehackernews.com/2026/08/tiktok-agrees-to-400-million-settlement.html",
+   "source": "The Hacker News",
+   "score": 0.40536,
+   "at": "2026-08-22T15:45:24.436461+00:00"
   }
  ],
  "snapshots": {
@@ -2337,24 +2347,32 @@
    "2026-08-22T13:09:01.336323+00:00"
   ],
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mtoatyikji2v": [
-   131,
-   "2026-08-22T14:46:49.355074+00:00"
+   139,
+   "2026-08-22T15:45:15.281759+00:00"
   ],
   "hn:49398904": [
-   168,
-   "2026-08-22T14:46:49.355074+00:00"
+   258,
+   "2026-08-22T15:45:15.281759+00:00"
   ],
   "lobsters:ubeyqf": [
-   33,
-   "2026-08-22T14:46:49.355074+00:00"
+   37,
+   "2026-08-22T15:45:15.281759+00:00"
   ],
   "hn:49399524": [
-   88,
-   "2026-08-22T14:46:49.355074+00:00"
+   172,
+   "2026-08-22T15:45:15.281759+00:00"
   ],
   "hn:49398158": [
-   122,
-   "2026-08-22T14:46:49.355074+00:00"
+   134,
+   "2026-08-22T15:45:15.281759+00:00"
+  ],
+  "lobsters:mbmn1f": [
+   37,
+   "2026-08-22T15:45:15.281759+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mtolqshucj22": [
+   112,
+   "2026-08-22T15:45:15.281759+00:00"
   ]
  }
 }
