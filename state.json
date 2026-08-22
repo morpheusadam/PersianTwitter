@@ -223,18 +223,19 @@
   "hn:49398904",
   "lobsters:zibquu",
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mtolqshucj22",
-  "hn:49401549"
+  "hn:49401549",
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mtots4qsmt2q"
  ],
  "posted": {
-  "viral": 57,
+  "viral": 58,
   "editorial": 56
  },
  "recent_labels": [
-  "The Hacker News",
   "Hacker News",
   "Lobsters",
   "404 Media",
-  "Hacker News"
+  "Hacker News",
+  "404 Media"
  ],
  "last_digest": "2026-08-21",
  "history": [
@@ -979,6 +980,13 @@
    "source": "twitter.com",
    "score": 0.09294,
    "at": "2026-08-22T19:45:51.104708+00:00"
+  },
+  {
+   "title": "آمازون کتاب‌های کمیاب را برای آموزش هوش مصنوعی اسکن و نابود می‌کند",
+   "url": "https://www.404media.co/we-tracked-a-shipment-of-rare-books-it-ended-at-an-amazon-ai-training-facility/",
+   "source": "404media.co",
+   "score": 0.16028,
+   "at": "2026-08-22T20:48:34.930659+00:00"
   }
  ],
  "snapshots": {
@@ -2395,24 +2403,24 @@
    "2026-08-22T15:45:15.281759+00:00"
   ],
   "hn:49398158": [
-   192,
-   "2026-08-22T19:45:47.597422+00:00"
+   200,
+   "2026-08-22T20:48:32.620524+00:00"
   ],
   "lobsters:mbmn1f": [
-   95,
-   "2026-08-22T19:45:47.597422+00:00"
+   110,
+   "2026-08-22T20:48:32.620524+00:00"
   ],
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mtolqshucj22": [
    311,
    "2026-08-22T18:57:15.052306+00:00"
   ],
   "hn:49400408": [
-   339,
-   "2026-08-22T19:45:47.597422+00:00"
+   401,
+   "2026-08-22T20:48:32.620524+00:00"
   ],
   "hn:49399898": [
-   155,
-   "2026-08-22T19:45:47.597422+00:00"
+   204,
+   "2026-08-22T20:48:32.620524+00:00"
   ],
   "lobsters:zibquu": [
    25,
@@ -2423,16 +2431,20 @@
    "2026-08-22T17:45:38.244188+00:00"
   ],
   "hn:49401621": [
-   148,
-   "2026-08-22T19:45:47.597422+00:00"
+   175,
+   "2026-08-22T20:48:32.620524+00:00"
   ],
   "hn:49401549": [
    242,
    "2026-08-22T19:45:47.597422+00:00"
   ],
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mtots4qsmt2q": [
-   400,
-   "2026-08-22T19:45:47.597422+00:00"
+   429,
+   "2026-08-22T20:48:32.620524+00:00"
+  ],
+  "hn:49402741": [
+   123,
+   "2026-08-22T20:48:32.620524+00:00"
   ]
  }
 }
