@@ -226,18 +226,19 @@
   "hn:49401549",
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mtots4qsmt2q",
   "6a8871d34cde17b7139992c0",
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mtp5s6pdjh2z"
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mtp5s6pdjh2z",
+  "hn:49405816"
  ],
  "posted": {
-  "viral": 59,
+  "viral": 60,
   "editorial": 56
  },
  "recent_labels": [
-  "Lobsters",
   "404 Media",
   "Hacker News",
   "404 Media",
-  "404 Media"
+  "404 Media",
+  "Hacker News"
  ],
  "last_digest": "2026-08-21",
  "history": [
@@ -996,6 +997,13 @@
    "source": "404media.co",
    "score": 0.20595,
    "at": "2026-08-22T21:45:51.987186+00:00"
+  },
+  {
+   "title": "شبیه‌ساز متن‌باز برای کامپیوترهای قدیمی با زبان Rust",
+   "url": "https://martypc.net/",
+   "source": "martypc.net",
+   "score": 0.13206,
+   "at": "2026-08-23T05:54:21.586651+00:00"
   }
  ],
  "snapshots": {
@@ -2452,12 +2460,12 @@
    "2026-08-22T20:48:32.620524+00:00"
   ],
   "hn:49402741": [
-   178,
-   "2026-08-22T21:45:49.117056+00:00"
+   320,
+   "2026-08-23T05:54:19.627944+00:00"
   ],
   "hn:49402232": [
-   92,
-   "2026-08-22T21:45:49.117056+00:00"
+   434,
+   "2026-08-23T05:54:19.627944+00:00"
   ],
   "hn:49399642": [
    188,
@@ -2466,6 +2474,34 @@
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mtp5s6pdjh2z": [
    206,
    "2026-08-22T21:45:49.117056+00:00"
+  ],
+  "hn:49405816": [
+   68,
+   "2026-08-23T05:54:19.627944+00:00"
+  ],
+  "hn:49405110": [
+   107,
+   "2026-08-23T05:54:19.627944+00:00"
+  ],
+  "hn:49402521": [
+   188,
+   "2026-08-23T05:54:19.627944+00:00"
+  ],
+  "hn:49402213": [
+   104,
+   "2026-08-23T05:54:19.627944+00:00"
+  ],
+  "hn:49402189": [
+   741,
+   "2026-08-23T05:54:19.627944+00:00"
+  ],
+  "lobsters:a23bk3": [
+   36,
+   "2026-08-23T05:54:19.627944+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mtpeklmhky27": [
+   476,
+   "2026-08-23T05:54:19.627944+00:00"
   ]
  }
 }
