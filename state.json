@@ -238,18 +238,20 @@
   "hn:49407143",
   "5c9126abe48fae1a55ed4ea6",
   "PJjnXaGpCUMbQJhYdHxoB4",
-  "hn:49407507"
+  "hn:49407507",
+  "hn:49407576",
+  "https://habr.com/ru/articles/1073420/"
  ],
  "posted": {
   "viral": 63,
-  "editorial": 60
+  "editorial": 61
  },
  "recent_labels": [
-  "Hacker News",
   "404 Media",
   "Phoronix",
   "Tom's Hardware",
-  "Hacker News"
+  "Hacker News",
+  "Habr"
  ],
  "last_digest": "2026-08-21",
  "history": [
@@ -1064,6 +1066,13 @@
    "source": "xda-developers.com",
    "score": 0.12812,
    "at": "2026-08-23T13:10:16.152697+00:00"
+  },
+  {
+   "title": "مدیریت تغییرات داده در انباره داده با متدولوژی Kimball",
+   "url": "https://habr.com/ru/articles/1073420/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1073420",
+   "source": "Habr",
+   "score": 0.2101,
+   "at": "2026-08-23T13:53:14.313159+00:00"
   }
  ],
  "snapshots": {
@@ -2588,8 +2597,16 @@
    "2026-08-23T13:10:13.344397+00:00"
   ],
   "hn:49407341": [
-   122,
-   "2026-08-23T13:10:13.344397+00:00"
+   163,
+   "2026-08-23T13:53:08.521122+00:00"
+  ],
+  "hn:49407576": [
+   143,
+   "2026-08-23T13:53:08.521122+00:00"
+  ],
+  "hn:49406069": [
+   83,
+   "2026-08-23T13:53:08.521122+00:00"
   ]
  }
 }
