@@ -244,18 +244,20 @@
   "hn:49408550",
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mtr275w5yz2e",
   "360ddc0de8913302fc8272e305e4a62a",
-  "https://habr.com/ru/articles/1073446/"
+  "https://habr.com/ru/articles/1073446/",
+  "vjsRVPRLrGjWUjHKtnfKg8",
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mtrectulli2t"
  ],
  "posted": {
-  "viral": 65,
+  "viral": 66,
   "editorial": 63
  },
  "recent_labels": [
-  "Habr",
   "Hacker News",
   "404 Media",
   "iXBT",
-  "Habr"
+  "Habr",
+  "404 Media"
  ],
  "last_digest": "2026-08-21",
  "history": [
@@ -1105,6 +1107,13 @@
    "source": "Habr",
    "score": 0.25034,
    "at": "2026-08-23T17:44:17.286685+00:00"
+  },
+  {
+   "title": "استفاده از فناوری نظارتی Flock در سن‌دیگو",
+   "url": "https://www.404media.co/darth-vader-spoke-in-support-of-flock-at-san-diego-city-council-meeting/",
+   "source": "404media.co",
+   "score": 0.34893,
+   "at": "2026-08-23T18:56:48.572902+00:00"
   }
  ],
  "snapshots": {
@@ -2630,7 +2639,7 @@
   ],
   "hn:49407341": [
    192,
-   "2026-08-23T17:44:12.940035+00:00"
+   "2026-08-23T18:56:45.668249+00:00"
   ],
   "hn:49407576": [
    143,
@@ -2645,32 +2654,40 @@
    "2026-08-23T14:48:24.291555+00:00"
   ],
   "lobsters:u7v2sn": [
-   60,
-   "2026-08-23T17:44:12.940035+00:00"
+   69,
+   "2026-08-23T18:56:45.668249+00:00"
   ],
   "hn:49407509": [
    124,
-   "2026-08-23T17:44:12.940035+00:00"
+   "2026-08-23T18:56:45.668249+00:00"
   ],
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mtr275w5yz2e": [
    254,
    "2026-08-23T15:46:22.236290+00:00"
   ],
   "lobsters:dyxeyu": [
-   36,
-   "2026-08-23T17:44:12.940035+00:00"
+   40,
+   "2026-08-23T18:56:45.668249+00:00"
   ],
   "lobsters:9xglf3": [
-   26,
-   "2026-08-23T17:44:12.940035+00:00"
+   33,
+   "2026-08-23T18:56:45.668249+00:00"
   ],
   "lobsters:kxualw": [
-   30,
-   "2026-08-23T17:44:12.940035+00:00"
+   36,
+   "2026-08-23T18:56:45.668249+00:00"
   ],
   "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mtr7l4b7hc2w": [
    7,
-   "2026-08-23T17:44:12.940035+00:00"
+   "2026-08-23T18:56:45.668249+00:00"
+  ],
+  "lobsters:fadbev": [
+   26,
+   "2026-08-23T18:56:45.668249+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mtrectulli2t": [
+   234,
+   "2026-08-23T18:56:45.668249+00:00"
   ]
  }
 }
