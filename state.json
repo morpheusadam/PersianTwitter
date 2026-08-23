@@ -242,18 +242,19 @@
   "hn:49407576",
   "https://habr.com/ru/articles/1073420/",
   "hn:49408550",
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mtr275w5yz2e"
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mtr275w5yz2e",
+  "360ddc0de8913302fc8272e305e4a62a"
  ],
  "posted": {
   "viral": 65,
-  "editorial": 61
+  "editorial": 62
  },
  "recent_labels": [
-  "Tom's Hardware",
   "Hacker News",
   "Habr",
   "Hacker News",
-  "404 Media"
+  "404 Media",
+  "iXBT"
  ],
  "last_digest": "2026-08-21",
  "history": [
@@ -1089,6 +1090,13 @@
    "source": "404media.co",
    "score": 0.70695,
    "at": "2026-08-23T15:46:24.780972+00:00"
+  },
+  {
+   "title": "افزایش قیمت محصولات اپل و معرفی نخستین آیفون تاشو",
+   "url": "https://www.ixbt.com/news/2026/08/23/429859-budte-gotovy-k-povyseniiu-cen-na-iphone-analitik-bloomberg-o-novom-skladnom-iphone-za-2000-dollarov-i-roste-cen-na-iphone-18-i-iphone-18-pro.html",
+   "source": "iXBT",
+   "score": 0.22162,
+   "at": "2026-08-23T16:51:08.104833+00:00"
   }
  ],
  "snapshots": {
@@ -2614,7 +2622,7 @@
   ],
   "hn:49407341": [
    192,
-   "2026-08-23T15:46:22.236290+00:00"
+   "2026-08-23T16:51:05.088619+00:00"
   ],
   "hn:49407576": [
    143,
@@ -2629,16 +2637,20 @@
    "2026-08-23T14:48:24.291555+00:00"
   ],
   "lobsters:u7v2sn": [
-   45,
-   "2026-08-23T15:46:22.236290+00:00"
+   51,
+   "2026-08-23T16:51:05.088619+00:00"
   ],
   "hn:49407509": [
    124,
-   "2026-08-23T15:46:22.236290+00:00"
+   "2026-08-23T16:51:05.088619+00:00"
   ],
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mtr275w5yz2e": [
    254,
    "2026-08-23T15:46:22.236290+00:00"
+  ],
+  "lobsters:dyxeyu": [
+   33,
+   "2026-08-23T16:51:05.088619+00:00"
   ]
  }
 }
