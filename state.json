@@ -227,18 +227,19 @@
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mtots4qsmt2q",
   "6a8871d34cde17b7139992c0",
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mtp5s6pdjh2z",
-  "hn:49405816"
+  "hn:49405816",
+  "https://3dnews.ru/1147295/#6a8990f6742eecd7a28b4568"
  ],
  "posted": {
   "viral": 60,
-  "editorial": 56
+  "editorial": 57
  },
  "recent_labels": [
-  "404 Media",
   "Hacker News",
   "404 Media",
   "404 Media",
-  "Hacker News"
+  "Hacker News",
+  "3DNews"
  ],
  "last_digest": "2026-08-21",
  "history": [
@@ -1004,6 +1005,13 @@
    "source": "martypc.net",
    "score": 0.13206,
    "at": "2026-08-23T05:54:21.586651+00:00"
+  },
+  {
+   "title": "انتشار ویدیو جعبه‌گشایی گوشی Samsung Galaxy S26 FE پیش از رونمایی رسمی",
+   "url": "https://3dnews.ru/1147295",
+   "source": "3DNews",
+   "score": 0.43758,
+   "at": "2026-08-23T07:11:08.150038+00:00"
   }
  ],
  "snapshots": {
@@ -2480,8 +2488,8 @@
    "2026-08-23T05:54:19.627944+00:00"
   ],
   "hn:49405110": [
-   107,
-   "2026-08-23T05:54:19.627944+00:00"
+   110,
+   "2026-08-23T07:11:04.756366+00:00"
   ],
   "hn:49402521": [
    188,
@@ -2500,8 +2508,16 @@
    "2026-08-23T05:54:19.627944+00:00"
   ],
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mtpeklmhky27": [
-   476,
-   "2026-08-23T05:54:19.627944+00:00"
+   481,
+   "2026-08-23T07:11:04.756366+00:00"
+  ],
+  "hn:49405870": [
+   148,
+   "2026-08-23T07:11:04.756366+00:00"
+  ],
+  "hn:49405331": [
+   82,
+   "2026-08-23T07:11:04.756366+00:00"
   ]
  }
 }
