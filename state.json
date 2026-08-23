@@ -232,18 +232,20 @@
   "hn:49405870",
   "https://habr.com/ru/articles/1073398/",
   "hn:49406539",
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mtpeklmhky27"
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mtpeklmhky27",
+  "992934b9e2fe91e4ed5c8e6d29ecf85d",
+  "https://www.phoronix.com/news/Linux-7.3-Input"
  ],
  "posted": {
   "viral": 62,
-  "editorial": 58
+  "editorial": 59
  },
  "recent_labels": [
-  "Hacker News",
   "3DNews",
   "Habr",
   "Hacker News",
-  "404 Media"
+  "404 Media",
+  "Phoronix"
  ],
  "last_digest": "2026-08-21",
  "history": [
@@ -1037,6 +1039,13 @@
    "source": "404media.co",
    "score": 0.02854,
    "at": "2026-08-23T09:52:16.036351+00:00"
+  },
+  {
+   "title": "به‌روزرسانی‌های جدید زیرسیستم ورودی در هسته Linux 7.3",
+   "url": "https://www.phoronix.com/news/Linux-7.3-Input",
+   "source": "Phoronix",
+   "score": 0.2155,
+   "at": "2026-08-23T10:49:21.619571+00:00"
   }
  ],
  "snapshots": {
@@ -2513,8 +2522,8 @@
    "2026-08-23T05:54:19.627944+00:00"
   ],
   "hn:49405110": [
-   117,
-   "2026-08-23T09:52:13.309694+00:00"
+   122,
+   "2026-08-23T10:49:17.965377+00:00"
   ],
   "hn:49402521": [
    188,
@@ -2541,12 +2550,20 @@
    "2026-08-23T07:56:18.261820+00:00"
   ],
   "hn:49405331": [
-   129,
-   "2026-08-23T09:52:13.309694+00:00"
+   161,
+   "2026-08-23T10:49:17.965377+00:00"
   ],
   "hn:49406539": [
    215,
    "2026-08-23T08:57:03.241154+00:00"
+  ],
+  "hn:49407143": [
+   187,
+   "2026-08-23T10:49:17.965377+00:00"
+  ],
+  "hn:49405083": [
+   116,
+   "2026-08-23T10:49:17.965377+00:00"
   ]
  }
 }
