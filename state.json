@@ -231,18 +231,19 @@
   "https://3dnews.ru/1147295/#6a8990f6742eecd7a28b4568",
   "hn:49405870",
   "https://habr.com/ru/articles/1073398/",
-  "hn:49406539"
+  "hn:49406539",
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mtpeklmhky27"
  ],
  "posted": {
-  "viral": 61,
+  "viral": 62,
   "editorial": 58
  },
  "recent_labels": [
-  "404 Media",
   "Hacker News",
   "3DNews",
   "Habr",
-  "Hacker News"
+  "Hacker News",
+  "404 Media"
  ],
  "last_digest": "2026-08-21",
  "history": [
@@ -1029,6 +1030,13 @@
    "source": "xda-developers.com",
    "score": 0.22958,
    "at": "2026-08-23T08:57:05.948810+00:00"
+  },
+  {
+   "title": "سوءاستفاده پلیس از پایگاه‌های داده و سیستم‌های پلاک‌خوان برای تعقیب غیرقانونی",
+   "url": "https://www.404media.co/i-saw-a-shiny-thing-cop-explains-why-he-used-license-plate-reader-to-stalk-woman/",
+   "source": "404media.co",
+   "score": 0.02854,
+   "at": "2026-08-23T09:52:16.036351+00:00"
   }
  ],
  "snapshots": {
@@ -2505,8 +2513,8 @@
    "2026-08-23T05:54:19.627944+00:00"
   ],
   "hn:49405110": [
-   116,
-   "2026-08-23T08:57:03.241154+00:00"
+   117,
+   "2026-08-23T09:52:13.309694+00:00"
   ],
   "hn:49402521": [
    188,
@@ -2525,16 +2533,16 @@
    "2026-08-23T05:54:19.627944+00:00"
   ],
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mtpeklmhky27": [
-   496,
-   "2026-08-23T08:57:03.241154+00:00"
+   505,
+   "2026-08-23T09:52:13.309694+00:00"
   ],
   "hn:49405870": [
    186,
    "2026-08-23T07:56:18.261820+00:00"
   ],
   "hn:49405331": [
-   120,
-   "2026-08-23T08:57:03.241154+00:00"
+   129,
+   "2026-08-23T09:52:13.309694+00:00"
   ],
   "hn:49406539": [
    215,
