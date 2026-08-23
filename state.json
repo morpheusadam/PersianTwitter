@@ -247,18 +247,19 @@
   "https://habr.com/ru/articles/1073446/",
   "vjsRVPRLrGjWUjHKtnfKg8",
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mtrectulli2t",
-  "lobsters:fadbev"
+  "lobsters:fadbev",
+  "https://news.slashdot.org/story/26/08/23/1849216/iran-linked-cyberattackers-shut-down-a-uk-power-plant-for-four-days?utm_source=rss1.0mainlinkanon&utm_medium=feed"
  ],
  "posted": {
   "viral": 67,
-  "editorial": 63
+  "editorial": 64
  },
  "recent_labels": [
-  "404 Media",
   "iXBT",
   "Habr",
   "404 Media",
-  "Lobsters"
+  "Lobsters",
+  "Slashdot"
  ],
  "last_digest": "2026-08-21",
  "history": [
@@ -1122,6 +1123,13 @@
    "source": "ericpardee.github.io",
    "score": 0.12808,
    "at": "2026-08-23T19:44:58.074368+00:00"
+  },
+  {
+   "title": "حمله سایبری منتسب به ایران به یک نیروگاه کوچک در بریتانیا",
+   "url": "https://news.slashdot.org/story/26/08/23/1849216/iran-linked-cyberattackers-shut-down-a-uk-power-plant-for-four-days?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+   "source": "Slashdot",
+   "score": 0.33338,
+   "at": "2026-08-23T20:47:49.648741+00:00"
   }
  ],
  "snapshots": {
@@ -2647,7 +2655,7 @@
   ],
   "hn:49407341": [
    192,
-   "2026-08-23T19:44:55.963338+00:00"
+   "2026-08-23T20:47:47.810660+00:00"
   ],
   "hn:49407576": [
    143,
@@ -2662,32 +2670,32 @@
    "2026-08-23T14:48:24.291555+00:00"
   ],
   "lobsters:u7v2sn": [
-   78,
-   "2026-08-23T19:44:55.963338+00:00"
+   91,
+   "2026-08-23T20:47:47.810660+00:00"
   ],
   "hn:49407509": [
    124,
-   "2026-08-23T19:44:55.963338+00:00"
+   "2026-08-23T20:47:47.810660+00:00"
   ],
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mtr275w5yz2e": [
    254,
    "2026-08-23T15:46:22.236290+00:00"
   ],
   "lobsters:dyxeyu": [
-   43,
-   "2026-08-23T19:44:55.963338+00:00"
+   44,
+   "2026-08-23T20:47:47.810660+00:00"
   ],
   "lobsters:9xglf3": [
-   39,
-   "2026-08-23T19:44:55.963338+00:00"
+   47,
+   "2026-08-23T20:47:47.810660+00:00"
   ],
   "lobsters:kxualw": [
-   42,
-   "2026-08-23T19:44:55.963338+00:00"
+   43,
+   "2026-08-23T20:47:47.810660+00:00"
   ],
   "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mtr7l4b7hc2w": [
    10,
-   "2026-08-23T19:44:55.963338+00:00"
+   "2026-08-23T20:47:47.810660+00:00"
   ],
   "lobsters:fadbev": [
    32,
@@ -2696,6 +2704,10 @@
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mtrectulli2t": [
    234,
    "2026-08-23T18:56:45.668249+00:00"
+  ],
+  "lobsters:gybcec": [
+   30,
+   "2026-08-23T20:47:47.810660+00:00"
   ]
  }
 }
