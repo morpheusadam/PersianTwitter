@@ -234,18 +234,21 @@
   "hn:49406539",
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mtpeklmhky27",
   "992934b9e2fe91e4ed5c8e6d29ecf85d",
-  "https://www.phoronix.com/news/Linux-7.3-Input"
+  "https://www.phoronix.com/news/Linux-7.3-Input",
+  "hn:49407143",
+  "5c9126abe48fae1a55ed4ea6",
+  "PJjnXaGpCUMbQJhYdHxoB4"
  ],
  "posted": {
   "viral": 62,
-  "editorial": 59
+  "editorial": 60
  },
  "recent_labels": [
-  "3DNews",
   "Habr",
   "Hacker News",
   "404 Media",
-  "Phoronix"
+  "Phoronix",
+  "Tom's Hardware"
  ],
  "last_digest": "2026-08-21",
  "history": [
@@ -1046,6 +1049,13 @@
    "source": "Phoronix",
    "score": 0.2155,
    "at": "2026-08-23T10:49:21.619571+00:00"
+  },
+  {
+   "title": "بررسی مانیتور گیمینگ ۳۲ اینچ Asus با پنل Tandem OLED",
+   "url": "https://www.tomshardware.com/monitors/gaming-monitors/asus-rog-strix-xg32uqwms-32-inch-4k-oled-gaming-monitor-review",
+   "source": "Tom's Hardware",
+   "score": 0.29502,
+   "at": "2026-08-23T11:44:40.014283+00:00"
   }
  ],
  "snapshots": {
@@ -2522,8 +2532,8 @@
    "2026-08-23T05:54:19.627944+00:00"
   ],
   "hn:49405110": [
-   122,
-   "2026-08-23T10:49:17.965377+00:00"
+   127,
+   "2026-08-23T11:44:35.533591+00:00"
   ],
   "hn:49402521": [
    188,
@@ -2550,20 +2560,20 @@
    "2026-08-23T07:56:18.261820+00:00"
   ],
   "hn:49405331": [
-   161,
-   "2026-08-23T10:49:17.965377+00:00"
+   172,
+   "2026-08-23T11:44:35.533591+00:00"
   ],
   "hn:49406539": [
    215,
    "2026-08-23T08:57:03.241154+00:00"
   ],
   "hn:49407143": [
-   187,
-   "2026-08-23T10:49:17.965377+00:00"
+   231,
+   "2026-08-23T11:44:35.533591+00:00"
   ],
   "hn:49405083": [
-   116,
-   "2026-08-23T10:49:17.965377+00:00"
+   152,
+   "2026-08-23T11:44:35.533591+00:00"
   ]
  }
 }
