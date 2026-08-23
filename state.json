@@ -246,18 +246,19 @@
   "360ddc0de8913302fc8272e305e4a62a",
   "https://habr.com/ru/articles/1073446/",
   "vjsRVPRLrGjWUjHKtnfKg8",
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mtrectulli2t"
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mtrectulli2t",
+  "lobsters:fadbev"
  ],
  "posted": {
-  "viral": 66,
+  "viral": 67,
   "editorial": 63
  },
  "recent_labels": [
-  "Hacker News",
   "404 Media",
   "iXBT",
   "Habr",
-  "404 Media"
+  "404 Media",
+  "Lobsters"
  ],
  "last_digest": "2026-08-21",
  "history": [
@@ -1114,6 +1115,13 @@
    "source": "404media.co",
    "score": 0.34893,
    "at": "2026-08-23T18:56:48.572902+00:00"
+  },
+  {
+   "title": "روت کردن تبلت آمازون با کمک مدل‌های هوش مصنوعی",
+   "url": "https://ericpardee.github.io/fire-hd-ownership/",
+   "source": "ericpardee.github.io",
+   "score": 0.12808,
+   "at": "2026-08-23T19:44:58.074368+00:00"
   }
  ],
  "snapshots": {
@@ -2639,7 +2647,7 @@
   ],
   "hn:49407341": [
    192,
-   "2026-08-23T18:56:45.668249+00:00"
+   "2026-08-23T19:44:55.963338+00:00"
   ],
   "hn:49407576": [
    143,
@@ -2654,36 +2662,36 @@
    "2026-08-23T14:48:24.291555+00:00"
   ],
   "lobsters:u7v2sn": [
-   69,
-   "2026-08-23T18:56:45.668249+00:00"
+   78,
+   "2026-08-23T19:44:55.963338+00:00"
   ],
   "hn:49407509": [
    124,
-   "2026-08-23T18:56:45.668249+00:00"
+   "2026-08-23T19:44:55.963338+00:00"
   ],
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mtr275w5yz2e": [
    254,
    "2026-08-23T15:46:22.236290+00:00"
   ],
   "lobsters:dyxeyu": [
-   40,
-   "2026-08-23T18:56:45.668249+00:00"
+   43,
+   "2026-08-23T19:44:55.963338+00:00"
   ],
   "lobsters:9xglf3": [
-   33,
-   "2026-08-23T18:56:45.668249+00:00"
+   39,
+   "2026-08-23T19:44:55.963338+00:00"
   ],
   "lobsters:kxualw": [
-   36,
-   "2026-08-23T18:56:45.668249+00:00"
+   42,
+   "2026-08-23T19:44:55.963338+00:00"
   ],
   "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mtr7l4b7hc2w": [
-   7,
-   "2026-08-23T18:56:45.668249+00:00"
+   10,
+   "2026-08-23T19:44:55.963338+00:00"
   ],
   "lobsters:fadbev": [
-   26,
-   "2026-08-23T18:56:45.668249+00:00"
+   32,
+   "2026-08-23T19:44:55.963338+00:00"
   ],
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mtrectulli2t": [
    234,
