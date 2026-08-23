@@ -248,18 +248,19 @@
   "vjsRVPRLrGjWUjHKtnfKg8",
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mtrectulli2t",
   "lobsters:fadbev",
-  "https://news.slashdot.org/story/26/08/23/1849216/iran-linked-cyberattackers-shut-down-a-uk-power-plant-for-four-days?utm_source=rss1.0mainlinkanon&utm_medium=feed"
+  "https://news.slashdot.org/story/26/08/23/1849216/iran-linked-cyberattackers-shut-down-a-uk-power-plant-for-four-days?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+  "https://www.engadget.com/2240251/android-auto-vs-automotive-how-different/"
  ],
  "posted": {
   "viral": 67,
-  "editorial": 64
+  "editorial": 65
  },
  "recent_labels": [
-  "iXBT",
   "Habr",
   "404 Media",
   "Lobsters",
-  "Slashdot"
+  "Slashdot",
+  "Engadget"
  ],
  "last_digest": "2026-08-21",
  "history": [
@@ -1130,6 +1131,13 @@
    "source": "Slashdot",
    "score": 0.33338,
    "at": "2026-08-23T20:47:49.648741+00:00"
+  },
+  {
+   "title": "تفاوت‌های فنی میان Android Auto و سیستم‌عامل Android Automotive",
+   "url": "https://www.engadget.com/2240251/android-auto-vs-automotive-how-different/",
+   "source": "Engadget",
+   "score": 0.2188,
+   "at": "2026-08-23T21:44:44.605435+00:00"
   }
  ],
  "snapshots": {
@@ -2670,32 +2678,32 @@
    "2026-08-23T14:48:24.291555+00:00"
   ],
   "lobsters:u7v2sn": [
-   91,
-   "2026-08-23T20:47:47.810660+00:00"
+   97,
+   "2026-08-23T21:44:43.088129+00:00"
   ],
   "hn:49407509": [
    124,
-   "2026-08-23T20:47:47.810660+00:00"
+   "2026-08-23T21:44:43.088129+00:00"
   ],
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mtr275w5yz2e": [
    254,
    "2026-08-23T15:46:22.236290+00:00"
   ],
   "lobsters:dyxeyu": [
-   44,
-   "2026-08-23T20:47:47.810660+00:00"
+   47,
+   "2026-08-23T21:44:43.088129+00:00"
   ],
   "lobsters:9xglf3": [
-   47,
-   "2026-08-23T20:47:47.810660+00:00"
+   56,
+   "2026-08-23T21:44:43.088129+00:00"
   ],
   "lobsters:kxualw": [
-   43,
-   "2026-08-23T20:47:47.810660+00:00"
+   49,
+   "2026-08-23T21:44:43.088129+00:00"
   ],
   "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mtr7l4b7hc2w": [
    10,
-   "2026-08-23T20:47:47.810660+00:00"
+   "2026-08-23T21:44:43.088129+00:00"
   ],
   "lobsters:fadbev": [
    32,
@@ -2706,8 +2714,12 @@
    "2026-08-23T18:56:45.668249+00:00"
   ],
   "lobsters:gybcec": [
-   30,
-   "2026-08-23T20:47:47.810660+00:00"
+   35,
+   "2026-08-23T21:44:43.088129+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mtrogj622x2l": [
+   173,
+   "2026-08-23T21:44:43.088129+00:00"
   ]
  }
 }
