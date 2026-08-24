@@ -252,17 +252,19 @@
   "https://www.engadget.com/2240251/android-auto-vs-automotive-how-different/",
   "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mtsik53ns22y",
   "https://3dnews.ru/1147312/#6a8a9758742eecb8988b456c",
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mtrogj622x2l"
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mtrogj622x2l",
+  "https://www.engadget.com/2242295/humanoid-robots-have-beaten-usain-bolts-100-meter-dash-record/",
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mtrv532nyd2z"
  ],
  "posted": {
-  "viral": 68,
+  "viral": 69,
   "editorial": 66
  },
  "recent_labels": [
-  "Lobsters",
   "Slashdot",
   "Engadget",
   "3DNews",
+  "404 Media",
   "404 Media"
  ],
  "last_digest": "2026-08-21",
@@ -1155,6 +1157,13 @@
    "source": "404media.co",
    "score": 0.02542,
    "at": "2026-08-24T07:37:07.601852+00:00"
+  },
+  {
+   "title": "استفاده از ChatGPT در گزارش کارشناسی دادگاه انفجار مرگبار",
+   "url": "https://www.404media.co/show-how-3m-is-0-at-fault-expert-witness-used-chatgpt-to-write-report-defending-company-in-deadly-explosion-lawsuit/",
+   "source": "404media.co",
+   "score": 0.02985,
+   "at": "2026-08-24T09:13:16.756449+00:00"
   }
  ],
  "snapshots": {
@@ -2743,8 +2752,8 @@
    "2026-08-24T06:02:24.950838+00:00"
   ],
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mtrv532nyd2z": [
-   346,
-   "2026-08-24T07:37:05.379493+00:00"
+   351,
+   "2026-08-24T09:13:13.553933+00:00"
   ],
   "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mtsik53ns22y": [
    7,
