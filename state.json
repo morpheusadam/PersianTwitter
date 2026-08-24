@@ -261,18 +261,20 @@
   "lobsters:vcdk2q",
   "https://thehackernews.com/2026/08/android-car-malware-spreads-through.html",
   "lobsters:lo28ad",
-  "https://www.phoronix.com/news/GNU-Emacs-31.1-Released"
+  "https://www.phoronix.com/news/GNU-Emacs-31.1-Released",
+  "6a88c0bfe5d3c9c921b3d827",
+  "https://www.engadget.com/2242283/twitch-amazon-hit-with-lawsuit-for-training-ai-with-streamers-content/"
  ],
  "posted": {
   "viral": 71,
-  "editorial": 69
+  "editorial": 70
  },
  "recent_labels": [
-  "Lobsters",
   "TechSpot",
   "Lobsters",
   "The Hacker News",
-  "Phoronix"
+  "Phoronix",
+  "Engadget"
  ],
  "last_digest": "2026-08-21",
  "history": [
@@ -1206,6 +1208,13 @@
    "source": "Phoronix",
    "score": 0.26727,
    "at": "2026-08-24T14:20:22.706181+00:00"
+  },
+  {
+   "title": "شکایت حقوقی از Twitch و Amazon به دلیل آموزش مدل‌های هوش مصنوعی",
+   "url": "https://www.engadget.com/2242283/twitch-amazon-hit-with-lawsuit-for-training-ai-with-streamers-content/",
+   "source": "Engadget",
+   "score": 0.39179,
+   "at": "2026-08-24T15:09:53.243089+00:00"
   }
  ],
  "snapshots": {
@@ -2810,8 +2819,8 @@
    "2026-08-24T11:53:14.194880+00:00"
   ],
   "lobsters:rehaa3": [
-   26,
-   "2026-08-24T14:20:18.790724+00:00"
+   40,
+   "2026-08-24T15:09:46.819597+00:00"
   ],
   "lobsters:lo28ad": [
    27,
