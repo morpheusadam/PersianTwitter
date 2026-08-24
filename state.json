@@ -257,18 +257,19 @@
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mtrv532nyd2z",
   "lobsters:8ttu5n",
   "d50f2d4371608e854616ac021be58371",
-  "https://www.techspot.com/news/113584-amazon-raises-echo-kindle-fire-tv-eero-prices.html"
+  "https://www.techspot.com/news/113584-amazon-raises-echo-kindle-fire-tv-eero-prices.html",
+  "lobsters:vcdk2q"
  ],
  "posted": {
-  "viral": 70,
+  "viral": 71,
   "editorial": 67
  },
  "recent_labels": [
-  "3DNews",
   "404 Media",
   "404 Media",
   "Lobsters",
-  "TechSpot"
+  "TechSpot",
+  "Lobsters"
  ],
  "last_digest": "2026-08-21",
  "history": [
@@ -1181,6 +1182,13 @@
    "source": "TechSpot",
    "score": 0.3036,
    "at": "2026-08-24T11:01:45.099804+00:00"
+  },
+  {
+   "title": "مهندسی معکوس تجهیزات جانبی با کمک هوش مصنوعی برای کشف حفره‌های امنیتی",
+   "url": "https://schlarp.com/posts/everything-i-own-owned/",
+   "source": "schlarp.com",
+   "score": 0.02732,
+   "at": "2026-08-24T11:53:16.267508+00:00"
   }
  ],
  "snapshots": {
@@ -2781,8 +2789,8 @@
    "2026-08-24T10:10:07.916146+00:00"
   ],
   "lobsters:vcdk2q": [
-   29,
-   "2026-08-24T11:01:40.986519+00:00"
+   43,
+   "2026-08-24T11:53:14.194880+00:00"
   ]
  }
 }
