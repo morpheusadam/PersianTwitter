@@ -267,18 +267,19 @@
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mttl3bp46s2y",
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mttltu7iu22a",
   "https://3dnews.ru/1147360/#6a8c6713742eec11798b4586",
-  "https://www.theregister.com/a/5291802"
+  "https://www.theregister.com/a/5291802",
+  "lobsters:rehaa3"
  ],
  "posted": {
-  "viral": 72,
+  "viral": 73,
   "editorial": 71
  },
  "recent_labels": [
-  "The Hacker News",
   "Phoronix",
   "Engadget",
   "404 Media",
-  "The Register"
+  "The Register",
+  "Lobsters"
  ],
  "last_digest": "2026-08-21",
  "history": [
@@ -1233,6 +1234,13 @@
    "source": "The Register",
    "score": 0.4199,
    "at": "2026-08-24T17:04:38.819384+00:00"
+  },
+  {
+   "title": "انتشار نسخه ۳۱.۱ ویرایشگر متن Emacs",
+   "url": "https://lists.gnu.org/archive/html/info-gnu-emacs/2026-08/msg00004.html",
+   "source": "lists.gnu.org",
+   "score": 0.06944,
+   "at": "2026-08-24T17:57:29.211980+00:00"
   }
  ],
  "snapshots": {
@@ -2837,8 +2845,8 @@
    "2026-08-24T11:53:14.194880+00:00"
   ],
   "lobsters:rehaa3": [
-   55,
-   "2026-08-24T17:04:31.653771+00:00"
+   61,
+   "2026-08-24T17:57:25.082325+00:00"
   ],
   "lobsters:lo28ad": [
    27,
@@ -2851,6 +2859,10 @@
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mttl3bp46s2y": [
    155,
    "2026-08-24T16:03:49.505871+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mttrqjk5es2y": [
+   257,
+   "2026-08-24T17:57:25.082325+00:00"
   ]
  }
 }
