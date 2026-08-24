@@ -263,18 +263,19 @@
   "lobsters:lo28ad",
   "https://www.phoronix.com/news/GNU-Emacs-31.1-Released",
   "6a88c0bfe5d3c9c921b3d827",
-  "https://www.engadget.com/2242283/twitch-amazon-hit-with-lawsuit-for-training-ai-with-streamers-content/"
+  "https://www.engadget.com/2242283/twitch-amazon-hit-with-lawsuit-for-training-ai-with-streamers-content/",
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mttl3bp46s2y"
  ],
  "posted": {
-  "viral": 71,
+  "viral": 72,
   "editorial": 70
  },
  "recent_labels": [
-  "TechSpot",
   "Lobsters",
   "The Hacker News",
   "Phoronix",
-  "Engadget"
+  "Engadget",
+  "404 Media"
  ],
  "last_digest": "2026-08-21",
  "history": [
@@ -1215,6 +1216,13 @@
    "source": "Engadget",
    "score": 0.39179,
    "at": "2026-08-24T15:09:53.243089+00:00"
+  },
+  {
+   "title": "نقد رویکرد شرکت‌های تکنولوژی در بهره‌برداری از هوش مصنوعی برای روابط انسانی",
+   "url": "https://bsky.app/profile/404media.co/post/3mttl3bp46s2y",
+   "source": "404 Media",
+   "score": 0.5852,
+   "at": "2026-08-24T16:03:54.887529+00:00"
   }
  ],
  "snapshots": {
@@ -2819,12 +2827,20 @@
    "2026-08-24T11:53:14.194880+00:00"
   ],
   "lobsters:rehaa3": [
-   40,
-   "2026-08-24T15:09:46.819597+00:00"
+   46,
+   "2026-08-24T16:03:49.505871+00:00"
   ],
   "lobsters:lo28ad": [
    27,
    "2026-08-24T14:20:18.790724+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mttltu7iu22a": [
+   146,
+   "2026-08-24T16:03:49.505871+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mttl3bp46s2y": [
+   155,
+   "2026-08-24T16:03:49.505871+00:00"
   ]
  }
 }
