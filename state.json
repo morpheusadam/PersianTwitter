@@ -249,18 +249,20 @@
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mtrectulli2t",
   "lobsters:fadbev",
   "https://news.slashdot.org/story/26/08/23/1849216/iran-linked-cyberattackers-shut-down-a-uk-power-plant-for-four-days?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-  "https://www.engadget.com/2240251/android-auto-vs-automotive-how-different/"
+  "https://www.engadget.com/2240251/android-auto-vs-automotive-how-different/",
+  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mtsik53ns22y",
+  "https://3dnews.ru/1147312/#6a8a9758742eecb8988b456c"
  ],
  "posted": {
   "viral": 67,
-  "editorial": 65
+  "editorial": 66
  },
  "recent_labels": [
-  "Habr",
   "404 Media",
   "Lobsters",
   "Slashdot",
-  "Engadget"
+  "Engadget",
+  "3DNews"
  ],
  "last_digest": "2026-08-21",
  "history": [
@@ -1138,6 +1140,13 @@
    "source": "Engadget",
    "score": 0.2188,
    "at": "2026-08-23T21:44:44.605435+00:00"
+  },
+  {
+   "title": "پروژه کابل زیردریایی جدید Meta برای اتصال آمریکا و دانمارک",
+   "url": "https://3dnews.ru/1147312",
+   "source": "3DNews",
+   "score": 0.20985,
+   "at": "2026-08-24T06:02:31.252897+00:00"
   }
  ],
  "snapshots": {
@@ -2718,8 +2727,20 @@
    "2026-08-23T21:44:43.088129+00:00"
   ],
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mtrogj622x2l": [
-   173,
-   "2026-08-23T21:44:43.088129+00:00"
+   272,
+   "2026-08-24T06:02:24.950838+00:00"
+  ],
+  "lobsters:ll6pak": [
+   48,
+   "2026-08-24T06:02:24.950838+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mtrv532nyd2z": [
+   339,
+   "2026-08-24T06:02:24.950838+00:00"
+  ],
+  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mtsik53ns22y": [
+   7,
+   "2026-08-24T06:02:24.950838+00:00"
   ]
  }
 }
