@@ -258,18 +258,19 @@
   "lobsters:8ttu5n",
   "d50f2d4371608e854616ac021be58371",
   "https://www.techspot.com/news/113584-amazon-raises-echo-kindle-fire-tv-eero-prices.html",
-  "lobsters:vcdk2q"
+  "lobsters:vcdk2q",
+  "https://thehackernews.com/2026/08/android-car-malware-spreads-through.html"
  ],
  "posted": {
   "viral": 71,
-  "editorial": 67
+  "editorial": 68
  },
  "recent_labels": [
   "404 Media",
-  "404 Media",
   "Lobsters",
   "TechSpot",
-  "Lobsters"
+  "Lobsters",
+  "The Hacker News"
  ],
  "last_digest": "2026-08-21",
  "history": [
@@ -1189,6 +1190,13 @@
    "source": "schlarp.com",
    "score": 0.02732,
    "at": "2026-08-24T11:53:16.267508+00:00"
+  },
+  {
+   "title": "آلودگی سیستم‌های سرگرمی خودروهای اندرویدی به بدافزار برای کلاهبرداری تبلیغاتی",
+   "url": "https://thehackernews.com/2026/08/android-car-malware-spreads-through.html",
+   "source": "The Hacker News",
+   "score": 0.40155,
+   "at": "2026-08-24T13:30:06.829299+00:00"
   }
  ],
  "snapshots": {
