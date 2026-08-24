@@ -259,18 +259,20 @@
   "d50f2d4371608e854616ac021be58371",
   "https://www.techspot.com/news/113584-amazon-raises-echo-kindle-fire-tv-eero-prices.html",
   "lobsters:vcdk2q",
-  "https://thehackernews.com/2026/08/android-car-malware-spreads-through.html"
+  "https://thehackernews.com/2026/08/android-car-malware-spreads-through.html",
+  "lobsters:lo28ad",
+  "https://www.phoronix.com/news/GNU-Emacs-31.1-Released"
  ],
  "posted": {
   "viral": 71,
-  "editorial": 68
+  "editorial": 69
  },
  "recent_labels": [
-  "404 Media",
   "Lobsters",
   "TechSpot",
   "Lobsters",
-  "The Hacker News"
+  "The Hacker News",
+  "Phoronix"
  ],
  "last_digest": "2026-08-21",
  "history": [
@@ -1197,6 +1199,13 @@
    "source": "The Hacker News",
    "score": 0.40155,
    "at": "2026-08-24T13:30:06.829299+00:00"
+  },
+  {
+   "title": "انتشار نسخه ۳۱.۱ ویرایشگر متن GNU Emacs با قابلیت‌های جدید",
+   "url": "https://www.phoronix.com/news/GNU-Emacs-31.1-Released",
+   "source": "Phoronix",
+   "score": 0.26727,
+   "at": "2026-08-24T14:20:22.706181+00:00"
   }
  ],
  "snapshots": {
@@ -2799,6 +2808,14 @@
   "lobsters:vcdk2q": [
    43,
    "2026-08-24T11:53:14.194880+00:00"
+  ],
+  "lobsters:rehaa3": [
+   26,
+   "2026-08-24T14:20:18.790724+00:00"
+  ],
+  "lobsters:lo28ad": [
+   27,
+   "2026-08-24T14:20:18.790724+00:00"
   ]
  }
 }
