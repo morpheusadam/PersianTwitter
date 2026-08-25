@@ -283,18 +283,20 @@
   "https://www.techspot.com/news/113579-windows-could-soon-you-control-how-pc-splits.html",
   "hn:49428638",
   "https://www.theregister.com/a/5292059",
-  "hn:49429095"
+  "hn:49429095",
+  "hn:49431364",
+  "https://habr.com/ru/articles/1074304/"
  ],
  "posted": {
   "viral": 78,
-  "editorial": 76
+  "editorial": 77
  },
  "recent_labels": [
   "Hacker News",
-  "Hacker News",
   "TechSpot",
   "Hacker News",
-  "Hacker News"
+  "Hacker News",
+  "Habr"
  ],
  "last_digest": "2026-08-21",
  "history": [
@@ -1326,6 +1328,13 @@
    "source": "github.com",
    "score": 0.0138,
    "at": "2026-08-25T10:59:00.660518+00:00"
+  },
+  {
+   "title": "مایکروسافت در برنامه‌های Paint و Photos واترمارک‌های نامرئی روی تصاویر هوش مصنوعی درج می‌کند",
+   "url": "https://habr.com/ru/articles/1074304/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1074304",
+   "source": "Habr",
+   "score": 0.43391,
+   "at": "2026-08-25T11:53:52.300887+00:00"
   }
  ],
  "snapshots": {
@@ -3130,16 +3139,16 @@
    "2026-08-25T08:07:23.217399+00:00"
   ],
   "hn:49428882": [
-   118,
-   "2026-08-25T10:58:57.745300+00:00"
+   136,
+   "2026-08-25T11:53:47.320536+00:00"
   ],
   "hn:49428638": [
    77,
    "2026-08-25T10:00:07.991743+00:00"
   ],
   "hn:49431364": [
-   239,
-   "2026-08-25T10:58:57.745300+00:00"
+   585,
+   "2026-08-25T11:53:47.320536+00:00"
   ],
   "hn:49429095": [
    91,
