@@ -280,18 +280,19 @@
   "hn:49428121",
   "hn:49428080",
   "hn:49428318",
-  "https://www.techspot.com/news/113579-windows-could-soon-you-control-how-pc-splits.html"
+  "https://www.techspot.com/news/113579-windows-could-soon-you-control-how-pc-splits.html",
+  "hn:49428638"
  ],
  "posted": {
-  "viral": 76,
+  "viral": 77,
   "editorial": 76
  },
  "recent_labels": [
-  "Hacker News",
   "Tom's Hardware",
   "Hacker News",
   "Hacker News",
-  "TechSpot"
+  "TechSpot",
+  "Hacker News"
  ],
  "last_digest": "2026-08-21",
  "history": [
@@ -1309,6 +1310,13 @@
    "source": "TechSpot",
    "score": 0.42887,
    "at": "2026-08-25T09:08:21.876773+00:00"
+  },
+  {
+   "title": "معرفی پلتفرم سرور جدید SiFive با معماری RISC-V",
+   "url": "https://chipsandcheese.com/p/sifives-first-server-platform",
+   "source": "chipsandcheese.com",
+   "score": 0.01228,
+   "at": "2026-08-25T10:00:10.632635+00:00"
   }
  ],
  "snapshots": {
@@ -3077,12 +3085,12 @@
    "2026-08-25T07:24:32.617422+00:00"
   ],
   "hn:49427001": [
-   159,
-   "2026-08-25T09:08:19.930701+00:00"
+   171,
+   "2026-08-25T10:00:07.991743+00:00"
   ],
   "hn:49426564": [
-   690,
-   "2026-08-25T09:08:19.930701+00:00"
+   729,
+   "2026-08-25T10:00:07.991743+00:00"
   ],
   "hn:49425819": [
    445,
@@ -3113,8 +3121,12 @@
    "2026-08-25T08:07:23.217399+00:00"
   ],
   "hn:49428882": [
-   90,
-   "2026-08-25T09:08:19.930701+00:00"
+   99,
+   "2026-08-25T10:00:07.991743+00:00"
+  ],
+  "hn:49428638": [
+   77,
+   "2026-08-25T10:00:07.991743+00:00"
   ]
  }
 }
