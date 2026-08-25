@@ -274,18 +274,19 @@
   "hn:49422784",
   "hn:49424606",
   "https://hardware.slashdot.org/story/26/08/24/1853204/raspberry-pi-shares-its-official-tutorial-for-making-a-cyberdeck?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-  "hn:49421554"
+  "hn:49421554",
+  "b9j7Hk2YW4HnELqm6qKKfU"
  ],
  "posted": {
   "viral": 74,
-  "editorial": 74
+  "editorial": 75
  },
  "recent_labels": [
-  "Lobsters",
   "The Record",
   "The Register",
   "Slashdot",
-  "Hacker News"
+  "Hacker News",
+  "Tom's Hardware"
  ],
  "last_digest": "2026-08-21",
  "history": [
@@ -1275,6 +1276,13 @@
    "source": "larsfaye.com",
    "score": 0.1861,
    "at": "2026-08-24T21:53:52.288705+00:00"
+  },
+  {
+   "title": "جزئیات فنی پردازنده‌های نسل آینده Intel Xeon با نام Diamond Rapids",
+   "url": "https://www.tomshardware.com/pc-components/cpus/intel-xeon-7-diamond-rapids-comes-with-up-to-256-p-cores-1-28-gb-of-last-level-cache-next-gen-18a-p-cpu-also-brings-avx-10-2-and-uses-ucie-s-instead-of-emib",
+   "source": "Tom's Hardware",
+   "score": 0.4834,
+   "at": "2026-08-25T05:57:43.650189+00:00"
   }
  ],
  "snapshots": {
@@ -3027,12 +3035,52 @@
    "2026-08-24T21:53:49.914068+00:00"
   ],
   "hn:49424387": [
-   106,
-   "2026-08-24T21:53:49.914068+00:00"
+   235,
+   "2026-08-25T05:57:41.934298+00:00"
   ],
   "hn:49423801": [
-   73,
-   "2026-08-24T21:53:49.914068+00:00"
+   79,
+   "2026-08-25T05:57:41.934298+00:00"
+  ],
+  "hn:49428318": [
+   113,
+   "2026-08-25T05:57:41.934298+00:00"
+  ],
+  "hn:49428121": [
+   210,
+   "2026-08-25T05:57:41.934298+00:00"
+  ],
+  "hn:49427001": [
+   124,
+   "2026-08-25T05:57:41.934298+00:00"
+  ],
+  "hn:49426564": [
+   536,
+   "2026-08-25T05:57:41.934298+00:00"
+  ],
+  "hn:49425819": [
+   428,
+   "2026-08-25T05:57:41.934298+00:00"
+  ],
+  "hn:49425800": [
+   110,
+   "2026-08-25T05:57:41.934298+00:00"
+  ],
+  "hn:49424936": [
+   67,
+   "2026-08-25T05:57:41.934298+00:00"
+  ],
+  "hn:49424167": [
+   123,
+   "2026-08-25T05:57:41.934298+00:00"
+  ],
+  "hn:49423927": [
+   65,
+   "2026-08-25T05:57:41.934298+00:00"
+  ],
+  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mtugk37or22u": [
+   188,
+   "2026-08-25T05:57:41.934298+00:00"
   ]
  }
 }
