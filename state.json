@@ -279,18 +279,19 @@
   "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mtugk37or22u",
   "hn:49428121",
   "hn:49428080",
-  "hn:49428318"
+  "hn:49428318",
+  "https://www.techspot.com/news/113579-windows-could-soon-you-control-how-pc-splits.html"
  ],
  "posted": {
   "viral": 76,
-  "editorial": 75
+  "editorial": 76
  },
  "recent_labels": [
-  "Slashdot",
   "Hacker News",
   "Tom's Hardware",
   "Hacker News",
-  "Hacker News"
+  "Hacker News",
+  "TechSpot"
  ],
  "last_digest": "2026-08-21",
  "history": [
@@ -1301,6 +1302,13 @@
    "source": "thomsonreuters.com",
    "score": 0.0341,
    "at": "2026-08-25T08:07:26.280258+00:00"
+  },
+  {
+   "title": "قابلیت جدید ویندوز ۱۱ برای مدیریت حافظه در سیستم‌های دارای حافظه یکپارچه",
+   "url": "https://www.techspot.com/news/113579-windows-could-soon-you-control-how-pc-splits.html",
+   "source": "TechSpot",
+   "score": 0.42887,
+   "at": "2026-08-25T09:08:21.876773+00:00"
   }
  ],
  "snapshots": {
@@ -3069,12 +3077,12 @@
    "2026-08-25T07:24:32.617422+00:00"
   ],
   "hn:49427001": [
-   150,
-   "2026-08-25T08:07:23.217399+00:00"
+   159,
+   "2026-08-25T09:08:19.930701+00:00"
   ],
   "hn:49426564": [
-   646,
-   "2026-08-25T08:07:23.217399+00:00"
+   690,
+   "2026-08-25T09:08:19.930701+00:00"
   ],
   "hn:49425819": [
    445,
@@ -3103,6 +3111,10 @@
   "hn:49428080": [
    233,
    "2026-08-25T08:07:23.217399+00:00"
+  ],
+  "hn:49428882": [
+   90,
+   "2026-08-25T09:08:19.930701+00:00"
   ]
  }
 }
