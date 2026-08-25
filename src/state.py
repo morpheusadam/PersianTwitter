@@ -4,8 +4,11 @@ import json
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
-# فقط این تعداد uid آخر را نگه می‌داریم تا فایل بی‌نهایت رشد نکند.
-MAX_SEEN = 800
+# فقط این تعداد uid آخر را نگه می‌داریم تا فایل بی‌نهایت رشد نکند. حالا که هر
+# پست کل خوشه‌اش را بایگانی می‌کند (نه فقط خودش را)، این عدد چند برابر سریع‌تر
+# پر می‌شود، پس سقف بالاتر رفت تا پنجره‌ی seen از پنجره‌ی حافظه‌ی ماجرا کوتاه‌تر
+# نشود.
+MAX_SEEN = 3000
 
 # عکس‌های تعامل. هر اجرا حدود صد آیتم رتبه‌دار می‌بیند و هر آیتم بعد از خروج از
 # پنجره‌ی سنی بی‌فایده می‌شود، پس این سقف چند اجرا تاریخچه می‌دهد.
@@ -13,6 +16,14 @@ MAX_SNAPSHOTS = 600
 
 # برای جلوگیری از پشت‌سرهم آمدن یک منبع، فقط همین تعداد پست آخر مهم است.
 RECENT_LABELS = 5
+
+# امضای ماجراهای پست‌شده. سقفش سخاوتمند است چون هر ردیف فقط چند ده توکن است.
+MAX_STORIES = 300
+
+# چقدر یک ماجرا در حافظه بماند. پوشش چندرسانه‌ای یک خبر بزرگ تا دو روز کش
+# می‌آید — رسانه‌های روسی و آسیایی معمولاً یک روز دیرتر می‌نویسند — پس پنجره
+# باید از خودِ موج پوشش بلندتر باشد وگرنه دنباله‌اش رد می‌شود.
+STORY_MEMORY_HOURS = 72
 
 
 class State:
@@ -32,6 +43,8 @@ class State:
         self.history: list[dict] = []
         # تاریخ آخرین خلاصه‌ی هفتگی، تا دو بار در یک روز نرود.
         self.last_digest: str = ""
+        # امضای ماجراهایی که پست شده‌اند، جدا از uid مقاله‌ها.
+        self.stories: list[dict] = []
 
         if not self.is_first_run:
             data = json.loads(path.read_text(encoding="utf-8"))
@@ -42,6 +55,7 @@ class State:
             self.recent_labels = data.get("recent_labels", [])
             self.history = data.get("history", [])
             self.last_digest = data.get("last_digest", "")
+            self.stories = data.get("stories", [])
 
     def has(self, uid: str) -> bool:
         return uid in self._seen_set
@@ -56,6 +70,27 @@ class State:
         self.posted[pool] = self.posted.get(pool, 0) + 1
         self.recent_labels.append(label)
         self.recent_labels = self.recent_labels[-RECENT_LABELS:]
+
+    def remember_story(self, signature: set[str], now: datetime) -> None:
+        """امضای ماجرایی که پست شد.
+
+        `seen` فقط URL مقاله را می‌گیرد، و این برای خبری که ده رسانه پوشش
+        می‌دهند کافی نیست: نسخه‌ی رسانه‌ی بعدی URL دیگری دارد و از فیلتر رد
+        می‌شود. امضای ماجرا همان چیزی است که همه‌ی آن نسخه‌ها در آن مشترک‌اند.
+        """
+        if not signature:
+            return
+        self.stories.append({"sig": sorted(signature), "at": now.isoformat()})
+
+    def recent_stories(self, now: datetime, hours: int = STORY_MEMORY_HOURS) -> list[set[str]]:
+        """ماجراهایی که در پنجره‌ی حافظه پست شده‌اند."""
+        cutoff = now - timedelta(hours=hours)
+        live = []
+        for row in self.stories:
+            at = _parse(row.get("at"))
+            if at and at >= cutoff:
+                live.append(set(row.get("sig", [])))
+        return live
 
     def remember(self, item, persian: str, now: datetime) -> None:
         """پست را برای خلاصه‌ی هفتگی نگه می‌دارد."""
@@ -95,6 +130,7 @@ class State:
     def save(self) -> None:
         self.seen = self.seen[-MAX_SEEN:]
         self._seen_set = set(self.seen)
+        self.stories = self.stories[-MAX_STORIES:]
 
         # قدیمی‌ترین عکس‌ها اول حذف می‌شوند؛ آن‌ها همان‌هایی هستند که از پنجره‌ی
         # سنی خارج شده‌اند و دیگر امتیاز نمی‌گیرند.
@@ -110,6 +146,7 @@ class State:
                     "recent_labels": self.recent_labels,
                     "last_digest": self.last_digest,
                     "history": self.history,
+                    "stories": self.stories,
                     "snapshots": self.snapshots,
                 },
                 ensure_ascii=False,

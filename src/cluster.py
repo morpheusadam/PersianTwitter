@@ -27,6 +27,10 @@ log = logging.getLogger(__name__)
 # نامرتبطِ هم‌موضوع به هم می‌چسبند؛ بالاتر، نسخه‌های مختلف یک خبر جدا می‌مانند.
 SIMILARITY = 0.42
 
+# طول متن به این پله‌ها گرد می‌شود تا «کامل‌تر» معنا پیدا کند بدون اینکه چند
+# کاراکتر اختلاف، اعتبار منبع را بی‌اثر کند.
+COMPLETENESS_STEP = 400
+
 # امضا از توکن‌های معنادار ساخته می‌شود و اینها معنا ندارند.
 STOP = {
     "the", "and", "for", "with", "from", "that", "this", "have", "has", "was",
@@ -77,12 +81,27 @@ class Cluster:
     def lead(self) -> Item:
         """نماینده‌ی خوشه، همان چیزی که پست می‌شود.
 
-        مقاله‌ای که عکس دارد و از منبع معتبرتری است بهتر جواب می‌دهد؛ بین
-        مساوی‌ها، آنکه تعامل بیشتری دارد.
+        وقتی نُه رسانه یک خبر را نوشته‌اند، باید *بهترین* روایت برود نه اولی که
+        رسیده. به ترتیب:
+
+        عکس    — پست بی‌عکس در تلگرام دیده نمی‌شود، پس این اول از همه است.
+        اعتبار — دکمه‌ی source خواننده را به همان‌جا می‌فرستد؛ رسانه‌ی معتبرتر
+                 هم برای خواننده بهتر است هم برای کانال.
+        کامل‌بودن — بین دو رسانه‌ی هم‌تراز، آنکه خلاصه‌ی طولانی‌تری در فید داده
+                 معمولاً مقاله‌ی واقعی نوشته نه یک استاب چندخطی.
+        تعامل  — آخرین معیار، برای منابعی که اصلاً عدد دارند.
+
+        اعتبار به پله‌های ۰.۱ گرد می‌شود تا اختلاف‌های ریزِ config جای معیار
+        بعدی را نگیرند.
         """
         return max(
             self.items,
-            key=lambda i: (bool(i.image_url), i.authority, i.engagement),
+            key=lambda i: (
+                bool(i.image_url),
+                round(i.authority, 1),
+                len(i.text) // COMPLETENESS_STEP,
+                i.engagement,
+            ),
         )
 
 
@@ -99,7 +118,10 @@ def build(items: list[Item]) -> list[Cluster]:
         found = by_url.get(key)
 
         if found is None:
-            signature = _signature(item.text)
+            # کپی، نه خودِ مجموعه‌ی آیتم: امضای خوشه پایین‌تر با |= بزرگ می‌شود
+            # و اگر همان شیء باشد، امضای خودِ مقاله هم با آن باد می‌کند. آن‌وقت
+            # مقایسه‌ی «این خبر همان ماجراست؟» مخرج بزرگ می‌گیرد و می‌شکند.
+            signature = set(item.signature) if item.signature else signature_of(item.text)
             found = _closest(signature, clusters)
             if found is None:
                 found = Cluster(signature=signature)
@@ -118,13 +140,25 @@ def build(items: list[Item]) -> list[Cluster]:
 def _closest(signature: set[str], clusters: list[Cluster]) -> Cluster | None:
     best, best_score = None, 0.0
     for cluster in clusters:
-        score = _similarity(signature, cluster.signature)
+        score = similarity(signature, cluster.signature)
         if score > best_score:
             best, best_score = cluster, score
     return best if best_score >= SIMILARITY else None
 
 
-def _similarity(left: set[str], right: set[str]) -> float:
+def best_match(signature: set[str], others: list[set[str]]) -> float:
+    """شبیه‌ترین امضا از یک مجموعه، و اینکه چقدر شبیه است.
+
+    برای مقایسه‌ی یک خبر تازه با ماجراهایی که قبلاً پست شده‌اند. امضای یک ماجرا
+    اجتماع امضای همه‌ی رسانه‌هایی است که رویش نوشته‌اند، پس هرچه ماجرا بیشتر
+    پوشش بگیرد این تطبیق دقیق‌تر می‌شود نه ضعیف‌تر.
+    """
+    if not signature:
+        return 0.0
+    return max((similarity(signature, other) for other in others), default=0.0)
+
+
+def similarity(left: set[str], right: set[str]) -> float:
     """اشتراک نسبت به کوچک‌ترین مجموعه، نه Jaccard.
 
     یک تیتر کوتاه و یک متن بلند درباره‌ی یک خبر، Jaccard پایینی می‌گیرند چون
@@ -136,14 +170,18 @@ def _similarity(left: set[str], right: set[str]) -> float:
     return len(left & right) / min(len(left), len(right))
 
 
-def _signature(text: str) -> set[str]:
+def signature_of(text: str) -> set[str]:
     """توکن‌های لاتین و عددی از دو خط اول متن.
 
     فقط لاتین، چون همین باعث می‌شود خبر روسی و انگلیسیِ یک ماجرا به هم برسند:
     اسم شرکت و محصول و شماره‌ی CVE در هر دو زبان لاتین می‌ماند.
     """
     head = " ".join(text.splitlines()[:2]).lower()
-    tokens = {t for t in _TOKEN.findall(head) if t not in STOP and not t.isdigit()}
+    # نقطه و خط تیره‌ی چسبیده به آخر کلمه باید برود، وگرنه «chips.» در انتهای
+    # جمله و «chips» وسط جمله دو توکن متفاوت می‌شوند و همان اشتراکی که باید دو
+    # روایت یک خبر را به هم برساند از دست می‌رود.
+    tokens = {t.strip(".-") for t in _TOKEN.findall(head)}
+    tokens = {t for t in tokens if len(t) >= 3 and t not in STOP and not t.isdigit()}
     # کمتر از سه توکن یعنی امضا آن‌قدر ضعیف است که هر چیزی به آن می‌چسبد.
     return tokens if len(tokens) >= 3 else set()
 

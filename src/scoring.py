@@ -56,6 +56,13 @@ MIN_SNAPSHOT_GAP_HOURS = 0.25
 # پشت هم از یک منبع می‌گذارد یکنواخت به نظر می‌رسد.
 REPEAT_PENALTY = 0.55
 
+# باند نرمِ زیر آستانه‌ی خوشه‌بندی. هرچه از `cluster.SIMILARITY` رد شود در
+# select کاملاً حذف می‌شود و اصلاً به رتبه‌بندی نمی‌رسد؛ ولی خبری که *شبیه*
+# ماجرای تازه‌پست‌شده است بدون اینکه قطعاً همان باشد — مثلاً خبر بعدی از همان
+# رویداد — نباید حذف شود، فقط نباید جلوی بقیه را هم بگیرد.
+ECHO_FLOOR = 0.28
+ECHO_PENALTY = 0.25
+
 # «چند رسانه‌ی مستقل نوشته‌اند» در برابر «چقدر تعامل گرفته».
 #
 # اولین نسخه log2 بود و خیلی کند رشد می‌کرد: یک منبع ۰.۸ می‌گرفت و سه منبع
@@ -104,12 +111,20 @@ def rank(items: list[Item], state=None, now: datetime | None = None) -> list[Ite
     speeds = {item.uid: _velocity(item, state, now) for item in items if item.ranked}
     baselines = _baselines(items, speeds)
     recent = list(getattr(state, "recent_labels", []) or [])
+    echoes = state.recent_stories(now) if hasattr(state, "recent_stories") else []
 
     leads: list[Item] = []
     for story in cluster.build(items):
         lead = story.lead()
+        # نماینده باید بداند نماینده‌ی چه کسانی است: وقتی پست شد، همه‌ی این
+        # uidها با هم بایگانی می‌شوند.
+        lead.members = [i.uid for i in story.items]
+        lead.story_signature = set(story.signature)
+        if not lead.signature:
+            lead.signature = cluster.signature_of(lead.text)
         _score(lead, story, speeds.get(lead.uid), baselines.get(lead.label, 0.0), now)
         _apply_diversity(lead, recent)
+        _apply_echo(lead, echoes)
         leads.append(lead)
 
     if state is not None:
@@ -201,6 +216,22 @@ def _velocity(item: Item, state, now: datetime) -> float:
             return max(growth, 0) / gap
 
     return item.engagement / (item.age_hours(now) + VELOCITY_OFFSET_HOURS)
+
+
+def _apply_echo(item: Item, echoes: list[set[str]]) -> None:
+    """ماجراهایی که تازه پست شده‌اند را ته صف می‌فرستد.
+
+    فیلتر قطعی در `main.select` است و هرچه از آستانه رد شود اصلاً به اینجا
+    نمی‌رسد. این باند نرمِ زیر آستانه است: خبر مشکوک حذف نمی‌شود ولی باید از
+    یک ماجرای واقعاً تازه عقب بیفتد.
+    """
+    if not echoes or not item.signature:
+        return
+    score = cluster.best_match(item.signature, echoes)
+    if score < ECHO_FLOOR:
+        return
+    item.score *= ECHO_PENALTY
+    item.breakdown["echo"] = round(score, 2)
 
 
 def _apply_diversity(item: Item, recent: list[str]) -> None:

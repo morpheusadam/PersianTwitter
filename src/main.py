@@ -12,9 +12,9 @@ from pathlib import Path
 import httpx
 import yaml
 
-from . import article, images, scoring, sources, telegram, translate
+from . import article, cluster, images, scoring, sources, telegram, translate
 from .models import Item
-from .state import State
+from .state import State, now_utc
 
 ROOT = Path(__file__).resolve().parent.parent
 FALLBACK_IMAGE = ROOT / "assets" / "fallback.png"
@@ -43,6 +43,10 @@ def main() -> int:
         format="%(asctime)s  %(levelname)-7s %(message)s",
         datefmt="%H:%M:%S",
     )
+    # httpx هر درخواست را با URL کامل لاگ می‌کند و کلید Gemini در query string
+    # است. در Actions ماسک می‌شود ولی در اجرای محلی روی ترمینال می‌افتد، و لاگ
+    # هر فید هم چیزی به آدم نمی‌گوید.
+    logging.getLogger("httpx").setLevel(logging.WARNING)
 
     load_dotenv(ROOT / ".env")
 
@@ -146,6 +150,7 @@ def select(items: list[Item], state: State, settings: dict, explain: bool = Fals
         and within_window(item)
         and len(item.text) >= (min_ranked_text if item.ranked else min_text)
     ]
+    fresh = _drop_repeats(fresh, state.recent_stories(now))
 
     ranked = scoring.rank(fresh, state)
     viral = [i for i in ranked if i.ranked]
@@ -170,6 +175,42 @@ def select(items: list[Item], state: State, settings: dict, explain: bool = Fals
     # انتخاب بر اساس امتیاز، ولی ارسال به ترتیب زمانی.
     chosen.sort(key=lambda i: i.published)
     return chosen
+
+
+def _drop_repeats(items: list[Item], stories: list[set[str]]) -> list[Item]:
+    """خبرهایی که همان ماجرای قبلاً پست‌شده‌اند را کنار می‌گذارد.
+
+    اینجا همان جایی است که تکرار واقعاً متوقف می‌شود. خوشه‌بندی فقط *داخل* یک
+    اجرا کار می‌کند: هفت رسانه‌ای که همزمان در فید هستند یک پست می‌شوند. ولی
+    پوشش یک خبر بزرگ ساعت‌ها ادامه دارد و رسانه‌ی هشتم دو ساعت بعد می‌رسد،
+    وقتی خوشه‌ی قبلی دیگر وجود ندارد و URLش هم در seen نیست. تنها چیزی که از
+    آن اجرا باقی مانده امضای ماجراست، و مقایسه با همان، نسخه‌های دیرهنگام را
+    می‌گیرد.
+    """
+    kept: list[Item] = []
+    dropped = 0
+
+    for item in items:
+        item.signature = cluster.signature_of(item.text)
+        if cluster.best_match(item.signature, stories) >= cluster.SIMILARITY:
+            dropped += 1
+            continue
+        kept.append(item)
+
+    if dropped:
+        log.info("%d خبر تکراری از ماجراهای پست‌شده کنار رفت", dropped)
+    return kept
+
+
+def _archive(state: State, item: Item) -> None:
+    """آیتم و همه‌ی نسخه‌های دیگرش را seen می‌کند.
+
+    نشان‌کردن تنها همان یکی که پست شد کافی نیست: پنج رسانه‌ی دیگرِ همان خوشه
+    URL جدا دارند و اجرای بعد دوباره بالا می‌آیند.
+    """
+    state.mark(item.uid)
+    for uid in item.members:
+        state.mark(uid)
 
 
 def _fill(
@@ -295,6 +336,14 @@ def publish(
         if sent >= target:
             break
 
+        # کاندیداهای یدکی قبل از ارسالِ اولی انتخاب شده‌اند، پس ممکن است دو
+        # تایشان یک ماجرا باشند که خوشه‌بندی از هم جدایشان کرده. حالا که
+        # ماجرای پست‌شده ثبت شده، دوباره می‌سنجیم.
+        if cluster.best_match(item.signature, state.recent_stories(now_utc())) >= cluster.SIMILARITY:
+            log.info("رد شد، همان ماجرای پست‌شده: %s — %s", item.label, item.text[:60])
+            _archive(state, item)
+            continue
+
         if not translating:
             title, persian, tag = "", item.text, ""
         else:
@@ -312,7 +361,9 @@ def publish(
 
         if persian is None:
             log.info("رد شد توسط مدل: %s — %s", item.label, item.text[:60])
-            state.mark(item.uid)
+            # مدل خودِ ماجرا را نامناسب دیده، نه فقط این روایت را؛ پس نسخه‌های
+            # دیگرش هم نباید اجرای بعد دوباره ترجمه شوند.
+            _archive(state, item)
             continue
 
         # عکس را همین‌جا حل می‌کنیم نه زودتر: گزینه‌های یدکی معمولاً استفاده
@@ -325,7 +376,10 @@ def publish(
             print(telegram.build_message(item, title, persian, tag, channel))
             buttons = telegram.build_keyboard(item)["inline_keyboard"]
             print("[دکمه‌ها] " + " | ".join(b["text"] for row in buttons for b in row))
-            state.mark(item.uid)
+            _archive(state, item)
+            state.remember_story(
+                item.story_signature or item.signature, datetime.now(timezone.utc)
+            )
             state.count_post("viral" if item.ranked else "editorial", item.label)
             sent += 1
             continue
@@ -336,10 +390,17 @@ def publish(
             log.error("ارسال نشد: %s", exc)
             continue
 
-        log.info("ارسال شد: %-18s %s", item.label, "🖼" if item.image_url else "")
-        state.mark(item.uid)
+        now = datetime.now(timezone.utc)
+        log.info(
+            "ارسال شد: %-18s %s  (%d نسخه‌ی دیگر از همین ماجرا بایگانی شد)",
+            item.label,
+            "🖼" if item.image_url else " ",
+            max(len(item.members) - 1, 0),
+        )
+        _archive(state, item)
         state.count_post("viral" if item.ranked else "editorial", item.label)
-        state.remember(item, title or persian, datetime.now(timezone.utc))
+        state.remember(item, title or persian, now)
+        state.remember_story(item.story_signature or item.signature, now)
         sent += 1
 
         if sent < target:

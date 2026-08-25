@@ -39,6 +39,18 @@ class Item:
     score: float = 0.0
     breakdown: dict = field(default_factory=dict)
 
+    # امضای خودِ این مقاله: توکن‌های لاتینی که آن را به هم‌نوعانش وصل می‌کند.
+    # هرگز با امضای خوشه جایگزین نمی‌شود — مقایسه‌ی «آیا این خبر همان ماجرای
+    # پست‌شده است؟» باید با امضای کوچکِ خودِ مقاله انجام شود، نه با اجتماع
+    # بزرگِ خوشه، وگرنه مخرجِ شباهت بزرگ می‌شود و تطبیق از دست می‌رود.
+    signature: set[str] = field(default_factory=set)
+    # اجتماع امضای همه‌ی رسانه‌هایی که این ماجرا را پوشش داده‌اند. همین در
+    # state ذخیره می‌شود، چون هرچه غنی‌تر باشد نسخه‌های بعدی را بهتر می‌گیرد.
+    story_signature: set[str] = field(default_factory=set)
+    # uid همه‌ی نسخه‌های دیگر همین ماجرا. وقتی این آیتم پست شد، آن‌ها هم باید
+    # بایگانی شوند وگرنه اجرای بعدی همان خبر را از رسانه‌ی بعدی می‌فرستد.
+    members: list[str] = field(default_factory=list)
+
     def age_hours(self, now: datetime | None = None) -> float:
         now = now or datetime.now(timezone.utc)
         return max((now - self.published).total_seconds() / 3600, 0.05)
