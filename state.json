@@ -316,18 +316,21 @@
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mtwntvfvmk23",
   "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mtwocmuwrk2w",
   "https://www.bleepingcomputer.com/news/security/lacma-data-breach-last-year-exposed-social-security-and-medical-data/",
-  "https://www.securityweek.com/?p=48882"
+  "https://www.securityweek.com/?p=48882",
+  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mtwwyee6622w",
+  "hn:49442743",
+  "hn:49443523"
  ],
  "posted": {
-  "viral": 83,
+  "viral": 84,
   "editorial": 85
  },
  "recent_labels": [
-  "404 Media",
   "Tom's Hardware",
   "Hacker News",
   "Hacker News",
-  "BleepingComputer"
+  "BleepingComputer",
+  "Hacker News"
  ],
  "last_digest": "2026-08-21",
  "history": [
@@ -1457,6 +1460,13 @@
    "source": "BleepingComputer",
    "score": 0.46428,
    "at": "2026-08-26T08:07:17.187326+00:00"
+  },
+  {
+   "title": "مدیریت هوشمند حافظه برای کاهش هزینه‌ها و بهبود عملکرد ایجنت‌های هوش مصنوعی",
+   "url": "https://arxiv.org/abs/2607.21503",
+   "source": "arxiv.org",
+   "score": 0.02527,
+   "at": "2026-08-26T09:10:33.453356+00:00"
   }
  ],
  "stories": [
@@ -1997,6 +2007,18 @@
     "year"
    ],
    "at": "2026-08-26T08:07:17.187326+00:00"
+  },
+  {
+   "sig": [
+    "agentic",
+    "architecture",
+    "context",
+    "cost",
+    "management",
+    "memory",
+    "problems"
+   ],
+   "at": "2026-08-26T09:10:33.453356+00:00"
   }
  ],
  "snapshots": {
@@ -4013,32 +4035,32 @@
    "2026-08-26T07:24:34.756057+00:00"
   ],
   "hn:49442743": [
-   211,
-   "2026-08-26T08:07:11.101107+00:00"
+   222,
+   "2026-08-26T09:10:30.443038+00:00"
   ],
   "hn:49441781": [
-   139,
-   "2026-08-26T08:07:11.101107+00:00"
+   158,
+   "2026-08-26T09:10:30.443038+00:00"
   ],
   "hn:49441666": [
-   153,
-   "2026-08-26T08:07:11.101107+00:00"
+   166,
+   "2026-08-26T09:10:30.443038+00:00"
   ],
   "hn:49441375": [
-   125,
-   "2026-08-26T08:07:11.101107+00:00"
+   134,
+   "2026-08-26T09:10:30.443038+00:00"
   ],
   "hn:49441033": [
    489,
    "2026-08-26T05:59:02.995566+00:00"
   ],
   "hn:49440786": [
-   259,
-   "2026-08-26T08:07:11.101107+00:00"
+   260,
+   "2026-08-26T09:10:30.443038+00:00"
   ],
   "hn:49440770": [
-   122,
-   "2026-08-26T08:07:11.101107+00:00"
+   131,
+   "2026-08-26T09:10:30.443038+00:00"
   ],
   "hn:49440410": [
    204,
@@ -4058,11 +4080,15 @@
   ],
   "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mtwwyee6622w": [
    11,
-   "2026-08-26T08:07:11.101107+00:00"
+   "2026-08-26T09:10:30.443038+00:00"
   ],
   "hn:49444514": [
    199,
    "2026-08-26T07:24:34.756057+00:00"
+  ],
+  "hn:49443523": [
+   85,
+   "2026-08-26T09:10:30.443038+00:00"
   ]
  }
 }
