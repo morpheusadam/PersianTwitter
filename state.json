@@ -326,18 +326,22 @@
   "https://3dnews.ru/1147472/#6a8e9370742eec3d3b8b456e",
   "https://www.bleepingcomputer.com/news/microsoft/microsoft-powertoys-adds-alt-plustab-style-switching-for-an-apps-windows/",
   "https://www.cnews.ru/news/top/2026-08-26_microsoft_pojmana_s_polichnym",
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mtycfeczyc22"
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mtycfeczyc22",
+  "Wc2XoT7aq5UtAWhAaJzhke",
+  "https://www.theverge.com/?p=984959",
+  "https://www.engadget.com/2244659/rockstar-calls-gta-6-leaks-heartbreaking-says-game-is-nearly-finished/",
+  "https://www.neowin.net/news/rockstar-addresses-leaks-as-new-gta-6-lucia-footage-drops/"
  ],
  "posted": {
   "viral": 86,
-  "editorial": 87
+  "editorial": 88
  },
  "recent_labels": [
   "Hacker News",
-  "Hacker News",
   "TechCrunch AI",
   "3DNews",
-  "404 Media"
+  "404 Media",
+  "Tom's Hardware"
  ],
  "last_digest": "2026-08-21",
  "history": [
@@ -1502,6 +1506,13 @@
    "source": "join.theintercept.com",
    "score": 0.42428,
    "at": "2026-08-26T13:33:09.453602+00:00"
+  },
+  {
+   "title": "واکنش رسمی Rockstar Games به نشت گسترده اطلاعات و ویدیوهای GTA VI",
+   "url": "https://www.tomshardware.com/video-games/rockstar-releases-statement-after-a-week-of-gta-vi-leaks-avoids-mentioning-leakers-demands-says-that-gameplay-leaks-have-been-heartbreaking-for-our-team",
+   "source": "Tom's Hardware",
+   "score": 1.03534,
+   "at": "2026-08-26T15:59:05.606674+00:00"
   }
  ],
  "stories": [
@@ -2123,6 +2134,34 @@
     "weaponize"
    ],
    "at": "2026-08-26T13:33:09.453602+00:00"
+  },
+  {
+   "sig": [
+    "addresses",
+    "avoids",
+    "calls",
+    "demands",
+    "drops",
+    "finally",
+    "finished",
+    "footage",
+    "game",
+    "gameplay",
+    "gta",
+    "heartbreaking",
+    "leaker",
+    "leaks",
+    "lucia",
+    "mentioning",
+    "nearly",
+    "releases",
+    "responds",
+    "rockstar",
+    "statement",
+    "team",
+    "week"
+   ],
+   "at": "2026-08-26T15:59:05.606674+00:00"
   }
  ],
  "snapshots": {
@@ -4195,72 +4234,132 @@
    "2026-08-26T09:10:30.443038+00:00"
   ],
   "hn:49445252": [
-   204,
-   "2026-08-26T13:33:06.966181+00:00"
+   218,
+   "2026-08-26T15:58:59.884545+00:00"
   ],
   "hn:49446422": [
    70,
    "2026-08-26T11:00:45.258224+00:00"
   ],
   "hn:49446748": [
-   330,
-   "2026-08-26T13:33:06.966181+00:00"
+   389,
+   "2026-08-26T15:58:59.884545+00:00"
   ],
   "hn:49445873": [
-   145,
-   "2026-08-26T13:33:06.966181+00:00"
+   189,
+   "2026-08-26T15:58:59.884545+00:00"
   ],
   "hn:49448210": [
-   110,
-   "2026-08-26T13:33:06.966181+00:00"
+   536,
+   "2026-08-26T15:58:59.884545+00:00"
   ],
   "hn:49448137": [
-   158,
-   "2026-08-26T13:33:06.966181+00:00"
+   467,
+   "2026-08-26T15:58:59.884545+00:00"
   ],
   "hn:49447772": [
-   84,
-   "2026-08-26T13:33:06.966181+00:00"
+   136,
+   "2026-08-26T15:58:59.884545+00:00"
   ],
   "hn:49447682": [
-   685,
-   "2026-08-26T13:33:06.966181+00:00"
+   963,
+   "2026-08-26T15:58:59.884545+00:00"
   ],
   "hn:49447600": [
-   76,
-   "2026-08-26T13:33:06.966181+00:00"
+   288,
+   "2026-08-26T15:58:59.884545+00:00"
   ],
   "hn:49446210": [
-   289,
-   "2026-08-26T13:33:06.966181+00:00"
+   503,
+   "2026-08-26T15:58:59.884545+00:00"
   ],
   "hn:49445884": [
-   91,
-   "2026-08-26T13:33:06.966181+00:00"
+   139,
+   "2026-08-26T15:58:59.884545+00:00"
   ],
   "hn:49445286": [
-   152,
-   "2026-08-26T13:33:06.966181+00:00"
+   179,
+   "2026-08-26T15:58:59.884545+00:00"
   ],
   "hn:49444232": [
-   85,
-   "2026-08-26T13:33:06.966181+00:00"
+   117,
+   "2026-08-26T15:58:59.884545+00:00"
   ],
   "lobsters:p8exgy": [
-   28,
-   "2026-08-26T13:33:06.966181+00:00"
+   41,
+   "2026-08-26T15:58:59.884545+00:00"
   ],
   "lobsters:lbsvk7": [
    26,
-   "2026-08-26T13:33:06.966181+00:00"
+   "2026-08-26T15:58:59.884545+00:00"
   ],
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mtycfeczyc22": [
    75,
    "2026-08-26T13:33:06.966181+00:00"
   ],
   "at://did:plc:x2nsupeeo52oznrmplwapppl/app.bsky.feed.post/3mty4bpl74n2c": [
-   32,
-   "2026-08-26T13:33:06.966181+00:00"
+   47,
+   "2026-08-26T15:58:59.884545+00:00"
+  ],
+  "hn:49450722": [
+   129,
+   "2026-08-26T15:58:59.884545+00:00"
+  ],
+  "hn:49449749": [
+   90,
+   "2026-08-26T15:58:59.884545+00:00"
+  ],
+  "hn:49449576": [
+   159,
+   "2026-08-26T15:58:59.884545+00:00"
+  ],
+  "hn:49448872": [
+   79,
+   "2026-08-26T15:58:59.884545+00:00"
+  ],
+  "hn:49448819": [
+   773,
+   "2026-08-26T15:58:59.884545+00:00"
+  ],
+  "hn:49448560": [
+   241,
+   "2026-08-26T15:58:59.884545+00:00"
+  ],
+  "hn:49448150": [
+   123,
+   "2026-08-26T15:58:59.884545+00:00"
+  ],
+  "hn:49447724": [
+   79,
+   "2026-08-26T15:58:59.884545+00:00"
+  ],
+  "hn:49446442": [
+   104,
+   "2026-08-26T15:58:59.884545+00:00"
+  ],
+  "lobsters:e291dc": [
+   37,
+   "2026-08-26T15:58:59.884545+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mtyjgnouqv2z": [
+   310,
+   "2026-08-26T15:58:59.884545+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mtyhwn4v2s22": [
+   2640,
+   "2026-08-26T15:58:59.884545+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mtyhvvz6ja22": [
+   166,
+   "2026-08-26T15:58:59.884545+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mtygw4eu6o2e": [
+   134,
+   "2026-08-26T15:58:59.884545+00:00"
+  ],
+  "at://did:plc:oxbzsf2flrqyobhxemowaceh/app.bsky.feed.post/3mtygzbbb5c2k": [
+   22,
+   "2026-08-26T15:58:59.884545+00:00"
   ]
  }
 }
