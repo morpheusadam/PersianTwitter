@@ -325,18 +325,19 @@
   "hn:49446422",
   "https://3dnews.ru/1147472/#6a8e9370742eec3d3b8b456e",
   "https://www.bleepingcomputer.com/news/microsoft/microsoft-powertoys-adds-alt-plustab-style-switching-for-an-apps-windows/",
-  "https://www.cnews.ru/news/top/2026-08-26_microsoft_pojmana_s_polichnym"
+  "https://www.cnews.ru/news/top/2026-08-26_microsoft_pojmana_s_polichnym",
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mtycfeczyc22"
  ],
  "posted": {
-  "viral": 85,
+  "viral": 86,
   "editorial": 87
  },
  "recent_labels": [
-  "BleepingComputer",
   "Hacker News",
   "Hacker News",
   "TechCrunch AI",
-  "3DNews"
+  "3DNews",
+  "404 Media"
  ],
  "last_digest": "2026-08-21",
  "history": [
@@ -1494,6 +1495,13 @@
    "source": "3DNews",
    "score": 0.50098,
    "at": "2026-08-26T11:55:22.273170+00:00"
+  },
+  {
+   "title": "بررسی ابزارهای نظارتی دولت آمریکا در رویدادی زنده",
+   "url": "https://join.theintercept.com/signup/Podcast_404_Media_Live/",
+   "source": "join.theintercept.com",
+   "score": 0.42428,
+   "at": "2026-08-26T13:33:09.453602+00:00"
   }
  ],
  "stories": [
@@ -2090,6 +2098,31 @@
     "windows"
    ],
    "at": "2026-08-26T11:55:22.273170+00:00"
+  },
+  {
+   "sig": [
+    "10th",
+    "abroad",
+    "angeles",
+    "data",
+    "discussion",
+    "does",
+    "government",
+    "home",
+    "jasonkoebler.bsky.social",
+    "joining",
+    "kill",
+    "live",
+    "los",
+    "media",
+    "private",
+    "september",
+    "surveil",
+    "theintercept.com",
+    "u.s",
+    "weaponize"
+   ],
+   "at": "2026-08-26T13:33:09.453602+00:00"
   }
  ],
  "snapshots": {
@@ -4162,20 +4195,72 @@
    "2026-08-26T09:10:30.443038+00:00"
   ],
   "hn:49445252": [
-   191,
-   "2026-08-26T11:55:19.890232+00:00"
+   204,
+   "2026-08-26T13:33:06.966181+00:00"
   ],
   "hn:49446422": [
    70,
    "2026-08-26T11:00:45.258224+00:00"
   ],
   "hn:49446748": [
-   181,
-   "2026-08-26T11:55:19.890232+00:00"
+   330,
+   "2026-08-26T13:33:06.966181+00:00"
   ],
   "hn:49445873": [
-   92,
-   "2026-08-26T11:55:19.890232+00:00"
+   145,
+   "2026-08-26T13:33:06.966181+00:00"
+  ],
+  "hn:49448210": [
+   110,
+   "2026-08-26T13:33:06.966181+00:00"
+  ],
+  "hn:49448137": [
+   158,
+   "2026-08-26T13:33:06.966181+00:00"
+  ],
+  "hn:49447772": [
+   84,
+   "2026-08-26T13:33:06.966181+00:00"
+  ],
+  "hn:49447682": [
+   685,
+   "2026-08-26T13:33:06.966181+00:00"
+  ],
+  "hn:49447600": [
+   76,
+   "2026-08-26T13:33:06.966181+00:00"
+  ],
+  "hn:49446210": [
+   289,
+   "2026-08-26T13:33:06.966181+00:00"
+  ],
+  "hn:49445884": [
+   91,
+   "2026-08-26T13:33:06.966181+00:00"
+  ],
+  "hn:49445286": [
+   152,
+   "2026-08-26T13:33:06.966181+00:00"
+  ],
+  "hn:49444232": [
+   85,
+   "2026-08-26T13:33:06.966181+00:00"
+  ],
+  "lobsters:p8exgy": [
+   28,
+   "2026-08-26T13:33:06.966181+00:00"
+  ],
+  "lobsters:lbsvk7": [
+   26,
+   "2026-08-26T13:33:06.966181+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mtycfeczyc22": [
+   75,
+   "2026-08-26T13:33:06.966181+00:00"
+  ],
+  "at://did:plc:x2nsupeeo52oznrmplwapppl/app.bsky.feed.post/3mty4bpl74n2c": [
+   32,
+   "2026-08-26T13:33:06.966181+00:00"
   ]
  }
 }
