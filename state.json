@@ -320,18 +320,20 @@
   "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mtwwyee6622w",
   "hn:49442743",
   "hn:49443523",
-  "hn:49441375"
+  "hn:49441375",
+  "https://techcrunch.com/?p=3155879",
+  "hn:49446422"
  ],
  "posted": {
   "viral": 85,
-  "editorial": 85
+  "editorial": 86
  },
  "recent_labels": [
   "Hacker News",
-  "Hacker News",
   "BleepingComputer",
   "Hacker News",
-  "Hacker News"
+  "Hacker News",
+  "TechCrunch AI"
  ],
  "last_digest": "2026-08-21",
  "history": [
@@ -1475,6 +1477,13 @@
    "source": "github.com",
    "score": 0.00593,
    "at": "2026-08-26T10:05:56.372850+00:00"
+  },
+  {
+   "title": "ابهام در هویت سازنده مدل هوش مصنوعی Ox Alpha",
+   "url": "https://techcrunch.com/2026/08/23/whos-behind-the-new-stealth-model-ox-alpha/",
+   "source": "TechCrunch AI",
+   "score": 0.50867,
+   "at": "2026-08-26T11:00:51.616342+00:00"
   }
  ],
  "stories": [
@@ -2041,6 +2050,20 @@
     "wasm"
    ],
    "at": "2026-08-26T10:05:56.372850+00:00"
+  },
+  {
+   "sig": [
+    "alpha",
+    "behind",
+    "confirms",
+    "glm-series",
+    "model",
+    "release",
+    "stealth",
+    "weights",
+    "z.ai"
+   ],
+   "at": "2026-08-26T11:00:51.616342+00:00"
   }
  ],
  "snapshots": {
@@ -4113,8 +4136,12 @@
    "2026-08-26T09:10:30.443038+00:00"
   ],
   "hn:49445252": [
-   142,
-   "2026-08-26T10:05:54.368926+00:00"
+   174,
+   "2026-08-26T11:00:45.258224+00:00"
+  ],
+  "hn:49446422": [
+   70,
+   "2026-08-26T11:00:45.258224+00:00"
   ]
  }
 }
