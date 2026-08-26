@@ -322,18 +322,21 @@
   "hn:49443523",
   "hn:49441375",
   "https://techcrunch.com/?p=3155879",
-  "hn:49446422"
+  "hn:49446422",
+  "https://3dnews.ru/1147472/#6a8e9370742eec3d3b8b456e",
+  "https://www.bleepingcomputer.com/news/microsoft/microsoft-powertoys-adds-alt-plustab-style-switching-for-an-apps-windows/",
+  "https://www.cnews.ru/news/top/2026-08-26_microsoft_pojmana_s_polichnym"
  ],
  "posted": {
   "viral": 85,
-  "editorial": 86
+  "editorial": 87
  },
  "recent_labels": [
-  "Hacker News",
   "BleepingComputer",
   "Hacker News",
   "Hacker News",
-  "TechCrunch AI"
+  "TechCrunch AI",
+  "3DNews"
  ],
  "last_digest": "2026-08-21",
  "history": [
@@ -1484,6 +1487,13 @@
    "source": "TechCrunch AI",
    "score": 0.50867,
    "at": "2026-08-26T11:00:51.616342+00:00"
+  },
+  {
+   "title": "گسترش پلتفرم Windows on Arm با ورود تراشه‌های جدید Nvidia",
+   "url": "https://3dnews.ru/1147472",
+   "source": "3DNews",
+   "score": 0.50098,
+   "at": "2026-08-26T11:55:22.273170+00:00"
   }
  ],
  "stories": [
@@ -2064,6 +2074,22 @@
     "z.ai"
    ],
    "at": "2026-08-26T11:00:51.616342+00:00"
+  },
+  {
+   "sig": [
+    "adds",
+    "alt",
+    "app",
+    "arm",
+    "bing",
+    "microsoft",
+    "nvidia",
+    "powertoys",
+    "switching",
+    "tab-style",
+    "windows"
+   ],
+   "at": "2026-08-26T11:55:22.273170+00:00"
   }
  ],
  "snapshots": {
@@ -4136,12 +4162,20 @@
    "2026-08-26T09:10:30.443038+00:00"
   ],
   "hn:49445252": [
-   174,
-   "2026-08-26T11:00:45.258224+00:00"
+   191,
+   "2026-08-26T11:55:19.890232+00:00"
   ],
   "hn:49446422": [
    70,
    "2026-08-26T11:00:45.258224+00:00"
+  ],
+  "hn:49446748": [
+   181,
+   "2026-08-26T11:55:19.890232+00:00"
+  ],
+  "hn:49445873": [
+   92,
+   "2026-08-26T11:55:19.890232+00:00"
   ]
  }
 }
