@@ -312,18 +312,22 @@
   "daa89cf441d2b90b78822ed99c95ac26",
   "fc046568be9a618619323485065139a5",
   "3089197",
-  "https://www.engadget.com/2244379/spacex-is-building-a-100-billion-starbase-launch-site-in-louisiana/"
+  "https://www.engadget.com/2244379/spacex-is-building-a-100-billion-starbase-launch-site-in-louisiana/",
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mtwntvfvmk23",
+  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mtwocmuwrk2w",
+  "https://www.bleepingcomputer.com/news/security/lacma-data-breach-last-year-exposed-social-security-and-medical-data/",
+  "https://www.securityweek.com/?p=48882"
  ],
  "posted": {
   "viral": 83,
-  "editorial": 84
+  "editorial": 85
  },
  "recent_labels": [
-  "3DNews",
   "404 Media",
   "Tom's Hardware",
   "Hacker News",
-  "Hacker News"
+  "Hacker News",
+  "BleepingComputer"
  ],
  "last_digest": "2026-08-21",
  "history": [
@@ -1446,6 +1450,13 @@
    "source": "sebsite.pw",
    "score": 0.05251,
    "at": "2026-08-26T05:59:05.328514+00:00"
+  },
+  {
+   "title": "نشت گسترده اطلاعات حساس در موزه هنرهای معاصر لس‌آنجلس",
+   "url": "https://www.bleepingcomputer.com/news/security/lacma-data-breach-last-year-exposed-social-security-and-medical-data/",
+   "source": "BleepingComputer",
+   "score": 0.46428,
+   "at": "2026-08-26T08:07:17.187326+00:00"
   }
  ],
  "stories": [
@@ -1968,6 +1979,24 @@
     "weird"
    ],
    "at": "2026-08-26T05:59:05.328514+00:00"
+  },
+  {
+   "sig": [
+    "breach",
+    "data",
+    "exposed",
+    "health",
+    "information",
+    "lacma",
+    "last",
+    "medical",
+    "nutex",
+    "security",
+    "sensitive",
+    "social",
+    "year"
+   ],
+   "at": "2026-08-26T08:07:17.187326+00:00"
   }
  ],
  "snapshots": {
@@ -3960,12 +3989,12 @@
    "2026-08-25T21:53:01.359576+00:00"
   ],
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mtwntvfvmk23": [
-   554,
-   "2026-08-26T07:24:34.756057+00:00"
+   555,
+   "2026-08-26T08:07:11.101107+00:00"
   ],
   "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mtwocmuwrk2w": [
    30,
-   "2026-08-26T07:24:34.756057+00:00"
+   "2026-08-26T08:07:11.101107+00:00"
   ],
   "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mtwm56gmla2i": [
    208,
@@ -3984,36 +4013,36 @@
    "2026-08-26T07:24:34.756057+00:00"
   ],
   "hn:49442743": [
-   203,
-   "2026-08-26T07:24:34.756057+00:00"
+   211,
+   "2026-08-26T08:07:11.101107+00:00"
   ],
   "hn:49441781": [
-   129,
-   "2026-08-26T07:24:34.756057+00:00"
+   139,
+   "2026-08-26T08:07:11.101107+00:00"
   ],
   "hn:49441666": [
-   138,
-   "2026-08-26T07:24:34.756057+00:00"
+   153,
+   "2026-08-26T08:07:11.101107+00:00"
   ],
   "hn:49441375": [
-   115,
-   "2026-08-26T07:24:34.756057+00:00"
+   125,
+   "2026-08-26T08:07:11.101107+00:00"
   ],
   "hn:49441033": [
    489,
    "2026-08-26T05:59:02.995566+00:00"
   ],
   "hn:49440786": [
-   258,
-   "2026-08-26T07:24:34.756057+00:00"
+   259,
+   "2026-08-26T08:07:11.101107+00:00"
   ],
   "hn:49440770": [
-   114,
-   "2026-08-26T07:24:34.756057+00:00"
+   122,
+   "2026-08-26T08:07:11.101107+00:00"
   ],
   "hn:49440410": [
-   192,
-   "2026-08-26T07:24:34.756057+00:00"
+   204,
+   "2026-08-26T08:07:11.101107+00:00"
   ],
   "hn:49439499": [
    289,
@@ -4029,7 +4058,7 @@
   ],
   "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mtwwyee6622w": [
    11,
-   "2026-08-26T07:24:34.756057+00:00"
+   "2026-08-26T08:07:11.101107+00:00"
   ],
   "hn:49444514": [
    199,
