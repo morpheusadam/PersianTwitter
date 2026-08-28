@@ -352,623 +352,22 @@
   "https://www.theverge.com/?p=985910",
   "https://www.engadget.com/2245942/guns-cars-and-chihuahuas-breaking-down-the-gta-6-extended-look/",
   "https://www.neowin.net/news/how-to-watch-todays-gta-6-extended-look-on-netflix-and-youtube/",
-  "hn:49471965"
+  "hn:49471965",
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mu5nky7sus2x"
  ],
  "posted": {
-  "viral": 89,
+  "viral": 90,
   "editorial": 90
  },
  "recent_labels": [
-  "404 Media",
   "EFF",
   "Wired",
   "Hacker News",
-  "Hacker News"
+  "Hacker News",
+  "404 Media"
  ],
- "last_digest": "2026-08-21",
+ "last_digest": "2026-08-28",
  "history": [
-  {
-   "title": "بسیاری از شهرها در حال جایگزینی سیستم‌های نظارتی Flock با شرکت Axon هستند تا از فشارهای عمومی و انتقادات پیرامون حریم خصوصی فاصله بگیرند",
-   "url": "https://bsky.app/profile/404media.co/post/3mt7hgtkozp2o",
-   "source": "404 Media",
-   "score": 0.17218,
-   "at": "2026-08-16T18:50:59.059484+00:00"
-  },
-  {
-   "title": "بازداشت عاملان سرقت ۳۰ میلیون یورویی از حساب‌های بانکی آلمان",
-   "url": "https://therecord.media/investigation-into-banking-hack-leads-to-arrests-germany-brazil",
-   "source": "The Record",
-   "score": 0.00074,
-   "at": "2026-08-16T19:04:35.382017+00:00"
-  },
-  {
-   "title": "کلاهبرداری سایت Research Gold با جعل هویت متخصصان و استفاده از هوش مصنوعی",
-   "url": "https://www.404media.co/company-offering-100-human-written-never-ai-peer-review-is-entirely-ai/",
-   "source": "404media.co",
-   "score": 0.1235,
-   "at": "2026-08-16T19:21:47.151595+00:00"
-  },
-  {
-   "title": "سوءاستفاده از آسیب‌پذیری Screen Sharing در سیستم‌عامل macOS",
-   "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-macos-screen-sharing-flaw-to-deploy-monero-miner/",
-   "source": "BleepingComputer",
-   "score": 0.00068,
-   "at": "2026-08-16T19:25:35.337819+00:00"
-  },
-  {
-   "title": "یک هوش مصنوعی عمومی با حافظه اشتراکی برای همه کاربران",
-   "url": "https://wildstatic.com/",
-   "source": "wildstatic.com",
-   "score": 0.0582,
-   "at": "2026-08-16T19:35:21.918975+00:00"
-  },
-  {
-   "title": "تغییر نقش مدیران امنیت در بانکداری جهانی",
-   "url": "https://www.darkreading.com/cybersecurity-operations/mission-driven-security-inside-global-bank-defense",
-   "source": "Dark Reading",
-   "score": 0.00065,
-   "at": "2026-08-16T19:48:25.756681+00:00"
-  },
-  {
-   "title": "تغییر استراتژی مدل‌های هوش مصنوعی از ذخیره‌ی دانش به تقویت استدلال",
-   "url": "https://w4g1.dev/blog/models-are-getting-dumber-on-purpose",
-   "source": "w4g1.dev",
-   "score": 0.33292,
-   "at": "2026-08-16T20:46:27.634775+00:00"
-  },
-  {
-   "title": "نقد کاربرد نادرست واژه‌ی هوش مصنوعی برای مدل‌های زبانی",
-   "url": "https://bsky.app/profile/emilymbender.bsky.social/post/3mt7xxpajaf2l",
-   "source": "Emily M. Bender",
-   "score": 0.39493,
-   "at": "2026-08-16T21:44:26.360342+00:00"
-  },
-  {
-   "title": "قابلیت جدید سنجش سطح آنتی‌اکسیدان در ساعت‌های هوشمند سامسونگ",
-   "url": "https://www.engadget.com/2236219/how-samsung-galaxy-watch-series8-measures-antioxidant-levels/",
-   "source": "Engadget",
-   "score": 0.45796,
-   "at": "2026-08-17T05:59:47.373138+00:00"
-  },
-  {
-   "title": "بررسی مدل زبانی جدید Qwen 3.8 27B و قابلیت‌های استدلال آن",
-   "url": "https://simonwillison.net/2026/Aug/16/qwen-38-27b/",
-   "source": "simonwillison.net",
-   "score": 0.10069,
-   "at": "2026-08-17T07:31:49.148406+00:00"
-  },
-  {
-   "title": "استفاده از عینک‌های هوشمند Meta برای آزار و اذیت زنان در فضای عمومی",
-   "url": "https://www.404media.co/meta-ray-ban-smart-glasses-pov-instagram-pickup-artists/",
-   "source": "404media.co",
-   "score": 0.06325,
-   "at": "2026-08-17T09:08:13.788455+00:00"
-  },
-  {
-   "title": "بررسی عملکرد مدل زبانی Qwen 3.8 27B و چالش‌های تنظیمات پیش‌فرض آن",
-   "url": "https://simonwillison.net/2026/Aug/16/qwen-38-27b/",
-   "source": "simonwillison.net",
-   "score": 0.0465,
-   "at": "2026-08-17T10:04:35.967798+00:00"
-  },
-  {
-   "title": "نشت گسترده اطلاعات مالیاتی شهروندان در پی حمله سایبری به دولت فرانسه",
-   "url": "https://therecord.media/french-tax-authority-dgfip-confirms-data-breach",
-   "source": "The Record",
-   "score": 0.51198,
-   "at": "2026-08-17T10:56:35.693807+00:00"
-  },
-  {
-   "title": "مقابله با حملات فیشینگ در پوشش پشتیبانی Signal و مسدودسازی سایت‌های تبلیغاتی",
-   "url": "https://www.theregister.com/ai-and-ml/2026/08/15/anthropic-says-text-watermarking-scheme-relies-on-inconsequential-words/5288156",
-   "source": "The Register",
-   "score": 0.58807,
-   "at": "2026-08-17T11:50:00.676557+00:00"
-  },
-  {
-   "title": "افشای نظارت غیرمجاز دوربین‌های امنیتی در مجتمع‌های مسکونی",
-   "url": "https://twitter.com/lydiakauppi/status/2089196932413452386",
-   "source": "twitter.com",
-   "score": 0.388,
-   "at": "2026-08-17T13:16:05.733704+00:00"
-  },
-  {
-   "title": "نشت اطلاعات مالی دو میلیون شهروند فرانسوی از سازمان امور مالیاتی",
-   "url": "https://www.theregister.com/security/2026/08/14/french-tax-authority-admits-data-heist-after-crook-touts-2m-records/5287885",
-   "source": "The Register",
-   "score": 0.45313,
-   "at": "2026-08-17T14:01:18.594287+00:00"
-  },
-  {
-   "title": "سوءاستفاده از آسیب‌پذیری بحرانی در قابلیت Screen Sharing سیستم‌عامل macOS",
-   "url": "https://thehackernews.com/2026/08/apple-macos-screen-sharing-flaw.html",
-   "source": "The Hacker News",
-   "score": 0.68913,
-   "at": "2026-08-17T14:52:56.190423+00:00"
-  },
-  {
-   "title": "آمازون کتاب‌های چاپی را برای آموزش مدل‌های هوش مصنوعی اسکن و نابود می‌کند",
-   "url": "https://www.404media.co/we-tracked-a-shipment-of-rare-books-it-ended-at-an-amazon-ai-training-facility/",
-   "source": "404media.co",
-   "score": 1.90649,
-   "at": "2026-08-17T15:49:21.039607+00:00"
-  },
-  {
-   "title": "احیای گوشی‌های قدیمی با نصب سیستم‌عامل متن‌باز LineageOS",
-   "url": "https://www.androidpolice.com/flashed-old-android-phone-with-open-source-os-and-gave-it-new-life/",
-   "source": "Android Police",
-   "score": 0.51616,
-   "at": "2026-08-17T16:54:14.077848+00:00"
-  },
-  {
-   "title": "قابلیت Live Activities به اپلیکیشن Sonos در سیستم‌عامل iOS اضافه شد",
-   "url": "https://9to5mac.com/2026/08/17/sonos-just-launched-live-activities-on-iphone/",
-   "source": "9to5Mac",
-   "score": 0.27976,
-   "at": "2026-08-17T17:54:49.174875+00:00"
-  },
-  {
-   "title": "ردپای آمازون در نابودی کتاب‌ها برای آموزش مدل‌های هوش مصنوعی",
-   "url": "https://news.slashdot.org/story/26/08/17/1644216/tracking-rare-books-leads-to-an-amazon-ai-training-facility?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-   "source": "Slashdot",
-   "score": 0.75616,
-   "at": "2026-08-17T19:07:22.993404+00:00"
-  },
-  {
-   "title": "عملکرد درخشان مدل هوش مصنوعی Qwen3.8 در ارزیابی‌های تخصصی",
-   "url": "https://artificialanalysis.ai/models/qwen3-8-27b",
-   "source": "artificialanalysis.ai",
-   "score": 0.4927,
-   "at": "2026-08-17T19:50:24.835926+00:00"
-  },
-  {
-   "title": "تخریب کتاب‌های کمیاب توسط آمازون برای آموزش مدل‌های هوش مصنوعی",
-   "url": "https://techcrunch.com/2026/08/17/amazon-once-an-online-bookseller-is-destroying-rare-books-to-train-ai-models/",
-   "source": "TechCrunch AI",
-   "score": 0.39701,
-   "at": "2026-08-17T20:53:04.716212+00:00"
-  },
-  {
-   "title": "مجوز قضایی برای بازیابی ۵۰ ترابایت آرشیو تلویزیونی Nine PBS",
-   "url": "https://www.tomshardware.com/software/cloud-storage/judge-clears-nine-pbs-to-retrieve-70-years-of-archival-tv-data-court-rules-station-owns-50tb-of-data-in-iron-mountain-servers-after-host-went-under",
-   "source": "Tom's Hardware",
-   "score": 0.83113,
-   "at": "2026-08-17T21:49:41.343068+00:00"
-  },
-  {
-   "title": "فراخوان برای جمع‌آوری داده‌های تست پیاده‌سازی Passkey",
-   "url": "https://bsky.app/profile/filippo.abyssdomain.expert/post/3mtcm4cd4ek2v",
-   "source": "Filippo Valsorda",
-   "score": 0.06236,
-   "at": "2026-08-18T05:54:25.112874+00:00"
-  },
-  {
-   "title": "ترفند Bluesky برای نمایش لوگو در اسکرین‌شات‌های iOS",
-   "url": "https://timmarinin.net/2026/bluesky-screenshots/",
-   "source": "timmarinin.net",
-   "score": 0.06423,
-   "at": "2026-08-18T07:13:47.607174+00:00"
-  },
-  {
-   "title": "ترفند هوشمندانه Bluesky برای نمایش لوگو در اسکرین‌شات‌های iOS",
-   "url": "https://timmarinin.net/2026/bluesky-screenshots/",
-   "source": "timmarinin.net",
-   "score": 0.05153,
-   "at": "2026-08-18T08:02:24.296004+00:00"
-  },
-  {
-   "title": "تست جاده‌ای تاکسی‌های خودران Tesla با اتصال ماهواره‌ای Starlink",
-   "url": "https://www.ixbt.com/news/2026/08/18/428769-noveisii-tesla-cybercab-so-vstroennym-starlink-uze-poiavilis-na-dorogax.html",
-   "source": "iXBT",
-   "score": 0.56677,
-   "at": "2026-08-18T09:02:25.997953+00:00"
-  },
-  {
-   "title": "ماجرای شکست سیستم قفل‌گذاری بازی Quake و افشای کدهای آن",
-   "url": "https://fabiensanglard.net/quake_shareware_cd/index.html",
-   "source": "fabiensanglard.net",
-   "score": 0.04241,
-   "at": "2026-08-18T09:58:08.679913+00:00"
-  },
-  {
-   "title": "بازنگری در روش‌های برنامه‌نویسی پایگاه‌داده",
-   "url": "https://acadia.engineering/blog/rethinking-database-programming",
-   "source": "acadia.engineering",
-   "score": 0.05732,
-   "at": "2026-08-18T10:55:54.400475+00:00"
-  },
-  {
-   "title": "حذف قابلیت Drag Tray از نسخه‌های پیش‌نمایش ویندوز ۱۱",
-   "url": "https://3dnews.ru/1146980",
-   "source": "3DNews",
-   "score": 0.49226,
-   "at": "2026-08-18T11:50:34.233596+00:00"
-  },
-  {
-   "title": "خرید داده‌های شرکت هواپیمایی Spirit توسط گوگل برای آموزش هوش مصنوعی",
-   "url": "https://www.theregister.com/ai-and-ml/2026/08/18/google-buys-crashed-airline-spirits-data-at-auction-because-ai/5288962",
-   "source": "The Register",
-   "score": 0.5843,
-   "at": "2026-08-18T13:23:35.861486+00:00"
-  },
-  {
-   "title": "نصب دوربین‌های نظارتی Flock در پارک‌های ملی آمریکا با انتقاد شدید مواجه شد",
-   "url": "https://www.404media.co/the-national-park-service-is-using-flock-rangers-are-pissed/",
-   "source": "404media.co",
-   "score": 0.86482,
-   "at": "2026-08-18T14:06:12.303175+00:00"
-  },
-  {
-   "title": "حملات فیشینگ با جعل هویت پشتیبانی Signal و مسدودسازی سایت‌های تبلیغاتی ایران",
-   "url": "https://www.theregister.com/os-platforms/2026/08/18/microsoft-finally-fixing-file-explorer-and-the-context-menu/5289121",
-   "source": "The Register",
-   "score": 0.50574,
-   "at": "2026-08-18T15:01:50.583828+00:00"
-  },
-  {
-   "title": "راه‌اندازی نسخه ویژه ChatGPT برای نوجوانان با قابلیت‌های نظارتی و آموزشی",
-   "url": "https://9to5mac.com/2026/08/18/chatgpt-for-teens-openai/",
-   "source": "9to5Mac",
-   "score": 0.76786,
-   "at": "2026-08-18T15:57:17.798354+00:00"
-  },
-  {
-   "title": "ارتقای سخت‌افزاری لپ‌تاپ Framework 12 با پردازنده‌های جدید Intel",
-   "url": "https://www.phoronix.com/news/Framework-Laptop-12-WCL",
-   "source": "Phoronix",
-   "score": 0.80498,
-   "at": "2026-08-18T16:57:55.081811+00:00"
-  },
-  {
-   "title": "روش جدید Anthropic برای واترمارک کردن متون تولید شده توسط هوش مصنوعی",
-   "url": "https://www.404media.co/anthropics-text-watermarking-proves-ai-companies-do-not-care-at-all-about-writing/",
-   "source": "404media.co",
-   "score": 0.25089,
-   "at": "2026-08-18T17:53:21.010209+00:00"
-  },
-  {
-   "title": "گوگل با خرید داده‌های Spirit Airlines برای آموزش مدل‌های هوش مصنوعی",
-   "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/google-buys-spirit-airlines-data-for-ai-training-for-just-usd10-million-purchase-includes-hundreds-of-millions-of-emails-microsoft-teams-chats-billions-of-flight-pricing-records-and-anonymized-passenger-records",
-   "source": "Tom's Hardware",
-   "score": 0.95521,
-   "at": "2026-08-18T19:07:06.648263+00:00"
-  },
-  {
-   "title": "افزایش محدودیت استفاده هفتگی از ابزار Claude Code",
-   "url": "https://support.claude.com/en/articles/15910845-claude-code-may-august-2026-weekly-limits-promotion",
-   "source": "support.claude.com",
-   "score": 0.26134,
-   "at": "2026-08-18T20:48:39.165799+00:00"
-  },
-  {
-   "title": "نگرانی‌های امنیتی پیرامون نفوذ به پلتفرم Hugging Face",
-   "url": "https://www.darkreading.com/vulnerabilities-threats/adam-shostack-talks-hugging-face-phantom-b",
-   "source": "Dark Reading",
-   "score": 1.05524,
-   "at": "2026-08-18T21:47:09.051735+00:00"
-  },
-  {
-   "title": "اختلال گسترده در سرویس‌های گیت‌هاب به دلیل اشباع شبکه و طوفان بازنشانی",
-   "url": "https://www.githubstatus.com/incidents/zkxwbgr0cnmx",
-   "source": "githubstatus.com",
-   "score": 0.13465,
-   "at": "2026-08-19T05:55:46.282576+00:00"
-  },
-  {
-   "title": "نشت گسترده اطلاعات مالیاتی شهروندان فرانسه در پی حمله سایبری",
-   "url": "https://www.bleepingcomputer.com/news/security/french-tax-authority-data-breach-affects-678-000-individuals/",
-   "source": "BleepingComputer",
-   "score": 0.47568,
-   "at": "2026-08-19T07:14:29.551194+00:00"
-  },
-  {
-   "title": "شباهت پرونده قضایی Meta به پرونده‌های تاریخی صنعت دخانیات",
-   "url": "https://www.economist.com/business/2026/08/18/metas-blockbuster-trial-draws-parallels-to-big-tobacco",
-   "source": "economist.com",
-   "score": 0.09306,
-   "at": "2026-08-19T08:02:46.144416+00:00"
-  },
-  {
-   "title": "افزایش حملات گروه باج‌افزاری Medusa به زیرساخت‌های حیاتی و مراکز درمانی",
-   "url": "https://therecord.media/more-than-200-medusa-ransomware-victims-in-last-year-cisa",
-   "source": "The Record",
-   "score": 0.30175,
-   "at": "2026-08-19T09:04:20.945045+00:00"
-  },
-  {
-   "title": "اجرای فایل‌های باینری استاتیک لینوکس با دسترسی به درایورهای گرافیکی سیستم",
-   "url": "https://github.com/pg83/solo",
-   "source": "github.com",
-   "score": 0.03928,
-   "at": "2026-08-19T09:58:11.108642+00:00"
-  },
-  {
-   "title": "تغییرات رابط کاربری و بهبود تجربه کاربری در Mastodon 5.0",
-   "url": "https://blog.joinmastodon.org/2026/08/5.0-laying-the-foundation/",
-   "source": "blog.joinmastodon.org",
-   "score": 0.03318,
-   "at": "2026-08-19T10:54:28.454520+00:00"
-  },
-  {
-   "title": "ابزار تحلیل ایستا برای رفع بن‌بست در بازی‌های کلاسیک Sierra",
-   "url": "https://github.com/katiahayati/lucasartsifier/",
-   "source": "github.com",
-   "score": 0.01871,
-   "at": "2026-08-19T11:50:01.807940+00:00"
-  },
-  {
-   "title": "توقف آموزش مدل Astra توسط OpenAI به دلیل توانایی‌های خطرناک سایبری",
-   "url": "https://www.wired.com/story/openai-overhauls-safety-protocols-after-its-ai-agents-went-rogue/",
-   "source": "Wired",
-   "score": 0.34156,
-   "at": "2026-08-19T13:25:13.751289+00:00"
-  },
-  {
-   "title": "عرضه‌ی سیستم‌عامل GrapheneOS برای گوشی‌های پرچمدار Motorola در سال ۲۰۲۷",
-   "url": "https://grapheneos.social/@GrapheneOS/117078064184215730",
-   "source": "grapheneos.social",
-   "score": 0.17575,
-   "at": "2026-08-19T14:06:27.997843+00:00"
-  },
-  {
-   "title": "تخریب کتاب‌های کمیاب توسط آمازون برای آموزش مدل‌های هوش مصنوعی",
-   "url": "https://bsky.app/profile/404media.co/post/3mtgva2e5z222",
-   "source": "404 Media",
-   "score": 0.62024,
-   "at": "2026-08-19T15:01:48.194378+00:00"
-  },
-  {
-   "title": "مکان‌یابی جزیره با استفاده از هندسه و پردازش موازی CUDA",
-   "url": "https://yassa9.github.io/osint/gralhix-004/",
-   "source": "yassa9.github.io",
-   "score": 0.06829,
-   "at": "2026-08-19T15:57:16.901870+00:00"
-  },
-  {
-   "title": "حملات فیشینگ با جعل هویت پشتیبانی Signal و مسدودسازی وب‌سایت‌های تبلیغاتی ایران",
-   "url": "https://www.theregister.com/security/2026/08/19/comcast-gives-its-wi-fi-motion-detector-a-security-makeover/5289572",
-   "source": "The Register",
-   "score": 0.52834,
-   "at": "2026-08-19T16:55:44.619623+00:00"
-  },
-  {
-   "title": "بررسی گوشی تاشوی جدید گوگل Pixel 11 Pro Fold",
-   "url": "https://www.engadget.com/2240020/google-pixel-11-pro-fold-review-more-but-not-enough/",
-   "source": "Engadget",
-   "score": 0.82412,
-   "at": "2026-08-19T17:49:58.100808+00:00"
-  },
-  {
-   "title": "سوءاستفاده پلیس از ابزارهای نظارتی برای تعقیب و آزار شهروندان",
-   "url": "https://www.404media.co/i-saw-a-shiny-thing-cop-explains-why-he-used-license-plate-reader-to-stalk-woman/",
-   "source": "404media.co",
-   "score": 0.35142,
-   "at": "2026-08-19T19:03:39.174639+00:00"
-  },
-  {
-   "title": "خرید استارتاپ OpenRouter توسط Stripe با مبلغی بیش از ۷.۵ میلیارد دلار",
-   "url": "https://thenextweb.com/news/stripe-openrouter-acquisition-confirmed",
-   "source": "The Next Web",
-   "score": 0.55623,
-   "at": "2026-08-19T19:49:09.023612+00:00"
-  },
-  {
-   "title": "دریافت گواهینامه 80 Plus Ruby برای منبع تغذیه Seasonic",
-   "url": "https://3dnews.ru/1147097",
-   "source": "3DNews",
-   "score": 0.4817,
-   "at": "2026-08-19T20:53:34.702457+00:00"
-  },
-  {
-   "title": "نشت اطلاعات حساس ۳.۷ میلیون بیمار در پی حمله به CareCloud",
-   "url": "https://therecord.media/electronic-health-record-company-carecloud-data-breach",
-   "source": "The Record",
-   "score": 0.32108,
-   "at": "2026-08-19T21:50:55.716117+00:00"
-  },
-  {
-   "title": "توقف استفاده از دوربین‌های پلاک‌خوان Flock در شهر گاردنر",
-   "url": "https://www.kmbc.com/article/gardner-kansas-flock-cameras-license-plate-readers-privacy/73468724",
-   "source": "kmbc.com",
-   "score": 0.11472,
-   "at": "2026-08-20T05:56:10.850937+00:00"
-  },
-  {
-   "title": "جایگزینی رادیان با واحد «دور» برای بهینه‌سازی محاسبات ریاضی در کدنویسی",
-   "url": "https://www.computerenhance.com/p/turns-are-better-than-radians",
-   "source": "computerenhance.com",
-   "score": 0.08324,
-   "at": "2026-08-20T07:23:02.272357+00:00"
-  },
-  {
-   "title": "اقدام جنجالی آمازون در نابودی کتاب‌های کمیاب برای آموزش مدل‌های هوش مصنوعی",
-   "url": "https://www.404media.co/podcast-amazon-is-destroying-rare-books-to-train-ai/",
-   "source": "404media.co",
-   "score": 0.04698,
-   "at": "2026-08-20T08:05:32.576966+00:00"
-  },
-  {
-   "title": "داستان برچسب قرمز روی بسته‌بندی اولین Microsoft Entertainment Pack",
-   "url": "https://devblogs.microsoft.com/oldnewthing/20260818-00/?p=112621",
-   "source": "devblogs.microsoft.com",
-   "score": 0.04572,
-   "at": "2026-08-20T09:05:39.108654+00:00"
-  },
-  {
-   "title": "هشدار CISA درباره بهره‌برداری فعال از آسیب‌پذیری بحرانی در فریم‌ورک Ray",
-   "url": "https://thehackernews.com/2026/08/cisa-flags-actively-exploited-ray-flaw.html",
-   "source": "The Hacker News",
-   "score": 0.54137,
-   "at": "2026-08-20T10:00:35.096259+00:00"
-  },
-  {
-   "title": "حواشی و جنجال‌های طراحی‌های بصری در نسخه‌های قدیمی ویندوز",
-   "url": "https://devblogs.microsoft.com/oldnewthing/20030825-00/?p=42803",
-   "source": "devblogs.microsoft.com",
-   "score": 0.03004,
-   "at": "2026-08-20T10:57:05.634832+00:00"
-  },
-  {
-   "title": "ردگیری کاربران در AliExpress با استفاده از اثرانگشت صوتی مرورگر",
-   "url": "https://blog.laserphile.com/2026/08/aliexpress-webpage-keeping-multipoint.html",
-   "source": "blog.laserphile.com",
-   "score": 0.07707,
-   "at": "2026-08-20T11:52:34.534899+00:00"
-  },
-  {
-   "title": "تجربه‌ی مهاجرت از Rust به زبان برنامه‌نویسی Zig",
-   "url": "https://besok.github.io/posts/what-zig-felt-like-coming-from-rust/",
-   "source": "besok.github.io",
-   "score": 0.08897,
-   "at": "2026-08-20T13:27:21.423467+00:00"
-  },
-  {
-   "title": "بررسی قابلیت‌های جدید و هوش مصنوعی در Google Pixel Watch 5",
-   "url": "https://www.wired.com/review/google-pixel-watch-5/",
-   "source": "Wired",
-   "score": 0.96296,
-   "at": "2026-08-20T14:08:48.526408+00:00"
-  },
-  {
-   "title": "مخالفت با ساخت دیتاسنتر تحقیقات هسته‌ای در میشیگان",
-   "url": "https://www.404media.co/township-fights-nuclear-weapons-data-center-by-passing-a-moratorium-on-electrical-infrastructure/",
-   "source": "404media.co",
-   "score": 0.78093,
-   "at": "2026-08-20T15:04:52.535015+00:00"
-  },
-  {
-   "title": "حملات فیشینگ با جعل هویت پشتیبانی Signal و مسدودسازی سایت‌های تبلیغاتی ایران",
-   "url": "https://www.theregister.com/cyber-crime/2026/08/20/ransomware-crook-poses-as-recovery-firm-to-steal-payments-from-fellow-extortionists/5290344",
-   "source": "The Register",
-   "score": 0.59878,
-   "at": "2026-08-20T15:59:27.329326+00:00"
-  },
-  {
-   "title": "بررسی گوشی‌های Google Pixel 11 Pro و قابلیت‌های جدید هوش مصنوعی",
-   "url": "https://www.wired.com/review/google-pixel-11-pro-and-pixel-11-pro-xl/",
-   "source": "Wired",
-   "score": 0.48829,
-   "at": "2026-08-20T17:00:57.114764+00:00"
-  },
-  {
-   "title": "استفاده از هوش مصنوعی برای نفوذ به زیرساخت‌های حیاتی و کنترل‌کننده‌های صنعتی",
-   "url": "https://thehackernews.com/2026/08/ai-generated-exploit-scripts-target.html",
-   "source": "The Hacker News",
-   "score": 0.49633,
-   "at": "2026-08-20T17:56:14.089919+00:00"
-  },
-  {
-   "title": "توهم هوش مصنوعی در چت‌بات‌ها",
-   "url": "https://bsky.app/profile/emilymbender.bsky.social/post/3mtjmyw6ozk2a",
-   "source": "Emily M. Bender",
-   "score": 0.31903,
-   "at": "2026-08-20T19:10:49.359913+00:00"
-  },
-  {
-   "title": "سرقت اسرار تجاری سامسونگ توسط مهندسان سابق برای شرکت چینی CXMT",
-   "url": "https://www.tomshardware.com/pc-components/dram/cxmt-planned-to-use-stolen-samsung-ip-to-develop-its-dram-court-hears-former-samsung-engineer-who-jumped-to-chinese-memory-maker-now-behind-bars",
-   "source": "Tom's Hardware",
-   "score": 0.56084,
-   "at": "2026-08-20T19:55:22.483739+00:00"
-  },
-  {
-   "title": "تبعیض قانونی در استفاده از داده‌های آموزشی برای مدل‌های هوش مصنوعی",
-   "url": "https://blog.curiousquail.com/im-upset-again-about-a-co-creator-of-rss-being-prosecuted-for-something-meta-is-doing-with-little-consequence/",
-   "source": "blog.curiousquail.com",
-   "score": 0.78923,
-   "at": "2026-08-20T20:56:09.699934+00:00"
-  },
-  {
-   "title": "معرفی گوشی Samsung Galaxy S26 FE در رویداد ۲۷ آگوست",
-   "url": "https://www.ixbt.com/news/2026/08/21/429388-7-let-obnovlenii-i-avtonomnost-lucse-cem-u-galaxy-s25-fe-samsung-galaxy-s26-fe-mogut-predstavit-27-avgusta-novoe-meropriiatie-galaxy-oficialno-anonsirovano.html",
-   "source": "iXBT",
-   "score": 0.81964,
-   "at": "2026-08-20T21:53:38.309289+00:00"
-  },
-  {
-   "title": "افزودن قابلیت یکپارچه‌سازی ChatGPT با اپلیکیشن Messages در سیستم‌عامل macOS",
-   "url": "https://9to5mac.com/2026/08/20/chatgpt-update-adds-apple-messages-integration-on-mac/",
-   "source": "9to5Mac",
-   "score": 0.30468,
-   "at": "2026-08-21T05:58:22.360886+00:00"
-  },
-  {
-   "title": "هوش مصنوعی و خطر نابودی کتاب‌های فیزیکی",
-   "url": "https://annas-archive.gl/blog/physical-destruction.html",
-   "source": "annas-archive.gl",
-   "score": 0.10846,
-   "at": "2026-08-21T07:24:07.228923+00:00"
-  },
-  {
-   "title": "داستان بلندپروازی ژاپن برای ساخت سیستم‌عامل ملی و شکست آن توسط آمریکا",
-   "url": "https://www.xda-developers.com/japan-tried-build-operating-system-entire-world-us-government-intervened/",
-   "source": "xda-developers.com",
-   "score": 0.09578,
-   "at": "2026-08-21T08:04:49.591235+00:00"
-  },
-  {
-   "title": "شکایت حقوقی شرکت VK از اپل به دلیل حذف برنامه‌ها",
-   "url": "https://3dnews.ru/1147216",
-   "source": "3DNews",
-   "score": 0.4501,
-   "at": "2026-08-21T09:08:44.796182+00:00"
-  },
-  {
-   "title": "حمله به زنجیره تأمین Rust با انتشار کدهای مخرب در کتابخانه‌های محبوب",
-   "url": "https://thehackernews.com/2026/08/rust-supply-chain-attack-puts-build.html",
-   "source": "The Hacker News",
-   "score": 0.39874,
-   "at": "2026-08-21T10:00:11.165344+00:00"
-  },
-  {
-   "title": "انتشار نسخه‌ی ۱.۹۸.۰ زبان برنامه‌نویسی Rust با قابلیت‌های جدید",
-   "url": "https://blog.rust-lang.org/2026/08/20/Rust-1.98.0/",
-   "source": "blog.rust-lang.org",
-   "score": 0.04037,
-   "at": "2026-08-21T10:57:06.036926+00:00"
-  },
-  {
-   "title": "اجرای بومی سیستم ساخت Encore روی مک با ابزار Crackling",
-   "url": "https://encore.dev/blog/firecracker-apple-silicon",
-   "source": "encore.dev",
-   "score": 0.05006,
-   "at": "2026-08-21T11:51:54.442351+00:00"
-  },
-  {
-   "title": "DATABASE PROGRAMMING RUST",
-   "url": "https://ixuvo.com/blog/tigerbeetle-core-system-architecture-performance-engineering",
-   "source": "ixuvo.com",
-   "score": 0.12035,
-   "at": "2026-08-21T13:25:51.197359+00:00"
-  },
-  {
-   "title": "تلاش مایکروسافت برای بهبود تجربه کاربری در نسخه جدید Outlook",
-   "url": "https://www.neowin.net/news/microsoft-is-making-new-outlook-more-palatable-with-classic-theme/?utm_source=rss",
-   "source": "Neowin",
-   "score": 0.451,
-   "at": "2026-08-21T14:06:14.871355+00:00"
-  },
-  {
-   "title": "کیت فیشینگ ۱۰ هزار دلاری برای سرقت دسترسی دائمی به حساب‌ها",
-   "url": "https://www.theregister.com/cyber-crime/2026/08/21/10k-phishing-kit-claims-it-can-plant-rogue-passkeys-for-persistent-access-to-pwned-accounts/5291006",
-   "source": "The Register",
-   "score": 0.41128,
-   "at": "2026-08-21T15:03:21.670427+00:00"
-  },
-  {
-   "title": "قابلیت حذف لینک‌های دارای دیوار پرداخت از نتایج جستجوی Kagi",
-   "url": "https://kagi.com/changelog#11296",
-   "source": "kagi.com",
-   "score": 0.19518,
-   "at": "2026-08-21T15:59:12.228277+00:00"
-  },
-  {
-   "title": "فراخوان Anna's Archive برای نجات کتاب‌ها از نابودی توسط شرکت‌های هوش مصنوعی",
-   "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/worlds-largest-open-library-calls-for-volunteers-to-scan-and-preserve-physical-books-as-ai-companies-buy-scan-and-destroy-them-annas-archive-says-time-is-running-out-as-knowledge-is-permanently-monopolized-on-private-servers",
-   "source": "Tom's Hardware",
-   "score": 0.36194,
-   "at": "2026-08-21T17:01:42.245004+00:00"
-  },
   {
    "title": "تغییر بنیادین در سیستم حل‌کننده‌ی trait زبان برنامه‌نویسی Rust",
    "url": "https://blog.rust-lang.org/2026/08/21/enabling-next-solver-on-nightly/",
@@ -1570,6 +969,13 @@
    "source": "github.com",
    "score": 0.10174,
    "at": "2026-08-28T01:36:00.453616+00:00"
+  },
+  {
+   "title": "افشای اعتبار علمی گزارش‌های نظارتی شرکت Flock",
+   "url": "https://bsky.app/profile/404media.co/post/3mu5nky7sus2x",
+   "source": "404 Media",
+   "score": 0.20261,
+   "at": "2026-08-28T17:34:03.361093+00:00"
   }
  ],
  "stories": [
@@ -2322,117 +1728,28 @@
     "x-wing"
    ],
    "at": "2026-08-28T01:36:00.453616+00:00"
+  },
+  {
+   "sig": [
+    "bogus",
+    "breaks",
+    "company",
+    "dealing",
+    "disavowed",
+    "down",
+    "flock",
+    "idea",
+    "jasonkoebler.bsky.social",
+    "paid",
+    "researchers",
+    "study",
+    "talk",
+    "themselves"
+   ],
+   "at": "2026-08-28T17:34:03.361093+00:00"
   }
  ],
  "snapshots": {
-  "hn:49329347": [
-   201,
-   "2026-08-17T13:16:01.846737+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mtbsegvcjc2b": [
-   11076,
-   "2026-08-17T15:49:18.986306+00:00"
-  ],
-  "hn:49326825": [
-   125,
-   "2026-08-17T16:54:12.076134+00:00"
-  ],
-  "hn:49327490": [
-   174,
-   "2026-08-17T19:07:19.233464+00:00"
-  ],
-  "lobsters:5p0kgt": [
-   49,
-   "2026-08-17T19:07:19.233464+00:00"
-  ],
-  "hn:49332981": [
-   1223,
-   "2026-08-17T19:07:19.233464+00:00"
-  ],
-  "lobsters:i9u22k": [
-   25,
-   "2026-08-17T19:07:19.233464+00:00"
-  ],
-  "hn:49327643": [
-   212,
-   "2026-08-17T19:50:21.984799+00:00"
-  ],
-  "lobsters:snhfrq": [
-   28,
-   "2026-08-17T19:50:21.984799+00:00"
-  ],
-  "hn:49334544": [
-   330,
-   "2026-08-17T19:50:21.984799+00:00"
-  ],
-  "hn:49328911": [
-   449,
-   "2026-08-17T21:49:35.755843+00:00"
-  ],
-  "hn:49329575": [
-   567,
-   "2026-08-17T21:49:35.755843+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mtbspkey2p2i": [
-   1407,
-   "2026-08-17T21:49:35.755843+00:00"
-  ],
-  "hn:49331033": [
-   994,
-   "2026-08-17T21:49:35.755843+00:00"
-  ],
-  "hn:49330632": [
-   292,
-   "2026-08-17T21:49:35.755843+00:00"
-  ],
-  "hn:49330597": [
-   2106,
-   "2026-08-17T21:49:35.755843+00:00"
-  ],
-  "hn:49330139": [
-   185,
-   "2026-08-17T21:49:35.755843+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mtbw34qray2j": [
-   118,
-   "2026-08-17T21:49:35.755843+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mtbvrtdimk25": [
-   5151,
-   "2026-08-17T21:49:35.755843+00:00"
-  ],
-  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mtbv4cggac25": [
-   29,
-   "2026-08-17T21:49:35.755843+00:00"
-  ],
-  "hn:49332495": [
-   254,
-   "2026-08-17T21:49:35.755843+00:00"
-  ],
-  "hn:49331423": [
-   509,
-   "2026-08-17T21:49:35.755843+00:00"
-  ],
-  "hn:49331222": [
-   419,
-   "2026-08-17T21:49:35.755843+00:00"
-  ],
-  "hn:49330742": [
-   670,
-   "2026-08-17T21:49:35.755843+00:00"
-  ],
-  "hn:49330456": [
-   224,
-   "2026-08-17T21:49:35.755843+00:00"
-  ],
-  "hn:49329583": [
-   158,
-   "2026-08-17T21:49:35.755843+00:00"
-  ],
-  "lobsters:0zdh32": [
-   178,
-   "2026-08-17T21:49:35.755843+00:00"
-  ],
   "lobsters:nrnwc6": [
    46,
    "2026-08-17T21:49:35.755843+00:00"
@@ -4724,6 +4041,114 @@
   "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mu3jkxqauc24": [
    206,
    "2026-08-28T01:35:56.547322+00:00"
+  ],
+  "hn:49480466": [
+   119,
+   "2026-08-28T17:33:48.609754+00:00"
+  ],
+  "hn:49479951": [
+   146,
+   "2026-08-28T17:33:48.609754+00:00"
+  ],
+  "hn:49479837": [
+   180,
+   "2026-08-28T17:33:48.609754+00:00"
+  ],
+  "hn:49479122": [
+   284,
+   "2026-08-28T17:33:48.609754+00:00"
+  ],
+  "hn:49478340": [
+   661,
+   "2026-08-28T17:33:48.609754+00:00"
+  ],
+  "hn:49478103": [
+   615,
+   "2026-08-28T17:33:48.609754+00:00"
+  ],
+  "hn:49478091": [
+   347,
+   "2026-08-28T17:33:48.609754+00:00"
+  ],
+  "hn:49477854": [
+   660,
+   "2026-08-28T17:33:48.609754+00:00"
+  ],
+  "hn:49477813": [
+   135,
+   "2026-08-28T17:33:48.609754+00:00"
+  ],
+  "hn:49477564": [
+   417,
+   "2026-08-28T17:33:48.609754+00:00"
+  ],
+  "hn:49477559": [
+   211,
+   "2026-08-28T17:33:48.609754+00:00"
+  ],
+  "hn:49477157": [
+   132,
+   "2026-08-28T17:33:48.609754+00:00"
+  ],
+  "hn:49477055": [
+   323,
+   "2026-08-28T17:33:48.609754+00:00"
+  ],
+  "hn:49476894": [
+   141,
+   "2026-08-28T17:33:48.609754+00:00"
+  ],
+  "hn:49476143": [
+   302,
+   "2026-08-28T17:33:48.609754+00:00"
+  ],
+  "hn:49475979": [
+   178,
+   "2026-08-28T17:33:48.609754+00:00"
+  ],
+  "hn:49475404": [
+   341,
+   "2026-08-28T17:33:48.609754+00:00"
+  ],
+  "hn:49475079": [
+   433,
+   "2026-08-28T17:33:48.609754+00:00"
+  ],
+  "hn:49474786": [
+   509,
+   "2026-08-28T17:33:48.609754+00:00"
+  ],
+  "lobsters:zhnpv1": [
+   71,
+   "2026-08-28T17:33:48.609754+00:00"
+  ],
+  "lobsters:im3eeh": [
+   41,
+   "2026-08-28T17:33:48.609754+00:00"
+  ],
+  "lobsters:p6kxjh": [
+   63,
+   "2026-08-28T17:33:48.609754+00:00"
+  ],
+  "lobsters:p7solr": [
+   30,
+   "2026-08-28T17:33:48.609754+00:00"
+  ],
+  "lobsters:oveaa3": [
+   50,
+   "2026-08-28T17:33:48.609754+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mu5nky7sus2x": [
+   488,
+   "2026-08-28T17:33:48.609754+00:00"
+  ],
+  "at://did:plc:kft6lu4trxowqmter2b6vg6z/app.bsky.feed.post/3mu5443unn22s": [
+   614,
+   "2026-08-28T17:33:48.609754+00:00"
+  ],
+  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mu5pgvwapa2b": [
+   635,
+   "2026-08-28T17:33:48.609754+00:00"
   ]
  }
 }
