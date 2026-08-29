@@ -359,18 +359,21 @@
   "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mu6jmp5ltc2m",
   "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mu6l5rw3p22m",
   "lobsters:mroowi",
-  "hn:49488282"
+  "hn:49488282",
+  "01M11810QJGXPR0NHE510EFS6F",
+  "SPhMgstaKDWz63ptZBRVi3",
+  "https://www.techspot.com/news/113665-cloudflare-freed-up-100tb-ram-behind-1111-dns.html"
  ],
  "posted": {
   "viral": 92,
-  "editorial": 90
+  "editorial": 91
  },
  "recent_labels": [
   "Hacker News",
-  "Hacker News",
   "404 Media",
   "Xe Iaso",
-  "Hacker News"
+  "Hacker News",
+  "Cloudflare"
  ],
  "last_digest": "2026-08-28",
  "history": [
@@ -996,6 +999,13 @@
    "source": "matduggan.com",
    "score": 0.12419,
    "at": "2026-08-29T11:44:39.923549+00:00"
+  },
+  {
+   "title": "بهینه‌سازی حافظه در سرویس DNS کلودفلر با استفاده از Rust",
+   "url": "https://blog.cloudflare.com/dns-cache-memory-optimization-1111/",
+   "source": "Cloudflare",
+   "score": 0.7208,
+   "at": "2026-08-29T16:50:01.204824+00:00"
   }
  ],
  "stories": [
@@ -1777,41 +1787,43 @@
     "know"
    ],
    "at": "2026-08-29T11:44:39.923549+00:00"
+  },
+  {
+   "sig": [
+    "1.1.1.1",
+    "100tb",
+    "250gb",
+    "adding",
+    "any",
+    "behind",
+    "billion",
+    "byte",
+    "cache",
+    "cached",
+    "cloudflare",
+    "costs",
+    "dns",
+    "entries",
+    "freed",
+    "frees",
+    "given",
+    "means",
+    "memory",
+    "optimizing",
+    "ram",
+    "saved",
+    "server",
+    "shrinking",
+    "single",
+    "terabytes",
+    "time",
+    "wasted",
+    "without"
+   ],
+   "at": "2026-08-29T16:50:01.204824+00:00"
   }
  ],
  "snapshots": {
-  "hn:49336909": [
-   205,
-   "2026-08-18T08:02:20.158304+00:00"
-  ],
-  "lobsters:05ocit": [
-   58,
-   "2026-08-18T08:02:20.158304+00:00"
-  ],
-  "lobsters:fx9pic": [
-   26,
-   "2026-08-18T08:02:20.158304+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mtcmoytjwj2j": [
-   157,
-   "2026-08-18T09:02:21.535965+00:00"
-  ],
-  "hn:49340013": [
-   406,
-   "2026-08-18T09:02:21.535965+00:00"
-  ],
-  "hn:49337602": [
-   914,
-   "2026-08-18T09:02:21.535965+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mtcovfp3hc2o": [
-   179,
-   "2026-08-18T09:02:21.535965+00:00"
-  ],
-  "hn:49341551": [
-   244,
-   "2026-08-18T09:02:21.535965+00:00"
-  ],
   "hn:49337630": [
    123,
    "2026-08-18T09:02:21.535965+00:00"
@@ -4144,14 +4156,6 @@
    290,
    "2026-08-29T11:44:35.822090+00:00"
   ],
-  "hn:49487786": [
-   156,
-   "2026-08-29T11:44:35.822090+00:00"
-  ],
-  "hn:49487341": [
-   208,
-   "2026-08-29T11:44:35.822090+00:00"
-  ],
   "hn:49486334": [
    220,
    "2026-08-29T11:44:35.822090+00:00"
@@ -4179,6 +4183,46 @@
   "lobsters:zctsmq": [
    41,
    "2026-08-29T11:44:35.822090+00:00"
+  ],
+  "hn:49487786": [
+   182,
+   "2026-08-29T16:49:59.235288+00:00"
+  ],
+  "hn:49487341": [
+   329,
+   "2026-08-29T16:49:59.235288+00:00"
+  ],
+  "hn:49489982": [
+   768,
+   "2026-08-29T16:49:59.235288+00:00"
+  ],
+  "hn:49489057": [
+   933,
+   "2026-08-29T16:49:59.235288+00:00"
+  ],
+  "lobsters:k9uxu5": [
+   27,
+   "2026-08-29T16:49:59.235288+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3muaafrndcc2p": [
+   243,
+   "2026-08-29T16:49:59.235288+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mu7u4iweyd2o": [
+   195,
+   "2026-08-29T16:49:59.235288+00:00"
+  ],
+  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mu7wym4hvj2p": [
+   138,
+   "2026-08-29T16:49:59.235288+00:00"
+  ],
+  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mu7wwqonqs2a": [
+   73,
+   "2026-08-29T16:49:59.235288+00:00"
+  ],
+  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3muabt6dwlk2r": [
+   14,
+   "2026-08-29T16:49:59.235288+00:00"
   ]
  }
 }
