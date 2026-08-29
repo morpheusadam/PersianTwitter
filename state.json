@@ -357,18 +357,20 @@
   "https://www.techspot.com/news/113641-hyundai-ceo-local-car-dealership-could-sell-you.html",
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mu6ecu63ys2n",
   "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mu6jmp5ltc2m",
-  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mu6l5rw3p22m"
+  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mu6l5rw3p22m",
+  "lobsters:mroowi",
+  "hn:49488282"
  ],
  "posted": {
-  "viral": 91,
+  "viral": 92,
   "editorial": 90
  },
  "recent_labels": [
-  "Wired",
   "Hacker News",
   "Hacker News",
   "404 Media",
-  "Xe Iaso"
+  "Xe Iaso",
+  "Hacker News"
  ],
  "last_digest": "2026-08-28",
  "history": [
@@ -987,6 +989,13 @@
    "source": "github.com",
    "score": 0.23226,
    "at": "2026-08-29T01:49:51.563023+00:00"
+  },
+  {
+   "title": "تأثیر مقررات GDPR بر استانداردهای جهانی حریم خصوصی",
+   "url": "https://matduggan.com/you-know-gdpr-is-good-based-on-who-hates-it/",
+   "source": "matduggan.com",
+   "score": 0.12419,
+   "at": "2026-08-29T11:44:39.923549+00:00"
   }
  ],
  "stories": [
@@ -1758,49 +1767,19 @@
     "themselves"
    ],
    "at": "2026-08-28T17:34:03.361093+00:00"
+  },
+  {
+   "sig": [
+    "based",
+    "gdpr",
+    "good",
+    "hates",
+    "know"
+   ],
+   "at": "2026-08-29T11:44:39.923549+00:00"
   }
  ],
  "snapshots": {
-  "hn:49335216": [
-   121,
-   "2026-08-18T05:54:22.168134+00:00"
-  ],
-  "hn:49334991": [
-   257,
-   "2026-08-18T05:54:22.168134+00:00"
-  ],
-  "at://did:plc:x2nsupeeo52oznrmplwapppl/app.bsky.feed.post/3mtcm4cd4ek2v": [
-   198,
-   "2026-08-18T05:54:22.168134+00:00"
-  ],
-  "hn:49335271": [
-   81,
-   "2026-08-18T05:54:22.168134+00:00"
-  ],
-  "at://did:plc:ipt7y6qaf6fn7oeeduboqe44/app.bsky.feed.post/3mtcgp2lhqs2t": [
-   48,
-   "2026-08-18T07:13:43.559301+00:00"
-  ],
-  "hn:49336672": [
-   226,
-   "2026-08-18T07:13:43.559301+00:00"
-  ],
-  "hn:49336304": [
-   452,
-   "2026-08-18T07:13:43.559301+00:00"
-  ],
-  "hn:49338459": [
-   978,
-   "2026-08-18T07:13:43.559301+00:00"
-  ],
-  "hn:49337392": [
-   943,
-   "2026-08-18T08:02:20.158304+00:00"
-  ],
-  "hn:49336919": [
-   91,
-   "2026-08-18T08:02:20.158304+00:00"
-  ],
   "hn:49336909": [
    205,
    "2026-08-18T08:02:20.158304+00:00"
@@ -4160,6 +4139,46 @@
   "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mu6fyfwrek2m": [
    10,
    "2026-08-29T01:49:45.196672+00:00"
+  ],
+  "hn:49488282": [
+   290,
+   "2026-08-29T11:44:35.822090+00:00"
+  ],
+  "hn:49487786": [
+   156,
+   "2026-08-29T11:44:35.822090+00:00"
+  ],
+  "hn:49487341": [
+   208,
+   "2026-08-29T11:44:35.822090+00:00"
+  ],
+  "hn:49486334": [
+   220,
+   "2026-08-29T11:44:35.822090+00:00"
+  ],
+  "hn:49486176": [
+   129,
+   "2026-08-29T11:44:35.822090+00:00"
+  ],
+  "hn:49486172": [
+   1207,
+   "2026-08-29T11:44:35.822090+00:00"
+  ],
+  "hn:49486081": [
+   161,
+   "2026-08-29T11:44:35.822090+00:00"
+  ],
+  "hn:49485532": [
+   206,
+   "2026-08-29T11:44:35.822090+00:00"
+  ],
+  "lobsters:mroowi": [
+   50,
+   "2026-08-29T11:44:35.822090+00:00"
+  ],
+  "lobsters:zctsmq": [
+   41,
+   "2026-08-29T11:44:35.822090+00:00"
   ]
  }
 }
