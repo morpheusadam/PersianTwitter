@@ -362,18 +362,24 @@
   "hn:49488282",
   "01M11810QJGXPR0NHE510EFS6F",
   "SPhMgstaKDWz63ptZBRVi3",
-  "https://www.techspot.com/news/113665-cloudflare-freed-up-100tb-ram-behind-1111-dns.html"
+  "https://www.techspot.com/news/113665-cloudflare-freed-up-100tb-ram-behind-1111-dns.html",
+  "6a8f2d32377f7d54e320aa59",
+  "hn:49490870",
+  "3145b7c9fa032cfb7c1c9e4cbbd5066e",
+  "https://www.engadget.com/2246997/sony-warner-sue-anthropic-for-blatant-violation-of-copyright-law/",
+  "https://techcrunch.com/?p=3158639",
+  "https://www.theverge.com/?p=986438"
  ],
  "posted": {
   "viral": 92,
-  "editorial": 91
+  "editorial": 92
  },
  "recent_labels": [
-  "Hacker News",
   "404 Media",
   "Xe Iaso",
   "Hacker News",
-  "Cloudflare"
+  "Cloudflare",
+  "Engadget"
  ],
  "last_digest": "2026-08-28",
  "history": [
@@ -1006,6 +1012,13 @@
    "source": "Cloudflare",
    "score": 0.7208,
    "at": "2026-08-29T16:50:01.204824+00:00"
+  },
+  {
+   "title": "شکایت غول‌های موسیقی از Anthropic به دلیل نقض گسترده کپی‌رایت",
+   "url": "https://www.engadget.com/2246997/sony-warner-sue-anthropic-for-blatant-violation-of-copyright-law/",
+   "source": "Engadget",
+   "score": 0.60258,
+   "at": "2026-08-29T19:52:53.756075+00:00"
   }
  ],
  "stories": [
@@ -1821,57 +1834,31 @@
     "without"
    ],
    "at": "2026-08-29T16:50:01.204824+00:00"
+  },
+  {
+   "sig": [
+    "alleging",
+    "anthropic",
+    "blatant",
+    "brazen",
+    "campaign",
+    "chappell",
+    "copyright",
+    "intellectual",
+    "law",
+    "music",
+    "property",
+    "sony",
+    "sue",
+    "suing",
+    "theft",
+    "violation",
+    "warner"
+   ],
+   "at": "2026-08-29T19:52:53.756075+00:00"
   }
  ],
  "snapshots": {
-  "hn:49337630": [
-   123,
-   "2026-08-18T09:02:21.535965+00:00"
-  ],
-  "hn:49338732": [
-   145,
-   "2026-08-18T09:58:06.090001+00:00"
-  ],
-  "hn:49338328": [
-   640,
-   "2026-08-18T09:58:06.090001+00:00"
-  ],
-  "hn:49338285": [
-   283,
-   "2026-08-18T09:58:06.090001+00:00"
-  ],
-  "at://did:plc:2mrgzk6xlemfv6yugn644xxy/app.bsky.feed.post/3mtcs6tcctk2b": [
-   28,
-   "2026-08-18T09:58:06.090001+00:00"
-  ],
-  "hn:49339097": [
-   164,
-   "2026-08-18T10:55:50.605294+00:00"
-  ],
-  "lobsters:j5xjf2": [
-   30,
-   "2026-08-18T10:55:50.605294+00:00"
-  ],
-  "hn:49342530": [
-   92,
-   "2026-08-18T10:55:50.605294+00:00"
-  ],
-  "hn:49339599": [
-   162,
-   "2026-08-18T11:50:28.179185+00:00"
-  ],
-  "hn:49339577": [
-   123,
-   "2026-08-18T11:50:28.179185+00:00"
-  ],
-  "hn:49344825": [
-   118,
-   "2026-08-18T14:06:06.624361+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mtecrqylp22l": [
-   332,
-   "2026-08-18T14:06:06.624361+00:00"
-  ],
   "hn:49341009": [
    129,
    "2026-08-18T15:01:37.655478+00:00"
@@ -4193,36 +4180,84 @@
    "2026-08-29T16:49:59.235288+00:00"
   ],
   "hn:49489982": [
-   768,
-   "2026-08-29T16:49:59.235288+00:00"
+   1224,
+   "2026-08-29T19:52:48.279435+00:00"
   ],
   "hn:49489057": [
-   933,
-   "2026-08-29T16:49:59.235288+00:00"
+   1081,
+   "2026-08-29T19:52:48.279435+00:00"
   ],
   "lobsters:k9uxu5": [
-   27,
-   "2026-08-29T16:49:59.235288+00:00"
+   36,
+   "2026-08-29T19:52:48.279435+00:00"
   ],
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3muaafrndcc2p": [
-   243,
-   "2026-08-29T16:49:59.235288+00:00"
+   376,
+   "2026-08-29T19:52:48.279435+00:00"
   ],
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mu7u4iweyd2o": [
-   195,
-   "2026-08-29T16:49:59.235288+00:00"
+   215,
+   "2026-08-29T19:52:48.279435+00:00"
   ],
   "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mu7wym4hvj2p": [
-   138,
-   "2026-08-29T16:49:59.235288+00:00"
+   152,
+   "2026-08-29T19:52:48.279435+00:00"
   ],
   "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mu7wwqonqs2a": [
-   73,
-   "2026-08-29T16:49:59.235288+00:00"
+   79,
+   "2026-08-29T19:52:48.279435+00:00"
   ],
   "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3muabt6dwlk2r": [
-   14,
-   "2026-08-29T16:49:59.235288+00:00"
+   37,
+   "2026-08-29T19:52:48.279435+00:00"
+  ],
+  "hn:49492219": [
+   93,
+   "2026-08-29T19:52:48.279435+00:00"
+  ],
+  "hn:49492193": [
+   389,
+   "2026-08-29T19:52:48.279435+00:00"
+  ],
+  "hn:49491568": [
+   116,
+   "2026-08-29T19:52:48.279435+00:00"
+  ],
+  "hn:49490870": [
+   129,
+   "2026-08-29T19:52:48.279435+00:00"
+  ],
+  "hn:49490702": [
+   272,
+   "2026-08-29T19:52:48.279435+00:00"
+  ],
+  "hn:49490138": [
+   110,
+   "2026-08-29T19:52:48.279435+00:00"
+  ],
+  "lobsters:pxmp9r": [
+   25,
+   "2026-08-29T19:52:48.279435+00:00"
+  ],
+  "lobsters:nbjo0i": [
+   27,
+   "2026-08-29T19:52:48.279435+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3muah65qrhd25": [
+   255,
+   "2026-08-29T19:52:48.279435+00:00"
+  ],
+  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3muakuy2woc24": [
+   57,
+   "2026-08-29T19:52:48.279435+00:00"
+  ],
+  "at://did:plc:x2nsupeeo52oznrmplwapppl/app.bsky.feed.post/3muaavljh262c": [
+   33,
+   "2026-08-29T19:52:48.279435+00:00"
+  ],
+  "at://did:plc:2mrgzk6xlemfv6yugn644xxy/app.bsky.feed.post/3muakukmuxc2m": [
+   20,
+   "2026-08-29T19:52:48.279435+00:00"
   ]
  }
 }
