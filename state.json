@@ -372,18 +372,19 @@
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3muara256bx2w",
   "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3muavgs7snj2i",
   "99bed13651c1d78e5e5a9a1ce9ebacc2",
-  "https://www.darkreading.com/events/virtual-event-what-every-enterprise-know-securing-cloud-2026"
+  "https://www.darkreading.com/events/virtual-event-what-every-enterprise-know-securing-cloud-2026",
+  "hn:49495127"
  ],
  "posted": {
-  "viral": 92,
+  "viral": 93,
   "editorial": 93
  },
  "recent_labels": [
-  "Xe Iaso",
   "Hacker News",
   "Cloudflare",
   "Engadget",
-  "Dark Reading"
+  "Dark Reading",
+  "Hacker News"
  ],
  "last_digest": "2026-08-28",
  "history": [
@@ -1030,6 +1031,13 @@
    "source": "Dark Reading",
    "score": 0.26804,
    "at": "2026-08-29T22:43:07.300876+00:00"
+  },
+  {
+   "title": "افزایش دعاوی حقوقی علیه استفاده از الگوریتم‌های قیمت‌گذاری اجاره‌بها",
+   "url": "https://www.morganlewis.com/pubs/2026/08/algorithmic-rent-pricing-litigation-expands-under-new-state-and-local-laws",
+   "source": "morganlewis.com",
+   "score": 0.03653,
+   "at": "2026-08-30T10:35:26.728279+00:00"
   }
  ],
  "stories": [
@@ -1882,61 +1890,22 @@
     "virtual"
    ],
    "at": "2026-08-29T22:43:07.300876+00:00"
+  },
+  {
+   "sig": [
+    "algorithmic",
+    "expands",
+    "laws",
+    "litigation",
+    "local",
+    "rent-pricing",
+    "state",
+    "under"
+   ],
+   "at": "2026-08-30T10:35:26.728279+00:00"
   }
  ],
  "snapshots": {
-  "lobsters:ykq7ym": [
-   110,
-   "2026-08-18T19:48:12.051680+00:00"
-  ],
-  "hn:49349984": [
-   233,
-   "2026-08-18T19:48:12.051680+00:00"
-  ],
-  "hn:49349147": [
-   643,
-   "2026-08-18T19:48:12.051680+00:00"
-  ],
-  "hn:49350955": [
-   124,
-   "2026-08-18T19:48:12.051680+00:00"
-  ],
-  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mtewlr23qq24": [
-   124,
-   "2026-08-18T19:48:12.051680+00:00"
-  ],
-  "hn:49348751": [
-   639,
-   "2026-08-18T20:48:35.687487+00:00"
-  ],
-  "hn:49343559": [
-   1302,
-   "2026-08-18T21:46:57.385710+00:00"
-  ],
-  "hn:49344114": [
-   251,
-   "2026-08-18T21:46:57.385710+00:00"
-  ],
-  "hn:49344811": [
-   676,
-   "2026-08-18T21:46:57.385710+00:00"
-  ],
-  "hn:49344654": [
-   557,
-   "2026-08-18T21:46:57.385710+00:00"
-  ],
-  "hn:49344643": [
-   266,
-   "2026-08-18T21:46:57.385710+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mtee6l35xk2t": [
-   819,
-   "2026-08-18T21:46:57.385710+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mted6jaro525": [
-   387,
-   "2026-08-18T21:46:57.385710+00:00"
-  ],
   "hn:49345220": [
    726,
    "2026-08-18T21:46:57.385710+00:00"
@@ -4284,6 +4253,58 @@
   "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3muahwl6aac2m": [
    7,
    "2026-08-29T22:43:02.715299+00:00"
+  ],
+  "hn:49497063": [
+   96,
+   "2026-08-30T10:35:23.407687+00:00"
+  ],
+  "hn:49495372": [
+   572,
+   "2026-08-30T10:35:23.407687+00:00"
+  ],
+  "hn:49495127": [
+   178,
+   "2026-08-30T10:35:23.407687+00:00"
+  ],
+  "hn:49494856": [
+   218,
+   "2026-08-30T10:35:23.407687+00:00"
+  ],
+  "hn:49494751": [
+   126,
+   "2026-08-30T10:35:23.407687+00:00"
+  ],
+  "hn:49494301": [
+   251,
+   "2026-08-30T10:35:23.407687+00:00"
+  ],
+  "hn:49494231": [
+   502,
+   "2026-08-30T10:35:23.407687+00:00"
+  ],
+  "hn:49494182": [
+   653,
+   "2026-08-30T10:35:23.407687+00:00"
+  ],
+  "hn:49494151": [
+   355,
+   "2026-08-30T10:35:23.407687+00:00"
+  ],
+  "hn:49494036": [
+   252,
+   "2026-08-30T10:35:23.407687+00:00"
+  ],
+  "lobsters:9y9jo6": [
+   30,
+   "2026-08-30T10:35:23.407687+00:00"
+  ],
+  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mubllseiic2c": [
+   37,
+   "2026-08-30T10:35:23.407687+00:00"
+  ],
+  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mubfxnfbjk2c": [
+   16,
+   "2026-08-30T10:35:23.407687+00:00"
   ]
  }
 }
