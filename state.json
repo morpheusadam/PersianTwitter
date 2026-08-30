@@ -373,18 +373,23 @@
   "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3muavgs7snj2i",
   "99bed13651c1d78e5e5a9a1ce9ebacc2",
   "https://www.darkreading.com/events/virtual-event-what-every-enterprise-know-securing-cloud-2026",
-  "hn:49495127"
+  "hn:49495127",
+  "https://thehackernews.com/2026/08/openai-says-reward-hacking-drove-ai.html",
+  "https://www.bleepingcomputer.com/news/security/nearly-700-rogue-ai-agents-coordinated-in-the-hugging-face-attack/",
+  "https://www.darkreading.com/cyberattacks-data-breaches/hundreds-openai-agents-invaded-hugging-face-servers",
+  "https://3dnews.ru/1147690/#6a942859742eec48f88b4569",
+  "https://www.securityweek.com/?p=48925"
  ],
  "posted": {
   "viral": 93,
-  "editorial": 93
+  "editorial": 94
  },
  "recent_labels": [
-  "Hacker News",
   "Cloudflare",
   "Engadget",
   "Dark Reading",
-  "Hacker News"
+  "Hacker News",
+  "The Hacker News"
  ],
  "last_digest": "2026-08-28",
  "history": [
@@ -1038,6 +1043,13 @@
    "source": "morganlewis.com",
    "score": 0.03653,
    "at": "2026-08-30T10:35:26.728279+00:00"
+  },
+  {
+   "title": "هک پلتفرم Hugging Face توسط مدل‌های هوش مصنوعی OpenAI به دلیل پدیده Reward Hacking",
+   "url": "https://thehackernews.com/2026/08/openai-says-reward-hacking-drove-ai.html",
+   "source": "The Hacker News",
+   "score": 0.83219,
+   "at": "2026-08-30T15:24:45.018825+00:00"
   }
  ],
  "stories": [
@@ -1903,41 +1915,37 @@
     "under"
    ],
    "at": "2026-08-30T10:35:26.728279+00:00"
+  },
+  {
+   "sig": [
+    "agents",
+    "ahead",
+    "attack",
+    "board",
+    "breach",
+    "coordinated",
+    "drove",
+    "exploit",
+    "face",
+    "hack",
+    "hacking",
+    "hugging",
+    "hundreds",
+    "invaded",
+    "makeshift",
+    "message",
+    "nearly",
+    "openai",
+    "reward",
+    "rogue",
+    "servers",
+    "via",
+    "zero-days"
+   ],
+   "at": "2026-08-30T15:24:45.018825+00:00"
   }
  ],
  "snapshots": {
-  "hn:49345220": [
-   726,
-   "2026-08-18T21:46:57.385710+00:00"
-  ],
-  "hn:49345070": [
-   265,
-   "2026-08-18T21:46:57.385710+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mtefrcayg22l": [
-   419,
-   "2026-08-18T21:46:57.385710+00:00"
-  ],
-  "hn:49345843": [
-   334,
-   "2026-08-18T21:46:57.385710+00:00"
-  ],
-  "hn:49345476": [
-   195,
-   "2026-08-18T21:46:57.385710+00:00"
-  ],
-  "lobsters:nsywuo": [
-   64,
-   "2026-08-18T21:46:57.385710+00:00"
-  ],
-  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mtejylep2s2p": [
-   12,
-   "2026-08-18T21:46:57.385710+00:00"
-  ],
-  "hn:49348163": [
-   399,
-   "2026-08-18T21:46:57.385710+00:00"
-  ],
   "hn:49348055": [
    364,
    "2026-08-18T21:46:57.385710+00:00"
@@ -4254,10 +4262,6 @@
    7,
    "2026-08-29T22:43:02.715299+00:00"
   ],
-  "hn:49497063": [
-   96,
-   "2026-08-30T10:35:23.407687+00:00"
-  ],
   "hn:49495372": [
    572,
    "2026-08-30T10:35:23.407687+00:00"
@@ -4294,17 +4298,53 @@
    252,
    "2026-08-30T10:35:23.407687+00:00"
   ],
-  "lobsters:9y9jo6": [
-   30,
-   "2026-08-30T10:35:23.407687+00:00"
-  ],
-  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mubllseiic2c": [
-   37,
-   "2026-08-30T10:35:23.407687+00:00"
-  ],
   "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mubfxnfbjk2c": [
    16,
    "2026-08-30T10:35:23.407687+00:00"
+  ],
+  "hn:49497063": [
+   655,
+   "2026-08-30T15:24:42.947511+00:00"
+  ],
+  "lobsters:9y9jo6": [
+   72,
+   "2026-08-30T15:24:42.947511+00:00"
+  ],
+  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mubllseiic2c": [
+   42,
+   "2026-08-30T15:24:42.947511+00:00"
+  ],
+  "hn:49498201": [
+   325,
+   "2026-08-30T15:24:42.947511+00:00"
+  ],
+  "hn:49497200": [
+   173,
+   "2026-08-30T15:24:42.947511+00:00"
+  ],
+  "hn:49496918": [
+   235,
+   "2026-08-30T15:24:42.947511+00:00"
+  ],
+  "hn:49496782": [
+   227,
+   "2026-08-30T15:24:42.947511+00:00"
+  ],
+  "lobsters:rr2irk": [
+   28,
+   "2026-08-30T15:24:42.947511+00:00"
+  ],
+  "lobsters:rikfb5": [
+   34,
+   "2026-08-30T15:24:42.947511+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mucirkf3pi2w": [
+   525,
+   "2026-08-30T15:24:42.947511+00:00"
+  ],
+  "at://did:plc:ipt7y6qaf6fn7oeeduboqe44/app.bsky.feed.post/3mucln43ukc2t": [
+   28,
+   "2026-08-30T15:24:42.947511+00:00"
   ]
  }
 }
