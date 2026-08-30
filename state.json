@@ -382,18 +382,23 @@
   "36f19d0a0f3ff2db249c3618258922f3",
   "https://www.theverge.com/?p=986544",
   "https://www.engadget.com/2247120/nasa-nancy-grace-roman-space-telescope-launches-to-study-dark-universe/",
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mucpspuhrv27"
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mucpspuhrv27",
+  "6a94514445866f3284262379",
+  "https://www.engadget.com/2247074/google-maps-has-changed-lake-ontario-to-lake-america-for-us-users/",
+  "https://tech.slashdot.org/story/26/08/30/1850233/google-maps-renamed-lake-ontario-to-lake-america---but-only-for-us-users?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+  "https://www.neowin.net/news/google-bows-to-trump-as-it-renames-lake-ontario-to-lake-america-in-google-maps/",
+  "TheNextWeb=5f28ad2f21702b717929e66f5f06365c"
  ],
  "posted": {
   "viral": 94,
-  "editorial": 94
+  "editorial": 95
  },
  "recent_labels": [
-  "Engadget",
   "Dark Reading",
   "Hacker News",
   "The Hacker News",
-  "404 Media"
+  "404 Media",
+  "Wired"
  ],
  "last_digest": "2026-08-28",
  "history": [
@@ -1061,6 +1066,13 @@
    "source": "404media.co",
    "score": 0.2847,
    "at": "2026-08-30T18:42:13.137044+00:00"
+  },
+  {
+   "title": "تغییر نام دریاچه انتاریو به دریاچه آمریکا در سرویس نقشه گوگل",
+   "url": "https://www.wired.com/story/google-maps-now-shows-lake-america-instead-of-lake-ontario/",
+   "source": "Wired",
+   "score": 0.29558,
+   "at": "2026-08-30T21:57:47.231646+00:00"
   }
  ],
  "stories": [
@@ -1977,37 +1989,29 @@
     "www.404media.co"
    ],
    "at": "2026-08-30T18:42:13.137044+00:00"
+  },
+  {
+   "sig": [
+    "america",
+    "bows",
+    "changed",
+    "google",
+    "instead",
+    "lake",
+    "maps",
+    "ontario",
+    "relabels",
+    "renamed",
+    "renames",
+    "shows",
+    "trump",
+    "u.s",
+    "users"
+   ],
+   "at": "2026-08-30T21:57:47.231646+00:00"
   }
  ],
  "snapshots": {
-  "hn:49355142": [
-   709,
-   "2026-08-19T05:55:39.084593+00:00"
-  ],
-  "hn:49350031": [
-   208,
-   "2026-08-19T05:55:39.084593+00:00"
-  ],
-  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mtfnebdqjs2t": [
-   22,
-   "2026-08-19T05:55:39.084593+00:00"
-  ],
-  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mtf32mm3wk2r": [
-   14,
-   "2026-08-19T08:02:41.524421+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mtf3solulk2b": [
-   240,
-   "2026-08-19T08:02:41.524421+00:00"
-  ],
-  "hn:49355825": [
-   526,
-   "2026-08-19T08:02:41.524421+00:00"
-  ],
-  "hn:49355105": [
-   489,
-   "2026-08-19T08:02:41.524421+00:00"
-  ],
   "hn:49353221": [
    475,
    "2026-08-19T09:03:34.816074+00:00"
@@ -4308,10 +4312,6 @@
    806,
    "2026-08-30T18:42:07.259654+00:00"
   ],
-  "hn:49498201": [
-   439,
-   "2026-08-30T18:42:07.259654+00:00"
-  ],
   "hn:49496918": [
    306,
    "2026-08-30T18:42:07.259654+00:00"
@@ -4328,42 +4328,6 @@
    51,
    "2026-08-30T18:42:07.259654+00:00"
   ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mucirkf3pi2w": [
-   622,
-   "2026-08-30T18:42:07.259654+00:00"
-  ],
-  "at://did:plc:ipt7y6qaf6fn7oeeduboqe44/app.bsky.feed.post/3mucln43ukc2t": [
-   54,
-   "2026-08-30T18:42:07.259654+00:00"
-  ],
-  "hn:49499867": [
-   187,
-   "2026-08-30T18:42:07.259654+00:00"
-  ],
-  "hn:49499854": [
-   612,
-   "2026-08-30T18:42:07.259654+00:00"
-  ],
-  "hn:49499394": [
-   319,
-   "2026-08-30T18:42:07.259654+00:00"
-  ],
-  "hn:49498978": [
-   427,
-   "2026-08-30T18:42:07.259654+00:00"
-  ],
-  "hn:49498787": [
-   111,
-   "2026-08-30T18:42:07.259654+00:00"
-  ],
-  "hn:49497712": [
-   82,
-   "2026-08-30T18:42:07.259654+00:00"
-  ],
-  "hn:49497357": [
-   109,
-   "2026-08-30T18:42:07.259654+00:00"
-  ],
   "hn:49496707": [
    197,
    "2026-08-30T18:42:07.259654+00:00"
@@ -4376,9 +4340,77 @@
    368,
    "2026-08-30T18:42:07.259654+00:00"
   ],
+  "hn:49498201": [
+   560,
+   "2026-08-30T21:57:45.158782+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mucirkf3pi2w": [
+   638,
+   "2026-08-30T21:57:45.158782+00:00"
+  ],
+  "at://did:plc:ipt7y6qaf6fn7oeeduboqe44/app.bsky.feed.post/3mucln43ukc2t": [
+   61,
+   "2026-08-30T21:57:45.158782+00:00"
+  ],
+  "hn:49499867": [
+   321,
+   "2026-08-30T21:57:45.158782+00:00"
+  ],
+  "hn:49499854": [
+   944,
+   "2026-08-30T21:57:45.158782+00:00"
+  ],
+  "hn:49499394": [
+   535,
+   "2026-08-30T21:57:45.158782+00:00"
+  ],
+  "hn:49498978": [
+   698,
+   "2026-08-30T21:57:45.158782+00:00"
+  ],
+  "hn:49498787": [
+   409,
+   "2026-08-30T21:57:45.158782+00:00"
+  ],
+  "hn:49497712": [
+   100,
+   "2026-08-30T21:57:45.158782+00:00"
+  ],
+  "hn:49497357": [
+   118,
+   "2026-08-30T21:57:45.158782+00:00"
+  ],
   "at://did:plc:x2nsupeeo52oznrmplwapppl/app.bsky.feed.post/3mucgzgssyq2v": [
-   58,
-   "2026-08-30T18:42:07.259654+00:00"
+   61,
+   "2026-08-30T21:57:45.158782+00:00"
+  ],
+  "hn:49501791": [
+   288,
+   "2026-08-30T21:57:45.158782+00:00"
+  ],
+  "hn:49499891": [
+   178,
+   "2026-08-30T21:57:45.158782+00:00"
+  ],
+  "hn:49499095": [
+   127,
+   "2026-08-30T21:57:45.158782+00:00"
+  ],
+  "lobsters:9naffr": [
+   31,
+   "2026-08-30T21:57:45.158782+00:00"
+  ],
+  "lobsters:bxihn3": [
+   32,
+   "2026-08-30T21:57:45.158782+00:00"
+  ],
+  "lobsters:mgwfjc": [
+   51,
+   "2026-08-30T21:57:45.158782+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mud3253u322g": [
+   389,
+   "2026-08-30T21:57:45.158782+00:00"
   ]
  }
 }
