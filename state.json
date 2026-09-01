@@ -393,18 +393,19 @@
   "at://did:plc:kft6lu4trxowqmter2b6vg6z/app.bsky.feed.post/3mufeho5l4s2k",
   "https://news.slashdot.org/story/26/08/31/1646204/mapquests-app-surges-to-no-1-in-navigation-after-refusing-to-rename-lake-ontario?utm_source=rss1.0mainlinkanon&utm_medium=feed",
   "hn:49512574",
-  "hn:49512856"
+  "hn:49512856",
+  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mugjiyb3qk2a"
  ],
  "posted": {
-  "viral": 96,
+  "viral": 97,
   "editorial": 96
  },
  "recent_labels": [
-  "404 Media",
   "Wired",
   "Hacker News",
   "Slashdot",
-  "Hacker News"
+  "Hacker News",
+  "Xe Iaso"
  ],
  "last_digest": "2026-08-28",
  "history": [
@@ -1100,6 +1101,13 @@
    "source": "muratbuffalo.blogspot.com",
    "score": 0.09581,
    "at": "2026-08-31T23:16:53.083530+00:00"
+  },
+  {
+   "title": "محدودیت‌های جدید در مهندسی معکوس مدل هوش مصنوعی Claude",
+   "url": "https://bsky.app/profile/xeiaso.net/post/3mugjiyb3qk2a",
+   "source": "Xe Iaso",
+   "score": 0.06854,
+   "at": "2026-09-01T10:19:14.540127+00:00"
   }
  ],
  "stories": [
@@ -2071,45 +2079,21 @@
     "writing"
    ],
    "at": "2026-08-31T23:16:53.083530+00:00"
+  },
+  {
+   "sig": [
+    "anubis",
+    "claude",
+    "engineer",
+    "lol",
+    "refuse",
+    "reverse",
+    "starting"
+   ],
+   "at": "2026-09-01T10:19:14.540127+00:00"
   }
  ],
  "snapshots": {
-  "hn:49366264": [
-   302,
-   "2026-08-20T07:22:57.968233+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mthkbk7boq25": [
-   574,
-   "2026-08-20T08:05:30.554268+00:00"
-  ],
-  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mthklult3g2p": [
-   14,
-   "2026-08-20T08:05:30.554268+00:00"
-  ],
-  "hn:49367040": [
-   73,
-   "2026-08-20T08:05:30.554268+00:00"
-  ],
-  "hn:49366792": [
-   117,
-   "2026-08-20T08:05:30.554268+00:00"
-  ],
-  "hn:49366743": [
-   305,
-   "2026-08-20T08:05:30.554268+00:00"
-  ],
-  "lobsters:wvwqro": [
-   39,
-   "2026-08-20T08:05:30.554268+00:00"
-  ],
-  "hn:49367256": [
-   167,
-   "2026-08-20T09:05:32.956754+00:00"
-  ],
-  "at://did:plc:x2nsupeeo52oznrmplwapppl/app.bsky.feed.post/3mtho7sa54c2y": [
-   69,
-   "2026-08-20T09:05:32.956754+00:00"
-  ],
   "hn:49370440": [
    104,
    "2026-08-20T09:05:32.956754+00:00"
@@ -4473,6 +4457,42 @@
   "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mufp4ae4ts2w": [
    8,
    "2026-08-31T23:16:46.543207+00:00"
+  ],
+  "hn:49518316": [
+   307,
+   "2026-09-01T10:19:11.608170+00:00"
+  ],
+  "hn:49517537": [
+   162,
+   "2026-09-01T10:19:11.608170+00:00"
+  ],
+  "hn:49517420": [
+   74,
+   "2026-09-01T10:19:11.608170+00:00"
+  ],
+  "hn:49517377": [
+   152,
+   "2026-09-01T10:19:11.608170+00:00"
+  ],
+  "hn:49517297": [
+   83,
+   "2026-09-01T10:19:11.608170+00:00"
+  ],
+  "hn:49516699": [
+   233,
+   "2026-09-01T10:19:11.608170+00:00"
+  ],
+  "hn:49516199": [
+   577,
+   "2026-09-01T10:19:11.608170+00:00"
+  ],
+  "hn:49515662": [
+   204,
+   "2026-09-01T10:19:11.608170+00:00"
+  ],
+  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mugjiyb3qk2a": [
+   30,
+   "2026-09-01T10:19:11.608170+00:00"
   ]
  }
 }
