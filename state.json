@@ -399,18 +399,24 @@
   "https://www.theverge.com/?post_type=vm_stream&p=915272",
   "https://www.techspot.com/news/113681-apple-prototyped-tested-pencil-accessory-foldable-iphone.html",
   "https://9to5mac.com/?p=1066926",
-  "https://9to5mac.com/?p=1066893"
+  "https://9to5mac.com/?p=1066893",
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3muhmqkhfo227",
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3muhtmq5mok27",
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3muhm7yglum2c",
+  "at://did:plc:2mrgzk6xlemfv6yugn644xxy/app.bsky.feed.post/3muhynxsst22z",
+  "https://www.engadget.com/2247151/new-android-find-hub-feature-will-help-you-remember-where-you-put-important-things/",
+  "https://www.theverge.com/?p=987339"
  ],
  "posted": {
   "viral": 97,
-  "editorial": 97
+  "editorial": 98
  },
  "recent_labels": [
-  "Hacker News",
   "Slashdot",
   "Hacker News",
   "Xe Iaso",
-  "TechSpot"
+  "TechSpot",
+  "Engadget"
  ],
  "last_digest": "2026-08-28",
  "history": [
@@ -1120,6 +1126,13 @@
    "source": "TechSpot",
    "score": 0.5556,
    "at": "2026-09-01T15:02:51.328873+00:00"
+  },
+  {
+   "title": "قابلیت‌های جدید هوش مصنوعی و دسترسی‌پذیری در سیستم‌عامل اندروید",
+   "url": "https://www.engadget.com/2247151/new-android-find-hub-feature-will-help-you-remember-where-you-put-important-things/",
+   "source": "Engadget",
+   "score": 0.47943,
+   "at": "2026-09-01T18:41:58.391215+00:00"
   }
  ],
  "stories": [
@@ -2134,73 +2147,29 @@
     "updated"
    ],
    "at": "2026-09-01T15:02:51.328873+00:00"
+  },
+  {
+   "sig": [
+    "android",
+    "feature",
+    "find",
+    "google",
+    "help",
+    "hub",
+    "important",
+    "locate",
+    "put",
+    "remember",
+    "soon",
+    "things",
+    "tracker",
+    "where",
+    "without"
+   ],
+   "at": "2026-09-01T18:41:58.391215+00:00"
   }
  ],
  "snapshots": {
-  "hn:49373456": [
-   651,
-   "2026-08-20T21:53:25.870362+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mtjf4fy7bu2v": [
-   337,
-   "2026-08-20T21:53:25.870362+00:00"
-  ],
-  "hn:49374269": [
-   981,
-   "2026-08-20T21:53:25.870362+00:00"
-  ],
-  "hn:49373269": [
-   332,
-   "2026-08-20T21:53:25.870362+00:00"
-  ],
-  "lobsters:dns8du": [
-   120,
-   "2026-08-20T21:53:25.870362+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mtjhmjn6os2s": [
-   881,
-   "2026-08-20T21:53:25.870362+00:00"
-  ],
-  "hn:49374920": [
-   314,
-   "2026-08-20T21:53:25.870362+00:00"
-  ],
-  "hn:49374437": [
-   249,
-   "2026-08-20T21:53:25.870362+00:00"
-  ],
-  "hn:49374287": [
-   184,
-   "2026-08-20T21:53:25.870362+00:00"
-  ],
-  "hn:49374031": [
-   94,
-   "2026-08-20T21:53:25.870362+00:00"
-  ],
-  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mtjc3gawcc2a": [
-   56,
-   "2026-08-20T21:53:25.870362+00:00"
-  ],
-  "hn:49375996": [
-   441,
-   "2026-08-20T21:53:25.870362+00:00"
-  ],
-  "hn:49374036": [
-   245,
-   "2026-08-20T21:53:25.870362+00:00"
-  ],
-  "lobsters:eesu8d": [
-   148,
-   "2026-08-20T21:53:25.870362+00:00"
-  ],
-  "lobsters:sfi9te": [
-   60,
-   "2026-08-20T21:53:25.870362+00:00"
-  ],
-  "hn:49374873": [
-   128,
-   "2026-08-20T21:53:25.870362+00:00"
-  ],
   "hn:49374772": [
    157,
    "2026-08-20T21:53:25.870362+00:00"
@@ -4494,48 +4463,112 @@
    "2026-09-01T15:02:46.375692+00:00"
   ],
   "hn:49521315": [
-   359,
-   "2026-09-01T15:02:46.375692+00:00"
+   492,
+   "2026-09-01T18:41:53.553806+00:00"
   ],
   "hn:49520896": [
-   506,
-   "2026-09-01T15:02:46.375692+00:00"
+   558,
+   "2026-09-01T18:41:53.553806+00:00"
   ],
   "hn:49520022": [
-   702,
-   "2026-09-01T15:02:46.375692+00:00"
+   1092,
+   "2026-09-01T18:41:53.553806+00:00"
   ],
   "hn:49519902": [
-   167,
-   "2026-09-01T15:02:46.375692+00:00"
+   184,
+   "2026-09-01T18:41:53.553806+00:00"
   ],
   "lobsters:1malyo": [
-   43,
-   "2026-09-01T15:02:46.375692+00:00"
+   70,
+   "2026-09-01T18:41:53.553806+00:00"
   ],
   "lobsters:e1pwba": [
    25,
-   "2026-09-01T15:02:46.375692+00:00"
+   "2026-09-01T18:41:53.553806+00:00"
   ],
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3muho5pth3s27": [
-   236,
-   "2026-09-01T15:02:46.375692+00:00"
+   1307,
+   "2026-09-01T18:41:53.553806+00:00"
   ],
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3muhmqkhfo227": [
-   326,
-   "2026-09-01T15:02:46.375692+00:00"
+   1767,
+   "2026-09-01T18:41:53.553806+00:00"
   ],
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3muhm7yglum2c": [
-   227,
-   "2026-09-01T15:02:46.375692+00:00"
+   290,
+   "2026-09-01T18:41:53.553806+00:00"
   ],
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3muhlwenjnk27": [
-   254,
-   "2026-09-01T15:02:46.375692+00:00"
+   357,
+   "2026-09-01T18:41:53.553806+00:00"
   ],
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3muhjpergll2g": [
-   223,
-   "2026-09-01T15:02:46.375692+00:00"
+   261,
+   "2026-09-01T18:41:53.553806+00:00"
+  ],
+  "hn:49525496": [
+   71,
+   "2026-09-01T18:41:53.553806+00:00"
+  ],
+  "hn:49525378": [
+   600,
+   "2026-09-01T18:41:53.553806+00:00"
+  ],
+  "hn:49523754": [
+   499,
+   "2026-09-01T18:41:53.553806+00:00"
+  ],
+  "hn:49523720": [
+   234,
+   "2026-09-01T18:41:53.553806+00:00"
+  ],
+  "hn:49523387": [
+   174,
+   "2026-09-01T18:41:53.553806+00:00"
+  ],
+  "hn:49523033": [
+   301,
+   "2026-09-01T18:41:53.553806+00:00"
+  ],
+  "hn:49522954": [
+   280,
+   "2026-09-01T18:41:53.553806+00:00"
+  ],
+  "hn:49522897": [
+   382,
+   "2026-09-01T18:41:53.553806+00:00"
+  ],
+  "hn:49522503": [
+   235,
+   "2026-09-01T18:41:53.553806+00:00"
+  ],
+  "hn:49522374": [
+   246,
+   "2026-09-01T18:41:53.553806+00:00"
+  ],
+  "hn:49521973": [
+   297,
+   "2026-09-01T18:41:53.553806+00:00"
+  ],
+  "hn:49519939": [
+   593,
+   "2026-09-01T18:41:53.553806+00:00"
+  ],
+  "lobsters:6ejigt": [
+   34,
+   "2026-09-01T18:41:53.553806+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3muhtmq5mok27": [
+   337,
+   "2026-09-01T18:41:53.553806+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3muhpc5j5t52q": [
+   82,
+   "2026-09-01T18:41:53.553806+00:00"
+  ],
+  "at://did:plc:2mrgzk6xlemfv6yugn644xxy/app.bsky.feed.post/3muhynxsst22z": [
+   61,
+   "2026-09-01T18:41:53.553806+00:00"
   ]
  }
 }
