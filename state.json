@@ -394,18 +394,23 @@
   "https://news.slashdot.org/story/26/08/31/1646204/mapquests-app-surges-to-no-1-in-navigation-after-refusing-to-rename-lake-ontario?utm_source=rss1.0mainlinkanon&utm_medium=feed",
   "hn:49512574",
   "hn:49512856",
-  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mugjiyb3qk2a"
+  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mugjiyb3qk2a",
+  "https://www.techspot.com/news/113693-john-ternus-starts-first-day-apple-ceo-foldable.html",
+  "https://www.theverge.com/?post_type=vm_stream&p=915272",
+  "https://www.techspot.com/news/113681-apple-prototyped-tested-pencil-accessory-foldable-iphone.html",
+  "https://9to5mac.com/?p=1066926",
+  "https://9to5mac.com/?p=1066893"
  ],
  "posted": {
   "viral": 97,
-  "editorial": 96
+  "editorial": 97
  },
  "recent_labels": [
-  "Wired",
   "Hacker News",
   "Slashdot",
   "Hacker News",
-  "Xe Iaso"
+  "Xe Iaso",
+  "TechSpot"
  ],
  "last_digest": "2026-08-28",
  "history": [
@@ -1108,6 +1113,13 @@
    "source": "Xe Iaso",
    "score": 0.06854,
    "at": "2026-09-01T10:19:14.540127+00:00"
+  },
+  {
+   "title": "جان ترنس به عنوان مدیرعامل جدید اپل سکان هدایت این شرکت را در دست گرفت",
+   "url": "https://www.techspot.com/news/113693-john-ternus-starts-first-day-apple-ceo-foldable.html",
+   "source": "TechSpot",
+   "score": 0.5556,
+   "at": "2026-09-01T15:02:51.328873+00:00"
   }
  ],
  "stories": [
@@ -2091,53 +2103,40 @@
     "starting"
    ],
    "at": "2026-09-01T10:19:14.540127+00:00"
+  },
+  {
+   "sig": [
+    "accessory",
+    "apple",
+    "becomes",
+    "ceo",
+    "day",
+    "deck",
+    "first",
+    "foldable",
+    "introduction",
+    "iphone",
+    "john",
+    "leadership",
+    "list",
+    "long",
+    "page",
+    "pencil",
+    "priorities",
+    "problems",
+    "prototyped",
+    "revealed",
+    "solve",
+    "starts",
+    "takes",
+    "ternus",
+    "tested",
+    "updated"
+   ],
+   "at": "2026-09-01T15:02:51.328873+00:00"
   }
  ],
  "snapshots": {
-  "hn:49370440": [
-   104,
-   "2026-08-20T09:05:32.956754+00:00"
-  ],
-  "lobsters:7v1wvd": [
-   28,
-   "2026-08-20T10:00:29.406053+00:00"
-  ],
-  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mthuboscnk2o": [
-   14,
-   "2026-08-20T10:57:02.359360+00:00"
-  ],
-  "hn:49371006": [
-   360,
-   "2026-08-20T10:57:02.359360+00:00"
-  ],
-  "hn:49372583": [
-   178,
-   "2026-08-20T11:52:29.691077+00:00"
-  ],
-  "lobsters:oaybfe": [
-   41,
-   "2026-08-20T13:27:15.455561+00:00"
-  ],
-  "hn:49370083": [
-   114,
-   "2026-08-20T15:04:27.901116+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mtje4jnm5i2j": [
-   115,
-   "2026-08-20T15:04:27.901116+00:00"
-  ],
-  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mtjmyw6ozk2a": [
-   497,
-   "2026-08-20T19:10:46.899340+00:00"
-  ],
-  "hn:49378630": [
-   410,
-   "2026-08-20T20:55:51.214906+00:00"
-  ],
-  "hn:49379550": [
-   94,
-   "2026-08-20T20:55:51.214906+00:00"
-  ],
   "hn:49373456": [
    651,
    "2026-08-20T21:53:25.870362+00:00"
@@ -4458,14 +4457,6 @@
    8,
    "2026-08-31T23:16:46.543207+00:00"
   ],
-  "hn:49518316": [
-   307,
-   "2026-09-01T10:19:11.608170+00:00"
-  ],
-  "hn:49517537": [
-   162,
-   "2026-09-01T10:19:11.608170+00:00"
-  ],
   "hn:49517420": [
    74,
    "2026-09-01T10:19:11.608170+00:00"
@@ -4493,6 +4484,58 @@
   "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mugjiyb3qk2a": [
    30,
    "2026-09-01T10:19:11.608170+00:00"
+  ],
+  "hn:49518316": [
+   348,
+   "2026-09-01T15:02:46.375692+00:00"
+  ],
+  "hn:49517537": [
+   184,
+   "2026-09-01T15:02:46.375692+00:00"
+  ],
+  "hn:49521315": [
+   359,
+   "2026-09-01T15:02:46.375692+00:00"
+  ],
+  "hn:49520896": [
+   506,
+   "2026-09-01T15:02:46.375692+00:00"
+  ],
+  "hn:49520022": [
+   702,
+   "2026-09-01T15:02:46.375692+00:00"
+  ],
+  "hn:49519902": [
+   167,
+   "2026-09-01T15:02:46.375692+00:00"
+  ],
+  "lobsters:1malyo": [
+   43,
+   "2026-09-01T15:02:46.375692+00:00"
+  ],
+  "lobsters:e1pwba": [
+   25,
+   "2026-09-01T15:02:46.375692+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3muho5pth3s27": [
+   236,
+   "2026-09-01T15:02:46.375692+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3muhmqkhfo227": [
+   326,
+   "2026-09-01T15:02:46.375692+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3muhm7yglum2c": [
+   227,
+   "2026-09-01T15:02:46.375692+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3muhlwenjnk27": [
+   254,
+   "2026-09-01T15:02:46.375692+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3muhjpergll2g": [
+   223,
+   "2026-09-01T15:02:46.375692+00:00"
   ]
  }
 }
