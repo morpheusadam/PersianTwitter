@@ -412,18 +412,20 @@
   "hn:49530972",
   "https://3dnews.ru/1147813/#6a979e18742eeca4538b4568",
   "1ed41c6e111f1e491f8096316f1422fd",
-  "https://www.engadget.com/2248794/acer-shows-off-its-ai-desktop-future-with-the-rtx-spark-design/"
+  "https://www.engadget.com/2248794/acer-shows-off-its-ai-desktop-future-with-the-rtx-spark-design/",
+  "hn:49535526",
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3muk4os3v742z"
  ],
  "posted": {
-  "viral": 98,
+  "viral": 99,
   "editorial": 99
  },
  "recent_labels": [
-  "Xe Iaso",
   "TechSpot",
   "Engadget",
   "404 Media",
-  "3DNews"
+  "3DNews",
+  "404 Media"
  ],
  "last_digest": "2026-08-28",
  "history": [
@@ -1154,6 +1156,13 @@
    "source": "3DNews",
    "score": 0.791,
    "at": "2026-09-02T09:48:14.099302+00:00"
+  },
+  {
+   "title": "پلیس به دنبال تغییر ظاهر دوربین‌های پلاک‌خوان Axon برای جلوگیری از تخریب",
+   "url": "https://www.404media.co/cops-are-asking-axon-to-make-their-cameras-look-different-from-flock-so-people-dont-destroy-them/",
+   "source": "404media.co",
+   "score": 0.48397,
+   "at": "2026-09-02T14:36:50.789653+00:00"
   }
  ],
  "stories": [
@@ -2232,37 +2241,38 @@
     "spark"
    ],
    "at": "2026-09-02T09:48:14.099302+00:00"
+  },
+  {
+   "sig": [
+    "agencies",
+    "any",
+    "apparent",
+    "asked",
+    "axon",
+    "batten",
+    "camera",
+    "cop",
+    "deleted",
+    "down",
+    "exactly",
+    "flock",
+    "hatches",
+    "help",
+    "like",
+    "look",
+    "optics",
+    "outpost",
+    "redesign",
+    "talk",
+    "there",
+    "think",
+    "webinar",
+    "while"
+   ],
+   "at": "2026-09-02T14:36:50.789653+00:00"
   }
  ],
  "snapshots": {
-  "lobsters:hbjeir": [
-   54,
-   "2026-08-21T10:56:55.865396+00:00"
-  ],
-  "hn:49382200": [
-   275,
-   "2026-08-21T11:51:50.300976+00:00"
-  ],
-  "hn:49382152": [
-   373,
-   "2026-08-21T11:51:50.300976+00:00"
-  ],
-  "hn:49382041": [
-   551,
-   "2026-08-21T11:51:50.300976+00:00"
-  ],
-  "hn:49381896": [
-   454,
-   "2026-08-21T11:51:50.300976+00:00"
-  ],
-  "hn:49384716": [
-   188,
-   "2026-08-21T11:51:50.300976+00:00"
-  ],
-  "hn:49386659": [
-   90,
-   "2026-08-21T13:25:38.046143+00:00"
-  ],
   "hn:49383326": [
    259,
    "2026-08-21T15:03:17.271047+00:00"
@@ -4583,10 +4593,6 @@
    193,
    "2026-09-01T21:53:49.699379+00:00"
   ],
-  "hn:49531651": [
-   229,
-   "2026-09-02T09:48:07.940449+00:00"
-  ],
   "hn:49530972": [
    190,
    "2026-09-02T09:48:07.940449+00:00"
@@ -4615,14 +4621,6 @@
    269,
    "2026-09-02T09:48:07.940449+00:00"
   ],
-  "lobsters:ipy9xw": [
-   114,
-   "2026-09-02T09:48:07.940449+00:00"
-  ],
-  "lobsters:4gzijx": [
-   44,
-   "2026-09-02T09:48:07.940449+00:00"
-  ],
   "lobsters:qnffyn": [
    43,
    "2026-09-02T09:48:07.940449+00:00"
@@ -4634,6 +4632,46 @@
   "at://did:plc:kft6lu4trxowqmter2b6vg6z/app.bsky.feed.post/3muimzxo2sk2g": [
    410,
    "2026-09-02T09:48:07.940449+00:00"
+  ],
+  "hn:49531651": [
+   371,
+   "2026-09-02T14:36:47.411018+00:00"
+  ],
+  "lobsters:ipy9xw": [
+   502,
+   "2026-09-02T14:36:47.411018+00:00"
+  ],
+  "lobsters:4gzijx": [
+   66,
+   "2026-09-02T14:36:47.411018+00:00"
+  ],
+  "hn:49535526": [
+   173,
+   "2026-09-02T14:36:47.411018+00:00"
+  ],
+  "hn:49535284": [
+   136,
+   "2026-09-02T14:36:47.411018+00:00"
+  ],
+  "hn:49534132": [
+   233,
+   "2026-09-02T14:36:47.411018+00:00"
+  ],
+  "hn:49533497": [
+   413,
+   "2026-09-02T14:36:47.411018+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3muk4os3v742z": [
+   101,
+   "2026-09-02T14:36:47.411018+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3muk26pk5er2g": [
+   139,
+   "2026-09-02T14:36:47.411018+00:00"
+  ],
+  "at://did:plc:kft6lu4trxowqmter2b6vg6z/app.bsky.feed.post/3muk4vfcq2k2f": [
+   32,
+   "2026-09-02T14:36:47.411018+00:00"
   ]
  }
 }
