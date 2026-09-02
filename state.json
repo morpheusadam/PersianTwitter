@@ -408,18 +408,22 @@
   "https://www.theverge.com/?p=987339",
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3muhlwenjnk27",
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3muho5pth3s27",
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3muhjpergll2g"
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3muhjpergll2g",
+  "hn:49530972",
+  "https://3dnews.ru/1147813/#6a979e18742eeca4538b4568",
+  "1ed41c6e111f1e491f8096316f1422fd",
+  "https://www.engadget.com/2248794/acer-shows-off-its-ai-desktop-future-with-the-rtx-spark-design/"
  ],
  "posted": {
   "viral": 98,
-  "editorial": 98
+  "editorial": 99
  },
  "recent_labels": [
-  "Hacker News",
   "Xe Iaso",
   "TechSpot",
   "Engadget",
-  "404 Media"
+  "404 Media",
+  "3DNews"
  ],
  "last_digest": "2026-08-28",
  "history": [
@@ -1143,6 +1147,13 @@
    "source": "404media.co",
    "score": 0.10719,
    "at": "2026-09-01T21:53:51.671378+00:00"
+  },
+  {
+   "title": "اتمام موجودی لپ‌تاپ‌های مجهز به پلتفرم Nvidia RTX Spark در پیش‌فروش",
+   "url": "https://3dnews.ru/1147813",
+   "source": "3DNews",
+   "score": 0.791,
+   "at": "2026-09-02T09:48:14.099302+00:00"
   }
  ],
  "stories": [
@@ -2205,61 +2216,25 @@
     "weckert"
    ],
    "at": "2026-09-01T21:53:51.671378+00:00"
+  },
+  {
+   "sig": [
+    "acer",
+    "asus",
+    "design",
+    "desktop",
+    "future",
+    "msi",
+    "nvidia",
+    "rtx",
+    "sff",
+    "shows",
+    "spark"
+   ],
+   "at": "2026-09-02T09:48:14.099302+00:00"
   }
  ],
  "snapshots": {
-  "hn:49373123": [
-   149,
-   "2026-08-20T21:53:25.870362+00:00"
-  ],
-  "lobsters:vcqcgl": [
-   25,
-   "2026-08-20T21:53:25.870362+00:00"
-  ],
-  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mtk5gdvtxc2n": [
-   10,
-   "2026-08-20T21:53:25.870362+00:00"
-  ],
-  "hn:49378768": [
-   550,
-   "2026-08-21T05:58:06.107873+00:00"
-  ],
-  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mtjwek7wn42l": [
-   65,
-   "2026-08-21T05:58:06.107873+00:00"
-  ],
-  "hn:49378950": [
-   83,
-   "2026-08-21T05:58:06.107873+00:00"
-  ],
-  "hn:49378933": [
-   110,
-   "2026-08-21T05:58:06.107873+00:00"
-  ],
-  "hn:49378446": [
-   514,
-   "2026-08-21T05:58:06.107873+00:00"
-  ],
-  "hn:49383026": [
-   685,
-   "2026-08-21T07:23:21.955373+00:00"
-  ],
-  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mtkucwnbes2a": [
-   15,
-   "2026-08-21T08:04:41.255375+00:00"
-  ],
-  "hn:49384180": [
-   151,
-   "2026-08-21T08:04:41.255375+00:00"
-  ],
-  "lobsters:yigyaq": [
-   25,
-   "2026-08-21T08:04:41.255375+00:00"
-  ],
-  "hn:49384896": [
-   81,
-   "2026-08-21T09:07:10.677099+00:00"
-  ],
   "lobsters:hbjeir": [
    54,
    "2026-08-21T10:56:55.865396+00:00"
@@ -4607,6 +4582,58 @@
   "at://did:plc:kft6lu4trxowqmter2b6vg6z/app.bsky.feed.post/3mui4h3h76223": [
    193,
    "2026-09-01T21:53:49.699379+00:00"
+  ],
+  "hn:49531651": [
+   229,
+   "2026-09-02T09:48:07.940449+00:00"
+  ],
+  "hn:49530972": [
+   190,
+   "2026-09-02T09:48:07.940449+00:00"
+  ],
+  "hn:49530472": [
+   92,
+   "2026-09-02T09:48:07.940449+00:00"
+  ],
+  "hn:49529898": [
+   180,
+   "2026-09-02T09:48:07.940449+00:00"
+  ],
+  "hn:49529685": [
+   77,
+   "2026-09-02T09:48:07.940449+00:00"
+  ],
+  "hn:49529621": [
+   389,
+   "2026-09-02T09:48:07.940449+00:00"
+  ],
+  "hn:49529132": [
+   433,
+   "2026-09-02T09:48:07.940449+00:00"
+  ],
+  "hn:49528895": [
+   269,
+   "2026-09-02T09:48:07.940449+00:00"
+  ],
+  "lobsters:ipy9xw": [
+   114,
+   "2026-09-02T09:48:07.940449+00:00"
+  ],
+  "lobsters:4gzijx": [
+   44,
+   "2026-09-02T09:48:07.940449+00:00"
+  ],
+  "lobsters:qnffyn": [
+   43,
+   "2026-09-02T09:48:07.940449+00:00"
+  ],
+  "at://did:plc:kft6lu4trxowqmter2b6vg6z/app.bsky.feed.post/3muiostsf622u": [
+   45,
+   "2026-09-02T09:48:07.940449+00:00"
+  ],
+  "at://did:plc:kft6lu4trxowqmter2b6vg6z/app.bsky.feed.post/3muimzxo2sk2g": [
+   410,
+   "2026-09-02T09:48:07.940449+00:00"
   ]
  }
 }
