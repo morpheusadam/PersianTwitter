@@ -422,18 +422,21 @@
   "hn:49540575",
   "https://news.slashdot.org/story/26/09/02/167206/nyc-public-schools-ban-ai-use-through-middle-school?utm_source=rss1.0mainlinkanon&utm_medium=feed",
   "hn:49542443",
-  "https://www.engadget.com/2249790/nyc-generative-ai-ban-in-public-schools-through-eighth-grade/"
+  "https://www.engadget.com/2249790/nyc-generative-ai-ban-in-public-schools-through-eighth-grade/",
+  "hn:49543530",
+  "hn:49546432",
+  "hn:49544903"
  ],
  "posted": {
-  "viral": 99,
+  "viral": 100,
   "editorial": 101
  },
  "recent_labels": [
-  "404 Media",
   "3DNews",
   "404 Media",
   "The Hacker News",
-  "Slashdot"
+  "Slashdot",
+  "Hacker News"
  ],
  "last_digest": "2026-08-28",
  "history": [
@@ -1185,6 +1188,13 @@
    "source": "Slashdot",
    "score": 0.77354,
    "at": "2026-09-02T21:55:01.912905+00:00"
+  },
+  {
+   "title": "افزایش بهره‌وری مهندسان نرم‌افزار با استفاده از ابزارهای هوش مصنوعی",
+   "url": "https://commons.wikimedia.org/wiki/File:IBM_150_Extra_Engineers_1951.jpg",
+   "source": "commons.wikimedia.org",
+   "score": 0.04717,
+   "at": "2026-09-03T10:00:13.268255+00:00"
   }
  ],
  "stories": [
@@ -2331,33 +2341,18 @@
     "tools"
    ],
    "at": "2026-09-02T21:55:01.912905+00:00"
+  },
+  {
+   "sig": [
+    "engineers",
+    "extra",
+    "having",
+    "like"
+   ],
+   "at": "2026-09-03T10:00:13.268255+00:00"
   }
  ],
  "snapshots": {
-  "hn:49386877": [
-   63,
-   "2026-08-21T21:48:03.501967+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mtm2gzhds723": [
-   66,
-   "2026-08-21T21:48:03.501967+00:00"
-  ],
-  "at://did:plc:x2nsupeeo52oznrmplwapppl/app.bsky.feed.post/3mtm7l7id422d": [
-   38,
-   "2026-08-21T21:48:03.501967+00:00"
-  ],
-  "hn:49390463": [
-   143,
-   "2026-08-21T21:48:03.501967+00:00"
-  ],
-  "hn:49392200": [
-   284,
-   "2026-08-22T05:52:14.031499+00:00"
-  ],
-  "at://did:plc:2mrgzk6xlemfv6yugn644xxy/app.bsky.feed.post/3mtmmmzbedc2t": [
-   88,
-   "2026-08-22T05:52:14.031499+00:00"
-  ],
   "hn:49395700": [
    127,
    "2026-08-22T05:52:14.031499+00:00"
@@ -4733,6 +4728,30 @@
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3muknhd2kzn2d": [
    276,
    "2026-09-02T21:54:58.123839+00:00"
+  ],
+  "hn:49546432": [
+   227,
+   "2026-09-03T10:00:09.062183+00:00"
+  ],
+  "hn:49545747": [
+   149,
+   "2026-09-03T10:00:09.062183+00:00"
+  ],
+  "hn:49544903": [
+   61,
+   "2026-09-03T10:00:09.062183+00:00"
+  ],
+  "hn:49543841": [
+   290,
+   "2026-09-03T10:00:09.062183+00:00"
+  ],
+  "hn:49543530": [
+   200,
+   "2026-09-03T10:00:09.062183+00:00"
+  ],
+  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mukzrzfrzc2k": [
+   46,
+   "2026-09-03T10:00:09.062183+00:00"
   ]
  }
 }
