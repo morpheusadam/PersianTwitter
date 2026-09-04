@@ -448,18 +448,23 @@
   "https://www.theverge.com/?p=990051",
   "https://www.engadget.com/2251018/microsoft-announces-project-zenith-clutter-free-windows-experience/",
   "https://www.theregister.com/a/5294302",
-  "https://www.neowin.net/news/microsoft-unveils-project-zenith-a-windows-11-built-for-developers/"
+  "https://www.neowin.net/news/microsoft-unveils-project-zenith-a-windows-11-built-for-developers/",
+  "https://games.slashdot.org/story/26/09/03/1943208/xbox-cloud-gaming-switches-to-monthly-hour-limits?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+  "https://www.theverge.com/?p=990132",
+  "https://www.techspot.com/news/113734-xbox-cloud-gaming-now-allows-only-up-15.html",
+  "https://www.neowin.net/news/microsoft-brings-xbox-cloud-gaming-to-tcl-smart-tvs-ahead-of-streaming-caps/",
+  "https://www.neowin.net/news/microsoft-capping-xbox-cloud-gaming-to-15-hours-charging-for-extra/"
  ],
  "posted": {
   "viral": 102,
-  "editorial": 104
+  "editorial": 105
  },
  "recent_labels": [
-  "Wired",
   "Hacker News",
   "Hacker News",
   "Engadget",
-  "The Hacker News"
+  "The Hacker News",
+  "Slashdot"
  ],
  "last_digest": "2026-09-04",
  "history": [
@@ -651,6 +656,13 @@
    "source": "The Hacker News",
    "score": 1.48038,
    "at": "2026-09-04T14:28:21.877938+00:00"
+  },
+  {
+   "title": "محدودیت زمانی برای سرویس ابری Xbox Cloud Gaming مایکروسافت",
+   "url": "https://games.slashdot.org/story/26/09/03/1943208/xbox-cloud-gaming-switches-to-monthly-hour-limits?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+   "source": "Slashdot",
+   "score": 0.51916,
+   "at": "2026-09-04T17:43:27.201755+00:00"
   }
  ],
  "stories": [
@@ -1903,41 +1915,41 @@
     "zenith"
    ],
    "at": "2026-09-04T14:28:21.877938+00:00"
+  },
+  {
+   "sig": [
+    "able",
+    "ahead",
+    "app",
+    "brings",
+    "capping",
+    "caps",
+    "charging",
+    "cloud",
+    "coming",
+    "extra",
+    "gaming",
+    "getting",
+    "hour",
+    "hours",
+    "limits",
+    "microsoft",
+    "monthly",
+    "pay",
+    "pay-as-you-go",
+    "rolls",
+    "smart",
+    "streaming",
+    "switches",
+    "tcl",
+    "time",
+    "tvs",
+    "xbox"
+   ],
+   "at": "2026-09-04T17:43:27.201755+00:00"
   }
  ],
  "snapshots": {
-  "lobsters:9xglf3": [
-   56,
-   "2026-08-23T21:44:43.088129+00:00"
-  ],
-  "lobsters:kxualw": [
-   49,
-   "2026-08-23T21:44:43.088129+00:00"
-  ],
-  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mtr7l4b7hc2w": [
-   10,
-   "2026-08-23T21:44:43.088129+00:00"
-  ],
-  "lobsters:gybcec": [
-   35,
-   "2026-08-23T21:44:43.088129+00:00"
-  ],
-  "lobsters:ll6pak": [
-   48,
-   "2026-08-24T06:02:24.950838+00:00"
-  ],
-  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mtsik53ns22y": [
-   7,
-   "2026-08-24T06:02:24.950838+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mtrogj622x2l": [
-   275,
-   "2026-08-24T07:37:05.379493+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mtrv532nyd2z": [
-   351,
-   "2026-08-24T09:13:13.553933+00:00"
-  ],
   "lobsters:8ttu5n": [
    29,
    "2026-08-24T10:10:07.916146+00:00"
@@ -4238,10 +4250,6 @@
    32,
    "2026-09-04T09:49:35.347582+00:00"
   ],
-  "hn:49561320": [
-   647,
-   "2026-09-04T14:28:13.774110+00:00"
-  ],
   "hn:49560260": [
    203,
    "2026-09-04T14:28:13.774110+00:00"
@@ -4250,61 +4258,97 @@
    231,
    "2026-09-04T14:28:13.774110+00:00"
   ],
-  "hn:49563784": [
-   125,
-   "2026-09-04T14:28:13.774110+00:00"
-  ],
-  "hn:49563386": [
-   89,
-   "2026-09-04T14:28:13.774110+00:00"
-  ],
-  "hn:49563355": [
-   954,
-   "2026-09-04T14:28:13.774110+00:00"
-  ],
-  "hn:49562895": [
-   185,
-   "2026-09-04T14:28:13.774110+00:00"
-  ],
-  "hn:49562814": [
-   168,
-   "2026-09-04T14:28:13.774110+00:00"
-  ],
-  "hn:49562744": [
-   213,
-   "2026-09-04T14:28:13.774110+00:00"
-  ],
-  "hn:49562657": [
-   282,
-   "2026-09-04T14:28:13.774110+00:00"
-  ],
-  "hn:49561975": [
-   187,
-   "2026-09-04T14:28:13.774110+00:00"
-  ],
-  "lobsters:7tpc5q": [
-   28,
-   "2026-09-04T14:28:13.774110+00:00"
-  ],
   "lobsters:rntyvm": [
    48,
    "2026-09-04T14:28:13.774110+00:00"
   ],
+  "hn:49561320": [
+   904,
+   "2026-09-04T17:43:20.607461+00:00"
+  ],
+  "hn:49563784": [
+   387,
+   "2026-09-04T17:43:20.607461+00:00"
+  ],
+  "hn:49563386": [
+   412,
+   "2026-09-04T17:43:20.607461+00:00"
+  ],
+  "hn:49563355": [
+   2434,
+   "2026-09-04T17:43:20.607461+00:00"
+  ],
+  "hn:49562895": [
+   264,
+   "2026-09-04T17:43:20.607461+00:00"
+  ],
+  "hn:49562814": [
+   212,
+   "2026-09-04T17:43:20.607461+00:00"
+  ],
+  "hn:49562744": [
+   93,
+   "2026-09-04T17:43:20.607461+00:00"
+  ],
+  "hn:49562657": [
+   439,
+   "2026-09-04T17:43:20.607461+00:00"
+  ],
+  "hn:49561975": [
+   211,
+   "2026-09-04T17:43:20.607461+00:00"
+  ],
+  "lobsters:7tpc5q": [
+   113,
+   "2026-09-04T17:43:20.607461+00:00"
+  ],
   "lobsters:eokmrg": [
-   29,
-   "2026-09-04T14:28:13.774110+00:00"
+   40,
+   "2026-09-04T17:43:20.607461+00:00"
   ],
   "lobsters:ku30xf": [
-   76,
-   "2026-09-04T14:28:13.774110+00:00"
+   115,
+   "2026-09-04T17:43:20.607461+00:00"
   ],
   "lobsters:4vsl2j": [
-   26,
-   "2026-09-04T14:28:13.774110+00:00"
+   33,
+   "2026-09-04T17:43:20.607461+00:00"
   ],
   "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mup5jumzzc27": [
-   9,
-   "2026-09-04T14:28:13.774110+00:00"
+   19,
+   "2026-09-04T17:43:20.607461+00:00"
+  ],
+  "hn:49566137": [
+   307,
+   "2026-09-04T17:43:20.607461+00:00"
+  ],
+  "hn:49565693": [
+   344,
+   "2026-09-04T17:43:20.607461+00:00"
+  ],
+  "hn:49564817": [
+   139,
+   "2026-09-04T17:43:20.607461+00:00"
+  ],
+  "hn:49564714": [
+   191,
+   "2026-09-04T17:43:20.607461+00:00"
+  ],
+  "hn:49564555": [
+   211,
+   "2026-09-04T17:43:20.607461+00:00"
+  ],
+  "hn:49564397": [
+   397,
+   "2026-09-04T17:43:20.607461+00:00"
+  ],
+  "lobsters:baiwkq": [
+   38,
+   "2026-09-04T17:43:20.607461+00:00"
+  ],
+  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mup7c57vq22f": [
+   12,
+   "2026-09-04T17:43:20.607461+00:00"
   ]
  }
 }
