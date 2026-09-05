@@ -461,18 +461,21 @@
   "https://thehackernews.com/2026/09/gpt-6-astra-scores-100-on-exploitbench.html",
   "https://3dnews.ru/1148024/#6a9bc793742eeccae98b4572",
   "https://www.engadget.com/2250814/openai-says-gpt-6-astra-is-the-most-intelligent-and-aligned-model-in-the-world/",
-  "https://www.theregister.com/a/5294378"
+  "https://www.theregister.com/a/5294378",
+  "https://9to5mac.com/?p=1067340",
+  "59bbe7cc0b876e74ec441e3c2173ac9d",
+  "UfgT9ar8kZ4Nk8xPiKTHRP"
  ],
  "posted": {
   "viral": 104,
-  "editorial": 106
+  "editorial": 107
  },
  "recent_labels": [
-  "The Hacker News",
   "Slashdot",
   "Hacker News",
   "Hacker News",
-  "The Hacker News"
+  "The Hacker News",
+  "9to5Mac"
  ],
  "last_digest": "2026-09-04",
  "history": [
@@ -692,6 +695,13 @@
    "source": "The Hacker News",
    "score": 0.54542,
    "at": "2026-09-05T09:12:43.198002+00:00"
+  },
+  {
+   "title": "تغییر مدیرعامل اپل و افزایش قیمت اشتراک Apple TV",
+   "url": "https://9to5mac.com/2026/09/03/happy-hour-606/",
+   "source": "9to5Mac",
+   "score": 0.4324,
+   "at": "2026-09-05T12:54:13.376580+00:00"
   }
  ],
  "stories": [
@@ -2024,25 +2034,31 @@
     "world"
    ],
    "at": "2026-09-05T09:12:43.198002+00:00"
+  },
+  {
+   "sig": [
+    "apple",
+    "ceo",
+    "event",
+    "eyes",
+    "fold8",
+    "increase",
+    "iphone",
+    "john",
+    "last-minute",
+    "motorola",
+    "price",
+    "rumors",
+    "shine",
+    "star",
+    "surprise",
+    "ternus",
+    "ultra"
+   ],
+   "at": "2026-09-05T12:54:13.376580+00:00"
   }
  ],
  "snapshots": {
-  "hn:49418032": [
-   248,
-   "2026-08-24T21:53:49.914068+00:00"
-  ],
-  "hn:49417941": [
-   427,
-   "2026-08-24T21:53:49.914068+00:00"
-  ],
-  "lobsters:0typpq": [
-   133,
-   "2026-08-24T21:53:49.914068+00:00"
-  ],
-  "lobsters:wxjtxq": [
-   56,
-   "2026-08-24T21:53:49.914068+00:00"
-  ],
   "hn:49422800": [
    358,
    "2026-08-24T21:53:49.914068+00:00"
@@ -4395,14 +4411,6 @@
    92,
    "2026-09-05T09:12:40.549755+00:00"
   ],
-  "hn:49573680": [
-   157,
-   "2026-09-05T09:12:40.549755+00:00"
-  ],
-  "hn:49573455": [
-   500,
-   "2026-09-05T09:12:40.549755+00:00"
-  ],
   "hn:49571634": [
    344,
    "2026-09-05T09:12:40.549755+00:00"
@@ -4423,9 +4431,33 @@
    1045,
    "2026-09-05T09:12:40.549755+00:00"
   ],
+  "hn:49573680": [
+   260,
+   "2026-09-05T12:54:10.089663+00:00"
+  ],
+  "hn:49573455": [
+   614,
+   "2026-09-05T12:54:10.089663+00:00"
+  ],
   "lobsters:fxccx9": [
-   33,
-   "2026-09-05T09:12:40.549755+00:00"
+   82,
+   "2026-09-05T12:54:10.089663+00:00"
+  ],
+  "hn:49575034": [
+   198,
+   "2026-09-05T12:54:10.089663+00:00"
+  ],
+  "hn:49574167": [
+   580,
+   "2026-09-05T12:54:10.089663+00:00"
+  ],
+  "hn:49572875": [
+   162,
+   "2026-09-05T12:54:10.089663+00:00"
+  ],
+  "at://did:plc:x2nsupeeo52oznrmplwapppl/app.bsky.feed.post/3murek44kop2y": [
+   76,
+   "2026-09-05T12:54:10.089663+00:00"
   ]
  }
 }
