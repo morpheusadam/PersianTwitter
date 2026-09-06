@@ -476,18 +476,19 @@
   "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3musefjkfel2o",
   "17967d94738b2f85ac8fc5d185f9f53b",
   "hn:49580325",
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3musjl7lvdx2f"
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3musjl7lvdx2f",
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3musx3wgdvc2n"
  ],
  "posted": {
-  "viral": 106,
+  "viral": 107,
   "editorial": 108
  },
  "recent_labels": [
-  "The Hacker News",
   "9to5Mac",
   "Filippo Valsorda",
   "BleepingComputer",
-  "Simon Willison"
+  "Simon Willison",
+  "404 Media"
  ],
  "last_digest": "2026-09-04",
  "history": [
@@ -735,6 +736,13 @@
    "source": "Simon Willison",
    "score": 0.16383,
    "at": "2026-09-05T20:38:09.641585+00:00"
+  },
+  {
+   "title": "استودیو Moonbug استفاده از هوش مصنوعی در تولید انیمیشن‌های کودکان را آغاز کرد",
+   "url": "https://www.404media.co/cocomelons-studio-tells-its-artists-to-start-experimenting-with-ai/",
+   "source": "404media.co",
+   "score": 0.0808,
+   "at": "2026-09-06T09:34:39.792962+00:00"
   }
  ],
  "stories": [
@@ -2143,49 +2151,30 @@
     "using"
    ],
    "at": "2026-09-05T20:38:09.641585+00:00"
+  },
+  {
+   "sig": [
+    "always",
+    "begin",
+    "blippi",
+    "children",
+    "cocomelon",
+    "cocomelons-s",
+    "content",
+    "entertainment",
+    "human",
+    "loop",
+    "moonbug",
+    "other",
+    "popular",
+    "using",
+    "which",
+    "www.404media.co"
+   ],
+   "at": "2026-09-06T09:34:39.792962+00:00"
   }
  ],
  "snapshots": {
-  "hn:49428882": [
-   192,
-   "2026-08-25T15:13:45.336093+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mtvygsopis23": [
-   222,
-   "2026-08-25T15:13:45.336093+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mtvyxkym7d2q": [
-   211,
-   "2026-08-25T15:13:45.336093+00:00"
-  ],
-  "hn:49430007": [
-   173,
-   "2026-08-25T17:55:13.450101+00:00"
-  ],
-  "hn:49433292": [
-   2088,
-   "2026-08-25T19:54:49.649759+00:00"
-  ],
-  "lobsters:k5feqe": [
-   64,
-   "2026-08-25T19:54:49.649759+00:00"
-  ],
-  "hn:49433316": [
-   1350,
-   "2026-08-25T19:54:49.649759+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mtvy5vmwzc23": [
-   250,
-   "2026-08-25T19:54:49.649759+00:00"
-  ],
-  "hn:49433450": [
-   712,
-   "2026-08-25T19:54:49.649759+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mtw7o3scaw2z": [
-   461,
-   "2026-08-25T20:47:01.536918+00:00"
-  ],
   "hn:49438052": [
    990,
    "2026-08-25T20:47:01.536918+00:00"
@@ -4545,6 +4534,46 @@
   "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3musefjkfel2o": [
    429,
    "2026-09-05T23:05:17.483595+00:00"
+  ],
+  "hn:49584083": [
+   85,
+   "2026-09-06T09:34:36.263092+00:00"
+  ],
+  "hn:49583232": [
+   174,
+   "2026-09-06T09:34:36.263092+00:00"
+  ],
+  "hn:49582000": [
+   747,
+   "2026-09-06T09:34:36.263092+00:00"
+  ],
+  "hn:49581870": [
+   510,
+   "2026-09-06T09:34:36.263092+00:00"
+  ],
+  "hn:49581240": [
+   106,
+   "2026-09-06T09:34:36.263092+00:00"
+  ],
+  "hn:49581179": [
+   173,
+   "2026-09-06T09:34:36.263092+00:00"
+  ],
+  "hn:49580980": [
+   201,
+   "2026-09-06T09:34:36.263092+00:00"
+  ],
+  "lobsters:ben6a4": [
+   28,
+   "2026-09-06T09:34:36.263092+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mutb5rfr372c": [
+   393,
+   "2026-09-06T09:34:36.263092+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3musx3wgdvc2n": [
+   232,
+   "2026-09-06T09:34:36.263092+00:00"
   ]
  }
 }
