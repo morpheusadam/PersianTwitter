@@ -491,18 +491,21 @@
   "hn:49589003",
   "lobsters:jsxzwl",
   "https://thehackernews.com/2026/09/attackers-hijack-mikrotik-routers.html",
-  "https://www.bleepingcomputer.com/news/security/hackers-exploit-new-mikrotik-routeros-flaws-to-hijack-routers/"
+  "https://www.bleepingcomputer.com/news/security/hackers-exploit-new-mikrotik-routeros-flaws-to-hijack-routers/",
+  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3muwpfhsfpc2m",
+  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3muwpmfr2c62e",
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3muws3nvehl2z"
  ],
  "posted": {
-  "viral": 109,
+  "viral": 110,
   "editorial": 110
  },
  "recent_labels": [
-  "404 Media",
   "Wired",
   "Hacker News",
   "Hacker News",
-  "The Hacker News"
+  "The Hacker News",
+  "404 Media"
  ],
  "last_digest": "2026-09-04",
  "history": [
@@ -785,6 +788,13 @@
    "source": "The Hacker News",
    "score": 0.63794,
    "at": "2026-09-07T10:36:33.315201+00:00"
+  },
+  {
+   "title": "بررسی استفاده دولت آمریکا از داده‌های خصوصی برای نظارت و عملیات نظامی",
+   "url": "https://join.theintercept.com/signup/Podcast_404_Media_Live/",
+   "source": "join.theintercept.com",
+   "score": 0.24377,
+   "at": "2026-09-07T16:36:12.250311+00:00"
   }
  ],
  "stories": [
@@ -2271,69 +2281,30 @@
     "without"
    ],
    "at": "2026-09-07T10:36:33.315201+00:00"
+  },
+  {
+   "sig": [
+    "abroad",
+    "data",
+    "discussion",
+    "does",
+    "government",
+    "home",
+    "intercept",
+    "joining",
+    "kill",
+    "live",
+    "media",
+    "private",
+    "surveil",
+    "thursday",
+    "u.s",
+    "weaponize"
+   ],
+   "at": "2026-09-07T16:36:12.250311+00:00"
   }
  ],
  "snapshots": {
-  "hn:49440786": [
-   260,
-   "2026-08-26T09:10:30.443038+00:00"
-  ],
-  "hn:49440770": [
-   131,
-   "2026-08-26T09:10:30.443038+00:00"
-  ],
-  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mtwwyee6622w": [
-   11,
-   "2026-08-26T09:10:30.443038+00:00"
-  ],
-  "hn:49443523": [
-   85,
-   "2026-08-26T09:10:30.443038+00:00"
-  ],
-  "hn:49441781": [
-   163,
-   "2026-08-26T10:05:54.368926+00:00"
-  ],
-  "hn:49441666": [
-   177,
-   "2026-08-26T10:05:54.368926+00:00"
-  ],
-  "hn:49441375": [
-   140,
-   "2026-08-26T10:05:54.368926+00:00"
-  ],
-  "hn:49446422": [
-   70,
-   "2026-08-26T11:00:45.258224+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mtycfeczyc22": [
-   75,
-   "2026-08-26T13:33:06.966181+00:00"
-  ],
-  "hn:49444232": [
-   117,
-   "2026-08-26T15:58:59.884545+00:00"
-  ],
-  "lobsters:e291dc": [
-   37,
-   "2026-08-26T15:58:59.884545+00:00"
-  ],
-  "hn:49445252": [
-   221,
-   "2026-08-26T18:13:57.709070+00:00"
-  ],
-  "hn:49445286": [
-   182,
-   "2026-08-26T18:13:57.709070+00:00"
-  ],
-  "lobsters:p8exgy": [
-   56,
-   "2026-08-26T18:13:57.709070+00:00"
-  ],
-  "lobsters:lbsvk7": [
-   30,
-   "2026-08-26T18:13:57.709070+00:00"
-  ],
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mtyjgnouqv2z": [
    351,
    "2026-08-26T18:13:57.709070+00:00"
@@ -4610,26 +4581,6 @@
    86,
    "2026-09-06T21:31:15.029937+00:00"
   ],
-  "hn:49595320": [
-   195,
-   "2026-09-07T10:35:26.920456+00:00"
-  ],
-  "hn:49594878": [
-   301,
-   "2026-09-07T10:35:26.920456+00:00"
-  ],
-  "hn:49594251": [
-   380,
-   "2026-09-07T10:35:26.920456+00:00"
-  ],
-  "hn:49593971": [
-   166,
-   "2026-09-07T10:35:26.920456+00:00"
-  ],
-  "hn:49593959": [
-   275,
-   "2026-09-07T10:35:26.920456+00:00"
-  ],
   "hn:49592840": [
    115,
    "2026-09-07T10:35:26.920456+00:00"
@@ -4654,10 +4605,6 @@
    175,
    "2026-09-07T10:35:26.920456+00:00"
   ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3muvrqaqhq42t": [
-   491,
-   "2026-09-07T10:35:26.920456+00:00"
-  ],
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3muvhmv5xo327": [
    254,
    "2026-09-07T10:35:26.920456+00:00"
@@ -4666,13 +4613,97 @@
    685,
    "2026-09-07T10:35:26.920456+00:00"
   ],
+  "hn:49595320": [
+   299,
+   "2026-09-07T16:36:03.656157+00:00"
+  ],
+  "hn:49594878": [
+   1617,
+   "2026-09-07T16:36:03.656157+00:00"
+  ],
+  "hn:49594251": [
+   782,
+   "2026-09-07T16:36:03.656157+00:00"
+  ],
+  "hn:49593971": [
+   313,
+   "2026-09-07T16:36:03.656157+00:00"
+  ],
+  "hn:49593959": [
+   294,
+   "2026-09-07T16:36:03.656157+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3muvrqaqhq42t": [
+   615,
+   "2026-09-07T16:36:03.656157+00:00"
+  ],
   "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3muvucwglok2r": [
-   12,
-   "2026-09-07T10:35:26.920456+00:00"
+   23,
+   "2026-09-07T16:36:03.656157+00:00"
   ],
   "at://did:plc:2mrgzk6xlemfv6yugn644xxy/app.bsky.feed.post/3muw437jeac2d": [
-   11,
-   "2026-09-07T10:35:26.920456+00:00"
+   27,
+   "2026-09-07T16:36:03.656157+00:00"
+  ],
+  "hn:49597189": [
+   392,
+   "2026-09-07T16:36:03.656157+00:00"
+  ],
+  "hn:49596976": [
+   159,
+   "2026-09-07T16:36:03.656157+00:00"
+  ],
+  "hn:49596955": [
+   152,
+   "2026-09-07T16:36:03.656157+00:00"
+  ],
+  "hn:49596797": [
+   136,
+   "2026-09-07T16:36:03.656157+00:00"
+  ],
+  "hn:49596119": [
+   586,
+   "2026-09-07T16:36:03.656157+00:00"
+  ],
+  "hn:49596055": [
+   193,
+   "2026-09-07T16:36:03.656157+00:00"
+  ],
+  "hn:49596054": [
+   151,
+   "2026-09-07T16:36:03.656157+00:00"
+  ],
+  "hn:49595865": [
+   253,
+   "2026-09-07T16:36:03.656157+00:00"
+  ],
+  "hn:49594008": [
+   149,
+   "2026-09-07T16:36:03.656157+00:00"
+  ],
+  "lobsters:wolwwd": [
+   50,
+   "2026-09-07T16:36:03.656157+00:00"
+  ],
+  "lobsters:vdalin": [
+   42,
+   "2026-09-07T16:36:03.656157+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3muws3nvehl2z": [
+   83,
+   "2026-09-07T16:36:03.656157+00:00"
+  ],
+  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3muwpmfr2c62e": [
+   62,
+   "2026-09-07T16:36:03.656157+00:00"
+  ],
+  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3muwpfhsfpc2m": [
+   93,
+   "2026-09-07T16:36:03.656157+00:00"
+  ],
+  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3muwmcwrdnk2r": [
+   5,
+   "2026-09-07T16:36:03.656157+00:00"
   ]
  }
 }
