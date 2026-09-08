@@ -498,18 +498,22 @@
   "https://www.engadget.com/2252249/the-a2-e-tron-is-audis-most-efficient-ev-yet/",
   "https://www.theverge.com/?p=991081",
   "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mux7d3xrd72c",
-  "at://did:plc:kft6lu4trxowqmter2b6vg6z/app.bsky.feed.post/3muwzopsoqs26"
+  "at://did:plc:kft6lu4trxowqmter2b6vg6z/app.bsky.feed.post/3muwzopsoqs26",
+  "qyNZmXo3pLRL2fcY5iZnKC",
+  "https://3dnews.ru/1148118/#6a9fa9bd742eec8b208b4575",
+  "58c1747442c409341afeb8142a67888a",
+  "https://www.neowin.net/news/arm-introduces-css-for-mobile-2-platform-for-agentic-ai/"
  ],
  "posted": {
   "viral": 112,
-  "editorial": 110
+  "editorial": 111
  },
  "recent_labels": [
-  "Hacker News",
   "The Hacker News",
   "404 Media",
   "Emily M. Bender",
-  "Simon Willison"
+  "Simon Willison",
+  "Tom's Hardware"
  ],
  "last_digest": "2026-09-04",
  "history": [
@@ -813,6 +817,13 @@
    "source": "Simon Willison",
    "score": 0.10101,
    "at": "2026-09-07T23:38:55.044939+00:00"
+  },
+  {
+   "title": "معرفی پلتفرم جدید Arm Neoverse CSS N4 با قابلیت ۱۲۸ هسته",
+   "url": "https://www.tomshardware.com/pc-components/cpus/arm-debuts-next-gen-semi-custom-neoverse-css-n4-ranger-platform-compute-subsystem-packs-up-to-128-cores-per-die-on-tsmc-n3p",
+   "source": "Tom's Hardware",
+   "score": 0.51326,
+   "at": "2026-09-08T09:56:44.003549+00:00"
   }
  ],
  "stories": [
@@ -2357,61 +2368,36 @@
     "wild"
    ],
    "at": "2026-09-07T23:38:55.044939+00:00"
+  },
+  {
+   "sig": [
+    "7.0",
+    "agentic",
+    "arm",
+    "compute",
+    "cores",
+    "css",
+    "debuts",
+    "die",
+    "introduces",
+    "lpddr6",
+    "mobile",
+    "n3p",
+    "neoverse",
+    "next-gen",
+    "packs",
+    "pcie",
+    "per",
+    "platform",
+    "ranger",
+    "semi-custom",
+    "subsystem",
+    "tsmc"
+   ],
+   "at": "2026-09-08T09:56:44.003549+00:00"
   }
  ],
  "snapshots": {
-  "hn:49447600": [
-   323,
-   "2026-08-27T00:00:16.648691+00:00"
-  ],
-  "hn:49450722": [
-   566,
-   "2026-08-27T00:00:16.648691+00:00"
-  ],
-  "hn:49449749": [
-   526,
-   "2026-08-27T00:00:16.648691+00:00"
-  ],
-  "hn:49449576": [
-   596,
-   "2026-08-27T00:00:16.648691+00:00"
-  ],
-  "hn:49448872": [
-   734,
-   "2026-08-27T00:00:16.648691+00:00"
-  ],
-  "hn:49448560": [
-   314,
-   "2026-08-27T00:00:16.648691+00:00"
-  ],
-  "hn:49448150": [
-   164,
-   "2026-08-27T00:00:16.648691+00:00"
-  ],
-  "hn:49447724": [
-   130,
-   "2026-08-27T00:00:16.648691+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mtyhvvz6ja22": [
-   238,
-   "2026-08-27T00:00:16.648691+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mtygw4eu6o2e": [
-   152,
-   "2026-08-27T00:00:16.648691+00:00"
-  ],
-  "at://did:plc:oxbzsf2flrqyobhxemowaceh/app.bsky.feed.post/3mtygzbbb5c2k": [
-   34,
-   "2026-08-27T00:00:16.648691+00:00"
-  ],
-  "hn:49451343": [
-   432,
-   "2026-08-27T00:00:16.648691+00:00"
-  ],
-  "hn:49450898": [
-   335,
-   "2026-08-27T00:00:16.648691+00:00"
-  ],
   "hn:49450417": [
    165,
    "2026-08-27T00:00:16.648691+00:00"
@@ -4759,6 +4745,58 @@
   "hn:49602582": [
    259,
    "2026-09-07T23:38:47.103674+00:00"
+  ],
+  "hn:49607443": [
+   171,
+   "2026-09-08T09:55:27.079372+00:00"
+  ],
+  "hn:49605915": [
+   475,
+   "2026-09-08T09:55:27.079372+00:00"
+  ],
+  "hn:49605691": [
+   613,
+   "2026-09-08T09:55:27.079372+00:00"
+  ],
+  "hn:49605433": [
+   176,
+   "2026-09-08T09:55:27.079372+00:00"
+  ],
+  "hn:49605424": [
+   303,
+   "2026-09-08T09:55:27.079372+00:00"
+  ],
+  "hn:49605246": [
+   136,
+   "2026-09-08T09:55:27.079372+00:00"
+  ],
+  "hn:49604870": [
+   238,
+   "2026-09-08T09:55:27.079372+00:00"
+  ],
+  "hn:49604637": [
+   442,
+   "2026-09-08T09:55:27.079372+00:00"
+  ],
+  "hn:49604537": [
+   109,
+   "2026-09-08T09:55:27.079372+00:00"
+  ],
+  "hn:49603546": [
+   247,
+   "2026-09-08T09:55:27.079372+00:00"
+  ],
+  "lobsters:4ntizu": [
+   59,
+   "2026-09-08T09:55:27.079372+00:00"
+  ],
+  "lobsters:0t6c5f": [
+   66,
+   "2026-09-08T09:55:27.079372+00:00"
+  ],
+  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3muy5bzwkxk2d": [
+   87,
+   "2026-09-08T09:55:27.079372+00:00"
   ]
  }
 }
