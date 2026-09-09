@@ -516,18 +516,29 @@
   "hn:49621697",
   "at://did:plc:kft6lu4trxowqmter2b6vg6z/app.bsky.feed.post/3mv2a4quhpk2d",
   "https://openai.com/index/navier-stokes-solution",
-  "https://www.neowin.net/news/openai-says-its-unreleased-ai-model-has-solved-a-1-million-millennium-prize-problem/"
+  "https://www.neowin.net/news/openai-says-its-unreleased-ai-model-has-solved-a-1-million-millennium-prize-problem/",
+  "6a970fd0a4730003b51cb67d",
+  "https://www.theverge.com/?p=989692",
+  "6a99a3d36f7d62b638e2170a",
+  "https://www.engadget.com/2252525/how-to-watch-apple-event-september-9-2026/",
+  "https://www.techspot.com/news/113783-foldable-iphone-duo-expected-headline-apple-event-today.html",
+  "https://www.neowin.net/news/heres-when-and-where-to-watch-2026-iphone-launch-event-and-what-to-expect/",
+  "https://www.neowin.net/news/apple-to-launch-a-brand-new-app-for-apple-watch-tomorrow-says-report/",
+  "https://9to5mac.com/?p=1066399",
+  "https://9to5mac.com/?p=1067854",
+  "https://9to5mac.com/?p=1067866",
+  "https://9to5mac.com/?p=1064369"
  ],
  "posted": {
   "viral": 114,
-  "editorial": 113
+  "editorial": 114
  },
  "recent_labels": [
-  "Tom's Hardware",
   "Hacker News",
   "The Hacker News",
   "404 Media",
-  "The Next Web"
+  "The Next Web",
+  "Wired"
  ],
  "last_digest": "2026-09-04",
  "history": [
@@ -866,6 +877,13 @@
    "source": "The Next Web",
    "score": 0.747,
    "at": "2026-09-09T09:59:05.251925+00:00"
+  },
+  {
+   "title": "معرفی آیفون تاشو و قابلیت‌های جدید هوش مصنوعی در رویداد اپل",
+   "url": "https://www.wired.com/live/apple-event-live-blog-september-2026-iphone-launch/",
+   "source": "Wired",
+   "score": 1.55916,
+   "at": "2026-09-09T14:43:16.342371+00:00"
   }
  ],
  "stories": [
@@ -2537,65 +2555,57 @@
     "wrote"
    ],
    "at": "2026-09-09T09:59:05.251925+00:00"
+  },
+  {
+   "sig": [
+    "1pm",
+    "9th",
+    "advice",
+    "ahead",
+    "airpods",
+    "announcements",
+    "app",
+    "apple",
+    "become",
+    "blog",
+    "brand-new",
+    "build",
+    "default",
+    "down",
+    "duo",
+    "event",
+    "expect",
+    "expected",
+    "fears",
+    "foldable",
+    "folding",
+    "headline",
+    "here",
+    "iphone",
+    "iphones",
+    "launch",
+    "live",
+    "model",
+    "pro",
+    "quality",
+    "report",
+    "samsung",
+    "september",
+    "series",
+    "set",
+    "store",
+    "suggests",
+    "today",
+    "tomorrow",
+    "unveil",
+    "upcoming",
+    "watch",
+    "where"
+   ],
+   "at": "2026-09-09T14:43:16.342371+00:00"
   }
  ],
  "snapshots": {
-  "hn:49470949": [
-   180,
-   "2026-08-28T01:35:56.547322+00:00"
-  ],
-  "hn:49470380": [
-   318,
-   "2026-08-28T01:35:56.547322+00:00"
-  ],
-  "hn:49469249": [
-   167,
-   "2026-08-28T01:35:56.547322+00:00"
-  ],
-  "hn:49469098": [
-   316,
-   "2026-08-28T01:35:56.547322+00:00"
-  ],
-  "hn:49468834": [
-   133,
-   "2026-08-28T01:35:56.547322+00:00"
-  ],
-  "hn:49468816": [
-   105,
-   "2026-08-28T01:35:56.547322+00:00"
-  ],
-  "hn:49468642": [
-   448,
-   "2026-08-28T01:35:56.547322+00:00"
-  ],
-  "hn:49468315": [
-   347,
-   "2026-08-28T01:35:56.547322+00:00"
-  ],
-  "hn:49468083": [
-   785,
-   "2026-08-28T01:35:56.547322+00:00"
-  ],
-  "hn:49467750": [
-   225,
-   "2026-08-28T01:35:56.547322+00:00"
-  ],
-  "hn:49467551": [
-   169,
-   "2026-08-28T01:35:56.547322+00:00"
-  ],
-  "hn:49466894": [
-   503,
-   "2026-08-28T01:35:56.547322+00:00"
-  ],
-  "hn:49466622": [
-   198,
-   "2026-08-28T01:35:56.547322+00:00"
-  ],
-  "hn:49466585": [
-   131,
-   "2026-08-28T01:35:56.547322+00:00"
-  ],
   "hn:49466512": [
    129,
    "2026-08-28T01:35:56.547322+00:00"
@@ -4884,24 +4894,12 @@
    398,
    "2026-09-08T21:57:47.069446+00:00"
   ],
-  "hn:49622561": [
-   136,
-   "2026-09-09T09:58:54.955987+00:00"
-  ],
   "hn:49622042": [
    609,
    "2026-09-09T09:58:54.955987+00:00"
   ],
-  "hn:49621751": [
-   187,
-   "2026-09-09T09:58:54.955987+00:00"
-  ],
   "hn:49621697": [
    587,
-   "2026-09-09T09:58:54.955987+00:00"
-  ],
-  "hn:49621102": [
-   77,
    "2026-09-09T09:58:54.955987+00:00"
   ],
   "hn:49619906": [
@@ -4936,9 +4934,77 @@
    382,
    "2026-09-09T09:58:54.955987+00:00"
   ],
+  "hn:49622561": [
+   293,
+   "2026-09-09T14:43:06.201894+00:00"
+  ],
+  "hn:49621751": [
+   361,
+   "2026-09-09T14:43:06.201894+00:00"
+  ],
+  "hn:49621102": [
+   121,
+   "2026-09-09T14:43:06.201894+00:00"
+  ],
   "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mv2jwneit32y": [
-   112,
-   "2026-09-09T09:58:54.955987+00:00"
+   155,
+   "2026-09-09T14:43:06.201894+00:00"
+  ],
+  "hn:49626190": [
+   411,
+   "2026-09-09T14:43:06.201894+00:00"
+  ],
+  "hn:49624856": [
+   356,
+   "2026-09-09T14:43:06.201894+00:00"
+  ],
+  "hn:49624823": [
+   247,
+   "2026-09-09T14:43:06.201894+00:00"
+  ],
+  "hn:49624603": [
+   397,
+   "2026-09-09T14:43:06.201894+00:00"
+  ],
+  "hn:49624394": [
+   1199,
+   "2026-09-09T14:43:06.201894+00:00"
+  ],
+  "hn:49624163": [
+   510,
+   "2026-09-09T14:43:06.201894+00:00"
+  ],
+  "hn:49623937": [
+   224,
+   "2026-09-09T14:43:06.201894+00:00"
+  ],
+  "hn:49623754": [
+   521,
+   "2026-09-09T14:43:06.201894+00:00"
+  ],
+  "hn:49623306": [
+   262,
+   "2026-09-09T14:43:06.201894+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mv3pxcuquy2p": [
+   219,
+   "2026-09-09T14:43:06.201894+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mv3nh6ywjy2f": [
+   118,
+   "2026-09-09T14:43:06.201894+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mv3kqez3t22c": [
+   1606,
+   "2026-09-09T14:43:06.201894+00:00"
+  ],
+  "at://did:plc:ipt7y6qaf6fn7oeeduboqe44/app.bsky.feed.post/3mv3gevptmo2t": [
+   21,
+   "2026-09-09T14:43:06.201894+00:00"
+  ],
+  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mv3m4mr3ec2q": [
+   8,
+   "2026-09-09T14:43:06.201894+00:00"
   ]
  }
 }
