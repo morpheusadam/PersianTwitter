@@ -536,18 +536,21 @@
   "https://slashdot.org/story/26/09/09/1943258/anthropic-researcher-believes-more-than-10-chance-ai-could-kill-all-humans?utm_source=rss1.0mainlinkanon&utm_medium=feed",
   "https://www.techspot.com/news/113788-anthropic-researcher-resigns-after-warning-ai-race-could.html",
   "hn:49638280",
-  "hn:49638622"
+  "hn:49638622",
+  "https://thehackernews.com/2026/09/four-spy-groups-used-same-chrome-and.html",
+  "https://www.bleepingcomputer.com/news/security/new-bluemoon-kit-exploited-windows-and-chrome-zero-day-flaws/",
+  "https://arstechnica.com/information-technology/2026/09/4-groups-caught-using-the-same-chrome-and-windows-exploit-kit/"
  ],
  "posted": {
   "viral": 115,
-  "editorial": 116
+  "editorial": 117
  },
  "recent_labels": [
-  "The Next Web",
   "Wired",
   "TechSpot",
   "Tom's Hardware",
-  "Hacker News"
+  "Hacker News",
+  "The Hacker News"
  ],
  "last_digest": "2026-09-04",
  "history": [
@@ -914,6 +917,13 @@
    "source": "mastodon.social",
    "score": 0.12024,
    "at": "2026-09-10T09:56:07.434955+00:00"
+  },
+  {
+   "title": "شناسایی کیت اکسپلویت BlueMoon برای نفوذ به ویندوز و کروم",
+   "url": "https://thehackernews.com/2026/09/four-spy-groups-used-same-chrome-and.html",
+   "source": "The Hacker News",
+   "score": 0.75197,
+   "at": "2026-09-10T14:33:35.580018+00:00"
   }
  ],
  "stories": [
@@ -2691,49 +2701,30 @@
     "understanding"
    ],
    "at": "2026-09-10T09:56:07.434955+00:00"
+  },
+  {
+   "sig": [
+    "bluemoon",
+    "caught",
+    "chrome",
+    "exploit",
+    "exploited",
+    "flaws",
+    "four",
+    "groups",
+    "kit",
+    "same",
+    "spy",
+    "using",
+    "week",
+    "windows",
+    "within",
+    "zero-day"
+   ],
+   "at": "2026-09-10T14:33:35.580018+00:00"
   }
  ],
  "snapshots": {
-  "hn:49481783": [
-   115,
-   "2026-08-29T01:49:45.196672+00:00"
-  ],
-  "hn:49481455": [
-   122,
-   "2026-08-29T01:49:45.196672+00:00"
-  ],
-  "hn:49479924": [
-   196,
-   "2026-08-29T01:49:45.196672+00:00"
-  ],
-  "hn:49479898": [
-   130,
-   "2026-08-29T01:49:45.196672+00:00"
-  ],
-  "hn:49479878": [
-   1013,
-   "2026-08-29T01:49:45.196672+00:00"
-  ],
-  "hn:49479826": [
-   204,
-   "2026-08-29T01:49:45.196672+00:00"
-  ],
-  "hn:49479302": [
-   125,
-   "2026-08-29T01:49:45.196672+00:00"
-  ],
-  "hn:49479072": [
-   252,
-   "2026-08-29T01:49:45.196672+00:00"
-  ],
-  "hn:49478942": [
-   125,
-   "2026-08-29T01:49:45.196672+00:00"
-  ],
-  "lobsters:xr1eor": [
-   73,
-   "2026-08-29T01:49:45.196672+00:00"
-  ],
   "lobsters:77uge9": [
    68,
    "2026-08-29T01:49:45.196672+00:00"
@@ -5038,16 +5029,8 @@
    13,
    "2026-09-09T21:48:28.090856+00:00"
   ],
-  "hn:49639090": [
-   632,
-   "2026-09-10T09:56:01.236362+00:00"
-  ],
   "hn:49638622": [
    108,
-   "2026-09-10T09:56:01.236362+00:00"
-  ],
-  "hn:49638353": [
-   438,
    "2026-09-10T09:56:01.236362+00:00"
   ],
   "hn:49638280": [
@@ -5086,13 +5069,61 @@
    63,
    "2026-09-10T09:56:01.236362+00:00"
   ],
-  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mv54s2ytuv2a": [
-   51,
-   "2026-09-10T09:56:01.236362+00:00"
-  ],
   "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mv4xxczpfk2w": [
    15,
    "2026-09-10T09:56:01.236362+00:00"
+  ],
+  "hn:49639090": [
+   1351,
+   "2026-09-10T14:33:23.424960+00:00"
+  ],
+  "hn:49638353": [
+   591,
+   "2026-09-10T14:33:23.424960+00:00"
+  ],
+  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mv54s2ytuv2a": [
+   82,
+   "2026-09-10T14:33:23.424960+00:00"
+  ],
+  "hn:49643556": [
+   194,
+   "2026-09-10T14:33:23.424960+00:00"
+  ],
+  "hn:49643546": [
+   73,
+   "2026-09-10T14:33:23.424960+00:00"
+  ],
+  "hn:49643112": [
+   251,
+   "2026-09-10T14:33:23.424960+00:00"
+  ],
+  "hn:49642531": [
+   163,
+   "2026-09-10T14:33:23.424960+00:00"
+  ],
+  "hn:49641792": [
+   203,
+   "2026-09-10T14:33:23.424960+00:00"
+  ],
+  "hn:49641401": [
+   259,
+   "2026-09-10T14:33:23.424960+00:00"
+  ],
+  "hn:49641393": [
+   179,
+   "2026-09-10T14:33:23.424960+00:00"
+  ],
+  "hn:49641215": [
+   862,
+   "2026-09-10T14:33:23.424960+00:00"
+  ],
+  "hn:49640646": [
+   413,
+   "2026-09-10T14:33:23.424960+00:00"
+  ],
+  "lobsters:k99ryf": [
+   43,
+   "2026-09-10T14:33:23.424960+00:00"
   ]
  }
 }
