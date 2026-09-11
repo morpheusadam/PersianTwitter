@@ -543,210 +543,24 @@
   "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mv6fvytz2s25",
   "lobsters:b3cqyr",
   "https://www.bleepingcomputer.com/news/security/surfshark-vpn-says-hackers-breached-internal-testing-proxy-servers/",
-  "https://www.securityweek.com/?p=49246"
+  "https://www.securityweek.com/?p=49246",
+  "hn:49657850",
+  "hn:49658192",
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mvapeo3dwi2v"
  ],
  "posted": {
-  "viral": 117,
+  "viral": 118,
   "editorial": 118
  },
  "recent_labels": [
-  "Hacker News",
   "The Hacker News",
   "Emily M. Bender",
   "Lobsters",
-  "BleepingComputer"
+  "BleepingComputer",
+  "404 Media"
  ],
- "last_digest": "2026-09-04",
+ "last_digest": "2026-09-11",
  "history": [
-  {
-   "title": "افشای اعتبار علمی گزارش‌های نظارتی شرکت Flock",
-   "url": "https://bsky.app/profile/404media.co/post/3mu5nky7sus2x",
-   "source": "404 Media",
-   "score": 0.20261,
-   "at": "2026-08-28T17:34:03.361093+00:00"
-  },
-  {
-   "title": "ابداع روشی جدید برای شناسایی و فریب عوامل هوش مصنوعی",
-   "url": "https://github.com/TecharoHQ/anubis/pull/1895",
-   "source": "github.com",
-   "score": 0.23226,
-   "at": "2026-08-29T01:49:51.563023+00:00"
-  },
-  {
-   "title": "تأثیر مقررات GDPR بر استانداردهای جهانی حریم خصوصی",
-   "url": "https://matduggan.com/you-know-gdpr-is-good-based-on-who-hates-it/",
-   "source": "matduggan.com",
-   "score": 0.12419,
-   "at": "2026-08-29T11:44:39.923549+00:00"
-  },
-  {
-   "title": "بهینه‌سازی حافظه در سرویس DNS کلودفلر با استفاده از Rust",
-   "url": "https://blog.cloudflare.com/dns-cache-memory-optimization-1111/",
-   "source": "Cloudflare",
-   "score": 0.7208,
-   "at": "2026-08-29T16:50:01.204824+00:00"
-  },
-  {
-   "title": "شکایت غول‌های موسیقی از Anthropic به دلیل نقض گسترده کپی‌رایت",
-   "url": "https://www.engadget.com/2246997/sony-warner-sue-anthropic-for-blatant-violation-of-copyright-law/",
-   "source": "Engadget",
-   "score": 0.60258,
-   "at": "2026-08-29T19:52:53.756075+00:00"
-  },
-  {
-   "title": "امنیت دارایی‌های ابری در عصر هوش مصنوعی برای سازمان‌ها",
-   "url": "https://www.darkreading.com/events/virtual-event-what-every-enterprise-know-securing-cloud-2026",
-   "source": "Dark Reading",
-   "score": 0.26804,
-   "at": "2026-08-29T22:43:07.300876+00:00"
-  },
-  {
-   "title": "افزایش دعاوی حقوقی علیه استفاده از الگوریتم‌های قیمت‌گذاری اجاره‌بها",
-   "url": "https://www.morganlewis.com/pubs/2026/08/algorithmic-rent-pricing-litigation-expands-under-new-state-and-local-laws",
-   "source": "morganlewis.com",
-   "score": 0.03653,
-   "at": "2026-08-30T10:35:26.728279+00:00"
-  },
-  {
-   "title": "هک پلتفرم Hugging Face توسط مدل‌های هوش مصنوعی OpenAI به دلیل پدیده Reward Hacking",
-   "url": "https://thehackernews.com/2026/08/openai-says-reward-hacking-drove-ai.html",
-   "source": "The Hacker News",
-   "score": 0.83219,
-   "at": "2026-08-30T15:24:45.018825+00:00"
-  },
-  {
-   "title": "ردیابی محموله کتاب‌های کمیاب به مرکز آموزش هوش مصنوعی آمازون",
-   "url": "https://www.404media.co/we-tracked-a-shipment-of-rare-books-it-ended-at-an-amazon-ai-training-facility/",
-   "source": "404media.co",
-   "score": 0.2847,
-   "at": "2026-08-30T18:42:13.137044+00:00"
-  },
-  {
-   "title": "تغییر نام دریاچه انتاریو به دریاچه آمریکا در سرویس نقشه گوگل",
-   "url": "https://www.wired.com/story/google-maps-now-shows-lake-america-instead-of-lake-ontario/",
-   "source": "Wired",
-   "score": 0.29558,
-   "at": "2026-08-30T21:57:47.231646+00:00"
-  },
-  {
-   "title": "آسیب‌پذیری در حالت خودکار Claude Code و اجرای کد مخرب",
-   "url": "https://embracethered.com/blog/posts/2026/breaking-claude-code-opus-5-and-automode/",
-   "source": "embracethered.com",
-   "score": 0.1017,
-   "at": "2026-08-31T11:44:20.483182+00:00"
-  },
-  {
-   "title": "محبوبیت MapQuest پس از مخالفت با تغییر نام Lake Ontario افزایش یافت",
-   "url": "https://news.slashdot.org/story/26/08/31/1646204/mapquests-app-surges-to-no-1-in-navigation-after-refusing-to-rename-lake-ontario?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-   "source": "Slashdot",
-   "score": 0.54097,
-   "at": "2026-08-31T19:12:06.613024+00:00"
-  },
-  {
-   "title": "آیا نویسندگی در برابر هوش مصنوعی ایمن‌ترین شغل است",
-   "url": "http://muratbuffalo.blogspot.com/2026/08/the-safest-job-from-ai-may-be-writing.html",
-   "source": "muratbuffalo.blogspot.com",
-   "score": 0.09581,
-   "at": "2026-08-31T23:16:53.083530+00:00"
-  },
-  {
-   "title": "محدودیت‌های جدید در مهندسی معکوس مدل هوش مصنوعی Claude",
-   "url": "https://bsky.app/profile/xeiaso.net/post/3mugjiyb3qk2a",
-   "source": "Xe Iaso",
-   "score": 0.06854,
-   "at": "2026-09-01T10:19:14.540127+00:00"
-  },
-  {
-   "title": "جان ترنس به عنوان مدیرعامل جدید اپل سکان هدایت این شرکت را در دست گرفت",
-   "url": "https://www.techspot.com/news/113693-john-ternus-starts-first-day-apple-ceo-foldable.html",
-   "source": "TechSpot",
-   "score": 0.5556,
-   "at": "2026-09-01T15:02:51.328873+00:00"
-  },
-  {
-   "title": "قابلیت‌های جدید هوش مصنوعی و دسترسی‌پذیری در سیستم‌عامل اندروید",
-   "url": "https://www.engadget.com/2247151/new-android-find-hub-feature-will-help-you-remember-where-you-put-important-things/",
-   "source": "Engadget",
-   "score": 0.47943,
-   "at": "2026-09-01T18:41:58.391215+00:00"
-  },
-  {
-   "title": "طراحی پیراهن ویژه برای فریب دوربین‌های نظارتی مجهز به هوش مصنوعی",
-   "url": "https://www.404media.co/this-digital-camouflage-shirt-confuses-ai-powered-surveillance-cameras/",
-   "source": "404media.co",
-   "score": 0.10719,
-   "at": "2026-09-01T21:53:51.671378+00:00"
-  },
-  {
-   "title": "اتمام موجودی لپ‌تاپ‌های مجهز به پلتفرم Nvidia RTX Spark در پیش‌فروش",
-   "url": "https://3dnews.ru/1147813",
-   "source": "3DNews",
-   "score": 0.791,
-   "at": "2026-09-02T09:48:14.099302+00:00"
-  },
-  {
-   "title": "پلیس به دنبال تغییر ظاهر دوربین‌های پلاک‌خوان Axon برای جلوگیری از تخریب",
-   "url": "https://www.404media.co/cops-are-asking-axon-to-make-their-cameras-look-different-from-flock-so-people-dont-destroy-them/",
-   "source": "404media.co",
-   "score": 0.48397,
-   "at": "2026-09-02T14:36:50.789653+00:00"
-  },
-  {
-   "title": "استرداد هکر روس به اتهام توزیع بدافزار از طریق فایل‌های اکسل",
-   "url": "https://thehackernews.com/2026/09/extradited-russian-hacker-faces-charges.html",
-   "source": "The Hacker News",
-   "score": 0.93218,
-   "at": "2026-09-02T18:51:07.769201+00:00"
-  },
-  {
-   "title": "ممنوعیت استفاده از هوش مصنوعی در مدارس ابتدایی نیویورک",
-   "url": "https://news.slashdot.org/story/26/09/02/167206/nyc-public-schools-ban-ai-use-through-middle-school?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-   "source": "Slashdot",
-   "score": 0.77354,
-   "at": "2026-09-02T21:55:01.912905+00:00"
-  },
-  {
-   "title": "افزایش بهره‌وری مهندسان نرم‌افزار با استفاده از ابزارهای هوش مصنوعی",
-   "url": "https://commons.wikimedia.org/wiki/File:IBM_150_Extra_Engineers_1951.jpg",
-   "source": "commons.wikimedia.org",
-   "score": 0.04717,
-   "at": "2026-09-03T10:00:13.268255+00:00"
-  },
-  {
-   "title": "خرید ۱۲.۹ میلیارد دلاری Hugging Face توسط Nvidia برای توسعه هوش مصنوعی",
-   "url": "https://www.wired.com/story/nvidias-hugging-face-acquisition-is-a-dollar129-billion-bet-on-open-source-ai/",
-   "source": "Wired",
-   "score": 1.72176,
-   "at": "2026-09-03T14:40:54.473978+00:00"
-  },
-  {
-   "title": "عرضه‌ی مجموعه‌ی مدل‌های هوش مصنوعی K2 Horizon با دسترسی کامل",
-   "url": "https://ifm.ai/blog/k2/",
-   "source": "ifm.ai",
-   "score": 0.13541,
-   "at": "2026-09-03T18:51:28.274493+00:00"
-  },
-  {
-   "title": "محدودیت‌های جدید گوگل برای نصب اپلیکیشن‌های خارج از گوگل پلی",
-   "url": "https://tuta.com/blog/android-side-load-apps-google",
-   "source": "tuta.com",
-   "score": 0.0546,
-   "at": "2026-09-03T21:48:40.802493+00:00"
-  },
-  {
-   "title": "ورود Ugreen به بازار خانه‌های هوشمند با هاب‌های مبتنی بر هوش مصنوعی محلی",
-   "url": "https://www.engadget.com/2250749/ugreen-smart-home-ecosystem-built-around-local-ai-hubs/",
-   "source": "Engadget",
-   "score": 0.52792,
-   "at": "2026-09-04T09:49:36.928429+00:00"
-  },
-  {
-   "title": "کمپین بدافزاری جدید با جعل وب‌سایت‌های معتبر، سیستم‌های ویندوزی را هدف قرار می‌دهد",
-   "url": "https://thehackernews.com/2026/09/fake-software-installers-disable.html",
-   "source": "The Hacker News",
-   "score": 1.48038,
-   "at": "2026-09-04T14:28:21.877938+00:00"
-  },
   {
    "title": "محدودیت زمانی برای سرویس ابری Xbox Cloud Gaming مایکروسافت",
    "url": "https://games.slashdot.org/story/26/09/03/1943208/xbox-cloud-gaming-switches-to-monthly-hour-limits?utm_source=rss1.0mainlinkanon&utm_medium=feed",
@@ -949,6 +763,13 @@
    "source": "BleepingComputer",
    "score": 0.53632,
    "at": "2026-09-11T09:53:45.552439+00:00"
+  },
+  {
+   "title": "خشم ساکنان میشیگان از احداث مرکز داده ۱.۲ میلیارد دلاری دانشگاه میشیگان",
+   "url": "https://www.404media.co/we-did-not-invite-you-citizens-rage-at-town-hall-over-proposed-nuclear-ai-data-center/",
+   "source": "404media.co",
+   "score": 0.75274,
+   "at": "2026-09-11T14:32:57.840963+00:00"
   }
  ],
  "stories": [
@@ -2796,77 +2617,31 @@
     "vpn"
    ],
    "at": "2026-09-11T09:53:45.552439+00:00"
+  },
+  {
+   "sig": [
+    "alamos",
+    "build",
+    "center",
+    "consulted",
+    "data",
+    "labs",
+    "los",
+    "massive",
+    "michigan",
+    "national",
+    "never",
+    "partnering",
+    "residents",
+    "small",
+    "township",
+    "university",
+    "were"
+   ],
+   "at": "2026-09-11T14:32:57.840963+00:00"
   }
  ],
  "snapshots": {
-  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3muakuy2woc24": [
-   91,
-   "2026-08-29T22:43:02.715299+00:00"
-  ],
-  "at://did:plc:x2nsupeeo52oznrmplwapppl/app.bsky.feed.post/3muaavljh262c": [
-   36,
-   "2026-08-29T22:43:02.715299+00:00"
-  ],
-  "at://did:plc:2mrgzk6xlemfv6yugn644xxy/app.bsky.feed.post/3muakukmuxc2m": [
-   36,
-   "2026-08-29T22:43:02.715299+00:00"
-  ],
-  "hn:49492632": [
-   220,
-   "2026-08-29T22:43:02.715299+00:00"
-  ],
-  "hn:49492432": [
-   150,
-   "2026-08-29T22:43:02.715299+00:00"
-  ],
-  "hn:49491714": [
-   138,
-   "2026-08-29T22:43:02.715299+00:00"
-  ],
-  "hn:49491113": [
-   205,
-   "2026-08-29T22:43:02.715299+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3muara256bx2w": [
-   358,
-   "2026-08-29T22:43:02.715299+00:00"
-  ],
-  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3muavgs7snj2i": [
-   100,
-   "2026-08-29T22:43:02.715299+00:00"
-  ],
-  "at://did:plc:x2nsupeeo52oznrmplwapppl/app.bsky.feed.post/3muaqtt24o22u": [
-   58,
-   "2026-08-29T22:43:02.715299+00:00"
-  ],
-  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3muahwl6aac2m": [
-   7,
-   "2026-08-29T22:43:02.715299+00:00"
-  ],
-  "hn:49495372": [
-   572,
-   "2026-08-30T10:35:23.407687+00:00"
-  ],
-  "hn:49495127": [
-   178,
-   "2026-08-30T10:35:23.407687+00:00"
-  ],
-  "hn:49494856": [
-   218,
-   "2026-08-30T10:35:23.407687+00:00"
-  ],
-  "hn:49494751": [
-   126,
-   "2026-08-30T10:35:23.407687+00:00"
-  ],
-  "hn:49494301": [
-   251,
-   "2026-08-30T10:35:23.407687+00:00"
-  ],
-  "hn:49494231": [
-   502,
-   "2026-08-30T10:35:23.407687+00:00"
-  ],
   "hn:49494182": [
    653,
    "2026-08-30T10:35:23.407687+00:00"
@@ -5155,14 +4930,6 @@
    48,
    "2026-09-10T21:44:20.997954+00:00"
   ],
-  "hn:49654229": [
-   798,
-   "2026-09-11T09:53:43.334788+00:00"
-  ],
-  "hn:49653328": [
-   190,
-   "2026-09-11T09:53:43.334788+00:00"
-  ],
   "hn:49652237": [
    358,
    "2026-09-11T09:53:43.334788+00:00"
@@ -5191,13 +4958,89 @@
    27,
    "2026-09-11T09:53:43.334788+00:00"
   ],
+  "hn:49654229": [
+   966,
+   "2026-09-11T14:32:39.654414+00:00"
+  ],
+  "hn:49653328": [
+   231,
+   "2026-09-11T14:32:39.654414+00:00"
+  ],
   "at://did:plc:kft6lu4trxowqmter2b6vg6z/app.bsky.feed.post/3mv7nb6bezk23": [
-   46,
-   "2026-09-11T09:53:43.334788+00:00"
+   50,
+   "2026-09-11T14:32:39.654414+00:00"
   ],
   "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mv7li6ruy225": [
-   300,
-   "2026-09-11T09:53:43.334788+00:00"
+   420,
+   "2026-09-11T14:32:39.654414+00:00"
+  ],
+  "hn:49658299": [
+   176,
+   "2026-09-11T14:32:39.654414+00:00"
+  ],
+  "hn:49658192": [
+   229,
+   "2026-09-11T14:32:39.654414+00:00"
+  ],
+  "hn:49657850": [
+   637,
+   "2026-09-11T14:32:39.654414+00:00"
+  ],
+  "hn:49656564": [
+   223,
+   "2026-09-11T14:32:39.654414+00:00"
+  ],
+  "hn:49656496": [
+   561,
+   "2026-09-11T14:32:39.654414+00:00"
+  ],
+  "hn:49656471": [
+   160,
+   "2026-09-11T14:32:39.654414+00:00"
+  ],
+  "hn:49656225": [
+   845,
+   "2026-09-11T14:32:39.654414+00:00"
+  ],
+  "hn:49655619": [
+   207,
+   "2026-09-11T14:32:39.654414+00:00"
+  ],
+  "hn:49655286": [
+   297,
+   "2026-09-11T14:32:39.654414+00:00"
+  ],
+  "hn:49654387": [
+   88,
+   "2026-09-11T14:32:39.654414+00:00"
+  ],
+  "hn:49653699": [
+   137,
+   "2026-09-11T14:32:39.654414+00:00"
+  ],
+  "lobsters:7guove": [
+   34,
+   "2026-09-11T14:32:39.654414+00:00"
+  ],
+  "lobsters:0i492m": [
+   36,
+   "2026-09-11T14:32:39.654414+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mvapeo3dwi2v": [
+   224,
+   "2026-09-11T14:32:39.654414+00:00"
+  ],
+  "at://did:plc:x2nsupeeo52oznrmplwapppl/app.bsky.feed.post/3mvamzyblqd2t": [
+   56,
+   "2026-09-11T14:32:39.654414+00:00"
+  ],
+  "at://did:plc:ipt7y6qaf6fn7oeeduboqe44/app.bsky.feed.post/3mvahh2yens2o": [
+   26,
+   "2026-09-11T14:32:39.654414+00:00"
+  ],
+  "at://did:plc:ipt7y6qaf6fn7oeeduboqe44/app.bsky.feed.post/3mvaf2jzfik2o": [
+   129,
+   "2026-09-11T14:32:39.654414+00:00"
   ]
  }
 }
