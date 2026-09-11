@@ -541,18 +541,20 @@
   "https://www.bleepingcomputer.com/news/security/new-bluemoon-kit-exploited-windows-and-chrome-zero-day-flaws/",
   "https://arstechnica.com/information-technology/2026/09/4-groups-caught-using-the-same-chrome-and-windows-exploit-kit/",
   "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mv6fvytz2s25",
-  "lobsters:b3cqyr"
+  "lobsters:b3cqyr",
+  "https://www.bleepingcomputer.com/news/security/surfshark-vpn-says-hackers-breached-internal-testing-proxy-servers/",
+  "https://www.securityweek.com/?p=49246"
  ],
  "posted": {
   "viral": 117,
-  "editorial": 117
+  "editorial": 118
  },
  "recent_labels": [
-  "Tom's Hardware",
   "Hacker News",
   "The Hacker News",
   "Emily M. Bender",
-  "Lobsters"
+  "Lobsters",
+  "BleepingComputer"
  ],
  "last_digest": "2026-09-04",
  "history": [
@@ -940,6 +942,13 @@
    "source": "codeberg.org",
    "score": 0.12989,
    "at": "2026-09-10T21:44:25.484425+00:00"
+  },
+  {
+   "title": "نفوذ هکرها به سرورهای تست داخلی Surfshark به دلیل خطای پیکربندی",
+   "url": "https://www.bleepingcomputer.com/news/security/surfshark-vpn-says-hackers-breached-internal-testing-proxy-servers/",
+   "source": "BleepingComputer",
+   "score": 0.53632,
+   "at": "2026-09-11T09:53:45.552439+00:00"
   }
  ],
  "stories": [
@@ -2772,53 +2781,24 @@
     "security"
    ],
    "at": "2026-09-10T21:44:25.484425+00:00"
+  },
+  {
+   "sig": [
+    "breached",
+    "hackers",
+    "internal",
+    "proxy",
+    "servers",
+    "surfshark",
+    "systems",
+    "targeted",
+    "testing",
+    "vpn"
+   ],
+   "at": "2026-09-11T09:53:45.552439+00:00"
   }
  ],
  "snapshots": {
-  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mu7wym4hvj2p": [
-   164,
-   "2026-08-29T22:43:02.715299+00:00"
-  ],
-  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mu7wwqonqs2a": [
-   81,
-   "2026-08-29T22:43:02.715299+00:00"
-  ],
-  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3muabt6dwlk2r": [
-   41,
-   "2026-08-29T22:43:02.715299+00:00"
-  ],
-  "hn:49492219": [
-   291,
-   "2026-08-29T22:43:02.715299+00:00"
-  ],
-  "hn:49492193": [
-   861,
-   "2026-08-29T22:43:02.715299+00:00"
-  ],
-  "hn:49491568": [
-   261,
-   "2026-08-29T22:43:02.715299+00:00"
-  ],
-  "hn:49490702": [
-   407,
-   "2026-08-29T22:43:02.715299+00:00"
-  ],
-  "hn:49490138": [
-   139,
-   "2026-08-29T22:43:02.715299+00:00"
-  ],
-  "lobsters:pxmp9r": [
-   33,
-   "2026-08-29T22:43:02.715299+00:00"
-  ],
-  "lobsters:nbjo0i": [
-   63,
-   "2026-08-29T22:43:02.715299+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3muah65qrhd25": [
-   329,
-   "2026-08-29T22:43:02.715299+00:00"
-  ],
   "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3muakuy2woc24": [
    91,
    "2026-08-29T22:43:02.715299+00:00"
@@ -5174,6 +5154,50 @@
   "at://did:plc:ipt7y6qaf6fn7oeeduboqe44/app.bsky.feed.post/3mv6sb4qkrc2o": [
    48,
    "2026-09-10T21:44:20.997954+00:00"
+  ],
+  "hn:49654229": [
+   798,
+   "2026-09-11T09:53:43.334788+00:00"
+  ],
+  "hn:49653328": [
+   190,
+   "2026-09-11T09:53:43.334788+00:00"
+  ],
+  "hn:49652237": [
+   358,
+   "2026-09-11T09:53:43.334788+00:00"
+  ],
+  "hn:49652105": [
+   625,
+   "2026-09-11T09:53:43.334788+00:00"
+  ],
+  "hn:49652028": [
+   251,
+   "2026-09-11T09:53:43.334788+00:00"
+  ],
+  "hn:49651372": [
+   277,
+   "2026-09-11T09:53:43.334788+00:00"
+  ],
+  "hn:49651221": [
+   146,
+   "2026-09-11T09:53:43.334788+00:00"
+  ],
+  "hn:49650725": [
+   87,
+   "2026-09-11T09:53:43.334788+00:00"
+  ],
+  "lobsters:u7dr96": [
+   27,
+   "2026-09-11T09:53:43.334788+00:00"
+  ],
+  "at://did:plc:kft6lu4trxowqmter2b6vg6z/app.bsky.feed.post/3mv7nb6bezk23": [
+   46,
+   "2026-09-11T09:53:43.334788+00:00"
+  ],
+  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mv7li6ruy225": [
+   300,
+   "2026-09-11T09:53:43.334788+00:00"
   ]
  }
 }
