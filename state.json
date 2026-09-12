@@ -553,18 +553,19 @@
   "https://www.neowin.net/news/openai-halts-200-pro-subscriptions-amid-astra-demand/",
   "TheNextWeb=5f0c79c0fe67cd3e67c394b0428d6af5",
   "hn:49662371",
-  "hn:49668386"
+  "hn:49668386",
+  "at://did:plc:ipt7y6qaf6fn7oeeduboqe44/app.bsky.feed.post/3mvcwftyhx22o"
  ],
  "posted": {
-  "viral": 120,
+  "viral": 121,
   "editorial": 119
  },
  "recent_labels": [
-  "BleepingComputer",
   "404 Media",
   "InfoQ",
   "Hacker News",
-  "Hacker News"
+  "Hacker News",
+  "antirez"
  ],
  "last_digest": "2026-09-11",
  "history": [
@@ -798,6 +799,13 @@
    "source": "autom.dev",
    "score": 0.09738,
    "at": "2026-09-12T09:30:04.202640+00:00"
+  },
+  {
+   "title": "پشتیبانی از DeepSeek v4.1 Flash در پروژه DwarfStar",
+   "url": "https://www.youtube.com/watch?v=ogs819nJkso",
+   "source": "youtube.com",
+   "score": 0.27003,
+   "at": "2026-09-12T13:03:39.474035+00:00"
   }
  ],
  "stories": [
@@ -2701,21 +2709,42 @@
     "update"
    ],
    "at": "2026-09-12T09:30:04.202640+00:00"
+  },
+  {
+   "sig": [
+    "128gb",
+    "both",
+    "branch",
+    "coding",
+    "deepseek",
+    "dual",
+    "dwarfstar",
+    "english",
+    "flash",
+    "github",
+    "language",
+    "macbook",
+    "main",
+    "max",
+    "ogs8",
+    "pushed",
+    "session",
+    "setup",
+    "ssd",
+    "streamed",
+    "support",
+    "test",
+    "v4.1",
+    "video",
+    "watch",
+    "where",
+    "www.youtube.com",
+    "youtube"
+   ],
+   "at": "2026-09-12T13:03:39.474035+00:00"
   }
  ],
  "snapshots": {
-  "hn:49504352": [
-   187,
-   "2026-08-31T11:44:16.519346+00:00"
-  ],
-  "lobsters:uueocw": [
-   25,
-   "2026-08-31T11:44:16.519346+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mudlue7sh22w": [
-   307,
-   "2026-08-31T11:44:16.519346+00:00"
-  ],
   "at://did:plc:kft6lu4trxowqmter2b6vg6z/app.bsky.feed.post/3mudmaynuz22c": [
    186,
    "2026-08-31T11:44:16.519346+00:00"
@@ -5048,24 +5077,8 @@
    9,
    "2026-09-11T21:49:55.142023+00:00"
   ],
-  "hn:49670032": [
-   74,
-   "2026-09-12T09:29:58.581394+00:00"
-  ],
-  "hn:49668777": [
-   82,
-   "2026-09-12T09:29:58.581394+00:00"
-  ],
   "hn:49668386": [
    1043,
-   "2026-09-12T09:29:58.581394+00:00"
-  ],
-  "hn:49668181": [
-   163,
-   "2026-09-12T09:29:58.581394+00:00"
-  ],
-  "hn:49667762": [
-   279,
    "2026-09-12T09:29:58.581394+00:00"
   ],
   "hn:49667375": [
@@ -5103,6 +5116,34 @@
   "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mvbkgdjaok25": [
    506,
    "2026-09-12T09:29:58.581394+00:00"
+  ],
+  "hn:49670032": [
+   163,
+   "2026-09-12T13:03:34.949628+00:00"
+  ],
+  "hn:49668777": [
+   137,
+   "2026-09-12T13:03:34.949628+00:00"
+  ],
+  "hn:49668181": [
+   171,
+   "2026-09-12T13:03:34.949628+00:00"
+  ],
+  "hn:49667762": [
+   366,
+   "2026-09-12T13:03:34.949628+00:00"
+  ],
+  "lobsters:imdwmj": [
+   33,
+   "2026-09-12T13:03:34.949628+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mvd2nfvqpe2c": [
+   69,
+   "2026-09-12T13:03:34.949628+00:00"
+  ],
+  "at://did:plc:ipt7y6qaf6fn7oeeduboqe44/app.bsky.feed.post/3mvcwftyhx22o": [
+   40,
+   "2026-09-12T13:03:34.949628+00:00"
   ]
  }
 }
