@@ -554,18 +554,21 @@
   "TheNextWeb=5f0c79c0fe67cd3e67c394b0428d6af5",
   "hn:49662371",
   "hn:49668386",
-  "at://did:plc:ipt7y6qaf6fn7oeeduboqe44/app.bsky.feed.post/3mvcwftyhx22o"
+  "at://did:plc:ipt7y6qaf6fn7oeeduboqe44/app.bsky.feed.post/3mvcwftyhx22o",
+  "https://www.engadget.com/2256364/iphone-18-pro-vs-pixel-11-pro/",
+  "dNHLafdVpHnJdf74SVegPc",
+  "pVVnKKUQ8BFSRQSutdAWAX"
  ],
  "posted": {
   "viral": 121,
-  "editorial": 119
+  "editorial": 120
  },
  "recent_labels": [
-  "404 Media",
   "InfoQ",
   "Hacker News",
   "Hacker News",
-  "antirez"
+  "antirez",
+  "Engadget"
  ],
  "last_digest": "2026-09-11",
  "history": [
@@ -806,6 +809,13 @@
    "source": "youtube.com",
    "score": 0.27003,
    "at": "2026-09-12T13:03:39.474035+00:00"
+  },
+  {
+   "title": "مقایسه پرچمداران جدید اپل و گوگل در حوزه گوشی‌های هوشمند",
+   "url": "https://www.engadget.com/2256364/iphone-18-pro-vs-pixel-11-pro/",
+   "source": "Engadget",
+   "score": 0.33485,
+   "at": "2026-09-12T16:25:15.404087+00:00"
   }
  ],
  "stories": [
@@ -2742,33 +2752,36 @@
     "youtube"
    ],
    "at": "2026-09-12T13:03:39.474035+00:00"
+  },
+  {
+   "sig": [
+    "apple",
+    "device",
+    "enough",
+    "flagships",
+    "google",
+    "included",
+    "ipad",
+    "iphone",
+    "launches",
+    "live",
+    "pixel",
+    "plus",
+    "preorders",
+    "pro",
+    "save",
+    "savings",
+    "stack",
+    "t-mobile",
+    "verizon",
+    "watch",
+    "ways",
+    "yep"
+   ],
+   "at": "2026-09-12T16:25:15.404087+00:00"
   }
  ],
  "snapshots": {
-  "at://did:plc:kft6lu4trxowqmter2b6vg6z/app.bsky.feed.post/3mudmaynuz22c": [
-   186,
-   "2026-08-31T11:44:16.519346+00:00"
-  ],
-  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mue3rpzsdk2i": [
-   203,
-   "2026-08-31T11:44:16.519346+00:00"
-  ],
-  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mue2fl27vk24": [
-   82,
-   "2026-08-31T11:44:16.519346+00:00"
-  ],
-  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3muduohcdzc24": [
-   22,
-   "2026-08-31T11:44:16.519346+00:00"
-  ],
-  "hn:49507822": [
-   660,
-   "2026-08-31T19:11:58.777284+00:00"
-  ],
-  "hn:49506655": [
-   177,
-   "2026-08-31T19:11:58.777284+00:00"
-  ],
   "hn:49512574": [
    177,
    "2026-08-31T19:11:58.777284+00:00"
@@ -5117,10 +5130,6 @@
    506,
    "2026-09-12T09:29:58.581394+00:00"
   ],
-  "hn:49670032": [
-   163,
-   "2026-09-12T13:03:34.949628+00:00"
-  ],
   "hn:49668777": [
    137,
    "2026-09-12T13:03:34.949628+00:00"
@@ -5137,13 +5146,41 @@
    33,
    "2026-09-12T13:03:34.949628+00:00"
   ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mvd2nfvqpe2c": [
-   69,
-   "2026-09-12T13:03:34.949628+00:00"
-  ],
   "at://did:plc:ipt7y6qaf6fn7oeeduboqe44/app.bsky.feed.post/3mvcwftyhx22o": [
    40,
    "2026-09-12T13:03:34.949628+00:00"
+  ],
+  "hn:49670032": [
+   210,
+   "2026-09-12T16:25:13.930739+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mvd2nfvqpe2c": [
+   110,
+   "2026-09-12T16:25:13.930739+00:00"
+  ],
+  "hn:49673098": [
+   209,
+   "2026-09-12T16:25:13.930739+00:00"
+  ],
+  "hn:49672549": [
+   204,
+   "2026-09-12T16:25:13.930739+00:00"
+  ],
+  "hn:49671159": [
+   152,
+   "2026-09-12T16:25:13.930739+00:00"
+  ],
+  "hn:49671135": [
+   78,
+   "2026-09-12T16:25:13.930739+00:00"
+  ],
+  "hn:49670981": [
+   138,
+   "2026-09-12T16:25:13.930739+00:00"
+  ],
+  "lobsters:8t1ddm": [
+   29,
+   "2026-09-12T16:25:13.930739+00:00"
   ]
  }
 }
