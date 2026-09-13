@@ -564,18 +564,21 @@
   "https://www.theverge.com/?p=994333",
   "https://thehackernews.com/2026/09/openai-agents-linked-to-rubygems.html",
   "https://3dnews.ru/1148388/#6aa505a9742eece3bf8b456f",
-  "https://www.engadget.com/2256741/openai-agents-hacked-rubygems/"
+  "https://www.engadget.com/2256741/openai-agents-hacked-rubygems/",
+  "hn:49678683",
+  "lobsters:fmkm3v",
+  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mvecyept3i23"
  ],
  "posted": {
-  "viral": 121,
+  "viral": 122,
   "editorial": 122
  },
  "recent_labels": [
-  "Hacker News",
   "antirez",
   "Engadget",
   "Slashdot",
-  "The Hacker News"
+  "The Hacker News",
+  "Hacker News"
  ],
  "last_digest": "2026-09-11",
  "history": [
@@ -837,6 +840,13 @@
    "source": "The Hacker News",
    "score": 0.3105,
    "at": "2026-09-12T21:32:15.231380+00:00"
+  },
+  {
+   "title": "تضاد در رویکردهای توسعه‌دهندگان هوش مصنوعی",
+   "url": "https://xeiaso.net/notes/2026/everyone-slowdown-but-me/",
+   "source": "xeiaso.net",
+   "score": 0.06272,
+   "at": "2026-09-13T10:27:01.620855+00:00"
   }
  ],
  "stories": [
@@ -2828,53 +2838,20 @@
     "software"
    ],
    "at": "2026-09-12T21:32:15.231380+00:00"
+  },
+  {
+   "sig": [
+    "development",
+    "down",
+    "everyone",
+    "except",
+    "should",
+    "slow"
+   ],
+   "at": "2026-09-13T10:27:01.620855+00:00"
   }
  ],
  "snapshots": {
-  "hn:49511534": [
-   335,
-   "2026-08-31T23:16:46.543207+00:00"
-  ],
-  "hn:49510540": [
-   142,
-   "2026-08-31T23:16:46.543207+00:00"
-  ],
-  "hn:49510532": [
-   300,
-   "2026-08-31T23:16:46.543207+00:00"
-  ],
-  "hn:49510511": [
-   166,
-   "2026-08-31T23:16:46.543207+00:00"
-  ],
-  "hn:49510489": [
-   149,
-   "2026-08-31T23:16:46.543207+00:00"
-  ],
-  "hn:49510320": [
-   143,
-   "2026-08-31T23:16:46.543207+00:00"
-  ],
-  "hn:49510000": [
-   264,
-   "2026-08-31T23:16:46.543207+00:00"
-  ],
-  "hn:49508982": [
-   847,
-   "2026-08-31T23:16:46.543207+00:00"
-  ],
-  "hn:49508664": [
-   232,
-   "2026-08-31T23:16:46.543207+00:00"
-  ],
-  "hn:49508506": [
-   466,
-   "2026-08-31T23:16:46.543207+00:00"
-  ],
-  "lobsters:zzn47c": [
-   108,
-   "2026-08-31T23:16:46.543207+00:00"
-  ],
   "lobsters:qn7jtv": [
    114,
    "2026-08-31T23:16:46.543207+00:00"
@@ -5230,6 +5207,50 @@
   "lobsters:zuhv4b": [
    25,
    "2026-09-12T21:32:12.788317+00:00"
+  ],
+  "hn:49678969": [
+   819,
+   "2026-09-13T10:26:56.360721+00:00"
+  ],
+  "hn:49678683": [
+   1078,
+   "2026-09-13T10:26:56.360721+00:00"
+  ],
+  "hn:49678435": [
+   117,
+   "2026-09-13T10:26:56.360721+00:00"
+  ],
+  "hn:49678432": [
+   164,
+   "2026-09-13T10:26:56.360721+00:00"
+  ],
+  "lobsters:fmkm3v": [
+   37,
+   "2026-09-13T10:26:56.360721+00:00"
+  ],
+  "at://did:plc:kft6lu4trxowqmter2b6vg6z/app.bsky.feed.post/3mved4krjbs2b": [
+   99,
+   "2026-09-13T10:26:56.360721+00:00"
+  ],
+  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mverm6x3og2a": [
+   700,
+   "2026-09-13T10:26:56.360721+00:00"
+  ],
+  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mvejcejxs32n": [
+   169,
+   "2026-09-13T10:26:56.360721+00:00"
+  ],
+  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mvefr6chzd2y": [
+   689,
+   "2026-09-13T10:26:56.360721+00:00"
+  ],
+  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mvef6rs2dc2u": [
+   176,
+   "2026-09-13T10:26:56.360721+00:00"
+  ],
+  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mvecyept3i23": [
+   97,
+   "2026-09-13T10:26:56.360721+00:00"
   ]
  }
 }
