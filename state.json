@@ -591,18 +591,21 @@
   "rEYnB2Kky6BsMAyX7UrA9m",
   "https://www.engadget.com/2257150/valves-steam-frame-vr-headset-starts-at-1059-and-ships-with-half-life-alyx/",
   "https://www.techspot.com/news/113838-valve-steam-frame-launches-1059-half-life-alyx.html",
-  "https://www.neowin.net/news/valve-launches-steam-frame-standalone-vr-headset-starting-at-1059/"
+  "https://www.neowin.net/news/valve-launches-steam-frame-standalone-vr-headset-starting-at-1059/",
+  "https://www.theregister.com/a/5296408",
+  "https://www.bleepingcomputer.com/news/security/hackers-hijack-hbo-max-reddit-account-to-push-malware-in-clickfix-ads/",
+  "https://www.securityweek.com/?p=49312"
  ],
  "posted": {
   "viral": 126,
-  "editorial": 126
+  "editorial": 127
  },
  "recent_labels": [
-  "Hacker News",
   "Lobsters",
   "The Hacker News",
   "Neowin",
-  "Tom's Hardware"
+  "Tom's Hardware",
+  "The Register"
  ],
  "last_digest": "2026-09-11",
  "history": [
@@ -927,6 +930,13 @@
    "source": "Tom's Hardware",
    "score": 0.40423,
    "at": "2026-09-14T23:56:00.338833+00:00"
+  },
+  {
+   "title": "حمله بدافزاری گسترده به کاربران HBO Max از طریق حساب کاربری هک‌شده",
+   "url": "https://www.theregister.com/cyber-crime/2026/09/14/hbo-max-reddit-account-compromised-to-serve-clickfix-attacks/5296408",
+   "source": "The Register",
+   "score": 0.43846,
+   "at": "2026-09-15T10:16:31.200623+00:00"
   }
  ],
  "stories": [
@@ -3075,37 +3085,31 @@
     "valve"
    ],
    "at": "2026-09-14T23:56:00.338833+00:00"
+  },
+  {
+   "sig": [
+    "account",
+    "ads",
+    "attack",
+    "attacks",
+    "clickfix",
+    "compromised",
+    "delivery",
+    "hacked",
+    "hackers",
+    "hbo",
+    "hijack",
+    "malware",
+    "max",
+    "push",
+    "reddit",
+    "serve",
+    "via"
+   ],
+   "at": "2026-09-15T10:16:31.200623+00:00"
   }
  ],
  "snapshots": {
-  "hn:49535324": [
-   87,
-   "2026-09-02T21:54:58.123839+00:00"
-  ],
-  "lobsters:nh1uij": [
-   54,
-   "2026-09-02T21:54:58.123839+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3muknhd2kzn2d": [
-   276,
-   "2026-09-02T21:54:58.123839+00:00"
-  ],
-  "hn:49546432": [
-   227,
-   "2026-09-03T10:00:09.062183+00:00"
-  ],
-  "hn:49544903": [
-   61,
-   "2026-09-03T10:00:09.062183+00:00"
-  ],
-  "hn:49543841": [
-   290,
-   "2026-09-03T10:00:09.062183+00:00"
-  ],
-  "hn:49543530": [
-   200,
-   "2026-09-03T10:00:09.062183+00:00"
-  ],
   "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mukzrzfrzc2k": [
    46,
    "2026-09-03T10:00:09.062183+00:00"
@@ -5477,6 +5481,34 @@
   "hn:49695805": [
    73,
    "2026-09-14T23:55:58.206895+00:00"
+  ],
+  "hn:49708431": [
+   311,
+   "2026-09-15T10:16:27.793677+00:00"
+  ],
+  "hn:49707477": [
+   238,
+   "2026-09-15T10:16:27.793677+00:00"
+  ],
+  "hn:49706223": [
+   384,
+   "2026-09-15T10:16:27.793677+00:00"
+  ],
+  "hn:49705868": [
+   249,
+   "2026-09-15T10:16:27.793677+00:00"
+  ],
+  "hn:49705630": [
+   95,
+   "2026-09-15T10:16:27.793677+00:00"
+  ],
+  "hn:49705442": [
+   110,
+   "2026-09-15T10:16:27.793677+00:00"
+  ],
+  "at://did:plc:2mrgzk6xlemfv6yugn644xxy/app.bsky.feed.post/3mvkd2urafc2u": [
+   27,
+   "2026-09-15T10:16:27.793677+00:00"
   ]
  }
 }
