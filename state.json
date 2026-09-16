@@ -599,18 +599,21 @@
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mvkvehgxmk2j",
   "hn:49715113",
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mvkw4ym5kb2t",
-  "hn:49717558"
+  "hn:49717558",
+  "https://www.techspot.com/news/113851-eu-plans-under-15-restrictions-social-media-ai.html",
+  "https://www.theverge.com/?p=995704",
+  "TheNextWeb=4d4771d91f50672c8b3686b305eff47d"
  ],
  "posted": {
   "viral": 129,
-  "editorial": 127
+  "editorial": 128
  },
  "recent_labels": [
-  "Tom's Hardware",
   "The Register",
   "Hacker News",
   "404 Media",
-  "Hacker News"
+  "Hacker News",
+  "TechSpot"
  ],
  "last_digest": "2026-09-11",
  "history": [
@@ -963,6 +966,13 @@
    "source": "typesafe.ai",
    "score": 0.24827,
    "at": "2026-09-15T22:27:32.750167+00:00"
+  },
+  {
+   "title": "طرح جدید اتحادیه اروپا برای محدودیت دسترسی کودکان به چت‌بات‌ها و بازی‌ها",
+   "url": "https://www.techspot.com/news/113851-eu-plans-under-15-restrictions-social-media-ai.html",
+   "source": "TechSpot",
+   "score": 0.70577,
+   "at": "2026-09-16T10:09:40.906870+00:00"
   }
  ],
  "stories": [
@@ -3165,49 +3175,31 @@
     "system"
    ],
    "at": "2026-09-15T22:27:32.750167+00:00"
+  },
+  {
+   "sig": [
+    "ban",
+    "chatbots",
+    "children",
+    "commission",
+    "european",
+    "games",
+    "hurting",
+    "isn",
+    "kids",
+    "media",
+    "online",
+    "president",
+    "proposes",
+    "social",
+    "under",
+    "union",
+    "wants"
+   ],
+   "at": "2026-09-16T10:09:40.906870+00:00"
   }
  ],
  "snapshots": {
-  "lobsters:4vsl2j": [
-   33,
-   "2026-09-04T17:43:20.607461+00:00"
-  ],
-  "hn:49562895": [
-   280,
-   "2026-09-04T20:55:10.613859+00:00"
-  ],
-  "hn:49562814": [
-   229,
-   "2026-09-04T20:55:10.613859+00:00"
-  ],
-  "hn:49562744": [
-   94,
-   "2026-09-04T20:55:10.613859+00:00"
-  ],
-  "hn:49562657": [
-   514,
-   "2026-09-04T20:55:10.613859+00:00"
-  ],
-  "lobsters:ku30xf": [
-   123,
-   "2026-09-04T20:55:10.613859+00:00"
-  ],
-  "hn:49567053": [
-   456,
-   "2026-09-04T20:55:10.613859+00:00"
-  ],
-  "hn:49562219": [
-   107,
-   "2026-09-04T20:55:10.613859+00:00"
-  ],
-  "hn:49563784": [
-   521,
-   "2026-09-04T23:09:11.294487+00:00"
-  ],
-  "hn:49563386": [
-   503,
-   "2026-09-04T23:09:11.294487+00:00"
-  ],
   "hn:49563355": [
    3659,
    "2026-09-04T23:09:11.294487+00:00"
@@ -5567,6 +5559,46 @@
   "lobsters:buzdkb": [
    47,
    "2026-09-15T22:27:29.131292+00:00"
+  ],
+  "hn:49721548": [
+   123,
+   "2026-09-16T10:09:38.974029+00:00"
+  ],
+  "hn:49721435": [
+   157,
+   "2026-09-16T10:09:38.974029+00:00"
+  ],
+  "hn:49721322": [
+   627,
+   "2026-09-16T10:09:38.974029+00:00"
+  ],
+  "hn:49719938": [
+   201,
+   "2026-09-16T10:09:38.974029+00:00"
+  ],
+  "lobsters:wxnibb": [
+   67,
+   "2026-09-16T10:09:38.974029+00:00"
+  ],
+  "lobsters:zutlqt": [
+   27,
+   "2026-09-16T10:09:38.974029+00:00"
+  ],
+  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mvlvxwvkal2n": [
+   61,
+   "2026-09-16T10:09:38.974029+00:00"
+  ],
+  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mvlszavki22t": [
+   136,
+   "2026-09-16T10:09:38.974029+00:00"
+  ],
+  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mvlrm2uzrk2t": [
+   56,
+   "2026-09-16T10:09:38.974029+00:00"
+  ],
+  "at://did:plc:ipt7y6qaf6fn7oeeduboqe44/app.bsky.feed.post/3mvmpnsajkc2o": [
+   49,
+   "2026-09-16T10:09:38.974029+00:00"
   ]
  }
 }
