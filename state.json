@@ -622,18 +622,20 @@
   "hn:49740330",
   "oLK7ZLSExUMa5Fo64WDkJF",
   "https://www.techspot.com/news/113886-us-iran-war-permanently-damaged-amazon-aws-infrastructure.html",
-  "hn:49746163"
+  "hn:49746163",
+  "https://thehackernews.com/2026/09/critical-check-point-management-server.html",
+  "https://www.bleepingcomputer.com/news/security/check-point-warns-critical-flaw-lets-hackers-execute-code-as-root/"
  ],
  "posted": {
   "viral": 132,
-  "editorial": 132
+  "editorial": 133
  },
  "recent_labels": [
-  "3DNews",
   "The Register",
   "Hacker News",
   "Tom's Hardware",
-  "Hacker News"
+  "Hacker News",
+  "The Hacker News"
  ],
  "last_digest": "2026-09-11",
  "history": [
@@ -1042,6 +1044,13 @@
    "source": "bend-lang.com",
    "score": 0.34508,
    "at": "2026-09-17T22:19:37.091272+00:00"
+  },
+  {
+   "title": "آسیب‌پذیری بحرانی در سرورهای مدیریت Check Point با امکان اجرای کد از راه دور",
+   "url": "https://thehackernews.com/2026/09/critical-check-point-management-server.html",
+   "source": "The Hacker News",
+   "score": 0.49438,
+   "at": "2026-09-18T09:57:39.109793+00:00"
   }
  ],
  "stories": [
@@ -3391,45 +3400,28 @@
     "via"
    ],
    "at": "2026-09-17T22:19:37.091272+00:00"
+  },
+  {
+   "sig": [
+    "attackers",
+    "check",
+    "code",
+    "critical",
+    "execute",
+    "flaw",
+    "hackers",
+    "lets",
+    "management",
+    "point",
+    "privileges",
+    "root",
+    "run",
+    "unauthenticated"
+   ],
+   "at": "2026-09-18T09:57:39.109793+00:00"
   }
  ],
  "snapshots": {
-  "hn:49586151": [
-   88,
-   "2026-09-06T21:31:15.029937+00:00"
-  ],
-  "hn:49585703": [
-   93,
-   "2026-09-06T21:31:15.029937+00:00"
-  ],
-  "lobsters:be5lrk": [
-   34,
-   "2026-09-06T21:31:15.029937+00:00"
-  ],
-  "lobsters:jsxzwl": [
-   33,
-   "2026-09-06T21:31:15.029937+00:00"
-  ],
-  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3muupmwvcl72k": [
-   111,
-   "2026-09-06T21:31:15.029937+00:00"
-  ],
-  "at://did:plc:x2nsupeeo52oznrmplwapppl/app.bsky.feed.post/3muunkj2uts2a": [
-   86,
-   "2026-09-06T21:31:15.029937+00:00"
-  ],
-  "hn:49592840": [
-   115,
-   "2026-09-07T10:35:26.920456+00:00"
-  ],
-  "hn:49592375": [
-   184,
-   "2026-09-07T10:35:26.920456+00:00"
-  ],
-  "hn:49591876": [
-   405,
-   "2026-09-07T10:35:26.920456+00:00"
-  ],
   "hn:49591793": [
    198,
    "2026-09-07T10:35:26.920456+00:00"
@@ -5786,13 +5778,49 @@
    32,
    "2026-09-17T22:19:35.098131+00:00"
   ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mvqoizq33v2s": [
-   94,
-   "2026-09-17T22:19:35.098131+00:00"
-  ],
   "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mvqkwdc5hv2o": [
    92,
    "2026-09-17T22:19:35.098131+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mvqoizq33v2s": [
+   825,
+   "2026-09-18T09:57:36.557737+00:00"
+  ],
+  "hn:49749771": [
+   151,
+   "2026-09-18T09:57:36.557737+00:00"
+  ],
+  "hn:49749656": [
+   659,
+   "2026-09-18T09:57:36.557737+00:00"
+  ],
+  "hn:49749393": [
+   84,
+   "2026-09-18T09:57:36.557737+00:00"
+  ],
+  "hn:49748957": [
+   101,
+   "2026-09-18T09:57:36.557737+00:00"
+  ],
+  "lobsters:vzql1n": [
+   38,
+   "2026-09-18T09:57:36.557737+00:00"
+  ],
+  "lobsters:lcjf7c": [
+   32,
+   "2026-09-18T09:57:36.557737+00:00"
+  ],
+  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mvqv4gxzxu2n": [
+   148,
+   "2026-09-18T09:57:36.557737+00:00"
+  ],
+  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mvrdbnvrds2b": [
+   15,
+   "2026-09-18T09:57:36.557737+00:00"
+  ],
+  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mvqx6xzumk27": [
+   8,
+   "2026-09-18T09:57:36.557737+00:00"
   ]
  }
 }
