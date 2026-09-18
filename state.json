@@ -624,231 +624,23 @@
   "https://www.techspot.com/news/113886-us-iran-war-permanently-damaged-amazon-aws-infrastructure.html",
   "hn:49746163",
   "https://thehackernews.com/2026/09/critical-check-point-management-server.html",
-  "https://www.bleepingcomputer.com/news/security/check-point-warns-critical-flaw-lets-hackers-execute-code-as-root/"
+  "https://www.bleepingcomputer.com/news/security/check-point-warns-critical-flaw-lets-hackers-execute-code-as-root/",
+  "lobsters:lcjf7c",
+  "hn:49753878"
  ],
  "posted": {
-  "viral": 132,
+  "viral": 133,
   "editorial": 133
  },
  "recent_labels": [
-  "The Register",
   "Hacker News",
   "Tom's Hardware",
   "Hacker News",
-  "The Hacker News"
+  "The Hacker News",
+  "Hacker News"
  ],
- "last_digest": "2026-09-11",
+ "last_digest": "2026-09-18",
  "history": [
-  {
-   "title": "محدودیت زمانی برای سرویس ابری Xbox Cloud Gaming مایکروسافت",
-   "url": "https://games.slashdot.org/story/26/09/03/1943208/xbox-cloud-gaming-switches-to-monthly-hour-limits?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-   "source": "Slashdot",
-   "score": 0.51916,
-   "at": "2026-09-04T17:43:27.201755+00:00"
-  },
-  {
-   "title": "افشای هویت مدیر متا در پرونده جنجالی دانلود غیرقانونی محتوا",
-   "url": "https://torrentfreak.com/adult-film-producer-unmasks-prolific-john-doe-torrent-pirate-as-meta-executive/",
-   "source": "torrentfreak.com",
-   "score": 0.07559,
-   "at": "2026-09-04T20:55:13.199048+00:00"
-  },
-  {
-   "title": "شناسایی آسیب‌پذیری بحرانی RCE در تمامی نسخه‌های مرورگر کرومیوم",
-   "url": "https://nvd.nist.gov/vuln/detail/cve-2026-85046",
-   "source": "nvd.nist.gov",
-   "score": 0.16163,
-   "at": "2026-09-04T23:09:16.352623+00:00"
-  },
-  {
-   "title": "رونمایی OpenAI از مدل هوشمند GPT-6 Astra با توانایی خیره‌کننده در اکسپلویت‌نویسی",
-   "url": "https://thehackernews.com/2026/09/gpt-6-astra-scores-100-on-exploitbench.html",
-   "source": "The Hacker News",
-   "score": 0.54542,
-   "at": "2026-09-05T09:12:43.198002+00:00"
-  },
-  {
-   "title": "تغییر مدیرعامل اپل و افزایش قیمت اشتراک Apple TV",
-   "url": "https://9to5mac.com/2026/09/03/happy-hour-606/",
-   "source": "9to5Mac",
-   "score": 0.4324,
-   "at": "2026-09-05T12:54:13.376580+00:00"
-  },
-  {
-   "title": "انتقاد از هشدارهای کاذب ابزارهای اسکن آسیب‌پذیری در پروژه‌های متن‌باز",
-   "url": "https://bsky.app/profile/filippo.abyssdomain.expert/post/3murek44kop2y",
-   "source": "Filippo Valsorda",
-   "score": 0.14383,
-   "at": "2026-09-05T16:10:18.463317+00:00"
-  },
-  {
-   "title": "پنهان‌کاری OpenAI در مورد رفتارهای خودمختار و غیرمنتظره مدل‌های هوش مصنوعی",
-   "url": "https://www.bleepingcomputer.com/news/security/openai-admits-it-didnt-disclose-rogue-ai-wiki-hijacking-incident/",
-   "source": "BleepingComputer",
-   "score": 0.76375,
-   "at": "2026-09-05T18:29:14.029839+00:00"
-  },
-  {
-   "title": "استفاده از ایجنت‌های هوش مصنوعی برای کنترل نرم‌افزار Blender در macOS",
-   "url": "https://bsky.app/profile/simonwillison.net/post/3murtmdynq22s",
-   "source": "Simon Willison",
-   "score": 0.16383,
-   "at": "2026-09-05T20:38:09.641585+00:00"
-  },
-  {
-   "title": "استودیو Moonbug استفاده از هوش مصنوعی در تولید انیمیشن‌های کودکان را آغاز کرد",
-   "url": "https://www.404media.co/cocomelons-studio-tells-its-artists-to-start-experimenting-with-ai/",
-   "source": "404media.co",
-   "score": 0.0808,
-   "at": "2026-09-06T09:34:39.792962+00:00"
-  },
-  {
-   "title": "تغییر استراتژی اپل در عرضه مدل‌های جدید آیفون و گوشی تاشو",
-   "url": "https://www.wired.com/story/there-may-not-be-an-iphone-18-this-year/",
-   "source": "Wired",
-   "score": 0.44449,
-   "at": "2026-09-06T17:13:37.335669+00:00"
-  },
-  {
-   "title": "آسیب‌پذیری در نرم‌افزار QBittorrent برای خروج از محیط ایزوله",
-   "url": "https://beige.party/@intransitivelie/117057396732763183",
-   "source": "beige.party",
-   "score": 0.18442,
-   "at": "2026-09-06T19:22:40.727794+00:00"
-  },
-  {
-   "title": "ادامه‌ی فعالیت پروژه‌ی Nitter پس از دریافت اخطاریه حقوقی از X Corp",
-   "url": "https://github.com/zedeus/nitter/commit/1428b4c2b4246f92a7e5b2673438e5fb39fcc4a3",
-   "source": "github.com",
-   "score": 0.31206,
-   "at": "2026-09-06T21:31:17.326225+00:00"
-  },
-  {
-   "title": "حمله به روترهای MikroTik از طریق دسترسی غیرمجاز SSH",
-   "url": "https://thehackernews.com/2026/09/attackers-hijack-mikrotik-routers.html",
-   "source": "The Hacker News",
-   "score": 0.63794,
-   "at": "2026-09-07T10:36:33.315201+00:00"
-  },
-  {
-   "title": "بررسی استفاده دولت آمریکا از داده‌های خصوصی برای نظارت و عملیات نظامی",
-   "url": "https://join.theintercept.com/signup/Podcast_404_Media_Live/",
-   "source": "join.theintercept.com",
-   "score": 0.24377,
-   "at": "2026-09-07T16:36:12.250311+00:00"
-  },
-  {
-   "title": "انتقاد از ماهیت تبلیغاتی مدل‌های زبانی و چت‌بات‌ها",
-   "url": "https://bsky.app/profile/emilymbender.bsky.social/post/3mux7d3xrd72c",
-   "source": "Emily M. Bender",
-   "score": 0.40353,
-   "at": "2026-09-07T20:42:01.890066+00:00"
-  },
-  {
-   "title": "نقد رفتارهای کاربران در اشتراک‌گذاری پاسخ‌های هوش مصنوعی",
-   "url": "https://bsky.app/profile/simonwillison.net/post/3muwzopsoqs26",
-   "source": "Simon Willison",
-   "score": 0.10101,
-   "at": "2026-09-07T23:38:55.044939+00:00"
-  },
-  {
-   "title": "معرفی پلتفرم جدید Arm Neoverse CSS N4 با قابلیت ۱۲۸ هسته",
-   "url": "https://www.tomshardware.com/pc-components/cpus/arm-debuts-next-gen-semi-custom-neoverse-css-n4-ranger-platform-compute-subsystem-packs-up-to-128-cores-per-die-on-tsmc-n3p",
-   "source": "Tom's Hardware",
-   "score": 0.51326,
-   "at": "2026-09-08T09:56:44.003549+00:00"
-  },
-  {
-   "title": "پلتفرم هوش مصنوعی Copperhead برای طراحی و اعتبارسنجی بردهای مدار چاپی",
-   "url": "https://copperhead.sh/",
-   "source": "copperhead.sh",
-   "score": 0.49914,
-   "at": "2026-09-08T14:41:41.886140+00:00"
-  },
-  {
-   "title": "وصله‌ی اضطراری ادوبی برای رفع آسیب‌پذیری بحرانی در Magento",
-   "url": "https://thehackernews.com/2026/09/adobe-patches-magento-zero-day.html",
-   "source": "The Hacker News",
-   "score": 0.7819,
-   "at": "2026-09-08T18:52:00.482889+00:00"
-  },
-  {
-   "title": "نشت غیرقانونی ایمیل کاربران Channel 5 به Hunter Biden",
-   "url": "https://www.404media.co/channel-5-gave-hunter-biden-a-list-of-its-subscribers-emails-for-some-reason/",
-   "source": "404media.co",
-   "score": 0.29838,
-   "at": "2026-09-08T21:58:17.258479+00:00"
-  },
-  {
-   "title": "اثبات ریاضی مسئله Navier-Stokes توسط مدل هوش مصنوعی OpenAI",
-   "url": "https://thenextweb.com/news/openai-navier-stokes-proof-published-millennium-prize",
-   "source": "The Next Web",
-   "score": 0.747,
-   "at": "2026-09-09T09:59:05.251925+00:00"
-  },
-  {
-   "title": "معرفی آیفون تاشو و قابلیت‌های جدید هوش مصنوعی در رویداد اپل",
-   "url": "https://www.wired.com/live/apple-event-live-blog-september-2026-iphone-launch/",
-   "source": "Wired",
-   "score": 1.55916,
-   "at": "2026-09-09T14:43:16.342371+00:00"
-  },
-  {
-   "title": "درایور جدید Nvidia GeForce 616.92 برای بهبود عملکرد بازی‌ها منتشر شد",
-   "url": "https://www.techspot.com/downloads/drivers/essentials/nvidia-geforce/",
-   "source": "TechSpot",
-   "score": 0.36243,
-   "at": "2026-09-09T18:46:14.914302+00:00"
-  },
-  {
-   "title": "هشدار محققان درباره احتمال ۱۰ درصدی نابودی بشریت توسط هوش مصنوعی",
-   "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/more-than-10-percent-chance-ai-could-kill-all-humans-in-the-next-10-years-anthropic-safety-researcher-says-departing-employee-says-ai-companies-are-gambling-with-our-lives",
-   "source": "Tom's Hardware",
-   "score": 0.63716,
-   "at": "2026-09-09T21:48:30.236242+00:00"
-  },
-  {
-   "title": "انتقاد از توانایی علمی تیم‌های توسعه‌دهنده OpenAI",
-   "url": "https://mastodon.social/@tristanbuckmaster/117237555794407063",
-   "source": "mastodon.social",
-   "score": 0.12024,
-   "at": "2026-09-10T09:56:07.434955+00:00"
-  },
-  {
-   "title": "شناسایی کیت اکسپلویت BlueMoon برای نفوذ به ویندوز و کروم",
-   "url": "https://thehackernews.com/2026/09/four-spy-groups-used-same-chrome-and.html",
-   "source": "The Hacker News",
-   "score": 0.75197,
-   "at": "2026-09-10T14:33:35.580018+00:00"
-  },
-  {
-   "title": "هک سیستم‌های هوش مصنوعی و همکاری خودکار مدل‌ها",
-   "url": "https://www.marketplace.org/episode/2026/09/10/the-hugging-face-hack-shows-what-happens-when-ai-agents-work-together",
-   "source": "marketplace.org",
-   "score": 0.30023,
-   "at": "2026-09-10T18:36:45.618369+00:00"
-  },
-  {
-   "title": "رفع حفره امنیتی بحرانی در Forgejo",
-   "url": "https://codeberg.org/forgejo/forgejo/src/branch/forgejo/release-notes-published/16.0.4.md",
-   "source": "codeberg.org",
-   "score": 0.12989,
-   "at": "2026-09-10T21:44:25.484425+00:00"
-  },
-  {
-   "title": "نفوذ هکرها به سرورهای تست داخلی Surfshark به دلیل خطای پیکربندی",
-   "url": "https://www.bleepingcomputer.com/news/security/surfshark-vpn-says-hackers-breached-internal-testing-proxy-servers/",
-   "source": "BleepingComputer",
-   "score": 0.53632,
-   "at": "2026-09-11T09:53:45.552439+00:00"
-  },
-  {
-   "title": "خشم ساکنان میشیگان از احداث مرکز داده ۱.۲ میلیارد دلاری دانشگاه میشیگان",
-   "url": "https://www.404media.co/we-did-not-invite-you-citizens-rage-at-town-hall-over-proposed-nuclear-ai-data-center/",
-   "source": "404media.co",
-   "score": 0.75274,
-   "at": "2026-09-11T14:32:57.840963+00:00"
-  },
   {
    "title": "عرضه‌ی مدل هوش مصنوعی GPT-6 Astra با قابلیت‌های پیشرفته‌ی کدنویسی و امنیتی",
    "url": "https://www.infoq.com/news/2026/09/openai-gpt6-astra/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
@@ -1051,6 +843,13 @@
    "source": "The Hacker News",
    "score": 0.49438,
    "at": "2026-09-18T09:57:39.109793+00:00"
+  },
+  {
+   "title": "بررسی تجربی طراحی محیط‌های اجرایی برای ایجنت‌های برنامه‌نویس",
+   "url": "https://arxiv.org/abs/2609.20804",
+   "source": "arxiv.org",
+   "score": 0.11282,
+   "at": "2026-09-18T14:35:19.300629+00:00"
   }
  ],
  "stories": [
@@ -3419,41 +3218,20 @@
     "unauthenticated"
    ],
    "at": "2026-09-18T09:57:39.109793+00:00"
+  },
+  {
+   "sig": [
+    "agents",
+    "coding",
+    "design",
+    "empirical",
+    "harness",
+    "study"
+   ],
+   "at": "2026-09-18T14:35:19.300629+00:00"
   }
  ],
  "snapshots": {
-  "hn:49591793": [
-   198,
-   "2026-09-07T10:35:26.920456+00:00"
-  ],
-  "hn:49591672": [
-   266,
-   "2026-09-07T10:35:26.920456+00:00"
-  ],
-  "hn:49591620": [
-   175,
-   "2026-09-07T10:35:26.920456+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3muvhmv5xo327": [
-   254,
-   "2026-09-07T10:35:26.920456+00:00"
-  ],
-  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3muvje36pic2m": [
-   685,
-   "2026-09-07T10:35:26.920456+00:00"
-  ],
-  "hn:49595320": [
-   299,
-   "2026-09-07T16:36:03.656157+00:00"
-  ],
-  "hn:49594878": [
-   1617,
-   "2026-09-07T16:36:03.656157+00:00"
-  ],
-  "hn:49594251": [
-   782,
-   "2026-09-07T16:36:03.656157+00:00"
-  ],
   "hn:49593971": [
    313,
    "2026-09-07T16:36:03.656157+00:00"
@@ -5786,14 +5564,6 @@
    825,
    "2026-09-18T09:57:36.557737+00:00"
   ],
-  "hn:49749771": [
-   151,
-   "2026-09-18T09:57:36.557737+00:00"
-  ],
-  "hn:49749656": [
-   659,
-   "2026-09-18T09:57:36.557737+00:00"
-  ],
   "hn:49749393": [
    84,
    "2026-09-18T09:57:36.557737+00:00"
@@ -5806,21 +5576,61 @@
    38,
    "2026-09-18T09:57:36.557737+00:00"
   ],
-  "lobsters:lcjf7c": [
-   32,
-   "2026-09-18T09:57:36.557737+00:00"
-  ],
   "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mvqv4gxzxu2n": [
    148,
-   "2026-09-18T09:57:36.557737+00:00"
-  ],
-  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mvrdbnvrds2b": [
-   15,
    "2026-09-18T09:57:36.557737+00:00"
   ],
   "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mvqx6xzumk27": [
    8,
    "2026-09-18T09:57:36.557737+00:00"
+  ],
+  "hn:49749771": [
+   229,
+   "2026-09-18T14:35:11.799808+00:00"
+  ],
+  "hn:49749656": [
+   732,
+   "2026-09-18T14:35:11.799808+00:00"
+  ],
+  "lobsters:lcjf7c": [
+   162,
+   "2026-09-18T14:35:11.799808+00:00"
+  ],
+  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mvrdbnvrds2b": [
+   18,
+   "2026-09-18T14:35:11.799808+00:00"
+  ],
+  "hn:49753878": [
+   63,
+   "2026-09-18T14:35:11.799808+00:00"
+  ],
+  "hn:49753179": [
+   523,
+   "2026-09-18T14:35:11.799808+00:00"
+  ],
+  "hn:49752614": [
+   326,
+   "2026-09-18T14:35:11.799808+00:00"
+  ],
+  "hn:49752422": [
+   292,
+   "2026-09-18T14:35:11.799808+00:00"
+  ],
+  "hn:49752056": [
+   1380,
+   "2026-09-18T14:35:11.799808+00:00"
+  ],
+  "hn:49750694": [
+   144,
+   "2026-09-18T14:35:11.799808+00:00"
+  ],
+  "lobsters:e1xglz": [
+   25,
+   "2026-09-18T14:35:11.799808+00:00"
+  ],
+  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mvse4wsgos27": [
+   18,
+   "2026-09-18T14:35:11.799808+00:00"
   ]
  }
 }
