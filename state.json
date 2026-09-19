@@ -635,18 +635,21 @@
   "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mvutwrross2s",
   "https://www.engadget.com/2263198/google-gemini-escaped-testing-environment-hacked-three-companies/",
   "https://techcrunch.com/?p=3166647",
-  "https://www.theverge.com/?p=997795"
+  "https://www.theverge.com/?p=997795",
+  "Eg8vUSk52w4BTBaSUZxTq8",
+  "hn:49768921",
+  "https://www.techspot.com/news/113891-microsoft-exec-ai-training-might-largest-labor-theft.html"
  ],
  "posted": {
   "viral": 137,
-  "editorial": 135
+  "editorial": 136
  },
  "recent_labels": [
-  "Emily M. Bender",
   "Hacker News",
   "Wired",
   "Emily M. Bender",
-  "Engadget"
+  "Engadget",
+  "Tom's Hardware"
  ],
  "last_digest": "2026-09-18",
  "history": [
@@ -901,6 +904,13 @@
    "source": "Engadget",
    "score": 0.2983,
    "at": "2026-09-19T19:27:25.765342+00:00"
+  },
+  {
+   "title": "افشای اسناد داخلی مایکروسافت و OpenAI در پرونده شکایت نیویورک‌تایمز",
+   "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/microsoft-director-called-ai-scraping-the-largest-theft-of-labor-in-human-history-while-openai-head-brands-chatgpt-an-existential-threat-to-publishers-revelations-come-from-legal-briefs-filed-in-nyt-lawsuit",
+   "source": "Tom's Hardware",
+   "score": 0.22713,
+   "at": "2026-09-19T21:36:38.067815+00:00"
   }
  ],
  "stories": [
@@ -3398,45 +3408,25 @@
     "went"
    ],
    "at": "2026-09-19T19:27:25.765342+00:00"
+  },
+  {
+   "sig": [
+    "director",
+    "exec",
+    "history",
+    "human",
+    "labor",
+    "largest",
+    "microsoft",
+    "might",
+    "scraping",
+    "theft",
+    "training"
+   ],
+   "at": "2026-09-19T21:36:38.067815+00:00"
   }
  ],
  "snapshots": {
-  "lobsters:aepn8g": [
-   28,
-   "2026-09-08T14:41:37.244226+00:00"
-  ],
-  "lobsters:sukgeg": [
-   30,
-   "2026-09-08T14:41:37.244226+00:00"
-  ],
-  "hn:49607443": [
-   1034,
-   "2026-09-08T18:51:57.848582+00:00"
-  ],
-  "hn:49608023": [
-   471,
-   "2026-09-08T18:51:57.848582+00:00"
-  ],
-  "hn:49607991": [
-   337,
-   "2026-09-08T18:51:57.848582+00:00"
-  ],
-  "lobsters:6licoy": [
-   93,
-   "2026-09-08T18:51:57.848582+00:00"
-  ],
-  "lobsters:eu78rh": [
-   31,
-   "2026-09-08T18:51:57.848582+00:00"
-  ],
-  "lobsters:ki3ylq": [
-   45,
-   "2026-09-08T18:51:57.848582+00:00"
-  ],
-  "hn:49610538": [
-   1068,
-   "2026-09-08T21:57:47.069446+00:00"
-  ],
   "hn:49608697": [
    387,
    "2026-09-08T21:57:47.069446+00:00"
@@ -5749,57 +5739,93 @@
    230,
    "2026-09-19T17:21:25.270852+00:00"
   ],
-  "hn:49765348": [
-   1166,
-   "2026-09-19T19:27:23.936772+00:00"
-  ],
   "hn:49764791": [
    2186,
    "2026-09-19T19:27:23.936772+00:00"
   ],
+  "hn:49765348": [
+   1403,
+   "2026-09-19T21:36:35.576049+00:00"
+  ],
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mvunvzmbvf2z": [
-   214,
-   "2026-09-19T19:27:23.936772+00:00"
+   226,
+   "2026-09-19T21:36:35.576049+00:00"
   ],
   "hn:49766911": [
-   120,
-   "2026-09-19T19:27:23.936772+00:00"
+   131,
+   "2026-09-19T21:36:35.576049+00:00"
   ],
   "hn:49766676": [
-   288,
-   "2026-09-19T19:27:23.936772+00:00"
+   311,
+   "2026-09-19T21:36:35.576049+00:00"
   ],
   "hn:49766637": [
-   455,
-   "2026-09-19T19:27:23.936772+00:00"
+   552,
+   "2026-09-19T21:36:35.576049+00:00"
   ],
   "hn:49766611": [
-   243,
-   "2026-09-19T19:27:23.936772+00:00"
+   288,
+   "2026-09-19T21:36:35.576049+00:00"
   ],
   "lobsters:3xfxnj": [
-   52,
-   "2026-09-19T19:27:23.936772+00:00"
+   59,
+   "2026-09-19T21:36:35.576049+00:00"
   ],
   "hn:49767937": [
-   174,
-   "2026-09-19T19:27:23.936772+00:00"
+   327,
+   "2026-09-19T21:36:35.576049+00:00"
   ],
   "hn:49766821": [
-   163,
-   "2026-09-19T19:27:23.936772+00:00"
+   180,
+   "2026-09-19T21:36:35.576049+00:00"
   ],
   "lobsters:kaqsr5": [
-   26,
-   "2026-09-19T19:27:23.936772+00:00"
+   36,
+   "2026-09-19T21:36:35.576049+00:00"
   ],
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mvvahf5f2o27": [
-   350,
-   "2026-09-19T19:27:23.936772+00:00"
+   425,
+   "2026-09-19T21:36:35.576049+00:00"
   ],
   "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mvvajzama224": [
-   21,
-   "2026-09-19T19:27:23.936772+00:00"
+   29,
+   "2026-09-19T21:36:35.576049+00:00"
+  ],
+  "hn:49768921": [
+   81,
+   "2026-09-19T21:36:35.576049+00:00"
+  ],
+  "hn:49768833": [
+   207,
+   "2026-09-19T21:36:35.576049+00:00"
+  ],
+  "hn:49765288": [
+   76,
+   "2026-09-19T21:36:35.576049+00:00"
+  ],
+  "lobsters:blmlco": [
+   49,
+   "2026-09-19T21:36:35.576049+00:00"
+  ],
+  "lobsters:sn8voe": [
+   27,
+   "2026-09-19T21:36:35.576049+00:00"
+  ],
+  "lobsters:q75kgo": [
+   28,
+   "2026-09-19T21:36:35.576049+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mvvh7qceis2n": [
+   385,
+   "2026-09-19T21:36:35.576049+00:00"
+  ],
+  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mvvicy5tnj2e": [
+   649,
+   "2026-09-19T21:36:35.576049+00:00"
+  ],
+  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mvvhngbvok2s": [
+   93,
+   "2026-09-19T21:36:35.576049+00:00"
   ]
  }
 }
