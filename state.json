@@ -632,18 +632,21 @@
   "hn:49763987",
   "6a8c66c112c52ac70f8bd558",
   "d1b6c8295bf14bafed48439f9b75086e",
-  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mvutwrross2s"
+  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mvutwrross2s",
+  "https://www.engadget.com/2263198/google-gemini-escaped-testing-environment-hacked-three-companies/",
+  "https://techcrunch.com/?p=3166647",
+  "https://www.theverge.com/?p=997795"
  ],
  "posted": {
   "viral": 137,
-  "editorial": 134
+  "editorial": 135
  },
  "recent_labels": [
-  "404 Media",
   "Emily M. Bender",
   "Hacker News",
   "Wired",
-  "Emily M. Bender"
+  "Emily M. Bender",
+  "Engadget"
  ],
  "last_digest": "2026-09-18",
  "history": [
@@ -891,6 +894,13 @@
    "source": "Emily M. Bender",
    "score": 0.12682,
    "at": "2026-09-19T17:21:31.942376+00:00"
+  },
+  {
+   "title": "نفوذ مدل هوش مصنوعی گوگل به شبکه‌های واقعی در حین تست",
+   "url": "https://www.engadget.com/2263198/google-gemini-escaped-testing-environment-hacked-three-companies/",
+   "source": "Engadget",
+   "score": 0.2983,
+   "at": "2026-09-19T19:27:25.765342+00:00"
   }
  ],
  "stories": [
@@ -3368,29 +3378,29 @@
     "would"
    ],
    "at": "2026-09-19T17:21:31.942376+00:00"
+  },
+  {
+   "sig": [
+    "companies",
+    "environment",
+    "escaped",
+    "gemini",
+    "google",
+    "hack",
+    "hacked",
+    "hid",
+    "latest",
+    "model",
+    "other",
+    "rogue",
+    "testing",
+    "three",
+    "went"
+   ],
+   "at": "2026-09-19T19:27:25.765342+00:00"
   }
  ],
  "snapshots": {
-  "hn:49605822": [
-   223,
-   "2026-09-08T14:41:37.244226+00:00"
-  ],
-  "hn:49605644": [
-   100,
-   "2026-09-08T14:41:37.244226+00:00"
-  ],
-  "hn:49605511": [
-   180,
-   "2026-09-08T14:41:37.244226+00:00"
-  ],
-  "lobsters:b7k94m": [
-   42,
-   "2026-09-08T14:41:37.244226+00:00"
-  ],
-  "lobsters:npyzwy": [
-   26,
-   "2026-09-08T14:41:37.244226+00:00"
-  ],
   "lobsters:aepn8g": [
    28,
    "2026-09-08T14:41:37.244226+00:00"
@@ -5731,45 +5741,65 @@
    874,
    "2026-09-19T17:21:25.270852+00:00"
   ],
-  "hn:49765348": [
-   884,
-   "2026-09-19T17:21:25.270852+00:00"
-  ],
-  "hn:49764791": [
-   1750,
-   "2026-09-19T17:21:25.270852+00:00"
-  ],
   "hn:49763883": [
    357,
-   "2026-09-19T17:21:25.270852+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mvunvzmbvf2z": [
-   200,
-   "2026-09-19T17:21:25.270852+00:00"
-  ],
-  "hn:49766911": [
-   115,
-   "2026-09-19T17:21:25.270852+00:00"
-  ],
-  "hn:49766676": [
-   189,
-   "2026-09-19T17:21:25.270852+00:00"
-  ],
-  "hn:49766637": [
-   335,
-   "2026-09-19T17:21:25.270852+00:00"
-  ],
-  "hn:49766611": [
-   181,
-   "2026-09-19T17:21:25.270852+00:00"
-  ],
-  "lobsters:3xfxnj": [
-   44,
    "2026-09-19T17:21:25.270852+00:00"
   ],
   "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mvutwrross2s": [
    230,
    "2026-09-19T17:21:25.270852+00:00"
+  ],
+  "hn:49765348": [
+   1166,
+   "2026-09-19T19:27:23.936772+00:00"
+  ],
+  "hn:49764791": [
+   2186,
+   "2026-09-19T19:27:23.936772+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mvunvzmbvf2z": [
+   214,
+   "2026-09-19T19:27:23.936772+00:00"
+  ],
+  "hn:49766911": [
+   120,
+   "2026-09-19T19:27:23.936772+00:00"
+  ],
+  "hn:49766676": [
+   288,
+   "2026-09-19T19:27:23.936772+00:00"
+  ],
+  "hn:49766637": [
+   455,
+   "2026-09-19T19:27:23.936772+00:00"
+  ],
+  "hn:49766611": [
+   243,
+   "2026-09-19T19:27:23.936772+00:00"
+  ],
+  "lobsters:3xfxnj": [
+   52,
+   "2026-09-19T19:27:23.936772+00:00"
+  ],
+  "hn:49767937": [
+   174,
+   "2026-09-19T19:27:23.936772+00:00"
+  ],
+  "hn:49766821": [
+   163,
+   "2026-09-19T19:27:23.936772+00:00"
+  ],
+  "lobsters:kaqsr5": [
+   26,
+   "2026-09-19T19:27:23.936772+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mvvahf5f2o27": [
+   350,
+   "2026-09-19T19:27:23.936772+00:00"
+  ],
+  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mvvajzama224": [
+   21,
+   "2026-09-19T19:27:23.936772+00:00"
   ]
  }
 }
