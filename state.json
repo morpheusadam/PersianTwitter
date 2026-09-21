@@ -648,18 +648,19 @@
   "https://www.neowin.net/news/people-hate-flock-so-much-that-its-employees-are-now-demoralized-and-thinking-of-quitting/",
   "hn:49777872",
   "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mvxtsdrkm22y",
-  "https://www.engadget.com/2260287/how-to-join-facetime-call-android-phone-windows-pc/"
+  "https://www.engadget.com/2260287/how-to-join-facetime-call-android-phone-windows-pc/",
+  "at://did:plc:ipt7y6qaf6fn7oeeduboqe44/app.bsky.feed.post/3mvz6hegazk2o"
  ],
  "posted": {
-  "viral": 140,
+  "viral": 141,
   "editorial": 138
  },
  "recent_labels": [
-  "3DNews",
   "Hacker News",
   "404 Media",
   "Emily M. Bender",
-  "Engadget"
+  "Engadget",
+  "antirez"
  ],
  "last_digest": "2026-09-18",
  "history": [
@@ -956,6 +957,13 @@
    "source": "Engadget",
    "score": 0.19616,
    "at": "2026-09-20T23:20:49.365482+00:00"
+  },
+  {
+   "title": "انتقاد از هیاهوی کاذب پیرامون ابزار Jev در حوزه هوش مصنوعی",
+   "url": "https://bsky.app/profile/antirez.bsky.social/post/3mvz6hegazk2o",
+   "source": "antirez",
+   "score": 0.16067,
+   "at": "2026-09-21T10:56:23.581483+00:00"
   }
  ],
  "stories": [
@@ -3542,41 +3550,37 @@
     "windows"
    ],
    "at": "2026-09-20T23:20:49.365482+00:00"
+  },
+  {
+   "sig": [
+    "around",
+    "bubble",
+    "cases",
+    "compared",
+    "don",
+    "exploded",
+    "fact",
+    "greatest",
+    "happening",
+    "hype",
+    "important",
+    "jev",
+    "know",
+    "may",
+    "minor",
+    "narrow",
+    "part",
+    "perfect",
+    "representation",
+    "rest",
+    "see",
+    "thing",
+    "yet"
+   ],
+   "at": "2026-09-21T10:56:23.581483+00:00"
   }
  ],
  "snapshots": {
-  "hn:49622554": [
-   138,
-   "2026-09-09T18:46:13.275409+00:00"
-  ],
-  "hn:49624856": [
-   722,
-   "2026-09-09T21:48:28.090856+00:00"
-  ],
-  "hn:49624823": [
-   528,
-   "2026-09-09T21:48:28.090856+00:00"
-  ],
-  "hn:49624603": [
-   794,
-   "2026-09-09T21:48:28.090856+00:00"
-  ],
-  "hn:49624394": [
-   1582,
-   "2026-09-09T21:48:28.090856+00:00"
-  ],
-  "hn:49624163": [
-   647,
-   "2026-09-09T21:48:28.090856+00:00"
-  ],
-  "hn:49623937": [
-   371,
-   "2026-09-09T21:48:28.090856+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mv3pxcuquy2p": [
-   1049,
-   "2026-09-09T21:48:28.090856+00:00"
-  ],
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mv3nh6ywjy2f": [
    145,
    "2026-09-09T21:48:28.090856+00:00"
@@ -5933,10 +5937,6 @@
    99,
    "2026-09-20T23:20:47.651598+00:00"
   ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mvychqxx6g2p": [
-   126,
-   "2026-09-20T23:20:47.651598+00:00"
-  ],
   "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mvybtcnffp2y": [
    219,
    "2026-09-20T23:20:47.651598+00:00"
@@ -5944,6 +5944,42 @@
   "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mvxmaqxbin2b": [
    5,
    "2026-09-20T23:20:47.651598+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mvychqxx6g2p": [
+   469,
+   "2026-09-21T10:56:20.652085+00:00"
+  ],
+  "hn:49783999": [
+   222,
+   "2026-09-21T10:56:20.652085+00:00"
+  ],
+  "hn:49783495": [
+   285,
+   "2026-09-21T10:56:20.652085+00:00"
+  ],
+  "hn:49783406": [
+   264,
+   "2026-09-21T10:56:20.652085+00:00"
+  ],
+  "hn:49783133": [
+   135,
+   "2026-09-21T10:56:20.652085+00:00"
+  ],
+  "hn:49783062": [
+   221,
+   "2026-09-21T10:56:20.652085+00:00"
+  ],
+  "lobsters:vwl2kn": [
+   32,
+   "2026-09-21T10:56:20.652085+00:00"
+  ],
+  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mvydkw23qw2c": [
+   136,
+   "2026-09-21T10:56:20.652085+00:00"
+  ],
+  "at://did:plc:ipt7y6qaf6fn7oeeduboqe44/app.bsky.feed.post/3mvz6hegazk2o": [
+   50,
+   "2026-09-21T10:56:20.652085+00:00"
   ]
  }
 }
