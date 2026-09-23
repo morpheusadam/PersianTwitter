@@ -681,18 +681,23 @@
   "9f171859ea1d04cfc88cd6a3c94b43ee",
   "1324194",
   "https://www.neowin.net/news/anthropics-new-claude-opus-55-model-is-almost-like-fable-51-but-much-cheaper/",
-  "https://9to5mac.com/?p=1071021"
+  "https://9to5mac.com/?p=1071021",
+  "https://thehackernews.com/2026/09/shinyhunters-claims-fbi-breach-says-it.html",
+  "https://www.bleepingcomputer.com/news/security/shinyhunters-claims-fbi-hack-data-theft-in-peoplesoft-zero-day-breach/",
+  "https://www.theregister.com/a/5298385",
+  "https://www.securityweek.com/?p=49505",
+  "TheNextWeb=75f53e8eb197f6fe73d074e2482954c5"
  ],
  "posted": {
   "viral": 143,
-  "editorial": 143
+  "editorial": 144
  },
  "recent_labels": [
-  "3DNews",
   "Lobsters",
   "Tom's Hardware",
   "404 Media",
-  "Slashdot"
+  "Slashdot",
+  "The Hacker News"
  ],
  "last_digest": "2026-09-18",
  "history": [
@@ -1045,6 +1050,13 @@
    "source": "Slashdot",
    "score": 0.4119,
    "at": "2026-09-22T22:21:53.545027+00:00"
+  },
+  {
+   "title": "گروه هکری ShinyHunters مدعی نفوذ به پایگاه داده FBI شد",
+   "url": "https://thehackernews.com/2026/09/shinyhunters-claims-fbi-breach-says-it.html",
+   "source": "The Hacker News",
+   "score": 0.8045,
+   "at": "2026-09-23T10:11:55.750378+00:00"
   }
  ],
  "stories": [
@@ -3798,33 +3810,34 @@
     "upgrades"
    ],
    "at": "2026-09-22T22:21:53.545027+00:00"
+  },
+  {
+   "sig": [
+    "agents",
+    "applicants",
+    "breach",
+    "claims",
+    "data",
+    "demands",
+    "fbi",
+    "financially",
+    "hack",
+    "investigating",
+    "job",
+    "motivated",
+    "peoplesoft",
+    "report",
+    "retraction",
+    "shinyhunters",
+    "stole",
+    "theft",
+    "threat",
+    "zero-day"
+   ],
+   "at": "2026-09-23T10:11:55.750378+00:00"
   }
  ],
  "snapshots": {
-  "hn:49657850": [
-   637,
-   "2026-09-11T14:32:39.654414+00:00"
-  ],
-  "hn:49653699": [
-   137,
-   "2026-09-11T14:32:39.654414+00:00"
-  ],
-  "lobsters:0i492m": [
-   36,
-   "2026-09-11T14:32:39.654414+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mvapeo3dwi2v": [
-   224,
-   "2026-09-11T14:32:39.654414+00:00"
-  ],
-  "hn:49655619": [
-   256,
-   "2026-09-11T18:41:48.306682+00:00"
-  ],
-  "hn:49655286": [
-   366,
-   "2026-09-11T18:41:48.306682+00:00"
-  ],
   "hn:49654387": [
    96,
    "2026-09-11T18:41:48.306682+00:00"
@@ -6200,6 +6213,30 @@
   "lobsters:ph1g2v": [
    60,
    "2026-09-22T22:21:48.319155+00:00"
+  ],
+  "hn:49813419": [
+   160,
+   "2026-09-23T10:11:50.784557+00:00"
+  ],
+  "hn:49813286": [
+   93,
+   "2026-09-23T10:11:50.784557+00:00"
+  ],
+  "hn:49811484": [
+   243,
+   "2026-09-23T10:11:50.784557+00:00"
+  ],
+  "hn:49811429": [
+   93,
+   "2026-09-23T10:11:50.784557+00:00"
+  ],
+  "hn:49810829": [
+   343,
+   "2026-09-23T10:11:50.784557+00:00"
+  ],
+  "at://did:plc:kft6lu4trxowqmter2b6vg6z/app.bsky.feed.post/3mw5g6izoms2n": [
+   148,
+   "2026-09-23T10:11:50.784557+00:00"
   ]
  }
 }
