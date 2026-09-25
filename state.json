@@ -701,231 +701,23 @@
   "3156318",
   "https://www.techspot.com/news/113973-microsoft-smaller-surface-pro-surface-laptop-get-faster.html",
   "lobsters:68n22g",
-  "hn:49841563"
+  "hn:49841563",
+  "https://techcrunch.com/?p=3168527",
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mwdzqnahi225"
  ],
  "posted": {
   "viral": 147,
-  "editorial": 146
+  "editorial": 147
  },
  "recent_labels": [
-  "3DNews",
   "Hacker News",
   "404 Media",
   "Tom's Hardware",
-  "Hacker News"
+  "Hacker News",
+  "TechCrunch AI"
  ],
- "last_digest": "2026-09-18",
+ "last_digest": "2026-09-25",
  "history": [
-  {
-   "title": "عرضه‌ی مدل هوش مصنوعی GPT-6 Astra با قابلیت‌های پیشرفته‌ی کدنویسی و امنیتی",
-   "url": "https://www.infoq.com/news/2026/09/openai-gpt6-astra/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-   "source": "InfoQ",
-   "score": 0.5993,
-   "at": "2026-09-11T18:41:51.376689+00:00"
-  },
-  {
-   "title": "چالش‌های هم‌سویی مدل‌های هوش مصنوعی در حل مسائل پیچیده ریاضی",
-   "url": "https://mathandai.org/",
-   "source": "mathandai.org",
-   "score": 0.34027,
-   "at": "2026-09-11T21:49:57.282528+00:00"
-  },
-  {
-   "title": "تغییر ساختار لینک‌های گوگل برای مقابله با اسکرپینگ داده‌های جستجو",
-   "url": "https://www.autom.dev/blog/google-search-goto-links",
-   "source": "autom.dev",
-   "score": 0.09738,
-   "at": "2026-09-12T09:30:04.202640+00:00"
-  },
-  {
-   "title": "پشتیبانی از DeepSeek v4.1 Flash در پروژه DwarfStar",
-   "url": "https://www.youtube.com/watch?v=ogs819nJkso",
-   "source": "youtube.com",
-   "score": 0.27003,
-   "at": "2026-09-12T13:03:39.474035+00:00"
-  },
-  {
-   "title": "مقایسه پرچمداران جدید اپل و گوگل در حوزه گوشی‌های هوشمند",
-   "url": "https://www.engadget.com/2256364/iphone-18-pro-vs-pixel-11-pro/",
-   "source": "Engadget",
-   "score": 0.33485,
-   "at": "2026-09-12T16:25:15.404087+00:00"
-  },
-  {
-   "title": "واکنش ال‌جی به اتهامات جاسوسی تلویزیون‌های هوشمند از کاربران",
-   "url": "https://yro.slashdot.org/story/26/09/12/1652215/lg-responds-to-tv-spying-allegations?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-   "source": "Slashdot",
-   "score": 0.61968,
-   "at": "2026-09-12T18:34:07.873236+00:00"
-  },
-  {
-   "title": "حمله عوامل هوش مصنوعی به مخزن RubyGems برای اجرای کد از راه دور",
-   "url": "https://thehackernews.com/2026/09/openai-agents-linked-to-rubygems.html",
-   "source": "The Hacker News",
-   "score": 0.3105,
-   "at": "2026-09-12T21:32:15.231380+00:00"
-  },
-  {
-   "title": "تضاد در رویکردهای توسعه‌دهندگان هوش مصنوعی",
-   "url": "https://xeiaso.net/notes/2026/everyone-slowdown-but-me/",
-   "source": "xeiaso.net",
-   "score": 0.06272,
-   "at": "2026-09-13T10:27:01.620855+00:00"
-  },
-  {
-   "title": "پاسخ Nvidia به اتهام تامین مالی چرخشی و ادعای سودآوری کلان",
-   "url": "https://invezz.com/news/2026/09/11/nvidia-says-every-1-it-invests-brings-back-100-so-why-does-the-stock-keep-falling/",
-   "source": "invezz.com",
-   "score": 0.10871,
-   "at": "2026-09-13T14:33:29.776316+00:00"
-  },
-  {
-   "title": "عملکرد ضعیف مدل‌های زبانی در شناسایی آسیب‌پذیری‌های امنیتی",
-   "url": "https://bsky.app/profile/filippo.abyssdomain.expert/post/3mvfkheny5u2t",
-   "source": "Filippo Valsorda",
-   "score": 0.08148,
-   "at": "2026-09-13T18:17:23.097820+00:00"
-  },
-  {
-   "title": "عدم عرضه عمومی سهام OpenAI در سال ۲۰۲۶ به دلیل مسائل ایمنی",
-   "url": "https://www.engadget.com/2256984/sam-altman-says-openai-wont-file-for-ipo-this-year/",
-   "source": "Engadget",
-   "score": 0.77538,
-   "at": "2026-09-13T21:00:31.086746+00:00"
-  },
-  {
-   "title": "مدل هوش مصنوعی Fable 5.1 رمزنگاری ۳۷۰ ساله را شکست",
-   "url": "https://www.vals.ai/blogs/fable-solves-cyphral-distich",
-   "source": "vals.ai",
-   "score": 0.15577,
-   "at": "2026-09-13T23:17:58.493276+00:00"
-  },
-  {
-   "title": "چالش‌های خوانایی و پذیرش تابع reduce در میان برنامه‌نویسان",
-   "url": "https://evanhahn.com/posts/2026-09-13-programmers-dislike-reduce/",
-   "source": "evanhahn.com",
-   "score": 0.05197,
-   "at": "2026-09-14T10:52:06.635456+00:00"
-  },
-  {
-   "title": "حملات فیشینگ با سوءاستفاده از Passkey برای نفوذ به حساب‌های مایکروسافت",
-   "url": "https://thehackernews.com/2026/09/attackers-use-passkey-phishing-to.html",
-   "source": "The Hacker News",
-   "score": 0.47306,
-   "at": "2026-09-14T17:00:27.415774+00:00"
-  },
-  {
-   "title": "انتشار به‌روزرسانی اضطراری مایکروسافت برای رفع باگ‌های ویندوز",
-   "url": "https://www.neowin.net/news/microsoft-releases-emergency-out-of-band-windows-update-to-fix-patch-tuesday-bugs/?utm_source=rss",
-   "source": "Neowin",
-   "score": 0.55652,
-   "at": "2026-09-14T21:00:38.909962+00:00"
-  },
-  {
-   "title": "عرضه‌ی هدست واقعیت مجازی Steam Frame با قابلیت پردازش مستقل و استریم",
-   "url": "https://www.tomshardware.com/virtual-reality/valve-engineers-discuss-the-duality-of-the-steam-frame-and-pricing-valves-newest-vr-headset-pivots-steamos-to-arm",
-   "source": "Tom's Hardware",
-   "score": 0.40423,
-   "at": "2026-09-14T23:56:00.338833+00:00"
-  },
-  {
-   "title": "حمله بدافزاری گسترده به کاربران HBO Max از طریق حساب کاربری هک‌شده",
-   "url": "https://www.theregister.com/cyber-crime/2026/09/14/hbo-max-reddit-account-compromised-to-serve-clickfix-attacks/5296408",
-   "source": "The Register",
-   "score": 0.43846,
-   "at": "2026-09-15T10:16:31.200623+00:00"
-  },
-  {
-   "title": "ساخت قاب عکس دیجیتال جوهر الکترونیک برای نمایش پرندگان با هوش مصنوعی",
-   "url": "https://github.com/arnegiacomo/fugleramme",
-   "source": "github.com",
-   "score": 0.40203,
-   "at": "2026-09-15T15:09:17.988849+00:00"
-  },
-  {
-   "title": "عوامل هوش مصنوعی با دسترسی به اینترنت در حال تخریب فضای آنلاین هستند",
-   "url": "https://www.404media.co/theres-a-100-chance-ai-agents-are-already-ruining-the-internet/",
-   "source": "404media.co",
-   "score": 0.35838,
-   "at": "2026-09-15T19:08:36.819036+00:00"
-  },
-  {
-   "title": "معرفی مدل‌های هوش مصنوعی Jev برای اتوماسیون سریع و ساختاریافته",
-   "url": "https://typesafe.ai/blog/introducing-system-one-models-and-jev",
-   "source": "typesafe.ai",
-   "score": 0.24827,
-   "at": "2026-09-15T22:27:32.750167+00:00"
-  },
-  {
-   "title": "طرح جدید اتحادیه اروپا برای محدودیت دسترسی کودکان به چت‌بات‌ها و بازی‌ها",
-   "url": "https://www.techspot.com/news/113851-eu-plans-under-15-restrictions-social-media-ai.html",
-   "source": "TechSpot",
-   "score": 0.70577,
-   "at": "2026-09-16T10:09:40.906870+00:00"
-  },
-  {
-   "title": "هک دوربین‌های نظارتی Flock و افشای جزئیات فنی ردیابی شهروندان",
-   "url": "https://www.404media.co/hackers-stole-flocks-camera-software-revealing-how-the-company-tracks-cars-and-people-2/",
-   "source": "404media.co",
-   "score": 0.48364,
-   "at": "2026-09-16T15:06:57.223453+00:00"
-  },
-  {
-   "title": "معرفی نسل جدید کتاب‌خوان‌های الکترونیکی و تبلت‌های Boox",
-   "url": "https://www.wired.com/story/boox-palma-3-announced/",
-   "source": "Wired",
-   "score": 1.08486,
-   "at": "2026-09-16T19:00:26.139839+00:00"
-  },
-  {
-   "title": "یکپارچه‌سازی رابط کاربری Claude برای مدیریت هوشمند ابزارهای تولید محتوا",
-   "url": "https://3dnews.ru/1148601",
-   "source": "3DNews",
-   "score": 0.62124,
-   "at": "2026-09-16T22:15:30.563401+00:00"
-  },
-  {
-   "title": "حملات فیشینگ با جعل هویت پشتیبانی Signal و مسدودسازی سایت‌های تبلیغاتی ایران",
-   "url": "https://www.theregister.com/personal-tech/2026/09/17/if-a-mac-mini-is-agentic-overkill-try-this-glowing-pyramid-that-runs-personal-bots/5296964",
-   "source": "The Register",
-   "score": 0.49283,
-   "at": "2026-09-17T10:13:45.149093+00:00"
-  },
-  {
-   "title": "آموزش مدل کوچک برای استخراج داده با استفاده از خروجی Gemini",
-   "url": "https://www.petervijeh.com/projects/reddit-ner",
-   "source": "petervijeh.com",
-   "score": 0.35311,
-   "at": "2026-09-17T15:09:26.928996+00:00"
-  },
-  {
-   "title": "درخواست آمازون از مشتریان برای خروج داده‌ها از دیتاسنترهای خاورمیانه",
-   "url": "https://www.tomshardware.com/tech-industry/data-centers/amazon-reportedly-tells-customers-in-abu-dhabi-and-bahrain-to-find-safer-harbors-for-their-data-aws-has-no-timeline-for-resuming-operations-six-months-after-drone-strikes-damaged-data-centers-in-the-region",
-   "source": "Tom's Hardware",
-   "score": 0.45342,
-   "at": "2026-09-17T19:09:53.194985+00:00"
-  },
-  {
-   "title": "معرفی زبان برنامه‌نویسی Bend برای اجرای موازی و اثبات صحت کدهای هوش مصنوعی",
-   "url": "https://bend-lang.com/",
-   "source": "bend-lang.com",
-   "score": 0.34508,
-   "at": "2026-09-17T22:19:37.091272+00:00"
-  },
-  {
-   "title": "آسیب‌پذیری بحرانی در سرورهای مدیریت Check Point با امکان اجرای کد از راه دور",
-   "url": "https://thehackernews.com/2026/09/critical-check-point-management-server.html",
-   "source": "The Hacker News",
-   "score": 0.49438,
-   "at": "2026-09-18T09:57:39.109793+00:00"
-  },
-  {
-   "title": "بررسی تجربی طراحی محیط‌های اجرایی برای ایجنت‌های برنامه‌نویس",
-   "url": "https://arxiv.org/abs/2609.20804",
-   "source": "arxiv.org",
-   "score": 0.11282,
-   "at": "2026-09-18T14:35:19.300629+00:00"
-  },
   {
    "title": "افشای اسناد محرمانه درباره پیامدهای مخرب مدل‌های زبانی بر وب",
    "url": "https://bsky.app/profile/404media.co/post/3mvshavbtsk2f",
@@ -1114,6 +906,13 @@
    "source": "dawo.community",
    "score": 0.11593,
    "at": "2026-09-25T10:22:20.719142+00:00"
+  },
+  {
+   "title": "گسترش قابلیت‌های هوش مصنوعی Muse در اکوسیستم محصولات متا",
+   "url": "https://techcrunch.com/2026/09/23/everything-new-coming-to-metas-ai-agent-muse/",
+   "source": "TechCrunch AI",
+   "score": 0.85904,
+   "at": "2026-09-25T15:23:42.760697+00:00"
   }
  ],
  "stories": [
@@ -4006,65 +3805,38 @@
     "nixos"
    ],
    "at": "2026-09-25T10:22:20.719142+00:00"
+  },
+  {
+   "sig": [
+    "agent",
+    "announced",
+    "being",
+    "beings",
+    "businesses",
+    "call",
+    "calls",
+    "centers",
+    "coming",
+    "could",
+    "everything",
+    "having",
+    "human",
+    "jasonkoebler.bsky.social",
+    "learned",
+    "like",
+    "media",
+    "meta",
+    "muse",
+    "reality",
+    "reservations",
+    "testing",
+    "these",
+    "things"
+   ],
+   "at": "2026-09-25T15:23:42.760697+00:00"
   }
  ],
  "snapshots": {
-  "lobsters:yaax1z": [
-   126,
-   "2026-09-13T23:17:51.837486+00:00"
-  ],
-  "lobsters:dmlzwx": [
-   72,
-   "2026-09-13T23:17:51.837486+00:00"
-  ],
-  "hn:49683853": [
-   804,
-   "2026-09-13T23:17:51.837486+00:00"
-  ],
-  "hn:49685991": [
-   544,
-   "2026-09-13T23:17:51.837486+00:00"
-  ],
-  "hn:49685253": [
-   638,
-   "2026-09-13T23:17:51.837486+00:00"
-  ],
-  "hn:49684393": [
-   674,
-   "2026-09-13T23:17:51.837486+00:00"
-  ],
-  "hn:49684266": [
-   259,
-   "2026-09-13T23:17:51.837486+00:00"
-  ],
-  "hn:49684101": [
-   150,
-   "2026-09-13T23:17:51.837486+00:00"
-  ],
-  "hn:49683729": [
-   326,
-   "2026-09-13T23:17:51.837486+00:00"
-  ],
-  "hn:49683262": [
-   271,
-   "2026-09-13T23:17:51.837486+00:00"
-  ],
-  "hn:49683033": [
-   187,
-   "2026-09-13T23:17:51.837486+00:00"
-  ],
-  "hn:49688157": [
-   421,
-   "2026-09-13T23:17:51.837486+00:00"
-  ],
-  "hn:49687312": [
-   278,
-   "2026-09-13T23:17:51.837486+00:00"
-  ],
-  "hn:49686766": [
-   587,
-   "2026-09-13T23:17:51.837486+00:00"
-  ],
   "hn:49686697": [
    495,
    "2026-09-13T23:17:51.837486+00:00"
@@ -6401,13 +6173,69 @@
    298,
    "2026-09-25T10:22:15.319630+00:00"
   ],
-  "hn:49841285": [
-   97,
-   "2026-09-25T10:22:15.319630+00:00"
-  ],
   "lobsters:68n22g": [
    32,
    "2026-09-25T10:22:15.319630+00:00"
+  ],
+  "hn:49841285": [
+   309,
+   "2026-09-25T15:23:37.858446+00:00"
+  ],
+  "hn:49844663": [
+   252,
+   "2026-09-25T15:23:37.858446+00:00"
+  ],
+  "hn:49843547": [
+   321,
+   "2026-09-25T15:23:37.858446+00:00"
+  ],
+  "hn:49843321": [
+   216,
+   "2026-09-25T15:23:37.858446+00:00"
+  ],
+  "hn:49843269": [
+   179,
+   "2026-09-25T15:23:37.858446+00:00"
+  ],
+  "hn:49843174": [
+   179,
+   "2026-09-25T15:23:37.858446+00:00"
+  ],
+  "hn:49842487": [
+   573,
+   "2026-09-25T15:23:37.858446+00:00"
+  ],
+  "hn:49842483": [
+   327,
+   "2026-09-25T15:23:37.858446+00:00"
+  ],
+  "hn:49842332": [
+   209,
+   "2026-09-25T15:23:37.858446+00:00"
+  ],
+  "hn:49842270": [
+   149,
+   "2026-09-25T15:23:37.858446+00:00"
+  ],
+  "hn:49841115": [
+   127,
+   "2026-09-25T15:23:37.858446+00:00"
+  ],
+  "lobsters:v6nizc": [
+   29,
+   "2026-09-25T15:23:37.858446+00:00"
+  ],
+  "lobsters:bubfjf": [
+   36,
+   "2026-09-25T15:23:37.858446+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mwe2r6s3432h": [
+   63,
+   "2026-09-25T15:23:37.858446+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mwdzqnahi225": [
+   380,
+   "2026-09-25T15:23:37.858446+00:00"
   ]
  }
 }
