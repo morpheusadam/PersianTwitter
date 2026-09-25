@@ -699,18 +699,20 @@
   "ciRBLy96TG9gUsXUWQdbia",
   "https://3dnews.ru/1149010/#6ab579bf742eec36a38b456b",
   "3156318",
-  "https://www.techspot.com/news/113973-microsoft-smaller-surface-pro-surface-laptop-get-faster.html"
+  "https://www.techspot.com/news/113973-microsoft-smaller-surface-pro-surface-laptop-get-faster.html",
+  "lobsters:68n22g",
+  "hn:49841563"
  ],
  "posted": {
-  "viral": 146,
+  "viral": 147,
   "editorial": 146
  },
  "recent_labels": [
-  "Hacker News",
   "3DNews",
   "Hacker News",
   "404 Media",
-  "Tom's Hardware"
+  "Tom's Hardware",
+  "Hacker News"
  ],
  "last_digest": "2026-09-18",
  "history": [
@@ -1105,6 +1107,13 @@
    "source": "Tom's Hardware",
    "score": 0.38294,
    "at": "2026-09-24T22:36:52.406191+00:00"
+  },
+  {
+   "title": "دولت هلند برای کاهش وابستگی به مایکروسافت به سراغ NixOS می‌رود",
+   "url": "https://www.dawo.community/en/",
+   "source": "dawo.community",
+   "score": 0.11593,
+   "at": "2026-09-25T10:22:20.719142+00:00"
   }
  ],
  "stories": [
@@ -3985,21 +3994,21 @@
     "surface"
    ],
    "at": "2026-09-24T22:36:52.406191+00:00"
+  },
+  {
+   "sig": [
+    "alternative",
+    "based",
+    "builds",
+    "dutch",
+    "governments",
+    "microsoft",
+    "nixos"
+   ],
+   "at": "2026-09-25T10:22:20.719142+00:00"
   }
  ],
  "snapshots": {
-  "hn:49681268": [
-   62,
-   "2026-09-13T18:17:20.812708+00:00"
-  ],
-  "hn:49682087": [
-   394,
-   "2026-09-13T21:00:27.610056+00:00"
-  ],
-  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mvgdwhryoc2m": [
-   221,
-   "2026-09-13T21:00:27.610056+00:00"
-  ],
   "lobsters:yaax1z": [
    126,
    "2026-09-13T23:17:51.837486+00:00"
@@ -6387,6 +6396,18 @@
   "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mwbypsgspk2b": [
    13,
    "2026-09-24T22:36:50.005865+00:00"
+  ],
+  "hn:49841563": [
+   298,
+   "2026-09-25T10:22:15.319630+00:00"
+  ],
+  "hn:49841285": [
+   97,
+   "2026-09-25T10:22:15.319630+00:00"
+  ],
+  "lobsters:68n22g": [
+   32,
+   "2026-09-25T10:22:15.319630+00:00"
   ]
  }
 }
