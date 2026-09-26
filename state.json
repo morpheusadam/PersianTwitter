@@ -712,18 +712,21 @@
   "hn:49854399",
   "https://thehackernews.com/2026/09/compromised-github-actions-came-back.html",
   "https://www.bleepingcomputer.com/news/security/github-actions-re-enabled-with-mini-shai-hulud-payload-still-active/",
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mwginr2cd326"
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mwginr2cd326",
+  "https://www.engadget.com/2269826/apple-hit-with-a-57-billion-verdict-for-alleged-patent-infringement/",
+  "https://www.theverge.com/?p=1001118",
+  "hn:49859112"
  ],
  "posted": {
-  "viral": 150,
+  "viral": 151,
   "editorial": 149
  },
  "recent_labels": [
-  "Neowin",
   "Emily M. Bender",
   "Hacker News",
   "The Hacker News",
-  "404 Media"
+  "404 Media",
+  "Hacker News"
  ],
  "last_digest": "2026-09-25",
  "history": [
@@ -957,6 +960,13 @@
    "source": "404media.co",
    "score": 0.18971,
    "at": "2026-09-26T18:40:25.936937+00:00"
+  },
+  {
+   "title": "معرفی پلتفرم DeepSeek Elastic Compute برای اجرای محیط‌های سندباکس در مقیاس بزرگ",
+   "url": "https://arxiv.org/abs/2609.22978",
+   "source": "arxiv.org",
+   "score": 0.09441,
+   "at": "2026-09-26T22:03:48.757381+00:00"
   }
  ],
  "stories": [
@@ -3954,45 +3964,18 @@
     "www.404media.co"
    ],
    "at": "2026-09-26T18:40:25.936937+00:00"
+  },
+  {
+   "sig": [
+    "compute",
+    "deepseek",
+    "dsec",
+    "elastic"
+   ],
+   "at": "2026-09-26T22:03:48.757381+00:00"
   }
  ],
  "snapshots": {
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mviiyovz272s": [
-   680,
-   "2026-09-14T23:55:58.206895+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mvigx4uocs2k": [
-   774,
-   "2026-09-14T23:55:58.206895+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mvigi4eydj2v": [
-   186,
-   "2026-09-14T23:55:58.206895+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mvig3obwgs2j": [
-   712,
-   "2026-09-14T23:55:58.206895+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mvifc6it5s2j": [
-   520,
-   "2026-09-14T23:55:58.206895+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mvid5757xz2k": [
-   98,
-   "2026-09-14T23:55:58.206895+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mvicvsg2222k": [
-   2278,
-   "2026-09-14T23:55:58.206895+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mvici72pck2b": [
-   2076,
-   "2026-09-14T23:55:58.206895+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mvi5gi3oec2u": [
-   182,
-   "2026-09-14T23:55:58.206895+00:00"
-  ],
   "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mviakd54jd2d": [
    114,
    "2026-09-14T23:55:58.206895+00:00"
@@ -6293,14 +6276,6 @@
    28,
    "2026-09-26T14:38:50.861130+00:00"
   ],
-  "hn:49856034": [
-   380,
-   "2026-09-26T18:40:18.755610+00:00"
-  ],
-  "hn:49855315": [
-   959,
-   "2026-09-26T18:40:18.755610+00:00"
-  ],
   "hn:49854875": [
    345,
    "2026-09-26T18:40:18.755610+00:00"
@@ -6321,41 +6296,85 @@
    394,
    "2026-09-26T18:40:18.755610+00:00"
   ],
-  "hn:49857899": [
-   390,
-   "2026-09-26T18:40:18.755610+00:00"
-  ],
-  "hn:49857651": [
-   94,
-   "2026-09-26T18:40:18.755610+00:00"
-  ],
-  "hn:49857572": [
-   171,
-   "2026-09-26T18:40:18.755610+00:00"
-  ],
-  "hn:49857528": [
-   114,
-   "2026-09-26T18:40:18.755610+00:00"
-  ],
-  "hn:49857442": [
-   415,
-   "2026-09-26T18:40:18.755610+00:00"
-  ],
-  "hn:49856149": [
-   186,
-   "2026-09-26T18:40:18.755610+00:00"
-  ],
-  "lobsters:p3iq7v": [
-   97,
-   "2026-09-26T18:40:18.755610+00:00"
-  ],
   "lobsters:iotaty": [
    27,
    "2026-09-26T18:40:18.755610+00:00"
   ],
+  "hn:49856034": [
+   392,
+   "2026-09-26T22:03:45.777396+00:00"
+  ],
+  "hn:49855315": [
+   1071,
+   "2026-09-26T22:03:45.777396+00:00"
+  ],
+  "hn:49857899": [
+   700,
+   "2026-09-26T22:03:45.777396+00:00"
+  ],
+  "hn:49857651": [
+   269,
+   "2026-09-26T22:03:45.777396+00:00"
+  ],
+  "hn:49857572": [
+   351,
+   "2026-09-26T22:03:45.777396+00:00"
+  ],
+  "hn:49857528": [
+   170,
+   "2026-09-26T22:03:45.777396+00:00"
+  ],
+  "hn:49857442": [
+   705,
+   "2026-09-26T22:03:45.777396+00:00"
+  ],
+  "hn:49856149": [
+   194,
+   "2026-09-26T22:03:45.777396+00:00"
+  ],
+  "lobsters:p3iq7v": [
+   124,
+   "2026-09-26T22:03:45.777396+00:00"
+  ],
   "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mwglx23vdk23": [
-   337,
-   "2026-09-26T18:40:18.755610+00:00"
+   361,
+   "2026-09-26T22:03:45.777396+00:00"
+  ],
+  "hn:49859112": [
+   98,
+   "2026-09-26T22:03:45.777396+00:00"
+  ],
+  "hn:49858513": [
+   162,
+   "2026-09-26T22:03:45.777396+00:00"
+  ],
+  "hn:49858253": [
+   159,
+   "2026-09-26T22:03:45.777396+00:00"
+  ],
+  "hn:49857729": [
+   142,
+   "2026-09-26T22:03:45.777396+00:00"
+  ],
+  "hn:49857323": [
+   86,
+   "2026-09-26T22:03:45.777396+00:00"
+  ],
+  "hn:49856665": [
+   325,
+   "2026-09-26T22:03:45.777396+00:00"
+  ],
+  "lobsters:wpv5ed": [
+   25,
+   "2026-09-26T22:03:45.777396+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mwh2cwfcsw2o": [
+   800,
+   "2026-09-26T22:03:45.777396+00:00"
+  ],
+  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mwh5pppoo24e": [
+   99,
+   "2026-09-26T22:03:45.777396+00:00"
   ]
  }
 }
