@@ -706,18 +706,21 @@
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mwdzqnahi225",
   "https://www.neowin.net/news/anthropic-signs-116b-cloud-deal-with-akamai/",
   "https://techcrunch.com/?p=3169815",
-  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mwefkifo2s23"
+  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mwefkifo2s23",
+  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mwfmgwppuk2g",
+  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mwfkucvngs2g",
+  "hn:49854399"
  ],
  "posted": {
-  "viral": 148,
+  "viral": 149,
   "editorial": 148
  },
  "recent_labels": [
-  "Tom's Hardware",
   "Hacker News",
   "TechCrunch AI",
   "Neowin",
-  "Emily M. Bender"
+  "Emily M. Bender",
+  "Hacker News"
  ],
  "last_digest": "2026-09-25",
  "history": [
@@ -930,6 +933,13 @@
    "source": "sfgate.com",
    "score": 0.15497,
    "at": "2026-09-25T22:36:39.954883+00:00"
+  },
+  {
+   "title": "سوگیری فرهنگی در آزمون‌های تشخیص انسان CAPTCHA",
+   "url": "https://shkspr.mobi/blog/2017/11/captchas-dont-prove-youre-human-they-prove-youre-american/",
+   "source": "shkspr.mobi",
+   "score": 0.29047,
+   "at": "2026-09-26T10:03:22.962223+00:00"
   }
  ],
  "stories": [
@@ -3889,45 +3899,19 @@
     "went"
    ],
    "at": "2026-09-25T22:36:39.954883+00:00"
+  },
+  {
+   "sig": [
+    "american",
+    "captchas",
+    "don",
+    "human",
+    "prove"
+   ],
+   "at": "2026-09-26T10:03:22.962223+00:00"
   }
  ],
  "snapshots": {
-  "lobsters:f4arrs": [
-   36,
-   "2026-09-14T10:52:04.409308+00:00"
-  ],
-  "at://did:plc:kft6lu4trxowqmter2b6vg6z/app.bsky.feed.post/3mvgxs4ygd223": [
-   59,
-   "2026-09-14T10:52:04.409308+00:00"
-  ],
-  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mvgqdwmbw22e": [
-   189,
-   "2026-09-14T10:52:04.409308+00:00"
-  ],
-  "hn:49693610": [
-   294,
-   "2026-09-14T17:00:18.009092+00:00"
-  ],
-  "hn:49693384": [
-   179,
-   "2026-09-14T17:00:18.009092+00:00"
-  ],
-  "lobsters:0inlyw": [
-   48,
-   "2026-09-14T17:00:18.009092+00:00"
-  ],
-  "hn:49695304": [
-   180,
-   "2026-09-14T21:00:32.972754+00:00"
-  ],
-  "hn:49695220": [
-   151,
-   "2026-09-14T21:00:32.972754+00:00"
-  ],
-  "hn:49694840": [
-   258,
-   "2026-09-14T21:00:32.972754+00:00"
-  ],
   "hn:49694596": [
    238,
    "2026-09-14T21:00:32.972754+00:00"
@@ -6291,6 +6275,42 @@
   "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mweiuvneuc2n": [
    10,
    "2026-09-25T22:36:36.735803+00:00"
+  ],
+  "hn:49854399": [
+   194,
+   "2026-09-26T10:03:15.815153+00:00"
+  ],
+  "hn:49853175": [
+   105,
+   "2026-09-26T10:03:15.815153+00:00"
+  ],
+  "hn:49852717": [
+   449,
+   "2026-09-26T10:03:15.815153+00:00"
+  ],
+  "hn:49852302": [
+   322,
+   "2026-09-26T10:03:15.815153+00:00"
+  ],
+  "hn:49852065": [
+   330,
+   "2026-09-26T10:03:15.815153+00:00"
+  ],
+  "hn:49851032": [
+   204,
+   "2026-09-26T10:03:15.815153+00:00"
+  ],
+  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mwfmgwppuk2g": [
+   142,
+   "2026-09-26T10:03:15.815153+00:00"
+  ],
+  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mwfkucvngs2g": [
+   137,
+   "2026-09-26T10:03:15.815153+00:00"
+  ],
+  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mwfdbekvjc2a": [
+   13,
+   "2026-09-26T10:03:15.815153+00:00"
   ]
  }
 }
