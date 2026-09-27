@@ -716,18 +716,20 @@
   "https://www.engadget.com/2269826/apple-hit-with-a-57-billion-verdict-for-alleged-patent-infringement/",
   "https://www.theverge.com/?p=1001118",
   "hn:49859112",
-  "at://did:plc:ipt7y6qaf6fn7oeeduboqe44/app.bsky.feed.post/3mwifvn4lwc2o"
+  "at://did:plc:ipt7y6qaf6fn7oeeduboqe44/app.bsky.feed.post/3mwifvn4lwc2o",
+  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mwiuoowbccnz",
+  "https://habr.com/ru/articles/1086292/"
  ],
  "posted": {
   "viral": 152,
-  "editorial": 149
+  "editorial": 150
  },
  "recent_labels": [
-  "Hacker News",
   "The Hacker News",
   "404 Media",
   "Hacker News",
-  "antirez"
+  "antirez",
+  "Habr"
  ],
  "last_digest": "2026-09-25",
  "history": [
@@ -975,6 +977,13 @@
    "source": "antirez",
    "score": 0.26914,
    "at": "2026-09-27T10:39:25.556677+00:00"
+  },
+  {
+   "title": "مدیریت کوکی‌های پارتیشن‌بندی شده در مرورگرهای مدرن با افزونه CookieTin",
+   "url": "https://habr.com/ru/articles/1086292/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1086292",
+   "source": "Habr",
+   "score": 0.25417,
+   "at": "2026-09-27T15:44:00.284146+00:00"
   }
  ],
  "stories": [
@@ -4011,29 +4020,17 @@
     "without"
    ],
    "at": "2026-09-27T10:39:25.556677+00:00"
+  },
+  {
+   "sig": [
+    "cookies",
+    "cookies.txt",
+    "partitioned"
+   ],
+   "at": "2026-09-27T15:44:00.284146+00:00"
   }
  ],
  "snapshots": {
-  "hn:49699489": [
-   178,
-   "2026-09-14T23:55:58.206895+00:00"
-  ],
-  "hn:49699297": [
-   405,
-   "2026-09-14T23:55:58.206895+00:00"
-  ],
-  "hn:49699159": [
-   248,
-   "2026-09-14T23:55:58.206895+00:00"
-  ],
-  "hn:49699158": [
-   303,
-   "2026-09-14T23:55:58.206895+00:00"
-  ],
-  "hn:49698664": [
-   152,
-   "2026-09-14T23:55:58.206895+00:00"
-  ],
   "hn:49698607": [
    233,
    "2026-09-14T23:55:58.206895+00:00"
@@ -6370,14 +6367,6 @@
    99,
    "2026-09-26T22:03:45.777396+00:00"
   ],
-  "hn:49864642": [
-   332,
-   "2026-09-27T10:39:22.836276+00:00"
-  ],
-  "hn:49863864": [
-   581,
-   "2026-09-27T10:39:22.836276+00:00"
-  ],
   "hn:49863062": [
    322,
    "2026-09-27T10:39:22.836276+00:00"
@@ -6413,6 +6402,34 @@
   "at://did:plc:ipt7y6qaf6fn7oeeduboqe44/app.bsky.feed.post/3mwifvn4lwc2o": [
    28,
    "2026-09-27T10:39:22.836276+00:00"
+  ],
+  "hn:49864642": [
+   861,
+   "2026-09-27T15:43:49.510383+00:00"
+  ],
+  "hn:49863864": [
+   1447,
+   "2026-09-27T15:43:49.510383+00:00"
+  ],
+  "hn:49867067": [
+   218,
+   "2026-09-27T15:43:49.510383+00:00"
+  ],
+  "hn:49865343": [
+   254,
+   "2026-09-27T15:43:49.510383+00:00"
+  ],
+  "hn:49863600": [
+   153,
+   "2026-09-27T15:43:49.510383+00:00"
+  ],
+  "lobsters:ivbx5f": [
+   55,
+   "2026-09-27T15:43:49.510383+00:00"
+  ],
+  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mwiuoowbccnz": [
+   149,
+   "2026-09-27T15:43:49.510383+00:00"
   ]
  }
 }
