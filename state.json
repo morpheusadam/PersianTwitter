@@ -715,18 +715,19 @@
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mwginr2cd326",
   "https://www.engadget.com/2269826/apple-hit-with-a-57-billion-verdict-for-alleged-patent-infringement/",
   "https://www.theverge.com/?p=1001118",
-  "hn:49859112"
+  "hn:49859112",
+  "at://did:plc:ipt7y6qaf6fn7oeeduboqe44/app.bsky.feed.post/3mwifvn4lwc2o"
  ],
  "posted": {
-  "viral": 151,
+  "viral": 152,
   "editorial": 149
  },
  "recent_labels": [
-  "Emily M. Bender",
   "Hacker News",
   "The Hacker News",
   "404 Media",
-  "Hacker News"
+  "Hacker News",
+  "antirez"
  ],
  "last_digest": "2026-09-25",
  "history": [
@@ -967,6 +968,13 @@
    "source": "arxiv.org",
    "score": 0.09441,
    "at": "2026-09-26T22:03:48.757381+00:00"
+  },
+  {
+   "title": "تغییر مهارت‌های مورد نیاز برای برنامه‌نویسی در عصر هوش مصنوعی",
+   "url": "https://bsky.app/profile/antirez.bsky.social/post/3mwifvn4lwc2o",
+   "source": "antirez",
+   "score": 0.26914,
+   "at": "2026-09-27T10:39:25.556677+00:00"
   }
  ],
  "stories": [
@@ -3973,53 +3981,39 @@
     "elastic"
    ],
    "at": "2026-09-26T22:03:48.757381+00:00"
+  },
+  {
+   "sig": [
+    "astra",
+    "different",
+    "even",
+    "explanation",
+    "feel",
+    "good",
+    "gpt",
+    "hard",
+    "like",
+    "live",
+    "models",
+    "obtaining",
+    "overlap",
+    "parallel",
+    "past",
+    "programmers",
+    "programming",
+    "requires",
+    "results",
+    "set",
+    "skill",
+    "state",
+    "there",
+    "universe",
+    "without"
+   ],
+   "at": "2026-09-27T10:39:25.556677+00:00"
   }
  ],
  "snapshots": {
-  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mviakd54jd2d": [
-   114,
-   "2026-09-14T23:55:58.206895+00:00"
-  ],
-  "at://did:plc:ipt7y6qaf6fn7oeeduboqe44/app.bsky.feed.post/3mvi75e3c722o": [
-   94,
-   "2026-09-14T23:55:58.206895+00:00"
-  ],
-  "hn:49703616": [
-   183,
-   "2026-09-14T23:55:58.206895+00:00"
-  ],
-  "hn:49703003": [
-   287,
-   "2026-09-14T23:55:58.206895+00:00"
-  ],
-  "hn:49702239": [
-   409,
-   "2026-09-14T23:55:58.206895+00:00"
-  ],
-  "hn:49701104": [
-   369,
-   "2026-09-14T23:55:58.206895+00:00"
-  ],
-  "hn:49701004": [
-   977,
-   "2026-09-14T23:55:58.206895+00:00"
-  ],
-  "hn:49700477": [
-   800,
-   "2026-09-14T23:55:58.206895+00:00"
-  ],
-  "hn:49700255": [
-   118,
-   "2026-09-14T23:55:58.206895+00:00"
-  ],
-  "hn:49699648": [
-   203,
-   "2026-09-14T23:55:58.206895+00:00"
-  ],
-  "hn:49699493": [
-   130,
-   "2026-09-14T23:55:58.206895+00:00"
-  ],
   "hn:49699489": [
    178,
    "2026-09-14T23:55:58.206895+00:00"
@@ -6375,6 +6369,50 @@
   "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mwh5pppoo24e": [
    99,
    "2026-09-26T22:03:45.777396+00:00"
+  ],
+  "hn:49864642": [
+   332,
+   "2026-09-27T10:39:22.836276+00:00"
+  ],
+  "hn:49863864": [
+   581,
+   "2026-09-27T10:39:22.836276+00:00"
+  ],
+  "hn:49863062": [
+   322,
+   "2026-09-27T10:39:22.836276+00:00"
+  ],
+  "hn:49862809": [
+   291,
+   "2026-09-27T10:39:22.836276+00:00"
+  ],
+  "hn:49862299": [
+   219,
+   "2026-09-27T10:39:22.836276+00:00"
+  ],
+  "hn:49862244": [
+   145,
+   "2026-09-27T10:39:22.836276+00:00"
+  ],
+  "lobsters:hq6xj2": [
+   26,
+   "2026-09-27T10:39:22.836276+00:00"
+  ],
+  "lobsters:zoproh": [
+   75,
+   "2026-09-27T10:39:22.836276+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mwhnlu7fzo2r": [
+   271,
+   "2026-09-27T10:39:22.836276+00:00"
+  ],
+  "at://did:plc:kft6lu4trxowqmter2b6vg6z/app.bsky.feed.post/3mwhjlrkyx22f": [
+   64,
+   "2026-09-27T10:39:22.836276+00:00"
+  ],
+  "at://did:plc:ipt7y6qaf6fn7oeeduboqe44/app.bsky.feed.post/3mwifvn4lwc2o": [
+   28,
+   "2026-09-27T10:39:22.836276+00:00"
   ]
  }
 }
