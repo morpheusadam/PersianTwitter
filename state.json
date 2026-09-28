@@ -724,18 +724,21 @@
   "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mwjhyzw53k2n",
   "f2a2b240acd5cdc417178664aaafda04",
   "hn:49870417",
-  "https://www.engadget.com/2267714/how-to-improve-carplay-navigation-use-google-maps-not-apple-maps/"
+  "https://www.engadget.com/2267714/how-to-improve-carplay-navigation-use-google-maps-not-apple-maps/",
+  "https://thehackernews.com/2026/09/attackers-bypass-wafs-to-exploit-oracle.html",
+  "https://www.bleepingcomputer.com/news/security/shinyhunters-uses-waf-bypass-trick-in-oracle-peoplesoft-attacks/",
+  "https://www.securityweek.com/?p=49615"
  ],
  "posted": {
   "viral": 152,
-  "editorial": 152
+  "editorial": 153
  },
  "recent_labels": [
-  "Hacker News",
   "antirez",
   "Habr",
   "iXBT",
-  "Engadget"
+  "Engadget",
+  "The Hacker News"
  ],
  "last_digest": "2026-09-25",
  "history": [
@@ -1004,6 +1007,13 @@
    "source": "Engadget",
    "score": 0.21723,
    "at": "2026-09-27T23:13:07.357354+00:00"
+  },
+  {
+   "title": "دور زدن فایروال‌ها برای نفوذ به سرورهای Oracle PeopleSoft",
+   "url": "https://thehackernews.com/2026/09/attackers-bypass-wafs-to-exploit-oracle.html",
+   "source": "The Hacker News",
+   "score": 0.48916,
+   "at": "2026-09-28T11:52:22.711639+00:00"
   }
  ],
  "stories": [
@@ -4059,73 +4069,32 @@
     "navigation"
    ],
    "at": "2026-09-27T23:13:07.357354+00:00"
+  },
+  {
+   "sig": [
+    "attackers",
+    "attacks",
+    "bypass",
+    "campaign",
+    "deploy",
+    "exploit",
+    "flaw",
+    "fresh",
+    "google",
+    "oracle",
+    "peoplesoft",
+    "shells",
+    "shinyhunters",
+    "trick",
+    "waf",
+    "wafs",
+    "warns",
+    "web"
+   ],
+   "at": "2026-09-28T11:52:22.711639+00:00"
   }
  ],
  "snapshots": {
-  "hn:49707473": [
-   485,
-   "2026-09-15T15:09:06.300374+00:00"
-  ],
-  "at://did:plc:2mrgzk6xlemfv6yugn644xxy/app.bsky.feed.post/3mvkd2urafc2u": [
-   144,
-   "2026-09-15T19:08:34.313636+00:00"
-  ],
-  "hn:49710253": [
-   1082,
-   "2026-09-15T19:08:34.313636+00:00"
-  ],
-  "hn:49710109": [
-   554,
-   "2026-09-15T19:08:34.313636+00:00"
-  ],
-  "hn:49710015": [
-   379,
-   "2026-09-15T19:08:34.313636+00:00"
-  ],
-  "hn:49709381": [
-   372,
-   "2026-09-15T19:08:34.313636+00:00"
-  ],
-  "hn:49709129": [
-   164,
-   "2026-09-15T19:08:34.313636+00:00"
-  ],
-  "lobsters:zbcua4": [
-   46,
-   "2026-09-15T19:08:34.313636+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mvkmpkkzgs2n": [
-   3227,
-   "2026-09-15T19:08:34.313636+00:00"
-  ],
-  "at://did:plc:ipt7y6qaf6fn7oeeduboqe44/app.bsky.feed.post/3mvk6nsx5vs25": [
-   27,
-   "2026-09-15T19:08:34.313636+00:00"
-  ],
-  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mvkq6obx5k2l": [
-   29,
-   "2026-09-15T19:08:34.313636+00:00"
-  ],
-  "hn:49715113": [
-   420,
-   "2026-09-15T19:08:34.313636+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mvkzhvy35s2k": [
-   161,
-   "2026-09-15T19:08:34.313636+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mvkw4ym5kb2t": [
-   278,
-   "2026-09-15T19:08:34.313636+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mvkvehgxmk2j": [
-   117,
-   "2026-09-15T19:08:34.313636+00:00"
-  ],
-  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mvl6prdbtt26": [
-   70,
-   "2026-09-15T19:08:34.313636+00:00"
-  ],
   "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mvktybxeoj2g": [
    88,
    "2026-09-15T19:08:34.313636+00:00"
@@ -6461,6 +6430,70 @@
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mwjvpreqh32h": [
    228,
    "2026-09-27T23:13:02.192836+00:00"
+  ],
+  "hn:49875913": [
+   89,
+   "2026-09-28T11:52:20.075104+00:00"
+  ],
+  "hn:49875411": [
+   121,
+   "2026-09-28T11:52:20.075104+00:00"
+  ],
+  "hn:49875148": [
+   95,
+   "2026-09-28T11:52:20.075104+00:00"
+  ],
+  "hn:49873241": [
+   196,
+   "2026-09-28T11:52:20.075104+00:00"
+  ],
+  "hn:49873048": [
+   118,
+   "2026-09-28T11:52:20.075104+00:00"
+  ],
+  "hn:49872980": [
+   58,
+   "2026-09-28T11:52:20.075104+00:00"
+  ],
+  "hn:49872883": [
+   288,
+   "2026-09-28T11:52:20.075104+00:00"
+  ],
+  "hn:49872723": [
+   1436,
+   "2026-09-28T11:52:20.075104+00:00"
+  ],
+  "hn:49872522": [
+   390,
+   "2026-09-28T11:52:20.075104+00:00"
+  ],
+  "hn:49872497": [
+   136,
+   "2026-09-28T11:52:20.075104+00:00"
+  ],
+  "hn:49872474": [
+   172,
+   "2026-09-28T11:52:20.075104+00:00"
+  ],
+  "hn:49872472": [
+   69,
+   "2026-09-28T11:52:20.075104+00:00"
+  ],
+  "lobsters:fqype1": [
+   40,
+   "2026-09-28T11:52:20.075104+00:00"
+  ],
+  "lobsters:0knxvq": [
+   25,
+   "2026-09-28T11:52:20.075104+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mwkd4cuh4t2q": [
+   890,
+   "2026-09-28T11:52:20.075104+00:00"
+  ],
+  "at://did:plc:x2nsupeeo52oznrmplwapppl/app.bsky.feed.post/3mwkveudi3z27": [
+   70,
+   "2026-09-28T11:52:20.075104+00:00"
   ]
  }
 }
