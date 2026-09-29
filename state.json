@@ -729,18 +729,25 @@
   "https://www.bleepingcomputer.com/news/security/shinyhunters-uses-waf-bypass-trick-in-oracle-peoplesoft-attacks/",
   "https://www.securityweek.com/?p=49615",
   "hn:49880312",
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mwm3cwvrf225"
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mwm3cwvrf225",
+  "6ab697dca0aca56b43c1338d",
+  "https://3dnews.ru/1149184/#6abb6566742eec30698b4575",
+  "3165122",
+  "https://www.theverge.com/?p=1001797",
+  "https://www.engadget.com/2271675/nothing-headphone-1-pro/",
+  "https://www.androidpolice.com/nothing-headphone-1-pro-news/",
+  "hn:49889934"
  ],
  "posted": {
-  "viral": 154,
+  "viral": 155,
   "editorial": 153
  },
  "recent_labels": [
-  "iXBT",
   "Engadget",
   "The Hacker News",
   "Hacker News",
-  "404 Media"
+  "404 Media",
+  "Hacker News"
  ],
  "last_digest": "2026-09-25",
  "history": [
@@ -1030,6 +1037,13 @@
    "source": "404media.co",
    "score": 0.19817,
    "at": "2026-09-29T00:28:39.028359+00:00"
+  },
+  {
+   "title": "اختلال گسترده در اپلیکیشن‌های iOS به دلیل به‌روزرسانی Firebase",
+   "url": "https://twitter.com/GergelyOrosz/status/2104825886922911981",
+   "source": "twitter.com",
+   "score": 0.1455,
+   "at": "2026-09-29T11:29:25.461927+00:00"
   }
  ],
  "stories": [
@@ -4146,49 +4160,23 @@
     "would"
    ],
    "at": "2026-09-29T00:28:39.028359+00:00"
+  },
+  {
+   "sig": [
+    "allll",
+    "apps",
+    "crashing",
+    "firebase",
+    "ios",
+    "morning",
+    "sdk",
+    "since",
+    "today"
+   ],
+   "at": "2026-09-29T11:29:25.461927+00:00"
   }
  ],
  "snapshots": {
-  "hn:49723408": [
-   745,
-   "2026-09-16T19:00:20.074380+00:00"
-  ],
-  "hn:49727627": [
-   706,
-   "2026-09-16T22:15:27.399022+00:00"
-  ],
-  "hn:49727041": [
-   472,
-   "2026-09-16T22:15:27.399022+00:00"
-  ],
-  "hn:49725356": [
-   394,
-   "2026-09-16T22:15:27.399022+00:00"
-  ],
-  "hn:49724927": [
-   972,
-   "2026-09-16T22:15:27.399022+00:00"
-  ],
-  "lobsters:4tb4nk": [
-   73,
-   "2026-09-16T22:15:27.399022+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mvne33yl3d2f": [
-   92,
-   "2026-09-16T22:15:27.399022+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mvnaul7jd22f": [
-   268,
-   "2026-09-16T22:15:27.399022+00:00"
-  ],
-  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mvn7pj5jkn2k": [
-   280,
-   "2026-09-16T22:15:27.399022+00:00"
-  ],
-  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mvn7blsmhc2t": [
-   104,
-   "2026-09-16T22:15:27.399022+00:00"
-  ],
   "at://did:plc:ipt7y6qaf6fn7oeeduboqe44/app.bsky.feed.post/3mvnav3d5d22o": [
    61,
    "2026-09-16T22:15:27.399022+00:00"
@@ -6548,6 +6536,46 @@
   "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mwm3arhf6cnz": [
    195,
    "2026-09-29T00:28:20.295765+00:00"
+  ],
+  "hn:49890226": [
+   171,
+   "2026-09-29T11:29:05.296405+00:00"
+  ],
+  "hn:49890051": [
+   97,
+   "2026-09-29T11:29:05.296405+00:00"
+  ],
+  "hn:49889934": [
+   197,
+   "2026-09-29T11:29:05.296405+00:00"
+  ],
+  "hn:49889306": [
+   199,
+   "2026-09-29T11:29:05.296405+00:00"
+  ],
+  "hn:49887337": [
+   490,
+   "2026-09-29T11:29:05.296405+00:00"
+  ],
+  "hn:49886416": [
+   234,
+   "2026-09-29T11:29:05.296405+00:00"
+  ],
+  "hn:49886195": [
+   208,
+   "2026-09-29T11:29:05.296405+00:00"
+  ],
+  "hn:49886005": [
+   308,
+   "2026-09-29T11:29:05.296405+00:00"
+  ],
+  "at://did:plc:ipt7y6qaf6fn7oeeduboqe44/app.bsky.feed.post/3mwn5rvbynk2o": [
+   40,
+   "2026-09-29T11:29:05.296405+00:00"
+  ],
+  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mwmlonafmc2o": [
+   192,
+   "2026-09-29T11:29:05.296405+00:00"
   ]
  }
 }
