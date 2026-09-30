@@ -750,18 +750,26 @@
   "mcRkFjgVPAfXHn46QwMDDo",
   "https://www.techspot.com/news/114047-amazon-launches-faster-4k-fire-tv-stick-all.html",
   "https://www.neowin.net/news/amazons-new-fire-tv-stick-4k-is-faster-with-vega-os-and-redesigned-remote/",
-  "TheNextWeb=8691613a1023ed6b2f562d848b9043be"
+  "TheNextWeb=8691613a1023ed6b2f562d848b9043be",
+  "https://3dnews.ru/1149282/#6abd1ecc742eecf43f8b4574",
+  "https://3dnews.ru/1149264/#6abcccd1742eec322d8b4586",
+  "b6ca05ad546b3af512ac110471e4bf14",
+  "f3d76cd1602c650aaa1849736eb7d9e5",
+  "3167917",
+  "https://www.engadget.com/2272526/samsung-galaxy-tab-s12-ultra-review/",
+  "tqp4wXBWMbQXwhZSzzEXCF",
+  "https://www.androidpolice.com/i-revisited-to-the-galaxy-s26-ultra-samsung-has-already-made-a-better-phone/"
  ],
  "posted": {
   "viral": 156,
-  "editorial": 157
+  "editorial": 158
  },
  "recent_labels": [
-  "The Register",
   "Simon Willison",
   "The Next Web",
   "The Hacker News",
-  "Engadget"
+  "Engadget",
+  "3DNews"
  ],
  "last_digest": "2026-09-25",
  "history": [
@@ -1093,6 +1101,13 @@
    "source": "Engadget",
    "score": 1.0331,
    "at": "2026-09-30T16:54:39.003788+00:00"
+  },
+  {
+   "title": "رونمایی از نسل سوم ردیاب هوشمند Samsung Galaxy SmartTag",
+   "url": "https://3dnews.ru/1149282",
+   "source": "3DNews",
+   "score": 0.40715,
+   "at": "2026-09-30T21:29:56.383954+00:00"
   }
  ],
  "stories": [
@@ -4338,61 +4353,40 @@
     "vega"
    ],
    "at": "2026-09-30T16:54:39.003788+00:00"
+  },
+  {
+   "sig": [
+    "aging",
+    "android",
+    "apex",
+    "dimensity",
+    "discover",
+    "easy",
+    "galaxy",
+    "ios",
+    "iphone",
+    "making",
+    "pen",
+    "plus",
+    "review",
+    "revisited",
+    "s12",
+    "s26",
+    "s27",
+    "samsung",
+    "smarttag",
+    "smarttag3",
+    "smartwatches",
+    "tab",
+    "tablet",
+    "ultra",
+    "watch",
+    "well"
+   ],
+   "at": "2026-09-30T21:29:56.383954+00:00"
   }
  ],
  "snapshots": {
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mvpzzb3fqk2f": [
-   2337,
-   "2026-09-17T22:19:35.098131+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mvpwzwrp6o2k": [
-   1610,
-   "2026-09-17T22:19:35.098131+00:00"
-  ],
-  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mvpxm3khvc2h": [
-   177,
-   "2026-09-17T22:19:35.098131+00:00"
-  ],
-  "at://did:plc:ipt7y6qaf6fn7oeeduboqe44/app.bsky.feed.post/3mvpryyrgm22o": [
-   24,
-   "2026-09-17T22:19:35.098131+00:00"
-  ],
-  "hn:49746618": [
-   84,
-   "2026-09-17T22:19:35.098131+00:00"
-  ],
-  "hn:49746163": [
-   313,
-   "2026-09-17T22:19:35.098131+00:00"
-  ],
-  "hn:49743527": [
-   228,
-   "2026-09-17T22:19:35.098131+00:00"
-  ],
-  "hn:49743483": [
-   134,
-   "2026-09-17T22:19:35.098131+00:00"
-  ],
-  "lobsters:uz30ed": [
-   32,
-   "2026-09-17T22:19:35.098131+00:00"
-  ],
-  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mvqkwdc5hv2o": [
-   92,
-   "2026-09-17T22:19:35.098131+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mvqoizq33v2s": [
-   825,
-   "2026-09-18T09:57:36.557737+00:00"
-  ],
-  "hn:49749393": [
-   84,
-   "2026-09-18T09:57:36.557737+00:00"
-  ],
-  "hn:49748957": [
-   101,
-   "2026-09-18T09:57:36.557737+00:00"
-  ],
   "lobsters:vzql1n": [
    38,
    "2026-09-18T09:57:36.557737+00:00"
@@ -6681,65 +6675,117 @@
    1114,
    "2026-09-30T16:54:34.418353+00:00"
   ],
-  "hn:49908962": [
-   126,
-   "2026-09-30T16:54:34.418353+00:00"
-  ],
-  "hn:49908757": [
-   251,
-   "2026-09-30T16:54:34.418353+00:00"
-  ],
-  "hn:49907057": [
-   521,
-   "2026-09-30T16:54:34.418353+00:00"
-  ],
-  "hn:49906669": [
-   257,
-   "2026-09-30T16:54:34.418353+00:00"
-  ],
   "lobsters:nicozi": [
    59,
    "2026-09-30T16:54:34.418353+00:00"
   ],
+  "hn:49908962": [
+   209,
+   "2026-09-30T21:29:40.791338+00:00"
+  ],
+  "hn:49908757": [
+   268,
+   "2026-09-30T21:29:40.791338+00:00"
+  ],
+  "hn:49907057": [
+   569,
+   "2026-09-30T21:29:40.791338+00:00"
+  ],
+  "hn:49906669": [
+   270,
+   "2026-09-30T21:29:40.791338+00:00"
+  ],
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mwqretn2ds26": [
-   167,
-   "2026-09-30T16:54:34.418353+00:00"
+   435,
+   "2026-09-30T21:29:40.791338+00:00"
   ],
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mwqrbyuzeu26": [
-   220,
-   "2026-09-30T16:54:34.418353+00:00"
+   473,
+   "2026-09-30T21:29:40.791338+00:00"
   ],
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mwqr4ikk2s26": [
-   207,
-   "2026-09-30T16:54:34.418353+00:00"
+   1196,
+   "2026-09-30T21:29:40.791338+00:00"
   ],
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mwqqh4xjyc2r": [
-   140,
-   "2026-09-30T16:54:34.418353+00:00"
+   214,
+   "2026-09-30T21:29:40.791338+00:00"
   ],
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mwqnxf6foh27": [
-   130,
-   "2026-09-30T16:54:34.418353+00:00"
+   166,
+   "2026-09-30T21:29:40.791338+00:00"
   ],
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mwqn4eua3n2a": [
-   145,
-   "2026-09-30T16:54:34.418353+00:00"
+   193,
+   "2026-09-30T21:29:40.791338+00:00"
   ],
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mwqm63bplk26": [
-   1576,
-   "2026-09-30T16:54:34.418353+00:00"
+   2946,
+   "2026-09-30T21:29:40.791338+00:00"
   ],
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mwqj43plbk26": [
-   213,
-   "2026-09-30T16:54:34.418353+00:00"
+   321,
+   "2026-09-30T21:29:40.791338+00:00"
   ],
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mwqgorfwpc26": [
-   241,
-   "2026-09-30T16:54:34.418353+00:00"
+   262,
+   "2026-09-30T21:29:40.791338+00:00"
   ],
   "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mwqf6xp5vk6o": [
-   203,
-   "2026-09-30T16:54:34.418353+00:00"
+   217,
+   "2026-09-30T21:29:40.791338+00:00"
+  ],
+  "hn:49913255": [
+   148,
+   "2026-09-30T21:29:40.791338+00:00"
+  ],
+  "hn:49912955": [
+   94,
+   "2026-09-30T21:29:40.791338+00:00"
+  ],
+  "hn:49912444": [
+   110,
+   "2026-09-30T21:29:40.791338+00:00"
+  ],
+  "hn:49911995": [
+   183,
+   "2026-09-30T21:29:40.791338+00:00"
+  ],
+  "hn:49911757": [
+   208,
+   "2026-09-30T21:29:40.791338+00:00"
+  ],
+  "hn:49910613": [
+   113,
+   "2026-09-30T21:29:40.791338+00:00"
+  ],
+  "hn:49909610": [
+   96,
+   "2026-09-30T21:29:40.791338+00:00"
+  ],
+  "hn:49909583": [
+   331,
+   "2026-09-30T21:29:40.791338+00:00"
+  ],
+  "hn:49908394": [
+   815,
+   "2026-09-30T21:29:40.791338+00:00"
+  ],
+  "lobsters:3ufaju": [
+   28,
+   "2026-09-30T21:29:40.791338+00:00"
+  ],
+  "lobsters:irijoi": [
+   39,
+   "2026-09-30T21:29:40.791338+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mwqxyjqd462a": [
+   339,
+   "2026-09-30T21:29:40.791338+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mwqxmiiqlk2w": [
+   452,
+   "2026-09-30T21:29:40.791338+00:00"
   ]
  }
 }
