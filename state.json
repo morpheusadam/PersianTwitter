@@ -742,18 +742,20 @@
   "at://did:plc:kft6lu4trxowqmter2b6vg6z/app.bsky.feed.post/3mwoc6wab4s2d",
   "https://www.theverge.com/?p=1002201",
   "TheNextWeb=06d7d8ab6fe3ac813f34e19d450ebae5",
-  "https://www.theverge.com/?p=1002505"
+  "https://www.theverge.com/?p=1002505",
+  "https://thehackernews.com/2026/09/bitget-says-attacker-exploited-third.html",
+  "https://www.bleepingcomputer.com/news/security/bitget-hacked-via-zero-day-in-third-party-security-products/"
  ],
  "posted": {
   "viral": 156,
-  "editorial": 155
+  "editorial": 156
  },
  "recent_labels": [
-  "404 Media",
   "Hacker News",
   "The Register",
   "Simon Willison",
-  "The Next Web"
+  "The Next Web",
+  "The Hacker News"
  ],
  "last_digest": "2026-09-25",
  "history": [
@@ -1071,6 +1073,13 @@
    "source": "The Next Web",
    "score": 0.42079,
    "at": "2026-09-30T00:42:39.224548+00:00"
+  },
+  {
+   "title": "سرقت ۳۸۸ میلیون دلاری از صرافی Bitget با سوءاستفاده از یک آسیب‌پذیری",
+   "url": "https://thehackernews.com/2026/09/bitget-says-attacker-exploited-third.html",
+   "source": "The Hacker News",
+   "score": 0.60904,
+   "at": "2026-09-30T11:17:18.573397+00:00"
   }
  ],
  "stories": [
@@ -4276,37 +4285,27 @@
     "won"
    ],
    "at": "2026-09-30T00:42:39.224548+00:00"
+  },
+  {
+   "sig": [
+    "388m",
+    "attacker",
+    "bitget",
+    "exploited",
+    "flaw",
+    "hacked",
+    "product",
+    "products",
+    "security",
+    "steal",
+    "third-party",
+    "via",
+    "zero-day"
+   ],
+   "at": "2026-09-30T11:17:18.573397+00:00"
   }
  ],
  "snapshots": {
-  "lobsters:11uiiv": [
-   91,
-   "2026-09-17T19:09:51.118415+00:00"
-  ],
-  "hn:49738091": [
-   450,
-   "2026-09-17T19:09:51.118415+00:00"
-  ],
-  "hn:49740507": [
-   928,
-   "2026-09-17T22:19:35.098131+00:00"
-  ],
-  "hn:49740047": [
-   194,
-   "2026-09-17T22:19:35.098131+00:00"
-  ],
-  "hn:49739018": [
-   793,
-   "2026-09-17T22:19:35.098131+00:00"
-  ],
-  "hn:49738879": [
-   772,
-   "2026-09-17T22:19:35.098131+00:00"
-  ],
-  "hn:49738766": [
-   96,
-   "2026-09-17T22:19:35.098131+00:00"
-  ],
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mvps66xtwg2l": [
    179,
    "2026-09-17T22:19:35.098131+00:00"
@@ -6676,8 +6675,36 @@
    "2026-09-30T00:42:37.335898+00:00"
   ],
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mwozlb6a7k25": [
-   510,
-   "2026-09-30T00:42:37.335898+00:00"
+   933,
+   "2026-09-30T11:17:08.713553+00:00"
+  ],
+  "hn:49905487": [
+   595,
+   "2026-09-30T11:17:08.713553+00:00"
+  ],
+  "hn:49904408": [
+   419,
+   "2026-09-30T11:17:08.713553+00:00"
+  ],
+  "hn:49903993": [
+   142,
+   "2026-09-30T11:17:08.713553+00:00"
+  ],
+  "hn:49903713": [
+   159,
+   "2026-09-30T11:17:08.713553+00:00"
+  ],
+  "lobsters:vmmq7g": [
+   61,
+   "2026-09-30T11:17:08.713553+00:00"
+  ],
+  "lobsters:odrfgk": [
+   28,
+   "2026-09-30T11:17:08.713553+00:00"
+  ],
+  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mwp2simzxk2o": [
+   10,
+   "2026-09-30T11:17:08.713553+00:00"
   ]
  }
 }
