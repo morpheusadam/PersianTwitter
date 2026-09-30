@@ -744,18 +744,24 @@
   "TheNextWeb=06d7d8ab6fe3ac813f34e19d450ebae5",
   "https://www.theverge.com/?p=1002505",
   "https://thehackernews.com/2026/09/bitget-says-attacker-exploited-third.html",
-  "https://www.bleepingcomputer.com/news/security/bitget-hacked-via-zero-day-in-third-party-security-products/"
+  "https://www.bleepingcomputer.com/news/security/bitget-hacked-via-zero-day-in-third-party-security-products/",
+  "https://www.engadget.com/2272834/amazon-unveils-a-thinner-and-faster-fire-tv-stick-4k-plus-a-new-remote/",
+  "https://www.theverge.com/?p=1002597",
+  "mcRkFjgVPAfXHn46QwMDDo",
+  "https://www.techspot.com/news/114047-amazon-launches-faster-4k-fire-tv-stick-all.html",
+  "https://www.neowin.net/news/amazons-new-fire-tv-stick-4k-is-faster-with-vega-os-and-redesigned-remote/",
+  "TheNextWeb=8691613a1023ed6b2f562d848b9043be"
  ],
  "posted": {
   "viral": 156,
-  "editorial": 156
+  "editorial": 157
  },
  "recent_labels": [
-  "Hacker News",
   "The Register",
   "Simon Willison",
   "The Next Web",
-  "The Hacker News"
+  "The Hacker News",
+  "Engadget"
  ],
  "last_digest": "2026-09-25",
  "history": [
@@ -1080,6 +1086,13 @@
    "source": "The Hacker News",
    "score": 0.60904,
    "at": "2026-09-30T11:17:18.573397+00:00"
+  },
+  {
+   "title": "معرفی نسل جدید Fire TV Stick 4K با سخت‌افزار ارتقایافته",
+   "url": "https://www.engadget.com/2272834/amazon-unveils-a-thinner-and-faster-fire-tv-stick-4k-plus-a-new-remote/",
+   "source": "Engadget",
+   "score": 1.0331,
+   "at": "2026-09-30T16:54:39.003788+00:00"
   }
  ],
  "stories": [
@@ -4303,69 +4316,31 @@
     "zero-day"
    ],
    "at": "2026-09-30T11:17:18.573397+00:00"
+  },
+  {
+   "sig": [
+    "all-new",
+    "amazon",
+    "design",
+    "directly",
+    "faster",
+    "fire",
+    "launches",
+    "plus",
+    "power",
+    "pull",
+    "redesigned",
+    "remote",
+    "stick",
+    "there",
+    "thinner",
+    "unveils",
+    "vega"
+   ],
+   "at": "2026-09-30T16:54:39.003788+00:00"
   }
  ],
  "snapshots": {
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mvps66xtwg2l": [
-   179,
-   "2026-09-17T22:19:35.098131+00:00"
-  ],
-  "hn:49743756": [
-   242,
-   "2026-09-17T22:19:35.098131+00:00"
-  ],
-  "hn:49743097": [
-   600,
-   "2026-09-17T22:19:35.098131+00:00"
-  ],
-  "hn:49742976": [
-   269,
-   "2026-09-17T22:19:35.098131+00:00"
-  ],
-  "hn:49742439": [
-   197,
-   "2026-09-17T22:19:35.098131+00:00"
-  ],
-  "hn:49742437": [
-   116,
-   "2026-09-17T22:19:35.098131+00:00"
-  ],
-  "hn:49742353": [
-   340,
-   "2026-09-17T22:19:35.098131+00:00"
-  ],
-  "hn:49742021": [
-   296,
-   "2026-09-17T22:19:35.098131+00:00"
-  ],
-  "hn:49740105": [
-   319,
-   "2026-09-17T22:19:35.098131+00:00"
-  ],
-  "lobsters:fjnkn4": [
-   37,
-   "2026-09-17T22:19:35.098131+00:00"
-  ],
-  "lobsters:mc3zgo": [
-   31,
-   "2026-09-17T22:19:35.098131+00:00"
-  ],
-  "lobsters:rok1za": [
-   128,
-   "2026-09-17T22:19:35.098131+00:00"
-  ],
-  "lobsters:oigetg": [
-   31,
-   "2026-09-17T22:19:35.098131+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mvqb3pfrlb2p": [
-   200,
-   "2026-09-17T22:19:35.098131+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mvq2fpsbdg2v": [
-   354,
-   "2026-09-17T22:19:35.098131+00:00"
-  ],
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mvpzzb3fqk2f": [
    2337,
    "2026-09-17T22:19:35.098131+00:00"
@@ -6678,10 +6653,6 @@
    933,
    "2026-09-30T11:17:08.713553+00:00"
   ],
-  "hn:49905487": [
-   595,
-   "2026-09-30T11:17:08.713553+00:00"
-  ],
   "hn:49904408": [
    419,
    "2026-09-30T11:17:08.713553+00:00"
@@ -6705,6 +6676,70 @@
   "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mwp2simzxk2o": [
    10,
    "2026-09-30T11:17:08.713553+00:00"
+  ],
+  "hn:49905487": [
+   1114,
+   "2026-09-30T16:54:34.418353+00:00"
+  ],
+  "hn:49908962": [
+   126,
+   "2026-09-30T16:54:34.418353+00:00"
+  ],
+  "hn:49908757": [
+   251,
+   "2026-09-30T16:54:34.418353+00:00"
+  ],
+  "hn:49907057": [
+   521,
+   "2026-09-30T16:54:34.418353+00:00"
+  ],
+  "hn:49906669": [
+   257,
+   "2026-09-30T16:54:34.418353+00:00"
+  ],
+  "lobsters:nicozi": [
+   59,
+   "2026-09-30T16:54:34.418353+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mwqretn2ds26": [
+   167,
+   "2026-09-30T16:54:34.418353+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mwqrbyuzeu26": [
+   220,
+   "2026-09-30T16:54:34.418353+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mwqr4ikk2s26": [
+   207,
+   "2026-09-30T16:54:34.418353+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mwqqh4xjyc2r": [
+   140,
+   "2026-09-30T16:54:34.418353+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mwqnxf6foh27": [
+   130,
+   "2026-09-30T16:54:34.418353+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mwqn4eua3n2a": [
+   145,
+   "2026-09-30T16:54:34.418353+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mwqm63bplk26": [
+   1576,
+   "2026-09-30T16:54:34.418353+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mwqj43plbk26": [
+   213,
+   "2026-09-30T16:54:34.418353+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mwqgorfwpc26": [
+   241,
+   "2026-09-30T16:54:34.418353+00:00"
+  ],
+  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mwqf6xp5vk6o": [
+   203,
+   "2026-09-30T16:54:34.418353+00:00"
   ]
  }
 }
