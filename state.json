@@ -758,18 +758,21 @@
   "3167917",
   "https://www.engadget.com/2272526/samsung-galaxy-tab-s12-ultra-review/",
   "tqp4wXBWMbQXwhZSzzEXCF",
-  "https://www.androidpolice.com/i-revisited-to-the-galaxy-s26-ultra-samsung-has-already-made-a-better-phone/"
+  "https://www.androidpolice.com/i-revisited-to-the-galaxy-s26-ultra-samsung-has-already-made-a-better-phone/",
+  "https://www.theregister.com/a/5300056",
+  "https://3dnews.ru/1149293/#6abd6839742eecb0f88b4575",
+  "https://www.securityweek.com/?p=49716"
  ],
  "posted": {
   "viral": 156,
-  "editorial": 158
+  "editorial": 159
  },
  "recent_labels": [
-  "Simon Willison",
   "The Next Web",
   "The Hacker News",
   "Engadget",
-  "3DNews"
+  "3DNews",
+  "The Register"
  ],
  "last_digest": "2026-09-25",
  "history": [
@@ -1108,6 +1111,13 @@
    "source": "3DNews",
    "score": 0.40715,
    "at": "2026-09-30T21:29:56.383954+00:00"
+  },
+  {
+   "title": "تلاش OpenAI برای رقابت با AWS از طریق گسترش بازار مدل‌ها",
+   "url": "https://www.theregister.com/columnists/2026/09/30/openai-apes-aws-marketplace-while-anthropic-remains-stubbornly-microsoftian/5300056",
+   "source": "The Register",
+   "score": 0.43454,
+   "at": "2026-10-01T00:47:23.771716+00:00"
   }
  ],
  "stories": [
@@ -4384,41 +4394,28 @@
     "well"
    ],
    "at": "2026-09-30T21:29:56.383954+00:00"
+  },
+  {
+   "sig": [
+    "anthropic",
+    "apes",
+    "aws",
+    "consumers",
+    "ftc",
+    "investigating",
+    "marketplace",
+    "microsoftian",
+    "openai",
+    "possible",
+    "remains",
+    "risks",
+    "stubbornly",
+    "while"
+   ],
+   "at": "2026-10-01T00:47:23.771716+00:00"
   }
  ],
  "snapshots": {
-  "lobsters:vzql1n": [
-   38,
-   "2026-09-18T09:57:36.557737+00:00"
-  ],
-  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mvqv4gxzxu2n": [
-   148,
-   "2026-09-18T09:57:36.557737+00:00"
-  ],
-  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mvqx6xzumk27": [
-   8,
-   "2026-09-18T09:57:36.557737+00:00"
-  ],
-  "hn:49749771": [
-   229,
-   "2026-09-18T14:35:11.799808+00:00"
-  ],
-  "hn:49749656": [
-   732,
-   "2026-09-18T14:35:11.799808+00:00"
-  ],
-  "lobsters:lcjf7c": [
-   162,
-   "2026-09-18T14:35:11.799808+00:00"
-  ],
-  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mvrdbnvrds2b": [
-   18,
-   "2026-09-18T14:35:11.799808+00:00"
-  ],
-  "hn:49753878": [
-   63,
-   "2026-09-18T14:35:11.799808+00:00"
-  ],
   "hn:49750694": [
    144,
    "2026-09-18T14:35:11.799808+00:00"
@@ -6679,14 +6676,6 @@
    59,
    "2026-09-30T16:54:34.418353+00:00"
   ],
-  "hn:49908962": [
-   209,
-   "2026-09-30T21:29:40.791338+00:00"
-  ],
-  "hn:49908757": [
-   268,
-   "2026-09-30T21:29:40.791338+00:00"
-  ],
   "hn:49907057": [
    569,
    "2026-09-30T21:29:40.791338+00:00"
@@ -6695,97 +6684,137 @@
    270,
    "2026-09-30T21:29:40.791338+00:00"
   ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mwqretn2ds26": [
-   435,
-   "2026-09-30T21:29:40.791338+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mwqrbyuzeu26": [
-   473,
-   "2026-09-30T21:29:40.791338+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mwqr4ikk2s26": [
-   1196,
-   "2026-09-30T21:29:40.791338+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mwqqh4xjyc2r": [
-   214,
-   "2026-09-30T21:29:40.791338+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mwqnxf6foh27": [
-   166,
-   "2026-09-30T21:29:40.791338+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mwqn4eua3n2a": [
-   193,
-   "2026-09-30T21:29:40.791338+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mwqm63bplk26": [
-   2946,
-   "2026-09-30T21:29:40.791338+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mwqj43plbk26": [
-   321,
-   "2026-09-30T21:29:40.791338+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mwqgorfwpc26": [
-   262,
-   "2026-09-30T21:29:40.791338+00:00"
-  ],
-  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mwqf6xp5vk6o": [
-   217,
-   "2026-09-30T21:29:40.791338+00:00"
-  ],
-  "hn:49913255": [
-   148,
-   "2026-09-30T21:29:40.791338+00:00"
-  ],
-  "hn:49912955": [
-   94,
-   "2026-09-30T21:29:40.791338+00:00"
-  ],
-  "hn:49912444": [
-   110,
-   "2026-09-30T21:29:40.791338+00:00"
-  ],
-  "hn:49911995": [
-   183,
-   "2026-09-30T21:29:40.791338+00:00"
-  ],
-  "hn:49911757": [
-   208,
-   "2026-09-30T21:29:40.791338+00:00"
-  ],
-  "hn:49910613": [
-   113,
-   "2026-09-30T21:29:40.791338+00:00"
-  ],
-  "hn:49909610": [
-   96,
-   "2026-09-30T21:29:40.791338+00:00"
-  ],
-  "hn:49909583": [
-   331,
-   "2026-09-30T21:29:40.791338+00:00"
-  ],
-  "hn:49908394": [
-   815,
-   "2026-09-30T21:29:40.791338+00:00"
-  ],
-  "lobsters:3ufaju": [
-   28,
-   "2026-09-30T21:29:40.791338+00:00"
-  ],
   "lobsters:irijoi": [
    39,
    "2026-09-30T21:29:40.791338+00:00"
   ],
+  "hn:49908962": [
+   228,
+   "2026-10-01T00:47:18.866446+00:00"
+  ],
+  "hn:49908757": [
+   273,
+   "2026-10-01T00:47:18.866446+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mwqretn2ds26": [
+   454,
+   "2026-10-01T00:47:18.866446+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mwqrbyuzeu26": [
+   501,
+   "2026-10-01T00:47:18.866446+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mwqr4ikk2s26": [
+   1826,
+   "2026-10-01T00:47:18.866446+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mwqqh4xjyc2r": [
+   223,
+   "2026-10-01T00:47:18.866446+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mwqnxf6foh27": [
+   171,
+   "2026-10-01T00:47:18.866446+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mwqn4eua3n2a": [
+   193,
+   "2026-10-01T00:47:18.866446+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mwqm63bplk26": [
+   3830,
+   "2026-10-01T00:47:18.866446+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mwqj43plbk26": [
+   330,
+   "2026-10-01T00:47:18.866446+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mwqgorfwpc26": [
+   265,
+   "2026-10-01T00:47:18.866446+00:00"
+  ],
+  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mwqf6xp5vk6o": [
+   222,
+   "2026-10-01T00:47:18.866446+00:00"
+  ],
+  "hn:49913255": [
+   193,
+   "2026-10-01T00:47:18.866446+00:00"
+  ],
+  "hn:49912955": [
+   188,
+   "2026-10-01T00:47:18.866446+00:00"
+  ],
+  "hn:49912444": [
+   188,
+   "2026-10-01T00:47:18.866446+00:00"
+  ],
+  "hn:49911995": [
+   234,
+   "2026-10-01T00:47:18.866446+00:00"
+  ],
+  "hn:49911757": [
+   226,
+   "2026-10-01T00:47:18.866446+00:00"
+  ],
+  "hn:49910613": [
+   121,
+   "2026-10-01T00:47:18.866446+00:00"
+  ],
+  "hn:49909610": [
+   106,
+   "2026-10-01T00:47:18.866446+00:00"
+  ],
+  "hn:49909583": [
+   393,
+   "2026-10-01T00:47:18.866446+00:00"
+  ],
+  "hn:49908394": [
+   985,
+   "2026-10-01T00:47:18.866446+00:00"
+  ],
+  "lobsters:3ufaju": [
+   36,
+   "2026-10-01T00:47:18.866446+00:00"
+  ],
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mwqxyjqd462a": [
-   339,
-   "2026-09-30T21:29:40.791338+00:00"
+   373,
+   "2026-10-01T00:47:18.866446+00:00"
   ],
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mwqxmiiqlk2w": [
-   452,
-   "2026-09-30T21:29:40.791338+00:00"
+   499,
+   "2026-10-01T00:47:18.866446+00:00"
+  ],
+  "hn:49915082": [
+   162,
+   "2026-10-01T00:47:18.866446+00:00"
+  ],
+  "hn:49914236": [
+   159,
+   "2026-10-01T00:47:18.866446+00:00"
+  ],
+  "hn:49913571": [
+   2173,
+   "2026-10-01T00:47:18.866446+00:00"
+  ],
+  "hn:49913458": [
+   213,
+   "2026-10-01T00:47:18.866446+00:00"
+  ],
+  "hn:49913350": [
+   76,
+   "2026-10-01T00:47:18.866446+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mwrcixicws2o": [
+   231,
+   "2026-10-01T00:47:18.866446+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mwrc2f2ivp26": [
+   136,
+   "2026-10-01T00:47:18.866446+00:00"
+  ],
+  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mwre64qczc23": [
+   15,
+   "2026-10-01T00:47:18.866446+00:00"
   ]
  }
 }
