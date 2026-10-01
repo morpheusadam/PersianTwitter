@@ -761,18 +761,20 @@
   "https://www.androidpolice.com/i-revisited-to-the-galaxy-s26-ultra-samsung-has-already-made-a-better-phone/",
   "https://www.theregister.com/a/5300056",
   "https://3dnews.ru/1149293/#6abd6839742eecb0f88b4575",
-  "https://www.securityweek.com/?p=49716"
+  "https://www.securityweek.com/?p=49716",
+  "hn:49918161",
+  "at://did:plc:ipt7y6qaf6fn7oeeduboqe44/app.bsky.feed.post/3mwsfhbltis2o"
  ],
  "posted": {
-  "viral": 156,
+  "viral": 157,
   "editorial": 159
  },
  "recent_labels": [
-  "The Next Web",
   "The Hacker News",
   "Engadget",
   "3DNews",
-  "The Register"
+  "The Register",
+  "antirez"
  ],
  "last_digest": "2026-09-25",
  "history": [
@@ -1118,6 +1120,13 @@
    "source": "The Register",
    "score": 0.43454,
    "at": "2026-10-01T00:47:23.771716+00:00"
+  },
+  {
+   "title": "توصیه‌هایی برای یادگیری اصولی برنامه‌نویسی و ارتقای مهارت‌های فنی",
+   "url": "https://bsky.app/profile/antirez.bsky.social/post/3mwsfhbltis2o",
+   "source": "antirez",
+   "score": 0.14494,
+   "at": "2026-10-01T11:44:18.790588+00:00"
   }
  ],
  "stories": [
@@ -4413,41 +4422,37 @@
     "while"
    ],
    "at": "2026-10-01T00:47:23.771716+00:00"
+  },
+  {
+   "sig": [
+    "advice",
+    "code",
+    "coding",
+    "developer",
+    "games",
+    "generated",
+    "get-better",
+    "hand",
+    "interpreters",
+    "junior",
+    "look",
+    "mature",
+    "need",
+    "programmer",
+    "programs",
+    "ray",
+    "right",
+    "save",
+    "since",
+    "time",
+    "tracers",
+    "write",
+    "wrong"
+   ],
+   "at": "2026-10-01T11:44:18.790588+00:00"
   }
  ],
  "snapshots": {
-  "hn:49750694": [
-   144,
-   "2026-09-18T14:35:11.799808+00:00"
-  ],
-  "hn:49752056": [
-   2119,
-   "2026-09-18T18:36:19.146133+00:00"
-  ],
-  "lobsters:e1xglz": [
-   55,
-   "2026-09-18T18:36:19.146133+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mvshavbtsk2f": [
-   1945,
-   "2026-09-18T18:36:19.146133+00:00"
-  ],
-  "hn:49753179": [
-   757,
-   "2026-09-18T21:46:30.758509+00:00"
-  ],
-  "hn:49752614": [
-   654,
-   "2026-09-18T21:46:30.758509+00:00"
-  ],
-  "hn:49752422": [
-   283,
-   "2026-09-18T21:46:30.758509+00:00"
-  ],
-  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mvse4wsgos27": [
-   51,
-   "2026-09-18T21:46:30.758509+00:00"
-  ],
   "hn:49757520": [
    803,
    "2026-09-18T21:46:30.758509+00:00"
@@ -6815,6 +6820,38 @@
   "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mwre64qczc23": [
    15,
    "2026-10-01T00:47:18.866446+00:00"
+  ],
+  "hn:49918161": [
+   291,
+   "2026-10-01T11:44:07.122614+00:00"
+  ],
+  "hn:49917761": [
+   463,
+   "2026-10-01T11:44:07.122614+00:00"
+  ],
+  "hn:49917089": [
+   310,
+   "2026-10-01T11:44:07.122614+00:00"
+  ],
+  "hn:49916955": [
+   147,
+   "2026-10-01T11:44:07.122614+00:00"
+  ],
+  "hn:49916668": [
+   403,
+   "2026-10-01T11:44:07.122614+00:00"
+  ],
+  "lobsters:qgd17n": [
+   63,
+   "2026-10-01T11:44:07.122614+00:00"
+  ],
+  "at://did:plc:ipt7y6qaf6fn7oeeduboqe44/app.bsky.feed.post/3mwsfywylbk2o": [
+   21,
+   "2026-10-01T11:44:07.122614+00:00"
+  ],
+  "at://did:plc:ipt7y6qaf6fn7oeeduboqe44/app.bsky.feed.post/3mwsfhbltis2o": [
+   32,
+   "2026-10-01T11:44:07.122614+00:00"
   ]
  }
 }
