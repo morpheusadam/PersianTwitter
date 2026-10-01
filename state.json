@@ -763,18 +763,22 @@
   "https://3dnews.ru/1149293/#6abd6839742eecb0f88b4575",
   "https://www.securityweek.com/?p=49716",
   "hn:49918161",
-  "at://did:plc:ipt7y6qaf6fn7oeeduboqe44/app.bsky.feed.post/3mwsfhbltis2o"
+  "at://did:plc:ipt7y6qaf6fn7oeeduboqe44/app.bsky.feed.post/3mwsfhbltis2o",
+  "qbABHvfvACUs4KbMRCNkPY",
+  "711fb89cf970bddc3e4649e0c9d7f371",
+  "https://www.techspot.com/news/114064-hp-joins-macbook-neo-fight-colorful-omnibook-5.html",
+  "https://9to5google.com/2026/10/01/hp-omnibook-5-macbook-neo-competitor-699-oled-display-plenty-of-catches/"
  ],
  "posted": {
   "viral": 157,
-  "editorial": 159
+  "editorial": 160
  },
  "recent_labels": [
-  "The Hacker News",
   "Engadget",
   "3DNews",
   "The Register",
-  "antirez"
+  "antirez",
+  "Tom's Hardware"
  ],
  "last_digest": "2026-09-25",
  "history": [
@@ -1127,6 +1131,13 @@
    "source": "antirez",
    "score": 0.14494,
    "at": "2026-10-01T11:44:18.790588+00:00"
+  },
+  {
+   "title": "لپ‌تاپ جدید HP OmniBook 5 با پردازنده‌های Wildcat Lake معرفی شد",
+   "url": "https://www.tomshardware.com/laptops/hp-boards-the-macbook-neo-competitor-train-omnibook-5-comes-in-four-colors-with-wildcat-lake-and-starts-at-usd699-99",
+   "source": "Tom's Hardware",
+   "score": 0.86736,
+   "at": "2026-10-01T18:30:36.593075+00:00"
   }
  ],
  "stories": [
@@ -4450,113 +4461,29 @@
     "wrong"
    ],
    "at": "2026-10-01T11:44:18.790588+00:00"
+  },
+  {
+   "sig": [
+    "boards",
+    "catches",
+    "colorful",
+    "competitor",
+    "display",
+    "fight",
+    "joins",
+    "laptops",
+    "macbook",
+    "neo",
+    "oled",
+    "omnibook",
+    "plenty",
+    "starting",
+    "train"
+   ],
+   "at": "2026-10-01T18:30:36.593075+00:00"
   }
  ],
  "snapshots": {
-  "hn:49757520": [
-   803,
-   "2026-09-18T21:46:30.758509+00:00"
-  ],
-  "hn:49757178": [
-   463,
-   "2026-09-18T21:46:30.758509+00:00"
-  ],
-  "hn:49757050": [
-   201,
-   "2026-09-18T21:46:30.758509+00:00"
-  ],
-  "hn:49756171": [
-   375,
-   "2026-09-18T21:46:30.758509+00:00"
-  ],
-  "hn:49755160": [
-   446,
-   "2026-09-18T21:46:30.758509+00:00"
-  ],
-  "hn:49755024": [
-   527,
-   "2026-09-18T21:46:30.758509+00:00"
-  ],
-  "hn:49754687": [
-   246,
-   "2026-09-18T21:46:30.758509+00:00"
-  ],
-  "lobsters:j4oyxa": [
-   78,
-   "2026-09-18T21:46:30.758509+00:00"
-  ],
-  "lobsters:4a7qly": [
-   75,
-   "2026-09-18T21:46:30.758509+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mvslp3zeyr2z": [
-   124,
-   "2026-09-18T21:46:30.758509+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mvskubsdqs2f": [
-   71,
-   "2026-09-18T21:46:30.758509+00:00"
-  ],
-  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mvsgzngmrc2s": [
-   68,
-   "2026-09-18T21:46:30.758509+00:00"
-  ],
-  "at://did:plc:2mrgzk6xlemfv6yugn644xxy/app.bsky.feed.post/3mvso2k5wxk2f": [
-   63,
-   "2026-09-18T21:46:30.758509+00:00"
-  ],
-  "hn:49760187": [
-   207,
-   "2026-09-18T21:46:30.758509+00:00"
-  ],
-  "hn:49759466": [
-   272,
-   "2026-09-18T21:46:30.758509+00:00"
-  ],
-  "hn:49758736": [
-   613,
-   "2026-09-18T21:46:30.758509+00:00"
-  ],
-  "hn:49758028": [
-   363,
-   "2026-09-18T21:46:30.758509+00:00"
-  ],
-  "hn:49755533": [
-   169,
-   "2026-09-18T21:46:30.758509+00:00"
-  ],
-  "hn:49755095": [
-   88,
-   "2026-09-18T21:46:30.758509+00:00"
-  ],
-  "hn:49754250": [
-   259,
-   "2026-09-18T21:46:30.758509+00:00"
-  ],
-  "hn:49752279": [
-   83,
-   "2026-09-18T21:46:30.758509+00:00"
-  ],
-  "at://did:plc:kft6lu4trxowqmter2b6vg6z/app.bsky.feed.post/3mvsv535dyk25": [
-   510,
-   "2026-09-18T21:46:30.758509+00:00"
-  ],
-  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mvsvtjwlyk26": [
-   186,
-   "2026-09-18T21:46:30.758509+00:00"
-  ],
-  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mvsvprxqku2o": [
-   216,
-   "2026-09-18T21:46:30.758509+00:00"
-  ],
-  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mvsaf5ncgs2s": [
-   69,
-   "2026-09-18T21:46:30.758509+00:00"
-  ],
-  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mvsybcp44s27": [
-   6,
-   "2026-09-18T21:46:30.758509+00:00"
-  ],
   "hn:49763987": [
    192,
    "2026-09-19T09:39:58.761688+00:00"
@@ -6841,17 +6768,121 @@
    403,
    "2026-10-01T11:44:07.122614+00:00"
   ],
-  "lobsters:qgd17n": [
-   63,
-   "2026-10-01T11:44:07.122614+00:00"
-  ],
-  "at://did:plc:ipt7y6qaf6fn7oeeduboqe44/app.bsky.feed.post/3mwsfywylbk2o": [
-   21,
-   "2026-10-01T11:44:07.122614+00:00"
-  ],
   "at://did:plc:ipt7y6qaf6fn7oeeduboqe44/app.bsky.feed.post/3mwsfhbltis2o": [
    32,
    "2026-10-01T11:44:07.122614+00:00"
+  ],
+  "lobsters:qgd17n": [
+   152,
+   "2026-10-01T18:30:26.767752+00:00"
+  ],
+  "at://did:plc:ipt7y6qaf6fn7oeeduboqe44/app.bsky.feed.post/3mwsfywylbk2o": [
+   45,
+   "2026-10-01T18:30:26.767752+00:00"
+  ],
+  "hn:49924179": [
+   302,
+   "2026-10-01T18:30:26.767752+00:00"
+  ],
+  "hn:49923692": [
+   363,
+   "2026-10-01T18:30:26.767752+00:00"
+  ],
+  "hn:49923575": [
+   172,
+   "2026-10-01T18:30:26.767752+00:00"
+  ],
+  "hn:49923056": [
+   215,
+   "2026-10-01T18:30:26.767752+00:00"
+  ],
+  "hn:49922729": [
+   241,
+   "2026-10-01T18:30:26.767752+00:00"
+  ],
+  "hn:49922674": [
+   61,
+   "2026-10-01T18:30:26.767752+00:00"
+  ],
+  "hn:49922569": [
+   176,
+   "2026-10-01T18:30:26.767752+00:00"
+  ],
+  "hn:49922278": [
+   389,
+   "2026-10-01T18:30:26.767752+00:00"
+  ],
+  "hn:49921923": [
+   160,
+   "2026-10-01T18:30:26.767752+00:00"
+  ],
+  "hn:49921118": [
+   650,
+   "2026-10-01T18:30:26.767752+00:00"
+  ],
+  "hn:49921051": [
+   197,
+   "2026-10-01T18:30:26.767752+00:00"
+  ],
+  "hn:49920997": [
+   630,
+   "2026-10-01T18:30:26.767752+00:00"
+  ],
+  "hn:49920932": [
+   802,
+   "2026-10-01T18:30:26.767752+00:00"
+  ],
+  "hn:49920896": [
+   365,
+   "2026-10-01T18:30:26.767752+00:00"
+  ],
+  "hn:49920234": [
+   850,
+   "2026-10-01T18:30:26.767752+00:00"
+  ],
+  "hn:49920160": [
+   618,
+   "2026-10-01T18:30:26.767752+00:00"
+  ],
+  "hn:49919910": [
+   287,
+   "2026-10-01T18:30:26.767752+00:00"
+  ],
+  "lobsters:dfvxvs": [
+   30,
+   "2026-10-01T18:30:26.767752+00:00"
+  ],
+  "lobsters:bbi3w9": [
+   28,
+   "2026-10-01T18:30:26.767752+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mwt5kxvhky2z": [
+   115,
+   "2026-10-01T18:30:26.767752+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mwt3bzb7ck2o": [
+   474,
+   "2026-10-01T18:30:26.767752+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mwt27zc7ec25": [
+   307,
+   "2026-10-01T18:30:26.767752+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mwsy7nmzi22o": [
+   1461,
+   "2026-10-01T18:30:26.767752+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mwsxpkgux622": [
+   306,
+   "2026-10-01T18:30:26.767752+00:00"
+  ],
+  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mwsyld5jx2xj": [
+   106,
+   "2026-10-01T18:30:26.767752+00:00"
+  ],
+  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mwsxbeju2kxj": [
+   1828,
+   "2026-10-01T18:30:26.767752+00:00"
   ]
  }
 }
