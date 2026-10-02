@@ -769,217 +769,22 @@
   "https://www.techspot.com/news/114064-hp-joins-macbook-neo-fight-colorful-omnibook-5.html",
   "https://9to5google.com/2026/10/01/hp-omnibook-5-macbook-neo-competitor-699-oled-display-plenty-of-catches/",
   "hn:49926069",
-  "hn:49929489"
+  "hn:49929489",
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mwvkzjudgs2z"
  ],
  "posted": {
-  "viral": 159,
+  "viral": 160,
   "editorial": 160
  },
  "recent_labels": [
-  "The Register",
   "antirez",
   "Tom's Hardware",
   "Hacker News",
-  "Hacker News"
+  "Hacker News",
+  "404 Media"
  ],
- "last_digest": "2026-09-25",
+ "last_digest": "2026-10-02",
  "history": [
-  {
-   "title": "افشای اسناد محرمانه درباره پیامدهای مخرب مدل‌های زبانی بر وب",
-   "url": "https://bsky.app/profile/404media.co/post/3mvshavbtsk2f",
-   "source": "404 Media",
-   "score": 0.47004,
-   "at": "2026-09-18T18:36:22.816798+00:00"
-  },
-  {
-   "title": "خطای هوش مصنوعی در ارتش آمریکا و خطر درگیری نظامی با چین",
-   "url": "https://edition.cnn.com/2026/09/18/politics/us-military-ai-false-intelligence-china-ship",
-   "source": "edition.cnn.com",
-   "score": 0.37691,
-   "at": "2026-09-18T21:46:33.199922+00:00"
-  },
-  {
-   "title": "مدل هوش مصنوعی GPT-6 Astra یک رمزنگاری نظامی قدیمی را شکست",
-   "url": "https://www.prinzai.com/p/gpt-6-astra-solves-a-wwi-german-radio",
-   "source": "prinzai.com",
-   "score": 0.08571,
-   "at": "2026-09-19T09:40:02.392515+00:00"
-  },
-  {
-   "title": "بررسی ساعت هوشمند Samsung Galaxy Watch9 با پردازنده جدید و Wear OS 7",
-   "url": "https://www.wired.com/review/samsung-galaxy-watch9/",
-   "source": "Wired",
-   "score": 0.5122,
-   "at": "2026-09-19T13:57:56.999666+00:00"
-  },
-  {
-   "title": "انتقاد از تمرکز بر هوش مصنوعی عمومی و نادیده گرفتن آسیب‌های واقعی",
-   "url": "https://bsky.app/profile/emilymbender.bsky.social/post/3mvutwrross2s",
-   "source": "Emily M. Bender",
-   "score": 0.12682,
-   "at": "2026-09-19T17:21:31.942376+00:00"
-  },
-  {
-   "title": "نفوذ مدل هوش مصنوعی گوگل به شبکه‌های واقعی در حین تست",
-   "url": "https://www.engadget.com/2263198/google-gemini-escaped-testing-environment-hacked-three-companies/",
-   "source": "Engadget",
-   "score": 0.2983,
-   "at": "2026-09-19T19:27:25.765342+00:00"
-  },
-  {
-   "title": "افشای اسناد داخلی مایکروسافت و OpenAI در پرونده شکایت نیویورک‌تایمز",
-   "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/microsoft-director-called-ai-scraping-the-largest-theft-of-labor-in-human-history-while-openai-head-brands-chatgpt-an-existential-threat-to-publishers-revelations-come-from-legal-briefs-filed-in-nyt-lawsuit",
-   "source": "Tom's Hardware",
-   "score": 0.22713,
-   "at": "2026-09-19T21:36:38.067815+00:00"
-  },
-  {
-   "title": "صدرنشینی دستیار هوشمند Muse در اپ استور آمریکا",
-   "url": "https://3dnews.ru/1148751",
-   "source": "3DNews",
-   "score": 0.34704,
-   "at": "2026-09-20T09:56:33.491203+00:00"
-  },
-  {
-   "title": "توهم هوشمندی در مدل‌های زبانی مشابه کلاهبرداری‌های فال‌گیری است",
-   "url": "https://softwarecrisis.dev/letters/llmentalist/",
-   "source": "softwarecrisis.dev",
-   "score": 0.3505,
-   "at": "2026-09-20T14:18:19.092435+00:00"
-  },
-  {
-   "title": "ظهور ایجنت‌های هوش مصنوعی و افزایش مزاحمت‌های آنلاین",
-   "url": "https://www.404media.co/theres-a-100-chance-ai-agents-are-already-ruining-the-internet/",
-   "source": "404media.co",
-   "score": 0.73057,
-   "at": "2026-09-20T17:33:51.465124+00:00"
-  },
-  {
-   "title": "انتقاد امیلی بندر از ماهیت فرقه‌ای حامیان هوش مصنوعی",
-   "url": "https://bsky.app/profile/emilymbender.bsky.social/post/3mvxtsdrkm22y",
-   "source": "Emily M. Bender",
-   "score": 0.40224,
-   "at": "2026-09-20T20:58:16.039230+00:00"
-  },
-  {
-   "title": "امکان برقراری تماس تصویری FaceTime در اندروید و ویندوز",
-   "url": "https://www.engadget.com/2260287/how-to-join-facetime-call-android-phone-windows-pc/",
-   "source": "Engadget",
-   "score": 0.19616,
-   "at": "2026-09-20T23:20:49.365482+00:00"
-  },
-  {
-   "title": "انتقاد از هیاهوی کاذب پیرامون ابزار Jev در حوزه هوش مصنوعی",
-   "url": "https://bsky.app/profile/antirez.bsky.social/post/3mvz6hegazk2o",
-   "source": "antirez",
-   "score": 0.16067,
-   "at": "2026-09-21T10:56:23.581483+00:00"
-  },
-  {
-   "title": "مدیریت دسترسی‌های هوش مصنوعی جدید اپل در سیستم‌عامل iOS 27",
-   "url": "https://www.eff.org/deeplinks/2026/09/how-limit-what-apples-new-siri-ai-can-access-ios-27",
-   "source": "EFF",
-   "score": 0.77516,
-   "at": "2026-09-21T17:08:54.322040+00:00"
-  },
-  {
-   "title": "شناسایی سه آسیب‌پذیری فعال در هسته لینوکس توسط CISA",
-   "url": "https://thehackernews.com/2026/09/cisa-flags-three-linux-kernel.html",
-   "source": "The Hacker News",
-   "score": 0.47322,
-   "at": "2026-09-21T21:10:46.491498+00:00"
-  },
-  {
-   "title": "معرفی گوشی‌های Vivo X500 Pro و X500 Pro Max با تراشه ۲ نانومتری",
-   "url": "https://3dnews.ru/1148813",
-   "source": "3DNews",
-   "score": 0.2408,
-   "at": "2026-09-22T00:13:19.545516+00:00"
-  },
-  {
-   "title": "حذف گزینه‌ی غیرفعال‌سازی قابلیت‌های هوش مصنوعی در macOS 27",
-   "url": "https://dbushell.com/2026/09/22/apple-intelligence/",
-   "source": "dbushell.com",
-   "score": 0.21749,
-   "at": "2026-09-22T10:10:44.295445+00:00"
-  },
-  {
-   "title": "بررسی Apple Mac mini M6: عملکرد قوی با افزایش قیمت چشمگیر",
-   "url": "https://www.tomshardware.com/desktops/mini-pcs/apple-mac-mini-late-2026-review",
-   "source": "Tom's Hardware",
-   "score": 0.86349,
-   "at": "2026-09-22T15:08:01.354656+00:00"
-  },
-  {
-   "title": "گروه هکری ShinyHunters مدعی سرقت اطلاعات حساس کارکنان FBI شد",
-   "url": "https://www.404media.co/we-hacked-the-fbi-hackers-say-they-have-data-on-all-fbi-employees/",
-   "source": "404media.co",
-   "score": 0.81449,
-   "at": "2026-09-22T19:01:36.389446+00:00"
-  },
-  {
-   "title": "شکایت حقوقی علیه شرکت‌های بزرگ هوش مصنوعی به دلیل توافق ضد رقابتی",
-   "url": "https://yro.slashdot.org/story/26/09/20/2152215/lawsuit-says-anthropic-openai-spacexai-and-google-made-illegal-agreement-on-ai-slowdown?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-   "source": "Slashdot",
-   "score": 0.4119,
-   "at": "2026-09-22T22:21:53.545027+00:00"
-  },
-  {
-   "title": "گروه هکری ShinyHunters مدعی نفوذ به پایگاه داده FBI شد",
-   "url": "https://thehackernews.com/2026/09/shinyhunters-claims-fbi-breach-says-it.html",
-   "source": "The Hacker News",
-   "score": 0.8045,
-   "at": "2026-09-23T10:11:55.750378+00:00"
-  },
-  {
-   "title": "استفاده ارتش بریتانیا از سیستم‌های اخلالگر برای مقابله با ماهواره‌های متخاصم",
-   "url": "https://www.bbc.com/news/articles/c32l8y8kygdvo",
-   "source": "bbc.com",
-   "score": 0.5266,
-   "at": "2026-09-23T19:10:12.147757+00:00"
-  },
-  {
-   "title": "معرفی مدل‌های جدید Gemini 3.8 Flash برای تولید و شبیه‌سازی صدا",
-   "url": "https://3dnews.ru/1148941",
-   "source": "3DNews",
-   "score": 0.37845,
-   "at": "2026-09-23T22:25:25.557297+00:00"
-  },
-  {
-   "title": "عوامل هوش مصنوعی برای دسترسی به داده‌ها دست به حملات سایبری زدند",
-   "url": "https://transluce.org/agent-activity",
-   "source": "transluce.org",
-   "score": 0.09297,
-   "at": "2026-09-24T10:20:02.493788+00:00"
-  },
-  {
-   "title": "استفاده سناتور آمریکایی از گزارش هک FBI در جلسه استماع سنا",
-   "url": "https://bsky.app/profile/404media.co/post/3mwbomw3njc2x",
-   "source": "404 Media",
-   "score": 0.35702,
-   "at": "2026-09-24T19:22:52.550086+00:00"
-  },
-  {
-   "title": "ارتقای سخت‌افزاری لپ‌تاپ‌های Surface با پردازنده‌های جدید Snapdragon",
-   "url": "https://www.tomshardware.com/tablets/microsoft-surface/microsoft-brings-snapdragon-x2-plus-to-13-inch-surface-laptop-12-inch-surface-pro-low-end-systems-finally-get-upgrades",
-   "source": "Tom's Hardware",
-   "score": 0.38294,
-   "at": "2026-09-24T22:36:52.406191+00:00"
-  },
-  {
-   "title": "دولت هلند برای کاهش وابستگی به مایکروسافت به سراغ NixOS می‌رود",
-   "url": "https://www.dawo.community/en/",
-   "source": "dawo.community",
-   "score": 0.11593,
-   "at": "2026-09-25T10:22:20.719142+00:00"
-  },
-  {
-   "title": "گسترش قابلیت‌های هوش مصنوعی Muse در اکوسیستم محصولات متا",
-   "url": "https://techcrunch.com/2026/09/23/everything-new-coming-to-metas-ai-agent-muse/",
-   "source": "TechCrunch AI",
-   "score": 0.85904,
-   "at": "2026-09-25T15:23:42.760697+00:00"
-  },
   {
    "title": "قرارداد ۱۱.۶ میلیارد دلاری Anthropic با Akamai برای پردازش ابری",
    "url": "https://www.neowin.net/news/anthropic-signs-116b-cloud-deal-with-akamai/?utm_source=rss",
@@ -1154,6 +959,13 @@
    "source": "deepseek.com",
    "score": 0.04832,
    "at": "2026-10-02T11:13:58.976525+00:00"
+  },
+  {
+   "title": "اخراج پیمانکاران OpenAI به دلیل استفاده از هوش مصنوعی برای آموزش مدل‌ها",
+   "url": "https://www.404media.co/people-training-openais-ai-fired-for-using-ai-to-train-the-ai/",
+   "source": "404media.co",
+   "score": 0.32208,
+   "at": "2026-10-02T16:45:26.668797+00:00"
   }
  ],
  "stories": [
@@ -4507,49 +4319,27 @@
     "windows"
    ],
    "at": "2026-10-02T11:13:58.976525+00:00"
+  },
+  {
+   "sig": [
+    "company",
+    "contractors",
+    "fired",
+    "helping",
+    "improve",
+    "models",
+    "multiple",
+    "openai",
+    "people-train",
+    "thousands",
+    "train",
+    "using",
+    "www.404media.co"
+   ],
+   "at": "2026-10-02T16:45:26.668797+00:00"
   }
  ],
  "snapshots": {
-  "lobsters:kaqsr5": [
-   36,
-   "2026-09-19T21:36:35.576049+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mvvahf5f2o27": [
-   425,
-   "2026-09-19T21:36:35.576049+00:00"
-  ],
-  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mvvajzama224": [
-   29,
-   "2026-09-19T21:36:35.576049+00:00"
-  ],
-  "hn:49768921": [
-   81,
-   "2026-09-19T21:36:35.576049+00:00"
-  ],
-  "hn:49768833": [
-   207,
-   "2026-09-19T21:36:35.576049+00:00"
-  ],
-  "hn:49765288": [
-   76,
-   "2026-09-19T21:36:35.576049+00:00"
-  ],
-  "lobsters:blmlco": [
-   49,
-   "2026-09-19T21:36:35.576049+00:00"
-  ],
-  "lobsters:sn8voe": [
-   27,
-   "2026-09-19T21:36:35.576049+00:00"
-  ],
-  "lobsters:q75kgo": [
-   28,
-   "2026-09-19T21:36:35.576049+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mvvh7qceis2n": [
-   385,
-   "2026-09-19T21:36:35.576049+00:00"
-  ],
   "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mvvicy5tnj2e": [
    649,
    "2026-09-19T21:36:35.576049+00:00"
@@ -6886,14 +6676,6 @@
    8,
    "2026-10-01T22:51:52.986925+00:00"
   ],
-  "hn:49930086": [
-   236,
-   "2026-10-02T11:13:56.162909+00:00"
-  ],
-  "hn:49929970": [
-   180,
-   "2026-10-02T11:13:56.162909+00:00"
-  ],
   "hn:49929489": [
    494,
    "2026-10-02T11:13:56.162909+00:00"
@@ -6909,6 +6691,54 @@
   "lobsters:gmjegm": [
    37,
    "2026-10-02T11:13:56.162909+00:00"
+  ],
+  "hn:49930086": [
+   310,
+   "2026-10-02T16:45:10.764088+00:00"
+  ],
+  "hn:49929970": [
+   207,
+   "2026-10-02T16:45:10.764088+00:00"
+  ],
+  "hn:49934228": [
+   343,
+   "2026-10-02T16:45:10.764088+00:00"
+  ],
+  "hn:49933958": [
+   233,
+   "2026-10-02T16:45:10.764088+00:00"
+  ],
+  "hn:49933459": [
+   269,
+   "2026-10-02T16:45:10.764088+00:00"
+  ],
+  "hn:49933235": [
+   257,
+   "2026-10-02T16:45:10.764088+00:00"
+  ],
+  "hn:49932048": [
+   246,
+   "2026-10-02T16:45:10.764088+00:00"
+  ],
+  "hn:49931926": [
+   112,
+   "2026-10-02T16:45:10.764088+00:00"
+  ],
+  "hn:49931031": [
+   180,
+   "2026-10-02T16:45:10.764088+00:00"
+  ],
+  "lobsters:hfmcxi": [
+   84,
+   "2026-10-02T16:45:10.764088+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mwvkzjudgs2z": [
+   224,
+   "2026-10-02T16:45:10.764088+00:00"
+  ],
+  "at://did:plc:kft6lu4trxowqmter2b6vg6z/app.bsky.feed.post/3mwvldzjzqk2z": [
+   188,
+   "2026-10-02T16:45:10.764088+00:00"
   ]
  }
 }
