@@ -774,18 +774,20 @@
   "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mww3hm6ozk2c",
   "https://www.engadget.com/2276312/meta-muse-gadgets-open-source-smart-home-link/",
   "https://www.theverge.com/?p=1004330",
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mwvy3jcx7r2b"
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mwvy3jcx7r2b",
+  "1343164",
+  "https://www.androidpolice.com/ive-restarted-my-pixel-10-pro-three-times-this-month-alone-google-still-wont-fix-it/"
  ],
  "posted": {
   "viral": 161,
-  "editorial": 161
+  "editorial": 162
  },
  "recent_labels": [
   "Hacker News",
-  "Hacker News",
   "404 Media",
   "Engadget",
-  "404 Media"
+  "404 Media",
+  "ZDNet"
  ],
  "last_digest": "2026-10-02",
  "history": [
@@ -984,6 +986,13 @@
    "source": "404media.co",
    "score": 0.05574,
    "at": "2026-10-03T00:36:19.075975+00:00"
+  },
+  {
+   "title": "اختلال در عملکرد پرداخت بدون تماس گوشی‌های Pixel",
+   "url": "https://www.zdnet.com/tech/tap-to-pay-trouble-pixel-phones-google-wallet-nfc/",
+   "source": "ZDNet",
+   "score": 0.46465,
+   "at": "2026-10-03T10:31:16.875995+00:00"
   }
  ],
  "stories": [
@@ -4391,33 +4400,28 @@
     "wants"
    ],
    "at": "2026-10-03T00:36:19.075975+00:00"
+  },
+  {
+   "sig": [
+    "fix",
+    "google",
+    "month",
+    "pixel",
+    "pro",
+    "restarted",
+    "still",
+    "tap-to-pay",
+    "three",
+    "times",
+    "wallet",
+    "ways",
+    "won",
+    "working"
+   ],
+   "at": "2026-10-03T10:31:16.875995+00:00"
   }
  ],
  "snapshots": {
-  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mvxtsdrkm22y": [
-   863,
-   "2026-09-20T20:58:10.997497+00:00"
-  ],
-  "hn:49774795": [
-   276,
-   "2026-09-20T23:20:47.651598+00:00"
-  ],
-  "hn:49776729": [
-   1106,
-   "2026-09-20T23:20:47.651598+00:00"
-  ],
-  "hn:49776717": [
-   298,
-   "2026-09-20T23:20:47.651598+00:00"
-  ],
-  "hn:49776699": [
-   650,
-   "2026-09-20T23:20:47.651598+00:00"
-  ],
-  "hn:49776627": [
-   385,
-   "2026-09-20T23:20:47.651598+00:00"
-  ],
   "hn:49776130": [
    296,
    "2026-09-20T23:20:47.651598+00:00"
@@ -6793,6 +6797,30 @@
   "lobsters:9ipypq": [
    28,
    "2026-10-03T00:36:17.030650+00:00"
+  ],
+  "hn:49941447": [
+   96,
+   "2026-10-03T10:31:08.453168+00:00"
+  ],
+  "hn:49940505": [
+   164,
+   "2026-10-03T10:31:08.453168+00:00"
+  ],
+  "hn:49940394": [
+   360,
+   "2026-10-03T10:31:08.453168+00:00"
+  ],
+  "hn:49940219": [
+   311,
+   "2026-10-03T10:31:08.453168+00:00"
+  ],
+  "hn:49939773": [
+   238,
+   "2026-10-03T10:31:08.453168+00:00"
+  ],
+  "at://did:plc:ipt7y6qaf6fn7oeeduboqe44/app.bsky.feed.post/3mwx6exeaus2o": [
+   19,
+   "2026-10-03T10:31:08.453168+00:00"
   ]
  }
 }
