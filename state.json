@@ -786,18 +786,22 @@
   "lobsters:dldhpw",
   "https://www.theregister.com/a/5300506",
   "gTcd7kmEFDQpwXhV5upQHR",
-  "https://developers.slashdot.org/story/26/10/03/0125235/someone-got-doom-in-an-sql-database?utm_source=rss1.0mainlinkanon&utm_medium=feed"
+  "https://developers.slashdot.org/story/26/10/03/0125235/someone-got-doom-in-an-sql-database?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+  "https://3dnews.ru/1149420/#6ac07bbf742eece77d8b456c",
+  "https://www.engadget.com/2274578/iphone-18-pro-feature-try-when-unboxed/",
+  "https://www.engadget.com/2274326/how-to-disable-restrict-iphone-apple-intelligence-features/",
+  "1343899"
  ],
  "posted": {
   "viral": 164,
-  "editorial": 164
+  "editorial": 165
  },
  "recent_labels": [
-  "Hacker News",
   "Wired",
   "Hacker News",
   "Lobsters",
-  "The Register"
+  "The Register",
+  "3DNews"
  ],
  "last_digest": "2026-10-02",
  "history": [
@@ -1038,6 +1042,13 @@
    "source": "The Register",
    "score": 0.2566,
    "at": "2026-10-04T15:54:25.990743+00:00"
+  },
+  {
+   "title": "تعویض رایگان گوشی‌های iPhone 18 Pro Max به دلیل اختلال در شبکه AT&T",
+   "url": "https://3dnews.ru/1149420",
+   "source": "3DNews",
+   "score": 0.38134,
+   "at": "2026-10-04T19:44:27.977509+00:00"
   }
  ],
  "stories": [
@@ -4523,21 +4534,31 @@
     "sql"
    ],
    "at": "2026-10-04T15:54:25.990743+00:00"
+  },
+  {
+   "sig": [
+    "apple",
+    "call",
+    "disable",
+    "features",
+    "five",
+    "free",
+    "intelligence",
+    "iphone",
+    "max",
+    "pro",
+    "replace",
+    "restrict",
+    "second",
+    "text",
+    "try",
+    "unbox",
+    "want"
+   ],
+   "at": "2026-10-04T19:44:27.977509+00:00"
   }
  ],
  "snapshots": {
-  "hn:49786689": [
-   571,
-   "2026-09-22T00:13:16.082963+00:00"
-  ],
-  "hn:49786609": [
-   288,
-   "2026-09-22T00:13:16.082963+00:00"
-  ],
-  "lobsters:fyngrv": [
-   82,
-   "2026-09-22T00:13:16.082963+00:00"
-  ],
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mw25oizv3c25": [
    2985,
    "2026-09-22T00:13:16.082963+00:00"
@@ -6886,28 +6907,8 @@
    174,
    "2026-10-04T11:12:35.406739+00:00"
   ],
-  "hn:49951881": [
-   451,
-   "2026-10-04T15:54:18.267887+00:00"
-  ],
   "hn:49950554": [
    658,
-   "2026-10-04T15:54:18.267887+00:00"
-  ],
-  "hn:49953495": [
-   426,
-   "2026-10-04T15:54:18.267887+00:00"
-  ],
-  "hn:49953116": [
-   134,
-   "2026-10-04T15:54:18.267887+00:00"
-  ],
-  "hn:49952111": [
-   123,
-   "2026-10-04T15:54:18.267887+00:00"
-  ],
-  "hn:49952029": [
-   95,
    "2026-10-04T15:54:18.267887+00:00"
   ],
   "hn:49951218": [
@@ -6918,13 +6919,45 @@
    107,
    "2026-10-04T15:54:18.267887+00:00"
   ],
+  "hn:49951881": [
+   501,
+   "2026-10-04T19:44:25.046851+00:00"
+  ],
+  "hn:49953495": [
+   866,
+   "2026-10-04T19:44:25.046851+00:00"
+  ],
+  "hn:49953116": [
+   220,
+   "2026-10-04T19:44:25.046851+00:00"
+  ],
+  "hn:49952111": [
+   214,
+   "2026-10-04T19:44:25.046851+00:00"
+  ],
+  "hn:49952029": [
+   124,
+   "2026-10-04T19:44:25.046851+00:00"
+  ],
   "lobsters:xkwswd": [
-   25,
-   "2026-10-04T15:54:18.267887+00:00"
+   43,
+   "2026-10-04T19:44:25.046851+00:00"
   ],
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mx2nbwswpj2f": [
-   320,
-   "2026-10-04T15:54:18.267887+00:00"
+   457,
+   "2026-10-04T19:44:25.046851+00:00"
+  ],
+  "hn:49954882": [
+   440,
+   "2026-10-04T19:44:25.046851+00:00"
+  ],
+  "lobsters:xpyahx": [
+   26,
+   "2026-10-04T19:44:25.046851+00:00"
+  ],
+  "lobsters:qcgjpu": [
+   33,
+   "2026-10-04T19:44:25.046851+00:00"
   ]
  }
 }
