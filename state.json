@@ -790,18 +790,22 @@
   "https://3dnews.ru/1149420/#6ac07bbf742eece77d8b456c",
   "https://www.engadget.com/2274578/iphone-18-pro-feature-try-when-unboxed/",
   "https://www.engadget.com/2274326/how-to-disable-restrict-iphone-apple-intelligence-features/",
-  "1343899"
+  "1343899",
+  "https://thehackernews.com/2026/10/critical-fortimail-zero-day-flaw.html",
+  "https://www.bleepingcomputer.com/news/security/citrix-patches-netscaler-saml-zero-day-exploited-in-attacks/",
+  "https://www.theregister.com/a/5300803",
+  "https://www.securityweek.com/?p=49752"
  ],
  "posted": {
   "viral": 164,
-  "editorial": 165
+  "editorial": 166
  },
  "recent_labels": [
-  "Wired",
   "Hacker News",
   "Lobsters",
   "The Register",
-  "3DNews"
+  "3DNews",
+  "The Hacker News"
  ],
  "last_digest": "2026-10-02",
  "history": [
@@ -1049,6 +1053,13 @@
    "source": "3DNews",
    "score": 0.38134,
    "at": "2026-10-04T19:44:27.977509+00:00"
+  },
+  {
+   "title": "شناسایی آسیب‌پذیری بحرانی در FortiMail و بهره‌برداری فعال از آن",
+   "url": "https://thehackernews.com/2026/10/critical-fortimail-zero-day-flaw.html",
+   "source": "The Hacker News",
+   "score": 0.4714,
+   "at": "2026-10-04T23:25:15.499286+00:00"
   }
  ],
  "stories": [
@@ -4556,41 +4567,36 @@
     "want"
    ],
    "at": "2026-10-04T19:44:27.977509+00:00"
+  },
+  {
+   "sig": [
+    "action",
+    "actively",
+    "alarm",
+    "allows",
+    "arbitrary",
+    "attacks",
+    "calls",
+    "citrix",
+    "critical",
+    "exploited",
+    "file",
+    "flaw",
+    "fortimail",
+    "fortinet",
+    "netscaler",
+    "patches",
+    "saml",
+    "sounds",
+    "unauthenticated",
+    "urgent",
+    "writes",
+    "zero-day"
+   ],
+   "at": "2026-10-04T23:25:15.499286+00:00"
   }
  ],
  "snapshots": {
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mw25oizv3c25": [
-   2985,
-   "2026-09-22T00:13:16.082963+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mvzz4uhnas2o": [
-   351,
-   "2026-09-22T00:13:16.082963+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mvzszs2gio2v": [
-   402,
-   "2026-09-22T00:13:16.082963+00:00"
-  ],
-  "hn:49791939": [
-   696,
-   "2026-09-22T00:13:16.082963+00:00"
-  ],
-  "hn:49791509": [
-   389,
-   "2026-09-22T00:13:16.082963+00:00"
-  ],
-  "hn:49791378": [
-   154,
-   "2026-09-22T00:13:16.082963+00:00"
-  ],
-  "hn:49790409": [
-   545,
-   "2026-09-22T00:13:16.082963+00:00"
-  ],
-  "hn:49790389": [
-   174,
-   "2026-09-22T00:13:16.082963+00:00"
-  ],
   "hn:49789228": [
    161,
    "2026-09-22T00:13:16.082963+00:00"
@@ -6923,14 +6929,6 @@
    501,
    "2026-10-04T19:44:25.046851+00:00"
   ],
-  "hn:49953495": [
-   866,
-   "2026-10-04T19:44:25.046851+00:00"
-  ],
-  "hn:49953116": [
-   220,
-   "2026-10-04T19:44:25.046851+00:00"
-  ],
   "hn:49952111": [
    214,
    "2026-10-04T19:44:25.046851+00:00"
@@ -6943,14 +6941,6 @@
    43,
    "2026-10-04T19:44:25.046851+00:00"
   ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mx2nbwswpj2f": [
-   457,
-   "2026-10-04T19:44:25.046851+00:00"
-  ],
-  "hn:49954882": [
-   440,
-   "2026-10-04T19:44:25.046851+00:00"
-  ],
   "lobsters:xpyahx": [
    26,
    "2026-10-04T19:44:25.046851+00:00"
@@ -6958,6 +6948,54 @@
   "lobsters:qcgjpu": [
    33,
    "2026-10-04T19:44:25.046851+00:00"
+  ],
+  "hn:49953495": [
+   1088,
+   "2026-10-04T23:25:13.422140+00:00"
+  ],
+  "hn:49953116": [
+   250,
+   "2026-10-04T23:25:13.422140+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mx2nbwswpj2f": [
+   488,
+   "2026-10-04T23:25:13.422140+00:00"
+  ],
+  "hn:49954882": [
+   464,
+   "2026-10-04T23:25:13.422140+00:00"
+  ],
+  "hn:49957116": [
+   569,
+   "2026-10-04T23:25:13.422140+00:00"
+  ],
+  "hn:49957068": [
+   705,
+   "2026-10-04T23:25:13.422140+00:00"
+  ],
+  "hn:49953777": [
+   239,
+   "2026-10-04T23:25:13.422140+00:00"
+  ],
+  "hn:49953288": [
+   98,
+   "2026-10-04T23:25:13.422140+00:00"
+  ],
+  "lobsters:4bzoft": [
+   34,
+   "2026-10-04T23:25:13.422140+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mx3al4gr522j": [
+   306,
+   "2026-10-04T23:25:13.422140+00:00"
+  ],
+  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mx3dktm6vk4n": [
+   93,
+   "2026-10-04T23:25:13.422140+00:00"
+  ],
+  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mx36xijzfs2w": [
+   161,
+   "2026-10-04T23:25:13.422140+00:00"
   ]
  }
 }
