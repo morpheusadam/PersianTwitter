@@ -794,18 +794,24 @@
   "https://thehackernews.com/2026/10/critical-fortimail-zero-day-flaw.html",
   "https://www.bleepingcomputer.com/news/security/citrix-patches-netscaler-saml-zero-day-exploited-in-attacks/",
   "https://www.theregister.com/a/5300803",
-  "https://www.securityweek.com/?p=49752"
+  "https://www.securityweek.com/?p=49752",
+  "hn:49960901",
+  "hn:49961890",
+  "hn:49963366",
+  "https://therecord.media/denmark-breach-register-cyberattack",
+  "hn:49962012",
+  "https://www.bleepingcomputer.com/news/security/danish-university-dtu-breach-exposes-data-of-up-to-200-000-people/"
  ],
  "posted": {
   "viral": 164,
-  "editorial": 166
+  "editorial": 167
  },
  "recent_labels": [
-  "Hacker News",
   "Lobsters",
   "The Register",
   "3DNews",
-  "The Hacker News"
+  "The Hacker News",
+  "The Record"
  ],
  "last_digest": "2026-10-02",
  "history": [
@@ -1060,6 +1066,13 @@
    "source": "The Hacker News",
    "score": 0.4714,
    "at": "2026-10-04T23:25:15.499286+00:00"
+  },
+  {
+   "title": "نشت گسترده اطلاعات هویتی ۸.۸ میلیون نفر در دانمارک",
+   "url": "https://therecord.media/denmark-breach-register-cyberattack",
+   "source": "The Record",
+   "score": 1.11993,
+   "at": "2026-10-05T12:28:28.346438+00:00"
   }
  ],
  "stories": [
@@ -4594,45 +4607,29 @@
     "zero-day"
    ],
    "at": "2026-10-04T23:25:15.499286+00:00"
+  },
+  {
+   "sig": [
+    "8.8",
+    "8.8m",
+    "breach",
+    "danish",
+    "data",
+    "denmark",
+    "dtu",
+    "exposes",
+    "million",
+    "national",
+    "people",
+    "personal",
+    "population",
+    "register",
+    "university"
+   ],
+   "at": "2026-10-05T12:28:28.346438+00:00"
   }
  ],
  "snapshots": {
-  "hn:49789228": [
-   161,
-   "2026-09-22T00:13:16.082963+00:00"
-  ],
-  "hn:49789224": [
-   812,
-   "2026-09-22T00:13:16.082963+00:00"
-  ],
-  "hn:49788773": [
-   165,
-   "2026-09-22T00:13:16.082963+00:00"
-  ],
-  "hn:49786419": [
-   97,
-   "2026-09-22T00:13:16.082963+00:00"
-  ],
-  "lobsters:xooho4": [
-   37,
-   "2026-09-22T00:13:16.082963+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mw2jnwjkd42l": [
-   206,
-   "2026-09-22T00:13:16.082963+00:00"
-  ],
-  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mw2aj2lhvk2r": [
-   43,
-   "2026-09-22T00:13:16.082963+00:00"
-  ],
-  "hn:49793322": [
-   282,
-   "2026-09-22T00:13:16.082963+00:00"
-  ],
-  "hn:49792342": [
-   212,
-   "2026-09-22T00:13:16.082963+00:00"
-  ],
   "hn:49792067": [
    323,
    "2026-09-22T00:13:16.082963+00:00"
@@ -6996,6 +6993,42 @@
   "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mx36xijzfs2w": [
    161,
    "2026-10-04T23:25:13.422140+00:00"
+  ],
+  "hn:49963366": [
+   174,
+   "2026-10-05T12:28:11.085212+00:00"
+  ],
+  "hn:49962012": [
+   580,
+   "2026-10-05T12:28:11.085212+00:00"
+  ],
+  "hn:49961890": [
+   279,
+   "2026-10-05T12:28:11.085212+00:00"
+  ],
+  "hn:49961861": [
+   193,
+   "2026-10-05T12:28:11.085212+00:00"
+  ],
+  "hn:49961057": [
+   202,
+   "2026-10-05T12:28:11.085212+00:00"
+  ],
+  "hn:49960901": [
+   162,
+   "2026-10-05T12:28:11.085212+00:00"
+  ],
+  "hn:49960084": [
+   686,
+   "2026-10-05T12:28:11.085212+00:00"
+  ],
+  "hn:49959869": [
+   639,
+   "2026-10-05T12:28:11.085212+00:00"
+  ],
+  "hn:49959654": [
+   292,
+   "2026-10-05T12:28:11.085212+00:00"
   ]
  }
 }
