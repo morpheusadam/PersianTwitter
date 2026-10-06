@@ -807,18 +807,19 @@
   "https://yro.slashdot.org/story/26/10/05/1733245/anthropic-reports-florida-womans-claude-diary-threat-to-law-enforcement?utm_source=rss1.0mainlinkanon&utm_medium=feed",
   "https://www.techspot.com/news/114091-florida-woman-used-claude-diary-anthropic-reported-shoot.html",
   "https://www.neowin.net/news/florida-woman-arrested-for-discussing-plans-to-shoot-up-sheriffs-office-in-claude-chat/",
-  "TheNextWeb=866f83fd2c9a3a86104b7ec730da633e"
+  "TheNextWeb=866f83fd2c9a3a86104b7ec730da633e",
+  "hn:49975083"
  ],
  "posted": {
-  "viral": 165,
+  "viral": 166,
   "editorial": 168
  },
  "recent_labels": [
-  "3DNews",
   "The Hacker News",
   "The Record",
   "Hacker News",
-  "Tom's Hardware"
+  "Tom's Hardware",
+  "Hacker News"
  ],
  "last_digest": "2026-10-02",
  "history": [
@@ -1094,6 +1095,13 @@
    "source": "Tom's Hardware",
    "score": 0.35648,
    "at": "2026-10-06T01:49:33.289880+00:00"
+  },
+  {
+   "title": "تأثیر مخرب الگوریتم‌های پلتفرم‌های دیجیتال بر آزادی بیان و زبان",
+   "url": "https://www.anildash.com/2026/10/06/kill-unalive/",
+   "source": "anildash.com",
+   "score": 0.07753,
+   "at": "2026-10-06T12:08:59.121891+00:00"
   }
  ],
  "stories": [
@@ -4687,49 +4695,17 @@
     "woman"
    ],
    "at": "2026-10-06T01:49:33.289880+00:00"
+  },
+  {
+   "sig": [
+    "going",
+    "kill",
+    "unalive"
+   ],
+   "at": "2026-10-06T12:08:59.121891+00:00"
   }
  ],
  "snapshots": {
-  "hn:49802161": [
-   591,
-   "2026-09-22T22:21:48.319155+00:00"
-  ],
-  "hn:49802160": [
-   156,
-   "2026-09-22T22:21:48.319155+00:00"
-  ],
-  "hn:49801329": [
-   248,
-   "2026-09-22T22:21:48.319155+00:00"
-  ],
-  "hn:49801190": [
-   117,
-   "2026-09-22T22:21:48.319155+00:00"
-  ],
-  "hn:49800953": [
-   176,
-   "2026-09-22T22:21:48.319155+00:00"
-  ],
-  "lobsters:wx3qsm": [
-   62,
-   "2026-09-22T22:21:48.319155+00:00"
-  ],
-  "lobsters:5svlut": [
-   44,
-   "2026-09-22T22:21:48.319155+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mw4q34argo2f": [
-   193,
-   "2026-09-22T22:21:48.319155+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mw4oiqdpe22l": [
-   929,
-   "2026-09-22T22:21:48.319155+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mw4laqti622l": [
-   868,
-   "2026-09-22T22:21:48.319155+00:00"
-  ],
   "hn:49808023": [
    179,
    "2026-09-22T22:21:48.319155+00:00"
@@ -7087,8 +7063,48 @@
    "2026-10-06T01:49:30.167788+00:00"
   ],
   "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mx6ahp6yyk2v": [
-   5,
-   "2026-10-06T01:49:30.167788+00:00"
+   11,
+   "2026-10-06T12:08:54.417464+00:00"
+  ],
+  "hn:49976265": [
+   230,
+   "2026-10-06T12:08:54.417464+00:00"
+  ],
+  "hn:49975619": [
+   76,
+   "2026-10-06T12:08:54.417464+00:00"
+  ],
+  "hn:49975345": [
+   182,
+   "2026-10-06T12:08:54.417464+00:00"
+  ],
+  "hn:49975083": [
+   281,
+   "2026-10-06T12:08:54.417464+00:00"
+  ],
+  "hn:49973878": [
+   93,
+   "2026-10-06T12:08:54.417464+00:00"
+  ],
+  "hn:49973839": [
+   197,
+   "2026-10-06T12:08:54.417464+00:00"
+  ],
+  "hn:49973598": [
+   750,
+   "2026-10-06T12:08:54.417464+00:00"
+  ],
+  "hn:49972730": [
+   278,
+   "2026-10-06T12:08:54.417464+00:00"
+  ],
+  "hn:49972607": [
+   410,
+   "2026-10-06T12:08:54.417464+00:00"
+  ],
+  "lobsters:rwloew": [
+   82,
+   "2026-10-06T12:08:54.417464+00:00"
   ]
  }
 }
