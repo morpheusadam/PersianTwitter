@@ -837,18 +837,24 @@
   "https://3dnews.ru/1149573/#6ac6048d742eecda3f8b457f",
   "35fcfa2a646b505cdd0eae89a1248950",
   "c09cca6e390679c2b37e12afd5bcfa37",
-  "https://www.neowin.net/news/google-launches-nano-banana-21-with-better-editing-and-subject-consistency/"
+  "https://www.neowin.net/news/google-launches-nano-banana-21-with-better-editing-and-subject-consistency/",
+  "https://www.engadget.com/2280302/microsoft-surface-laptop-ultra-specs/",
+  "https://www.theverge.com/?post_type=vm_stream&p=1007147",
+  "https://www.theverge.com/?p=1006378",
+  "https://www.theverge.com/?p=1006445",
+  "https://www.engadget.com/2280298/everything-announced-at-microsofts-windows-and-surface-event/",
+  "https://www.neowin.net/news/users-want-microsoft-to-release-windows-12-at-todays-event/"
  ],
  "posted": {
   "viral": 168,
-  "editorial": 169
+  "editorial": 170
  },
  "recent_labels": [
-  "Tom's Hardware",
   "Hacker News",
   "404 Media",
   "404 Media",
-  "3DNews"
+  "3DNews",
+  "Engadget"
  ],
  "last_digest": "2026-10-02",
  "history": [
@@ -1152,6 +1158,13 @@
    "source": "3DNews",
    "score": 0.71506,
    "at": "2026-10-07T11:54:41.629416+00:00"
+  },
+  {
+   "title": "معرفی لپ‌تاپ قدرتمند Surface Laptop Ultra با تراشه اختصاصی NVIDIA",
+   "url": "https://www.engadget.com/2280302/microsoft-surface-laptop-ultra-specs/",
+   "source": "Engadget",
+   "score": 0.85589,
+   "at": "2026-10-07T19:01:37.455780+00:00"
   }
  ],
  "stories": [
@@ -4818,121 +4831,36 @@
     "subject"
    ],
    "at": "2026-10-07T11:54:41.629416+00:00"
+  },
+  {
+   "sig": [
+    "announced",
+    "built-in",
+    "charging",
+    "date",
+    "event",
+    "everything",
+    "finally",
+    "here",
+    "know",
+    "laptop",
+    "magnetic",
+    "microsoft",
+    "price",
+    "release",
+    "starting",
+    "surface",
+    "today",
+    "ultra",
+    "usb-c",
+    "users",
+    "want",
+    "windows"
+   ],
+   "at": "2026-10-07T19:01:37.455780+00:00"
   }
  ],
  "snapshots": {
-  "hn:49822556": [
-   130,
-   "2026-09-23T22:25:17.623962+00:00"
-  ],
-  "hn:49821608": [
-   439,
-   "2026-09-23T22:25:17.623962+00:00"
-  ],
-  "hn:49821196": [
-   277,
-   "2026-09-23T22:25:17.623962+00:00"
-  ],
-  "hn:49820065": [
-   157,
-   "2026-09-23T22:25:17.623962+00:00"
-  ],
-  "lobsters:4uqtta": [
-   26,
-   "2026-09-23T22:25:17.623962+00:00"
-  ],
-  "at://did:plc:kft6lu4trxowqmter2b6vg6z/app.bsky.feed.post/3mw7magyrwc2i": [
-   68,
-   "2026-09-23T22:25:17.623962+00:00"
-  ],
-  "hn:49826565": [
-   328,
-   "2026-09-24T10:19:24.893611+00:00"
-  ],
-  "hn:49826482": [
-   142,
-   "2026-09-24T10:19:24.893611+00:00"
-  ],
-  "hn:49825642": [
-   380,
-   "2026-09-24T10:19:24.893611+00:00"
-  ],
-  "hn:49825580": [
-   100,
-   "2026-09-24T10:19:24.893611+00:00"
-  ],
-  "hn:49825024": [
-   124,
-   "2026-09-24T10:19:24.893611+00:00"
-  ],
-  "hn:49824864": [
-   192,
-   "2026-09-24T10:19:24.893611+00:00"
-  ],
-  "hn:49824686": [
-   898,
-   "2026-09-24T10:19:24.893611+00:00"
-  ],
-  "hn:49823664": [
-   228,
-   "2026-09-24T10:19:24.893611+00:00"
-  ],
-  "hn:49823582": [
-   770,
-   "2026-09-24T10:19:24.893611+00:00"
-  ],
-  "lobsters:wf4wid": [
-   38,
-   "2026-09-24T10:19:24.893611+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mw7t53cb3k2i": [
-   1565,
-   "2026-09-24T10:19:24.893611+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mw7s57lajl2l": [
-   187,
-   "2026-09-24T10:19:24.893611+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mw7s4ewjls2i": [
-   6380,
-   "2026-09-24T10:19:24.893611+00:00"
-  ],
-  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mw7te76oj22b": [
-   44,
-   "2026-09-24T10:19:24.893611+00:00"
-  ],
-  "hn:49827794": [
-   1269,
-   "2026-09-24T19:22:44.727714+00:00"
-  ],
-  "hn:49827616": [
-   110,
-   "2026-09-24T19:22:44.727714+00:00"
-  ],
-  "hn:49828409": [
-   495,
-   "2026-09-24T19:22:44.727714+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mwbomw3njc2x": [
-   1637,
-   "2026-09-24T19:22:44.727714+00:00"
-  ],
-  "hn:49834825": [
-   469,
-   "2026-09-24T22:36:50.005865+00:00"
-  ],
-  "hn:49833867": [
-   286,
-   "2026-09-24T22:36:50.005865+00:00"
-  ],
-  "hn:49832938": [
-   407,
-   "2026-09-24T22:36:50.005865+00:00"
-  ],
-  "hn:49832844": [
-   360,
-   "2026-09-24T22:36:50.005865+00:00"
-  ],
   "hn:49832406": [
    425,
    "2026-09-24T22:36:50.005865+00:00"
@@ -7220,6 +7148,118 @@
   "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mxaxpmgdws23": [
    11,
    "2026-10-07T11:54:36.248946+00:00"
+  ],
+  "hn:49996425": [
+   248,
+   "2026-10-07T19:01:34.987648+00:00"
+  ],
+  "hn:49994746": [
+   125,
+   "2026-10-07T19:01:34.987648+00:00"
+  ],
+  "hn:49994443": [
+   238,
+   "2026-10-07T19:01:34.987648+00:00"
+  ],
+  "hn:49994145": [
+   381,
+   "2026-10-07T19:01:34.987648+00:00"
+  ],
+  "hn:49994122": [
+   277,
+   "2026-10-07T19:01:34.987648+00:00"
+  ],
+  "hn:49994027": [
+   563,
+   "2026-10-07T19:01:34.987648+00:00"
+  ],
+  "hn:49993914": [
+   628,
+   "2026-10-07T19:01:34.987648+00:00"
+  ],
+  "hn:49993857": [
+   252,
+   "2026-10-07T19:01:34.987648+00:00"
+  ],
+  "hn:49993121": [
+   156,
+   "2026-10-07T19:01:34.987648+00:00"
+  ],
+  "hn:49992257": [
+   271,
+   "2026-10-07T19:01:34.987648+00:00"
+  ],
+  "hn:49992125": [
+   359,
+   "2026-10-07T19:01:34.987648+00:00"
+  ],
+  "hn:49992057": [
+   219,
+   "2026-10-07T19:01:34.987648+00:00"
+  ],
+  "hn:49991823": [
+   245,
+   "2026-10-07T19:01:34.987648+00:00"
+  ],
+  "hn:49991580": [
+   167,
+   "2026-10-07T19:01:34.987648+00:00"
+  ],
+  "hn:49991243": [
+   198,
+   "2026-10-07T19:01:34.987648+00:00"
+  ],
+  "hn:49991132": [
+   229,
+   "2026-10-07T19:01:34.987648+00:00"
+  ],
+  "hn:49990763": [
+   323,
+   "2026-10-07T19:01:34.987648+00:00"
+  ],
+  "hn:49989684": [
+   171,
+   "2026-10-07T19:01:34.987648+00:00"
+  ],
+  "lobsters:rwdufq": [
+   96,
+   "2026-10-07T19:01:34.987648+00:00"
+  ],
+  "lobsters:lgdxtw": [
+   25,
+   "2026-10-07T19:01:34.987648+00:00"
+  ],
+  "lobsters:qn61ip": [
+   40,
+   "2026-10-07T19:01:34.987648+00:00"
+  ],
+  "lobsters:hccdqa": [
+   32,
+   "2026-10-07T19:01:34.987648+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mxckg4vd5k26": [
+   268,
+   "2026-10-07T19:01:34.987648+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mxcflehv6s2e": [
+   158,
+   "2026-10-07T19:01:34.987648+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mxcc7gha722v": [
+   189,
+   "2026-10-07T19:01:34.987648+00:00"
+  ],
+  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mxcmbxa2sk2s": [
+   56,
+   "2026-10-07T19:01:34.987648+00:00"
+  ],
+  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mxcjvnnkzk2s": [
+   58,
+   "2026-10-07T19:01:34.987648+00:00"
+  ],
+  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mxc7uqoxvc22": [
+   238,
+   "2026-10-07T19:01:34.987648+00:00"
   ]
  }
 }
