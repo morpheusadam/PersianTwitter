@@ -831,18 +831,24 @@
   "https://www.techspot.com/news/114115-tech-deals-prime-day-2026-deals-here-but.html",
   "https://www.neowin.net/deals/best-amazon-prime-day-2026-ssd-deals-from-samsung-acer-sandisk-silicon-power-and-more/",
   "https://9to5mac.com/?p=1069069",
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mxaf4jvmxs2n"
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mxaf4jvmxs2n",
+  "hn:49990224",
+  "hn:49990470",
+  "https://3dnews.ru/1149573/#6ac6048d742eecda3f8b457f",
+  "35fcfa2a646b505cdd0eae89a1248950",
+  "c09cca6e390679c2b37e12afd5bcfa37",
+  "https://www.neowin.net/news/google-launches-nano-banana-21-with-better-editing-and-subject-consistency/"
  ],
  "posted": {
   "viral": 168,
-  "editorial": 168
+  "editorial": 169
  },
  "recent_labels": [
-  "Hacker News",
   "Tom's Hardware",
   "Hacker News",
   "404 Media",
-  "404 Media"
+  "404 Media",
+  "3DNews"
  ],
  "last_digest": "2026-10-02",
  "history": [
@@ -1139,6 +1145,13 @@
    "source": "404 Media",
    "score": 0.34269,
    "at": "2026-10-06T23:11:24.034474+00:00"
+  },
+  {
+   "title": "انتشار نسخه ۲.۱ مدل هوش مصنوعی Google Nano Banana",
+   "url": "https://3dnews.ru/1149573",
+   "source": "3DNews",
+   "score": 0.71506,
+   "at": "2026-10-07T11:54:41.629416+00:00"
   }
  ],
  "stories": [
@@ -4791,61 +4804,23 @@
     "weight"
    ],
    "at": "2026-10-06T23:11:24.034474+00:00"
+  },
+  {
+   "sig": [
+    "2.1",
+    "banana",
+    "better",
+    "consistency",
+    "editing",
+    "google",
+    "launches",
+    "nano",
+    "subject"
+   ],
+   "at": "2026-10-07T11:54:41.629416+00:00"
   }
  ],
  "snapshots": {
-  "lobsters:kras1h": [
-   135,
-   "2026-09-23T22:25:17.623962+00:00"
-  ],
-  "lobsters:r3ydgj": [
-   48,
-   "2026-09-23T22:25:17.623962+00:00"
-  ],
-  "lobsters:d339rn": [
-   59,
-   "2026-09-23T22:25:17.623962+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mw7ajzlawl2k": [
-   209,
-   "2026-09-23T22:25:17.623962+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mw72gvskcs2m": [
-   8220,
-   "2026-09-23T22:25:17.623962+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mw6xe5w27p2p": [
-   432,
-   "2026-09-23T22:25:17.623962+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mw6w62cqqs2k": [
-   1650,
-   "2026-09-23T22:25:17.623962+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mw6u6dmgrk2k": [
-   324,
-   "2026-09-23T22:25:17.623962+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mw6prpmrqa2v": [
-   206,
-   "2026-09-23T22:25:17.623962+00:00"
-  ],
-  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mw6tre6fls2j": [
-   133,
-   "2026-09-23T22:25:17.623962+00:00"
-  ],
-  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mw6sijdtt52i": [
-   531,
-   "2026-09-23T22:25:17.623962+00:00"
-  ],
-  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mw73auoeuc2d": [
-   10,
-   "2026-09-23T22:25:17.623962+00:00"
-  ],
-  "at://did:plc:2mrgzk6xlemfv6yugn644xxy/app.bsky.feed.post/3mw772fjvak23": [
-   14,
-   "2026-09-23T22:25:17.623962+00:00"
-  ],
   "hn:49822556": [
    130,
    "2026-09-23T22:25:17.623962+00:00"
@@ -7193,6 +7168,58 @@
   "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mxafpkcppkzo": [
    98,
    "2026-10-06T23:11:02.068707+00:00"
+  ],
+  "hn:49990470": [
+   80,
+   "2026-10-07T11:54:36.248946+00:00"
+  ],
+  "hn:49990224": [
+   152,
+   "2026-10-07T11:54:36.248946+00:00"
+  ],
+  "hn:49988230": [
+   158,
+   "2026-10-07T11:54:36.248946+00:00"
+  ],
+  "hn:49988142": [
+   157,
+   "2026-10-07T11:54:36.248946+00:00"
+  ],
+  "hn:49987858": [
+   184,
+   "2026-10-07T11:54:36.248946+00:00"
+  ],
+  "hn:49987675": [
+   90,
+   "2026-10-07T11:54:36.248946+00:00"
+  ],
+  "hn:49987076": [
+   306,
+   "2026-10-07T11:54:36.248946+00:00"
+  ],
+  "hn:49986892": [
+   357,
+   "2026-10-07T11:54:36.248946+00:00"
+  ],
+  "hn:49986882": [
+   63,
+   "2026-10-07T11:54:36.248946+00:00"
+  ],
+  "lobsters:9fjar3": [
+   37,
+   "2026-10-07T11:54:36.248946+00:00"
+  ],
+  "lobsters:7qjhic": [
+   36,
+   "2026-10-07T11:54:36.248946+00:00"
+  ],
+  "at://did:plc:kft6lu4trxowqmter2b6vg6z/app.bsky.feed.post/3mxap2pofos2t": [
+   40,
+   "2026-10-07T11:54:36.248946+00:00"
+  ],
+  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mxaxpmgdws23": [
+   11,
+   "2026-10-07T11:54:36.248946+00:00"
   ]
  }
 }
