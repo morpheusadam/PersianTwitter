@@ -845,18 +845,20 @@
   "https://www.engadget.com/2280298/everything-announced-at-microsofts-windows-and-surface-event/",
   "https://www.neowin.net/news/users-want-microsoft-to-release-windows-12-at-todays-event/",
   "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mxcmbxa2sk2s",
-  "lobsters:0gvyif"
+  "lobsters:0gvyif",
+  "https://www.theregister.com/a/5301831",
+  "https://www.techspot.com/news/114137-ransomware-recovery-firm-claimed-could-decrypt-files-but.html"
  ],
  "posted": {
   "viral": 169,
-  "editorial": 170
+  "editorial": 171
  },
  "recent_labels": [
   "404 Media",
-  "404 Media",
   "3DNews",
   "Engadget",
-  "Lobsters"
+  "Lobsters",
+  "The Register"
  ],
  "last_digest": "2026-10-02",
  "history": [
@@ -1174,6 +1176,13 @@
    "source": "baldurbjarnason.com",
    "score": 0.17454,
    "at": "2026-10-07T23:40:20.748352+00:00"
+  },
+  {
+   "title": "کلاهبرداری یک مدعی رمزگشایی فایل‌های آلوده به باج‌افزار",
+   "url": "https://www.theregister.com/cyber-crime/2026/10/08/ransomware-fixer-claimed-he-could-decrypt-files-allegedly-defrauded-clients-instead/5301831",
+   "source": "The Register",
+   "score": 0.51445,
+   "at": "2026-10-08T12:09:59.644480+00:00"
   }
  ],
  "stories": [
@@ -4875,37 +4884,31 @@
     "software"
    ],
    "at": "2026-10-07T23:40:20.748352+00:00"
+  },
+  {
+   "sig": [
+    "allegedly",
+    "claimed",
+    "clients",
+    "could",
+    "decrypt",
+    "defrauded",
+    "difference",
+    "files",
+    "firm",
+    "fixer",
+    "hackers",
+    "instead",
+    "may",
+    "paid",
+    "pocketed",
+    "ransomware",
+    "recovery"
+   ],
+   "at": "2026-10-08T12:09:59.644480+00:00"
   }
  ],
  "snapshots": {
-  "lobsters:mdczxv": [
-   51,
-   "2026-09-24T22:36:50.005865+00:00"
-  ],
-  "lobsters:4jqfz1": [
-   68,
-   "2026-09-24T22:36:50.005865+00:00"
-  ],
-  "lobsters:xg8zbk": [
-   37,
-   "2026-09-24T22:36:50.005865+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mwbirep7nc2x": [
-   5894,
-   "2026-09-24T22:36:50.005865+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mwbegmtn2726": [
-   693,
-   "2026-09-24T22:36:50.005865+00:00"
-  ],
-  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mwbeerevl42b": [
-   201,
-   "2026-09-24T22:36:50.005865+00:00"
-  ],
-  "hn:49836374": [
-   216,
-   "2026-09-24T22:36:50.005865+00:00"
-  ],
   "hn:49831690": [
    251,
    "2026-09-24T22:36:50.005865+00:00"
@@ -7277,6 +7280,34 @@
   "at://did:plc:kft6lu4trxowqmter2b6vg6z/app.bsky.feed.post/3mxctkjruk22c": [
    49,
    "2026-10-07T23:40:17.196391+00:00"
+  ],
+  "hn:50002650": [
+   219,
+   "2026-10-08T12:09:45.100261+00:00"
+  ],
+  "hn:50002494": [
+   242,
+   "2026-10-08T12:09:45.100261+00:00"
+  ],
+  "hn:50002426": [
+   260,
+   "2026-10-08T12:09:45.100261+00:00"
+  ],
+  "hn:50002008": [
+   1082,
+   "2026-10-08T12:09:45.100261+00:00"
+  ],
+  "hn:50001580": [
+   239,
+   "2026-10-08T12:09:45.100261+00:00"
+  ],
+  "hn:50000676": [
+   322,
+   "2026-10-08T12:09:45.100261+00:00"
+  ],
+  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mxdjzfj2yk2z": [
+   20,
+   "2026-10-08T12:09:45.100261+00:00"
   ]
  }
 }
