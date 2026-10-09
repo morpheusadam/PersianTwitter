@@ -860,18 +860,22 @@
   "https://yro.slashdot.org/story/26/10/08/194218/us-bars-microsoft-adobe-and-major-it-firms-from-green-card-program?utm_source=rss1.0mainlinkanon&utm_medium=feed",
   "https://www.neowin.net/news/trump-administration-freezes-green-card-immigration-filings-for-microsoft-adobe/",
   "hn:50011928",
-  "hn:50012043"
+  "hn:50012043",
+  "https://3dnews.ru/1149680/#6ac84024742eeca8538b4568",
+  "https://www.theverge.com/?p=1008467",
+  "https://www.engadget.com/2281967/spacex-major-mobile-carrier-low-band-spectrum-acquisition/",
+  "bQijbByfRvFfYmYCH7fP9E"
  ],
  "posted": {
   "viral": 171,
-  "editorial": 171
+  "editorial": 172
  },
  "recent_labels": [
-  "Engadget",
   "Lobsters",
   "The Register",
   "Hacker News",
-  "Hacker News"
+  "Hacker News",
+  "3DNews"
  ],
  "last_digest": "2026-10-02",
  "history": [
@@ -1210,6 +1214,13 @@
    "source": "twitter.com",
    "score": 0.12448,
    "at": "2026-10-08T23:50:36.353668+00:00"
+  },
+  {
+   "title": "تلاش SpaceX برای تبدیل Starlink به یک اپراتور موبایل سراسری در آمریکا",
+   "url": "https://3dnews.ru/1149680",
+   "source": "3DNews",
+   "score": 0.35746,
+   "at": "2026-10-09T12:01:09.434808+00:00"
   }
  ],
  "stories": [
@@ -4953,41 +4964,28 @@
     "think"
    ],
    "at": "2026-10-08T23:50:36.353668+00:00"
+  },
+  {
+   "sig": [
+    "acquisition",
+    "announces",
+    "become",
+    "carrier",
+    "low-band",
+    "major",
+    "mobile",
+    "plan",
+    "plans",
+    "spacex",
+    "spectrum",
+    "starlink",
+    "turn",
+    "wants"
+   ],
+   "at": "2026-10-09T12:01:09.434808+00:00"
   }
  ],
  "snapshots": {
-  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mweakee4oc2d": [
-   29,
-   "2026-09-25T22:36:36.735803+00:00"
-  ],
-  "hn:49848844": [
-   194,
-   "2026-09-25T22:36:36.735803+00:00"
-  ],
-  "hn:49848838": [
-   142,
-   "2026-09-25T22:36:36.735803+00:00"
-  ],
-  "hn:49848819": [
-   106,
-   "2026-09-25T22:36:36.735803+00:00"
-  ],
-  "hn:49848495": [
-   281,
-   "2026-09-25T22:36:36.735803+00:00"
-  ],
-  "hn:49848295": [
-   147,
-   "2026-09-25T22:36:36.735803+00:00"
-  ],
-  "hn:49848269": [
-   409,
-   "2026-09-25T22:36:36.735803+00:00"
-  ],
-  "hn:49848227": [
-   83,
-   "2026-09-25T22:36:36.735803+00:00"
-  ],
   "hn:49848095": [
    167,
    "2026-09-25T22:36:36.735803+00:00"
@@ -7355,6 +7353,38 @@
   "lobsters:sdlhhs": [
    28,
    "2026-10-08T23:50:28.287535+00:00"
+  ],
+  "hn:50018817": [
+   92,
+   "2026-10-09T12:01:06.658734+00:00"
+  ],
+  "hn:50018420": [
+   191,
+   "2026-10-09T12:01:06.658734+00:00"
+  ],
+  "hn:50016489": [
+   109,
+   "2026-10-09T12:01:06.658734+00:00"
+  ],
+  "hn:50016312": [
+   462,
+   "2026-10-09T12:01:06.658734+00:00"
+  ],
+  "hn:50015515": [
+   496,
+   "2026-10-09T12:01:06.658734+00:00"
+  ],
+  "hn:50015486": [
+   154,
+   "2026-10-09T12:01:06.658734+00:00"
+  ],
+  "hn:50015236": [
+   457,
+   "2026-10-09T12:01:06.658734+00:00"
+  ],
+  "hn:50015074": [
+   366,
+   "2026-10-09T12:01:06.658734+00:00"
   ]
  }
 }
