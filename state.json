@@ -864,203 +864,22 @@
   "https://3dnews.ru/1149680/#6ac84024742eeca8538b4568",
   "https://www.theverge.com/?p=1008467",
   "https://www.engadget.com/2281967/spacex-major-mobile-carrier-low-band-spectrum-acquisition/",
-  "bQijbByfRvFfYmYCH7fP9E"
+  "bQijbByfRvFfYmYCH7fP9E",
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mxh4domyk22z"
  ],
  "posted": {
-  "viral": 171,
+  "viral": 172,
   "editorial": 172
  },
  "recent_labels": [
-  "Lobsters",
   "The Register",
   "Hacker News",
   "Hacker News",
-  "3DNews"
+  "3DNews",
+  "404 Media"
  ],
- "last_digest": "2026-10-02",
+ "last_digest": "2026-10-09",
  "history": [
-  {
-   "title": "قرارداد ۱۱.۶ میلیارد دلاری Anthropic با Akamai برای پردازش ابری",
-   "url": "https://www.neowin.net/news/anthropic-signs-116b-cloud-deal-with-akamai/?utm_source=rss",
-   "source": "Neowin",
-   "score": 0.46531,
-   "at": "2026-09-25T19:23:55.926358+00:00"
-  },
-  {
-   "title": "پهپاد تعقیب‌کننده با هوش مصنوعی برای امنیت شخصی",
-   "url": "https://www.sfgate.com/tech/article/sf-startup-stalking-drone-22445822.php",
-   "source": "sfgate.com",
-   "score": 0.15497,
-   "at": "2026-09-25T22:36:39.954883+00:00"
-  },
-  {
-   "title": "سوگیری فرهنگی در آزمون‌های تشخیص انسان CAPTCHA",
-   "url": "https://shkspr.mobi/blog/2017/11/captchas-dont-prove-youre-human-they-prove-youre-american/",
-   "source": "shkspr.mobi",
-   "score": 0.29047,
-   "at": "2026-09-26T10:03:22.962223+00:00"
-  },
-  {
-   "title": "بازگشت بدافزار Mini Shai-Hulud به دلیل عدم پاکسازی مخازن GitHub",
-   "url": "https://thehackernews.com/2026/09/compromised-github-actions-came-back.html",
-   "source": "The Hacker News",
-   "score": 0.51225,
-   "at": "2026-09-26T14:38:53.223325+00:00"
-  },
-  {
-   "title": "افشای اطلاعات حساس اعضای واحد هک FBI در پی یک نفوذ گسترده",
-   "url": "https://www.404media.co/fbi-hack-exposed-fbis-own-hacking-unit-remote-operations-shinyhunters/",
-   "source": "404media.co",
-   "score": 0.18971,
-   "at": "2026-09-26T18:40:25.936937+00:00"
-  },
-  {
-   "title": "معرفی پلتفرم DeepSeek Elastic Compute برای اجرای محیط‌های سندباکس در مقیاس بزرگ",
-   "url": "https://arxiv.org/abs/2609.22978",
-   "source": "arxiv.org",
-   "score": 0.09441,
-   "at": "2026-09-26T22:03:48.757381+00:00"
-  },
-  {
-   "title": "تغییر مهارت‌های مورد نیاز برای برنامه‌نویسی در عصر هوش مصنوعی",
-   "url": "https://bsky.app/profile/antirez.bsky.social/post/3mwifvn4lwc2o",
-   "source": "antirez",
-   "score": 0.26914,
-   "at": "2026-09-27T10:39:25.556677+00:00"
-  },
-  {
-   "title": "مدیریت کوکی‌های پارتیشن‌بندی شده در مرورگرهای مدرن با افزونه CookieTin",
-   "url": "https://habr.com/ru/articles/1086292/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1086292",
-   "source": "Habr",
-   "score": 0.25417,
-   "at": "2026-09-27T15:44:00.284146+00:00"
-  },
-  {
-   "title": "جریمه یک میلیون دلاری برای دیتاسنتر غیرمجاز در نیوجرسی",
-   "url": "https://www.ixbt.com/news/2026/09/27/438687-data-centru-v-ssa-vypisan-straf-v-1-mln-za-62-nezakonnyx-generatora.html",
-   "source": "iXBT",
-   "score": 0.24306,
-   "at": "2026-09-27T19:49:49.256996+00:00"
-  },
-  {
-   "title": "راهکارهایی برای استفاده بهینه‌تر از Google Maps در Apple CarPlay",
-   "url": "https://www.engadget.com/2267714/how-to-improve-carplay-navigation-use-google-maps-not-apple-maps/",
-   "source": "Engadget",
-   "score": 0.21723,
-   "at": "2026-09-27T23:13:07.357354+00:00"
-  },
-  {
-   "title": "دور زدن فایروال‌ها برای نفوذ به سرورهای Oracle PeopleSoft",
-   "url": "https://thehackernews.com/2026/09/attackers-bypass-wafs-to-exploit-oracle.html",
-   "source": "The Hacker News",
-   "score": 0.48916,
-   "at": "2026-09-28T11:52:22.711639+00:00"
-  },
-  {
-   "title": "بحران مهارت و معماری نرم‌افزار در عصر سلطه هوش مصنوعی",
-   "url": "https://www.ssp.sh/brain/the-problem-is-not-the-ai-code-but-nobody-knows-anything-anymore/",
-   "source": "ssp.sh",
-   "score": 0.32812,
-   "at": "2026-09-28T19:46:56.162003+00:00"
-  },
-  {
-   "title": "گروه هکری ShinyHunters مدعی شد داده‌های سرقتی از FBI را منتشر نمی‌کند",
-   "url": "https://www.404media.co/fbi-hackers-say-they-wont-publish-massive-trove-of-fbi-employee-data/",
-   "source": "404media.co",
-   "score": 0.19817,
-   "at": "2026-09-29T00:28:39.028359+00:00"
-  },
-  {
-   "title": "اختلال گسترده در اپلیکیشن‌های iOS به دلیل به‌روزرسانی Firebase",
-   "url": "https://twitter.com/GergelyOrosz/status/2104825886922911981",
-   "source": "twitter.com",
-   "score": 0.1455,
-   "at": "2026-09-29T11:29:25.461927+00:00"
-  },
-  {
-   "title": "بازداشت مظنون گروه هکری ShinyHunters و حملات فیشینگ با نام Signal",
-   "url": "https://www.theregister.com/cyber-crime/2026/09/29/dutch-police-arrest-security-pro-in-shinyhunters-probe/5299715",
-   "source": "The Register",
-   "score": 0.41074,
-   "at": "2026-09-29T16:58:12.221854+00:00"
-  },
-  {
-   "title": "معرفی قابلیت‌های جدید OpenAI در رویداد DevDay 2026",
-   "url": "https://simonwillison.net/2026/Sep/29/openai-devday-2026-live-blog/",
-   "source": "simonwillison.net",
-   "score": 0.22121,
-   "at": "2026-09-29T21:29:39.785335+00:00"
-  },
-  {
-   "title": "معرفی مدل جدید GPT-6.1 و دستیارهای هوشمند در رویداد DevDay 2026",
-   "url": "https://thenextweb.com/news/sam-altman-openai-ai-research-intern-devday-keynote",
-   "source": "The Next Web",
-   "score": 0.42079,
-   "at": "2026-09-30T00:42:39.224548+00:00"
-  },
-  {
-   "title": "سرقت ۳۸۸ میلیون دلاری از صرافی Bitget با سوءاستفاده از یک آسیب‌پذیری",
-   "url": "https://thehackernews.com/2026/09/bitget-says-attacker-exploited-third.html",
-   "source": "The Hacker News",
-   "score": 0.60904,
-   "at": "2026-09-30T11:17:18.573397+00:00"
-  },
-  {
-   "title": "معرفی نسل جدید Fire TV Stick 4K با سخت‌افزار ارتقایافته",
-   "url": "https://www.engadget.com/2272834/amazon-unveils-a-thinner-and-faster-fire-tv-stick-4k-plus-a-new-remote/",
-   "source": "Engadget",
-   "score": 1.0331,
-   "at": "2026-09-30T16:54:39.003788+00:00"
-  },
-  {
-   "title": "رونمایی از نسل سوم ردیاب هوشمند Samsung Galaxy SmartTag",
-   "url": "https://3dnews.ru/1149282",
-   "source": "3DNews",
-   "score": 0.40715,
-   "at": "2026-09-30T21:29:56.383954+00:00"
-  },
-  {
-   "title": "تلاش OpenAI برای رقابت با AWS از طریق گسترش بازار مدل‌ها",
-   "url": "https://www.theregister.com/columnists/2026/09/30/openai-apes-aws-marketplace-while-anthropic-remains-stubbornly-microsoftian/5300056",
-   "source": "The Register",
-   "score": 0.43454,
-   "at": "2026-10-01T00:47:23.771716+00:00"
-  },
-  {
-   "title": "توصیه‌هایی برای یادگیری اصولی برنامه‌نویسی و ارتقای مهارت‌های فنی",
-   "url": "https://bsky.app/profile/antirez.bsky.social/post/3mwsfhbltis2o",
-   "source": "antirez",
-   "score": 0.14494,
-   "at": "2026-10-01T11:44:18.790588+00:00"
-  },
-  {
-   "title": "لپ‌تاپ جدید HP OmniBook 5 با پردازنده‌های Wildcat Lake معرفی شد",
-   "url": "https://www.tomshardware.com/laptops/hp-boards-the-macbook-neo-competitor-train-omnibook-5-comes-in-four-colors-with-wildcat-lake-and-starts-at-usd699-99",
-   "source": "Tom's Hardware",
-   "score": 0.86736,
-   "at": "2026-10-01T18:30:36.593075+00:00"
-  },
-  {
-   "title": "عرضه‌ی نسخه‌ی ۱.۰ ابزار Pi برای توسعه‌دهندگان هوش مصنوعی",
-   "url": "https://earendil.com/posts/pi-1-0/",
-   "source": "earendil.com",
-   "score": 0.40678,
-   "at": "2026-10-01T22:51:55.945852+00:00"
-  },
-  {
-   "title": "عرضه‌ی ابزار متن‌باز DeepSeek Harness برای ویندوز و مک",
-   "url": "https://www.deepseek.com/en/harness/",
-   "source": "deepseek.com",
-   "score": 0.04832,
-   "at": "2026-10-02T11:13:58.976525+00:00"
-  },
-  {
-   "title": "اخراج پیمانکاران OpenAI به دلیل استفاده از هوش مصنوعی برای آموزش مدل‌ها",
-   "url": "https://www.404media.co/people-training-openais-ai-fired-for-using-ai-to-train-the-ai/",
-   "source": "404media.co",
-   "score": 0.32208,
-   "at": "2026-10-02T16:45:26.668797+00:00"
-  },
   {
    "title": "متا با پروژه Muse Gadgets توسعه‌دهندگان را به ساخت گجت‌های هوشمند تشویق می‌کند",
    "url": "https://www.engadget.com/2276312/meta-muse-gadgets-open-source-smart-home-link/",
@@ -1221,6 +1040,13 @@
    "source": "3DNews",
    "score": 0.35746,
    "at": "2026-10-09T12:01:09.434808+00:00"
+  },
+  {
+   "title": "نارضایتی مهندسان گوگل از اجبار به استفاده از ابزارهای هوش مصنوعی",
+   "url": "https://bsky.app/profile/404media.co/post/3mxh4domyk22z",
+   "source": "404 Media",
+   "score": 0.16825,
+   "at": "2026-10-09T18:27:32.427396+00:00"
   }
  ],
  "stories": [
@@ -4986,98 +4812,6 @@
   }
  ],
  "snapshots": {
-  "hn:49848095": [
-   167,
-   "2026-09-25T22:36:36.735803+00:00"
-  ],
-  "hn:49845172": [
-   188,
-   "2026-09-25T22:36:36.735803+00:00"
-  ],
-  "hn:49844786": [
-   678,
-   "2026-09-25T22:36:36.735803+00:00"
-  ],
-  "lobsters:rvvqos": [
-   42,
-   "2026-09-25T22:36:36.735803+00:00"
-  ],
-  "lobsters:5gqorv": [
-   35,
-   "2026-09-25T22:36:36.735803+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mweouxanrk2v": [
-   87,
-   "2026-09-25T22:36:36.735803+00:00"
-  ],
-  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mweiuvneuc2n": [
-   10,
-   "2026-09-25T22:36:36.735803+00:00"
-  ],
-  "hn:49854399": [
-   194,
-   "2026-09-26T10:03:15.815153+00:00"
-  ],
-  "hn:49852302": [
-   322,
-   "2026-09-26T10:03:15.815153+00:00"
-  ],
-  "hn:49852065": [
-   330,
-   "2026-09-26T10:03:15.815153+00:00"
-  ],
-  "hn:49851032": [
-   204,
-   "2026-09-26T10:03:15.815153+00:00"
-  ],
-  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mwfmgwppuk2g": [
-   142,
-   "2026-09-26T10:03:15.815153+00:00"
-  ],
-  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mwfkucvngs2g": [
-   137,
-   "2026-09-26T10:03:15.815153+00:00"
-  ],
-  "hn:49853175": [
-   167,
-   "2026-09-26T14:38:50.861130+00:00"
-  ],
-  "hn:49852717": [
-   799,
-   "2026-09-26T14:38:50.861130+00:00"
-  ],
-  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mwfdbekvjc2a": [
-   14,
-   "2026-09-26T14:38:50.861130+00:00"
-  ],
-  "lobsters:buroqq": [
-   28,
-   "2026-09-26T14:38:50.861130+00:00"
-  ],
-  "hn:49854875": [
-   345,
-   "2026-09-26T18:40:18.755610+00:00"
-  ],
-  "hn:49854693": [
-   360,
-   "2026-09-26T18:40:18.755610+00:00"
-  ],
-  "hn:49854416": [
-   168,
-   "2026-09-26T18:40:18.755610+00:00"
-  ],
-  "hn:49854161": [
-   180,
-   "2026-09-26T18:40:18.755610+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mwginr2cd326": [
-   394,
-   "2026-09-26T18:40:18.755610+00:00"
-  ],
-  "lobsters:iotaty": [
-   27,
-   "2026-09-26T18:40:18.755610+00:00"
-  ],
   "hn:49856034": [
    392,
    "2026-09-26T22:03:45.777396+00:00"
@@ -7354,14 +7088,6 @@
    28,
    "2026-10-08T23:50:28.287535+00:00"
   ],
-  "hn:50018817": [
-   92,
-   "2026-10-09T12:01:06.658734+00:00"
-  ],
-  "hn:50018420": [
-   191,
-   "2026-10-09T12:01:06.658734+00:00"
-  ],
   "hn:50016489": [
    109,
    "2026-10-09T12:01:06.658734+00:00"
@@ -7385,6 +7111,106 @@
   "hn:50015074": [
    366,
    "2026-10-09T12:01:06.658734+00:00"
+  ],
+  "hn:50018817": [
+   578,
+   "2026-10-09T18:27:24.789087+00:00"
+  ],
+  "hn:50018420": [
+   697,
+   "2026-10-09T18:27:24.789087+00:00"
+  ],
+  "hn:50021763": [
+   217,
+   "2026-10-09T18:27:24.789087+00:00"
+  ],
+  "hn:50021540": [
+   250,
+   "2026-10-09T18:27:24.789087+00:00"
+  ],
+  "hn:50021403": [
+   502,
+   "2026-10-09T18:27:24.789087+00:00"
+  ],
+  "hn:50021066": [
+   1082,
+   "2026-10-09T18:27:24.789087+00:00"
+  ],
+  "hn:50020927": [
+   666,
+   "2026-10-09T18:27:24.789087+00:00"
+  ],
+  "hn:50020856": [
+   199,
+   "2026-10-09T18:27:24.789087+00:00"
+  ],
+  "hn:50019741": [
+   152,
+   "2026-10-09T18:27:24.789087+00:00"
+  ],
+  "hn:50019455": [
+   436,
+   "2026-10-09T18:27:24.789087+00:00"
+  ],
+  "hn:50019451": [
+   134,
+   "2026-10-09T18:27:24.789087+00:00"
+  ],
+  "hn:50019090": [
+   272,
+   "2026-10-09T18:27:24.789087+00:00"
+  ],
+  "hn:50018350": [
+   526,
+   "2026-10-09T18:27:24.789087+00:00"
+  ],
+  "hn:50016974": [
+   82,
+   "2026-10-09T18:27:24.789087+00:00"
+  ],
+  "lobsters:8hauxs": [
+   72,
+   "2026-10-09T18:27:24.789087+00:00"
+  ],
+  "lobsters:ily7as": [
+   95,
+   "2026-10-09T18:27:24.789087+00:00"
+  ],
+  "lobsters:t5htlf": [
+   37,
+   "2026-10-09T18:27:24.789087+00:00"
+  ],
+  "lobsters:t3xjln": [
+   30,
+   "2026-10-09T18:27:24.789087+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mxhfiqvknn2f": [
+   284,
+   "2026-10-09T18:27:24.789087+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mxhdernzss2z": [
+   398,
+   "2026-10-09T18:27:24.789087+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mxh4domyk22z": [
+   495,
+   "2026-10-09T18:27:24.789087+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mxh3jaxcvs2z": [
+   289,
+   "2026-10-09T18:27:24.789087+00:00"
+  ],
+  "at://did:plc:kft6lu4trxowqmter2b6vg6z/app.bsky.feed.post/3mxh2nlvc7s26": [
+   65,
+   "2026-10-09T18:27:24.789087+00:00"
+  ],
+  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mxhd6qj4qsyw": [
+   65,
+   "2026-10-09T18:27:24.789087+00:00"
+  ],
+  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mxh3rkzzmcyw": [
+   252,
+   "2026-10-09T18:27:24.789087+00:00"
   ]
  }
 }
