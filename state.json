@@ -866,18 +866,20 @@
   "https://www.engadget.com/2281967/spacex-major-mobile-carrier-low-band-spectrum-acquisition/",
   "bQijbByfRvFfYmYCH7fP9E",
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mxh4domyk22z",
-  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mxho4lnyos2k"
+  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mxho4lnyos2k",
+  "6ac937717b0b9cc54f6b8e70",
+  "https://www.engadget.com/2283007/tesla-full-self-driving-assisted-driving-europe/"
  ],
  "posted": {
   "viral": 173,
-  "editorial": 172
+  "editorial": 173
  },
  "recent_labels": [
   "Hacker News",
-  "Hacker News",
   "3DNews",
   "404 Media",
-  "Emily M. Bender"
+  "Emily M. Bender",
+  "Wired"
  ],
  "last_digest": "2026-10-09",
  "history": [
@@ -1055,6 +1057,13 @@
    "source": "Emily M. Bender",
    "score": 0.56904,
    "at": "2026-10-09T22:48:28.549808+00:00"
+  },
+  {
+   "title": "تغییر نام قابلیت رانندگی خودکار تسلا در اروپا برای دریافت مجوز",
+   "url": "https://www.wired.com/story/tesla-full-self-driving-becomes-assisted-driving-in-europe/",
+   "source": "Wired",
+   "score": 0.54566,
+   "at": "2026-10-10T11:17:49.649501+00:00"
   }
  ],
  "stories": [
@@ -4839,45 +4848,22 @@
     "nonsense"
    ],
    "at": "2026-10-09T22:48:28.549808+00:00"
+  },
+  {
+   "sig": [
+    "assisted",
+    "becomes",
+    "called",
+    "driving",
+    "europe",
+    "full",
+    "self-driving",
+    "tesla"
+   ],
+   "at": "2026-10-10T11:17:49.649501+00:00"
   }
  ],
  "snapshots": {
-  "hn:49857323": [
-   86,
-   "2026-09-26T22:03:45.777396+00:00"
-  ],
-  "hn:49856665": [
-   325,
-   "2026-09-26T22:03:45.777396+00:00"
-  ],
-  "lobsters:wpv5ed": [
-   25,
-   "2026-09-26T22:03:45.777396+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mwh2cwfcsw2o": [
-   800,
-   "2026-09-26T22:03:45.777396+00:00"
-  ],
-  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mwh5pppoo24e": [
-   99,
-   "2026-09-26T22:03:45.777396+00:00"
-  ],
-  "hn:49863062": [
-   322,
-   "2026-09-27T10:39:22.836276+00:00"
-  ],
-  "hn:49862809": [
-   291,
-   "2026-09-27T10:39:22.836276+00:00"
-  ],
-  "hn:49862299": [
-   219,
-   "2026-09-27T10:39:22.836276+00:00"
-  ],
-  "hn:49862244": [
-   145,
-   "2026-09-27T10:39:22.836276+00:00"
-  ],
   "lobsters:hq6xj2": [
    26,
    "2026-09-27T10:39:22.836276+00:00"
@@ -7241,6 +7227,42 @@
   "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mxho4lnyos2k": [
    1181,
    "2026-10-09T22:48:26.239522+00:00"
+  ],
+  "hn:50031269": [
+   224,
+   "2026-10-10T11:17:39.030646+00:00"
+  ],
+  "hn:50029982": [
+   266,
+   "2026-10-10T11:17:39.030646+00:00"
+  ],
+  "hn:50029123": [
+   387,
+   "2026-10-10T11:17:39.030646+00:00"
+  ],
+  "hn:50028275": [
+   811,
+   "2026-10-10T11:17:39.030646+00:00"
+  ],
+  "hn:50028059": [
+   165,
+   "2026-10-10T11:17:39.030646+00:00"
+  ],
+  "hn:50028027": [
+   108,
+   "2026-10-10T11:17:39.030646+00:00"
+  ],
+  "hn:50027853": [
+   128,
+   "2026-10-10T11:17:39.030646+00:00"
+  ],
+  "lobsters:nxspz6": [
+   39,
+   "2026-10-10T11:17:39.030646+00:00"
+  ],
+  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mxiq7zfazk2c": [
+   5,
+   "2026-10-10T11:17:39.030646+00:00"
   ]
  }
 }
