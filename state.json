@@ -868,18 +868,21 @@
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mxh4domyk22z",
   "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mxho4lnyos2k",
   "6ac937717b0b9cc54f6b8e70",
-  "https://www.engadget.com/2283007/tesla-full-self-driving-assisted-driving-europe/"
+  "https://www.engadget.com/2283007/tesla-full-self-driving-assisted-driving-europe/",
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mxjhp6qpch2j",
+  "hn:50032758",
+  "https://habr.com/ru/articles/1092756/"
  ],
  "posted": {
   "viral": 173,
-  "editorial": 173
+  "editorial": 174
  },
  "recent_labels": [
-  "Hacker News",
   "3DNews",
   "404 Media",
   "Emily M. Bender",
-  "Wired"
+  "Wired",
+  "Habr"
  ],
  "last_digest": "2026-10-09",
  "history": [
@@ -1064,6 +1067,13 @@
    "source": "Wired",
    "score": 0.54566,
    "at": "2026-10-10T11:17:49.649501+00:00"
+  },
+  {
+   "title": "ساخت ربات خودمختار با استفاده از شاسی دست‌دوم کوادروچرخ",
+   "url": "https://habr.com/ru/articles/1092756/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1092756",
+   "source": "Habr",
+   "score": 0.23111,
+   "at": "2026-10-10T16:19:27.154649+00:00"
   }
  ],
  "stories": [
@@ -4864,34 +4874,6 @@
   }
  ],
  "snapshots": {
-  "lobsters:hq6xj2": [
-   26,
-   "2026-09-27T10:39:22.836276+00:00"
-  ],
-  "lobsters:zoproh": [
-   75,
-   "2026-09-27T10:39:22.836276+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mwhnlu7fzo2r": [
-   271,
-   "2026-09-27T10:39:22.836276+00:00"
-  ],
-  "at://did:plc:kft6lu4trxowqmter2b6vg6z/app.bsky.feed.post/3mwhjlrkyx22f": [
-   64,
-   "2026-09-27T10:39:22.836276+00:00"
-  ],
-  "at://did:plc:ipt7y6qaf6fn7oeeduboqe44/app.bsky.feed.post/3mwifvn4lwc2o": [
-   28,
-   "2026-09-27T10:39:22.836276+00:00"
-  ],
-  "hn:49863864": [
-   1447,
-   "2026-09-27T15:43:49.510383+00:00"
-  ],
-  "hn:49863600": [
-   153,
-   "2026-09-27T15:43:49.510383+00:00"
-  ],
   "lobsters:ivbx5f": [
    55,
    "2026-09-27T15:43:49.510383+00:00"
@@ -7228,14 +7210,6 @@
    1181,
    "2026-10-09T22:48:26.239522+00:00"
   ],
-  "hn:50031269": [
-   224,
-   "2026-10-10T11:17:39.030646+00:00"
-  ],
-  "hn:50029982": [
-   266,
-   "2026-10-10T11:17:39.030646+00:00"
-  ],
   "hn:50029123": [
    387,
    "2026-10-10T11:17:39.030646+00:00"
@@ -7260,9 +7234,45 @@
    39,
    "2026-10-10T11:17:39.030646+00:00"
   ],
+  "hn:50031269": [
+   640,
+   "2026-10-10T16:18:52.930251+00:00"
+  ],
+  "hn:50029982": [
+   440,
+   "2026-10-10T16:18:52.930251+00:00"
+  ],
   "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mxiq7zfazk2c": [
-   5,
-   "2026-10-10T11:17:39.030646+00:00"
+   8,
+   "2026-10-10T16:18:52.930251+00:00"
+  ],
+  "hn:50032758": [
+   288,
+   "2026-10-10T16:18:52.930251+00:00"
+  ],
+  "hn:50031653": [
+   377,
+   "2026-10-10T16:18:52.930251+00:00"
+  ],
+  "hn:50031614": [
+   255,
+   "2026-10-10T16:18:52.930251+00:00"
+  ],
+  "hn:50029830": [
+   221,
+   "2026-10-10T16:18:52.930251+00:00"
+  ],
+  "lobsters:rb2ulg": [
+   47,
+   "2026-10-10T16:18:52.930251+00:00"
+  ],
+  "lobsters:lgxq91": [
+   27,
+   "2026-10-10T16:18:52.930251+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mxjhp6qpch2j": [
+   241,
+   "2026-10-10T16:18:52.930251+00:00"
   ]
  }
 }
