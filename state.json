@@ -1052,18 +1052,20 @@
   "hn:50212065",
   "TheNextWeb=2439090f7d0cc0b30d899a13759cee20",
   "hn:50217587",
-  "hn:50218195"
+  "hn:50218195",
+  "https://therecord.media/fcc-bans-devices-huawei-surveillance-chips",
+  "k4XRv42eZZmtKQPgU2RHQJ"
  ],
  "posted": {
   "viral": 199,
-  "editorial": 200
+  "editorial": 201
  },
  "recent_labels": [
-  "Hacker News",
   "Wired",
   "Tom's Hardware",
   "Habr",
-  "Hacker News"
+  "Hacker News",
+  "The Record"
  ],
  "last_digest": "2026-10-23",
  "history": [
@@ -1290,6 +1292,13 @@
    "source": "rtfeldman.com",
    "score": 0.05672,
    "at": "2026-10-24T09:42:45.939109+00:00"
+  },
+  {
+   "title": "ممنوعیت ورود تجهیزات نظارتی هواوی به بازار آمریکا توسط FCC",
+   "url": "https://therecord.media/fcc-bans-devices-huawei-surveillance-chips",
+   "source": "The Record",
+   "score": 0.33244,
+   "at": "2026-10-24T14:04:24.683715+00:00"
   }
  ],
  "stories": [
@@ -5991,45 +6000,24 @@
     "pure"
    ],
    "at": "2026-10-24T09:42:45.939109+00:00"
+  },
+  {
+   "sig": [
+    "bans",
+    "chips",
+    "devices",
+    "fcc",
+    "gadgets",
+    "huawei",
+    "intel",
+    "linked",
+    "surveillance",
+    "waiver"
+   ],
+   "at": "2026-10-24T14:04:24.683715+00:00"
   }
  ],
  "snapshots": {
-  "lobsters:lfen2h": [
-   51,
-   "2026-10-12T21:48:36.696421+00:00"
-  ],
-  "lobsters:iq5xtw": [
-   144,
-   "2026-10-12T21:48:36.696421+00:00"
-  ],
-  "lobsters:sozl9e": [
-   40,
-   "2026-10-12T21:48:36.696421+00:00"
-  ],
-  "lobsters:u4vlin": [
-   38,
-   "2026-10-12T21:48:36.696421+00:00"
-  ],
-  "lobsters:7vzgsl": [
-   27,
-   "2026-10-12T21:48:36.696421+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mxpa46t3yy2p": [
-   238,
-   "2026-10-12T21:48:36.696421+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mxopdnft342j": [
-   230,
-   "2026-10-12T21:48:36.696421+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mxomthx7qt2f": [
-   1849,
-   "2026-10-12T21:48:36.696421+00:00"
-  ],
-  "at://did:plc:kft6lu4trxowqmter2b6vg6z/app.bsky.feed.post/3mxp55chsbc2c": [
-   53,
-   "2026-10-12T21:48:36.696421+00:00"
-  ],
   "at://did:plc:x2nsupeeo52oznrmplwapppl/app.bsky.feed.post/3mxolwk7m3y2c": [
    225,
    "2026-10-12T21:48:36.696421+00:00"
@@ -8350,20 +8338,8 @@
    211,
    "2026-10-23T22:29:07.535236+00:00"
   ],
-  "hn:50218633": [
-   164,
-   "2026-10-24T09:42:27.849455+00:00"
-  ],
   "hn:50218195": [
    138,
-   "2026-10-24T09:42:27.849455+00:00"
-  ],
-  "hn:50217946": [
-   79,
-   "2026-10-24T09:42:27.849455+00:00"
-  ],
-  "hn:50217903": [
-   105,
    "2026-10-24T09:42:27.849455+00:00"
   ],
   "hn:50217683": [
@@ -8390,9 +8366,57 @@
    131,
    "2026-10-24T09:42:27.849455+00:00"
   ],
+  "hn:50218633": [
+   493,
+   "2026-10-24T14:04:14.977861+00:00"
+  ],
+  "hn:50217946": [
+   137,
+   "2026-10-24T14:04:14.977861+00:00"
+  ],
+  "hn:50217903": [
+   188,
+   "2026-10-24T14:04:14.977861+00:00"
+  ],
   "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mylvp5l7o22p": [
-   24,
-   "2026-10-24T09:42:27.849455+00:00"
+   44,
+   "2026-10-24T14:04:14.977861+00:00"
+  ],
+  "hn:50220913": [
+   363,
+   "2026-10-24T14:04:14.977861+00:00"
+  ],
+  "hn:50220204": [
+   75,
+   "2026-10-24T14:04:14.977861+00:00"
+  ],
+  "hn:50219666": [
+   336,
+   "2026-10-24T14:04:14.977861+00:00"
+  ],
+  "hn:50219177": [
+   157,
+   "2026-10-24T14:04:14.977861+00:00"
+  ],
+  "lobsters:xgih2x": [
+   91,
+   "2026-10-24T14:04:14.977861+00:00"
+  ],
+  "lobsters:zug8xv": [
+   40,
+   "2026-10-24T14:04:14.977861+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mymps2bzyp2k": [
+   332,
+   "2026-10-24T14:04:14.977861+00:00"
+  ],
+  "at://did:plc:x2nsupeeo52oznrmplwapppl/app.bsky.feed.post/3mymqeriqkc2v": [
+   30,
+   "2026-10-24T14:04:14.977861+00:00"
+  ],
+  "at://did:plc:x2nsupeeo52oznrmplwapppl/app.bsky.feed.post/3mymofezfzx2p": [
+   70,
+   "2026-10-24T14:04:14.977861+00:00"
   ]
  }
 }
