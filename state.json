@@ -1054,18 +1054,19 @@
   "hn:50217587",
   "hn:50218195",
   "https://therecord.media/fcc-bans-devices-huawei-surveillance-chips",
-  "k4XRv42eZZmtKQPgU2RHQJ"
+  "k4XRv42eZZmtKQPgU2RHQJ",
+  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mymutb22bk2r"
  ],
  "posted": {
-  "viral": 199,
+  "viral": 200,
   "editorial": 201
  },
  "recent_labels": [
-  "Wired",
   "Tom's Hardware",
   "Habr",
   "Hacker News",
-  "The Record"
+  "The Record",
+  "Emily M. Bender"
  ],
  "last_digest": "2026-10-23",
  "history": [
@@ -1299,6 +1300,13 @@
    "source": "The Record",
    "score": 0.33244,
    "at": "2026-10-24T14:04:24.683715+00:00"
+  },
+  {
+   "title": "چالش‌های جایگزینی هوش مصنوعی در فرآیند نقد و بررسی علمی",
+   "url": "https://www.insidehighered.com/opinion/columns/just-visiting/2025/03/28/generative-ai-not-our-peer",
+   "source": "insidehighered.com",
+   "score": 0.39822,
+   "at": "2026-10-24T17:31:22.353525+00:00"
   }
  ],
  "stories": [
@@ -6015,37 +6023,32 @@
     "waiver"
    ],
    "at": "2026-10-24T14:04:24.683715+00:00"
+  },
+  {
+   "sig": [
+    "aren",
+    "cares",
+    "either",
+    "enterprises",
+    "experiments",
+    "human",
+    "llm",
+    "may",
+    "outcomes",
+    "peer",
+    "publishing",
+    "research",
+    "review",
+    "scholarship",
+    "showing",
+    "similar",
+    "there",
+    "understand"
+   ],
+   "at": "2026-10-24T17:31:22.353525+00:00"
   }
  ],
  "snapshots": {
-  "at://did:plc:x2nsupeeo52oznrmplwapppl/app.bsky.feed.post/3mxolwk7m3y2c": [
-   225,
-   "2026-10-12T21:48:36.696421+00:00"
-  ],
-  "at://did:plc:ipt7y6qaf6fn7oeeduboqe44/app.bsky.feed.post/3mxoopjghtm2o": [
-   52,
-   "2026-10-12T21:48:36.696421+00:00"
-  ],
-  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mxpceng62223": [
-   16,
-   "2026-10-12T21:48:36.696421+00:00"
-  ],
-  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mxoxjpso6s23": [
-   52,
-   "2026-10-12T21:48:36.696421+00:00"
-  ],
-  "hn:50070302": [
-   111,
-   "2026-10-13T12:51:21.169788+00:00"
-  ],
-  "hn:50069942": [
-   113,
-   "2026-10-13T12:51:21.169788+00:00"
-  ],
-  "hn:50067570": [
-   193,
-   "2026-10-13T12:51:21.169788+00:00"
-  ],
   "hn:50067414": [
    177,
    "2026-10-13T12:51:21.169788+00:00"
@@ -8382,41 +8385,69 @@
    44,
    "2026-10-24T14:04:14.977861+00:00"
   ],
-  "hn:50220913": [
-   363,
-   "2026-10-24T14:04:14.977861+00:00"
-  ],
-  "hn:50220204": [
-   75,
-   "2026-10-24T14:04:14.977861+00:00"
-  ],
-  "hn:50219666": [
-   336,
-   "2026-10-24T14:04:14.977861+00:00"
-  ],
-  "hn:50219177": [
-   157,
-   "2026-10-24T14:04:14.977861+00:00"
-  ],
-  "lobsters:xgih2x": [
-   91,
-   "2026-10-24T14:04:14.977861+00:00"
-  ],
   "lobsters:zug8xv": [
    40,
    "2026-10-24T14:04:14.977861+00:00"
   ],
+  "hn:50220913": [
+   1044,
+   "2026-10-24T17:31:19.179914+00:00"
+  ],
+  "hn:50220204": [
+   162,
+   "2026-10-24T17:31:19.179914+00:00"
+  ],
+  "hn:50219666": [
+   503,
+   "2026-10-24T17:31:19.179914+00:00"
+  ],
+  "hn:50219177": [
+   353,
+   "2026-10-24T17:31:19.179914+00:00"
+  ],
+  "lobsters:xgih2x": [
+   113,
+   "2026-10-24T17:31:19.179914+00:00"
+  ],
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mymps2bzyp2k": [
-   332,
-   "2026-10-24T14:04:14.977861+00:00"
+   626,
+   "2026-10-24T17:31:19.179914+00:00"
   ],
   "at://did:plc:x2nsupeeo52oznrmplwapppl/app.bsky.feed.post/3mymqeriqkc2v": [
-   30,
-   "2026-10-24T14:04:14.977861+00:00"
+   57,
+   "2026-10-24T17:31:19.179914+00:00"
   ],
   "at://did:plc:x2nsupeeo52oznrmplwapppl/app.bsky.feed.post/3mymofezfzx2p": [
-   70,
-   "2026-10-24T14:04:14.977861+00:00"
+   119,
+   "2026-10-24T17:31:19.179914+00:00"
+  ],
+  "hn:50222622": [
+   175,
+   "2026-10-24T17:31:19.179914+00:00"
+  ],
+  "hn:50221676": [
+   574,
+   "2026-10-24T17:31:19.179914+00:00"
+  ],
+  "hn:50219700": [
+   161,
+   "2026-10-24T17:31:19.179914+00:00"
+  ],
+  "lobsters:vulvk7": [
+   26,
+   "2026-10-24T17:31:19.179914+00:00"
+  ],
+  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mymvd5mrc2b3": [
+   85,
+   "2026-10-24T17:31:19.179914+00:00"
+  ],
+  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mymutb22bk2r": [
+   742,
+   "2026-10-24T17:31:19.179914+00:00"
+  ],
+  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mymn7j2kokb3": [
+   63,
+   "2026-10-24T17:31:19.179914+00:00"
   ]
  }
 }
