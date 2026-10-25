@@ -1057,18 +1057,19 @@
   "k4XRv42eZZmtKQPgU2RHQJ",
   "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mymutb22bk2r",
   "at://did:plc:x2nsupeeo52oznrmplwapppl/app.bsky.feed.post/3mynhhiobqf25",
-  "hn:50224916"
+  "hn:50224916",
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3myoepqanpe2h"
  ],
  "posted": {
-  "viral": 202,
+  "viral": 203,
   "editorial": 201
  },
  "recent_labels": [
-  "Hacker News",
   "The Record",
   "Emily M. Bender",
   "Filippo Valsorda",
-  "Hacker News"
+  "Hacker News",
+  "404 Media"
  ],
  "last_digest": "2026-10-23",
  "history": [
@@ -1323,6 +1324,13 @@
    "source": "stealmybitcoin.com",
    "score": 0.22314,
    "at": "2026-10-24T23:31:03.663259+00:00"
+  },
+  {
+   "title": "سوءاستفاده از هویت در CashApp منجر به بازداشت اشتباهی شد",
+   "url": "https://www.404media.co/amanda-smith-opened-a-cashapp-in-her-name-she-faces-years-in-prison-cashapp-fraud/",
+   "source": "404media.co",
+   "score": 0.12436,
+   "at": "2026-10-25T09:59:31.164119+00:00"
   }
  ],
  "stories": [
@@ -6092,49 +6100,34 @@
     "steal"
    ],
    "at": "2026-10-24T23:31:03.663259+00:00"
+  },
+  {
+   "sig": [
+    "amanda-smith",
+    "case",
+    "cashapp",
+    "danger",
+    "data",
+    "fraud",
+    "identity",
+    "lead",
+    "offered",
+    "person",
+    "police",
+    "real",
+    "shows",
+    "sprawling",
+    "theft",
+    "tools",
+    "very",
+    "world",
+    "wrong",
+    "www.404media.co"
+   ],
+   "at": "2026-10-25T09:59:31.164119+00:00"
   }
  ],
  "snapshots": {
-  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mxqkttu4gktl": [
-   88,
-   "2026-10-13T19:55:30.514612+00:00"
-  ],
-  "lobsters:aasanp": [
-   41,
-   "2026-10-13T19:55:30.514612+00:00"
-  ],
-  "lobsters:zmuawx": [
-   49,
-   "2026-10-13T19:55:30.514612+00:00"
-  ],
-  "lobsters:6tbd2o": [
-   26,
-   "2026-10-13T19:55:30.514612+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mxr6dcedrc2g": [
-   1000,
-   "2026-10-13T19:55:30.514612+00:00"
-  ],
-  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mxr6chfx3kcf": [
-   207,
-   "2026-10-13T19:55:30.514612+00:00"
-  ],
-  "hn:50074869": [
-   259,
-   "2026-10-13T23:48:09.589178+00:00"
-  ],
-  "hn:50074289": [
-   387,
-   "2026-10-13T23:48:09.589178+00:00"
-  ],
-  "hn:50073879": [
-   2312,
-   "2026-10-13T23:48:09.589178+00:00"
-  ],
-  "hn:50073633": [
-   1421,
-   "2026-10-13T23:48:09.589178+00:00"
-  ],
   "hn:50073221": [
    504,
    "2026-10-13T23:48:09.589178+00:00"
@@ -8494,6 +8487,46 @@
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mynnajwlvy2n": [
    334,
    "2026-10-24T23:30:35.364844+00:00"
+  ],
+  "hn:50229587": [
+   137,
+   "2026-10-25T09:59:25.920339+00:00"
+  ],
+  "hn:50228167": [
+   278,
+   "2026-10-25T09:59:25.920339+00:00"
+  ],
+  "hn:50227892": [
+   311,
+   "2026-10-25T09:59:25.920339+00:00"
+  ],
+  "hn:50227639": [
+   361,
+   "2026-10-25T09:59:25.920339+00:00"
+  ],
+  "hn:50227356": [
+   278,
+   "2026-10-25T09:59:25.920339+00:00"
+  ],
+  "hn:50226434": [
+   176,
+   "2026-10-25T09:59:25.920339+00:00"
+  ],
+  "hn:50226419": [
+   1092,
+   "2026-10-25T09:59:25.920339+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3myoepqanpe2h": [
+   253,
+   "2026-10-25T09:59:25.920339+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mynzsqt7yg2c": [
+   465,
+   "2026-10-25T09:59:25.920339+00:00"
+  ],
+  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3myo2iaxzbk2n": [
+   12,
+   "2026-10-25T09:59:25.920339+00:00"
   ]
  }
 }
