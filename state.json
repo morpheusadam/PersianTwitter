@@ -1083,18 +1083,37 @@
   "hn:50248005",
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mysg7aosuk2a",
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mysdcaw54d2i",
-  "lobsters:cxxcik"
+  "lobsters:cxxcik",
+  "5XKEiVJTRUzvcH8KXVhgvA",
+  "hn:50258521",
+  "https://3dnews.ru/1150501/#6ae0af06e300908363095e9e",
+  "cbb4b888e3602e70390c9cccfd2d2c6c",
+  "f91a672ecc081df84ba81b052721d9b9",
+  "https://www.theverge.com/?p=1018467",
+  "https://www.theverge.com/?p=1017664",
+  "https://www.engadget.com/2298120/apple-has-updated-the-14-inch-macbook-pro-with-an-m6-chip/",
+  "9qWLf8DkgXKGhokWhXmhb6",
+  "https://apple.slashdot.org/story/26/10/27/1541235/apple-updates-macbook-pro-with-m6-chips?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+  "https://www.techspot.com/news/114354-apple-introduces-new-14-inch-macbook-pro-m6.html",
+  "https://www.neowin.net/news/apple-unveils-new-m6-imac-with-up-to-5x-faster-ai-performance-wi-fi-7-and-more/",
+  "https://www.neowin.net/news/apple-announces-14-inch-macbook-pro-with-m6-offering-improved-ai-and-graphics-performance/",
+  "https://9to5mac.com/?p=1076004",
+  "https://9to5mac.com/?p=1076013",
+  "https://9to5mac.com/?p=1075981",
+  "https://9to5mac.com/?p=1075969",
+  "TheNextWeb=d52853eda077852a177846e7bd836b76",
+  "TheNextWeb=593dd8237630b794fe759d1bc7530220"
  ],
  "posted": {
   "viral": 207,
-  "editorial": 205
+  "editorial": 206
  },
  "recent_labels": [
   "Hacker News",
-  "Hacker News",
   "Wired",
   "404 Media",
-  "Lobsters"
+  "Lobsters",
+  "Tom's Hardware"
  ],
  "last_digest": "2026-10-23",
  "history": [
@@ -1412,6 +1431,13 @@
    "source": "shittyscreenshare.com",
    "score": 0.04054,
    "at": "2026-10-27T10:46:10.229185+00:00"
+  },
+  {
+   "title": "اپل مک‌بوک پرو ۱۴ اینچی و آی‌مک را به تراشه M6 مجهز کرد",
+   "url": "https://www.tomshardware.com/laptops/macbooks/apple-adds-m6-to-14-inch-macbook-pro-and-imac-starts-at-usd1-999",
+   "source": "Tom's Hardware",
+   "score": 4.10236,
+   "at": "2026-10-27T16:47:13.710712+00:00"
   }
  ],
  "stories": [
@@ -6320,89 +6346,52 @@
     "work"
    ],
    "at": "2026-10-26T22:49:08.825063+00:00"
+  },
+  {
+   "sig": [
+    "14-inch",
+    "24-hour",
+    "actually",
+    "adds",
+    "announces",
+    "any",
+    "apple",
+    "battery",
+    "changed",
+    "chip",
+    "chips",
+    "entry-level",
+    "ethernet",
+    "faster",
+    "graphics",
+    "hikes",
+    "imac",
+    "improved",
+    "inch",
+    "launches",
+    "macbook",
+    "offering",
+    "performance",
+    "powered",
+    "price",
+    "pro",
+    "puts",
+    "refreshes",
+    "reveals",
+    "soc",
+    "ssd",
+    "unveils",
+    "updated",
+    "updates",
+    "watch",
+    "wi-fi",
+    "wireless",
+    "without"
+   ],
+   "at": "2026-10-27T16:47:13.710712+00:00"
   }
  ],
  "snapshots": {
-  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mxvoclv5hc2t": [
-   636,
-   "2026-10-15T19:18:27.038186+00:00"
-  ],
-  "lobsters:bcaopz": [
-   73,
-   "2026-10-15T19:18:27.038186+00:00"
-  ],
-  "lobsters:p7tf7i": [
-   25,
-   "2026-10-15T19:18:27.038186+00:00"
-  ],
-  "lobsters:o0ixth": [
-   25,
-   "2026-10-15T19:18:27.038186+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mxwksrh5i32p": [
-   141,
-   "2026-10-15T19:18:27.038186+00:00"
-  ],
-  "hn:50103630": [
-   1376,
-   "2026-10-15T22:33:30.541621+00:00"
-  ],
-  "hn:50103338": [
-   811,
-   "2026-10-15T22:33:30.541621+00:00"
-  ],
-  "hn:50102923": [
-   512,
-   "2026-10-15T22:33:30.541621+00:00"
-  ],
-  "hn:50102423": [
-   254,
-   "2026-10-15T22:33:30.541621+00:00"
-  ],
-  "hn:50102247": [
-   567,
-   "2026-10-15T22:33:30.541621+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mxwchjkfa22r": [
-   709,
-   "2026-10-15T22:33:30.541621+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mxwbzfn7g22k": [
-   505,
-   "2026-10-15T22:33:30.541621+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mxw77zuv5m2j": [
-   709,
-   "2026-10-15T22:33:30.541621+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mxw6tkb3vk2k": [
-   283,
-   "2026-10-15T22:33:30.541621+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mxw6aa24ua2j": [
-   1163,
-   "2026-10-15T22:33:30.541621+00:00"
-  ],
-  "at://did:plc:kft6lu4trxowqmter2b6vg6z/app.bsky.feed.post/3mxw5izz2gs2g": [
-   114,
-   "2026-10-15T22:33:30.541621+00:00"
-  ],
-  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mxwa4yrva2uu": [
-   118,
-   "2026-10-15T22:33:30.541621+00:00"
-  ],
-  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mxw7y3wmzc2t": [
-   168,
-   "2026-10-15T22:33:30.541621+00:00"
-  ],
-  "hn:50107379": [
-   1122,
-   "2026-10-15T22:33:30.541621+00:00"
-  ],
-  "hn:50106620": [
-   73,
-   "2026-10-15T22:33:30.541621+00:00"
-  ],
   "hn:50105900": [
    219,
    "2026-10-15T22:33:30.541621+00:00"
@@ -8699,14 +8688,6 @@
    98,
    "2026-10-26T22:48:56.863285+00:00"
   ],
-  "hn:50255298": [
-   388,
-   "2026-10-27T10:45:52.793768+00:00"
-  ],
-  "hn:50254836": [
-   239,
-   "2026-10-27T10:45:52.793768+00:00"
-  ],
   "hn:50253529": [
    138,
    "2026-10-27T10:45:52.793768+00:00"
@@ -8722,6 +8703,94 @@
   "lobsters:ihmfsc": [
    55,
    "2026-10-27T10:45:52.793768+00:00"
+  ],
+  "hn:50255298": [
+   810,
+   "2026-10-27T16:47:07.085741+00:00"
+  ],
+  "hn:50254836": [
+   298,
+   "2026-10-27T16:47:07.085741+00:00"
+  ],
+  "hn:50260814": [
+   103,
+   "2026-10-27T16:47:07.085741+00:00"
+  ],
+  "hn:50259604": [
+   458,
+   "2026-10-27T16:47:07.085741+00:00"
+  ],
+  "hn:50259406": [
+   291,
+   "2026-10-27T16:47:07.085741+00:00"
+  ],
+  "hn:50259343": [
+   232,
+   "2026-10-27T16:47:07.085741+00:00"
+  ],
+  "hn:50259050": [
+   123,
+   "2026-10-27T16:47:07.085741+00:00"
+  ],
+  "hn:50258868": [
+   127,
+   "2026-10-27T16:47:07.085741+00:00"
+  ],
+  "hn:50258521": [
+   385,
+   "2026-10-27T16:47:07.085741+00:00"
+  ],
+  "hn:50257548": [
+   585,
+   "2026-10-27T16:47:07.085741+00:00"
+  ],
+  "hn:50257419": [
+   574,
+   "2026-10-27T16:47:07.085741+00:00"
+  ],
+  "hn:50257326": [
+   491,
+   "2026-10-27T16:47:07.085741+00:00"
+  ],
+  "hn:50257325": [
+   1555,
+   "2026-10-27T16:47:07.085741+00:00"
+  ],
+  "hn:50256985": [
+   876,
+   "2026-10-27T16:47:07.085741+00:00"
+  ],
+  "hn:50256738": [
+   472,
+   "2026-10-27T16:47:07.085741+00:00"
+  ],
+  "hn:50255177": [
+   90,
+   "2026-10-27T16:47:07.085741+00:00"
+  ],
+  "hn:50254935": [
+   182,
+   "2026-10-27T16:47:07.085741+00:00"
+  ],
+  "lobsters:cajuq6": [
+   71,
+   "2026-10-27T16:47:07.085741+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3myugdjxwhp2h": [
+   95,
+   "2026-10-27T16:47:07.085741+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3myufqgkrbc2h": [
+   457,
+   "2026-10-27T16:47:07.085741+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3myudtn3yfe2l": [
+   136,
+   "2026-10-27T16:47:07.085741+00:00"
+  ],
+  "at://did:plc:ipt7y6qaf6fn7oeeduboqe44/app.bsky.feed.post/3mytn3azq3e2o": [
+   22,
+   "2026-10-27T16:47:07.085741+00:00"
   ]
  }
 }
