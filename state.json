@@ -1082,18 +1082,19 @@
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mysca4dxes2a",
   "hn:50248005",
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mysg7aosuk2a",
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mysdcaw54d2i"
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mysdcaw54d2i",
+  "lobsters:cxxcik"
  ],
  "posted": {
-  "viral": 206,
+  "viral": 207,
   "editorial": 205
  },
  "recent_labels": [
-  "Android Police",
   "Hacker News",
   "Hacker News",
   "Wired",
-  "404 Media"
+  "404 Media",
+  "Lobsters"
  ],
  "last_digest": "2026-10-23",
  "history": [
@@ -1404,6 +1405,13 @@
    "source": "404media.co",
    "score": 0.34084,
    "at": "2026-10-26T22:49:08.825063+00:00"
+  },
+  {
+   "title": "استاندارد WHIP برای بهبود کیفیت اشتراک‌گذاری صفحه در کنفرانس‌های ویدیویی",
+   "url": "http://shittyscreenshare.com",
+   "source": "shittyscreenshare.com",
+   "score": 0.04054,
+   "at": "2026-10-27T10:46:10.229185+00:00"
   }
  ],
  "stories": [
@@ -6315,30 +6323,6 @@
   }
  ],
  "snapshots": {
-  "hn:50097369": [
-   304,
-   "2026-10-15T10:09:48.054264+00:00"
-  ],
-  "at://did:plc:ipt7y6qaf6fn7oeeduboqe44/app.bsky.feed.post/3mxvjfi3weu2o": [
-   50,
-   "2026-10-15T15:11:25.416636+00:00"
-  ],
-  "hn:50103000": [
-   601,
-   "2026-10-15T15:11:25.416636+00:00"
-  ],
-  "hn:50101813": [
-   71,
-   "2026-10-15T15:11:25.416636+00:00"
-  ],
-  "hn:50099136": [
-   141,
-   "2026-10-15T15:11:25.416636+00:00"
-  ],
-  "lobsters:ixoasm": [
-   25,
-   "2026-10-15T15:11:25.416636+00:00"
-  ],
   "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mxvoclv5hc2t": [
    636,
    "2026-10-15T19:18:27.038186+00:00"
@@ -8714,6 +8698,30 @@
   "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mysifpvex22y": [
    98,
    "2026-10-26T22:48:56.863285+00:00"
+  ],
+  "hn:50255298": [
+   388,
+   "2026-10-27T10:45:52.793768+00:00"
+  ],
+  "hn:50254836": [
+   239,
+   "2026-10-27T10:45:52.793768+00:00"
+  ],
+  "hn:50253529": [
+   138,
+   "2026-10-27T10:45:52.793768+00:00"
+  ],
+  "hn:50252457": [
+   121,
+   "2026-10-27T10:45:52.793768+00:00"
+  ],
+  "lobsters:cxxcik": [
+   70,
+   "2026-10-27T10:45:52.793768+00:00"
+  ],
+  "lobsters:ihmfsc": [
+   55,
+   "2026-10-27T10:45:52.793768+00:00"
   ]
  }
 }
