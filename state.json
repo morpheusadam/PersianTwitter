@@ -1109,18 +1109,20 @@
   "https://www.engadget.com/2296032/apple-iphone-duo-vs-google-pixel-11-pro-fold/",
   "https://9to5mac.com/?p=1071218",
   "https://9to5mac.com/?p=1076107",
-  "hn:50264857"
+  "hn:50264857",
+  "https://www.theregister.com/a/5305887",
+  "https://www.neowin.net/news/top-ram-supplier-sk-hynix-claims-memory-shortage-will-persist-through-2030/"
  ],
  "posted": {
   "viral": 208,
-  "editorial": 207
+  "editorial": 208
  },
  "recent_labels": [
-  "404 Media",
   "Lobsters",
   "Tom's Hardware",
   "Slashdot",
-  "Hacker News"
+  "Hacker News",
+  "The Register"
  ],
  "last_digest": "2026-10-23",
  "history": [
@@ -1459,6 +1461,13 @@
    "source": "tailscale.com",
    "score": 0.2028,
    "at": "2026-10-28T00:38:43.312699+00:00"
+  },
+  {
+   "title": "عرضه‌ی مدل اقتصادی GPT-6.1 Terra توسط OpenAI",
+   "url": "https://www.theregister.com/systems/2026/10/28/sk-hynix-says-memory-shortages-to-persist-until-2030/5305887",
+   "source": "The Register",
+   "score": 0.52672,
+   "at": "2026-10-28T11:29:10.200650+00:00"
   }
  ],
  "stories": [
@@ -6448,33 +6457,25 @@
     "update"
    ],
    "at": "2026-10-28T00:38:43.312699+00:00"
+  },
+  {
+   "sig": [
+    "claims",
+    "hynix",
+    "memory",
+    "persist",
+    "ram",
+    "shortage",
+    "shortages",
+    "supplier",
+    "through",
+    "top",
+    "until"
+   ],
+   "at": "2026-10-28T11:29:10.200650+00:00"
   }
  ],
  "snapshots": {
-  "hn:50109375": [
-   293,
-   "2026-10-15T22:33:30.541621+00:00"
-  ],
-  "hn:50108872": [
-   237,
-   "2026-10-15T22:33:30.541621+00:00"
-  ],
-  "hn:50108491": [
-   198,
-   "2026-10-15T22:33:30.541621+00:00"
-  ],
-  "hn:50108229": [
-   215,
-   "2026-10-15T22:33:30.541621+00:00"
-  ],
-  "hn:50108080": [
-   67,
-   "2026-10-15T22:33:30.541621+00:00"
-  ],
-  "lobsters:s8bo3z": [
-   54,
-   "2026-10-15T22:33:30.541621+00:00"
-  ],
   "hn:50114359": [
    158,
    "2026-10-16T10:01:22.607113+00:00"
@@ -8850,6 +8851,30 @@
   "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3myvbcqqus223": [
    136,
    "2026-10-28T00:38:31.988379+00:00"
+  ],
+  "hn:50271032": [
+   155,
+   "2026-10-28T11:29:05.703156+00:00"
+  ],
+  "hn:50270764": [
+   437,
+   "2026-10-28T11:29:05.703156+00:00"
+  ],
+  "hn:50268868": [
+   196,
+   "2026-10-28T11:29:05.703156+00:00"
+  ],
+  "hn:50267569": [
+   105,
+   "2026-10-28T11:29:05.703156+00:00"
+  ],
+  "lobsters:cpaibp": [
+   61,
+   "2026-10-28T11:29:05.703156+00:00"
+  ],
+  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3myvlgw362224": [
+   8,
+   "2026-10-28T11:29:05.703156+00:00"
   ]
  }
 }
