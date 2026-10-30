@@ -1129,224 +1129,25 @@
   "https://techcrunch.com/?p=3183099",
   "https://www.engadget.com/2301447/nvidia-ceo-jensen-huang-may-have-been-the-target-of-a-chinese-government-spy/",
   "https://slashdot.org/story/26/10/29/189230/nvidia-chief-seen-as-target-of-chinese-spy-plot?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-  "lobsters:6ole9g"
+  "lobsters:6ole9g",
+  "https://thehackernews.com/2026/10/official-claude-code-vs-code-extension.html",
+  "hn:50302334",
+  "lobsters:ttp7aq",
+  "https://www.bleepingcomputer.com/news/security/malicious-claude-code-extension-on-cursor-planted-ssh-backdoors/"
  ],
  "posted": {
   "viral": 211,
-  "editorial": 211
+  "editorial": 212
  },
  "recent_labels": [
-  "Wired",
   "Hacker News",
   "404 Media",
   "Tom's Hardware",
-  "Lobsters"
+  "Lobsters",
+  "The Hacker News"
  ],
- "last_digest": "2026-10-23",
+ "last_digest": "2026-10-30",
  "history": [
-  {
-   "title": "عرضه‌ی مدل هوش مصنوعی Muse Spark Open برای اجرا روی Mac Studio",
-   "url": "https://apple.slashdot.org/story/26/10/15/189249/meta-and-apple-bring-muse-spark-open-ai-model-to-mac-studio?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-   "source": "Slashdot",
-   "score": 0.67623,
-   "at": "2026-10-16T18:53:47.293018+00:00"
-  },
-  {
-   "title": "کشف منشأ معمای رمزنگاری استانداردهای ECDSA توسط هوش مصنوعی Claude",
-   "url": "https://www.anthropic.com/research/ecdsa-curve-origins",
-   "source": "anthropic.com",
-   "score": 0.2313,
-   "at": "2026-10-16T22:10:17.811759+00:00"
-  },
-  {
-   "title": "معرفی مدل هوش مصنوعی DeepSeek V4.1 Flash با معماری جدید",
-   "url": "https://openrouter.ai/deepseek/deepseek-v4.1-flash-1017",
-   "source": "openrouter.ai",
-   "score": 0.18176,
-   "at": "2026-10-17T09:34:28.759928+00:00"
-  },
-  {
-   "title": "نمایش موقعیت دوربین‌های نظارتی در اپلیکیشن MapQuest",
-   "url": "https://www.engadget.com/2288729/mapquest-will-now-show-you-where-flock-cameras-are-in-your-neighborhood/",
-   "source": "Engadget",
-   "score": 0.36504,
-   "at": "2026-10-17T13:50:10.721088+00:00"
-  },
-  {
-   "title": "بررسی لپ‌تاپ HP OmniBook Ultra با تراشه قدرتمند N1X برای هوش مصنوعی",
-   "url": "https://www.theregister.com/personal-tech/2026/10/16/benchmarked-nvidias-rtx-spark-notebook-delivers-serious-local-ai-compute-at-a-price/5303621",
-   "source": "The Register",
-   "score": 0.52309,
-   "at": "2026-10-17T17:25:23.933997+00:00"
-  },
-  {
-   "title": "نشت اطلاعات کاربری در پلتفرم OpenCode",
-   "url": "https://twitter.com/opencode/status/2111516673953935833",
-   "source": "twitter.com",
-   "score": 0.16485,
-   "at": "2026-10-17T19:36:30.857722+00:00"
-  },
-  {
-   "title": "متا بندهای جنجالی شرایط استفاده از خدمات خود را حذف کرد",
-   "url": "https://www.theverge.com/tech/1013409/meta-removes-language-that-may-have-allowed-it-to-scrape-news-sites",
-   "source": "The Verge",
-   "score": 0.31898,
-   "at": "2026-10-17T22:30:30.026251+00:00"
-  },
-  {
-   "title": "راهکار Brain Sandwich برای حفظ مهارت مهندسی در عصر هوش مصنوعی",
-   "url": "https://terriblesoftware.org/2026/10/02/the-brain-sandwich/",
-   "source": "terriblesoftware.org",
-   "score": 0.06395,
-   "at": "2026-10-18T09:46:41.164317+00:00"
-  },
-  {
-   "title": "انتقاد از برچسب‌گذاری نادرست محتوای فنی با عنوان vibecoding",
-   "url": "https://lobste.rs/s/ggpwfi/it_s_enough_vibecoding_tag_crossed_from",
-   "source": "Lobsters",
-   "score": 0.12079,
-   "at": "2026-10-18T14:05:40.545297+00:00"
-  },
-  {
-   "title": "محدودیت دسترسی وب‌سایت‌ها به ایجنت‌های هوش مصنوعی",
-   "url": "https://www.theverge.com/ai-artificial-intelligence/1013195/ai-agents-blocked-web",
-   "source": "theverge.com",
-   "score": 0.19691,
-   "at": "2026-10-18T17:27:59.545430+00:00"
-  },
-  {
-   "title": "جنجال بر سر اخلاق و آگاهی مدل‌های زبانی در فضای مجازی",
-   "url": "https://www.404media.co/someone-torturing-llms-in-a-robot-prison-has-triggered-the-dumbest-debate-in-ai-yet/",
-   "source": "404media.co",
-   "score": 0.71752,
-   "at": "2026-10-18T19:33:08.709731+00:00"
-  },
-  {
-   "title": "محدودیت هزینه ماهانه برای استفاده کارکنان Accenture از ابزار Claude",
-   "url": "https://www.404media.co/accenture-tells-employees-they-can-now-spend-only-29-on-claude-per-month/",
-   "source": "404media.co",
-   "score": 0.31577,
-   "at": "2026-10-18T22:31:16.369531+00:00"
-  },
-  {
-   "title": "شکایت حقوقی علیه Verisign به دلیل افزایش قیمت دامنه‌های .com",
-   "url": "https://www.hbsslaw.com/cases/verisign-com-domain-name-registry-consumer-class-action",
-   "source": "hbsslaw.com",
-   "score": 0.05703,
-   "at": "2026-10-19T11:03:35.800036+00:00"
-  },
-  {
-   "title": "آلودگی بدافزاری در افزونه Rank Math PRO وردپرس",
-   "url": "https://thehackernews.com/2026/10/popular-wordpress-seo-plugin-rank-math.html",
-   "source": "The Hacker News",
-   "score": 0.34418,
-   "at": "2026-10-19T17:39:01.804776+00:00"
-  },
-  {
-   "title": "هشدار مایکروسافت درباره ریسک‌های امنیتی مدل‌های هوش مصنوعی پیشرفته",
-   "url": "https://www.neowin.net/news/microsoft-frontier-ai-models-regardless-of-their-origin-cannot-be-trusted/?utm_source=rss",
-   "source": "Neowin",
-   "score": 0.37557,
-   "at": "2026-10-19T22:32:41.750557+00:00"
-  },
-  {
-   "title": "محدودیت خرید آیفون دو برای مشتریان اپل",
-   "url": "https://www.engadget.com/2291389/apple-store-two-iphone-duo-limit/",
-   "source": "Engadget",
-   "score": 0.3618,
-   "at": "2026-10-20T10:17:05.446946+00:00"
-  },
-  {
-   "title": "دستور ممنوعیت استفاده از DeepSeek در تمام آژانس‌های فدرال آمریکا",
-   "url": "https://www.theregister.com/security/2026/10/20/deepseek-deep-sixed-at-all-us-federal-civilian-agencies/5304010",
-   "source": "The Register",
-   "score": 0.86707,
-   "at": "2026-10-20T15:16:03.014498+00:00"
-  },
-  {
-   "title": "ظهور ابزارهای هوش مصنوعی برای مهندسی معکوس و کپی‌برداری از نرم‌افزارها",
-   "url": "https://www.404media.co/reverse-engineer-anything-is-the-new-wild-west-of-ai/",
-   "source": "404media.co",
-   "score": 0.16425,
-   "at": "2026-10-20T19:27:39.927853+00:00"
-  },
-  {
-   "title": "ارتقای فناوری FSR 4.1 برای کارت‌های گرافیک قدیمی و کنسول‌های AMD",
-   "url": "https://www.tomshardware.com/pc-components/gpu-drivers/amds-fsr-4-1-now-works-on-radeon-rx-6000-gpus-xbox-series-x-and-s-and-ryzen-ai-max-ai-9-and-z2-socs-new-release-brings-cutting-edge-tech-to-older-hardware-with-a-small-performance-cost",
-   "source": "Tom's Hardware",
-   "score": 0.71515,
-   "at": "2026-10-20T22:32:09.289795+00:00"
-  },
-  {
-   "title": "کشف آسیب‌پذیری بحرانی Use-After-Free در پردازشگر آپلود فایل PHP",
-   "url": "https://jackalsyn.com/posts/php-up-2026.html",
-   "source": "jackalsyn.com",
-   "score": 0.12803,
-   "at": "2026-10-21T10:25:42.326106+00:00"
-  },
-  {
-   "title": "هوش مصنوعی Gemini در سیستم Android Auto شخصی‌سازی می‌شود",
-   "url": "https://www.ixbt.com/news/2026/10/21/gemini-za-rulem-google-sviazala-ii-v-android-auto-s-poctoi-i-fotografiiami.html",
-   "source": "iXBT",
-   "score": 0.80306,
-   "at": "2026-10-21T15:28:43.953679+00:00"
-  },
-  {
-   "title": "پچ اضطراری PHP برای رفع آسیب‌پذیری‌های بحرانی PHP2Shell",
-   "url": "https://thehackernews.com/2026/10/php-issues-emergency-patches-for-two.html",
-   "source": "The Hacker News",
-   "score": 0.68469,
-   "at": "2026-10-21T19:29:37.952622+00:00"
-  },
-  {
-   "title": "انتقاد طنزآمیز از مشکلات مدیریت حافظه در زبان‌های برنامه‌نویسی",
-   "url": "https://xeiaso.net/shitposts/no-way-to-prevent-this/memory-safety/CVE-2026-107891/?utm_campaign=mi_irl&utm_medium=social&utm_source=bluesky",
-   "source": "xeiaso.net",
-   "score": 0.62705,
-   "at": "2026-10-21T22:37:17.849646+00:00"
-  },
-  {
-   "title": "عرضه‌ی افزونه Privacy Badger برای مرورگر Safari در سیستم‌عامل macOS",
-   "url": "https://www.eff.org/deeplinks/2026/10/announcing-privacy-badger-safari-macos",
-   "source": "EFF",
-   "score": 0.34662,
-   "at": "2026-10-22T10:24:10.246196+00:00"
-  },
-  {
-   "title": "مدل‌های OpenAI به پلتفرم ابری گوگل اضافه شدند",
-   "url": "https://tech.slashdot.org/story/26/10/21/1637221/openai-models-are-now-on-all-three-major-us-cloud-platforms?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-   "source": "Slashdot",
-   "score": 0.49061,
-   "at": "2026-10-22T15:27:38.807826+00:00"
-  },
-  {
-   "title": "خروج سرویس DNS عمومی Quad9 از فرانسه به دلیل احکام قضایی",
-   "url": "https://quad9.net/news/blog/au-revoir-france/",
-   "source": "quad9.net",
-   "score": 0.25168,
-   "at": "2026-10-22T19:22:12.070440+00:00"
-  },
-  {
-   "title": "توقف صدور مجوز برای دیتاسنترها در تگزاس پس از افشای خودکارسازی",
-   "url": "https://www.404media.co/texas-commission-on-environmental-quality-portal-down/",
-   "source": "404media.co",
-   "score": 0.80607,
-   "at": "2026-10-22T22:35:59.207562+00:00"
-  },
-  {
-   "title": "تأثیر موقعیت جغرافیایی سرورها بر میزان کربن تولیدی مدل‌های هوش مصنوعی",
-   "url": "https://berget.ai/en/blog/per-request-co2-press-release",
-   "source": "berget.ai",
-   "score": 0.13834,
-   "at": "2026-10-23T10:21:55.952251+00:00"
-  },
-  {
-   "title": "نگاهی به ویژگی‌ها و چالش‌های اولین گوشی تاشوی اپل، iPhone Duo",
-   "url": "https://www.wired.com/story/8-things-to-know-about-the-apple-iphone-duo/",
-   "source": "Wired",
-   "score": 0.5362,
-   "at": "2026-10-23T15:19:44.965079+00:00"
-  },
   {
    "title": "عرضه‌ی مدل هوش مصنوعی Deepseek V4.1 Flash با بهره‌وری سخت‌افزاری بالا",
    "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/deepseeks-latest-ai-model-is-smarter-than-ever-but-its-low-running-costs-come-at-a-price-open-weight-model-is-fit-for-agentic-workloads-but-is-more-prone-to-hallucination-than-proprietary-competitors",
@@ -1528,6 +1329,13 @@
    "source": "blog.mistys-internet.website",
    "score": 0.04118,
    "at": "2026-10-30T11:30:47.304319+00:00"
+  },
+  {
+   "title": "نفوذ بدافزار به افزونه رسمی Claude Code در مارکت‌پلیس Cursor",
+   "url": "https://thehackernews.com/2026/10/official-claude-code-vs-code-extension.html",
+   "source": "The Hacker News",
+   "score": 0.35399,
+   "at": "2026-10-30T18:07:48.045615+00:00"
   }
  ],
  "stories": [
@@ -6651,129 +6459,28 @@
     "website"
    ],
    "at": "2026-10-30T11:30:47.304319+00:00"
+  },
+  {
+   "sig": [
+    "backdoor",
+    "backdoors",
+    "claude",
+    "code",
+    "cursor",
+    "extension",
+    "extensions",
+    "malicious",
+    "marketplace",
+    "official",
+    "persistent",
+    "planted",
+    "ssh",
+    "trojanized"
+   ],
+   "at": "2026-10-30T18:07:48.045615+00:00"
   }
  ],
  "snapshots": {
-  "hn:50141681": [
-   432,
-   "2026-10-18T22:31:14.449482+00:00"
-  ],
-  "hn:50141429": [
-   467,
-   "2026-10-18T22:31:14.449482+00:00"
-  ],
-  "hn:50141295": [
-   359,
-   "2026-10-18T22:31:14.449482+00:00"
-  ],
-  "hn:50141206": [
-   162,
-   "2026-10-18T22:31:14.449482+00:00"
-  ],
-  "hn:50141053": [
-   271,
-   "2026-10-18T22:31:14.449482+00:00"
-  ],
-  "hn:50140769": [
-   317,
-   "2026-10-18T22:31:14.449482+00:00"
-  ],
-  "hn:50140462": [
-   255,
-   "2026-10-18T22:31:14.449482+00:00"
-  ],
-  "hn:50140001": [
-   191,
-   "2026-10-18T22:31:14.449482+00:00"
-  ],
-  "lobsters:mmvhup": [
-   49,
-   "2026-10-18T22:31:14.449482+00:00"
-  ],
-  "hn:50143218": [
-   365,
-   "2026-10-18T22:31:14.449482+00:00"
-  ],
-  "hn:50142866": [
-   643,
-   "2026-10-18T22:31:14.449482+00:00"
-  ],
-  "hn:50142449": [
-   124,
-   "2026-10-18T22:31:14.449482+00:00"
-  ],
-  "hn:50141579": [
-   314,
-   "2026-10-18T22:31:14.449482+00:00"
-  ],
-  "hn:50145337": [
-   158,
-   "2026-10-18T22:31:14.449482+00:00"
-  ],
-  "hn:50144405": [
-   191,
-   "2026-10-18T22:31:14.449482+00:00"
-  ],
-  "hn:50144144": [
-   69,
-   "2026-10-18T22:31:14.449482+00:00"
-  ],
-  "hn:50144066": [
-   110,
-   "2026-10-18T22:31:14.449482+00:00"
-  ],
-  "hn:50143132": [
-   159,
-   "2026-10-18T22:31:14.449482+00:00"
-  ],
-  "lobsters:vwgrix": [
-   26,
-   "2026-10-18T22:31:14.449482+00:00"
-  ],
-  "lobsters:mp8qye": [
-   43,
-   "2026-10-18T22:31:14.449482+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3my6kh24suw2n": [
-   123,
-   "2026-10-18T22:31:14.449482+00:00"
-  ],
-  "hn:50148601": [
-   136,
-   "2026-10-19T11:03:34.068127+00:00"
-  ],
-  "hn:50148441": [
-   205,
-   "2026-10-19T11:03:34.068127+00:00"
-  ],
-  "hn:50147492": [
-   179,
-   "2026-10-19T11:03:34.068127+00:00"
-  ],
-  "hn:50147455": [
-   225,
-   "2026-10-19T11:03:34.068127+00:00"
-  ],
-  "hn:50146625": [
-   340,
-   "2026-10-19T11:03:34.068127+00:00"
-  ],
-  "hn:50146624": [
-   233,
-   "2026-10-19T11:03:34.068127+00:00"
-  ],
-  "lobsters:h0eate": [
-   409,
-   "2026-10-19T11:03:34.068127+00:00"
-  ],
-  "lobsters:1s3dve": [
-   35,
-   "2026-10-19T11:03:34.068127+00:00"
-  ],
-  "lobsters:ilul4v": [
-   28,
-   "2026-10-19T11:03:34.068127+00:00"
-  ],
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3my7b34o7w52v": [
    468,
    "2026-10-19T11:03:34.068127+00:00"
@@ -9026,18 +8733,6 @@
    667,
    "2026-10-29T23:28:35.852938+00:00"
   ],
-  "hn:50301479": [
-   275,
-   "2026-10-30T11:30:41.176226+00:00"
-  ],
-  "hn:50300853": [
-   205,
-   "2026-10-30T11:30:41.176226+00:00"
-  ],
-  "hn:50300618": [
-   54,
-   "2026-10-30T11:30:41.176226+00:00"
-  ],
   "hn:50299182": [
    126,
    "2026-10-30T11:30:41.176226+00:00"
@@ -9053,6 +8748,138 @@
   "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mz2lx5a2i52j": [
    60,
    "2026-10-30T11:30:41.176226+00:00"
+  ],
+  "hn:50301479": [
+   384,
+   "2026-10-30T18:07:44.768562+00:00"
+  ],
+  "hn:50300853": [
+   254,
+   "2026-10-30T18:07:44.768562+00:00"
+  ],
+  "hn:50300618": [
+   60,
+   "2026-10-30T18:07:44.768562+00:00"
+  ],
+  "hn:50306442": [
+   188,
+   "2026-10-30T18:07:44.768562+00:00"
+  ],
+  "hn:50306008": [
+   338,
+   "2026-10-30T18:07:44.768562+00:00"
+  ],
+  "hn:50305693": [
+   666,
+   "2026-10-30T18:07:44.768562+00:00"
+  ],
+  "hn:50305480": [
+   149,
+   "2026-10-30T18:07:44.768562+00:00"
+  ],
+  "hn:50305436": [
+   224,
+   "2026-10-30T18:07:44.768562+00:00"
+  ],
+  "hn:50305272": [
+   193,
+   "2026-10-30T18:07:44.768562+00:00"
+  ],
+  "hn:50305225": [
+   102,
+   "2026-10-30T18:07:44.768562+00:00"
+  ],
+  "hn:50304419": [
+   587,
+   "2026-10-30T18:07:44.768562+00:00"
+  ],
+  "hn:50304358": [
+   257,
+   "2026-10-30T18:07:44.768562+00:00"
+  ],
+  "hn:50304006": [
+   93,
+   "2026-10-30T18:07:44.768562+00:00"
+  ],
+  "hn:50303791": [
+   242,
+   "2026-10-30T18:07:44.768562+00:00"
+  ],
+  "hn:50303172": [
+   536,
+   "2026-10-30T18:07:44.768562+00:00"
+  ],
+  "hn:50302814": [
+   1414,
+   "2026-10-30T18:07:44.768562+00:00"
+  ],
+  "hn:50302334": [
+   680,
+   "2026-10-30T18:07:44.768562+00:00"
+  ],
+  "hn:50301983": [
+   398,
+   "2026-10-30T18:07:44.768562+00:00"
+  ],
+  "hn:50301854": [
+   270,
+   "2026-10-30T18:07:44.768562+00:00"
+  ],
+  "hn:50301717": [
+   144,
+   "2026-10-30T18:07:44.768562+00:00"
+  ],
+  "hn:50300683": [
+   1200,
+   "2026-10-30T18:07:44.768562+00:00"
+  ],
+  "lobsters:ttp7aq": [
+   168,
+   "2026-10-30T18:07:44.768562+00:00"
+  ],
+  "lobsters:htgcuc": [
+   75,
+   "2026-10-30T18:07:44.768562+00:00"
+  ],
+  "lobsters:f4aqog": [
+   55,
+   "2026-10-30T18:07:44.768562+00:00"
+  ],
+  "lobsters:u7dsbx": [
+   55,
+   "2026-10-30T18:07:44.768562+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mz4bsdhorf2n": [
+   278,
+   "2026-10-30T18:07:44.768562+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mz4a7vqwg22b": [
+   606,
+   "2026-10-30T18:07:44.768562+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mz46hakwvg2l": [
+   72,
+   "2026-10-30T18:07:44.768562+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mz3wwhyqrk2y": [
+   234,
+   "2026-10-30T18:07:44.768562+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mz3tmutcbc2f": [
+   612,
+   "2026-10-30T18:07:44.768562+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mz3slkc7az2o": [
+   114,
+   "2026-10-30T18:07:44.768562+00:00"
+  ],
+  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mz3uq7ky72pd": [
+   87,
+   "2026-10-30T18:07:44.768562+00:00"
+  ],
+  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mz4bt4ntps2s": [
+   21,
+   "2026-10-30T18:07:44.768562+00:00"
   ]
  }
 }
