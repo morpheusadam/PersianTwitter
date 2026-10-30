@@ -1128,18 +1128,19 @@
   "hn:50293047",
   "https://techcrunch.com/?p=3183099",
   "https://www.engadget.com/2301447/nvidia-ceo-jensen-huang-may-have-been-the-target-of-a-chinese-government-spy/",
-  "https://slashdot.org/story/26/10/29/189230/nvidia-chief-seen-as-target-of-chinese-spy-plot?utm_source=rss1.0mainlinkanon&utm_medium=feed"
+  "https://slashdot.org/story/26/10/29/189230/nvidia-chief-seen-as-target-of-chinese-spy-plot?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+  "lobsters:6ole9g"
  ],
  "posted": {
-  "viral": 210,
+  "viral": 211,
   "editorial": 211
  },
  "recent_labels": [
-  "Engadget",
   "Wired",
   "Hacker News",
   "404 Media",
-  "Tom's Hardware"
+  "Tom's Hardware",
+  "Lobsters"
  ],
  "last_digest": "2026-10-23",
  "history": [
@@ -1520,6 +1521,13 @@
    "source": "Tom's Hardware",
    "score": 0.40168,
    "at": "2026-10-29T23:28:37.869190+00:00"
+  },
+  {
+   "title": "آموزش روش‌های شخصی برای آرشیو کردن و حفظ وب‌سایت‌های محبوب",
+   "url": "http://blog.mistys-internet.website/post/2026/10/29/if-you-love-a-website-back-it-up/",
+   "source": "blog.mistys-internet.website",
+   "score": 0.04118,
+   "at": "2026-10-30T11:30:47.304319+00:00"
   }
  ],
  "stories": [
@@ -6635,37 +6643,17 @@
     "through"
    ],
    "at": "2026-10-29T23:28:37.869190+00:00"
+  },
+  {
+   "sig": [
+    "back",
+    "love",
+    "website"
+   ],
+   "at": "2026-10-30T11:30:47.304319+00:00"
   }
  ],
  "snapshots": {
-  "hn:50138531": [
-   841,
-   "2026-10-18T17:27:56.621775+00:00"
-  ],
-  "hn:50141657": [
-   277,
-   "2026-10-18T17:27:56.621775+00:00"
-  ],
-  "hn:50138462": [
-   179,
-   "2026-10-18T17:27:56.621775+00:00"
-  ],
-  "hn:50139692": [
-   302,
-   "2026-10-18T19:33:02.582502+00:00"
-  ],
-  "hn:50144005": [
-   161,
-   "2026-10-18T19:33:02.582502+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3my6c4t3mce2v": [
-   73,
-   "2026-10-18T19:33:02.582502+00:00"
-  ],
-  "hn:50139873": [
-   480,
-   "2026-10-18T22:31:14.449482+00:00"
-  ],
   "hn:50141681": [
    432,
    "2026-10-18T22:31:14.449482+00:00"
@@ -9037,6 +9025,34 @@
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3myzy25ui5i2c": [
    667,
    "2026-10-29T23:28:35.852938+00:00"
+  ],
+  "hn:50301479": [
+   275,
+   "2026-10-30T11:30:41.176226+00:00"
+  ],
+  "hn:50300853": [
+   205,
+   "2026-10-30T11:30:41.176226+00:00"
+  ],
+  "hn:50300618": [
+   54,
+   "2026-10-30T11:30:41.176226+00:00"
+  ],
+  "hn:50299182": [
+   126,
+   "2026-10-30T11:30:41.176226+00:00"
+  ],
+  "hn:50298964": [
+   297,
+   "2026-10-30T11:30:41.176226+00:00"
+  ],
+  "lobsters:6ole9g": [
+   56,
+   "2026-10-30T11:30:41.176226+00:00"
+  ],
+  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mz2lx5a2i52j": [
+   60,
+   "2026-10-30T11:30:41.176226+00:00"
   ]
  }
 }
