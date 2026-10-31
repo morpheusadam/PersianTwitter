@@ -1134,17 +1134,18 @@
   "hn:50302334",
   "lobsters:ttp7aq",
   "https://www.bleepingcomputer.com/news/security/malicious-claude-code-extension-on-cursor-planted-ssh-backdoors/",
-  "hn:50308631"
+  "hn:50308631",
+  "hn:50312922"
  ],
  "posted": {
-  "viral": 212,
+  "viral": 213,
   "editorial": 212
  },
  "recent_labels": [
-  "404 Media",
   "Tom's Hardware",
   "Lobsters",
   "The Hacker News",
+  "Hacker News",
   "Hacker News"
  ],
  "last_digest": "2026-10-30",
@@ -1344,6 +1345,13 @@
    "source": "twitter.com",
    "score": 0.12921,
    "at": "2026-10-30T22:33:34.140738+00:00"
+  },
+  {
+   "title": "تلاش OpenAI برای جذب سرمایه با شکست در رسیدن به هدف",
+   "url": "https://www.wsj.com/tech/ai/openai-raises-less-than-half-of-30-billion-target-in-latest-round-91aecdc5",
+   "source": "wsj.com",
+   "score": 0.0505,
+   "at": "2026-10-31T11:02:34.514966+00:00"
   }
  ],
  "stories": [
@@ -6498,41 +6506,20 @@
     "videolan"
    ],
    "at": "2026-10-30T22:33:34.140738+00:00"
+  },
+  {
+   "sig": [
+    "30b",
+    "half",
+    "less",
+    "openai",
+    "raises",
+    "target"
+   ],
+   "at": "2026-10-31T11:02:34.514966+00:00"
   }
  ],
  "snapshots": {
-  "hn:50150750": [
-   1331,
-   "2026-10-19T22:32:38.354333+00:00"
-  ],
-  "lobsters:gqepzd": [
-   96,
-   "2026-10-19T22:32:38.354333+00:00"
-  ],
-  "lobsters:vyfegx": [
-   94,
-   "2026-10-19T22:32:38.354333+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3myak5xp5vw2p": [
-   286,
-   "2026-10-19T22:32:38.354333+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3myafxksf622j": [
-   104,
-   "2026-10-19T22:32:38.354333+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3myaa3kptzz2b": [
-   1119,
-   "2026-10-19T22:32:38.354333+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mya57lgvnk2t": [
-   487,
-   "2026-10-19T22:32:38.354333+00:00"
-  ],
-  "at://did:plc:kft6lu4trxowqmter2b6vg6z/app.bsky.feed.post/3myahrcpxu22s": [
-   112,
-   "2026-10-19T22:32:38.354333+00:00"
-  ],
   "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mya7262o2cpw": [
    183,
    "2026-10-19T22:32:38.354333+00:00"
@@ -8900,6 +8887,38 @@
   "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mz4i3sto6c2s": [
    101,
    "2026-10-30T22:33:18.191425+00:00"
+  ],
+  "hn:50314654": [
+   169,
+   "2026-10-31T11:02:13.769815+00:00"
+  ],
+  "hn:50312922": [
+   438,
+   "2026-10-31T11:02:13.769815+00:00"
+  ],
+  "hn:50312756": [
+   409,
+   "2026-10-31T11:02:13.769815+00:00"
+  ],
+  "hn:50312739": [
+   104,
+   "2026-10-31T11:02:13.769815+00:00"
+  ],
+  "hn:50311686": [
+   305,
+   "2026-10-31T11:02:13.769815+00:00"
+  ],
+  "hn:50311311": [
+   216,
+   "2026-10-31T11:02:13.769815+00:00"
+  ],
+  "lobsters:soosuu": [
+   30,
+   "2026-10-31T11:02:13.769815+00:00"
+  ],
+  "at://did:plc:ipt7y6qaf6fn7oeeduboqe44/app.bsky.feed.post/3mz5wdfae522b": [
+   18,
+   "2026-10-31T11:02:13.769815+00:00"
   ]
  }
 }
