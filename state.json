@@ -1144,18 +1144,19 @@
   "https://www.techspot.com/news/114391-anthropic-manager-drops-coding-interviews-after-realizing-claude.html",
   "Zv5DATYCS5oHuKkbzTdPxG",
   "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mz7tozvdiclm",
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mz7x53ho7z2a"
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mz7x53ho7z2a",
+  "hn:50326821"
  ],
  "posted": {
-  "viral": 214,
+  "viral": 215,
   "editorial": 215
  },
  "recent_labels": [
-  "Hacker News",
   "Wired",
   "Tom's Hardware",
   "TechSpot",
-  "404 Media"
+  "404 Media",
+  "Hacker News"
  ],
  "last_digest": "2026-10-30",
  "history": [
@@ -1389,6 +1390,13 @@
    "source": "404media.co",
    "score": 0.09367,
    "at": "2026-11-01T11:56:51.574340+00:00"
+  },
+  {
+   "title": "پلتفرم HackerBooks برای جست‌وجوی کتاب‌های معرفی‌شده در Hacker News",
+   "url": "https://hackerbooks.org",
+   "source": "hackerbooks.org",
+   "score": 0.27797,
+   "at": "2026-11-01T18:01:20.231053+00:00"
   }
  ],
  "stories": [
@@ -6643,49 +6651,19 @@
     "which"
    ],
    "at": "2026-11-01T11:56:51.574340+00:00"
+  },
+  {
+   "sig": [
+    "books",
+    "hackerbooks",
+    "hackertube",
+    "mentioned",
+    "show"
+   ],
+   "at": "2026-11-01T18:01:20.231053+00:00"
   }
  ],
  "snapshots": {
-  "hn:50165484": [
-   363,
-   "2026-10-20T22:31:26.237453+00:00"
-  ],
-  "hn:50165208": [
-   923,
-   "2026-10-20T22:31:26.237453+00:00"
-  ],
-  "lobsters:gqyvn5": [
-   189,
-   "2026-10-20T22:31:26.237453+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mycmej7lp42e": [
-   150,
-   "2026-10-20T22:31:26.237453+00:00"
-  ],
-  "at://did:plc:x2nsupeeo52oznrmplwapppl/app.bsky.feed.post/3myctyyiwwk2v": [
-   338,
-   "2026-10-20T22:31:26.237453+00:00"
-  ],
-  "at://did:plc:x2nsupeeo52oznrmplwapppl/app.bsky.feed.post/3myctk2uu4c2z": [
-   865,
-   "2026-10-20T22:31:26.237453+00:00"
-  ],
-  "at://did:plc:x2nsupeeo52oznrmplwapppl/app.bsky.feed.post/3mycpfkf6kb2w": [
-   1031,
-   "2026-10-20T22:31:26.237453+00:00"
-  ],
-  "at://did:plc:x2nsupeeo52oznrmplwapppl/app.bsky.feed.post/3mycgqwq2rs2w": [
-   194,
-   "2026-10-20T22:31:26.237453+00:00"
-  ],
-  "hn:50169053": [
-   313,
-   "2026-10-20T22:31:26.237453+00:00"
-  ],
-  "hn:50168190": [
-   524,
-   "2026-10-20T22:31:26.237453+00:00"
-  ],
   "hn:50167732": [
    332,
    "2026-10-20T22:31:26.237453+00:00"
@@ -9006,14 +8984,6 @@
    5,
    "2026-10-31T23:31:39.388374+00:00"
   ],
-  "hn:50324388": [
-   220,
-   "2026-11-01T11:56:47.795696+00:00"
-  ],
-  "hn:50323088": [
-   217,
-   "2026-11-01T11:56:47.795696+00:00"
-  ],
   "hn:50322173": [
    272,
    "2026-11-01T11:56:47.795696+00:00"
@@ -9045,6 +9015,54 @@
   "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mz7kanlblklm": [
    308,
    "2026-11-01T11:56:47.795696+00:00"
+  ],
+  "hn:50324388": [
+   1330,
+   "2026-11-01T18:01:15.147523+00:00"
+  ],
+  "hn:50323088": [
+   493,
+   "2026-11-01T18:01:15.147523+00:00"
+  ],
+  "hn:50327266": [
+   75,
+   "2026-11-01T18:01:15.147523+00:00"
+  ],
+  "hn:50327058": [
+   76,
+   "2026-11-01T18:01:15.147523+00:00"
+  ],
+  "hn:50326821": [
+   381,
+   "2026-11-01T18:01:15.147523+00:00"
+  ],
+  "hn:50326118": [
+   360,
+   "2026-11-01T18:01:15.147523+00:00"
+  ],
+  "hn:50326099": [
+   343,
+   "2026-11-01T18:01:15.147523+00:00"
+  ],
+  "hn:50325662": [
+   179,
+   "2026-11-01T18:01:15.147523+00:00"
+  ],
+  "hn:50325454": [
+   125,
+   "2026-11-01T18:01:15.147523+00:00"
+  ],
+  "hn:50324533": [
+   66,
+   "2026-11-01T18:01:15.147523+00:00"
+  ],
+  "hn:50324267": [
+   187,
+   "2026-11-01T18:01:15.147523+00:00"
+  ],
+  "hn:50324118": [
+   326,
+   "2026-11-01T18:01:15.147523+00:00"
   ]
  }
 }
