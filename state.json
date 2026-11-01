@@ -1142,18 +1142,20 @@
   "hn:50315047",
   "https://tech.slashdot.org/story/26/10/31/1857243/french-lawmakers-back-per-gigabyte-internet-traffic-tax?utm_source=rss1.0mainlinkanon&utm_medium=feed",
   "https://www.techspot.com/news/114391-anthropic-manager-drops-coding-interviews-after-realizing-claude.html",
-  "Zv5DATYCS5oHuKkbzTdPxG"
+  "Zv5DATYCS5oHuKkbzTdPxG",
+  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mz7tozvdiclm",
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mz7x53ho7z2a"
  ],
  "posted": {
-  "viral": 213,
+  "viral": 214,
   "editorial": 215
  },
  "recent_labels": [
   "Hacker News",
-  "Hacker News",
   "Wired",
   "Tom's Hardware",
-  "TechSpot"
+  "TechSpot",
+  "404 Media"
  ],
  "last_digest": "2026-10-30",
  "history": [
@@ -1380,6 +1382,13 @@
    "source": "TechSpot",
    "score": 0.32039,
    "at": "2026-10-31T23:31:40.882241+00:00"
+  },
+  {
+   "title": "هدایت کاربران توسط ChatGPT به سمت رسانه‌ها برای حل مشکلات فنی",
+   "url": "https://www.404media.co/chatgpt-keeps-telling-people-404-media-can-solve-their-tech-support-problems/",
+   "source": "404media.co",
+   "score": 0.09367,
+   "at": "2026-11-01T11:56:51.574340+00:00"
   }
  ],
  "stories": [
@@ -6609,49 +6618,34 @@
     "tenure"
    ],
    "at": "2026-10-31T23:31:40.882241+00:00"
+  },
+  {
+   "sig": [
+    "because",
+    "big",
+    "chatgpt",
+    "contact",
+    "customer",
+    "essentially",
+    "experiencing",
+    "human",
+    "impossible",
+    "many",
+    "people",
+    "platforms",
+    "problems",
+    "run-of-the-mill",
+    "support",
+    "tech",
+    "told",
+    "turned",
+    "users",
+    "which"
+   ],
+   "at": "2026-11-01T11:56:51.574340+00:00"
   }
  ],
  "snapshots": {
-  "hn:50163625": [
-   257,
-   "2026-10-20T19:27:32.208602+00:00"
-  ],
-  "hn:50163462": [
-   180,
-   "2026-10-20T19:27:32.208602+00:00"
-  ],
-  "hn:50163142": [
-   209,
-   "2026-10-20T19:27:32.208602+00:00"
-  ],
-  "lobsters:d7m5j1": [
-   80,
-   "2026-10-20T19:27:32.208602+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mycurvyums2z": [
-   552,
-   "2026-10-20T19:27:32.208602+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mycrkkyu2i2e": [
-   556,
-   "2026-10-20T19:27:32.208602+00:00"
-  ],
-  "at://did:plc:ipt7y6qaf6fn7oeeduboqe44/app.bsky.feed.post/3mycd4ryjbu2o": [
-   34,
-   "2026-10-20T19:27:32.208602+00:00"
-  ],
-  "hn:50166579": [
-   1095,
-   "2026-10-20T22:31:26.237453+00:00"
-  ],
-  "hn:50165953": [
-   598,
-   "2026-10-20T22:31:26.237453+00:00"
-  ],
-  "hn:50165801": [
-   656,
-   "2026-10-20T22:31:26.237453+00:00"
-  ],
   "hn:50165484": [
    363,
    "2026-10-20T22:31:26.237453+00:00"
@@ -9011,6 +9005,46 @@
   "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mz6rowze5c2s": [
    5,
    "2026-10-31T23:31:39.388374+00:00"
+  ],
+  "hn:50324388": [
+   220,
+   "2026-11-01T11:56:47.795696+00:00"
+  ],
+  "hn:50323088": [
+   217,
+   "2026-11-01T11:56:47.795696+00:00"
+  ],
+  "hn:50322173": [
+   272,
+   "2026-11-01T11:56:47.795696+00:00"
+  ],
+  "hn:50322022": [
+   195,
+   "2026-11-01T11:56:47.795696+00:00"
+  ],
+  "hn:50321462": [
+   78,
+   "2026-11-01T11:56:47.795696+00:00"
+  ],
+  "lobsters:lt44rt": [
+   52,
+   "2026-11-01T11:56:47.795696+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mz7x53ho7z2a": [
+   544,
+   "2026-11-01T11:56:47.795696+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mz7nw67hjd2h": [
+   282,
+   "2026-11-01T11:56:47.795696+00:00"
+  ],
+  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mz7tozvdiclm": [
+   163,
+   "2026-11-01T11:56:47.795696+00:00"
+  ],
+  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mz7kanlblklm": [
+   308,
+   "2026-11-01T11:56:47.795696+00:00"
   ]
  }
 }
