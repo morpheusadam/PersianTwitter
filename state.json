@@ -1152,18 +1152,25 @@
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mzbmrvrsi32s",
   "hn:50330005",
   "https://slashdot.org/story/26/11/01/2130258/religious-exemption-from-using-ai-in-workplace-granted-to-humanist?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-  "https://techcrunch.com/?p=3183095"
+  "https://techcrunch.com/?p=3183095",
+  "https://thehackernews.com/2026/11/fbi-links-north-koreas-tradertraitor-to.html",
+  "https://www.bleepingcomputer.com/news/security/fbi-links-63-billion-binance-crypto-heist-to-north-korean-hackers/",
+  "https://therecord.media/fbi-blames-tradertraitor-for-binance-hack",
+  "https://www.theverge.com/?p=1024176",
+  "https://www.techspot.com/news/114392-binance-loses-63-billion-largest-crypto-heist-ever.html",
+  "https://www.securityweek.com/?p=50459",
+  "TheNextWeb=123d2237c6949e27b9985fa67acc3783"
  ],
  "posted": {
   "viral": 215,
-  "editorial": 215
+  "editorial": 216
  },
  "recent_labels": [
-  "Wired",
   "Tom's Hardware",
   "TechSpot",
   "404 Media",
-  "Hacker News"
+  "Hacker News",
+  "The Hacker News"
  ],
  "last_digest": "2026-10-30",
  "history": [
@@ -1404,6 +1411,13 @@
    "source": "hackerbooks.org",
    "score": 0.27797,
    "at": "2026-11-01T18:01:20.231053+00:00"
+  },
+  {
+   "title": "سرقت ۶.۴۳ میلیارد دلاری از صرافی Binance توسط گروه هکری TraderTraitor",
+   "url": "https://thehackernews.com/2026/11/fbi-links-north-koreas-tradertraitor-to.html",
+   "source": "The Hacker News",
+   "score": 0.45886,
+   "at": "2026-11-02T13:43:19.785734+00:00"
   }
  ],
  "stories": [
@@ -6668,61 +6682,44 @@
     "show"
    ],
    "at": "2026-11-01T18:01:20.231053+00:00"
+  },
+  {
+   "sig": [
+    "6.3",
+    "6.43",
+    "6bn",
+    "addresses",
+    "billion",
+    "binance",
+    "blames",
+    "block",
+    "crypto",
+    "ever",
+    "fbi",
+    "flags",
+    "hackers",
+    "heist",
+    "heists",
+    "industry",
+    "korea",
+    "korean",
+    "largest",
+    "linked",
+    "links",
+    "loses",
+    "massive",
+    "north",
+    "record",
+    "theft",
+    "tied",
+    "tradertraitor",
+    "transactions",
+    "urges"
+   ],
+   "at": "2026-11-02T13:43:19.785734+00:00"
   }
  ],
  "snapshots": {
-  "lobsters:mngelc": [
-   30,
-   "2026-10-20T22:31:26.237453+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3myd7xjf7xs2z": [
-   344,
-   "2026-10-20T22:31:26.237453+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3myczrlmwav26": [
-   612,
-   "2026-10-20T22:31:26.237453+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3myct3ggljf2j": [
-   111,
-   "2026-10-20T22:31:26.237453+00:00"
-  ],
-  "at://did:plc:ipt7y6qaf6fn7oeeduboqe44/app.bsky.feed.post/3myd2q2rhee2o": [
-   26,
-   "2026-10-20T22:31:26.237453+00:00"
-  ],
-  "hn:50171966": [
-   124,
-   "2026-10-20T22:31:26.237453+00:00"
-  ],
-  "hn:50170021": [
-   142,
-   "2026-10-20T22:31:26.237453+00:00"
-  ],
-  "hn:50168357": [
-   293,
-   "2026-10-20T22:31:26.237453+00:00"
-  ],
-  "lobsters:9h14un": [
-   25,
-   "2026-10-20T22:31:26.237453+00:00"
-  ],
-  "at://did:plc:kft6lu4trxowqmter2b6vg6z/app.bsky.feed.post/3mydffvspjs2x": [
-   233,
-   "2026-10-20T22:31:26.237453+00:00"
-  ],
-  "at://did:plc:ipt7y6qaf6fn7oeeduboqe44/app.bsky.feed.post/3myd574ae7m2o": [
-   20,
-   "2026-10-20T22:31:26.237453+00:00"
-  ],
-  "hn:50176077": [
-   294,
-   "2026-10-21T10:25:34.232312+00:00"
-  ],
-  "hn:50175510": [
-   116,
-   "2026-10-21T10:25:34.232312+00:00"
-  ],
   "hn:50175185": [
    205,
    "2026-10-21T10:25:34.232312+00:00"
@@ -9070,6 +9067,58 @@
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mzbmrvrsi32s": [
    227,
    "2026-11-01T22:15:01.675611+00:00"
+  ],
+  "hn:50335615": [
+   186,
+   "2026-11-02T13:43:17.665012+00:00"
+  ],
+  "hn:50335602": [
+   194,
+   "2026-11-02T13:43:17.665012+00:00"
+  ],
+  "hn:50334704": [
+   128,
+   "2026-11-02T13:43:17.665012+00:00"
+  ],
+  "hn:50334038": [
+   192,
+   "2026-11-02T13:43:17.665012+00:00"
+  ],
+  "hn:50333877": [
+   151,
+   "2026-11-02T13:43:17.665012+00:00"
+  ],
+  "hn:50332163": [
+   201,
+   "2026-11-02T13:43:17.665012+00:00"
+  ],
+  "hn:50332086": [
+   262,
+   "2026-11-02T13:43:17.665012+00:00"
+  ],
+  "lobsters:0yxkvs": [
+   49,
+   "2026-11-02T13:43:17.665012+00:00"
+  ],
+  "lobsters:caksp0": [
+   32,
+   "2026-11-02T13:43:17.665012+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mzck5d2pfa2n": [
+   236,
+   "2026-11-02T13:43:17.665012+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mzcavjjq2x2a": [
+   558,
+   "2026-11-02T13:43:17.665012+00:00"
+  ],
+  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mzcf43bo3ceu": [
+   135,
+   "2026-11-02T13:43:17.665012+00:00"
+  ],
+  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mzc7ptyraseu": [
+   1348,
+   "2026-11-02T13:43:17.665012+00:00"
   ]
  }
 }
