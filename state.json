@@ -1160,18 +1160,21 @@
   "https://www.techspot.com/news/114392-binance-loses-63-billion-largest-crypto-heist-ever.html",
   "https://www.securityweek.com/?p=50459",
   "TheNextWeb=123d2237c6949e27b9985fa67acc3783",
-  "hn:50341174"
+  "hn:50341174",
+  "https://hardware.slashdot.org/story/26/11/02/2033238/apple-homeview-ultra-drone-and-laundry-folding-robot-reportedly-in-development?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+  "https://www.neowin.net/news/apple-reportedly-delays-plans-to-launch-its-home-robot/",
+  "TheNextWeb=1601915cfe37f67acc0e064e926625db"
  ],
  "posted": {
   "viral": 216,
-  "editorial": 216
+  "editorial": 217
  },
  "recent_labels": [
-  "TechSpot",
   "404 Media",
   "Hacker News",
   "The Hacker News",
-  "Hacker News"
+  "Hacker News",
+  "Slashdot"
  ],
  "last_digest": "2026-10-30",
  "history": [
@@ -1426,6 +1429,13 @@
    "source": "rikiyat.github.io",
    "score": 0.19439,
    "at": "2026-11-02T22:50:32.310365+00:00"
+  },
+  {
+   "title": "توسعه هاب هوشمند خانگی و ربات‌های خودمختار توسط اپل",
+   "url": "https://hardware.slashdot.org/story/26/11/02/2033238/apple-homeview-ultra-drone-and-laundry-folding-robot-reportedly-in-development?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+   "source": "Slashdot",
+   "score": 0.53395,
+   "at": "2026-11-03T12:55:42.685828+00:00"
   }
  ],
  "stories": [
@@ -6736,49 +6746,30 @@
     "write"
    ],
    "at": "2026-11-02T22:50:32.310365+00:00"
+  },
+  {
+   "sig": [
+    "apple",
+    "delays",
+    "development",
+    "drone",
+    "home",
+    "homeview",
+    "information",
+    "launch",
+    "laundry-folding",
+    "may",
+    "plans",
+    "reportedly",
+    "reports",
+    "robot",
+    "slip",
+    "ultra"
+   ],
+   "at": "2026-11-03T12:55:42.685828+00:00"
   }
  ],
  "snapshots": {
-  "hn:50179857": [
-   151,
-   "2026-10-21T22:37:13.768401+00:00"
-  ],
-  "lobsters:ebsqsp": [
-   49,
-   "2026-10-21T22:37:13.768401+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3myftj62s5k2z": [
-   174,
-   "2026-10-21T22:37:13.768401+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3myfnmfeksj2j": [
-   143,
-   "2026-10-21T22:37:13.768401+00:00"
-  ],
-  "at://did:plc:kft6lu4trxowqmter2b6vg6z/app.bsky.feed.post/3myfmdrox3k2u": [
-   93,
-   "2026-10-21T22:37:13.768401+00:00"
-  ],
-  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3myfte67pjs2w": [
-   19,
-   "2026-10-21T22:37:13.768401+00:00"
-  ],
-  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3myfpgo6gq22g": [
-   42,
-   "2026-10-21T22:37:13.768401+00:00"
-  ],
-  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3myfpgfsc5q2u": [
-   59,
-   "2026-10-21T22:37:13.768401+00:00"
-  ],
-  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3myfoqauwk42t": [
-   71,
-   "2026-10-21T22:37:13.768401+00:00"
-  ],
-  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3myfhp77l722g": [
-   53,
-   "2026-10-21T22:37:13.768401+00:00"
-  ],
   "hn:50187708": [
    116,
    "2026-10-21T22:37:13.768401+00:00"
@@ -9138,6 +9129,46 @@
   "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mzdm5ibtv223": [
    8,
    "2026-11-02T22:50:30.726925+00:00"
+  ],
+  "hn:50350004": [
+   320,
+   "2026-11-03T12:55:40.606163+00:00"
+  ],
+  "hn:50349276": [
+   131,
+   "2026-11-03T12:55:40.606163+00:00"
+  ],
+  "hn:50349155": [
+   174,
+   "2026-11-03T12:55:40.606163+00:00"
+  ],
+  "hn:50348962": [
+   228,
+   "2026-11-03T12:55:40.606163+00:00"
+  ],
+  "hn:50348260": [
+   72,
+   "2026-11-03T12:55:40.606163+00:00"
+  ],
+  "hn:50347683": [
+   381,
+   "2026-11-03T12:55:40.606163+00:00"
+  ],
+  "hn:50346981": [
+   550,
+   "2026-11-03T12:55:40.606163+00:00"
+  ],
+  "hn:50346849": [
+   382,
+   "2026-11-03T12:55:40.606163+00:00"
+  ],
+  "lobsters:7fcuxz": [
+   54,
+   "2026-11-03T12:55:40.606163+00:00"
+  ],
+  "at://did:plc:2mrgzk6xlemfv6yugn644xxy/app.bsky.feed.post/3mzezwpdhq22t": [
+   17,
+   "2026-11-03T12:55:40.606163+00:00"
   ]
  }
 }
