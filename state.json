@@ -1163,18 +1163,25 @@
   "hn:50341174",
   "https://hardware.slashdot.org/story/26/11/02/2033238/apple-homeview-ultra-drone-and-laundry-folding-robot-reportedly-in-development?utm_source=rss1.0mainlinkanon&utm_medium=feed",
   "https://www.neowin.net/news/apple-reportedly-delays-plans-to-launch-its-home-robot/",
-  "TheNextWeb=1601915cfe37f67acc0e064e926625db"
+  "TheNextWeb=1601915cfe37f67acc0e064e926625db",
+  "https://thehackernews.com/2026/11/google-disrupts-13-million-device.html",
+  "https://www.bleepingcomputer.com/news/security/google-disrupts-million-device-xcpe-android-malware-botnet-bans-tv-box-maker/",
+  "https://therecord.media/google-dismantles-botnet-hidden-android-tv-boxes",
+  "https://www.theregister.com/a/5307045",
+  "https://it.slashdot.org/story/26/11/03/0558219/cops-bust-botnet-of-13-million-android-tv-boxes?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+  "https://www.neowin.net/news/google-bans-android-tv-maker-for-secretly-installing-malware-on-millions-of-devices/",
+  "https://www.securityweek.com/?p=50488"
  ],
  "posted": {
   "viral": 216,
-  "editorial": 217
+  "editorial": 218
  },
  "recent_labels": [
-  "404 Media",
   "Hacker News",
   "The Hacker News",
   "Hacker News",
-  "Slashdot"
+  "Slashdot",
+  "The Hacker News"
  ],
  "last_digest": "2026-10-30",
  "history": [
@@ -1436,6 +1443,13 @@
    "source": "Slashdot",
    "score": 0.53395,
    "at": "2026-11-03T12:55:42.685828+00:00"
+  },
+  {
+   "title": "گوگل یک بات‌نت بزرگ متشکل از ۱.۳ میلیون دستگاه اندرویدی را منهدم کرد",
+   "url": "https://thehackernews.com/2026/11/google-disrupts-13-million-device.html",
+   "source": "The Hacker News",
+   "score": 0.82602,
+   "at": "2026-11-03T20:12:47.173535+00:00"
   }
  ],
  "stories": [
@@ -6767,117 +6781,41 @@
     "ultra"
    ],
    "at": "2026-11-03T12:55:42.685828+00:00"
+  },
+  {
+   "sig": [
+    "1.3",
+    "1.3m",
+    "access",
+    "android",
+    "bans",
+    "botnet",
+    "box",
+    "boxes",
+    "bust",
+    "cops",
+    "criminal",
+    "devices",
+    "dismantles",
+    "disrupts",
+    "google",
+    "hidden",
+    "infected",
+    "installing",
+    "maker",
+    "malware",
+    "massive",
+    "million",
+    "million-device",
+    "millions",
+    "secretly",
+    "sold",
+    "xcpe"
+   ],
+   "at": "2026-11-03T20:12:47.173535+00:00"
   }
  ],
  "snapshots": {
-  "hn:50187708": [
-   116,
-   "2026-10-21T22:37:13.768401+00:00"
-  ],
-  "hn:50186318": [
-   261,
-   "2026-10-21T22:37:13.768401+00:00"
-  ],
-  "hn:50186215": [
-   209,
-   "2026-10-21T22:37:13.768401+00:00"
-  ],
-  "hn:50186129": [
-   499,
-   "2026-10-21T22:37:13.768401+00:00"
-  ],
-  "hn:50186043": [
-   106,
-   "2026-10-21T22:37:13.768401+00:00"
-  ],
-  "hn:50185814": [
-   86,
-   "2026-10-21T22:37:13.768401+00:00"
-  ],
-  "hn:50185630": [
-   139,
-   "2026-10-21T22:37:13.768401+00:00"
-  ],
-  "hn:50183512": [
-   137,
-   "2026-10-21T22:37:13.768401+00:00"
-  ],
-  "hn:50182960": [
-   152,
-   "2026-10-21T22:37:13.768401+00:00"
-  ],
-  "hn:50180975": [
-   58,
-   "2026-10-21T22:37:13.768401+00:00"
-  ],
-  "lobsters:cdnepk": [
-   28,
-   "2026-10-21T22:37:13.768401+00:00"
-  ],
-  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3myg5l7vc7v2y": [
-   10,
-   "2026-10-21T22:37:13.768401+00:00"
-  ],
-  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3myg5klimes2c": [
-   12,
-   "2026-10-21T22:37:13.768401+00:00"
-  ],
-  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3myg4ka6gi526": [
-   14,
-   "2026-10-21T22:37:13.768401+00:00"
-  ],
-  "hn:50190455": [
-   488,
-   "2026-10-22T10:23:57.881862+00:00"
-  ],
-  "hn:50190363": [
-   352,
-   "2026-10-22T10:23:57.881862+00:00"
-  ],
-  "hn:50189232": [
-   713,
-   "2026-10-22T10:23:57.881862+00:00"
-  ],
-  "hn:50189150": [
-   504,
-   "2026-10-22T10:23:57.881862+00:00"
-  ],
-  "hn:50188948": [
-   1167,
-   "2026-10-22T10:23:57.881862+00:00"
-  ],
-  "lobsters:wi4nnl": [
-   25,
-   "2026-10-22T10:23:57.881862+00:00"
-  ],
-  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mygaolf2vk2c": [
-   42,
-   "2026-10-22T10:23:57.881862+00:00"
-  ],
-  "hn:50190959": [
-   202,
-   "2026-10-22T15:27:21.867075+00:00"
-  ],
-  "lobsters:hplfis": [
-   52,
-   "2026-10-22T15:27:21.867075+00:00"
-  ],
-  "lobsters:os7brs": [
-   33,
-   "2026-10-22T15:27:21.867075+00:00"
-  ],
-  "hn:50192900": [
-   567,
-   "2026-10-22T19:21:42.097287+00:00"
-  ],
-  "hn:50192254": [
-   210,
-   "2026-10-22T19:21:42.097287+00:00"
-  ],
-  "hn:50195959": [
-   960,
-   "2026-10-22T19:21:42.097287+00:00"
-  ],
   "hn:50193416": [
    124,
    "2026-10-22T19:21:42.097287+00:00"
@@ -9130,10 +9068,6 @@
    8,
    "2026-11-02T22:50:30.726925+00:00"
   ],
-  "hn:50350004": [
-   320,
-   "2026-11-03T12:55:40.606163+00:00"
-  ],
   "hn:50349276": [
    131,
    "2026-11-03T12:55:40.606163+00:00"
@@ -9169,6 +9103,118 @@
   "at://did:plc:2mrgzk6xlemfv6yugn644xxy/app.bsky.feed.post/3mzezwpdhq22t": [
    17,
    "2026-11-03T12:55:40.606163+00:00"
+  ],
+  "hn:50350004": [
+   480,
+   "2026-11-03T20:12:43.271695+00:00"
+  ],
+  "hn:50355504": [
+   229,
+   "2026-11-03T20:12:43.271695+00:00"
+  ],
+  "hn:50355251": [
+   444,
+   "2026-11-03T20:12:43.271695+00:00"
+  ],
+  "hn:50354960": [
+   1103,
+   "2026-11-03T20:12:43.271695+00:00"
+  ],
+  "hn:50354358": [
+   227,
+   "2026-11-03T20:12:43.271695+00:00"
+  ],
+  "hn:50354336": [
+   158,
+   "2026-11-03T20:12:43.271695+00:00"
+  ],
+  "hn:50353457": [
+   128,
+   "2026-11-03T20:12:43.271695+00:00"
+  ],
+  "hn:50353386": [
+   100,
+   "2026-11-03T20:12:43.271695+00:00"
+  ],
+  "hn:50353383": [
+   195,
+   "2026-11-03T20:12:43.271695+00:00"
+  ],
+  "hn:50353335": [
+   491,
+   "2026-11-03T20:12:43.271695+00:00"
+  ],
+  "hn:50353229": [
+   761,
+   "2026-11-03T20:12:43.271695+00:00"
+  ],
+  "hn:50353192": [
+   966,
+   "2026-11-03T20:12:43.271695+00:00"
+  ],
+  "hn:50352757": [
+   536,
+   "2026-11-03T20:12:43.271695+00:00"
+  ],
+  "hn:50352257": [
+   370,
+   "2026-11-03T20:12:43.271695+00:00"
+  ],
+  "hn:50351319": [
+   249,
+   "2026-11-03T20:12:43.271695+00:00"
+  ],
+  "hn:50350560": [
+   267,
+   "2026-11-03T20:12:43.271695+00:00"
+  ],
+  "lobsters:chypzr": [
+   113,
+   "2026-11-03T20:12:43.271695+00:00"
+  ],
+  "lobsters:e201eb": [
+   71,
+   "2026-11-03T20:12:43.271695+00:00"
+  ],
+  "lobsters:1gndxr": [
+   29,
+   "2026-11-03T20:12:43.271695+00:00"
+  ],
+  "lobsters:yes2hc": [
+   25,
+   "2026-11-03T20:12:43.271695+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mzgjvljp4s2f": [
+   380,
+   "2026-11-03T20:12:43.271695+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mzg6cydvek2f": [
+   277,
+   "2026-11-03T20:12:43.271695+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mzg4xugn542n": [
+   63,
+   "2026-11-03T20:12:43.271695+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mzg2hkl3tr2c": [
+   437,
+   "2026-11-03T20:12:43.271695+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mzfwazn4k22o": [
+   741,
+   "2026-11-03T20:12:43.271695+00:00"
+  ],
+  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mzgiw37gmk2h": [
+   230,
+   "2026-11-03T20:12:43.271695+00:00"
+  ],
+  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mzge7jeumctj": [
+   54,
+   "2026-11-03T20:12:43.271695+00:00"
+  ],
+  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mzg4is4x7k2s": [
+   215,
+   "2026-11-03T20:12:43.271695+00:00"
   ]
  }
 }
