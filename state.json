@@ -1176,18 +1176,19 @@
   "https://www.engadget.com/2306534/americans-overwhelmingly-voted-against-data-centers-in-the-midterms/",
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mzj4g4kxus22",
   "https://openai.com/index/a-thousand-fewer-paths-to-root",
-  "hn:50372929"
+  "hn:50372929",
+  "hn:50377221"
  ],
  "posted": {
-  "viral": 218,
+  "viral": 219,
   "editorial": 220
  },
  "recent_labels": [
-  "The Hacker News",
   "Emily M. Bender",
   "Hacker News",
   "Engadget",
-  "OpenAI"
+  "OpenAI",
+  "Hacker News"
  ],
  "last_digest": "2026-10-30",
  "history": [
@@ -1484,6 +1485,13 @@
    "source": "OpenAI",
    "score": 0.43693,
    "at": "2026-11-05T01:00:26.406624+00:00"
+  },
+  {
+   "title": "انتشار نسخه جدید OpenSSH برای رفع یک آسیب‌پذیری بحرانی",
+   "url": "https://hachyderm.io/@damienmiller/117563026759098135",
+   "source": "hachyderm.io",
+   "score": 0.10858,
+   "at": "2026-11-05T13:24:25.780839+00:00"
   }
  ],
  "stories": [
@@ -6918,33 +6926,20 @@
     "vulnerabilities"
    ],
    "at": "2026-11-05T01:00:26.406624+00:00"
+  },
+  {
+   "sig": [
+    "10.6p2",
+    "critical",
+    "openssh",
+    "released",
+    "vulnerability",
+    "workaround"
+   ],
+   "at": "2026-11-05T13:24:25.780839+00:00"
   }
  ],
  "snapshots": {
-  "hn:50211746": [
-   249,
-   "2026-10-23T22:29:07.535236+00:00"
-  ],
-  "hn:50211474": [
-   1518,
-   "2026-10-23T22:29:07.535236+00:00"
-  ],
-  "hn:50210075": [
-   380,
-   "2026-10-23T22:29:07.535236+00:00"
-  ],
-  "hn:50210067": [
-   485,
-   "2026-10-23T22:29:07.535236+00:00"
-  ],
-  "hn:50209907": [
-   118,
-   "2026-10-23T22:29:07.535236+00:00"
-  ],
-  "hn:50207910": [
-   738,
-   "2026-10-23T22:29:07.535236+00:00"
-  ],
   "lobsters:5hoqzj": [
    52,
    "2026-10-23T22:29:07.535236+00:00"
@@ -9320,6 +9315,30 @@
   "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mzjgxrc5xkhy": [
    192,
    "2026-11-05T01:00:24.427164+00:00"
+  ],
+  "hn:50377821": [
+   157,
+   "2026-11-05T13:24:19.609678+00:00"
+  ],
+  "hn:50377221": [
+   171,
+   "2026-11-05T13:24:19.609678+00:00"
+  ],
+  "hn:50377078": [
+   186,
+   "2026-11-05T13:24:19.609678+00:00"
+  ],
+  "hn:50375728": [
+   90,
+   "2026-11-05T13:24:19.609678+00:00"
+  ],
+  "hn:50375691": [
+   82,
+   "2026-11-05T13:24:19.609678+00:00"
+  ],
+  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mzkvjfwarc2u": [
+   97,
+   "2026-11-05T13:24:19.609678+00:00"
   ]
  }
 }
