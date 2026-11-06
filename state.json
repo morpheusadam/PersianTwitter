@@ -1181,18 +1181,19 @@
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mzlewrj3y22v",
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mzlfglujbc2k",
   "https://thehackernews.com/2026/11/apple-to-start-scanning-publicly-shared.html",
-  "https://www.neowin.net/news/apple-will-start-checking-your-icloud-links-for-harmful-content/"
+  "https://www.neowin.net/news/apple-will-start-checking-your-icloud-links-for-harmful-content/",
+  "hn:50390124"
  ],
  "posted": {
-  "viral": 220,
+  "viral": 221,
   "editorial": 221
  },
  "recent_labels": [
-  "Engadget",
   "OpenAI",
   "Hacker News",
   "404 Media",
-  "The Hacker News"
+  "The Hacker News",
+  "Hacker News"
  ],
  "last_digest": "2026-10-30",
  "history": [
@@ -1510,6 +1511,13 @@
    "source": "The Hacker News",
    "score": 0.38498,
    "at": "2026-11-06T01:42:28.217443+00:00"
+  },
+  {
+   "title": "مسدودسازی دسترسی کاربران GrapheneOS توسط بانک هلندی ASN",
+   "url": "https://github.com/PrivSec-dev/banking-apps-compat-report/issues/105",
+   "source": "github.com",
+   "score": 0.16274,
+   "at": "2026-11-06T13:06:53.275882+00:00"
   }
  ],
  "stories": [
@@ -6996,73 +7004,23 @@
     "start"
    ],
    "at": "2026-11-06T01:42:28.217443+00:00"
+  },
+  {
+   "sig": [
+    "android",
+    "asn",
+    "bank",
+    "blocks",
+    "dutch",
+    "grapheneos",
+    "idealist",
+    "including",
+    "non-google"
+   ],
+   "at": "2026-11-06T13:06:53.275882+00:00"
   }
  ],
  "snapshots": {
-  "hn:50222622": [
-   545,
-   "2026-10-24T23:30:35.364844+00:00"
-  ],
-  "hn:50221676": [
-   644,
-   "2026-10-24T23:30:35.364844+00:00"
-  ],
-  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mymvd5mrc2b3": [
-   95,
-   "2026-10-24T23:30:35.364844+00:00"
-  ],
-  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mymn7j2kokb3": [
-   66,
-   "2026-10-24T23:30:35.364844+00:00"
-  ],
-  "hn:50224463": [
-   1226,
-   "2026-10-24T23:30:35.364844+00:00"
-  ],
-  "hn:50224300": [
-   170,
-   "2026-10-24T23:30:35.364844+00:00"
-  ],
-  "hn:50224100": [
-   431,
-   "2026-10-24T23:30:35.364844+00:00"
-  ],
-  "hn:50224074": [
-   244,
-   "2026-10-24T23:30:35.364844+00:00"
-  ],
-  "hn:50223844": [
-   442,
-   "2026-10-24T23:30:35.364844+00:00"
-  ],
-  "hn:50223647": [
-   426,
-   "2026-10-24T23:30:35.364844+00:00"
-  ],
-  "hn:50222976": [
-   275,
-   "2026-10-24T23:30:35.364844+00:00"
-  ],
-  "hn:50222927": [
-   132,
-   "2026-10-24T23:30:35.364844+00:00"
-  ],
-  "hn:50222525": [
-   134,
-   "2026-10-24T23:30:35.364844+00:00"
-  ],
-  "lobsters:vh8l3t": [
-   47,
-   "2026-10-24T23:30:35.364844+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mynd7disno2g": [
-   328,
-   "2026-10-24T23:30:35.364844+00:00"
-  ],
-  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mynbn5pg2cb3": [
-   149,
-   "2026-10-24T23:30:35.364844+00:00"
-  ],
   "at://did:plc:2mrgzk6xlemfv6yugn644xxy/app.bsky.feed.post/3mynjzpbars2g": [
    18,
    "2026-10-24T23:30:35.364844+00:00"
@@ -9398,6 +9356,70 @@
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mzlryozt6k2s": [
    792,
    "2026-11-06T01:42:26.466197+00:00"
+  ],
+  "hn:50390525": [
+   103,
+   "2026-11-06T13:06:50.030490+00:00"
+  ],
+  "hn:50390124": [
+   545,
+   "2026-11-06T13:06:50.030490+00:00"
+  ],
+  "hn:50389448": [
+   154,
+   "2026-11-06T13:06:50.030490+00:00"
+  ],
+  "hn:50389420": [
+   192,
+   "2026-11-06T13:06:50.030490+00:00"
+  ],
+  "hn:50389370": [
+   198,
+   "2026-11-06T13:06:50.030490+00:00"
+  ],
+  "hn:50389333": [
+   612,
+   "2026-11-06T13:06:50.030490+00:00"
+  ],
+  "hn:50389222": [
+   831,
+   "2026-11-06T13:06:50.030490+00:00"
+  ],
+  "hn:50388513": [
+   407,
+   "2026-11-06T13:06:50.030490+00:00"
+  ],
+  "hn:50388122": [
+   234,
+   "2026-11-06T13:06:50.030490+00:00"
+  ],
+  "hn:50387738": [
+   141,
+   "2026-11-06T13:06:50.030490+00:00"
+  ],
+  "hn:50387546": [
+   206,
+   "2026-11-06T13:06:50.030490+00:00"
+  ],
+  "hn:50387406": [
+   186,
+   "2026-11-06T13:06:50.030490+00:00"
+  ],
+  "lobsters:jmdchp": [
+   32,
+   "2026-11-06T13:06:50.030490+00:00"
+  ],
+  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mzngbjtq4c2n": [
+   7,
+   "2026-11-06T13:06:50.030490+00:00"
+  ],
+  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mzmgq73aks24": [
+   6,
+   "2026-11-06T13:06:50.030490+00:00"
+  ],
+  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mzmgo5mjcs24": [
+   16,
+   "2026-11-06T13:06:50.030490+00:00"
   ]
  }
 }
