@@ -1182,210 +1182,23 @@
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mzlfglujbc2k",
   "https://thehackernews.com/2026/11/apple-to-start-scanning-publicly-shared.html",
   "https://www.neowin.net/news/apple-will-start-checking-your-icloud-links-for-harmful-content/",
-  "hn:50390124"
+  "hn:50390124",
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mznujgrcpc2v",
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mznwhwv7pc2v"
  ],
  "posted": {
-  "viral": 221,
+  "viral": 222,
   "editorial": 221
  },
  "recent_labels": [
-  "OpenAI",
   "Hacker News",
   "404 Media",
   "The Hacker News",
-  "Hacker News"
+  "Hacker News",
+  "404 Media"
  ],
- "last_digest": "2026-10-30",
+ "last_digest": "2026-11-06",
  "history": [
-  {
-   "title": "عرضه‌ی مدل هوش مصنوعی Deepseek V4.1 Flash با بهره‌وری سخت‌افزاری بالا",
-   "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/deepseeks-latest-ai-model-is-smarter-than-ever-but-its-low-running-costs-come-at-a-price-open-weight-model-is-fit-for-agentic-workloads-but-is-more-prone-to-hallucination-than-proprietary-competitors",
-   "source": "Tom's Hardware",
-   "score": 0.36671,
-   "at": "2026-10-23T19:25:55.193987+00:00"
-  },
-  {
-   "title": "معرفی مدل هوش مصنوعی Kimi K3.1 Pro با قابلیت‌های پیشرفته برنامه‌نویسی",
-   "url": "https://habr.com/ru/articles/1098746/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1098746",
-   "source": "Habr",
-   "score": 0.31174,
-   "at": "2026-10-23T22:29:15.686427+00:00"
-  },
-  {
-   "title": "مقایسه عملکرد زبان برنامه‌نویسی Roc با کتابخانه C در فشرده‌سازی داده‌ها",
-   "url": "https://rtfeldman.com/fp-vs-c",
-   "source": "rtfeldman.com",
-   "score": 0.05672,
-   "at": "2026-10-24T09:42:45.939109+00:00"
-  },
-  {
-   "title": "ممنوعیت ورود تجهیزات نظارتی هواوی به بازار آمریکا توسط FCC",
-   "url": "https://therecord.media/fcc-bans-devices-huawei-surveillance-chips",
-   "source": "The Record",
-   "score": 0.33244,
-   "at": "2026-10-24T14:04:24.683715+00:00"
-  },
-  {
-   "title": "چالش‌های جایگزینی هوش مصنوعی در فرآیند نقد و بررسی علمی",
-   "url": "https://www.insidehighered.com/opinion/columns/just-visiting/2025/03/28/generative-ai-not-our-peer",
-   "source": "insidehighered.com",
-   "score": 0.39822,
-   "at": "2026-10-24T17:31:22.353525+00:00"
-  },
-  {
-   "title": "اختلال در همگام‌سازی زمان سرورهای NTP و بروز خطا در سیستم",
-   "url": "https://www.ntppool.org/scores/2603:c020:8017:3e00::123",
-   "source": "ntppool.org",
-   "score": 0.5121,
-   "at": "2026-10-24T21:02:11.960279+00:00"
-  },
-  {
-   "title": "آزمایش عمومی برای بهره‌برداری از آسیب‌پذیری RCE در PHP",
-   "url": "https://stealmybitcoin.com/",
-   "source": "stealmybitcoin.com",
-   "score": 0.22314,
-   "at": "2026-10-24T23:31:03.663259+00:00"
-  },
-  {
-   "title": "سوءاستفاده از هویت در CashApp منجر به بازداشت اشتباهی شد",
-   "url": "https://www.404media.co/amanda-smith-opened-a-cashapp-in-her-name-she-faces-years-in-prison-cashapp-fraud/",
-   "source": "404media.co",
-   "score": 0.12436,
-   "at": "2026-10-25T09:59:31.164119+00:00"
-  },
-  {
-   "title": "خطرات پنهان گیمیفیکیشن و جمع‌آوری داده در توسعه هوش مصنوعی",
-   "url": "https://habr.com/ru/articles/1099128/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1099128",
-   "source": "Habr",
-   "score": 0.25935,
-   "at": "2026-10-25T14:29:14.306668+00:00"
-  },
-  {
-   "title": "قابلیت جدید 1Password برای احراز هویت امن توسط هوش مصنوعی",
-   "url": "https://www.techspot.com/downloads/5626-1password.html",
-   "source": "TechSpot",
-   "score": 0.4428,
-   "at": "2026-10-25T17:46:59.699617+00:00"
-  },
-  {
-   "title": "روش‌های شناسایی اپلیکیشن‌های مخرب در Google Play Store",
-   "url": "https://www.androidpolice.com/play-store-app-verification/",
-   "source": "Android Police",
-   "score": 0.21443,
-   "at": "2026-10-25T21:04:02.984559+00:00"
-  },
-  {
-   "title": "رقابت شدید OpenAI و Anthropic در کاهش قیمت مدل‌های زبانی",
-   "url": "https://minimaxir.com/2026/10/cheap-llms/",
-   "source": "minimaxir.com",
-   "score": 0.27884,
-   "at": "2026-10-25T23:25:26.244231+00:00"
-  },
-  {
-   "title": "رد شدن پیش‌نویس استاندارد C++26 در رای‌گیری بین‌المللی",
-   "url": "https://train-it.eu/blog/cpp26-contracts-the-ballot-result/",
-   "source": "train-it.eu",
-   "score": 0.07198,
-   "at": "2026-10-26T11:21:57.657801+00:00"
-  },
-  {
-   "title": "عرضه‌ی اولیه‌ی سهام Anthropic و جزئیات مالی این شرکت هوش مصنوعی",
-   "url": "https://www.wired.com/story/anthropic-ipo-filings-reveal-finances-risks-strategy/",
-   "source": "Wired",
-   "score": 1.99891,
-   "at": "2026-10-26T17:31:04.793415+00:00"
-  },
-  {
-   "title": "ادعای مدیرعامل شرکت Flock درباره سازمان‌دهی اعتراضات توسط ربات‌های خارجی",
-   "url": "https://www.404media.co/in-leaked-audio-flock-ceo-tells-cops-backlash-to-the-company-isnt-real/",
-   "source": "404media.co",
-   "score": 0.34084,
-   "at": "2026-10-26T22:49:08.825063+00:00"
-  },
-  {
-   "title": "استاندارد WHIP برای بهبود کیفیت اشتراک‌گذاری صفحه در کنفرانس‌های ویدیویی",
-   "url": "http://shittyscreenshare.com",
-   "source": "shittyscreenshare.com",
-   "score": 0.04054,
-   "at": "2026-10-27T10:46:10.229185+00:00"
-  },
-  {
-   "title": "اپل مک‌بوک پرو ۱۴ اینچی و آی‌مک را به تراشه M6 مجهز کرد",
-   "url": "https://www.tomshardware.com/laptops/macbooks/apple-adds-m6-to-14-inch-macbook-pro-and-imac-starts-at-usd1-999",
-   "source": "Tom's Hardware",
-   "score": 4.10236,
-   "at": "2026-10-27T16:47:13.710712+00:00"
-  },
-  {
-   "title": "گزارش خرابی نمایشگر تاشوی آیفون دوئو و واکنش اپل",
-   "url": "https://hardware.slashdot.org/story/26/10/27/1630226/apples-foldable-iphone-duo-draws-early-complaints-of-the-screen-cracking?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-   "source": "Slashdot",
-   "score": 0.79377,
-   "at": "2026-10-27T21:26:04.619881+00:00"
-  },
-  {
-   "title": "شناسایی آسیب‌پذیری‌های امنیتی در Tailscale SSH و تلاش برای رفع آن‌ها",
-   "url": "https://tailscale.com/ssh-investigation-update",
-   "source": "tailscale.com",
-   "score": 0.2028,
-   "at": "2026-10-28T00:38:43.312699+00:00"
-  },
-  {
-   "title": "عرضه‌ی مدل اقتصادی GPT-6.1 Terra توسط OpenAI",
-   "url": "https://www.theregister.com/systems/2026/10/28/sk-hynix-says-memory-shortages-to-persist-until-2030/5305887",
-   "source": "The Register",
-   "score": 0.52672,
-   "at": "2026-10-28T11:29:10.200650+00:00"
-  },
-  {
-   "title": "معرفی هدفون‌های بی‌سیم جدید سامسونگ با طراحی کلیپسی و قابلیت حذف نشت صدا",
-   "url": "https://www.engadget.com/2299270/samsungs-galaxy-buds-on-are-clip-on-open-ear-wireless-headphones/",
-   "source": "Engadget",
-   "score": 0.71493,
-   "at": "2026-10-28T17:17:34.545352+00:00"
-  },
-  {
-   "title": "نشت گسترده اطلاعات ۴۱ هزار کارمند وزارت امنیت داخلی آمریکا",
-   "url": "https://www.wired.com/story/massive-leak-exposes-41000-homeland-security-workers-including-undercover-ice-agents/",
-   "source": "Wired",
-   "score": 0.785,
-   "at": "2026-10-28T21:48:40.743400+00:00"
-  },
-  {
-   "title": "ابزار Claude Code به‌طور خودکار داده‌های حساس را به مدل‌های هوش مصنوعی می‌فرستد",
-   "url": "https://gist.github.com/flamerix-ai/c3905705cc4205e5de3011fa2e74efce",
-   "source": "gist.github.com",
-   "score": 0.05799,
-   "at": "2026-10-29T11:39:52.221013+00:00"
-  },
-  {
-   "title": "فشار مدیرعامل Proton برای استفاده حداکثری از هوش مصنوعی در توسعه نرم‌افزار",
-   "url": "https://www.404media.co/manifestos-fear-and-loser-thinking-inside-protons-ai-reckoning/",
-   "source": "404media.co",
-   "score": 0.80912,
-   "at": "2026-10-29T18:35:37.620205+00:00"
-  },
-  {
-   "title": "اتهام جاسوسی برای چین علیه مدیر اجرایی مرتبط با Nvidia",
-   "url": "https://www.tomshardware.com/tech-industry/policy/nvidia-ceo-jensen-huang-may-have-been-the-target-of-a-spy-plot-through-chinese-intelligence-asset-report-claims-exec-from-firm-under-investigation-for-smuggling-banned-ai-chips-to-china-accused-of-being-a-spy-was-also-feeding-information-to-beijing",
-   "source": "Tom's Hardware",
-   "score": 0.40168,
-   "at": "2026-10-29T23:28:37.869190+00:00"
-  },
-  {
-   "title": "آموزش روش‌های شخصی برای آرشیو کردن و حفظ وب‌سایت‌های محبوب",
-   "url": "http://blog.mistys-internet.website/post/2026/10/29/if-you-love-a-website-back-it-up/",
-   "source": "blog.mistys-internet.website",
-   "score": 0.04118,
-   "at": "2026-10-30T11:30:47.304319+00:00"
-  },
-  {
-   "title": "نفوذ بدافزار به افزونه رسمی Claude Code در مارکت‌پلیس Cursor",
-   "url": "https://thehackernews.com/2026/10/official-claude-code-vs-code-extension.html",
-   "source": "The Hacker News",
-   "score": 0.35399,
-   "at": "2026-10-30T18:07:48.045615+00:00"
-  },
   {
    "title": "تصویب مالیات جدید در فرانسه و تهدید بقای سازمان VideoLAN",
    "url": "https://twitter.com/videolan/status/2116229135919919278",
@@ -1518,6 +1331,13 @@
    "source": "github.com",
    "score": 0.16274,
    "at": "2026-11-06T13:06:53.275882+00:00"
+  },
+  {
+   "title": "حذف گسترده محتوای تولیدکنندگان در پی قوانین جدید بریتانیا",
+   "url": "https://www.404media.co/clips4sale-content-removed-uk-porn-law/",
+   "source": "404media.co",
+   "score": 0.16839,
+   "at": "2026-11-06T20:00:58.521477+00:00"
   }
  ],
  "stories": [
@@ -7018,105 +6838,37 @@
     "non-google"
    ],
    "at": "2026-11-06T13:06:53.275882+00:00"
+  },
+  {
+   "sig": [
+    "adult",
+    "banned",
+    "breath-restriction",
+    "choking",
+    "compliance",
+    "creators",
+    "even",
+    "fantasies",
+    "hundreds",
+    "immediately",
+    "involving",
+    "law",
+    "platforms",
+    "porn",
+    "range",
+    "relative",
+    "remove",
+    "roleplay",
+    "thought",
+    "videos",
+    "watched",
+    "were",
+    "wide"
+   ],
+   "at": "2026-11-06T20:00:58.521477+00:00"
   }
  ],
  "snapshots": {
-  "at://did:plc:2mrgzk6xlemfv6yugn644xxy/app.bsky.feed.post/3mynjzpbars2g": [
-   18,
-   "2026-10-24T23:30:35.364844+00:00"
-  ],
-  "hn:50224916": [
-   671,
-   "2026-10-24T23:30:35.364844+00:00"
-  ],
-  "hn:50224422": [
-   207,
-   "2026-10-24T23:30:35.364844+00:00"
-  ],
-  "lobsters:rlrfew": [
-   34,
-   "2026-10-24T23:30:35.364844+00:00"
-  ],
-  "lobsters:dfieqa": [
-   26,
-   "2026-10-24T23:30:35.364844+00:00"
-  ],
-  "lobsters:qzfohf": [
-   29,
-   "2026-10-24T23:30:35.364844+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mynnajwlvy2n": [
-   334,
-   "2026-10-24T23:30:35.364844+00:00"
-  ],
-  "hn:50227639": [
-   361,
-   "2026-10-25T09:59:25.920339+00:00"
-  ],
-  "hn:50227356": [
-   278,
-   "2026-10-25T09:59:25.920339+00:00"
-  ],
-  "hn:50226434": [
-   176,
-   "2026-10-25T09:59:25.920339+00:00"
-  ],
-  "hn:50226419": [
-   1092,
-   "2026-10-25T09:59:25.920339+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3myoepqanpe2h": [
-   253,
-   "2026-10-25T09:59:25.920339+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mynzsqt7yg2c": [
-   465,
-   "2026-10-25T09:59:25.920339+00:00"
-  ],
-  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3myo2iaxzbk2n": [
-   12,
-   "2026-10-25T09:59:25.920339+00:00"
-  ],
-  "hn:50228167": [
-   289,
-   "2026-10-25T14:28:48.631309+00:00"
-  ],
-  "hn:50227892": [
-   334,
-   "2026-10-25T14:28:48.631309+00:00"
-  ],
-  "hn:50230917": [
-   73,
-   "2026-10-25T14:28:48.631309+00:00"
-  ],
-  "hn:50229587": [
-   1060,
-   "2026-10-25T17:46:52.464086+00:00"
-  ],
-  "hn:50230384": [
-   315,
-   "2026-10-25T21:02:22.856155+00:00"
-  ],
-  "hn:50230181": [
-   287,
-   "2026-10-25T21:02:22.856155+00:00"
-  ],
-  "hn:50229861": [
-   476,
-   "2026-10-25T21:02:22.856155+00:00"
-  ],
-  "hn:50229827": [
-   242,
-   "2026-10-25T21:02:22.856155+00:00"
-  ],
-  "hn:50229599": [
-   317,
-   "2026-10-25T21:02:22.856155+00:00"
-  ],
-  "at://did:plc:ipt7y6qaf6fn7oeeduboqe44/app.bsky.feed.post/3myoydwmvle2o": [
-   21,
-   "2026-10-25T21:02:22.856155+00:00"
-  ],
   "hn:50235217": [
    91,
    "2026-10-25T21:02:22.856155+00:00"
@@ -9357,10 +9109,6 @@
    792,
    "2026-11-06T01:42:26.466197+00:00"
   ],
-  "hn:50390525": [
-   103,
-   "2026-11-06T13:06:50.030490+00:00"
-  ],
   "hn:50390124": [
    545,
    "2026-11-06T13:06:50.030490+00:00"
@@ -9405,14 +9153,6 @@
    186,
    "2026-11-06T13:06:50.030490+00:00"
   ],
-  "lobsters:jmdchp": [
-   32,
-   "2026-11-06T13:06:50.030490+00:00"
-  ],
-  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mzngbjtq4c2n": [
-   7,
-   "2026-11-06T13:06:50.030490+00:00"
-  ],
   "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mzmgq73aks24": [
    6,
    "2026-11-06T13:06:50.030490+00:00"
@@ -9420,6 +9160,114 @@
   "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mzmgo5mjcs24": [
    16,
    "2026-11-06T13:06:50.030490+00:00"
+  ],
+  "hn:50390525": [
+   237,
+   "2026-11-06T20:00:56.266189+00:00"
+  ],
+  "lobsters:jmdchp": [
+   98,
+   "2026-11-06T20:00:56.266189+00:00"
+  ],
+  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mzngbjtq4c2n": [
+   14,
+   "2026-11-06T20:00:56.266189+00:00"
+  ],
+  "hn:50396064": [
+   168,
+   "2026-11-06T20:00:56.266189+00:00"
+  ],
+  "hn:50395933": [
+   77,
+   "2026-11-06T20:00:56.266189+00:00"
+  ],
+  "hn:50395905": [
+   212,
+   "2026-11-06T20:00:56.266189+00:00"
+  ],
+  "hn:50395318": [
+   94,
+   "2026-11-06T20:00:56.266189+00:00"
+  ],
+  "hn:50394906": [
+   478,
+   "2026-11-06T20:00:56.266189+00:00"
+  ],
+  "hn:50394855": [
+   124,
+   "2026-11-06T20:00:56.266189+00:00"
+  ],
+  "hn:50394569": [
+   236,
+   "2026-11-06T20:00:56.266189+00:00"
+  ],
+  "hn:50393183": [
+   91,
+   "2026-11-06T20:00:56.266189+00:00"
+  ],
+  "hn:50393165": [
+   207,
+   "2026-11-06T20:00:56.266189+00:00"
+  ],
+  "hn:50393105": [
+   315,
+   "2026-11-06T20:00:56.266189+00:00"
+  ],
+  "hn:50392499": [
+   219,
+   "2026-11-06T20:00:56.266189+00:00"
+  ],
+  "hn:50391456": [
+   3123,
+   "2026-11-06T20:00:56.266189+00:00"
+  ],
+  "hn:50391145": [
+   282,
+   "2026-11-06T20:00:56.266189+00:00"
+  ],
+  "hn:50389990": [
+   140,
+   "2026-11-06T20:00:56.266189+00:00"
+  ],
+  "hn:50389570": [
+   169,
+   "2026-11-06T20:00:56.266189+00:00"
+  ],
+  "lobsters:hvxjbb": [
+   47,
+   "2026-11-06T20:00:56.266189+00:00"
+  ],
+  "lobsters:i96uyr": [
+   37,
+   "2026-11-06T20:00:56.266189+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mznwhwv7pc2v": [
+   126,
+   "2026-11-06T20:00:56.266189+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mznv6nxpok2v": [
+   414,
+   "2026-11-06T20:00:56.266189+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mznujgrcpc2v": [
+   221,
+   "2026-11-06T20:00:56.266189+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mznptn3xuc2v": [
+   101,
+   "2026-11-06T20:00:56.266189+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mznpffquhs2v": [
+   1375,
+   "2026-11-06T20:00:56.266189+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mznowzko6s2v": [
+   337,
+   "2026-11-06T20:00:56.266189+00:00"
+  ],
+  "at://did:plc:kft6lu4trxowqmter2b6vg6z/app.bsky.feed.post/3mznxnk6tfc2q": [
+   162,
+   "2026-11-06T20:00:56.266189+00:00"
   ]
  }
 }
