@@ -1194,18 +1194,22 @@
   "https://www.techspot.com/news/114471-almost-2027-faa-finally-replacing-floppy-disks-used.html",
   "hn:50403097",
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mzpy4essjq2x",
-  "hn:50405678"
+  "hn:50405678",
+  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mzqqgdm2x22p",
+  "7b16583dff8c4417e4c2522629e4fdee",
+  "https://techcrunch.com/?p=3186091",
+  "https://www.accessnow.org/?post_type=tribe_events&p=109076"
  ],
  "posted": {
   "viral": 224,
-  "editorial": 222
+  "editorial": 223
  },
  "recent_labels": [
-  "Hacker News",
   "404 Media",
   "The Record",
   "Hacker News",
-  "Hacker News"
+  "Hacker News",
+  "Access Now"
  ],
  "last_digest": "2026-11-06",
  "history": [
@@ -1369,6 +1373,13 @@
    "source": "kevinboone.me",
    "score": 0.13988,
    "at": "2026-11-07T17:48:50.936580+00:00"
+  },
+  {
+   "title": "معرفی ابزار آنلاین Digital Borders Exposed برای افشای نظارت دیجیتال در مرزهای اروپا",
+   "url": "https://www.accessnow.org/event/digital-borders-exposed/",
+   "source": "Access Now",
+   "score": 0.32164,
+   "at": "2026-11-07T22:12:13.894812+00:00"
   }
  ],
  "stories": [
@@ -6940,53 +6951,21 @@
     "turbo"
    ],
    "at": "2026-11-07T17:48:50.936580+00:00"
+  },
+  {
+   "sig": [
+    "borders",
+    "digital",
+    "exposed",
+    "launch",
+    "online",
+    "protect",
+    "surveil"
+   ],
+   "at": "2026-11-07T22:12:13.894812+00:00"
   }
  ],
  "snapshots": {
-  "hn:50238763": [
-   273,
-   "2026-10-26T11:21:53.146723+00:00"
-  ],
-  "hn:50238739": [
-   245,
-   "2026-10-26T11:21:53.146723+00:00"
-  ],
-  "hn:50238708": [
-   336,
-   "2026-10-26T11:21:53.146723+00:00"
-  ],
-  "hn:50238620": [
-   116,
-   "2026-10-26T11:21:53.146723+00:00"
-  ],
-  "hn:50238557": [
-   79,
-   "2026-10-26T11:21:53.146723+00:00"
-  ],
-  "hn:50238088": [
-   639,
-   "2026-10-26T11:21:53.146723+00:00"
-  ],
-  "hn:50237712": [
-   313,
-   "2026-10-26T11:21:53.146723+00:00"
-  ],
-  "hn:50237485": [
-   1333,
-   "2026-10-26T11:21:53.146723+00:00"
-  ],
-  "hn:50237224": [
-   207,
-   "2026-10-26T11:21:53.146723+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3myqxosyjij2l": [
-   297,
-   "2026-10-26T11:21:53.146723+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3myql4ogqth2n": [
-   535,
-   "2026-10-26T11:21:53.146723+00:00"
-  ],
   "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3myqqgszdv22z": [
    94,
    "2026-10-26T11:21:53.146723+00:00"
@@ -9315,10 +9294,6 @@
    169,
    "2026-11-07T17:48:47.887976+00:00"
   ],
-  "hn:50403507": [
-   290,
-   "2026-11-07T17:48:47.887976+00:00"
-  ],
   "hn:50403066": [
    280,
    "2026-11-07T17:48:47.887976+00:00"
@@ -9342,6 +9317,54 @@
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mzpy4essjq2x": [
    339,
    "2026-11-07T17:48:47.887976+00:00"
+  ],
+  "hn:50403507": [
+   485,
+   "2026-11-07T22:10:16.726672+00:00"
+  ],
+  "hn:50406670": [
+   293,
+   "2026-11-07T22:10:16.726672+00:00"
+  ],
+  "hn:50406563": [
+   554,
+   "2026-11-07T22:10:16.726672+00:00"
+  ],
+  "hn:50406319": [
+   127,
+   "2026-11-07T22:10:16.726672+00:00"
+  ],
+  "hn:50406292": [
+   214,
+   "2026-11-07T22:10:16.726672+00:00"
+  ],
+  "hn:50406222": [
+   198,
+   "2026-11-07T22:10:16.726672+00:00"
+  ],
+  "hn:50406111": [
+   566,
+   "2026-11-07T22:10:16.726672+00:00"
+  ],
+  "hn:50405782": [
+   83,
+   "2026-11-07T22:10:16.726672+00:00"
+  ],
+  "hn:50405250": [
+   192,
+   "2026-11-07T22:10:16.726672+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mzqplbweef2p": [
+   187,
+   "2026-11-07T22:10:16.726672+00:00"
+  ],
+  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mzqqgdm2x22p": [
+   112,
+   "2026-11-07T22:10:16.726672+00:00"
+  ],
+  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mzqd3taowk2p": [
+   50,
+   "2026-11-07T22:10:16.726672+00:00"
   ]
  }
 }
