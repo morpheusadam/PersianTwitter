@@ -1187,18 +1187,23 @@
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mznwhwv7pc2v",
   "https://therecord.media/eu-accuses-tiktok-of-rabbit-hole-DSA-violation",
   "https://www.engadget.com/2309300/the-eu-accuses-tiktoks-rabbit-hole-algorithm-of-breaching-its-content-rules/",
-  "https://tech.slashdot.org/story/26/11/06/2210231/eu-says-tiktoks-rabbit-hole-effect-must-stop?utm_source=rss1.0mainlinkanon&utm_medium=feed"
+  "https://tech.slashdot.org/story/26/11/06/2210231/eu-says-tiktoks-rabbit-hole-effect-must-stop?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+  "https://www.theregister.com/a/5308210",
+  "ALDx7jjJLGpvoGwKhCi9EC",
+  "https://hardware.slashdot.org/story/26/11/05/2239227/faa-phases-out-floppy-disks-from-air-traffic-control?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+  "https://www.techspot.com/news/114471-almost-2027-faa-finally-replacing-floppy-disks-used.html",
+  "hn:50403097"
  ],
  "posted": {
-  "viral": 222,
+  "viral": 223,
   "editorial": 222
  },
  "recent_labels": [
-  "404 Media",
   "The Hacker News",
   "Hacker News",
   "404 Media",
-  "The Record"
+  "The Record",
+  "Hacker News"
  ],
  "last_digest": "2026-11-06",
  "history": [
@@ -1348,6 +1353,13 @@
    "source": "The Record",
    "score": 0.71205,
    "at": "2026-11-07T00:12:27.067593+00:00"
+  },
+  {
+   "title": "شناسایی ابزارهای پنهان اپل برای تحلیل روابط و حریم خصوصی کاربران",
+   "url": "https://8rank.ai/game/apple-intelligence-personal-knowledge-graph",
+   "source": "8rank.ai",
+   "score": 0.20578,
+   "at": "2026-11-07T11:51:21.204982+00:00"
   }
  ],
  "stories": [
@@ -6896,37 +6908,21 @@
     "users"
    ],
    "at": "2026-11-07T00:12:27.067593+00:00"
+  },
+  {
+   "sig": [
+    "classifier",
+    "comes",
+    "every",
+    "family",
+    "mac",
+    "member",
+    "undocumented"
+   ],
+   "at": "2026-11-07T11:51:21.204982+00:00"
   }
  ],
  "snapshots": {
-  "hn:50233929": [
-   690,
-   "2026-10-25T23:25:20.138676+00:00"
-  ],
-  "hn:50233779": [
-   734,
-   "2026-10-25T23:25:20.138676+00:00"
-  ],
-  "hn:50233304": [
-   713,
-   "2026-10-25T23:25:20.138676+00:00"
-  ],
-  "hn:50231166": [
-   172,
-   "2026-10-25T23:25:20.138676+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mypvg37zje2a": [
-   262,
-   "2026-10-25T23:25:20.138676+00:00"
-  ],
-  "hn:50236102": [
-   216,
-   "2026-10-25T23:25:20.138676+00:00"
-  ],
-  "hn:50236081": [
-   281,
-   "2026-10-25T23:25:20.138676+00:00"
-  ],
   "hn:50235738": [
    109,
    "2026-10-25T23:25:20.138676+00:00"
@@ -9298,6 +9294,34 @@
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mzogsdavd22r": [
    104,
    "2026-11-07T00:11:29.456521+00:00"
+  ],
+  "hn:50403097": [
+   149,
+   "2026-11-07T11:51:15.933554+00:00"
+  ],
+  "hn:50402212": [
+   117,
+   "2026-11-07T11:51:15.933554+00:00"
+  ],
+  "hn:50401867": [
+   520,
+   "2026-11-07T11:51:15.933554+00:00"
+  ],
+  "hn:50401740": [
+   290,
+   "2026-11-07T11:51:15.933554+00:00"
+  ],
+  "hn:50401029": [
+   194,
+   "2026-11-07T11:51:15.933554+00:00"
+  ],
+  "hn:50400597": [
+   312,
+   "2026-11-07T11:51:15.933554+00:00"
+  ],
+  "lobsters:ipplhe": [
+   33,
+   "2026-11-07T11:51:15.933554+00:00"
   ]
  }
 }
