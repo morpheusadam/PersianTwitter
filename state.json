@@ -1198,18 +1198,19 @@
   "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mzqqgdm2x22p",
   "7b16583dff8c4417e4c2522629e4fdee",
   "https://techcrunch.com/?p=3186091",
-  "https://www.accessnow.org/?post_type=tribe_events&p=109076"
+  "https://www.accessnow.org/?post_type=tribe_events&p=109076",
+  "hn:50411467"
  ],
  "posted": {
-  "viral": 224,
+  "viral": 225,
   "editorial": 223
  },
  "recent_labels": [
-  "404 Media",
   "The Record",
   "Hacker News",
   "Hacker News",
-  "Access Now"
+  "Access Now",
+  "Hacker News"
  ],
  "last_digest": "2026-11-06",
  "history": [
@@ -1380,6 +1381,13 @@
    "source": "Access Now",
    "score": 0.32164,
    "at": "2026-11-07T22:12:13.894812+00:00"
+  },
+  {
+   "title": "نیاز به استانداردسازی حافظه برای ایجنت‌های هوش مصنوعی",
+   "url": "https://www.lorekit.io/blog/open-agent-memory-format",
+   "source": "lorekit.io",
+   "score": 0.08106,
+   "at": "2026-11-08T12:04:07.567684+00:00"
   }
  ],
  "stories": [
@@ -6963,45 +6971,19 @@
     "surveil"
    ],
    "at": "2026-11-07T22:12:13.894812+00:00"
+  },
+  {
+   "sig": [
+    "agent",
+    "memory",
+    "moment",
+    "needs",
+    "opentelemetry"
+   ],
+   "at": "2026-11-08T12:04:07.567684+00:00"
   }
  ],
  "snapshots": {
-  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3myqqgszdv22z": [
-   94,
-   "2026-10-26T11:21:53.146723+00:00"
-  ],
-  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3myqidh5bo22x": [
-   6,
-   "2026-10-26T11:21:53.146723+00:00"
-  ],
-  "hn:50240922": [
-   755,
-   "2026-10-26T17:31:00.436016+00:00"
-  ],
-  "lobsters:xzp4m0": [
-   59,
-   "2026-10-26T17:31:00.436016+00:00"
-  ],
-  "hn:50245524": [
-   1746,
-   "2026-10-26T22:48:56.863285+00:00"
-  ],
-  "hn:50245385": [
-   502,
-   "2026-10-26T22:48:56.863285+00:00"
-  ],
-  "hn:50245322": [
-   198,
-   "2026-10-26T22:48:56.863285+00:00"
-  ],
-  "hn:50245138": [
-   653,
-   "2026-10-26T22:48:56.863285+00:00"
-  ],
-  "hn:50243762": [
-   338,
-   "2026-10-26T22:48:56.863285+00:00"
-  ],
   "hn:50242870": [
    271,
    "2026-10-26T22:48:56.863285+00:00"
@@ -9365,6 +9347,42 @@
   "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mzqd3taowk2p": [
    50,
    "2026-11-07T22:10:16.726672+00:00"
+  ],
+  "hn:50411467": [
+   183,
+   "2026-11-08T12:04:05.045090+00:00"
+  ],
+  "hn:50410359": [
+   77,
+   "2026-11-08T12:04:05.045090+00:00"
+  ],
+  "hn:50410249": [
+   83,
+   "2026-11-08T12:04:05.045090+00:00"
+  ],
+  "hn:50409856": [
+   135,
+   "2026-11-08T12:04:05.045090+00:00"
+  ],
+  "hn:50409855": [
+   205,
+   "2026-11-08T12:04:05.045090+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mzrolo3ud22n": [
+   360,
+   "2026-11-08T12:04:05.045090+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mzrdowcqdv2n": [
+   227,
+   "2026-11-08T12:04:05.045090+00:00"
+  ],
+  "at://did:plc:kft6lu4trxowqmter2b6vg6z/app.bsky.feed.post/3mzrfku36422q": [
+   38,
+   "2026-11-08T12:04:05.045090+00:00"
+  ],
+  "at://did:plc:ipt7y6qaf6fn7oeeduboqe44/app.bsky.feed.post/3mzs5litqwc2b": [
+   15,
+   "2026-11-08T12:04:05.045090+00:00"
   ]
  }
 }
