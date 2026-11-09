@@ -1202,18 +1202,22 @@
   "hn:50411467",
   "https://techcrunch.com/?p=3186034",
   "hn:50413822",
-  "lobsters:jbdtim"
+  "lobsters:jbdtim",
+  "hn:50424704",
+  "9JU8WwWBHEcyWBGsA6seab",
+  "JRkgY9yWwJb5Zc3yPZ36iA",
+  "https://www.neowin.net/news/this-script-sends-daily-emails-to-sam-altman-about-underused-ram-on-your-personal-pc/"
  ],
  "posted": {
   "viral": 226,
-  "editorial": 224
+  "editorial": 225
  },
  "recent_labels": [
-  "Hacker News",
   "Access Now",
   "Hacker News",
   "TechCrunch AI",
-  "Lobsters"
+  "Lobsters",
+  "Tom's Hardware"
  ],
  "last_digest": "2026-11-06",
  "history": [
@@ -1405,50 +1409,16 @@
    "source": "Lobsters",
    "score": 0.09124,
    "at": "2026-11-08T22:19:54.831981+00:00"
+  },
+  {
+   "title": "ابزار شوخی برای گزارش وضعیت حافظه رم به Sam Altman",
+   "url": "https://www.tomshardware.com/pc-components/ram/spoof-program-monitors-and-emails-your-ram-usage-to-sam-altman-if-under-90-percent-utilization-ram-altman-logs-usage-and-reports-you-for-wasting-memory",
+   "source": "Tom's Hardware",
+   "score": 0.66662,
+   "at": "2026-11-09T14:10:17.669402+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "115gb",
-    "announces",
-    "apple",
-    "around",
-    "aug",
-    "colored",
-    "download",
-    "everything",
-    "features",
-    "featuring",
-    "fun",
-    "generate",
-    "generated",
-    "generation",
-    "here",
-    "leaps",
-    "log",
-    "lot",
-    "mac",
-    "mini",
-    "minimax-h3",
-    "minutes",
-    "model",
-    "mossy",
-    "notes",
-    "pro",
-    "prompt",
-    "rainbow",
-    "ran",
-    "simonwillison.net",
-    "skunk",
-    "soc",
-    "supermarket",
-    "took",
-    "updated",
-    "video"
-   ],
-   "at": "2026-08-25T14:25:03+00:00"
-  },
   {
    "sig": [
     "12-core",
@@ -7025,73 +6995,33 @@
     "wants"
    ],
    "at": "2026-11-08T22:19:54.831981+00:00"
+  },
+  {
+   "sig": [
+    "altman",
+    "app",
+    "daily",
+    "emails",
+    "missed",
+    "monitors",
+    "personal",
+    "program",
+    "ram",
+    "report",
+    "sam",
+    "script",
+    "sends",
+    "spoof",
+    "tongue-in-cheek",
+    "under",
+    "underused",
+    "usage",
+    "utilization"
+   ],
+   "at": "2026-11-09T14:10:17.669402+00:00"
   }
  ],
  "snapshots": {
-  "hn:50248055": [
-   472,
-   "2026-10-26T22:48:56.863285+00:00"
-  ],
-  "hn:50248005": [
-   505,
-   "2026-10-26T22:48:56.863285+00:00"
-  ],
-  "hn:50247928": [
-   175,
-   "2026-10-26T22:48:56.863285+00:00"
-  ],
-  "hn:50247630": [
-   349,
-   "2026-10-26T22:48:56.863285+00:00"
-  ],
-  "hn:50247453": [
-   123,
-   "2026-10-26T22:48:56.863285+00:00"
-  ],
-  "hn:50246658": [
-   422,
-   "2026-10-26T22:48:56.863285+00:00"
-  ],
-  "hn:50246238": [
-   116,
-   "2026-10-26T22:48:56.863285+00:00"
-  ],
-  "hn:50245945": [
-   102,
-   "2026-10-26T22:48:56.863285+00:00"
-  ],
-  "lobsters:6ntoqr": [
-   33,
-   "2026-10-26T22:48:56.863285+00:00"
-  ],
-  "lobsters:c0yniy": [
-   32,
-   "2026-10-26T22:48:56.863285+00:00"
-  ],
-  "lobsters:ysyqnt": [
-   31,
-   "2026-10-26T22:48:56.863285+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3myskt366z22k": [
-   447,
-   "2026-10-26T22:48:56.863285+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mysg7aosuk2a": [
-   740,
-   "2026-10-26T22:48:56.863285+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mysdcaw54d2i": [
-   311,
-   "2026-10-26T22:48:56.863285+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mysca4dxes2a": [
-   957,
-   "2026-10-26T22:48:56.863285+00:00"
-  ],
-  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mysifpvex22y": [
-   98,
-   "2026-10-26T22:48:56.863285+00:00"
-  ],
   "hn:50253529": [
    138,
    "2026-10-27T10:45:52.793768+00:00"
@@ -9427,6 +9357,70 @@
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mztavtk6rs2i": [
    474,
    "2026-11-08T22:19:53.038365+00:00"
+  ],
+  "hn:50424704": [
+   358,
+   "2026-11-09T14:10:12.581559+00:00"
+  ],
+  "hn:50423569": [
+   76,
+   "2026-11-09T14:10:12.581559+00:00"
+  ],
+  "hn:50422628": [
+   125,
+   "2026-11-09T14:10:12.581559+00:00"
+  ],
+  "hn:50422168": [
+   187,
+   "2026-11-09T14:10:12.581559+00:00"
+  ],
+  "hn:50422069": [
+   748,
+   "2026-11-09T14:10:12.581559+00:00"
+  ],
+  "hn:50421426": [
+   295,
+   "2026-11-09T14:10:12.581559+00:00"
+  ],
+  "hn:50421155": [
+   108,
+   "2026-11-09T14:10:12.581559+00:00"
+  ],
+  "hn:50420532": [
+   105,
+   "2026-11-09T14:10:12.581559+00:00"
+  ],
+  "lobsters:ezjewj": [
+   76,
+   "2026-11-09T14:10:12.581559+00:00"
+  ],
+  "lobsters:kbrpx3": [
+   64,
+   "2026-11-09T14:10:12.581559+00:00"
+  ],
+  "lobsters:tt42jc": [
+   41,
+   "2026-11-09T14:10:12.581559+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mzu67pgvkc2m": [
+   101,
+   "2026-11-09T14:10:12.581559+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mztvtj24ve2i": [
+   566,
+   "2026-11-09T14:10:12.581559+00:00"
+  ],
+  "at://did:plc:kft6lu4trxowqmter2b6vg6z/app.bsky.feed.post/3mzu42ujywk24": [
+   290,
+   "2026-11-09T14:10:12.581559+00:00"
+  ],
+  "at://did:plc:ipt7y6qaf6fn7oeeduboqe44/app.bsky.feed.post/3mzukga6eo22b": [
+   25,
+   "2026-11-09T14:10:12.581559+00:00"
+  ],
+  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mzty6bfso22s": [
+   8,
+   "2026-11-09T14:10:12.581559+00:00"
   ]
  }
 }
