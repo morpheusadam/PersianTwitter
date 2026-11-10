@@ -1216,18 +1216,27 @@
   "https://yro.slashdot.org/story/26/11/09/2253208/trump-backs-nvidia-ceo-jensen-huang-amid-chinese-spy-affair-investigation?utm_source=rss1.0mainlinkanon&utm_medium=feed",
   "https://hardware.slashdot.org/story/26/11/08/2125219/nvidia-ceo-admits-affair-with-alleged-chinese-spy-investigation-opened?utm_source=rss1.0mainlinkanon&utm_medium=feed",
   "https://www.techspot.com/news/114483-us-officials-chinese-businesswoman-close-nvidia-jensen-huang.html",
-  "https://www.neowin.net/news/trump-ignored-china-spy-warnings-on-nvidias-jensen-huang-still-feels-hes-honorable/"
+  "https://www.neowin.net/news/trump-ignored-china-spy-warnings-on-nvidias-jensen-huang-still-feels-hes-honorable/",
+  "https://thehackernews.com/2026/11/anthropics-claude-fable-52-beats-gpt-6.html",
+  "https://habr.com/ru/companies/selectel/articles/1106104/",
+  "https://3dnews.ru/1151094/#6af2e7e003c0e20180018074",
+  "https://3dnews.ru/1151069/#6af22bce339ac5352903d77f",
+  "098f7faf57056902e84c0c889ae962ac",
+  "https://www.theverge.com/?p=1030005",
+  "https://slashdot.org/story/26/11/09/2018231/anthropic-launches-new-claude-fable-and-mythos-52-models?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+  "https://www.neowin.net/news/anthropics-claude-fable-52-beats-gpt-6-astra-in-coding-can-even-build-an-operating-system/",
+  "https://9to5mac.com/?p=1078081"
  ],
  "posted": {
   "viral": 226,
-  "editorial": 226
+  "editorial": 227
  },
  "recent_labels": [
-  "Hacker News",
   "TechCrunch AI",
   "Lobsters",
   "Tom's Hardware",
-  "The Register"
+  "The Register",
+  "The Hacker News"
  ],
  "last_digest": "2026-11-06",
  "history": [
@@ -1433,21 +1442,16 @@
    "source": "The Register",
    "score": 1.443,
    "at": "2026-11-09T23:30:09.208209+00:00"
+  },
+  {
+   "title": "عرضه‌ی مدل‌های جدید Claude با توانایی پیشرفته در حملات سایبری",
+   "url": "https://thehackernews.com/2026/11/anthropics-claude-fable-52-beats-gpt-6.html",
+   "source": "The Hacker News",
+   "score": 1.15841,
+   "at": "2026-11-10T13:40:10.286212+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "markdown",
-    "memory",
-    "screen",
-    "screenshots",
-    "show",
-    "text",
-    "without"
-   ],
-   "at": "2026-08-25T04:33:24+00:00"
-  },
   {
    "sig": [
     "datacenter",
@@ -7031,45 +7035,39 @@
     "warnings"
    ],
    "at": "2026-11-09T23:30:09.208209+00:00"
+  },
+  {
+   "sig": [
+    "5.2",
+    "anthropic",
+    "astra",
+    "beats",
+    "benchmark",
+    "build",
+    "call",
+    "claude",
+    "coding",
+    "cyber",
+    "cyberattack",
+    "details",
+    "duty",
+    "even",
+    "fable",
+    "gpt-6",
+    "here",
+    "launches",
+    "model",
+    "models",
+    "multi-stage",
+    "mythos",
+    "operating",
+    "system",
+    "upgrades"
+   ],
+   "at": "2026-11-10T13:40:10.286212+00:00"
   }
  ],
  "snapshots": {
-  "hn:50260526": [
-   257,
-   "2026-10-28T00:38:31.988379+00:00"
-  ],
-  "lobsters:q7arzy": [
-   64,
-   "2026-10-28T00:38:31.988379+00:00"
-  ],
-  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3myuxh47zdk2z": [
-   872,
-   "2026-10-28T00:38:31.988379+00:00"
-  ],
-  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3myuvcd54ds2n": [
-   35,
-   "2026-10-28T00:38:31.988379+00:00"
-  ],
-  "hn:50265609": [
-   280,
-   "2026-10-28T00:38:31.988379+00:00"
-  ],
-  "hn:50265594": [
-   149,
-   "2026-10-28T00:38:31.988379+00:00"
-  ],
-  "hn:50261583": [
-   76,
-   "2026-10-28T00:38:31.988379+00:00"
-  ],
-  "lobsters:qd0hc9": [
-   32,
-   "2026-10-28T00:38:31.988379+00:00"
-  ],
-  "lobsters:d09iy3": [
-   38,
-   "2026-10-28T00:38:31.988379+00:00"
-  ],
   "lobsters:tp0zlk": [
    26,
    "2026-10-28T00:38:31.988379+00:00"
@@ -9433,6 +9431,42 @@
   "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mzvzdsqvn22c": [
    25,
    "2026-11-09T23:30:04.786559+00:00"
+  ],
+  "hn:50438480": [
+   121,
+   "2026-11-10T13:40:07.896959+00:00"
+  ],
+  "hn:50438318": [
+   392,
+   "2026-11-10T13:40:07.896959+00:00"
+  ],
+  "hn:50437790": [
+   192,
+   "2026-11-10T13:40:07.896959+00:00"
+  ],
+  "hn:50437752": [
+   222,
+   "2026-11-10T13:40:07.896959+00:00"
+  ],
+  "hn:50437242": [
+   146,
+   "2026-11-10T13:40:07.896959+00:00"
+  ],
+  "hn:50437106": [
+   136,
+   "2026-11-10T13:40:07.896959+00:00"
+  ],
+  "hn:50436640": [
+   722,
+   "2026-11-10T13:40:07.896959+00:00"
+  ],
+  "hn:50435898": [
+   156,
+   "2026-11-10T13:40:07.896959+00:00"
+  ],
+  "hn:50435660": [
+   487,
+   "2026-11-10T13:40:07.896959+00:00"
   ]
  }
 }
