@@ -1230,18 +1230,19 @@
   "82fbe1138200672726cb0ab9c0c34ca2",
   "https://www.theverge.com/?p=1031028",
   "https://tech.slashdot.org/story/26/11/10/208239/starlink-mini-2-adds-a-swappable-battery-wi-fi-6?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-  "https://www.androidpolice.com/starlink-mini-2-debuts-with-new-design-built-in-battery/"
+  "https://www.androidpolice.com/starlink-mini-2-debuts-with-new-design-built-in-battery/",
+  "hn:50449748"
  ],
  "posted": {
-  "viral": 227,
+  "viral": 228,
   "editorial": 228
  },
  "recent_labels": [
-  "Tom's Hardware",
   "The Register",
   "The Hacker News",
   "404 Media",
-  "iXBT"
+  "iXBT",
+  "Hacker News"
  ],
  "last_digest": "2026-11-06",
  "history": [
@@ -1468,18 +1469,16 @@
    "source": "iXBT",
    "score": 0.4926,
    "at": "2026-11-11T01:21:15.329081+00:00"
+  },
+  {
+   "title": "امنیت کلیدهای SSH با استفاده از Secure Enclave در macOS",
+   "url": "https://gatezh.com/posts/macos-secure-enclave-ssh-keys/",
+   "source": "gatezh.com",
+   "score": 0.08374,
+   "at": "2026-11-11T12:52:46.749633+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "founders",
-    "prepare",
-    "should",
-    "universities"
-   ],
-   "at": "2026-08-25T01:40:39+00:00"
-  },
   {
    "sig": [
     "computer",
@@ -7099,41 +7098,20 @@
     "wi-fi"
    ],
    "at": "2026-11-11T01:21:15.329081+00:00"
+  },
+  {
+   "sig": [
+    "enclave",
+    "keys",
+    "macos",
+    "protecting",
+    "secure",
+    "ssh"
+   ],
+   "at": "2026-11-11T12:52:46.749633+00:00"
   }
  ],
  "snapshots": {
-  "lobsters:exwlmn": [
-   30,
-   "2026-10-28T21:48:29.371347+00:00"
-  ],
-  "lobsters:46sc07": [
-   27,
-   "2026-10-28T21:48:29.371347+00:00"
-  ],
-  "at://did:plc:ipt7y6qaf6fn7oeeduboqe44/app.bsky.feed.post/3myxc5zvdrm2o": [
-   42,
-   "2026-10-28T21:48:29.371347+00:00"
-  ],
-  "hn:50284329": [
-   172,
-   "2026-10-29T11:39:40.971627+00:00"
-  ],
-  "hn:50284255": [
-   726,
-   "2026-10-29T11:39:40.971627+00:00"
-  ],
-  "hn:50284089": [
-   181,
-   "2026-10-29T11:39:40.971627+00:00"
-  ],
-  "hn:50282865": [
-   187,
-   "2026-10-29T11:39:40.971627+00:00"
-  ],
-  "hn:50282838": [
-   727,
-   "2026-10-29T11:39:40.971627+00:00"
-  ],
   "hn:50282766": [
    253,
    "2026-10-29T11:39:40.971627+00:00"
@@ -9501,6 +9479,38 @@
   "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mzymgrmku22t": [
    7,
    "2026-11-11T01:21:11.541829+00:00"
+  ],
+  "hn:50451102": [
+   227,
+   "2026-11-11T12:52:33.696992+00:00"
+  ],
+  "hn:50450007": [
+   179,
+   "2026-11-11T12:52:33.696992+00:00"
+  ],
+  "hn:50449748": [
+   447,
+   "2026-11-11T12:52:33.696992+00:00"
+  ],
+  "hn:50449440": [
+   110,
+   "2026-11-11T12:52:33.696992+00:00"
+  ],
+  "hn:50449275": [
+   306,
+   "2026-11-11T12:52:33.696992+00:00"
+  ],
+  "hn:50448921": [
+   289,
+   "2026-11-11T12:52:33.696992+00:00"
+  ],
+  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mzzenln62c2r": [
+   167,
+   "2026-11-11T12:52:33.696992+00:00"
+  ],
+  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mzzdejdzwc2v": [
+   9,
+   "2026-11-11T12:52:33.696992+00:00"
   ]
  }
 }
