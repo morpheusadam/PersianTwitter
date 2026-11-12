@@ -1233,18 +1233,24 @@
   "https://www.androidpolice.com/starlink-mini-2-debuts-with-new-design-built-in-battery/",
   "hn:50449748",
   "hn:50456631",
-  "lobsters:lnau2d"
+  "lobsters:lnau2d",
+  "6af4d48e0a3c2e6762592f11",
+  "https://www.theverge.com/?p=1028991",
+  "6af4936eb9a1088954de9430",
+  "WHKRbh7vJd35FL9g4Tmase",
+  "https://thehackernews.com/2026/11/4837-hijacked-github-accounts-ran-ci.html",
+  "https://www.securityweek.com/?p=50736"
  ],
  "posted": {
   "viral": 230,
-  "editorial": 228
+  "editorial": 229
  },
  "recent_labels": [
-  "404 Media",
   "iXBT",
   "Hacker News",
   "Hacker News",
-  "Lobsters"
+  "Lobsters",
+  "The Hacker News"
  ],
  "last_digest": "2026-11-06",
  "history": [
@@ -1492,17 +1498,16 @@
    "source": "lyra.horse",
    "score": 0.14613,
    "at": "2026-11-12T01:57:52.802277+00:00"
+  },
+  {
+   "title": "حمله گسترده به مخازن GitHub با استفاده از حساب‌های کاربری سرقتی",
+   "url": "https://thehackernews.com/2026/11/4837-hijacked-github-accounts-ran-ci.html",
+   "source": "The Hacker News",
+   "score": 0.53618,
+   "at": "2026-11-12T13:54:53.038484+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "coding",
-    "expertise",
-    "prevent"
-   ],
-   "at": "2026-08-24T16:20:42.855000+00:00"
-  },
   {
    "sig": [
     "31.1",
@@ -7122,29 +7127,26 @@
     "millionaire"
    ],
    "at": "2026-11-12T01:57:52.802277+00:00"
+  },
+  {
+   "sig": [
+    "accounts",
+    "attacker",
+    "campaign",
+    "credential",
+    "github",
+    "hijacked",
+    "repositories",
+    "run",
+    "secret",
+    "stealer",
+    "targets",
+    "theft"
+   ],
+   "at": "2026-11-12T13:54:53.038484+00:00"
   }
  ],
  "snapshots": {
-  "hn:50291421": [
-   91,
-   "2026-10-29T23:28:35.852938+00:00"
-  ],
-  "lobsters:siebde": [
-   29,
-   "2026-10-29T23:28:35.852938+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3myzzn7ncdc2c": [
-   436,
-   "2026-10-29T23:28:35.852938+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3myzy25ui5i2c": [
-   667,
-   "2026-10-29T23:28:35.852938+00:00"
-  ],
-  "hn:50299182": [
-   126,
-   "2026-10-30T11:30:41.176226+00:00"
-  ],
   "hn:50298964": [
    297,
    "2026-10-30T11:30:41.176226+00:00"
@@ -9524,6 +9526,26 @@
   "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3n23drmufbs2q": [
    9,
    "2026-11-12T01:57:47.903731+00:00"
+  ],
+  "hn:50465352": [
+   262,
+   "2026-11-12T13:54:50.351024+00:00"
+  ],
+  "hn:50463899": [
+   693,
+   "2026-11-12T13:54:50.351024+00:00"
+  ],
+  "hn:50463540": [
+   137,
+   "2026-11-12T13:54:50.351024+00:00"
+  ],
+  "hn:50462613": [
+   231,
+   "2026-11-12T13:54:50.351024+00:00"
+  ],
+  "hn:50462177": [
+   543,
+   "2026-11-12T13:54:50.351024+00:00"
   ]
  }
 }
