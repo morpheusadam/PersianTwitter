@@ -1245,18 +1245,24 @@
   "hn:50471668",
   "https://www.bleepingcomputer.com/news/microsoft/massive-microsoft-365-outage-disrupts-outlook-teams-copilot-worldwide/",
   "https://www.neowin.net/news/microsoft-exchange-and-outlook-go-down-right-after-teams-outage/",
-  "https://www.securityweek.com/?p=50746"
+  "https://www.securityweek.com/?p=50746",
+  "https://www.theregister.com/a/5309435",
+  "https://www.bleepingcomputer.com/news/microsoft/microsoft-says-november-security-updates-cause-printing-issues/",
+  "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-windows-activation-failures-after-november-updates/",
+  "https://www.bleepingcomputer.com/news/microsoft/microsoft-recent-windows-updates-cause-sql-server-performance-issues/",
+  "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-kb5132061-installation-issues-0x80070306-0x800f0989-0x800f0993-errors/",
+  "1436651"
  ],
  "posted": {
   "viral": 230,
-  "editorial": 230
+  "editorial": 231
  },
  "recent_labels": [
   "Hacker News",
-  "Hacker News",
   "Lobsters",
   "The Hacker News",
-  "9to5Mac"
+  "9to5Mac",
+  "The Register"
  ],
  "last_digest": "2026-11-06",
  "history": [
@@ -1518,34 +1524,16 @@
    "source": "9to5Mac",
    "score": 1.76379,
    "at": "2026-11-12T21:31:45.789132+00:00"
+  },
+  {
+   "title": "مشکلات امنیتی و اختلال در به‌روزرسانی‌های ویندوز و شیرپوینت",
+   "url": "https://www.theregister.com/os-platforms/2026/11/12/microsoft-has-an-image-problem-with-novembers-windows-security-update/5309435",
+   "source": "The Register",
+   "score": 0.51064,
+   "at": "2026-11-13T13:19:03.754752+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "almost",
-    "anthony",
-    "city",
-    "council",
-    "darth",
-    "diego",
-    "flock",
-    "meetings",
-    "ralphs",
-    "san",
-    "showed",
-    "speaking",
-    "started",
-    "straight",
-    "vader",
-    "video",
-    "wants",
-    "watching",
-    "world",
-    "year"
-   ],
-   "at": "2026-08-25T14:15:10.345000+00:00"
-  },
   {
    "sig": [
     "bridgettodd.bsky.social",
@@ -7164,61 +7152,36 @@
     "worldwide"
    ],
    "at": "2026-11-12T21:31:45.789132+00:00"
+  },
+  {
+   "sig": [
+    "activation",
+    "cause",
+    "confirms",
+    "fails",
+    "failures",
+    "here",
+    "image",
+    "install",
+    "installation",
+    "issues",
+    "microsoft",
+    "november",
+    "performance",
+    "printing",
+    "problem",
+    "recent",
+    "security",
+    "server",
+    "sql",
+    "update",
+    "updates",
+    "windows"
+   ],
+   "at": "2026-11-13T13:19:03.754752+00:00"
   }
  ],
  "snapshots": {
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mz3tmutcbc2f": [
-   654,
-   "2026-10-30T22:33:18.191425+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mz3slkc7az2o": [
-   116,
-   "2026-10-30T22:33:18.191425+00:00"
-  ],
-  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mz3uq7ky72pd": [
-   99,
-   "2026-10-30T22:33:18.191425+00:00"
-  ],
-  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mz4bt4ntps2s": [
-   39,
-   "2026-10-30T22:33:18.191425+00:00"
-  ],
-  "hn:50309647": [
-   199,
-   "2026-10-30T22:33:18.191425+00:00"
-  ],
-  "hn:50308631": [
-   242,
-   "2026-10-30T22:33:18.191425+00:00"
-  ],
-  "hn:50308240": [
-   240,
-   "2026-10-30T22:33:18.191425+00:00"
-  ],
-  "hn:50307723": [
-   238,
-   "2026-10-30T22:33:18.191425+00:00"
-  ],
-  "hn:50307219": [
-   642,
-   "2026-10-30T22:33:18.191425+00:00"
-  ],
-  "hn:50307190": [
-   287,
-   "2026-10-30T22:33:18.191425+00:00"
-  ],
-  "hn:50305797": [
-   214,
-   "2026-10-30T22:33:18.191425+00:00"
-  ],
-  "hn:50305637": [
-   242,
-   "2026-10-30T22:33:18.191425+00:00"
-  ],
-  "hn:50305320": [
-   149,
-   "2026-10-30T22:33:18.191425+00:00"
-  ],
   "hn:50304122": [
    193,
    "2026-10-30T22:33:18.191425+00:00"
@@ -9566,6 +9529,58 @@
   "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3n24miuqjqkle": [
    428,
    "2026-11-12T21:31:35.237592+00:00"
+  ],
+  "hn:50482379": [
+   202,
+   "2026-11-13T13:19:01.720434+00:00"
+  ],
+  "hn:50482045": [
+   207,
+   "2026-11-13T13:19:01.720434+00:00"
+  ],
+  "hn:50481187": [
+   778,
+   "2026-11-13T13:19:01.720434+00:00"
+  ],
+  "hn:50480480": [
+   176,
+   "2026-11-13T13:19:01.720434+00:00"
+  ],
+  "hn:50479876": [
+   262,
+   "2026-11-13T13:19:01.720434+00:00"
+  ],
+  "hn:50479045": [
+   202,
+   "2026-11-13T13:19:01.720434+00:00"
+  ],
+  "hn:50478635": [
+   281,
+   "2026-11-13T13:19:01.720434+00:00"
+  ],
+  "hn:50477649": [
+   345,
+   "2026-11-13T13:19:01.720434+00:00"
+  ],
+  "hn:50477331": [
+   260,
+   "2026-11-13T13:19:01.720434+00:00"
+  ],
+  "hn:50477231": [
+   1727,
+   "2026-11-13T13:19:01.720434+00:00"
+  ],
+  "hn:50477155": [
+   126,
+   "2026-11-13T13:19:01.720434+00:00"
+  ],
+  "lobsters:lh9pwf": [
+   37,
+   "2026-11-13T13:19:01.720434+00:00"
+  ],
+  "at://did:plc:ipt7y6qaf6fn7oeeduboqe44/app.bsky.feed.post/3n26qr4fnyk2v": [
+   15,
+   "2026-11-13T13:19:01.720434+00:00"
   ]
  }
 }
