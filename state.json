@@ -1263,18 +1263,21 @@
   "https://news.slashdot.org/story/26/11/14/0128254/faa-orders-nationwide-ground-stop-for-all-aircraft?utm_source=rss1.0mainlinkanon&utm_medium=feed",
   "https://www.securityweek.com/?p=50788",
   "hn:50491423",
-  "hn:50493251"
+  "hn:50493251",
+  "fWBXoEgzQBj8Q3QouiNAwF",
+  "https://3dnews.ru/1151292/#6af788e561da9beb3708fa13",
+  "0a32412bbebb31a3628d32ec1321167f"
  ],
  "posted": {
   "viral": 233,
-  "editorial": 231
+  "editorial": 232
  },
  "recent_labels": [
-  "9to5Mac",
   "The Register",
   "Hacker News",
   "Hacker News",
-  "Hacker News"
+  "Hacker News",
+  "Tom's Hardware"
  ],
  "last_digest": "2026-11-13",
  "history": [
@@ -1424,31 +1427,16 @@
    "source": "techpowerup.com",
    "score": 0.03071,
    "at": "2026-11-14T12:23:17.766674+00:00"
+  },
+  {
+   "title": "عرضه‌ی پردازنده‌ی ناشناخته Intel Core Ultra 7 260K در سیستم‌های آماده",
+   "url": "https://www.tomshardware.com/pc-components/cpus/unannounced-intel-core-ultra-7-260k-cpu-surfaces-in-newegg-prebuilt-gaming-pcs-intel-doesnt-have-official-specs-list-available-for-exclusive-arrow-lake-chip",
+   "source": "Tom's Hardware",
+   "score": 0.29203,
+   "at": "2026-11-14T18:22:58.028830+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "base",
-    "darth-vader",
-    "emperor",
-    "find",
-    "help",
-    "hidden",
-    "hoth",
-    "luke",
-    "needs",
-    "rebel",
-    "scum",
-    "skywalker",
-    "technology",
-    "traverses",
-    "universe",
-    "www.404media.co",
-    "x-wing"
-   ],
-   "at": "2026-08-23T17:55:00.663000+00:00"
-  },
   {
    "sig": [
     "although",
@@ -7034,57 +7022,28 @@
     "startups"
    ],
    "at": "2026-11-14T12:23:17.766674+00:00"
+  },
+  {
+   "sig": [
+    "260k",
+    "265k",
+    "biostar",
+    "biptl-iht",
+    "core",
+    "cpu",
+    "gaming",
+    "intel",
+    "newegg",
+    "pcs",
+    "prebuilt",
+    "surfaces",
+    "ultra",
+    "unannounced"
+   ],
+   "at": "2026-11-14T18:22:58.028830+00:00"
   }
  ],
  "snapshots": {
-  "hn:50326118": [
-   672,
-   "2026-11-01T22:15:01.675611+00:00"
-  ],
-  "hn:50326099": [
-   569,
-   "2026-11-01T22:15:01.675611+00:00"
-  ],
-  "hn:50325662": [
-   260,
-   "2026-11-01T22:15:01.675611+00:00"
-  ],
-  "hn:50325454": [
-   200,
-   "2026-11-01T22:15:01.675611+00:00"
-  ],
-  "hn:50324533": [
-   71,
-   "2026-11-01T22:15:01.675611+00:00"
-  ],
-  "hn:50324267": [
-   202,
-   "2026-11-01T22:15:01.675611+00:00"
-  ],
-  "hn:50330005": [
-   150,
-   "2026-11-01T22:15:01.675611+00:00"
-  ],
-  "hn:50328488": [
-   279,
-   "2026-11-01T22:15:01.675611+00:00"
-  ],
-  "hn:50328487": [
-   416,
-   "2026-11-01T22:15:01.675611+00:00"
-  ],
-  "hn:50328251": [
-   496,
-   "2026-11-01T22:15:01.675611+00:00"
-  ],
-  "hn:50327650": [
-   718,
-   "2026-11-01T22:15:01.675611+00:00"
-  ],
-  "hn:50326609": [
-   235,
-   "2026-11-01T22:15:01.675611+00:00"
-  ],
   "hn:50325253": [
    171,
    "2026-11-01T22:15:01.675611+00:00"
@@ -9436,6 +9395,54 @@
   "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3n2aq6ys3s22r": [
    13,
    "2026-11-14T12:23:14.905521+00:00"
+  ],
+  "hn:50498063": [
+   212,
+   "2026-11-14T18:22:56.276695+00:00"
+  ],
+  "hn:50497900": [
+   144,
+   "2026-11-14T18:22:56.276695+00:00"
+  ],
+  "hn:50497892": [
+   189,
+   "2026-11-14T18:22:56.276695+00:00"
+  ],
+  "hn:50497155": [
+   177,
+   "2026-11-14T18:22:56.276695+00:00"
+  ],
+  "hn:50497147": [
+   87,
+   "2026-11-14T18:22:56.276695+00:00"
+  ],
+  "hn:50497132": [
+   120,
+   "2026-11-14T18:22:56.276695+00:00"
+  ],
+  "hn:50497009": [
+   347,
+   "2026-11-14T18:22:56.276695+00:00"
+  ],
+  "hn:50496811": [
+   129,
+   "2026-11-14T18:22:56.276695+00:00"
+  ],
+  "hn:50496602": [
+   477,
+   "2026-11-14T18:22:56.276695+00:00"
+  ],
+  "hn:50494696": [
+   162,
+   "2026-11-14T18:22:56.276695+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n2bleyuhad2h": [
+   158,
+   "2026-11-14T18:22:56.276695+00:00"
+  ],
+  "at://did:plc:ipt7y6qaf6fn7oeeduboqe44/app.bsky.feed.post/3n2b5onqbvc2v": [
+   19,
+   "2026-11-14T18:22:56.276695+00:00"
   ]
  }
 }
