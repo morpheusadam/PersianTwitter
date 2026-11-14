@@ -1262,16 +1262,17 @@
   "https://www.theverge.com/?p=1033489",
   "https://news.slashdot.org/story/26/11/14/0128254/faa-orders-nationwide-ground-stop-for-all-aircraft?utm_source=rss1.0mainlinkanon&utm_medium=feed",
   "https://www.securityweek.com/?p=50788",
-  "hn:50491423"
+  "hn:50491423",
+  "hn:50493251"
  ],
  "posted": {
-  "viral": 232,
+  "viral": 233,
   "editorial": 231
  },
  "recent_labels": [
-  "The Hacker News",
   "9to5Mac",
   "The Register",
+  "Hacker News",
   "Hacker News",
   "Hacker News"
  ],
@@ -1416,39 +1417,16 @@
    "source": "joshka.net",
    "score": 0.185,
    "at": "2026-11-14T01:33:33.798836+00:00"
+  },
+  {
+   "title": "اتهام دست‌کاری بازار توسط NVIDIA برای ایجاد کمبود مصنوعی پردازنده‌های گرافیکی",
+   "url": "https://www.techpowerup.com/354814/nvidia-allegedly-engineered-scarcity-by-funding-ai-startups-to-buy-its-gpus",
+   "source": "techpowerup.com",
+   "score": 0.03071,
+   "at": "2026-11-14T12:23:17.766674+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "3-point",
-    "agrees",
-    "ensure",
-    "filing",
-    "font",
-    "hidden",
-    "hypothetical",
-    "injections",
-    "instructions",
-    "llm",
-    "output",
-    "person-hides",
-    "presented",
-    "prompt",
-    "remediation",
-    "side",
-    "textual",
-    "these",
-    "throughout",
-    "tiny",
-    "told",
-    "were",
-    "white",
-    "written",
-    "www.404media.co"
-   ],
-   "at": "2026-08-23T20:56:00.677000+00:00"
-  },
   {
    "sig": [
     "base",
@@ -7043,45 +7021,22 @@
     "terminal"
    ],
    "at": "2026-11-14T01:33:33.798836+00:00"
+  },
+  {
+   "sig": [
+    "allegedly",
+    "buy",
+    "engineered",
+    "funding",
+    "gpus",
+    "nvidia",
+    "scarcity",
+    "startups"
+   ],
+   "at": "2026-11-14T12:23:17.766674+00:00"
   }
  ],
  "snapshots": {
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mz7nw67hjd2h": [
-   282,
-   "2026-11-01T11:56:47.795696+00:00"
-  ],
-  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mz7tozvdiclm": [
-   163,
-   "2026-11-01T11:56:47.795696+00:00"
-  ],
-  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mz7kanlblklm": [
-   308,
-   "2026-11-01T11:56:47.795696+00:00"
-  ],
-  "hn:50323088": [
-   493,
-   "2026-11-01T18:01:15.147523+00:00"
-  ],
-  "hn:50326821": [
-   381,
-   "2026-11-01T18:01:15.147523+00:00"
-  ],
-  "hn:50324118": [
-   326,
-   "2026-11-01T18:01:15.147523+00:00"
-  ],
-  "hn:50324388": [
-   1434,
-   "2026-11-01T22:15:01.675611+00:00"
-  ],
-  "hn:50327266": [
-   239,
-   "2026-11-01T22:15:01.675611+00:00"
-  ],
-  "hn:50327058": [
-   171,
-   "2026-11-01T22:15:01.675611+00:00"
-  ],
   "hn:50326118": [
    672,
    "2026-11-01T22:15:01.675611+00:00"
@@ -9445,6 +9400,42 @@
   "lobsters:kb3fs1": [
    28,
    "2026-11-14T01:33:13.355316+00:00"
+  ],
+  "hn:50493904": [
+   320,
+   "2026-11-14T12:23:14.905521+00:00"
+  ],
+  "hn:50493251": [
+   1470,
+   "2026-11-14T12:23:14.905521+00:00"
+  ],
+  "hn:50492993": [
+   299,
+   "2026-11-14T12:23:14.905521+00:00"
+  ],
+  "hn:50492950": [
+   141,
+   "2026-11-14T12:23:14.905521+00:00"
+  ],
+  "hn:50492860": [
+   213,
+   "2026-11-14T12:23:14.905521+00:00"
+  ],
+  "hn:50492601": [
+   212,
+   "2026-11-14T12:23:14.905521+00:00"
+  ],
+  "hn:50492456": [
+   599,
+   "2026-11-14T12:23:14.905521+00:00"
+  ],
+  "hn:50492141": [
+   260,
+   "2026-11-14T12:23:14.905521+00:00"
+  ],
+  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3n2aq6ys3s22r": [
+   13,
+   "2026-11-14T12:23:14.905521+00:00"
   ]
  }
 }
