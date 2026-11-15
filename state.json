@@ -1270,18 +1270,20 @@
   "https://blog.google/products-and-platforms/products/search/gemini-4-hydrogen-search-upgrade/",
   "https://techcrunch.com/?p=3188050",
   "https://www.engadget.com/2312834/how-to-get-better-results-google-gemini/",
-  "https://www.techspot.com/news/114540-google-new-smart-glasses-take-meta-gemini-ai.html"
+  "https://www.techspot.com/news/114540-google-new-smart-glasses-take-meta-gemini-ai.html",
+  "lobsters:w9j7xs",
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n2dbu5c4ph2i"
  ],
  "posted": {
-  "viral": 233,
+  "viral": 234,
   "editorial": 233
  },
  "recent_labels": [
   "Hacker News",
   "Hacker News",
-  "Hacker News",
   "Tom's Hardware",
-  "Google AI"
+  "Google AI",
+  "404 Media"
  ],
  "last_digest": "2026-11-13",
  "history": [
@@ -1445,32 +1447,16 @@
    "source": "Google AI",
    "score": 0.80522,
    "at": "2026-11-14T22:39:01.846724+00:00"
+  },
+  {
+   "title": "قانون جدید بریتانیا برای جرم‌انگاری محتوای پورنوگرافی خاص",
+   "url": "https://www.404media.co/uk-crime-and-policing-act-pornography/",
+   "source": "404media.co",
+   "score": 0.10283,
+   "at": "2026-11-15T12:53:39.125162+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "abuse",
-    "again",
-    "body",
-    "camera",
-    "chick",
-    "common",
-    "database",
-    "don",
-    "footage",
-    "hot",
-    "i-saw-a-shin",
-    "look",
-    "police",
-    "see",
-    "shows",
-    "surveillance",
-    "told",
-    "www.404media.co"
-   ],
-   "at": "2026-08-22T22:54:01.123000+00:00"
-  },
   {
    "sig": [
     "anthropics-t",
@@ -7059,53 +7045,34 @@
     "upgrade"
    ],
    "at": "2026-11-14T22:39:01.846724+00:00"
+  },
+  {
+   "sig": [
+    "being",
+    "care",
+    "conservatism",
+    "defend",
+    "doesn",
+    "even",
+    "explore",
+    "force-fed",
+    "fuck",
+    "fucked",
+    "media",
+    "people",
+    "porn",
+    "right",
+    "rollout",
+    "sex",
+    "somebody",
+    "through",
+    "uk-crime-and",
+    "www.404media.co"
+   ],
+   "at": "2026-11-15T12:53:39.125162+00:00"
   }
  ],
  "snapshots": {
-  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mzcf43bo3ceu": [
-   135,
-   "2026-11-02T13:43:17.665012+00:00"
-  ],
-  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mzc7ptyraseu": [
-   1348,
-   "2026-11-02T13:43:17.665012+00:00"
-  ],
-  "hn:50335615": [
-   1123,
-   "2026-11-02T22:50:30.726925+00:00"
-  ],
-  "hn:50335602": [
-   110,
-   "2026-11-02T22:50:30.726925+00:00"
-  ],
-  "hn:50344181": [
-   392,
-   "2026-11-02T22:50:30.726925+00:00"
-  ],
-  "hn:50343515": [
-   90,
-   "2026-11-02T22:50:30.726925+00:00"
-  ],
-  "hn:50342424": [
-   154,
-   "2026-11-02T22:50:30.726925+00:00"
-  ],
-  "hn:50342284": [
-   283,
-   "2026-11-02T22:50:30.726925+00:00"
-  ],
-  "hn:50341736": [
-   216,
-   "2026-11-02T22:50:30.726925+00:00"
-  ],
-  "hn:50341616": [
-   114,
-   "2026-11-02T22:50:30.726925+00:00"
-  ],
-  "hn:50341502": [
-   162,
-   "2026-11-02T22:50:30.726925+00:00"
-  ],
   "hn:50341462": [
    283,
    "2026-11-02T22:50:30.726925+00:00"
@@ -9461,6 +9428,50 @@
   "at://did:plc:ipt7y6qaf6fn7oeeduboqe44/app.bsky.feed.post/3n2c4xa25ws2h": [
    28,
    "2026-11-14T22:38:59.384360+00:00"
+  ],
+  "hn:50505271": [
+   154,
+   "2026-11-15T12:53:32.786209+00:00"
+  ],
+  "hn:50504277": [
+   69,
+   "2026-11-15T12:53:32.786209+00:00"
+  ],
+  "hn:50504077": [
+   124,
+   "2026-11-15T12:53:32.786209+00:00"
+  ],
+  "hn:50504072": [
+   140,
+   "2026-11-15T12:53:32.786209+00:00"
+  ],
+  "hn:50503588": [
+   143,
+   "2026-11-15T12:53:32.786209+00:00"
+  ],
+  "hn:50503255": [
+   403,
+   "2026-11-15T12:53:32.786209+00:00"
+  ],
+  "hn:50502988": [
+   427,
+   "2026-11-15T12:53:32.786209+00:00"
+  ],
+  "lobsters:w9j7xs": [
+   35,
+   "2026-11-15T12:53:32.786209+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n2dbu5c4ph2i": [
+   589,
+   "2026-11-15T12:53:32.786209+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n2ctm55haw2r": [
+   178,
+   "2026-11-15T12:53:32.786209+00:00"
+  ],
+  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3n2czuaxhtc2c": [
+   15,
+   "2026-11-15T12:53:32.786209+00:00"
   ]
  }
 }
