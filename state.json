@@ -1278,18 +1278,23 @@
   "3dc9bf4e85e7810e93a0e231bb7ff822",
   "hn:50510442",
   "https://www.theverge.com/?p=1034006",
-  "hn:50510799"
+  "hn:50510799",
+  "https://www.engadget.com/2317303/apple-new-research-app-designed-to-make-ai-health-tools-user-friendly/",
+  "https://techcrunch.com/?p=3188803",
+  "https://www.theverge.com/?p=1033355",
+  "tXpUh2gAjJBqKQtJaBz5F7",
+  "https://www.neowin.net/news/apples-new-app-aims-to-study-how-people-use-ai-for-health/"
  ],
  "posted": {
   "viral": 235,
-  "editorial": 234
+  "editorial": 235
  },
  "recent_labels": [
-  "Tom's Hardware",
   "Google AI",
   "404 Media",
   "The Record",
-  "Hacker News"
+  "Hacker News",
+  "Engadget"
  ],
  "last_digest": "2026-11-13",
  "history": [
@@ -1474,24 +1479,16 @@
    "source": "geoffstearns.com",
    "score": 0.17525,
    "at": "2026-11-15T23:26:59.272895+00:00"
+  },
+  {
+   "title": "برنامه تحقیقاتی جدید اپل برای ارزیابی ابزارهای هوش مصنوعی در حوزه سلامت",
+   "url": "https://www.engadget.com/2317303/apple-new-research-app-designed-to-make-ai-health-tools-user-friendly/",
+   "source": "Engadget",
+   "score": 0.57603,
+   "at": "2026-11-16T13:53:22.731321+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "android",
-    "botnet",
-    "built-in",
-    "car",
-    "fraud",
-    "malware",
-    "proxy",
-    "spreads",
-    "through",
-    "updaters"
-   ],
-   "at": "2026-08-21T15:41:44+00:00"
-  },
   {
    "sig": [
     "1.28",
@@ -7075,45 +7072,28 @@
     "pick"
    ],
    "at": "2026-11-15T23:26:59.272895+00:00"
+  },
+  {
+   "sig": [
+    "aims",
+    "app",
+    "apple",
+    "designed",
+    "effectiveness",
+    "health",
+    "improve",
+    "launches",
+    "looks",
+    "people",
+    "research",
+    "study",
+    "tools",
+    "user-friendly"
+   ],
+   "at": "2026-11-16T13:53:22.731321+00:00"
   }
  ],
  "snapshots": {
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mzdt7me33w2r": [
-   254,
-   "2026-11-02T22:50:30.726925+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mzdmwy3etk2f": [
-   616,
-   "2026-11-02T22:50:30.726925+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mzdmipagom2c": [
-   134,
-   "2026-11-02T22:50:30.726925+00:00"
-  ],
-  "at://did:plc:kft6lu4trxowqmter2b6vg6z/app.bsky.feed.post/3mze2gvcx4s2u": [
-   59,
-   "2026-11-02T22:50:30.726925+00:00"
-  ],
-  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mzdzi2sjoceu": [
-   68,
-   "2026-11-02T22:50:30.726925+00:00"
-  ],
-  "at://did:plc:x2nsupeeo52oznrmplwapppl/app.bsky.feed.post/3mzdgpm5fcl2t": [
-   54,
-   "2026-11-02T22:50:30.726925+00:00"
-  ],
-  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mzdm5ibtv223": [
-   8,
-   "2026-11-02T22:50:30.726925+00:00"
-  ],
-  "hn:50349276": [
-   131,
-   "2026-11-03T12:55:40.606163+00:00"
-  ],
-  "hn:50349155": [
-   174,
-   "2026-11-03T12:55:40.606163+00:00"
-  ],
   "hn:50348962": [
    228,
    "2026-11-03T12:55:40.606163+00:00"
@@ -9477,6 +9457,42 @@
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n2erlca5dk23": [
    416,
    "2026-11-15T23:26:49.348611+00:00"
+  ],
+  "hn:50516473": [
+   107,
+   "2026-11-16T13:53:20.977512+00:00"
+  ],
+  "hn:50516245": [
+   207,
+   "2026-11-16T13:53:20.977512+00:00"
+  ],
+  "hn:50515058": [
+   142,
+   "2026-11-16T13:53:20.977512+00:00"
+  ],
+  "hn:50514180": [
+   265,
+   "2026-11-16T13:53:20.977512+00:00"
+  ],
+  "hn:50513451": [
+   188,
+   "2026-11-16T13:53:20.977512+00:00"
+  ],
+  "hn:50513160": [
+   737,
+   "2026-11-16T13:53:20.977512+00:00"
+  ],
+  "lobsters:rhoopo": [
+   41,
+   "2026-11-16T13:53:20.977512+00:00"
+  ],
+  "lobsters:thiekk": [
+   39,
+   "2026-11-16T13:53:20.977512+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n2fibqddot2i": [
+   512,
+   "2026-11-16T13:53:20.977512+00:00"
   ]
  }
 }
