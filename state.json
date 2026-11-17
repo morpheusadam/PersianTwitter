@@ -1287,7 +1287,14 @@
   "https://www.theregister.com/a/5310026",
   "hn:50517321",
   "https://tech.slashdot.org/story/26/11/16/1628256/microsoft-blames-monster-email-outage-on-software-defect-introduced-in-july-fix?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-  "TheNextWeb=9d473ee8973082340801490ab389076a"
+  "TheNextWeb=9d473ee8973082340801490ab389076a",
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n2j7yvfats2r",
+  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3n2jaicvghc2r",
+  "8f62f21cecbe5ff436999a2a141f03aa",
+  "https://3dnews.ru/1151391/#6afbed877c42c68a03021ca3",
+  "69b3f7c8e0bbe044053951973517bea8",
+  "adbGE7DTwJDDSMDLzirFTA",
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n2jaxpn5sq2h"
  ],
  "posted": {
   "viral": 235,
@@ -7097,38 +7104,6 @@
   }
  ],
  "snapshots": {
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mzfwazn4k22o": [
-   763,
-   "2026-11-04T00:45:34.155525+00:00"
-  ],
-  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mzgiw37gmk2h": [
-   356,
-   "2026-11-04T00:45:34.155525+00:00"
-  ],
-  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mzge7jeumctj": [
-   59,
-   "2026-11-04T00:45:34.155525+00:00"
-  ],
-  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mzg4is4x7k2s": [
-   231,
-   "2026-11-04T00:45:34.155525+00:00"
-  ],
-  "hn:50358582": [
-   245,
-   "2026-11-04T00:45:34.155525+00:00"
-  ],
-  "hn:50358562": [
-   557,
-   "2026-11-04T00:45:34.155525+00:00"
-  ],
-  "hn:50358422": [
-   308,
-   "2026-11-04T00:45:34.155525+00:00"
-  ],
-  "hn:50358414": [
-   179,
-   "2026-11-04T00:45:34.155525+00:00"
-  ],
   "hn:50356994": [
    319,
    "2026-11-04T00:45:34.155525+00:00"
@@ -9496,6 +9471,38 @@
   "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3n2h7auiss22d": [
    12,
    "2026-11-16T23:28:04.369836+00:00"
+  ],
+  "hn:50530450": [
+   241,
+   "2026-11-17T14:45:26.771133+00:00"
+  ],
+  "hn:50530163": [
+   766,
+   "2026-11-17T14:45:26.771133+00:00"
+  ],
+  "hn:50529612": [
+   300,
+   "2026-11-17T14:45:26.771133+00:00"
+  ],
+  "lobsters:z4rhlt": [
+   54,
+   "2026-11-17T14:45:26.771133+00:00"
+  ],
+  "lobsters:kseyz1": [
+   33,
+   "2026-11-17T14:45:26.771133+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n2jaxpn5sq2h": [
+   95,
+   "2026-11-17T14:45:26.771133+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n2j7yvfats2r": [
+   153,
+   "2026-11-17T14:45:26.771133+00:00"
+  ],
+  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3n2jaicvghc2r": [
+   66,
+   "2026-11-17T14:45:26.771133+00:00"
   ]
  }
 }
