@@ -1304,18 +1304,27 @@
   "https://www.neowin.net/news/jensen-huang-says-he-is-willing-to-return-as-nvidia-ceo/",
   "https://9to5mac.com/?p=1080847",
   "TheNextWeb=b9380f7fa61771219738dbd7c1b4647b",
-  "lobsters:spmgsd"
+  "lobsters:spmgsd",
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n2lxcv2k7d2e",
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n2mgw7w3lc2f",
+  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3n2m6joljbck2",
+  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3n2mcxfyrw22s",
+  "anSPFNBatKYhYUxPWWMPAf",
+  "https://3dnews.ru/1151489/#6afdddb9e91a3ef4aa0305df",
+  "16e2e1562c3220904f6fc1d9eb6c6db0",
+  "https://www.phoronix.com/news/NVIDIA-620.73.04-Linux",
+  "https://www.neowin.net/news/after-amd-nvidia-users-confirm-windows-driver-bug-quietly-degrades-your-ssd-over-time/"
  ],
  "posted": {
   "viral": 236,
-  "editorial": 237
+  "editorial": 238
  },
  "recent_labels": [
-  "Hacker News",
   "Engadget",
   "The Register",
   "Tom's Hardware",
-  "Lobsters"
+  "Lobsters",
+  "Tom's Hardware"
  ],
  "last_digest": "2026-11-13",
  "history": [
@@ -1528,40 +1537,16 @@
    "source": "social.anoxinon.de",
    "score": 0.11483,
    "at": "2026-11-18T14:25:11.328683+00:00"
+  },
+  {
+   "title": "باگ درایورهای جدید Nvidia و استهلاک شدید حافظه‌های SSD",
+   "url": "https://www.tomshardware.com/pc-components/gpu-drivers/nvidia-geforce-driver-bug-reportedly-hammers-ssds-with-up-to-30gb-of-writes-per-hour-users-trace-massive-idle-wear-to-background-service-newer-driver-reportedly-still-affected",
+   "source": "Tom's Hardware",
+   "score": 0.65227,
+   "at": "2026-11-18T22:12:34.011318+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "agreed",
-    "cameras",
-    "catch",
-    "charged",
-    "consider",
-    "cop",
-    "council",
-    "department",
-    "ending",
-    "fake",
-    "felonies",
-    "flock",
-    "florida",
-    "had",
-    "happened",
-    "happening",
-    "idea",
-    "incident",
-    "majority",
-    "man",
-    "mayor",
-    "police",
-    "printed",
-    "she",
-    "three",
-    "would-be-vandals"
-   ],
-   "at": "2026-08-25T20:47:17.414113+00:00"
-  },
   {
    "sig": [
     "1.9x",
@@ -7145,129 +7130,37 @@
     "unreachable"
    ],
    "at": "2026-11-18T14:25:11.328683+00:00"
+  },
+  {
+   "sig": [
+    "30gb",
+    "620.73.04",
+    "amd",
+    "bug",
+    "confirm",
+    "degrades",
+    "driver",
+    "fixes",
+    "geforce",
+    "hammers",
+    "hour",
+    "linux",
+    "nvidia",
+    "per",
+    "quietly",
+    "released",
+    "reportedly",
+    "ssd",
+    "ssds",
+    "time",
+    "users",
+    "windows",
+    "writes"
+   ],
+   "at": "2026-11-18T22:12:34.011318+00:00"
   }
  ],
  "snapshots": {
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mzixisawgt2c": [
-   4227,
-   "2026-11-05T01:00:24.427164+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mzigpsy5hs2r": [
-   1823,
-   "2026-11-05T01:00:24.427164+00:00"
-  ],
-  "hn:50372929": [
-   132,
-   "2026-11-05T01:00:24.427164+00:00"
-  ],
-  "hn:50371246": [
-   952,
-   "2026-11-05T01:00:24.427164+00:00"
-  ],
-  "hn:50370654": [
-   176,
-   "2026-11-05T01:00:24.427164+00:00"
-  ],
-  "hn:50370610": [
-   340,
-   "2026-11-05T01:00:24.427164+00:00"
-  ],
-  "hn:50369895": [
-   123,
-   "2026-11-05T01:00:24.427164+00:00"
-  ],
-  "hn:50368804": [
-   121,
-   "2026-11-05T01:00:24.427164+00:00"
-  ],
-  "hn:50367653": [
-   320,
-   "2026-11-05T01:00:24.427164+00:00"
-  ],
-  "hn:50366971": [
-   206,
-   "2026-11-05T01:00:24.427164+00:00"
-  ],
-  "lobsters:h7bvma": [
-   32,
-   "2026-11-05T01:00:24.427164+00:00"
-  ],
-  "lobsters:ecrqpy": [
-   30,
-   "2026-11-05T01:00:24.427164+00:00"
-  ],
-  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mzjgxrc5xkhy": [
-   192,
-   "2026-11-05T01:00:24.427164+00:00"
-  ],
-  "hn:50377221": [
-   171,
-   "2026-11-05T13:24:19.609678+00:00"
-  ],
-  "hn:50375728": [
-   90,
-   "2026-11-05T13:24:19.609678+00:00"
-  ],
-  "hn:50375691": [
-   82,
-   "2026-11-05T13:24:19.609678+00:00"
-  ],
-  "hn:50377821": [
-   483,
-   "2026-11-05T20:45:19.537186+00:00"
-  ],
-  "hn:50377078": [
-   325,
-   "2026-11-05T20:45:19.537186+00:00"
-  ],
-  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mzkvjfwarc2u": [
-   913,
-   "2026-11-05T20:45:19.537186+00:00"
-  ],
-  "hn:50378942": [
-   584,
-   "2026-11-05T20:45:19.537186+00:00"
-  ],
-  "hn:50378625": [
-   843,
-   "2026-11-05T20:45:19.537186+00:00"
-  ],
-  "hn:50378571": [
-   409,
-   "2026-11-05T20:45:19.537186+00:00"
-  ],
-  "hn:50378508": [
-   183,
-   "2026-11-05T20:45:19.537186+00:00"
-  ],
-  "lobsters:y4poxs": [
-   37,
-   "2026-11-05T20:45:19.537186+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mzlfglujbc2k": [
-   143,
-   "2026-11-05T20:45:19.537186+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mzlewrj3y22v": [
-   1278,
-   "2026-11-05T20:45:19.537186+00:00"
-  ],
-  "hn:50382179": [
-   516,
-   "2026-11-06T01:42:26.466197+00:00"
-  ],
-  "hn:50381849": [
-   251,
-   "2026-11-06T01:42:26.466197+00:00"
-  ],
-  "hn:50381623": [
-   502,
-   "2026-11-06T01:42:26.466197+00:00"
-  ],
-  "hn:50381178": [
-   76,
-   "2026-11-06T01:42:26.466197+00:00"
-  ],
   "hn:50381033": [
    296,
    "2026-11-06T01:42:26.466197+00:00"
@@ -9508,10 +9401,6 @@
    75,
    "2026-11-17T23:02:32.688001+00:00"
   ],
-  "hn:50545958": [
-   142,
-   "2026-11-18T14:24:53.350192+00:00"
-  ],
   "hn:50543989": [
    233,
    "2026-11-18T14:24:53.350192+00:00"
@@ -9547,6 +9436,130 @@
   "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3n2kqyy44qsk2": [
    110,
    "2026-11-18T14:24:53.350192+00:00"
+  ],
+  "hn:50545958": [
+   886,
+   "2026-11-18T22:12:26.782017+00:00"
+  ],
+  "hn:50551046": [
+   116,
+   "2026-11-18T22:12:26.782017+00:00"
+  ],
+  "hn:50550096": [
+   96,
+   "2026-11-18T22:12:26.782017+00:00"
+  ],
+  "hn:50549493": [
+   234,
+   "2026-11-18T22:12:26.782017+00:00"
+  ],
+  "hn:50548660": [
+   113,
+   "2026-11-18T22:12:26.782017+00:00"
+  ],
+  "hn:50548485": [
+   274,
+   "2026-11-18T22:12:26.782017+00:00"
+  ],
+  "hn:50548161": [
+   168,
+   "2026-11-18T22:12:26.782017+00:00"
+  ],
+  "hn:50548021": [
+   871,
+   "2026-11-18T22:12:26.782017+00:00"
+  ],
+  "hn:50548004": [
+   377,
+   "2026-11-18T22:12:26.782017+00:00"
+  ],
+  "hn:50547980": [
+   178,
+   "2026-11-18T22:12:26.782017+00:00"
+  ],
+  "hn:50547777": [
+   504,
+   "2026-11-18T22:12:26.782017+00:00"
+  ],
+  "hn:50547583": [
+   306,
+   "2026-11-18T22:12:26.782017+00:00"
+  ],
+  "hn:50547423": [
+   118,
+   "2026-11-18T22:12:26.782017+00:00"
+  ],
+  "hn:50547374": [
+   1719,
+   "2026-11-18T22:12:26.782017+00:00"
+  ],
+  "hn:50547344": [
+   615,
+   "2026-11-18T22:12:26.782017+00:00"
+  ],
+  "hn:50547236": [
+   93,
+   "2026-11-18T22:12:26.782017+00:00"
+  ],
+  "hn:50546922": [
+   144,
+   "2026-11-18T22:12:26.782017+00:00"
+  ],
+  "hn:50546914": [
+   520,
+   "2026-11-18T22:12:26.782017+00:00"
+  ],
+  "hn:50546465": [
+   577,
+   "2026-11-18T22:12:26.782017+00:00"
+  ],
+  "hn:50546312": [
+   217,
+   "2026-11-18T22:12:26.782017+00:00"
+  ],
+  "hn:50545232": [
+   281,
+   "2026-11-18T22:12:26.782017+00:00"
+  ],
+  "hn:50544821": [
+   227,
+   "2026-11-18T22:12:26.782017+00:00"
+  ],
+  "hn:50544541": [
+   102,
+   "2026-11-18T22:12:26.782017+00:00"
+  ],
+  "lobsters:a1uff5": [
+   38,
+   "2026-11-18T22:12:26.782017+00:00"
+  ],
+  "lobsters:cwxmdw": [
+   68,
+   "2026-11-18T22:12:26.782017+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n2mgw7w3lc2f": [
+   207,
+   "2026-11-18T22:12:26.782017+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n2lxcv2k7d2e": [
+   175,
+   "2026-11-18T22:12:26.782017+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n2ls5lq2lc25": [
+   106,
+   "2026-11-18T22:12:26.782017+00:00"
+  ],
+  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3n2m6joljbck2": [
+   67,
+   "2026-11-18T22:12:26.782017+00:00"
+  ],
+  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3n2mcxfyrw22s": [
+   30,
+   "2026-11-18T22:12:26.782017+00:00"
+  ],
+  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3n2lv56lfbr2f": [
+   75,
+   "2026-11-18T22:12:26.782017+00:00"
   ]
  }
 }
