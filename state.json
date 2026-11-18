@@ -1303,18 +1303,19 @@
   "https://tech.slashdot.org/story/26/11/17/1748231/jensen-huang-says-hed-be-honored-to-return-as-nvidia-ceo?utm_source=rss1.0mainlinkanon&utm_medium=feed",
   "https://www.neowin.net/news/jensen-huang-says-he-is-willing-to-return-as-nvidia-ceo/",
   "https://9to5mac.com/?p=1080847",
-  "TheNextWeb=b9380f7fa61771219738dbd7c1b4647b"
+  "TheNextWeb=b9380f7fa61771219738dbd7c1b4647b",
+  "lobsters:spmgsd"
  ],
  "posted": {
-  "viral": 235,
+  "viral": 236,
   "editorial": 237
  },
  "recent_labels": [
-  "The Record",
   "Hacker News",
   "Engadget",
   "The Register",
-  "Tom's Hardware"
+  "Tom's Hardware",
+  "Lobsters"
  ],
  "last_digest": "2026-11-13",
  "history": [
@@ -1520,20 +1521,16 @@
    "source": "Tom's Hardware",
    "score": 1.97403,
    "at": "2026-11-17T23:02:34.429532+00:00"
+  },
+  {
+   "title": "اختلال در دسترسی به دامین Codeberg",
+   "url": "https://social.anoxinon.de/@Codeberg/117636454915265360",
+   "source": "social.anoxinon.de",
+   "score": 0.11483,
+   "at": "2026-11-18T14:25:11.328683+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "cyberdeck",
-    "making",
-    "official",
-    "raspberry",
-    "shares",
-    "tutorial"
-   ],
-   "at": "2026-08-24T20:00:00+00:00"
-  },
   {
    "sig": [
     "agreed",
@@ -7136,49 +7133,21 @@
     "would"
    ],
    "at": "2026-11-17T23:02:34.429532+00:00"
+  },
+  {
+   "sig": [
+    "account",
+    "codeberg",
+    "disappeared",
+    "domain",
+    "site",
+    "suddenly",
+    "unreachable"
+   ],
+   "at": "2026-11-18T14:25:11.328683+00:00"
   }
  ],
  "snapshots": {
-  "hn:50366999": [
-   544,
-   "2026-11-05T01:00:24.427164+00:00"
-  ],
-  "hn:50366929": [
-   219,
-   "2026-11-05T01:00:24.427164+00:00"
-  ],
-  "hn:50366919": [
-   265,
-   "2026-11-05T01:00:24.427164+00:00"
-  ],
-  "hn:50366863": [
-   281,
-   "2026-11-05T01:00:24.427164+00:00"
-  ],
-  "hn:50366575": [
-   190,
-   "2026-11-05T01:00:24.427164+00:00"
-  ],
-  "hn:50366522": [
-   610,
-   "2026-11-05T01:00:24.427164+00:00"
-  ],
-  "hn:50366117": [
-   330,
-   "2026-11-05T01:00:24.427164+00:00"
-  ],
-  "hn:50365982": [
-   1525,
-   "2026-11-05T01:00:24.427164+00:00"
-  ],
-  "lobsters:lh1j0e": [
-   71,
-   "2026-11-05T01:00:24.427164+00:00"
-  ],
-  "lobsters:bqllfe": [
-   51,
-   "2026-11-05T01:00:24.427164+00:00"
-  ],
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mzixisawgt2c": [
    4227,
    "2026-11-05T01:00:24.427164+00:00"
@@ -9538,6 +9507,46 @@
   "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3n2jdvrcm6k2j": [
    75,
    "2026-11-17T23:02:32.688001+00:00"
+  ],
+  "hn:50545958": [
+   142,
+   "2026-11-18T14:24:53.350192+00:00"
+  ],
+  "hn:50543989": [
+   233,
+   "2026-11-18T14:24:53.350192+00:00"
+  ],
+  "hn:50542948": [
+   81,
+   "2026-11-18T14:24:53.350192+00:00"
+  ],
+  "hn:50542705": [
+   1640,
+   "2026-11-18T14:24:53.350192+00:00"
+  ],
+  "hn:50542135": [
+   671,
+   "2026-11-18T14:24:53.350192+00:00"
+  ],
+  "hn:50541790": [
+   373,
+   "2026-11-18T14:24:53.350192+00:00"
+  ],
+  "hn:50541619": [
+   198,
+   "2026-11-18T14:24:53.350192+00:00"
+  ],
+  "lobsters:spmgsd": [
+   159,
+   "2026-11-18T14:24:53.350192+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n2ksg4td2w2c": [
+   110,
+   "2026-11-18T14:24:53.350192+00:00"
+  ],
+  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3n2kqyy44qsk2": [
+   110,
+   "2026-11-18T14:24:53.350192+00:00"
   ]
  }
 }
