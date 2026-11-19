@@ -1313,18 +1313,19 @@
   "https://3dnews.ru/1151489/#6afdddb9e91a3ef4aa0305df",
   "16e2e1562c3220904f6fc1d9eb6c6db0",
   "https://www.phoronix.com/news/NVIDIA-620.73.04-Linux",
-  "https://www.neowin.net/news/after-amd-nvidia-users-confirm-windows-driver-bug-quietly-degrades-your-ssd-over-time/"
+  "https://www.neowin.net/news/after-amd-nvidia-users-confirm-windows-driver-bug-quietly-degrades-your-ssd-over-time/",
+  "hn:50559140"
  ],
  "posted": {
-  "viral": 236,
+  "viral": 237,
   "editorial": 238
  },
  "recent_labels": [
-  "Engadget",
   "The Register",
   "Tom's Hardware",
   "Lobsters",
-  "Tom's Hardware"
+  "Tom's Hardware",
+  "Hacker News"
  ],
  "last_digest": "2026-11-13",
  "history": [
@@ -1544,35 +1545,16 @@
    "source": "Tom's Hardware",
    "score": 0.65227,
    "at": "2026-11-18T22:12:34.011318+00:00"
+  },
+  {
+   "title": "چالش‌های فنی و تردیدها در مسیر دستیابی به هوش مصنوعی فوق‌هوشمند",
+   "url": "https://spectrum.ieee.org/ai-superintelligence-debate",
+   "source": "spectrum.ieee.org",
+   "score": 0.40064,
+   "at": "2026-11-19T14:36:14.434320+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "1.9x",
-    "3.6x",
-    "400w",
-    "700w",
-    "asic",
-    "better",
-    "blackwell",
-    "broadcom",
-    "claims",
-    "co-developed",
-    "flagship",
-    "gpu",
-    "jalape",
-    "kilowatt",
-    "latency",
-    "lower",
-    "nvidia",
-    "openai",
-    "outpaces",
-    "per",
-    "throughput"
-   ],
-   "at": "2026-08-25T20:55:15.541360+00:00"
-  },
   {
    "sig": [
     "cease",
@@ -7158,57 +7140,18 @@
     "writes"
    ],
    "at": "2026-11-18T22:12:34.011318+00:00"
+  },
+  {
+   "sig": [
+    "debate",
+    "flaws",
+    "serious",
+    "superintelligence"
+   ],
+   "at": "2026-11-19T14:36:14.434320+00:00"
   }
  ],
  "snapshots": {
-  "hn:50381033": [
-   296,
-   "2026-11-06T01:42:26.466197+00:00"
-  ],
-  "hn:50380810": [
-   1001,
-   "2026-11-06T01:42:26.466197+00:00"
-  ],
-  "hn:50380658": [
-   136,
-   "2026-11-06T01:42:26.466197+00:00"
-  ],
-  "hn:50380268": [
-   111,
-   "2026-11-06T01:42:26.466197+00:00"
-  ],
-  "hn:50379773": [
-   333,
-   "2026-11-06T01:42:26.466197+00:00"
-  ],
-  "hn:50379704": [
-   831,
-   "2026-11-06T01:42:26.466197+00:00"
-  ],
-  "hn:50379576": [
-   278,
-   "2026-11-06T01:42:26.466197+00:00"
-  ],
-  "lobsters:u26wki": [
-   76,
-   "2026-11-06T01:42:26.466197+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mzllc4rwcz2k": [
-   739,
-   "2026-11-06T01:42:26.466197+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mzlh5e7ebk2v": [
-   513,
-   "2026-11-06T01:42:26.466197+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mzlem6ttsb2c": [
-   87,
-   "2026-11-06T01:42:26.466197+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mzl5vimwri2a": [
-   389,
-   "2026-11-06T01:42:26.466197+00:00"
-  ],
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mzl5lt6u7k2v": [
    4939,
    "2026-11-06T01:42:26.466197+00:00"
@@ -9560,6 +9503,54 @@
   "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3n2lv56lfbr2f": [
    75,
    "2026-11-18T22:12:26.782017+00:00"
+  ],
+  "hn:50559140": [
+   291,
+   "2026-11-19T14:36:05.016074+00:00"
+  ],
+  "hn:50558559": [
+   79,
+   "2026-11-19T14:36:05.016074+00:00"
+  ],
+  "hn:50558533": [
+   606,
+   "2026-11-19T14:36:05.016074+00:00"
+  ],
+  "hn:50557885": [
+   228,
+   "2026-11-19T14:36:05.016074+00:00"
+  ],
+  "hn:50557716": [
+   484,
+   "2026-11-19T14:36:05.016074+00:00"
+  ],
+  "hn:50557537": [
+   190,
+   "2026-11-19T14:36:05.016074+00:00"
+  ],
+  "hn:50556533": [
+   312,
+   "2026-11-19T14:36:05.016074+00:00"
+  ],
+  "hn:50556287": [
+   448,
+   "2026-11-19T14:36:05.016074+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n2o7bahqwr2k": [
+   75,
+   "2026-11-19T14:36:05.016074+00:00"
+  ],
+  "at://did:plc:kft6lu4trxowqmter2b6vg6z/app.bsky.feed.post/3n2nhnbueh22q": [
+   126,
+   "2026-11-19T14:36:05.016074+00:00"
+  ],
+  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3n2o7txlvvk2h": [
+   148,
+   "2026-11-19T14:36:05.016074+00:00"
+  ],
+  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3n2o37kpgmk2a": [
+   13,
+   "2026-11-19T14:36:05.016074+00:00"
   ]
  }
 }
