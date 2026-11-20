@@ -1318,147 +1318,22 @@
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n2ochc47r224",
   "hn:50562160",
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n2oegew2g22k",
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n2ocvinlrm2c"
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n2ocvinlrm2c",
+  "hn:50572503"
  ],
  "posted": {
-  "viral": 238,
+  "viral": 239,
   "editorial": 238
  },
  "recent_labels": [
-  "Tom's Hardware",
   "Lobsters",
   "Tom's Hardware",
   "Hacker News",
-  "404 Media"
+  "404 Media",
+  "Hacker News"
  ],
- "last_digest": "2026-11-13",
+ "last_digest": "2026-11-20",
  "history": [
-  {
-   "title": "اتهام کمیسیون اروپا به تیک‌تاک بابت الگوریتم‌های اعتیادآور و آسیب‌زا",
-   "url": "https://therecord.media/eu-accuses-tiktok-of-rabbit-hole-DSA-violation",
-   "source": "The Record",
-   "score": 0.71205,
-   "at": "2026-11-07T00:12:27.067593+00:00"
-  },
-  {
-   "title": "شناسایی ابزارهای پنهان اپل برای تحلیل روابط و حریم خصوصی کاربران",
-   "url": "https://8rank.ai/game/apple-intelligence-personal-knowledge-graph",
-   "source": "8rank.ai",
-   "score": 0.20578,
-   "at": "2026-11-07T11:51:21.204982+00:00"
-  },
-  {
-   "title": "نگاهی به میراث ماندگار Borland Turbo Pascal 7 در دنیای نرم‌افزار",
-   "url": "https://kevinboone.me/tpwin.html",
-   "source": "kevinboone.me",
-   "score": 0.13988,
-   "at": "2026-11-07T17:48:50.936580+00:00"
-  },
-  {
-   "title": "معرفی ابزار آنلاین Digital Borders Exposed برای افشای نظارت دیجیتال در مرزهای اروپا",
-   "url": "https://www.accessnow.org/event/digital-borders-exposed/",
-   "source": "Access Now",
-   "score": 0.32164,
-   "at": "2026-11-07T22:12:13.894812+00:00"
-  },
-  {
-   "title": "نیاز به استانداردسازی حافظه برای ایجنت‌های هوش مصنوعی",
-   "url": "https://www.lorekit.io/blog/open-agent-memory-format",
-   "source": "lorekit.io",
-   "score": 0.08106,
-   "at": "2026-11-08T12:04:07.567684+00:00"
-  },
-  {
-   "title": "افزایش سرمایه ۱۱ میلیارد دلاری OpenAI با ارزش‌گذاری ۱.۲۵ تریلیون دلاری",
-   "url": "https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/",
-   "source": "TechCrunch AI",
-   "score": 0.22576,
-   "at": "2026-11-08T18:00:13.663554+00:00"
-  },
-  {
-   "title": "ایجاد فهرست اشتراکی برای شناسایی محتوای تولیدشده توسط هوش مصنوعی",
-   "url": "https://lobste.rs/s/jbdtim/who_wants_crowdsource_llm_scans_articles",
-   "source": "Lobsters",
-   "score": 0.09124,
-   "at": "2026-11-08T22:19:54.831981+00:00"
-  },
-  {
-   "title": "ابزار شوخی برای گزارش وضعیت حافظه رم به Sam Altman",
-   "url": "https://www.tomshardware.com/pc-components/ram/spoof-program-monitors-and-emails-your-ram-usage-to-sam-altman-if-under-90-percent-utilization-ram-altman-logs-usage-and-reports-you-for-wasting-memory",
-   "source": "Tom's Hardware",
-   "score": 0.66662,
-   "at": "2026-11-09T14:10:17.669402+00:00"
-  },
-  {
-   "title": "آسیب‌پذیری‌های بحرانی در SharePoint و حملات فیشینگ با جعل هویت Signal",
-   "url": "https://www.theregister.com/legal/2026/11/09/nvidia-ceo-jensen-huang-admits-affair-with-possible-chinese-asset/5308327",
-   "source": "The Register",
-   "score": 1.443,
-   "at": "2026-11-09T23:30:09.208209+00:00"
-  },
-  {
-   "title": "عرضه‌ی مدل‌های جدید Claude با توانایی پیشرفته در حملات سایبری",
-   "url": "https://thehackernews.com/2026/11/anthropics-claude-fable-52-beats-gpt-6.html",
-   "source": "The Hacker News",
-   "score": 1.15841,
-   "at": "2026-11-10T13:40:10.286212+00:00"
-  },
-  {
-   "title": "قوانین جدید بریتانیا برای جرم‌انگاری محتوای پورنوگرافی و افزایش سانسور اینترنتی",
-   "url": "https://bsky.app/profile/404media.co/post/3mzxyqznios2r",
-   "source": "404 Media",
-   "score": 0.25191,
-   "at": "2026-11-10T20:57:40.620006+00:00"
-  },
-  {
-   "title": "معرفی نسل جدید آنتن ماهواره‌ای قابل‌حمل Starlink Mini 2 با باتری جداشونده",
-   "url": "https://www.ixbt.com/news/2026/11/10/predstavlena-sputnikovaia-tarelka-starlink-mini-2-smennaia-batareia-zashhita-ip67-i-wi-fi-6.html",
-   "source": "iXBT",
-   "score": 0.4926,
-   "at": "2026-11-11T01:21:15.329081+00:00"
-  },
-  {
-   "title": "امنیت کلیدهای SSH با استفاده از Secure Enclave در macOS",
-   "url": "https://gatezh.com/posts/macos-secure-enclave-ssh-keys/",
-   "source": "gatezh.com",
-   "score": 0.08374,
-   "at": "2026-11-11T12:52:46.749633+00:00"
-  },
-  {
-   "title": "عرضه‌ی شبیه‌ساز محلی AWS برای تست و توسعه نرم‌افزار",
-   "url": "https://github.com/aws/aws-emulator",
-   "source": "github.com",
-   "score": 0.33549,
-   "at": "2026-11-11T20:17:41.875306+00:00"
-  },
-  {
-   "title": "دسترسی غیرمجاز به پلتفرم گزارش باگ گوگل و تغییر پاداش",
-   "url": "https://lyra.horse/blog/2026/11/disinformation-machine/",
-   "source": "lyra.horse",
-   "score": 0.14613,
-   "at": "2026-11-12T01:57:52.802277+00:00"
-  },
-  {
-   "title": "حمله گسترده به مخازن GitHub با استفاده از حساب‌های کاربری سرقتی",
-   "url": "https://thehackernews.com/2026/11/4837-hijacked-github-accounts-ran-ci.html",
-   "source": "The Hacker News",
-   "score": 0.53618,
-   "at": "2026-11-12T13:54:53.038484+00:00"
-  },
-  {
-   "title": "اختلال گسترده در سرویس ایمیل Microsoft Outlook",
-   "url": "https://9to5mac.com/2026/11/12/microsoft-outlook-experiencing-widespread-outage/",
-   "source": "9to5Mac",
-   "score": 1.76379,
-   "at": "2026-11-12T21:31:45.789132+00:00"
-  },
-  {
-   "title": "مشکلات امنیتی و اختلال در به‌روزرسانی‌های ویندوز و شیرپوینت",
-   "url": "https://www.theregister.com/os-platforms/2026/11/12/microsoft-has-an-image-problem-with-novembers-windows-security-update/5309435",
-   "source": "The Register",
-   "score": 0.51064,
-   "at": "2026-11-13T13:19:03.754752+00:00"
-  },
   {
    "title": "پیچیدگی رابط کاربری پاورپوینت در آیپد برای کاربران",
    "url": "https://www.reddit.com/r/Teachers/comments/1xuup7a/technology_sucks_it_literally_takes_16_clicks_for/",
@@ -1563,19 +1438,16 @@
    "source": "404media.co",
    "score": 0.20343,
    "at": "2026-11-19T22:44:11.423526+00:00"
+  },
+  {
+   "title": "معرفی Frostbite، معماری پردازنده جدید که توسط هوش مصنوعی طراحی شد",
+   "url": "https://architectlabs.com/blog/frostbite",
+   "source": "architectlabs.com",
+   "score": 0.12513,
+   "at": "2026-11-20T14:14:48.365399+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "constants",
-    "kinda",
-    "pre-declared",
-    "python",
-    "weird"
-   ],
-   "at": "2026-08-26T05:59:05.328514+00:00"
-  },
   {
    "sig": [
     "breach",
@@ -7162,53 +7034,20 @@
     "through"
    ],
    "at": "2026-11-19T22:44:11.423526+00:00"
+  },
+  {
+   "sig": [
+    "architecture",
+    "cpu",
+    "designed",
+    "discovered",
+    "frostbite",
+    "verified"
+   ],
+   "at": "2026-11-20T14:14:48.365399+00:00"
   }
  ],
  "snapshots": {
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mznujgrcpc2v": [
-   221,
-   "2026-11-06T20:00:56.266189+00:00"
-  ],
-  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mzngbjtq4c2n": [
-   14,
-   "2026-11-07T00:11:29.456521+00:00"
-  ],
-  "hn:50396064": [
-   380,
-   "2026-11-07T00:11:29.456521+00:00"
-  ],
-  "hn:50395933": [
-   106,
-   "2026-11-07T00:11:29.456521+00:00"
-  ],
-  "hn:50395905": [
-   326,
-   "2026-11-07T00:11:29.456521+00:00"
-  ],
-  "hn:50395318": [
-   95,
-   "2026-11-07T00:11:29.456521+00:00"
-  ],
-  "hn:50394906": [
-   1123,
-   "2026-11-07T00:11:29.456521+00:00"
-  ],
-  "hn:50394855": [
-   234,
-   "2026-11-07T00:11:29.456521+00:00"
-  ],
-  "hn:50394569": [
-   350,
-   "2026-11-07T00:11:29.456521+00:00"
-  ],
-  "hn:50393183": [
-   91,
-   "2026-11-07T00:11:29.456521+00:00"
-  ],
-  "hn:50393165": [
-   232,
-   "2026-11-07T00:11:29.456521+00:00"
-  ],
   "hn:50393105": [
    400,
    "2026-11-07T00:11:29.456521+00:00"
@@ -9564,6 +9403,50 @@
   "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3n2oqrllnuc2s": [
    22,
    "2026-11-19T22:43:40.945245+00:00"
+  ],
+  "hn:50573087": [
+   251,
+   "2026-11-20T14:13:55.674364+00:00"
+  ],
+  "hn:50572503": [
+   694,
+   "2026-11-20T14:13:55.674364+00:00"
+  ],
+  "hn:50572448": [
+   136,
+   "2026-11-20T14:13:55.674364+00:00"
+  ],
+  "hn:50572430": [
+   229,
+   "2026-11-20T14:13:55.674364+00:00"
+  ],
+  "hn:50572355": [
+   439,
+   "2026-11-20T14:13:55.674364+00:00"
+  ],
+  "hn:50572116": [
+   570,
+   "2026-11-20T14:13:55.674364+00:00"
+  ],
+  "hn:50571189": [
+   860,
+   "2026-11-20T14:13:55.674364+00:00"
+  ],
+  "hn:50570479": [
+   714,
+   "2026-11-20T14:13:55.674364+00:00"
+  ],
+  "hn:50569516": [
+   187,
+   "2026-11-20T14:13:55.674364+00:00"
+  ],
+  "lobsters:kkglbw": [
+   34,
+   "2026-11-20T14:13:55.674364+00:00"
+  ],
+  "lobsters:hneb5m": [
+   29,
+   "2026-11-20T14:13:55.674364+00:00"
   ]
  }
 }
