@@ -1321,18 +1321,30 @@
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n2ocvinlrm2c",
   "hn:50572503",
   "https://www.theregister.com/a/5311153",
-  "hn:50581438"
+  "hn:50581438",
+  "https://www.techspot.com/news/114613-game-awards-2026-no-playstation-title-nominated-game.html",
+  "https://www.theverge.com/?p=1039433",
+  "69271d9a58e4e06eb6f254cb",
+  "https://www.theverge.com/?p=1037933",
+  "https://www.theverge.com/?p=1035460",
+  "bQLr7Vtd6aRqNP8XwM8d35",
+  "https://www.neowin.net/guides/upgrade-your-pc-for-less-with-these-early-black-friday-2026-deals/",
+  "https://9to5mac.com/?p=1082145",
+  "https://9to5mac.com/?p=1082011",
+  "https://9to5mac.com/?p=1077586",
+  "https://9to5mac.com/?p=1081620",
+  "hn:50587859"
  ],
  "posted": {
-  "viral": 239,
+  "viral": 240,
   "editorial": 239
  },
  "recent_labels": [
-  "Tom's Hardware",
   "Hacker News",
   "404 Media",
   "Hacker News",
-  "The Register"
+  "The Register",
+  "Hacker News"
  ],
  "last_digest": "2026-11-20",
  "history": [
@@ -1454,21 +1466,16 @@
    "source": "The Register",
    "score": 0.41313,
    "at": "2026-11-20T21:54:41.002628+00:00"
+  },
+  {
+   "title": "تحقیقات FBI درباره نفوذ احتمالی به پایگاه داده جرایم ملی",
+   "url": "https://www.bbc.com/news/articles/cvze7de86pk3o",
+   "source": "bbc.com",
+   "score": 0.07448,
+   "at": "2026-11-21T13:38:48.970732+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "agentic",
-    "architecture",
-    "context",
-    "cost",
-    "management",
-    "memory",
-    "problems"
-   ],
-   "at": "2026-08-26T09:10:33.453356+00:00"
-  },
   {
    "sig": [
     "browser",
@@ -7054,45 +7061,21 @@
     "very"
    ],
    "at": "2026-11-20T21:54:41.002628+00:00"
+  },
+  {
+   "sig": [
+    "apparent",
+    "criminal",
+    "database",
+    "fbi",
+    "hack",
+    "investigating",
+    "reportedly"
+   ],
+   "at": "2026-11-21T13:38:48.970732+00:00"
   }
  ],
  "snapshots": {
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mzogsdavd22r": [
-   104,
-   "2026-11-07T00:11:29.456521+00:00"
-  ],
-  "hn:50403097": [
-   149,
-   "2026-11-07T11:51:15.933554+00:00"
-  ],
-  "hn:50401867": [
-   520,
-   "2026-11-07T11:51:15.933554+00:00"
-  ],
-  "hn:50401740": [
-   290,
-   "2026-11-07T11:51:15.933554+00:00"
-  ],
-  "hn:50401029": [
-   194,
-   "2026-11-07T11:51:15.933554+00:00"
-  ],
-  "hn:50400597": [
-   312,
-   "2026-11-07T11:51:15.933554+00:00"
-  ],
-  "hn:50402212": [
-   245,
-   "2026-11-07T17:48:47.887976+00:00"
-  ],
-  "lobsters:ipplhe": [
-   122,
-   "2026-11-07T17:48:47.887976+00:00"
-  ],
-  "hn:50405678": [
-   169,
-   "2026-11-07T17:48:47.887976+00:00"
-  ],
   "hn:50403066": [
    280,
    "2026-11-07T17:48:47.887976+00:00"
@@ -9456,6 +9439,42 @@
   "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3n2r6dr4rmc24": [
    200,
    "2026-11-20T21:54:38.104744+00:00"
+  ],
+  "hn:50587875": [
+   80,
+   "2026-11-21T13:38:11.618784+00:00"
+  ],
+  "hn:50587859": [
+   128,
+   "2026-11-21T13:38:11.618784+00:00"
+  ],
+  "hn:50586648": [
+   114,
+   "2026-11-21T13:38:11.618784+00:00"
+  ],
+  "hn:50586292": [
+   167,
+   "2026-11-21T13:38:11.618784+00:00"
+  ],
+  "hn:50585593": [
+   325,
+   "2026-11-21T13:38:11.618784+00:00"
+  ],
+  "hn:50585376": [
+   227,
+   "2026-11-21T13:38:11.618784+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n2t6nh2a5m2t": [
+   100,
+   "2026-11-21T13:38:11.618784+00:00"
+  ],
+  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3n2rzfaoct22h": [
+   75,
+   "2026-11-21T13:38:11.618784+00:00"
+  ],
+  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3n2scymsbas2s": [
+   32,
+   "2026-11-21T13:38:11.618784+00:00"
   ]
  }
 }
