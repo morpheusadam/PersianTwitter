@@ -1333,18 +1333,22 @@
   "https://9to5mac.com/?p=1082011",
   "https://9to5mac.com/?p=1077586",
   "https://9to5mac.com/?p=1081620",
-  "hn:50587859"
+  "hn:50587859",
+  "T7P4LpZhcCHPYdWioBv5zR",
+  "https://www.engadget.com/2324141/anthropic-employee-claims-to-have-proven-the-most-famous-math-problem-using-claude/",
+  "https://science.slashdot.org/story/26/11/21/028221/anthropic-mathematician-claims-to-prove-riemann-hypothesis?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+  "at://did:plc:kft6lu4trxowqmter2b6vg6z/app.bsky.feed.post/3n2tsb6pguk27"
  ],
  "posted": {
-  "viral": 240,
+  "viral": 241,
   "editorial": 239
  },
  "recent_labels": [
-  "Hacker News",
   "404 Media",
   "Hacker News",
   "The Register",
-  "Hacker News"
+  "Hacker News",
+  "Simon Willison"
  ],
  "last_digest": "2026-11-20",
  "history": [
@@ -1473,23 +1477,16 @@
    "source": "bbc.com",
    "score": 0.07448,
    "at": "2026-11-21T13:38:48.970732+00:00"
+  },
+  {
+   "title": "تفاوت عملکرد و هزینه در سطوح پردازشی مدل Gemini 4",
+   "url": "https://bsky.app/profile/simonwillison.net/post/3n2tsb6pguk27",
+   "source": "Simon Willison",
+   "score": 0.40653,
+   "at": "2026-11-21T20:37:20.303329+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "browser",
-    "editor",
-    "latex",
-    "pdftex",
-    "runs",
-    "show",
-    "texbrain",
-    "via",
-    "wasm"
-   ],
-   "at": "2026-08-26T10:05:56.372850+00:00"
-  },
   {
    "sig": [
     "alpha",
@@ -7073,57 +7070,26 @@
     "reportedly"
    ],
    "at": "2026-11-21T13:38:48.970732+00:00"
+  },
+  {
+   "sig": [
+    "difference",
+    "effort",
+    "gemini",
+    "high",
+    "hydrogen",
+    "model",
+    "same",
+    "significant",
+    "thinking",
+    "tip",
+    "very",
+    "xhigh"
+   ],
+   "at": "2026-11-21T20:37:20.303329+00:00"
   }
  ],
  "snapshots": {
-  "hn:50403066": [
-   280,
-   "2026-11-07T17:48:47.887976+00:00"
-  ],
-  "hn:50403052": [
-   836,
-   "2026-11-07T17:48:47.887976+00:00"
-  ],
-  "lobsters:jsvlfm": [
-   41,
-   "2026-11-07T17:48:47.887976+00:00"
-  ],
-  "lobsters:j63dme": [
-   33,
-   "2026-11-07T17:48:47.887976+00:00"
-  ],
-  "lobsters:4qiair": [
-   35,
-   "2026-11-07T17:48:47.887976+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mzpy4essjq2x": [
-   339,
-   "2026-11-07T17:48:47.887976+00:00"
-  ],
-  "hn:50403507": [
-   485,
-   "2026-11-07T22:10:16.726672+00:00"
-  ],
-  "hn:50406670": [
-   293,
-   "2026-11-07T22:10:16.726672+00:00"
-  ],
-  "hn:50406563": [
-   554,
-   "2026-11-07T22:10:16.726672+00:00"
-  ],
-  "hn:50406319": [
-   127,
-   "2026-11-07T22:10:16.726672+00:00"
-  ],
-  "hn:50406292": [
-   214,
-   "2026-11-07T22:10:16.726672+00:00"
-  ],
-  "hn:50406222": [
-   198,
-   "2026-11-07T22:10:16.726672+00:00"
-  ],
   "hn:50406111": [
    566,
    "2026-11-07T22:10:16.726672+00:00"
@@ -9440,10 +9406,6 @@
    200,
    "2026-11-20T21:54:38.104744+00:00"
   ],
-  "hn:50587875": [
-   80,
-   "2026-11-21T13:38:11.618784+00:00"
-  ],
   "hn:50587859": [
    128,
    "2026-11-21T13:38:11.618784+00:00"
@@ -9464,10 +9426,6 @@
    227,
    "2026-11-21T13:38:11.618784+00:00"
   ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n2t6nh2a5m2t": [
-   100,
-   "2026-11-21T13:38:11.618784+00:00"
-  ],
   "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3n2rzfaoct22h": [
    75,
    "2026-11-21T13:38:11.618784+00:00"
@@ -9475,6 +9433,62 @@
   "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3n2scymsbas2s": [
    32,
    "2026-11-21T13:38:11.618784+00:00"
+  ],
+  "hn:50587875": [
+   759,
+   "2026-11-21T20:37:16.276836+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n2t6nh2a5m2t": [
+   360,
+   "2026-11-21T20:37:16.276836+00:00"
+  ],
+  "hn:50591853": [
+   284,
+   "2026-11-21T20:37:16.276836+00:00"
+  ],
+  "hn:50591835": [
+   609,
+   "2026-11-21T20:37:16.276836+00:00"
+  ],
+  "hn:50590441": [
+   91,
+   "2026-11-21T20:37:16.276836+00:00"
+  ],
+  "hn:50590279": [
+   202,
+   "2026-11-21T20:37:16.276836+00:00"
+  ],
+  "hn:50589618": [
+   1525,
+   "2026-11-21T20:37:16.276836+00:00"
+  ],
+  "hn:50588982": [
+   984,
+   "2026-11-21T20:37:16.276836+00:00"
+  ],
+  "hn:50588916": [
+   432,
+   "2026-11-21T20:37:16.276836+00:00"
+  ],
+  "hn:50588436": [
+   353,
+   "2026-11-21T20:37:16.276836+00:00"
+  ],
+  "lobsters:qzerls": [
+   68,
+   "2026-11-21T20:37:16.276836+00:00"
+  ],
+  "lobsters:fjueso": [
+   32,
+   "2026-11-21T20:37:16.276836+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n2tve52qhf2c": [
+   176,
+   "2026-11-21T20:37:16.276836+00:00"
+  ],
+  "at://did:plc:kft6lu4trxowqmter2b6vg6z/app.bsky.feed.post/3n2tsb6pguk27": [
+   83,
+   "2026-11-21T20:37:16.276836+00:00"
   ]
  }
 }
