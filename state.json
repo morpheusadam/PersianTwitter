@@ -1337,18 +1337,19 @@
   "T7P4LpZhcCHPYdWioBv5zR",
   "https://www.engadget.com/2324141/anthropic-employee-claims-to-have-proven-the-most-famous-math-problem-using-claude/",
   "https://science.slashdot.org/story/26/11/21/028221/anthropic-mathematician-claims-to-prove-riemann-hypothesis?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-  "at://did:plc:kft6lu4trxowqmter2b6vg6z/app.bsky.feed.post/3n2tsb6pguk27"
+  "at://did:plc:kft6lu4trxowqmter2b6vg6z/app.bsky.feed.post/3n2tsb6pguk27",
+  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3n2ucwmctac2c"
  ],
  "posted": {
-  "viral": 241,
+  "viral": 242,
   "editorial": 239
  },
  "recent_labels": [
-  "404 Media",
   "Hacker News",
   "The Register",
   "Hacker News",
-  "Simon Willison"
+  "Simon Willison",
+  "Emily M. Bender"
  ],
  "last_digest": "2026-11-20",
  "history": [
@@ -1484,23 +1485,16 @@
    "source": "Simon Willison",
    "score": 0.40653,
    "at": "2026-11-21T20:37:20.303329+00:00"
+  },
+  {
+   "title": "انتقاد از تمرکز شرکت‌های هوش مصنوعی بر مسائل ریاضی",
+   "url": "https://bsky.app/profile/emilymbender.bsky.social/post/3n2ucwmctac2c",
+   "source": "Emily M. Bender",
+   "score": 0.54124,
+   "at": "2026-11-22T01:28:40.054012+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "alpha",
-    "behind",
-    "confirms",
-    "glm-series",
-    "model",
-    "release",
-    "stealth",
-    "weights",
-    "z.ai"
-   ],
-   "at": "2026-08-26T11:00:51.616342+00:00"
-  },
   {
    "sig": [
     "adds",
@@ -7087,21 +7081,28 @@
     "xhigh"
    ],
    "at": "2026-11-21T20:37:20.303329+00:00"
+  },
+  {
+   "sig": [
+    "anthropic",
+    "because",
+    "believe",
+    "building",
+    "famous",
+    "folks",
+    "gods",
+    "going",
+    "machine",
+    "math",
+    "openai",
+    "problems",
+    "remember",
+    "want"
+   ],
+   "at": "2026-11-22T01:28:40.054012+00:00"
   }
  ],
  "snapshots": {
-  "hn:50406111": [
-   566,
-   "2026-11-07T22:10:16.726672+00:00"
-  ],
-  "hn:50405782": [
-   83,
-   "2026-11-07T22:10:16.726672+00:00"
-  ],
-  "hn:50405250": [
-   192,
-   "2026-11-07T22:10:16.726672+00:00"
-  ],
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mzqplbweef2p": [
    187,
    "2026-11-07T22:10:16.726672+00:00"
@@ -9442,26 +9443,6 @@
    360,
    "2026-11-21T20:37:16.276836+00:00"
   ],
-  "hn:50591853": [
-   284,
-   "2026-11-21T20:37:16.276836+00:00"
-  ],
-  "hn:50591835": [
-   609,
-   "2026-11-21T20:37:16.276836+00:00"
-  ],
-  "hn:50590441": [
-   91,
-   "2026-11-21T20:37:16.276836+00:00"
-  ],
-  "hn:50590279": [
-   202,
-   "2026-11-21T20:37:16.276836+00:00"
-  ],
-  "hn:50589618": [
-   1525,
-   "2026-11-21T20:37:16.276836+00:00"
-  ],
   "hn:50588982": [
    984,
    "2026-11-21T20:37:16.276836+00:00"
@@ -9474,21 +9455,53 @@
    353,
    "2026-11-21T20:37:16.276836+00:00"
   ],
-  "lobsters:qzerls": [
-   68,
-   "2026-11-21T20:37:16.276836+00:00"
-  ],
-  "lobsters:fjueso": [
-   32,
-   "2026-11-21T20:37:16.276836+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n2tve52qhf2c": [
-   176,
-   "2026-11-21T20:37:16.276836+00:00"
-  ],
   "at://did:plc:kft6lu4trxowqmter2b6vg6z/app.bsky.feed.post/3n2tsb6pguk27": [
    83,
    "2026-11-21T20:37:16.276836+00:00"
+  ],
+  "hn:50591853": [
+   532,
+   "2026-11-22T01:28:37.534880+00:00"
+  ],
+  "hn:50591835": [
+   820,
+   "2026-11-22T01:28:37.534880+00:00"
+  ],
+  "hn:50590441": [
+   164,
+   "2026-11-22T01:28:37.534880+00:00"
+  ],
+  "hn:50590279": [
+   318,
+   "2026-11-22T01:28:37.534880+00:00"
+  ],
+  "hn:50589618": [
+   2156,
+   "2026-11-22T01:28:37.534880+00:00"
+  ],
+  "lobsters:qzerls": [
+   86,
+   "2026-11-22T01:28:37.534880+00:00"
+  ],
+  "lobsters:fjueso": [
+   54,
+   "2026-11-22T01:28:37.534880+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n2tve52qhf2c": [
+   394,
+   "2026-11-22T01:28:37.534880+00:00"
+  ],
+  "hn:50593737": [
+   95,
+   "2026-11-22T01:28:37.534880+00:00"
+  ],
+  "hn:50592097": [
+   135,
+   "2026-11-22T01:28:37.534880+00:00"
+  ],
+  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3n2ucwmctac2c": [
+   322,
+   "2026-11-22T01:28:37.534880+00:00"
   ]
  }
 }
