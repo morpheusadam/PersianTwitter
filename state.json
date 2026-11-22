@@ -1339,18 +1339,27 @@
   "https://science.slashdot.org/story/26/11/21/028221/anthropic-mathematician-claims-to-prove-riemann-hypothesis?utm_source=rss1.0mainlinkanon&utm_medium=feed",
   "at://did:plc:kft6lu4trxowqmter2b6vg6z/app.bsky.feed.post/3n2tsb6pguk27",
   "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3n2ucwmctac2c",
-  "hn:50597612"
+  "hn:50597612",
+  "6afd799cee5c9e07415dd46e",
+  "https://www.theverge.com/?p=1037313",
+  "https://www.theverge.com/?p=1038181",
+  "nbYWQuynsgWZmsUco9LKM9",
+  "https://www.neowin.net/deals/early-black-friday-deals-best-mechanical-keyboards-for-under-100/",
+  "https://news.slashdot.org/story/26/11/22/1838218/climate-change-talks-fall-apart-in-final-hours-over-fossil-fuels?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+  "hn:50599583",
+  "https://tech.slashdot.org/story/26/11/22/1949204/microsoft-admits-some-emails-bounced-during-global-outlook-outage-reveals-new-failures?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+  "https://www.neowin.net/news/microsoft-admits-some-emails-bounced-during-global-outlook-outage-reveals-new-failures/"
  ],
  "posted": {
   "viral": 243,
-  "editorial": 239
+  "editorial": 240
  },
  "recent_labels": [
-  "The Register",
   "Hacker News",
   "Simon Willison",
   "Emily M. Bender",
-  "Hacker News"
+  "Hacker News",
+  "Slashdot"
  ],
  "last_digest": "2026-11-20",
  "history": [
@@ -1500,34 +1509,16 @@
    "source": "betterdatacenterproject.com",
    "score": 0.08203,
    "at": "2026-11-22T13:30:20.703702+00:00"
+  },
+  {
+   "title": "جزئیات جدید از اختلال گسترده در سرویس‌های مایکروسافت و نقص‌های امنیتی آن",
+   "url": "https://tech.slashdot.org/story/26/11/22/1949204/microsoft-admits-some-emails-bounced-during-global-outlook-outage-reveals-new-failures?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+   "source": "Slashdot",
+   "score": 0.3031,
+   "at": "2026-11-22T20:28:00.301609+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "10th",
-    "abroad",
-    "angeles",
-    "data",
-    "discussion",
-    "does",
-    "government",
-    "home",
-    "jasonkoebler.bsky.social",
-    "joining",
-    "kill",
-    "live",
-    "los",
-    "media",
-    "private",
-    "september",
-    "surveil",
-    "theintercept.com",
-    "u.s",
-    "weaponize"
-   ],
-   "at": "2026-08-26T13:33:09.453602+00:00"
-  },
   {
    "sig": [
     "addresses",
@@ -7102,49 +7093,23 @@
     "power"
    ],
    "at": "2026-11-22T13:30:20.703702+00:00"
+  },
+  {
+   "sig": [
+    "admits",
+    "bounced",
+    "emails",
+    "failures",
+    "global",
+    "microsoft",
+    "outage",
+    "outlook",
+    "reveals"
+   ],
+   "at": "2026-11-22T20:28:00.301609+00:00"
   }
  ],
  "snapshots": {
-  "at://did:plc:ipt7y6qaf6fn7oeeduboqe44/app.bsky.feed.post/3mzs5litqwc2b": [
-   17,
-   "2026-11-08T18:00:11.755391+00:00"
-  ],
-  "hn:50413822": [
-   442,
-   "2026-11-08T18:00:11.755391+00:00"
-  ],
-  "hn:50414427": [
-   648,
-   "2026-11-08T22:19:53.038365+00:00"
-  ],
-  "hn:50412591": [
-   527,
-   "2026-11-08T22:19:53.038365+00:00"
-  ],
-  "hn:50412072": [
-   120,
-   "2026-11-08T22:19:53.038365+00:00"
-  ],
-  "hn:50411961": [
-   569,
-   "2026-11-08T22:19:53.038365+00:00"
-  ],
-  "lobsters:62loik": [
-   59,
-   "2026-11-08T22:19:53.038365+00:00"
-  ],
-  "hn:50416801": [
-   613,
-   "2026-11-08T22:19:53.038365+00:00"
-  ],
-  "hn:50416158": [
-   360,
-   "2026-11-08T22:19:53.038365+00:00"
-  ],
-  "hn:50416053": [
-   183,
-   "2026-11-08T22:19:53.038365+00:00"
-  ],
   "hn:50415817": [
    267,
    "2026-11-08T22:19:53.038365+00:00"
@@ -9461,10 +9426,6 @@
    322,
    "2026-11-22T01:28:37.534880+00:00"
   ],
-  "hn:50597743": [
-   192,
-   "2026-11-22T13:30:14.565388+00:00"
-  ],
   "hn:50597612": [
    950,
    "2026-11-22T13:30:14.565388+00:00"
@@ -9504,6 +9465,50 @@
   "at://did:plc:kft6lu4trxowqmter2b6vg6z/app.bsky.feed.post/3n2uxw3563224": [
    120,
    "2026-11-22T13:30:14.565388+00:00"
+  ],
+  "hn:50597743": [
+   241,
+   "2026-11-22T20:27:56.232785+00:00"
+  ],
+  "hn:50602847": [
+   255,
+   "2026-11-22T20:27:56.232785+00:00"
+  ],
+  "hn:50602843": [
+   79,
+   "2026-11-22T20:27:56.232785+00:00"
+  ],
+  "hn:50600789": [
+   235,
+   "2026-11-22T20:27:56.232785+00:00"
+  ],
+  "hn:50600677": [
+   333,
+   "2026-11-22T20:27:56.232785+00:00"
+  ],
+  "hn:50600622": [
+   129,
+   "2026-11-22T20:27:56.232785+00:00"
+  ],
+  "hn:50600435": [
+   194,
+   "2026-11-22T20:27:56.232785+00:00"
+  ],
+  "hn:50599762": [
+   307,
+   "2026-11-22T20:27:56.232785+00:00"
+  ],
+  "hn:50599583": [
+   317,
+   "2026-11-22T20:27:56.232785+00:00"
+  ],
+  "hn:50598961": [
+   138,
+   "2026-11-22T20:27:56.232785+00:00"
+  ],
+  "hn:50597959": [
+   81,
+   "2026-11-22T20:27:56.232785+00:00"
   ]
  }
 }
