@@ -1338,18 +1338,19 @@
   "https://www.engadget.com/2324141/anthropic-employee-claims-to-have-proven-the-most-famous-math-problem-using-claude/",
   "https://science.slashdot.org/story/26/11/21/028221/anthropic-mathematician-claims-to-prove-riemann-hypothesis?utm_source=rss1.0mainlinkanon&utm_medium=feed",
   "at://did:plc:kft6lu4trxowqmter2b6vg6z/app.bsky.feed.post/3n2tsb6pguk27",
-  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3n2ucwmctac2c"
+  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3n2ucwmctac2c",
+  "hn:50597612"
  ],
  "posted": {
-  "viral": 242,
+  "viral": 243,
   "editorial": 239
  },
  "recent_labels": [
-  "Hacker News",
   "The Register",
   "Hacker News",
   "Simon Willison",
-  "Emily M. Bender"
+  "Emily M. Bender",
+  "Hacker News"
  ],
  "last_digest": "2026-11-20",
  "history": [
@@ -1492,25 +1493,16 @@
    "source": "Emily M. Bender",
    "score": 0.54124,
    "at": "2026-11-22T01:28:40.054012+00:00"
+  },
+  {
+   "title": "وابستگی شدید دیتاسنترهای Anthropic به سوخت‌های فسیلی و پیامدهای زیست‌محیطی آن",
+   "url": "https://betterdatacenterproject.com/2026/11/16/how-ai-is-powered-a-breakdown-of-byop-and-grid-power/",
+   "source": "betterdatacenterproject.com",
+   "score": 0.08203,
+   "at": "2026-11-22T13:30:20.703702+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "adds",
-    "alt",
-    "app",
-    "arm",
-    "bing",
-    "microsoft",
-    "nvidia",
-    "powertoys",
-    "switching",
-    "tab-style",
-    "windows"
-   ],
-   "at": "2026-08-26T11:55:22.273170+00:00"
-  },
   {
    "sig": [
     "10th",
@@ -7100,53 +7092,19 @@
     "want"
    ],
    "at": "2026-11-22T01:28:40.054012+00:00"
+  },
+  {
+   "sig": [
+    "anthropic",
+    "coal",
+    "come",
+    "gas",
+    "power"
+   ],
+   "at": "2026-11-22T13:30:20.703702+00:00"
   }
  ],
  "snapshots": {
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mzqplbweef2p": [
-   187,
-   "2026-11-07T22:10:16.726672+00:00"
-  ],
-  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mzqqgdm2x22p": [
-   112,
-   "2026-11-07T22:10:16.726672+00:00"
-  ],
-  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mzqd3taowk2p": [
-   50,
-   "2026-11-07T22:10:16.726672+00:00"
-  ],
-  "hn:50411467": [
-   183,
-   "2026-11-08T12:04:05.045090+00:00"
-  ],
-  "hn:50410359": [
-   77,
-   "2026-11-08T12:04:05.045090+00:00"
-  ],
-  "hn:50410249": [
-   83,
-   "2026-11-08T12:04:05.045090+00:00"
-  ],
-  "hn:50409856": [
-   135,
-   "2026-11-08T12:04:05.045090+00:00"
-  ],
-  "hn:50409855": [
-   205,
-   "2026-11-08T12:04:05.045090+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mzrolo3ud22n": [
-   360,
-   "2026-11-08T12:04:05.045090+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mzrdowcqdv2n": [
-   227,
-   "2026-11-08T12:04:05.045090+00:00"
-  ],
-  "at://did:plc:kft6lu4trxowqmter2b6vg6z/app.bsky.feed.post/3mzrfku36422q": [
-   38,
-   "2026-11-08T12:04:05.045090+00:00"
-  ],
   "at://did:plc:ipt7y6qaf6fn7oeeduboqe44/app.bsky.feed.post/3mzs5litqwc2b": [
    17,
    "2026-11-08T18:00:11.755391+00:00"
@@ -9502,6 +9460,50 @@
   "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3n2ucwmctac2c": [
    322,
    "2026-11-22T01:28:37.534880+00:00"
+  ],
+  "hn:50597743": [
+   192,
+   "2026-11-22T13:30:14.565388+00:00"
+  ],
+  "hn:50597612": [
+   950,
+   "2026-11-22T13:30:14.565388+00:00"
+  ],
+  "hn:50596664": [
+   148,
+   "2026-11-22T13:30:14.565388+00:00"
+  ],
+  "hn:50596511": [
+   130,
+   "2026-11-22T13:30:14.565388+00:00"
+  ],
+  "hn:50596155": [
+   164,
+   "2026-11-22T13:30:14.565388+00:00"
+  ],
+  "hn:50596133": [
+   1530,
+   "2026-11-22T13:30:14.565388+00:00"
+  ],
+  "hn:50595554": [
+   327,
+   "2026-11-22T13:30:14.565388+00:00"
+  ],
+  "lobsters:32rhzb": [
+   59,
+   "2026-11-22T13:30:14.565388+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n2uzclecwf25": [
+   73,
+   "2026-11-22T13:30:14.565388+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n2uk7yfree2t": [
+   470,
+   "2026-11-22T13:30:14.565388+00:00"
+  ],
+  "at://did:plc:kft6lu4trxowqmter2b6vg6z/app.bsky.feed.post/3n2uxw3563224": [
+   120,
+   "2026-11-22T13:30:14.565388+00:00"
   ]
  }
 }
