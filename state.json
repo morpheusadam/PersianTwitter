@@ -1349,18 +1349,23 @@
   "hn:50599583",
   "https://tech.slashdot.org/story/26/11/22/1949204/microsoft-admits-some-emails-bounced-during-global-outlook-outage-reveals-new-failures?utm_source=rss1.0mainlinkanon&utm_medium=feed",
   "https://www.neowin.net/news/microsoft-admits-some-emails-bounced-during-global-outlook-outage-reveals-new-failures/",
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n2wrigc73l2t"
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n2wrigc73l2t",
+  "https://www.theregister.com/a/5311573",
+  "https://www.bleepingcomputer.com/news/security/cleverbridge-warns-hackers-stole-credit-card-numbers-cvvs-in-data-breach/",
+  "iV5rKk8mokwJDzJfMmbtHG",
+  "VD6CfEzCvqnp2GkHXLWZCL",
+  "https://www.neowin.net/news/cleverbridge-confirms-data-breach-that-exposed-customers-payment-card-data/"
  ],
  "posted": {
   "viral": 244,
-  "editorial": 240
+  "editorial": 241
  },
  "recent_labels": [
-  "Simon Willison",
   "Emily M. Bender",
   "Hacker News",
   "Slashdot",
-  "404 Media"
+  "404 Media",
+  "The Register"
  ],
  "last_digest": "2026-11-20",
  "history": [
@@ -1524,31 +1529,16 @@
    "source": "404media.co",
    "score": 0.41929,
    "at": "2026-11-23T01:02:49.269176+00:00"
+  },
+  {
+   "title": "سرقت اطلاعات کارت‌های بانکی مشتریان از پلتفرم Cleverbridge",
+   "url": "https://www.theregister.com/cyber-crime/2026/11/23/cleverbridge-admits-attackers-stole-customers-credit-card-and-cvv-numbers-yep-you-read-that-right/5311573",
+   "source": "The Register",
+   "score": 0.48245,
+   "at": "2026-11-23T16:19:01.649413+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "abortion",
-    "ceo",
-    "cops",
-    "entirely",
-    "evystadium.bsky.social",
-    "false",
-    "flock",
-    "garrett",
-    "langley",
-    "lying",
-    "media",
-    "self-administered",
-    "someone",
-    "story",
-    "told",
-    "track",
-    "using"
-   ],
-   "at": "2026-08-26T18:14:00.422680+00:00"
-  },
   {
    "sig": [
     "17b",
@@ -7108,69 +7098,45 @@
     "www.404media.co"
    ],
    "at": "2026-11-23T01:02:49.269176+00:00"
+  },
+  {
+   "sig": [
+    "admits",
+    "attackers",
+    "breach",
+    "card",
+    "cleverbridge",
+    "confirms",
+    "credit",
+    "customers",
+    "cvv",
+    "cvvs",
+    "data",
+    "ecommerce",
+    "exposed",
+    "firm",
+    "hack",
+    "hackers",
+    "hit",
+    "japanese",
+    "latest",
+    "major",
+    "numbers",
+    "payment",
+    "read",
+    "records",
+    "right",
+    "sees",
+    "steal",
+    "stole",
+    "tower",
+    "warns",
+    "yep"
+   ],
+   "at": "2026-11-23T16:19:01.649413+00:00"
   }
  ],
  "snapshots": {
-  "hn:50421426": [
-   295,
-   "2026-11-09T14:10:12.581559+00:00"
-  ],
-  "hn:50421155": [
-   108,
-   "2026-11-09T14:10:12.581559+00:00"
-  ],
-  "hn:50420532": [
-   105,
-   "2026-11-09T14:10:12.581559+00:00"
-  ],
-  "lobsters:ezjewj": [
-   76,
-   "2026-11-09T14:10:12.581559+00:00"
-  ],
-  "lobsters:kbrpx3": [
-   64,
-   "2026-11-09T14:10:12.581559+00:00"
-  ],
-  "lobsters:tt42jc": [
-   41,
-   "2026-11-09T14:10:12.581559+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mzu67pgvkc2m": [
-   101,
-   "2026-11-09T14:10:12.581559+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mztvtj24ve2i": [
-   566,
-   "2026-11-09T14:10:12.581559+00:00"
-  ],
-  "at://did:plc:kft6lu4trxowqmter2b6vg6z/app.bsky.feed.post/3mzu42ujywk24": [
-   290,
-   "2026-11-09T14:10:12.581559+00:00"
-  ],
-  "at://did:plc:ipt7y6qaf6fn7oeeduboqe44/app.bsky.feed.post/3mzukga6eo22b": [
-   25,
-   "2026-11-09T14:10:12.581559+00:00"
-  ],
-  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mzty6bfso22s": [
-   8,
-   "2026-11-09T14:10:12.581559+00:00"
-  ],
-  "hn:50431144": [
-   505,
-   "2026-11-09T23:30:04.786559+00:00"
-  ],
-  "hn:50431058": [
-   698,
-   "2026-11-09T23:30:04.786559+00:00"
-  ],
-  "hn:50430621": [
-   269,
-   "2026-11-09T23:30:04.786559+00:00"
-  ],
-  "hn:50430585": [
-   206,
-   "2026-11-09T23:30:04.786559+00:00"
-  ],
   "hn:50429906": [
    1826,
    "2026-11-09T23:30:04.786559+00:00"
@@ -9510,6 +9476,66 @@
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n2whgvpoqf2i": [
    1068,
    "2026-11-23T01:02:47.372952+00:00"
+  ],
+  "hn:50611588": [
+   4419,
+   "2026-11-23T16:18:44.337250+00:00"
+  ],
+  "hn:50610830": [
+   199,
+   "2026-11-23T16:18:44.337250+00:00"
+  ],
+  "hn:50610743": [
+   205,
+   "2026-11-23T16:18:44.337250+00:00"
+  ],
+  "hn:50610334": [
+   258,
+   "2026-11-23T16:18:44.337250+00:00"
+  ],
+  "hn:50610318": [
+   200,
+   "2026-11-23T16:18:44.337250+00:00"
+  ],
+  "hn:50609685": [
+   1153,
+   "2026-11-23T16:18:44.337250+00:00"
+  ],
+  "hn:50609252": [
+   141,
+   "2026-11-23T16:18:44.337250+00:00"
+  ],
+  "hn:50609079": [
+   255,
+   "2026-11-23T16:18:44.337250+00:00"
+  ],
+  "hn:50607668": [
+   705,
+   "2026-11-23T16:18:44.337250+00:00"
+  ],
+  "hn:50607498": [
+   302,
+   "2026-11-23T16:18:44.337250+00:00"
+  ],
+  "lobsters:vldbcn": [
+   104,
+   "2026-11-23T16:18:44.337250+00:00"
+  ],
+  "lobsters:t8c4vj": [
+   34,
+   "2026-11-23T16:18:44.337250+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n2yffbacvk2g": [
+   265,
+   "2026-11-23T16:18:44.337250+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n2ydrcvpn52i": [
+   147,
+   "2026-11-23T16:18:44.337250+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n2xdwyzku32c": [
+   237,
+   "2026-11-23T16:18:44.337250+00:00"
   ]
  }
 }
