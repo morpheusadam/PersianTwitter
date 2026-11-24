@@ -1354,18 +1354,19 @@
   "https://www.bleepingcomputer.com/news/security/cleverbridge-warns-hackers-stole-credit-card-numbers-cvvs-in-data-breach/",
   "iV5rKk8mokwJDzJfMmbtHG",
   "VD6CfEzCvqnp2GkHXLWZCL",
-  "https://www.neowin.net/news/cleverbridge-confirms-data-breach-that-exposed-customers-payment-card-data/"
+  "https://www.neowin.net/news/cleverbridge-confirms-data-breach-that-exposed-customers-payment-card-data/",
+  "at://did:plc:kft6lu4trxowqmter2b6vg6z/app.bsky.feed.post/3n2zbiqydh22d"
  ],
  "posted": {
-  "viral": 244,
+  "viral": 245,
   "editorial": 241
  },
  "recent_labels": [
-  "Emily M. Bender",
   "Hacker News",
   "Slashdot",
   "404 Media",
-  "The Register"
+  "The Register",
+  "Simon Willison"
  ],
  "last_digest": "2026-11-20",
  "history": [
@@ -1536,35 +1537,16 @@
    "source": "The Register",
    "score": 0.48245,
    "at": "2026-11-23T16:19:01.649413+00:00"
+  },
+  {
+   "title": "معرفی پلاگین جدید برای مصورسازی خودکار داده‌ها در Datasette",
+   "url": "https://simonwillison.net/2026/Nov/23/datasette-charts/",
+   "source": "simonwillison.net",
+   "score": 0.17139,
+   "at": "2026-11-24T02:59:09.539196+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "17b",
-    "addiction",
-    "agrees",
-    "billion",
-    "children",
-    "could",
-    "eff",
-    "force",
-    "harms",
-    "media",
-    "meta",
-    "reaches",
-    "rules",
-    "settlement",
-    "settlements",
-    "social",
-    "statement",
-    "teen",
-    "tiktok",
-    "tougher",
-    "youtube"
-   ],
-   "at": "2026-08-26T20:30:31.987805+00:00"
-  },
   {
    "sig": [
     "agents",
@@ -7134,109 +7116,37 @@
     "yep"
    ],
    "at": "2026-11-23T16:19:01.649413+00:00"
+  },
+  {
+   "sig": [
+    "5.2",
+    "any",
+    "attempt",
+    "automatically",
+    "best",
+    "built",
+    "credible",
+    "data",
+    "datasette",
+    "datasette-charts",
+    "fable",
+    "having",
+    "help",
+    "lot",
+    "might",
+    "nov",
+    "pick",
+    "plugin",
+    "simonwillison.net",
+    "throw",
+    "visualizations",
+    "which",
+    "yet"
+   ],
+   "at": "2026-11-24T02:59:09.539196+00:00"
   }
  ],
  "snapshots": {
-  "hn:50429906": [
-   1826,
-   "2026-11-09T23:30:04.786559+00:00"
-  ],
-  "hn:50429734": [
-   257,
-   "2026-11-09T23:30:04.786559+00:00"
-  ],
-  "hn:50429636": [
-   118,
-   "2026-11-09T23:30:04.786559+00:00"
-  ],
-  "hn:50429545": [
-   168,
-   "2026-11-09T23:30:04.786559+00:00"
-  ],
-  "hn:50429475": [
-   1235,
-   "2026-11-09T23:30:04.786559+00:00"
-  ],
-  "hn:50429430": [
-   177,
-   "2026-11-09T23:30:04.786559+00:00"
-  ],
-  "hn:50429426": [
-   369,
-   "2026-11-09T23:30:04.786559+00:00"
-  ],
-  "hn:50429024": [
-   393,
-   "2026-11-09T23:30:04.786559+00:00"
-  ],
-  "hn:50428907": [
-   276,
-   "2026-11-09T23:30:04.786559+00:00"
-  ],
-  "hn:50428801": [
-   729,
-   "2026-11-09T23:30:04.786559+00:00"
-  ],
-  "hn:50428724": [
-   631,
-   "2026-11-09T23:30:04.786559+00:00"
-  ],
-  "hn:50427934": [
-   149,
-   "2026-11-09T23:30:04.786559+00:00"
-  ],
-  "hn:50427362": [
-   937,
-   "2026-11-09T23:30:04.786559+00:00"
-  ],
-  "hn:50427085": [
-   331,
-   "2026-11-09T23:30:04.786559+00:00"
-  ],
-  "hn:50426899": [
-   525,
-   "2026-11-09T23:30:04.786559+00:00"
-  ],
-  "hn:50426207": [
-   188,
-   "2026-11-09T23:30:04.786559+00:00"
-  ],
-  "hn:50426175": [
-   556,
-   "2026-11-09T23:30:04.786559+00:00"
-  ],
-  "hn:50425303": [
-   397,
-   "2026-11-09T23:30:04.786559+00:00"
-  ],
-  "hn:50424199": [
-   99,
-   "2026-11-09T23:30:04.786559+00:00"
-  ],
-  "lobsters:txkq8s": [
-   90,
-   "2026-11-09T23:30:04.786559+00:00"
-  ],
-  "lobsters:ynik5s": [
-   41,
-   "2026-11-09T23:30:04.786559+00:00"
-  ],
-  "lobsters:jxigk6": [
-   49,
-   "2026-11-09T23:30:04.786559+00:00"
-  ],
-  "lobsters:vghqe8": [
-   106,
-   "2026-11-09T23:30:04.786559+00:00"
-  ],
-  "lobsters:vtjjbc": [
-   27,
-   "2026-11-09T23:30:04.786559+00:00"
-  ],
-  "lobsters:eeclwg": [
-   33,
-   "2026-11-09T23:30:04.786559+00:00"
-  ],
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mzvtuef2lu27": [
    111,
    "2026-11-09T23:30:04.786559+00:00"
@@ -9525,10 +9435,6 @@
    34,
    "2026-11-23T16:18:44.337250+00:00"
   ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n2yffbacvk2g": [
-   265,
-   "2026-11-23T16:18:44.337250+00:00"
-  ],
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n2ydrcvpn52i": [
    147,
    "2026-11-23T16:18:44.337250+00:00"
@@ -9536,6 +9442,110 @@
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n2xdwyzku32c": [
    237,
    "2026-11-23T16:18:44.337250+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n2yffbacvk2g": [
+   424,
+   "2026-11-24T02:59:07.280869+00:00"
+  ],
+  "hn:50620822": [
+   565,
+   "2026-11-24T02:59:07.280869+00:00"
+  ],
+  "hn:50620349": [
+   502,
+   "2026-11-24T02:59:07.280869+00:00"
+  ],
+  "hn:50620250": [
+   265,
+   "2026-11-24T02:59:07.280869+00:00"
+  ],
+  "hn:50620102": [
+   718,
+   "2026-11-24T02:59:07.280869+00:00"
+  ],
+  "hn:50619207": [
+   191,
+   "2026-11-24T02:59:07.280869+00:00"
+  ],
+  "hn:50619103": [
+   253,
+   "2026-11-24T02:59:07.280869+00:00"
+  ],
+  "hn:50618490": [
+   173,
+   "2026-11-24T02:59:07.280869+00:00"
+  ],
+  "hn:50617499": [
+   1287,
+   "2026-11-24T02:59:07.280869+00:00"
+  ],
+  "hn:50616933": [
+   772,
+   "2026-11-24T02:59:07.280869+00:00"
+  ],
+  "hn:50615308": [
+   2640,
+   "2026-11-24T02:59:07.280869+00:00"
+  ],
+  "hn:50613465": [
+   305,
+   "2026-11-24T02:59:07.280869+00:00"
+  ],
+  "lobsters:h6webg": [
+   129,
+   "2026-11-24T02:59:07.280869+00:00"
+  ],
+  "lobsters:gtc9rg": [
+   36,
+   "2026-11-24T02:59:07.280869+00:00"
+  ],
+  "lobsters:pdecff": [
+   47,
+   "2026-11-24T02:59:07.280869+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n2ywzyq6xv2r": [
+   412,
+   "2026-11-24T02:59:07.280869+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n2ytweed7k2g": [
+   3919,
+   "2026-11-24T02:59:07.280869+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n2yr736uql2b": [
+   270,
+   "2026-11-24T02:59:07.280869+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n2yqzncohs2g": [
+   194,
+   "2026-11-24T02:59:07.280869+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n2yjmvwgpa2c": [
+   205,
+   "2026-11-24T02:59:07.280869+00:00"
+  ],
+  "at://did:plc:kft6lu4trxowqmter2b6vg6z/app.bsky.feed.post/3n2zbiqydh22d": [
+   66,
+   "2026-11-24T02:59:07.280869+00:00"
+  ],
+  "at://did:plc:kft6lu4trxowqmter2b6vg6z/app.bsky.feed.post/3n2z5f6wby22o": [
+   61,
+   "2026-11-24T02:59:07.280869+00:00"
+  ],
+  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3n2ysz6a5fs24": [
+   127,
+   "2026-11-24T02:59:07.280869+00:00"
+  ],
+  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3n2yskx2gukst": [
+   234,
+   "2026-11-24T02:59:07.280869+00:00"
+  ],
+  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3n2yoxoxle22s": [
+   135,
+   "2026-11-24T02:59:07.280869+00:00"
+  ],
+  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3n2z3xled5s2s": [
+   7,
+   "2026-11-24T02:59:07.280869+00:00"
   ]
  }
 }
