@@ -1355,18 +1355,37 @@
   "iV5rKk8mokwJDzJfMmbtHG",
   "VD6CfEzCvqnp2GkHXLWZCL",
   "https://www.neowin.net/news/cleverbridge-confirms-data-breach-that-exposed-customers-payment-card-data/",
-  "at://did:plc:kft6lu4trxowqmter2b6vg6z/app.bsky.feed.post/3n2zbiqydh22d"
+  "at://did:plc:kft6lu4trxowqmter2b6vg6z/app.bsky.feed.post/3n2zbiqydh22d",
+  "https://slashdot.org/story/26/11/23/216201/jensen-huang-says-hell-be-a-better-ceo-as-staff-applauds-his-return?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+  "hn:50626578",
+  "https://techcrunch.com/?p=3191435",
+  "https://techcrunch.com/?p=3191219",
+  "1455569",
+  "https://www.phoronix.com/news/Jensen-Back-NVIDIA-CEO",
+  "https://slashdot.org/story/26/11/23/1545227/nvidia-reinstates-jensen-huang-as-ceo?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+  "https://www.techspot.com/news/114668-jensen-back-nvidia-board-reinstates-huang-ceo.html",
+  "TheNextWeb=9632ffc82ccaca1d2c276d690c7bed21",
+  "1457737",
+  "https://www.theverge.com/?p=1041150",
+  "TheNextWeb=3164b5d1247fe8c4a35bd1ac4cbdde23",
+  "hn:50628932",
+  "hn:50627836",
+  "https://linux.slashdot.org/story/26/11/24/074206/ladybird-web-browserengine-reaches-alpha?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+  "https://www.theverge.com/?p=1040872",
+  "https://www.phoronix.com/news/Ladybird-Browser-Alpha",
+  "https://www.techspot.com/news/114675-ladybird-first-new-browser-engine-years-course-sites.html",
+  "https://www.neowin.net/news/ladybirds-first-alpha-brings-a-truly-independent-browser-to-macos-and-linux/"
  ],
  "posted": {
   "viral": 245,
-  "editorial": 241
+  "editorial": 242
  },
  "recent_labels": [
-  "Hacker News",
   "Slashdot",
   "404 Media",
   "The Register",
-  "Simon Willison"
+  "Simon Willison",
+  "Slashdot"
  ],
  "last_digest": "2026-11-20",
  "history": [
@@ -1544,39 +1563,16 @@
    "source": "simonwillison.net",
    "score": 0.17139,
    "at": "2026-11-24T02:59:09.539196+00:00"
+  },
+  {
+   "title": "مرورگر متن‌باز Ladybird پس از چهار سال توسعه به نسخه آلفا رسید",
+   "url": "https://linux.slashdot.org/story/26/11/24/074206/ladybird-web-browserengine-reaches-alpha?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+   "source": "Slashdot",
+   "score": 0.70318,
+   "at": "2026-11-24T16:06:34.114239+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "agents",
-    "alabama",
-    "breach",
-    "could",
-    "details",
-    "don",
-    "earlier",
-    "face",
-    "failures",
-    "hack",
-    "hacked",
-    "hugging",
-    "inside",
-    "investigation",
-    "know",
-    "launches",
-    "led",
-    "official",
-    "openai",
-    "prevented",
-    "releases",
-    "report",
-    "signals",
-    "still",
-    "story"
-   ],
-   "at": "2026-08-27T00:00:20.504782+00:00"
-  },
   {
    "sig": [
     "agents",
@@ -7144,65 +7140,32 @@
     "yet"
    ],
    "at": "2026-11-24T02:59:09.539196+00:00"
+  },
+  {
+   "sig": [
+    "alpha",
+    "available",
+    "brings",
+    "broken",
+    "browser",
+    "course",
+    "engine",
+    "first",
+    "independent",
+    "ladybird",
+    "linux",
+    "macos",
+    "reaches",
+    "sites",
+    "test",
+    "truly",
+    "web",
+    "years"
+   ],
+   "at": "2026-11-24T16:06:34.114239+00:00"
   }
  ],
  "snapshots": {
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mzvtuef2lu27": [
-   111,
-   "2026-11-09T23:30:04.786559+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mzvsimnma22k": [
-   194,
-   "2026-11-09T23:30:04.786559+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mzvqqoqnwc2k": [
-   1015,
-   "2026-11-09T23:30:04.786559+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mzv6abhfur26": [
-   96,
-   "2026-11-09T23:30:04.786559+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mzv64dfjc22c": [
-   436,
-   "2026-11-09T23:30:04.786559+00:00"
-  ],
-  "at://did:plc:kft6lu4trxowqmter2b6vg6z/app.bsky.feed.post/3mzvuqd4ndk24": [
-   88,
-   "2026-11-09T23:30:04.786559+00:00"
-  ],
-  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3mzvrjcx6zc2c": [
-   69,
-   "2026-11-09T23:30:04.786559+00:00"
-  ],
-  "at://did:plc:ipt7y6qaf6fn7oeeduboqe44/app.bsky.feed.post/3mzvxcprg2c2b": [
-   17,
-   "2026-11-09T23:30:04.786559+00:00"
-  ],
-  "at://did:plc:ipt7y6qaf6fn7oeeduboqe44/app.bsky.feed.post/3mzvhbvmb622b": [
-   30,
-   "2026-11-09T23:30:04.786559+00:00"
-  ],
-  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3mzvzdsqvn22c": [
-   25,
-   "2026-11-09T23:30:04.786559+00:00"
-  ],
-  "hn:50437242": [
-   146,
-   "2026-11-10T13:40:07.896959+00:00"
-  ],
-  "hn:50437106": [
-   136,
-   "2026-11-10T13:40:07.896959+00:00"
-  ],
-  "hn:50436640": [
-   722,
-   "2026-11-10T13:40:07.896959+00:00"
-  ],
-  "hn:50435898": [
-   156,
-   "2026-11-10T13:40:07.896959+00:00"
-  ],
   "hn:50435660": [
    487,
    "2026-11-10T13:40:07.896959+00:00"
@@ -9546,6 +9509,62 @@
   "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3n2z3xled5s2s": [
    7,
    "2026-11-24T02:59:07.280869+00:00"
+  ],
+  "hn:50628932": [
+   254,
+   "2026-11-24T16:05:47.988770+00:00"
+  ],
+  "hn:50627836": [
+   548,
+   "2026-11-24T16:05:47.988770+00:00"
+  ],
+  "hn:50627340": [
+   918,
+   "2026-11-24T16:05:47.988770+00:00"
+  ],
+  "hn:50626861": [
+   464,
+   "2026-11-24T16:05:47.988770+00:00"
+  ],
+  "hn:50626578": [
+   960,
+   "2026-11-24T16:05:47.988770+00:00"
+  ],
+  "hn:50626413": [
+   174,
+   "2026-11-24T16:05:47.988770+00:00"
+  ],
+  "hn:50625888": [
+   128,
+   "2026-11-24T16:05:47.988770+00:00"
+  ],
+  "hn:50625384": [
+   240,
+   "2026-11-24T16:05:47.988770+00:00"
+  ],
+  "hn:50625004": [
+   267,
+   "2026-11-24T16:05:47.988770+00:00"
+  ],
+  "hn:50624487": [
+   409,
+   "2026-11-24T16:05:47.988770+00:00"
+  ],
+  "hn:50624061": [
+   358,
+   "2026-11-24T16:05:47.988770+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n32uwe7u3k2r": [
+   548,
+   "2026-11-24T16:05:47.988770+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n32uajxyrs2e": [
+   171,
+   "2026-11-24T16:05:47.988770+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n32rlu4v4r2b": [
+   449,
+   "2026-11-24T16:05:47.988770+00:00"
   ]
  }
 }
