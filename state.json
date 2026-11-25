@@ -1387,18 +1387,22 @@
   "https://9to5mac.com/?p=1082624",
   "https://9to5mac.com/?p=1082908",
   "https://www.securityweek.com/?p=51046",
-  "hn:50634933"
+  "hn:50634933",
+  "3GhVFSjSc4e7bjQZMtEwNY",
+  "https://www.engadget.com/2327450/huawei-is-guilty-of-conspiracy-to-steal-trade-secrets-us-jury-rules/",
+  "Bhp7MwNYjcEWmuPEDxs8KQ",
+  "https://www.techspot.com/news/114699-headlines-huawei-found-guilty-stealing-us-trade-secrets.html"
  ],
  "posted": {
   "viral": 245,
-  "editorial": 243
+  "editorial": 244
  },
  "recent_labels": [
-  "404 Media",
   "The Register",
   "Simon Willison",
   "Slashdot",
-  "SecurityWeek"
+  "SecurityWeek",
+  "Tom's Hardware"
  ],
  "last_digest": "2026-11-20",
  "history": [
@@ -1590,23 +1594,16 @@
    "source": "SecurityWeek",
    "score": 0.35698,
    "at": "2026-11-25T00:57:56.080429+00:00"
+  },
+  {
+   "title": "محکومیت شرکت Huawei در دادگاه ایالات متحده به اتهام کلاهبرداری و سرقت اسرار تجاری",
+   "url": "https://www.tomshardware.com/tech-industry/huawei-convicted-of-money-laundering-conspiracy-to-steal-trade-secrets-and-fraud-by-us-jury-fbi-says-chinese-tech-giant-built-its-success-on-deception-and-theft",
+   "source": "Tom's Hardware",
+   "score": 0.74949,
+   "at": "2026-11-25T15:54:04.073653+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "alliance",
-    "fighter",
-    "modern",
-    "opentie",
-    "openxwa",
-    "ports",
-    "show",
-    "tie",
-    "x-wing"
-   ],
-   "at": "2026-08-28T01:36:00.453616+00:00"
-  },
   {
    "sig": [
     "bogus",
@@ -7183,69 +7180,31 @@
     "unclassified"
    ],
    "at": "2026-11-25T00:57:56.080429+00:00"
+  },
+  {
+   "sig": [
+    "attempting",
+    "cleared",
+    "conspiracy",
+    "convicted",
+    "found",
+    "fraud",
+    "guilty",
+    "huawei",
+    "jury",
+    "laundering",
+    "money",
+    "racketeering",
+    "rules",
+    "secrets",
+    "steal",
+    "stealing",
+    "trade"
+   ],
+   "at": "2026-11-25T15:54:04.073653+00:00"
   }
  ],
  "snapshots": {
-  "lobsters:vkkbwo": [
-   148,
-   "2026-11-11T01:21:11.541829+00:00"
-  ],
-  "lobsters:fdnic2": [
-   54,
-   "2026-11-11T01:21:11.541829+00:00"
-  ],
-  "lobsters:kqjcnb": [
-   53,
-   "2026-11-11T01:21:11.541829+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mzxpwyxblc2k": [
-   196,
-   "2026-11-11T01:21:11.541829+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mzxop6khy52n": [
-   301,
-   "2026-11-11T01:21:11.541829+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3mzxnpsucf62f": [
-   486,
-   "2026-11-11T01:21:11.541829+00:00"
-  ],
-  "at://did:plc:kft6lu4trxowqmter2b6vg6z/app.bsky.feed.post/3mzxz4j32us24": [
-   70,
-   "2026-11-11T01:21:11.541829+00:00"
-  ],
-  "hn:50447074": [
-   329,
-   "2026-11-11T01:21:11.541829+00:00"
-  ],
-  "hn:50446714": [
-   160,
-   "2026-11-11T01:21:11.541829+00:00"
-  ],
-  "hn:50446520": [
-   263,
-   "2026-11-11T01:21:11.541829+00:00"
-  ],
-  "hn:50446246": [
-   166,
-   "2026-11-11T01:21:11.541829+00:00"
-  ],
-  "hn:50445401": [
-   787,
-   "2026-11-11T01:21:11.541829+00:00"
-  ],
-  "hn:50445013": [
-   188,
-   "2026-11-11T01:21:11.541829+00:00"
-  ],
-  "hn:50444850": [
-   179,
-   "2026-11-11T01:21:11.541829+00:00"
-  ],
-  "hn:50444684": [
-   127,
-   "2026-11-11T01:21:11.541829+00:00"
-  ],
   "hn:50443714": [
    86,
    "2026-11-11T01:21:11.541829+00:00"
@@ -9585,6 +9544,66 @@
   "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3n33e743vic24": [
    143,
    "2026-11-25T00:57:51.936066+00:00"
+  ],
+  "hn:50643129": [
+   74,
+   "2026-11-25T15:53:34.783235+00:00"
+  ],
+  "hn:50643065": [
+   101,
+   "2026-11-25T15:53:34.783235+00:00"
+  ],
+  "hn:50642496": [
+   205,
+   "2026-11-25T15:53:34.783235+00:00"
+  ],
+  "hn:50642086": [
+   488,
+   "2026-11-25T15:53:34.783235+00:00"
+  ],
+  "hn:50641171": [
+   409,
+   "2026-11-25T15:53:34.783235+00:00"
+  ],
+  "hn:50639698": [
+   280,
+   "2026-11-25T15:53:34.783235+00:00"
+  ],
+  "hn:50638647": [
+   206,
+   "2026-11-25T15:53:34.783235+00:00"
+  ],
+  "hn:50638503": [
+   362,
+   "2026-11-25T15:53:34.783235+00:00"
+  ],
+  "hn:50638478": [
+   243,
+   "2026-11-25T15:53:34.783235+00:00"
+  ],
+  "hn:50638320": [
+   508,
+   "2026-11-25T15:53:34.783235+00:00"
+  ],
+  "lobsters:srb0dp": [
+   82,
+   "2026-11-25T15:53:34.783235+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n35eoyfjqa27": [
+   307,
+   "2026-11-25T15:53:34.783235+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n35ajkvpfl22": [
+   444,
+   "2026-11-25T15:53:34.783235+00:00"
+  ],
+  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3n35dzmfjq2pt": [
+   153,
+   "2026-11-25T15:53:34.783235+00:00"
+  ],
+  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3n35drk3qts24": [
+   50,
+   "2026-11-25T15:53:34.783235+00:00"
   ]
  }
 }
