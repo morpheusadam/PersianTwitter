@@ -1393,17 +1393,31 @@
   "Bhp7MwNYjcEWmuPEDxs8KQ",
   "https://www.techspot.com/news/114699-headlines-huawei-found-guilty-stealing-us-trade-secrets.html",
   "hn:50648050",
-  "hn:50648823"
+  "hn:50648823",
+  "https://9to5mac.com/?p=1083569",
+  "https://www.engadget.com/2328361/this-dollar1900-alienware-aurora-is-one-of-the-best-early-black-friday-pc-deals/",
+  "26FFcwednYMnFAgbydtSXa",
+  "VJewefWkjQpRbQerZKfrnV",
+  "YKJou7tDJi9WL9yLaVx6HW",
+  "4GgmZVbGb8ynNF5m63gUAi",
+  "https://www.techspot.com/news/114707-best-black-friday-2026-deals-tech-pc-hardware.html",
+  "bXT3eXdmdsmge93hb7ZCgj",
+  "https://www.engadget.com/2328876/black-friday-2026-deals-on-reviewed-gadgets/",
+  "V5eGmVCC8aTYvAqVCwD6ud",
+  "HB6zaBhPF3NBbU98qEJyBG",
+  "i27euSvckgBfzDXPpbTsGG",
+  "87ki668UpZnDtiLbi4kSpd",
+  "hn:50660180"
  ],
  "posted": {
-  "viral": 246,
+  "viral": 247,
   "editorial": 244
  },
  "recent_labels": [
-  "Simon Willison",
   "Slashdot",
   "SecurityWeek",
   "Tom's Hardware",
+  "Hacker News",
   "Hacker News"
  ],
  "last_digest": "2026-11-20",
@@ -1610,19 +1624,16 @@
    "source": "modaic.dev",
    "score": 0.54607,
    "at": "2026-11-26T00:34:31.246249+00:00"
+  },
+  {
+   "title": "نقش هوش مصنوعی در تسهیل مدیریت و خودکارسازی سرورهای شخصی",
+   "url": "https://janlukas.blog/posts/ai-self-hosting",
+   "source": "janlukas.blog",
+   "score": 0.19471,
+   "at": "2026-11-27T00:43:14.799548+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "based",
-    "gdpr",
-    "good",
-    "hates",
-    "know"
-   ],
-   "at": "2026-08-29T11:44:39.923549+00:00"
-  },
   {
    "sig": [
     "1.1.1.1",
@@ -7200,85 +7211,17 @@
     "qwen3.5-35b-a3b"
    ],
    "at": "2026-11-26T00:34:31.246249+00:00"
+  },
+  {
+   "sig": [
+    "again",
+    "fun",
+    "self-hosting"
+   ],
+   "at": "2026-11-27T00:43:14.799548+00:00"
   }
  ],
  "snapshots": {
-  "hn:50450955": [
-   102,
-   "2026-11-11T20:17:38.922104+00:00"
-  ],
-  "lobsters:m43bas": [
-   176,
-   "2026-11-11T20:17:38.922104+00:00"
-  ],
-  "lobsters:nld6x3": [
-   92,
-   "2026-11-11T20:17:38.922104+00:00"
-  ],
-  "lobsters:zy4p7f": [
-   41,
-   "2026-11-11T20:17:38.922104+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n222md3bp22r": [
-   225,
-   "2026-11-11T20:17:38.922104+00:00"
-  ],
-  "hn:50457230": [
-   324,
-   "2026-11-12T01:57:47.903731+00:00"
-  ],
-  "hn:50457164": [
-   432,
-   "2026-11-12T01:57:47.903731+00:00"
-  ],
-  "hn:50456740": [
-   115,
-   "2026-11-12T01:57:47.903731+00:00"
-  ],
-  "hn:50455633": [
-   209,
-   "2026-11-12T01:57:47.903731+00:00"
-  ],
-  "hn:50455394": [
-   831,
-   "2026-11-12T01:57:47.903731+00:00"
-  ],
-  "hn:50455332": [
-   307,
-   "2026-11-12T01:57:47.903731+00:00"
-  ],
-  "hn:50454951": [
-   127,
-   "2026-11-12T01:57:47.903731+00:00"
-  ],
-  "hn:50454625": [
-   321,
-   "2026-11-12T01:57:47.903731+00:00"
-  ],
-  "hn:50453763": [
-   184,
-   "2026-11-12T01:57:47.903731+00:00"
-  ],
-  "hn:50453637": [
-   337,
-   "2026-11-12T01:57:47.903731+00:00"
-  ],
-  "hn:50453555": [
-   262,
-   "2026-11-12T01:57:47.903731+00:00"
-  ],
-  "lobsters:ii1gzp": [
-   51,
-   "2026-11-12T01:57:47.903731+00:00"
-  ],
-  "lobsters:romf5e": [
-   73,
-   "2026-11-12T01:57:47.903731+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n22o46qy7324": [
-   116,
-   "2026-11-12T01:57:47.903731+00:00"
-  ],
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n22dztsyrp2f": [
    412,
    "2026-11-12T01:57:47.903731+00:00"
@@ -9602,6 +9545,82 @@
   "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n35i36lccy26": [
    121,
    "2026-11-26T00:34:27.048384+00:00"
+  ],
+  "hn:50660180": [
+   494,
+   "2026-11-27T00:43:07.654838+00:00"
+  ],
+  "hn:50659841": [
+   292,
+   "2026-11-27T00:43:07.654838+00:00"
+  ],
+  "hn:50659640": [
+   110,
+   "2026-11-27T00:43:07.654838+00:00"
+  ],
+  "hn:50658997": [
+   173,
+   "2026-11-27T00:43:07.654838+00:00"
+  ],
+  "hn:50658170": [
+   327,
+   "2026-11-27T00:43:07.654838+00:00"
+  ],
+  "hn:50657645": [
+   368,
+   "2026-11-27T00:43:07.654838+00:00"
+  ],
+  "hn:50657530": [
+   869,
+   "2026-11-27T00:43:07.654838+00:00"
+  ],
+  "hn:50657265": [
+   399,
+   "2026-11-27T00:43:07.654838+00:00"
+  ],
+  "hn:50657110": [
+   147,
+   "2026-11-27T00:43:07.654838+00:00"
+  ],
+  "hn:50656763": [
+   125,
+   "2026-11-27T00:43:07.654838+00:00"
+  ],
+  "hn:50656036": [
+   163,
+   "2026-11-27T00:43:07.654838+00:00"
+  ],
+  "hn:50655664": [
+   847,
+   "2026-11-27T00:43:07.654838+00:00"
+  ],
+  "hn:50655278": [
+   500,
+   "2026-11-27T00:43:07.654838+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n37wm7x5vk27": [
+   119,
+   "2026-11-27T00:43:07.654838+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n37sjq3jht26": [
+   242,
+   "2026-11-27T00:43:07.654838+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n37qy3oxxa2n": [
+   301,
+   "2026-11-27T00:43:07.654838+00:00"
+  ],
+  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3n3airbutk22i": [
+   101,
+   "2026-11-27T00:43:07.654838+00:00"
+  ],
+  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3n3afzqsmmk2i": [
+   229,
+   "2026-11-27T00:43:07.654838+00:00"
+  ],
+  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3n37tqvhupkpt": [
+   149,
+   "2026-11-27T00:43:07.654838+00:00"
   ]
  }
 }
