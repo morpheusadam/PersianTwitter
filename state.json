@@ -1407,133 +1407,24 @@
   "HB6zaBhPF3NBbU98qEJyBG",
   "i27euSvckgBfzDXPpbTsGG",
   "87ki668UpZnDtiLbi4kSpd",
-  "hn:50660180"
+  "hn:50660180",
+  "TheNextWeb=b3ae2e8e31050c7adef8939b6caeedfc",
+  "hn:50666375",
+  "https://www.bleepingcomputer.com/news/security/us-air-force-cloud-platform-reportedly-hacked-in-latest-federal-breach/"
  ],
  "posted": {
   "viral": 247,
-  "editorial": 244
+  "editorial": 245
  },
  "recent_labels": [
-  "Slashdot",
   "SecurityWeek",
   "Tom's Hardware",
   "Hacker News",
-  "Hacker News"
+  "Hacker News",
+  "The Next Web"
  ],
- "last_digest": "2026-11-20",
+ "last_digest": "2026-11-27",
  "history": [
-  {
-   "title": "پیچیدگی رابط کاربری پاورپوینت در آیپد برای کاربران",
-   "url": "https://www.reddit.com/r/Teachers/comments/1xuup7a/technology_sucks_it_literally_takes_16_clicks_for/",
-   "source": "reddit.com",
-   "score": 0.20914,
-   "at": "2026-11-13T20:34:59.089607+00:00"
-  },
-  {
-   "title": "طراحی پروتکل جدید برای ترسیم حاشیه‌های ظریف در محیط ترمینال",
-   "url": "https://www.joshka.net/cell-borders/",
-   "source": "joshka.net",
-   "score": 0.185,
-   "at": "2026-11-14T01:33:33.798836+00:00"
-  },
-  {
-   "title": "اتهام دست‌کاری بازار توسط NVIDIA برای ایجاد کمبود مصنوعی پردازنده‌های گرافیکی",
-   "url": "https://www.techpowerup.com/354814/nvidia-allegedly-engineered-scarcity-by-funding-ai-startups-to-buy-its-gpus",
-   "source": "techpowerup.com",
-   "score": 0.03071,
-   "at": "2026-11-14T12:23:17.766674+00:00"
-  },
-  {
-   "title": "عرضه‌ی پردازنده‌ی ناشناخته Intel Core Ultra 7 260K در سیستم‌های آماده",
-   "url": "https://www.tomshardware.com/pc-components/cpus/unannounced-intel-core-ultra-7-260k-cpu-surfaces-in-newegg-prebuilt-gaming-pcs-intel-doesnt-have-official-specs-list-available-for-exclusive-arrow-lake-chip",
-   "source": "Tom's Hardware",
-   "score": 0.29203,
-   "at": "2026-11-14T18:22:58.028830+00:00"
-  },
-  {
-   "title": "ارتقای بزرگ موتور جستجوی گوگل با مدل هوش مصنوعی Gemini 4 Hydrogen",
-   "url": "https://blog.google/products-and-platforms/products/search/gemini-4-hydrogen-search-upgrade/",
-   "source": "Google AI",
-   "score": 0.80522,
-   "at": "2026-11-14T22:39:01.846724+00:00"
-  },
-  {
-   "title": "قانون جدید بریتانیا برای جرم‌انگاری محتوای پورنوگرافی خاص",
-   "url": "https://www.404media.co/uk-crime-and-policing-act-pornography/",
-   "source": "404media.co",
-   "score": 0.10283,
-   "at": "2026-11-15T12:53:39.125162+00:00"
-  },
-  {
-   "title": "ابزار هوش مصنوعی Artex و خودکارسازی حملات سایبری با سرعت بالا",
-   "url": "https://therecord.media/artex-ai-tool-fbi-flash-alert",
-   "source": "The Record",
-   "score": 0.31199,
-   "at": "2026-11-15T19:25:53.813825+00:00"
-  },
-  {
-   "title": "تغییر رفتار خرید سخت‌افزار با ظهور هوش مصنوعی و فریم‌ورهای متن‌باز",
-   "url": "https://geoffstearns.com/blog/your-agent-will-pick-the-hackable-one/",
-   "source": "geoffstearns.com",
-   "score": 0.17525,
-   "at": "2026-11-15T23:26:59.272895+00:00"
-  },
-  {
-   "title": "برنامه تحقیقاتی جدید اپل برای ارزیابی ابزارهای هوش مصنوعی در حوزه سلامت",
-   "url": "https://www.engadget.com/2317303/apple-new-research-app-designed-to-make-ai-health-tools-user-friendly/",
-   "source": "Engadget",
-   "score": 0.57603,
-   "at": "2026-11-16T13:53:22.731321+00:00"
-  },
-  {
-   "title": "حمله به آسیب‌پذیری روز صفر در سرویس SharePoint مایکروسافت",
-   "url": "https://www.theregister.com/saas/2026/11/16/microsoft-blames-monster-email-outage-on-software-defect-introduced-in-july-fix/5310026",
-   "source": "The Register",
-   "score": 0.87195,
-   "at": "2026-11-16T23:28:07.732095+00:00"
-  },
-  {
-   "title": "تمایل Jensen Huang برای بازگشت به مدیریت عامل Nvidia",
-   "url": "https://www.tomshardware.com/tech-industry/big-tech/jensen-huang-says-he-would-be-honored-to-return-as-nvidia-ceo-first-statement-since-resignation-follows-support-from-billionaires-investors-and-some-employees",
-   "source": "Tom's Hardware",
-   "score": 1.97403,
-   "at": "2026-11-17T23:02:34.429532+00:00"
-  },
-  {
-   "title": "اختلال در دسترسی به دامین Codeberg",
-   "url": "https://social.anoxinon.de/@Codeberg/117636454915265360",
-   "source": "social.anoxinon.de",
-   "score": 0.11483,
-   "at": "2026-11-18T14:25:11.328683+00:00"
-  },
-  {
-   "title": "باگ درایورهای جدید Nvidia و استهلاک شدید حافظه‌های SSD",
-   "url": "https://www.tomshardware.com/pc-components/gpu-drivers/nvidia-geforce-driver-bug-reportedly-hammers-ssds-with-up-to-30gb-of-writes-per-hour-users-trace-massive-idle-wear-to-background-service-newer-driver-reportedly-still-affected",
-   "source": "Tom's Hardware",
-   "score": 0.65227,
-   "at": "2026-11-18T22:12:34.011318+00:00"
-  },
-  {
-   "title": "چالش‌های فنی و تردیدها در مسیر دستیابی به هوش مصنوعی فوق‌هوشمند",
-   "url": "https://spectrum.ieee.org/ai-superintelligence-debate",
-   "source": "spectrum.ieee.org",
-   "score": 0.40064,
-   "at": "2026-11-19T14:36:14.434320+00:00"
-  },
-  {
-   "title": "همکاری مخفیانه AT&T و ICE برای نظارت گسترده بر تماس‌های تلفنی",
-   "url": "https://www.404media.co/ice-is-paying-at-t-to-dig-through-a-mountain-of-call-records-hemisphere-data-analytical-services/",
-   "source": "404media.co",
-   "score": 0.20343,
-   "at": "2026-11-19T22:44:11.423526+00:00"
-  },
-  {
-   "title": "معرفی Frostbite، معماری پردازنده جدید که توسط هوش مصنوعی طراحی شد",
-   "url": "https://architectlabs.com/blog/frostbite",
-   "source": "architectlabs.com",
-   "score": 0.12513,
-   "at": "2026-11-20T14:14:48.365399+00:00"
-  },
   {
    "title": "حمله باج‌افزاری به Nvidia و تهدید به افشای اطلاعات",
    "url": "https://www.theregister.com/security/2026/11/19/nvidia-adds-possible-hack-to-list-of-very-bad-things-under-investigation/5311153",
@@ -1631,43 +1522,16 @@
    "source": "janlukas.blog",
    "score": 0.19471,
    "at": "2026-11-27T00:43:14.799548+00:00"
+  },
+  {
+   "title": "نفوذ هکرها به پلتفرم ابری Cloud One نیروی هوایی آمریکا",
+   "url": "https://thenextweb.com/news/us-air-force-cloud-one-breach",
+   "source": "The Next Web",
+   "score": 1.35905,
+   "at": "2026-11-27T15:26:37.144074+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "1.1.1.1",
-    "100tb",
-    "250gb",
-    "adding",
-    "any",
-    "behind",
-    "billion",
-    "byte",
-    "cache",
-    "cached",
-    "cloudflare",
-    "costs",
-    "dns",
-    "entries",
-    "freed",
-    "frees",
-    "given",
-    "means",
-    "memory",
-    "optimizing",
-    "ram",
-    "saved",
-    "server",
-    "shrinking",
-    "single",
-    "terabytes",
-    "time",
-    "wasted",
-    "without"
-   ],
-   "at": "2026-08-29T16:50:01.204824+00:00"
-  },
   {
    "sig": [
     "alleging",
@@ -7219,65 +7083,28 @@
     "self-hosting"
    ],
    "at": "2026-11-27T00:43:14.799548+00:00"
+  },
+  {
+   "sig": [
+    "air",
+    "breach",
+    "breached",
+    "cloud",
+    "computing",
+    "federal",
+    "force",
+    "hacked",
+    "hackers",
+    "latest",
+    "platform",
+    "reportedly",
+    "reports",
+    "reuters"
+   ],
+   "at": "2026-11-27T15:26:37.144074+00:00"
   }
  ],
  "snapshots": {
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n22dztsyrp2f": [
-   412,
-   "2026-11-12T01:57:47.903731+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n22bjlmt5c2l": [
-   398,
-   "2026-11-12T01:57:47.903731+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n22bhl4ubc2l": [
-   119,
-   "2026-11-12T01:57:47.903731+00:00"
-  ],
-  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n22aopmjab2i": [
-   243,
-   "2026-11-12T01:57:47.903731+00:00"
-  ],
-  "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3n2267667nc2q": [
-   19,
-   "2026-11-12T01:57:47.903731+00:00"
-  ],
-  "hn:50460154": [
-   83,
-   "2026-11-12T01:57:47.903731+00:00"
-  ],
-  "hn:50459745": [
-   195,
-   "2026-11-12T01:57:47.903731+00:00"
-  ],
-  "hn:50458900": [
-   1090,
-   "2026-11-12T01:57:47.903731+00:00"
-  ],
-  "hn:50458532": [
-   193,
-   "2026-11-12T01:57:47.903731+00:00"
-  ],
-  "hn:50458166": [
-   100,
-   "2026-11-12T01:57:47.903731+00:00"
-  ],
-  "hn:50457939": [
-   724,
-   "2026-11-12T01:57:47.903731+00:00"
-  ],
-  "hn:50457618": [
-   113,
-   "2026-11-12T01:57:47.903731+00:00"
-  ],
-  "hn:50457083": [
-   93,
-   "2026-11-12T01:57:47.903731+00:00"
-  ],
-  "hn:50454995": [
-   179,
-   "2026-11-12T01:57:47.903731+00:00"
-  ],
   "hn:50454823": [
    105,
    "2026-11-12T01:57:47.903731+00:00"
@@ -9621,6 +9448,62 @@
   "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3n37tqvhupkpt": [
    149,
    "2026-11-27T00:43:07.654838+00:00"
+  ],
+  "hn:50666436": [
+   341,
+   "2026-11-27T15:26:12.843539+00:00"
+  ],
+  "hn:50666375": [
+   211,
+   "2026-11-27T15:26:12.843539+00:00"
+  ],
+  "hn:50666279": [
+   184,
+   "2026-11-27T15:26:12.843539+00:00"
+  ],
+  "hn:50665968": [
+   269,
+   "2026-11-27T15:26:12.843539+00:00"
+  ],
+  "hn:50665920": [
+   198,
+   "2026-11-27T15:26:12.843539+00:00"
+  ],
+  "hn:50665488": [
+   199,
+   "2026-11-27T15:26:12.843539+00:00"
+  ],
+  "hn:50664325": [
+   394,
+   "2026-11-27T15:26:12.843539+00:00"
+  ],
+  "hn:50664191": [
+   417,
+   "2026-11-27T15:26:12.843539+00:00"
+  ],
+  "hn:50663595": [
+   928,
+   "2026-11-27T15:26:12.843539+00:00"
+  ],
+  "hn:50663261": [
+   368,
+   "2026-11-27T15:26:12.843539+00:00"
+  ],
+  "hn:50663089": [
+   641,
+   "2026-11-27T15:26:12.843539+00:00"
+  ],
+  "hn:50662933": [
+   262,
+   "2026-11-27T15:26:12.843539+00:00"
+  ],
+  "lobsters:fin7at": [
+   37,
+   "2026-11-27T15:26:12.843539+00:00"
+  ],
+  "at://did:plc:aeug3w4mdhnc2wv73hmrh36v/app.bsky.feed.post/3n3cct4n7mk2i": [
+   131,
+   "2026-11-27T15:26:12.843539+00:00"
   ]
  }
 }
