@@ -1448,18 +1448,35 @@
   "https://9to5mac.com/?p=1083884",
   "https://9to5mac.com/?p=1083147",
   "https://9to5mac.com/?p=1083792",
-  "https://9to5mac.com/?p=1083795"
+  "https://9to5mac.com/?p=1083795",
+  "6afdcbfe9ae6df6360e828bc",
+  "https://www.theverge.com/?p=1042700",
+  "https://www.theverge.com/1043935/here-are-the-apple-deals-actually-worth-picking-up-ahead-of-black-friday",
+  "https://www.theverge.com/?p=1044487",
+  "691f3de53b476d6c7a5ff4dc",
+  "691cb8e0f1455f4577555698",
+  "692b17fc2d4876508e37abcd",
+  "691e4c67d689d6dc432d4b28",
+  "FrBmTC9exFqw23cZVLaTyF",
+  "KE4rBoEMQo5BnepKassQcE",
+  "kFNm27p2v6EnRBpcRp2vDY",
+  "fWEJ4HBTrR6Ng2Qebwbtbj",
+  "https://www.neowin.net/deals/best-ugreen-qnap-synology-black-friday-nas-deals-are-all-here/",
+  "https://9to5toys.com/2026/11/27/we-buying-amazon-black-friday-deals/",
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n3ervmh56327",
+  "https://habr.com/ru/articles/1113558/",
+  "hn:50676390"
  ],
  "posted": {
   "viral": 247,
-  "editorial": 245
+  "editorial": 246
  },
  "recent_labels": [
-  "SecurityWeek",
   "Tom's Hardware",
   "Hacker News",
   "Hacker News",
-  "The Next Web"
+  "The Next Web",
+  "Habr"
  ],
  "last_digest": "2026-11-27",
  "history": [
@@ -1567,31 +1584,16 @@
    "source": "The Next Web",
    "score": 1.35905,
    "at": "2026-11-27T15:26:37.144074+00:00"
+  },
+  {
+   "title": "تجربه‌ی کاربری از ابزار برنامه‌نویسی Antigravity و مدل Gemini 4 Neon",
+   "url": "https://habr.com/ru/articles/1113558/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1113558",
+   "source": "Habr",
+   "score": 0.91758,
+   "at": "2026-11-28T14:25:45.613124+00:00"
   }
  ],
  "stories": [
-  {
-   "sig": [
-    "alleging",
-    "anthropic",
-    "blatant",
-    "brazen",
-    "campaign",
-    "chappell",
-    "copyright",
-    "intellectual",
-    "law",
-    "music",
-    "property",
-    "sony",
-    "sue",
-    "suing",
-    "theft",
-    "violation",
-    "warner"
-   ],
-   "at": "2026-08-29T19:52:53.756075+00:00"
-  },
   {
    "sig": [
     "age",
@@ -7140,33 +7142,20 @@
     "reuters"
    ],
    "at": "2026-11-27T15:26:37.144074+00:00"
+  },
+  {
+   "sig": [
+    "antigravity",
+    "benchmarking",
+    "claude",
+    "code",
+    "preliminary",
+    "sabotage"
+   ],
+   "at": "2026-11-28T14:25:45.613124+00:00"
   }
  ],
  "snapshots": {
-  "hn:50469994": [
-   501,
-   "2026-11-12T21:31:35.237592+00:00"
-  ],
-  "hn:50469007": [
-   164,
-   "2026-11-12T21:31:35.237592+00:00"
-  ],
-  "hn:50468944": [
-   133,
-   "2026-11-12T21:31:35.237592+00:00"
-  ],
-  "hn:50468888": [
-   363,
-   "2026-11-12T21:31:35.237592+00:00"
-  ],
-  "hn:50468720": [
-   112,
-   "2026-11-12T21:31:35.237592+00:00"
-  ],
-  "hn:50467869": [
-   175,
-   "2026-11-12T21:31:35.237592+00:00"
-  ],
   "hn:50467763": [
    115,
    "2026-11-12T21:31:35.237592+00:00"
@@ -9542,6 +9531,30 @@
   "at://did:plc:e5nncb3dr5thdkjir5cfaqfe/app.bsky.feed.post/3n3d6dca33s23": [
    18,
    "2026-11-27T23:38:15.488255+00:00"
+  ],
+  "hn:50676723": [
+   139,
+   "2026-11-28T14:25:25.233530+00:00"
+  ],
+  "hn:50676390": [
+   273,
+   "2026-11-28T14:25:25.233530+00:00"
+  ],
+  "hn:50674452": [
+   480,
+   "2026-11-28T14:25:25.233530+00:00"
+  ],
+  "hn:50674218": [
+   685,
+   "2026-11-28T14:25:25.233530+00:00"
+  ],
+  "lobsters:8djplv": [
+   33,
+   "2026-11-28T14:25:25.233530+00:00"
+  ],
+  "at://did:plc:vcepp6trx4vpe5ourxso4tjl/app.bsky.feed.post/3n3ervmh56327": [
+   176,
+   "2026-11-28T14:25:25.233530+00:00"
   ]
  }
 }
